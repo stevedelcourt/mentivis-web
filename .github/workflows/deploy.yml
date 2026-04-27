@@ -56,7 +56,9 @@ jobs:
         run: npm run build
 
       - name: Copy index.html
-        run: cp out/fr.html out/index.html
+        run: |
+          cp out/fr.html out/index.html
+          cp out/en.html out/en/index.html 2>/dev/null || true
 
       - name: Upload to FTP
         run: python3 scripts/ftp_sync.py

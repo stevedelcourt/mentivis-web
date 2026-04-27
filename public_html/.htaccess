@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect clean URLs to .html files
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # Handle Next.js static files - don't rewrite _next paths
+  RewriteCond %{REQUEST_URI} !^/_next
+  RewriteCond %{REQUEST_URI} !^/favicon
+  RewriteCond %{REQUEST_URI} !^/apple-touch-icon
+  RewriteCond %{REQUEST_URI} !^/android-chrome
+  RewriteCond %{REQUEST_URI} !^/logo-noir
+  RewriteCond %{REQUEST_URI} !^/file\.
+  RewriteCond %{REQUEST_URI} !^/window\.
+  RewriteCond %{REQUEST_URI} !^/globe\.
+  RewriteCond %{REQUEST_URI} !^/next\.svg
+  RewriteCond %{REQUEST_URI} !^/vercel\.svg
+  RewriteCond %{REQUEST_URI} !^/site\.webmanifest
+</IfModule>
+
+# Disable directory listing
+Options -Indexes
+
+# Set default charset
+AddDefaultCharset UTF-8

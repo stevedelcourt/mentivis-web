@@ -22,64 +22,64 @@ def is_allowed(f):
     return os.path.splitext(f)[1].lower() in ALLOWED_EXTS
 
 
-def file_hash(path):
-    with open(path, "rb") as f:
-        return hashlib.md5(f.read()).hexdigest()[:12]
-
-
 def connect():
     ftp = ftplib.FTP(REMOTE_HOST, REMOTE_USER, REMOTE_PASS)
     ftp.cwd(REMOTE_ROOT)
     return ftp
 
 
-def ensure_dirs(ftp, rel):
-    dirs = rel.rsplit("/", 1)[0] if "/" in rel else ""
-    if not dirs:
-        return
-    for p in dirs.split("/"):
-        try:
-            ftp.cwd(p)
-        except Exception:
-            ftp.mkd(p)
-            ftp.cwd(p)
+def reset_to(ftp, target):
+    while ftp.pwd() != target:
+        ftp.cwd("..")
 
 
-manifest = {}
-for root, dirs, files in os.walk(LOCAL_ROOT):
-    for f in files:
-        if is_allowed(f):
-            full = os.path.join(root, f)
-            manifest[os.path.relpath(full, LOCAL_ROOT)] = file_hash(full)
+def upload_tree(ftp, local_root):
+    count = 0
+    for root, dirs, files in os.walk(local_root):
+        for f in sorted(files):
+            if f.startswith("."):
+                continue
+            local_rel = os.path.relpath(os.path.join(root, f), local_root)
+            if local_rel.startswith("__next") or "/__next" in local_rel:
+                continue
 
-print(f"Local: {len(manifest)} files")
+            if not is_allowed(f):
+                continue
 
-ftp = connect()
+            store_name = f[:-5] if f.endswith(".html") else f
+            remote_rel = local_rel[:-5] if local_rel.endswith(".html") else local_rel
 
-remote_files = set()
-for rel in sorted(manifest.keys()):
-    try:
-        if ftp.size(rel) is not None:
-            remote_files.add(rel)
-    except Exception:
-        pass
-print(f"Remote: {len(remote_files)} files")
+            if "/" in remote_rel:
+                parts = remote_rel.rsplit("/", 1)
+                subdir = parts[0]
+                for p in subdir.split("/"):
+                    try:
+                        ftp.cwd(p)
+                    except Exception:
+                        try:
+                            ftp.mkd(p)
+                            ftp.cwd(p)
+                        except Exception:
+                            pass
+                try:
+                    with open(os.path.join(local_root, local_rel), "rb") as fh:
+                        ftp.storbinary(f"STOR {store_name}", fh)
+                    count += 1
+                except Exception as e:
+                    print(f"  ERROR {local_rel}: {e}")
+                reset_to(ftp, REMOTE_ROOT)
+            else:
+                try:
+                    with open(os.path.join(local_root, local_rel), "rb") as fh:
+                        ftp.storbinary(f"STOR {store_name}", fh)
+                    count += 1
+                except Exception as e:
+                    print(f"  ERROR {local_rel}: {e}")
+    return count
 
-to_delete = sorted(set(manifest.keys()) - set(manifest.keys()))
-for rel in to_delete:
-    try:
-        ftp.delete(rel)
-        print(f"  Deleted {rel}")
-    except Exception:
-        pass
 
-to_upload = {f for f in manifest}
-print(f"Uploading {len(to_upload)} files...")
-for rel in sorted(to_upload):
-    ensure_dirs(ftp, rel)
-    with open(os.path.join(LOCAL_ROOT, rel), "rb") as f:
-        ftp.storbinary(f"STOR {os.path.basename(rel)}", f)
-    print(f"  {rel}")
-
-ftp.quit()
-print("Done!")
+if __name__ == "__main__":
+    ftp = connect()
+    count = upload_tree(ftp, LOCAL_ROOT)
+    ftp.quit()
+    print(f"Done: {count} files uploaded")
