@@ -205,7 +205,7 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: "#", label: "Paris · France" },
               { href: "#", label: "LinkedIn ↗" },
             ]} />
-            <FooterCol title={t.footer.legal} links={t.footer.legalLinks.map((l) => ({ href: "#", label: l }))} />
+            <FooterCol title={t.footer.legal} links={t.footer.legalLinks.map((l) => l.toLowerCase() === 'cookies' ? { href: "#", label: l, onClick: () => { if (typeof window !== 'undefined' && (window as any).CookieConsent) { (window as any).CookieConsent.showPreferences(); } } } : { href: "#", label: l })} />
             <div>
               <h5 style={{
                 fontSize: 11,
