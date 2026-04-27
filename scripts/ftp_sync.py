@@ -9,7 +9,11 @@ REMOTE_PASS = os.environ.get("FTP_PASSWORD")
 REMOTE_ROOT = os.environ.get("FTP_ROOT", "public_html")
 LOCAL_ROOT = os.environ.get("LOCAL_ROOT", "out")
 
-ALLOWED_EXTS = {".html", ".js", ".css", ".json", ".png", ".jpg", ".svg", ".webp", ".txt", ".xml", ".gz", ".pdf", ".ico", ".woff2", ".woff", ".ttf", ".eot", ".webmanifest"}
+ALLOWED_EXTS = {
+    ".html", ".js", ".css", ".json", ".png", ".jpg", ".svg", ".webp",
+    ".txt", ".xml", ".gz", ".pdf", ".ico", ".woff2", ".woff", ".ttf",
+    ".eot", ".webmanifest",
+}
 
 
 def is_allowed(f):
@@ -49,7 +53,9 @@ for root, dirs, files in os.walk(LOCAL_ROOT):
             manifest[os.path.relpath(full, LOCAL_ROOT)] = file_hash(full)
 
 print(f"Local: {len(manifest)} files")
+
 ftp = connect()
+
 remote_files = set()
 for rel in sorted(manifest.keys()):
     try:
