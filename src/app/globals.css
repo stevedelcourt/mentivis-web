@@ -77,14 +77,7 @@ button { font-family: inherit; cursor: pointer; }
   font-weight: 600;
   color: var(--m-ink-3);
 }
-.t-eyebrow .dot {
-  display: inline-block;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--m-purple);
-  margin-right: 10px;
-  transform: translateY(-1px);
-}
+
 .t-lead {
   font-family: var(--f-sans);
   font-size: 18px;

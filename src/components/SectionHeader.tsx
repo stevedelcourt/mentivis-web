@@ -11,7 +11,7 @@ export default function SectionHeader({ eyebrow, title, lead, align = "left", ki
     <div style={{ textAlign: align, maxWidth: align === "center" ? 760 : 880, margin: align === "center" ? "0 auto" : "0" }}>
       {eyebrow && (
         <div className="t-eyebrow" style={{ marginBottom: 18 }}>
-          <span className="dot" />{eyebrow}
+          {eyebrow}
         </div>
       )}
       {kicker && <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 18, marginBottom: 8 }}>{kicker}</div>}

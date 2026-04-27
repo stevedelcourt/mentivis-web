@@ -50,7 +50,7 @@ export default function OfPage() {
         <div className="container">
           <div style={{ maxWidth: 800 }}>
             <div className="t-eyebrow" style={{ marginBottom: 24, color: "rgba(255,255,255,0.6)" }}>
-              <span className="dot" style={{ background: "white" }} />05 — {lang === "fr" ? "Externalisation" : "Outsourcing"}
+              05 — {lang === "fr" ? "Externalisation" : "Outsourcing"}
             </div>
             <h2 className="t-display" style={{ fontSize: "clamp(36px, 5vw, 60px)", margin: 0, color: "white" }}>{o.externalisedTitle}</h2>
             <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 19, marginTop: 22, maxWidth: 720, lineHeight: 1.55 }}>{o.externalisedLead}</p>

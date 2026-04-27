@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Logo from "./Logo";
+import Image from "next/image";
 
 type FooterMessages = {
   nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; };
@@ -27,7 +27,7 @@ type FooterProps = {
   lang: string;
 };
 
-function FooterCol({ title, links }: { title: string; links: { href: string; label: string }[] }) {
+function FooterCol({ title, links }: { title: string; links: { href: string; label: string; onClick?: () => void }[] }) {
   return (
     <div>
       <h5 style={{
@@ -41,12 +41,29 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
         {links.map((l, i) => (
           <li key={i} style={{ marginBottom: 9 }}>
-            <a href={l.href} style={{ color: "var(--m-ink-2)", fontSize: 13.5, transition: "color 0.18s" }}>
+            <a href={l.href} onClick={l.onClick} style={{ color: "var(--m-ink-2)", fontSize: 13.5, transition: "color 0.18s", cursor: l.onClick ? "pointer" : "default" }}>
               {l.label}
             </a>
           </li>
         ))}
       </ul>
+    </div>
+  );
+}
+
+function SocialIcons() {
+  return (
+    <div style={{ display: "flex", gap: 16, marginTop: 16 }}>
+      <a href="https://www.linkedin.com/company/mentivis/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--m-ink-3)">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+      </a>
+      <a href="https://x.com/mentivisconseil" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--m-ink-3)">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
     </div>
   );
 }
@@ -101,10 +118,21 @@ export default function Footer({ t, lang }: FooterProps) {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
+  const openCookies = () => {
+    if (typeof window !== 'undefined' && (window as any).CookieConsent) {
+      (window as any).CookieConsent.showPreferences();
+    }
+  };
+
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
     setSubscribed(true);
+  };
+
+  const getLegalLink = (label: string) => {
+    const slug = label.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '-');
+    return `/${lang}/legal#${slug}`;
   };
 
   return (
@@ -181,7 +209,9 @@ export default function Footer({ t, lang }: FooterProps) {
             borderBottom: "1px solid var(--m-line-2)",
           }} className="m-footer-cols">
             <div>
-              <Logo size={22} />
+              <Link href="/">
+                <Image src="/logo-noir.svg" alt="Mentivis" width={120} height={28} />
+              </Link>
               <p style={{
                 color: "var(--m-ink-3)",
                 fontSize: 13.5,
@@ -191,6 +221,7 @@ export default function Footer({ t, lang }: FooterProps) {
               }}>
                 {t.footer.tagline}
               </p>
+              <SocialIcons />
             </div>
             <FooterCol title={t.footer.navigation} links={[
               { href: `/${lang}/`, label: t.nav.home },
@@ -203,9 +234,11 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: "mailto:contact@mentivis.com", label: "contact@mentivis.com" },
               { href: "tel:+33189481002", label: "+33 1 89 48 10 02" },
               { href: "#", label: "Paris · France" },
-              { href: "#", label: "LinkedIn ↗" },
             ]} />
-            <FooterCol title={t.footer.legal} links={t.footer.legalLinks.map((l) => l.toLowerCase() === 'cookies' ? { href: "#", label: l, onClick: () => { if (typeof window !== 'undefined' && (window as any).CookieConsent) { (window as any).CookieConsent.showPreferences(); } } } : { href: "#", label: l })} />
+            <FooterCol title={t.footer.legal} links={t.footer.legalLinks.map((l) => ({
+              href: getLegalLink(l),
+              label: l,
+            }))} />
             <div>
               <h5 style={{
                 fontSize: 11,
@@ -279,33 +312,16 @@ export default function Footer({ t, lang }: FooterProps) {
             gap: 12,
           }}>
             <div>{t.footer.copy}</div>
-            <div className="t-mono" style={{ color: "var(--m-ink-4)" }}>
-              v.1 · {lang.toUpperCase()}
+            <div style={{ display: "flex", gap: 12 }}>
+              <button onClick={openCookies} style={{ background: "none", border: "none", color: "var(--m-ink-4)", fontSize: 12.5, cursor: "pointer", padding: 0 }}>
+                Cookies
+              </button>
+              <span>·</span>
+              <div className="t-mono" style={{ color: "var(--m-ink-4)" }}>
+                v.1 · {lang.toUpperCase()}
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div style={{
-        textAlign: "center",
-        padding: "0 24px 24px",
-        position: "relative" as const,
-        zIndex: 1,
-      }}>
-        <div style={{
-          fontFamily: "var(--f-display)",
-          fontWeight: 700,
-          fontSize: "clamp(80px, 18vw, 260px)",
-          letterSpacing: "-0.04em",
-          lineHeight: 0.85,
-          color: "var(--m-ink)",
-          opacity: 0.92,
-          userSelect: "none" as const,
-          display: "inline-flex",
-          alignItems: "baseline",
-          gap: "0.04em",
-        }}>
-          mentivis<span style={{ color: "var(--m-purple)" }}>.</span>
         </div>
       </div>
     </footer>

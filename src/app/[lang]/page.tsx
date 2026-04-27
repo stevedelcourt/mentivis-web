@@ -61,7 +61,7 @@ export default function HomePage() {
         <div className="container" style={{ position: "relative" as const }}>
           <Reveal>
             <div className="t-eyebrow" style={{ marginBottom: 32 }}>
-              <span className="dot" />{h.eyebrow}
+              {h.eyebrow}
             </div>
           </Reveal>
           <Reveal delay={80}>
@@ -86,7 +86,7 @@ export default function HomePage() {
       <section style={{ padding: "80px 0 100px" }}>
         <div className="container">
           <div className="t-eyebrow" style={{ marginBottom: 24 }}>
-            <span className="dot" />{t.common.youAre}…
+            {t.common.youAre}…
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-dual-grid">
             <DualEntryCard data={h.entryEnterprise} href={`/${lang}/enterprise`} tone="dark" />
@@ -115,7 +115,7 @@ export default function HomePage() {
       <section style={{ padding: "120px 0" }}>
         <div className="container">
           <div className="t-eyebrow" style={{ marginBottom: 28, textAlign: "center" as const }}>
-            <span className="dot" />{h.promiseTitle}
+            {h.promiseTitle}
           </div>
           <blockquote style={{
             margin: 0,
@@ -141,7 +141,7 @@ export default function HomePage() {
       <section style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
         <div className="container">
           <div className="t-eyebrow" style={{ marginBottom: 28, color: "rgba(255,255,255,0.6)" }}>
-            <span className="dot" style={{ background: "white" }} />{h.proofTitle}
+            {h.proofTitle}
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 1, background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 16, overflow: "hidden", marginTop: 24 }} className="m-proof-grid">
             {h.proofs.map((p, i) => (

@@ -52,7 +52,7 @@ export default function ContactPage() {
         <div className="container">
           <Reveal>
             <div className="t-eyebrow" style={{ marginBottom: 28 }}>
-              <span className="dot" />{c.eyebrow}
+              {c.eyebrow}
             </div>
           </Reveal>
           <Reveal delay={80}>

@@ -24,7 +24,7 @@ export default function PageHero({ eyebrow, titleParts, lead, accentIndices = []
       <div className="container" style={{ position: "relative" as const }}>
         <Reveal>
           <div className="t-eyebrow" style={{ marginBottom: 28 }}>
-            <span className="dot" />{eyebrow}
+            {eyebrow}
           </div>
         </Reveal>
         <Reveal delay={80}>

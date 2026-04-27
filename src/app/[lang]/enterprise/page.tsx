@@ -62,7 +62,7 @@ export default function EnterprisePage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 64 }} className="m-grid-2">
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.6)" }}>
-                <span className="dot" style={{ background: "white" }} />{lang === "fr" ? "Résultats" : "Results"}
+                {lang === "fr" ? "Résultats" : "Results"}
               </div>
               <h3 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 48px)", color: "white", margin: 0 }}>{e.resultsTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>
@@ -73,7 +73,7 @@ export default function EnterprisePage() {
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 20, color: "#6b73d6" }}>
-                <span className="dot" style={{ background: "#6b73d6" }} />{lang === "fr" ? "Mentivis" : "Mentivis"}
+                {lang === "fr" ? "Mentivis" : "Mentivis"}
               </div>
               <h3 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 48px)", color: "white", margin: 0 }}>{e.whyTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>

@@ -1,20 +1,17 @@
-export default function Logo({ variant = "dark", size = 22 }: { variant?: "dark" | "light"; size?: number }) {
-  const fill = variant === "light" ? "#ffffff" : "var(--m-ink)";
+import Image from "next/image";
+import Link from "next/link";
+
+type LogoProps = {
+  variant?: "dark" | "light";
+  width?: number;
+  height?: number;
+};
+
+export default function Logo({ variant = "dark", width = 120, height = 28 }: LogoProps) {
+  const src = variant === "light" ? "/logo-white.svg" : "/logo-noir.svg";
   return (
-    <a href="/" className="m-logo" style={{ display: "inline-flex", alignItems: "center", gap: 9, color: fill }}>
-      <svg width="20" height="20" viewBox="0 0 22 22" aria-hidden="true">
-        <circle cx="11" cy="11" r="10.25" fill="none" stroke={fill} strokeWidth="1.1" />
-        <path d="M5 14 L8.5 6 L11 12 L13.5 6 L17 14" fill="none" stroke={fill} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-      <span style={{
-        fontFamily: "var(--f-display)",
-        fontSize: size,
-        fontWeight: 600,
-        letterSpacing: "-0.01em",
-        lineHeight: 1,
-      }}>
-        Mentivis
-      </span>
-    </a>
+    <Link href="/" className="m-logo" style={{ display: "inline-flex", alignItems: "center" }}>
+      <Image src={src} alt="Mentivis" width={width} height={height} priority />
+    </Link>
   );
 }

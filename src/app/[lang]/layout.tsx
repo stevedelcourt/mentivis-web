@@ -13,6 +13,10 @@ export function getMessages(lang: string): Messages {
   return AllMessages[lang as keyof typeof AllMessages] || AllMessages.fr;
 }
 
+export function generateStaticParams() {
+  return [{ lang: "fr" }, { lang: "en" }];
+}
+
 type LocaleLayoutProps = {
   children: ReactNode;
   params: Promise<{ lang: string }>;

@@ -19,8 +19,7 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
   const meta = isDark || isPurple ? "rgba(255,255,255,0.7)" : "var(--m-ink-3)";
 
   return (
-    <Link href={href} style={{
-      display: "block",
+    <div style={{
       background: bg,
       color: fg,
       padding: "44px 40px",
@@ -30,7 +29,14 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
       minHeight: 380,
       transition: "transform 0.25s ease",
     }}>
-      <div style={{ display: "flex", flexDirection: "column" as const, height: "100%", minHeight: 320, position: "relative" as const, zIndex: 1 }}>
+      <Link href={href} style={{
+        display: "block",
+        position: "absolute" as const,
+        inset: 0,
+        zIndex: 1,
+        borderRadius: 24,
+      }} aria-label={data.cta} />
+      <div style={{ display: "flex", flexDirection: "column" as const, height: "100%", minHeight: 320, position: "relative" as const, zIndex: 2 }}>
         <div style={{ fontFamily: "var(--f-display)", fontSize: 16, color: meta, letterSpacing: "0.01em" }}>{data.kicker}</div>
         <h3 style={{
           fontFamily: "var(--f-display)",
@@ -48,8 +54,10 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
             </li>
           ))}
         </ul>
-        <div style={{ marginTop: 28, fontSize: 14.5, fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 8 }}>
-          {data.cta} <span style={{ display: "inline-block", transition: "transform 0.2s" }}>→</span>
+        <div style={{ marginTop: 28, fontSize: 14.5, fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 8, position: "relative" as const, zIndex: 3 }}>
+          <Link href={href} style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 8 }}>
+            {data.cta} <span style={{ display: "inline-block", transition: "transform 0.2s" }}>→</span>
+          </Link>
         </div>
       </div>
       <div aria-hidden="true" style={{
@@ -60,6 +68,6 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
       }}>
         {isPurple ? "OF" : "E"}
       </div>
-    </Link>
+    </div>
   );
 }
