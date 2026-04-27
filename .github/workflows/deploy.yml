@@ -30,12 +30,11 @@ jobs:
           NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v25
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          working-directory: ./
+        run: |
+          npm i -g vercel@latest
+          npx vercel --yes --token=${{ secrets.VERCEL_TOKEN }} \
+            --org=${{ secrets.VERCEL_ORG_ID }} \
+            --project=${{ secrets.VERCEL_PROJECT_ID }}
 
   deploy-ftp:
     name: Deploy to FTP
@@ -59,9 +58,7 @@ jobs:
         run: cp out/fr.html out/index.html
 
       - name: Upload to FTP
-        run: |
-          pip3 install ftplib -q
-          python3 << 'PYEOF'
+        run: python3 << 'PYEOF'
           import os
           import ftplib
           import hashlib
