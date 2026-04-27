@@ -1,0 +1,127 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: "24"
+
+jobs:
+  deploy-vercel:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
+
+  deploy-ftp:
+    name: Deploy to FTP
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Copy index.html
+        run: cp out/fr.html out/index.html
+
+      - name: Upload to FTP
+        run: |
+          pip3 install ftplib -q
+          python3 << 'PYEOF'
+          import os
+          import ftplib
+          import hashlib
+          import json
+
+          REMOTE_HOST = '${{ secrets.FTP_HOST }}'
+          REMOTE_USER = '${{ secrets.FTP_USER }}'
+          REMOTE_PASS = '${{ secrets.FTP_PASSWORD }}'
+          REMOTE_ROOT = 'public_html'
+          LOCAL_ROOT = 'out'
+          ALLOWED_EXTS = {'.html', '.js', '.css', '.json', '.png', '.jpg', '.svg', '.webp', '.txt', '.xml', '.gz', '.pdf', '.ico', '.woff2', '.woff', '.ttf', '.eot', '.webmanifest'}
+
+          def is_allowed(f):
+              if f in ('.htaccess',): return True
+              return os.path.splitext(f)[1].lower() in ALLOWED_EXTS
+
+          def file_hash(path):
+              with open(path, 'rb') as f:
+                  return hashlib.md5(f.read()).hexdigest()[:12]
+
+          def connect():
+              ftp = ftplib.FTP(REMOTE_HOST, REMOTE_USER, REMOTE_PASS)
+              ftp.cwd(REMOTE_ROOT)
+              return ftp
+
+          def ensure_dirs(ftp, rel):
+              dirs = rel.rsplit('/', 1)[0] if '/' in rel else ''
+              if not dirs: return
+              for p in dirs.split('/'):
+                  try: ftp.cwd(p)
+                  except: ftp.mkd(p); ftp.cwd(p)
+
+          manifest = {}
+          for root, dirs, files in os.walk(LOCAL_ROOT):
+              for f in files:
+                  if is_allowed(f):
+                      full = os.path.join(root, f)
+                      manifest[os.path.relpath(full, LOCAL_ROOT)] = file_hash(full)
+
+          print(f'Local: {len(manifest)} files')
+          ftp = connect()
+          remote_files = set()
+          for rel in sorted(manifest.keys()):
+              try:
+                  if ftp.size(rel) is not None: remote_files.add(rel)
+              except: pass
+          print(f'Remote: {len(remote_files)} files')
+
+          to_delete = sorted(set())
+          for rel in sorted(set() - set(manifest.keys())):
+              try: ftp.delete(rel); print(f'  Deleted {rel}')
+              except: pass
+
+          to_upload = {f for f in manifest}
+          print(f'Uploading {len(to_upload)} files...')
+          for rel in sorted(to_upload):
+              ensure_dirs(ftp, rel)
+              with open(os.path.join(LOCAL_ROOT, rel), 'rb') as f:
+                  ftp.storbinary(f'STOR {os.path.basename(rel)}', f)
+              print(f'  {rel}')
+          ftp.quit()
+          print('Done!')
+          PYEOF
