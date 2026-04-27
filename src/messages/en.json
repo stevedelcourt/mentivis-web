@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "enterprise": "Enterprises",
+    "of": "Training organizations",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "contact": "Contact",
+    "cta": "Talk to Mentivis"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getStarted": "Let's talk",
+    "readMore": "Read more",
+    "letsTalk": "Let's talk",
+    "backTo": "Back",
+    "youAre": "You are",
+    "enterprise": "an enterprise",
+    "of": "a training organization"
+  },
+  "home": {
+    "eyebrow": "Operator in training & skills development",
+    "heroTitle": ["Designing, structuring and deploying", "training programs", "that ", "actually work", "."],
+    "heroLead": "Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.",
+    "entryEnterprise": {
+      "kicker": "01 — You are an enterprise",
+      "title": "Turn training into a performance lever",
+      "items": ["Maturity audit", "Internal academy creation", "Training policy & structure"],
+      "cta": "Explore enterprise solutions"
+    },
+    "entryOf": {
+      "kicker": "02 — You are a training organization",
+      "title": "Structure, secure and grow your activity",
+      "items": ["Pedagogy & compliance", "Strategy & positioning", "Outsourced services"],
+      "cta": "Explore TO solutions"
+    },
+    "diffTitle": "What sets us apart",
+    "diffLead": "Four structural principles — not a marketing pitch.",
+    "differentiation": [
+      { "n": "01", "title": "Training & education specialists", "body": "We are not consulting generalists. All of our expertise is concentrated on a single field: training and skills development." },
+      { "n": "02", "title": "Full-stack approach", "body": "From strategy to operational execution. We don't deliver recommendations without implementing them." },
+      { "n": "03", "title": "Compensation tied to your results", "body": "A variable share linked to measured performance. We perform when you perform — that's what structurally distinguishes us from a consulting firm." },
+      { "n": "04", "title": "Real intervention on the ground", "body": "No deliverables without follow-through. Our work is measured by actual deployment, not by slide decks." }
+    ],
+    "promiseTitle": "Our promise",
+    "promiseBody": "Our model is based on variable compensation aligned with results. We have no interest in delivering a recommendation you can't apply.",
+    "promiseSig": "— That's what structurally sets us apart from a consulting firm.",
+    "proofTitle": "What our missions produce",
+    "proofs": [
+      { "value": "6", "unit": "wks", "label": "to structure a complete TO" },
+      { "value": "100", "unit": "%", "label": "Qualiopi audit pass rate" },
+      { "value": "×2", "unit": "", "label": "internal academy engagement" },
+      { "value": "−30", "unit": "%", "label": "external training spend" }
+    ],
+    "proofNote": "Representative indicators — every mission is calibrated and measured against its own KPIs.",
+    "finalCtaTitle": "A training project to structure?",
+    "finalCtaLead": "First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": ["A specialized operator.", "Not a consulting firm."],
+    "lead": "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
+    "missionTitle": "Identity & mission",
+    "mission": [
+      "Specialized operator in training and skills development",
+      "End-to-end intervention: strategy, design, deployment, steering",
+      "Compensation aligned with results — not deliverables"
+    ],
+    "expertiseTitle": "Our expertise",
+    "expertiseLead": "Four pillars covering the full training spectrum, from strategy to operational execution.",
+    "expertise": [
+      { "n": "01", "title": "Strategy", "body": "Positioning, maturity audit, program development, go-to-market." },
+      { "n": "02", "title": "Operations", "body": "Acquisition, apprenticeship, communication, instructional design." },
+      { "n": "03", "title": "End-to-end creation", "body": "Legal, pedagogical and operational structuring of any training entity." },
+      { "n": "04", "title": "Solution development", "body": "Custom tools, AI solutions, dedicated platforms." }
+    ],
+    "whyTitle": "Why work with us?",
+    "whyLead": "Not a service catalogue — a results promise.",
+    "why": [
+      { "title": "360° view", "body": "We understand your ecosystem as a whole before acting." },
+      { "title": "Advice AND execution", "body": "We don't deliver recommendations without implementing them." },
+      { "title": "Effective actions", "body": "Rigorous prioritization, controlled timelines, real operational execution." },
+      { "title": "KPI-driven steering", "body": "Every mission is measured. Our compensation depends on it." }
+    ],
+    "costTitle": "What does it cost?",
+    "costLead": "A transparent pricing approach designed to remove the client's risk and align both parties' interests.",
+    "cost": [
+      { "title": "Results-aligned fees", "body": "A variable share tied to measured performance." },
+      { "title": "Targeted & efficient", "body": "We intervene where impact is maximal — not everywhere at once." },
+      { "title": "Documented ROI", "body": "Every mission produces tangible performance KPIs." },
+      { "title": "Offers tailored to you", "body": "Small, mid-size or large company — we calibrate the intervention." }
+    ]
+  },
+  "of": {
+    "eyebrow": "You are a training organization",
+    "heroTitle": ["Build a ", "solid", " and compliant", " training organization."],
+    "heroLead": "Creation, compliance, growth — Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
+    "pillarsTitle": "Our intervention pillars",
+    "pillarsLead": "A clearer, more actionable services architecture.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Strategy",
+        "body": "Position your TO on the market, structure its growth and secure its financing.",
+        "items": [
+          "Positioning audit and competitive analysis",
+          "Program development and new offer launches",
+          "Financing engineering (CPF, OPCO, Region, FSE)",
+          "Go-to-market and commercial strategy",
+          "Marketing and communication of the training offer"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Operations",
+        "body": "Take over key functions to free your pedagogical teams and accelerate growth.",
+        "items": [
+          "Acquisition: lead generation, conversion funnels, prescribers",
+          "Apprenticeship: administrative management, employer relations, OPCO",
+          "Communication: brand positioning, content, digital visibility",
+          "Instructional content: e-learning modules, materials, assessments"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "Administrative",
+        "body": "Secure regulatory compliance and lighten the administrative load.",
+        "items": [
+          "Activity declaration and initial compliance setup",
+          "Qualiopi preparation and follow-up: mock audit, action plan, audit presence",
+          "Pedagogical and Financial Report (BPF): collection, entry, filing",
+          "Learner files management and continuous compliance"
+        ]
+      },
+      {
+        "n": "04",
+        "title": "End-to-end creation",
+        "body": "Design and launch a complete training entity, turnkey, from zero.",
+        "items": [
+          "Pedagogical project and economic model definition",
+          "Legal and administrative structuring (declaration, certifications)",
+          "Operational processes and management tools setup",
+          "Initial commercial deployment and activity launch"
+        ]
+      }
+    ],
+    "externalisedTitle": "Outsourced services",
+    "externalisedLead": "Take over key functions to free the pedagogical team. This offer is distinct from advisory and structuring: Mentivis runs it, the TO focuses on its core business.",
+    "externalised": [
+      { "title": "Acquisition", "body": "Lead generation, funnels, conversion." },
+      { "title": "Apprenticeship", "body": "Administrative management, employer relations." },
+      { "title": "Marketing & Communication", "body": "Positioning, content, visibility." },
+      { "title": "Administrative", "body": "File management, ongoing compliance." },
+      { "title": "BPF & Qualiopi", "body": "Preparation, follow-up, audit presence." },
+      { "title": "Custom", "body": "Any other function on demand." }
+    ],
+    "paymentTitle": "Compensation model",
+    "paymentBody": "Variable compensation aligned with the results obtained. Guaranteed alignment of interests: we perform when you perform. That's what structurally differentiates this model from a classic engagement.",
+    "resultsTitle": "What organizations get",
+    "results": [
+      "Secured, lasting compliance",
+      "Structured pedagogical offer, credible on the market",
+      "Stable acquisition and apprenticeship growth",
+      "Robust organization, less dependent on improvisation"
+    ],
+    "finalCta": "An organization to structure, secure or grow?"
+  },
+  "enterprise": {
+    "eyebrow": "You are an enterprise",
+    "heroTitle": ["Turn training into a", "performance lever", " that lasts."],
+    "heroLead": "Internal academies, skills development, program structuring — Mentivis designs and deploys training solutions that are truly operational.",
+    "problemsTitle": "Enterprise training is often ineffective",
+    "problems": [
+      "Loosely structured programs, disconnected from business stakes",
+      "No steering of skills or results",
+      "Dependency on multiple vendors, no global view",
+      "Heavy investment, limited measurable impact"
+    ],
+    "pillarsTitle": "The four intervention axes",
+    "pillarsLead": "A clear offer aligned with what business directors actually need.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Strategy",
+        "body": "Build the training vision and the foundations to steer skills development long term.",
+        "items": [
+          "HR audit and training diagnosis: status, gaps, priorities",
+          "Feasibility studies: target model, resources, financial viability",
+          "Financing engineering (OPCO, skills development plan)",
+          "Definition of skills paths and career tracks"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Operations",
+        "body": "Move from strategy to execution: we design and deploy the concrete programs.",
+        "items": [
+          "Training creation: instructional design, content, assessments",
+          "Operational rollout: facilitation, team support, tooling",
+          "Declarations and regulatory compliance (Qualiopi if applicable, BPF)",
+          "Support for HR teams and managers in adoption"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "Administrative",
+        "body": "Handle administrative and regulatory complexity so your teams can focus on results.",
+        "items": [
+          "Training files management and OPCO relations",
+          "Regulatory compliance and legal obligations follow-up",
+          "Budget steering and training reporting"
+        ]
+      },
+      {
+        "n": "04",
+        "title": "Entity creation",
+        "body": "Build your internal or external training entity from scratch — TO, CFA, specialized school.",
+        "items": [
+          "Internal TO: structure an academy or corporate school",
+          "External TO: create an independent training organization",
+          "CFA: file preparation, accreditation, apprenticeship rollout",
+          "Specialized school: positioning, certification, commercial launch"
+        ]
+      }
+    ],
+    "resultsTitle": "What enterprises get",
+    "results": [
+      "Programs that are actually used, measurable and lasting",
+      "Training aligned with business stakes and HR objectives",
+      "Reduced wasteful spend, better use of financing",
+      "Progressive independence from external vendors"
+    ],
+    "whyTitle": "Why Mentivis",
+    "why": [
+      "Training and education specialists, not generalists",
+      "We deploy — we don't just deliver recommendations",
+      "Our compensation is aligned with your results",
+      "End-to-end or stage-by-stage, depending on your needs"
+    ],
+    "finalCta": "A training project to structure or transform?"
+  },
+  "solutions": {
+    "eyebrow": "Mentivis Solutions",
+    "heroTitle": ["Tools designed to ", "transform", " your training practices."],
+    "heroLead": "Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Custom tool design",
+        "body": "No generic tools — everything is built for your operational reality.",
+        "items": [
+          "Needs analysis and functional specification",
+          "UX design and user journey prototyping",
+          "Steering tools, dashboards, reporting systems"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Specific tool development",
+        "body": "From prototype to production. Robust solutions, integrated with your existing ecosystem.",
+        "items": [
+          "LMS platforms or pedagogical management tools",
+          "Integration with your HR systems (SIRH, ATS, business tools)",
+          "Interactive e-learning modules and custom digital paths"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "AI tools",
+        "body": "AI applied to training: recommendation, automation, predictive analysis.",
+        "items": [
+          "Personalized content and path recommendation engines",
+          "Automation of administrative processes",
+          "Predictive skills analysis and needs detection",
+          "Chatbots and intelligent pedagogical assistants"
+        ]
+      }
+    ],
+    "finalCta": "A tool or AI solution project?"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": ["You have a project.", "We have the answers.", "Let's talk."],
+    "lead": "A page without friction. No long form, no marketing promise — just an invitation to a conversation.",
+    "labels": {
+      "name": "Full name",
+      "you": "You are",
+      "email": "Professional email",
+      "phone": "Phone (optional)",
+      "project": "Your project in a few words",
+      "submit": "Send"
+    },
+    "youOptions": ["Enterprise", "Training organization", "Other"],
+    "success": "Thank you. We'll reply within 24h.",
+    "direct": {
+      "title": "Or write to us directly",
+      "email": "contact@mentivis.com",
+      "phone": "+33 1 89 48 10 02",
+      "loc": "Paris · France"
+    }
+  },
+  "footer": {
+    "tagline": "Designing, structuring and deploying training programs that work.",
+    "newsletterTitle": "The Mentivis letter",
+    "newsletterBody": "Every two months — analyses, mission feedback, perspectives on training. No spam.",
+    "newsletterPlaceholder": "your@email.com",
+    "newsletterCta": "Subscribe",
+    "newsletterSuccess": "Thank you. See you soon.",
+    "navigation": "Navigation",
+    "offer": "Offer",
+    "legal": "Legal",
+    "contact": "Contact",
+    "legalLinks": ["Legal notice", "Privacy", "Terms", "Cookies"],
+    "copy": "© 2026 Mentivis. Operator in training and skills development."
+  }
+}

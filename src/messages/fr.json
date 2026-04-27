@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui sommes-nous",
+    "enterprise": "Entreprises",
+    "of": "Organismes de formation",
+    "solutions": "Solutions",
+    "resources": "Ressources",
+    "contact": "Contact",
+    "cta": "Échanger avec Mentivis"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "getStarted": "Discutons-en",
+    "readMore": "Lire la suite",
+    "letsTalk": "Parlons-en",
+    "backTo": "Retour",
+    "youAre": "Vous êtes",
+    "enterprise": "une entreprise",
+    "of": "un organisme de formation"
+  },
+  "home": {
+    "eyebrow": "Opérateur en formation & développement des compétences",
+    "heroTitle": ["Concevoir, structurer et déployer", "des dispositifs de formation", "qui ", "fonctionnent réellement", "."],
+    "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
+    "entryEnterprise": {
+      "kicker": "01 — Vous êtes une entreprise",
+      "title": "Transformer la formation en levier de performance",
+      "items": ["Audit de maturité", "Création d'académie interne", "Politique et structure de formation"],
+      "cta": "Découvrir les solutions entreprises"
+    },
+    "entryOf": {
+      "kicker": "02 — Vous êtes un organisme de formation",
+      "title": "Structurer, sécuriser et développer votre activité",
+      "items": ["Pédagogie & conformité", "Stratégie & positionnement", "Services externalisés"],
+      "cta": "Découvrir les solutions OF"
+    },
+    "diffTitle": "Ce qui nous distingue",
+    "diffLead": "Quatre principes structurels — pas un argumentaire marketing.",
+    "differentiation": [
+      { "n": "01", "title": "Spécialistes formation et éducation", "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences." },
+      { "n": "02", "title": "Approche full-stack", "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre." },
+      { "n": "03", "title": "Rémunération alignée sur vos résultats", "body": "Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil." },
+      { "n": "04", "title": "Intervention réelle sur le terrain", "body": "Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint." }
+    ],
+    "promiseTitle": "Notre promesse",
+    "promiseBody": "Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.",
+    "promiseSig": "— C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
+    "proofTitle": "Ce que nos missions produisent",
+    "proofs": [
+      { "value": "6", "unit": "sem.", "label": "structuration OF complète" },
+      { "value": "100", "unit": "%", "label": "audit Qualiopi validé" },
+      { "value": "×2", "unit": "", "label": "engagement académie interne" },
+      { "value": "−30", "unit": "%", "label": "recours formations externes" }
+    ],
+    "proofNote": "Indicateurs représentatifs — chaque mission est calibrée et mesurée selon ses propres KPI.",
+    "finalCtaTitle": "Un projet de formation à structurer ?",
+    "finalCtaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs."
+  },
+  "about": {
+    "eyebrow": "Qui sommes-nous",
+    "title": ["Un opérateur spécialisé.", "Pas un cabinet de conseil."],
+    "lead": "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.",
+    "missionTitle": "Identité & mission",
+    "mission": [
+      "Opérateur spécialisé en formation et développement des compétences",
+      "Intervention de bout en bout : stratégie, conception, déploiement, pilotage",
+      "Rémunération alignée sur les résultats — pas sur les livrables"
+    ],
+    "expertiseTitle": "Nos expertises",
+    "expertiseLead": "Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.",
+    "expertise": [
+      { "n": "01", "title": "Stratégie", "body": "Positionnement, audit de maturité, développement de filières, go-to-market." },
+      { "n": "02", "title": "Opérationnel", "body": "Acquisition, alternance, communication, création de contenus pédagogiques." },
+      { "n": "03", "title": "Création de A à Z", "body": "Structuration juridique, pédagogique et opérationnelle de toute structure formation." },
+      { "n": "04", "title": "Développement de solutions", "body": "Outils sur mesure, solutions IA, plateformes spécifiques." }
+    ],
+    "whyTitle": "Pourquoi faire appel à nous ?",
+    "whyLead": "Pas un catalogue de services — une promesse de résultat.",
+    "why": [
+      { "title": "Vue 360°", "body": "Nous comprenons votre écosystème dans sa globalité avant d'agir." },
+      { "title": "Conseil ET réalisation", "body": "Nous ne livrons pas de recommandations sans les mettre en œuvre." },
+      { "title": "Actions efficaces", "body": "Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle." },
+      { "title": "Pilotage par les KPIs", "body": "Chaque mission est mesurée. Notre rémunération en dépend." }
+    ],
+    "costTitle": "Combien ça coûte ?",
+    "costLead": "Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.",
+    "cost": [
+      { "title": "Fees alignés sur les résultats", "body": "Une part variable liée à la performance mesurée." },
+      { "title": "Ciblage et efficacité", "body": "Nous intervenons là où l'impact est maximal, pas partout à la fois." },
+      { "title": "ROI documenté", "body": "Chaque mission produit des KPIs de performance tangibles." },
+      { "title": "Offres adaptées", "body": "TPE, PME ou grand groupe — nous calibrons l'intervention." }
+    ]
+  },
+  "of": {
+    "eyebrow": "Vous êtes un organisme de formation",
+    "heroTitle": ["Structurer et développer un organisme", "de formation ", "solide", " et conforme."],
+    "heroLead": "Création, conformité, croissance — Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.",
+    "pillarsTitle": "Nos pôles d'intervention",
+    "pillarsLead": "Une architecture de services claire et actionnable pour les OF.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Stratégie",
+        "body": "Positionner votre OF sur son marché, structurer son développement et sécuriser ses financements.",
+        "items": [
+          "Audit de positionnement et analyse concurrentielle",
+          "Développement de filières et ouverture de nouvelles offres",
+          "Ingénierie de financements (CPF, OPCO, Région, FSE)",
+          "Go-to-market et stratégie commerciale",
+          "Marketing et communication de l'offre formation"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Opérationnel",
+        "body": "Prendre en charge les fonctions clés pour libérer vos équipes pédagogiques et accélérer votre développement.",
+        "items": [
+          "Acquisition : génération de leads, tunnels de conversion, partenariats prescripteurs",
+          "Alternance : gestion administrative, relations entreprises, OPCO",
+          "Communication : positionnement de marque, contenus, visibilité digitale",
+          "Création de contenus pédagogiques : modules e-learning, supports, évaluations"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "Administratif",
+        "body": "Sécuriser la conformité réglementaire et alléger la charge administrative.",
+        "items": [
+          "Déclaration d'activité et mise en conformité initiale",
+          "Préparation et suivi Qualiopi : audit blanc, plan d'action, présence en audit",
+          "Bilan Pédagogique et Financier (BPF) : collecte, saisie, dépôt",
+          "Gestion des dossiers apprenants et conformité continue"
+        ]
+      },
+      {
+        "n": "04",
+        "title": "Création de A à Z",
+        "body": "Concevoir et lancer une structure de formation complète, clé en main, en partant de zéro.",
+        "items": [
+          "Définition du projet pédagogique et du modèle économique",
+          "Structuration juridique et administrative (déclaration, certifications)",
+          "Mise en place des process opérationnels et outils de gestion",
+          "Premier déploiement commercial et lancement de l'activité"
+        ]
+      }
+    ],
+    "externalisedTitle": "Services externalisés",
+    "externalisedLead": "Prendre en charge des fonctions clés pour libérer l'équipe pédagogique. Cette offre est distincte du conseil et de la structuration : Mentivis gère, l'OF se concentre sur son cœur de métier.",
+    "externalised": [
+      { "title": "Acquisition", "body": "Génération de leads, tunnels, conversion." },
+      { "title": "Alternance", "body": "Gestion administrative, relations entreprises." },
+      { "title": "Marketing & Communication", "body": "Positionnement, contenus, visibilité." },
+      { "title": "Administratif", "body": "Gestion des dossiers, conformité continue." },
+      { "title": "BPF & Qualiopi", "body": "Préparation, suivi, présence audit." },
+      { "title": "Sur mesure", "body": "Toute autre fonction sur demande." }
+    ],
+    "paymentTitle": "Modèle de rémunération",
+    "paymentBody": "Rémunération variable alignée sur les résultats obtenus. Convergence d'intérêts garantie : nous performons quand vous performez. C'est ce qui différencie structurellement ce modèle d'une prestation classique.",
+    "resultsTitle": "Ce que les organismes obtiennent",
+    "results": [
+      "Conformité sécurisée et pérenne",
+      "Offre pédagogique structurée et crédible sur le marché",
+      "Croissance stable de l'acquisition et de l'alternance",
+      "Organisation robuste, moins dépendante de l'improvisation"
+    ],
+    "finalCta": "Un organisme à structurer, sécuriser ou développer ?"
+  },
+  "enterprise": {
+    "eyebrow": "Vous êtes une entreprise",
+    "heroTitle": ["Transformer la formation en", "levier de performance", " durable."],
+    "heroLead": "Académies internes, montée en compétences, structuration des dispositifs — Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
+    "problemsTitle": "La formation en entreprise reste souvent inefficace",
+    "problems": [
+      "Dispositifs peu structurés, déconnectés des enjeux métier",
+      "Absence de pilotage des compétences et des résultats",
+      "Dépendance à des prestataires multiples, sans vision globale",
+      "Investissements importants, impact mesurable limité"
+    ],
+    "pillarsTitle": "Les quatre axes d'intervention",
+    "pillarsLead": "Une structuration de l'offre lisible et alignée avec les besoins réels des directions.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Stratégie",
+        "body": "Construire la vision formation et les fondations qui permettent de piloter la montée en compétences à long terme.",
+        "items": [
+          "Audit RH et diagnostic formation : état des lieux, écarts, priorités",
+          "Études de faisabilité : modèle cible, ressources, viabilité financière",
+          "Ingénierie des financements (OPCO, plan de développement des compétences)",
+          "Définition des filières et parcours de montée en compétences"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Opérationnel",
+        "body": "Passer de la stratégie à l'exécution : nous concevons et déployons les dispositifs concrets.",
+        "items": [
+          "Création de formations : ingénierie pédagogique, contenus, évaluations",
+          "Déploiement opérationnel : animation, accompagnement des équipes, outillage",
+          "Déclarations et conformité réglementaire (Qualiopi si applicable, BPF)",
+          "Accompagnement des équipes RH et managers dans la prise en main"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "Administratif",
+        "body": "Gérer la complexité administrative et réglementaire pour que vos équipes se concentrent sur les résultats.",
+        "items": [
+          "Gestion des dossiers formation et relations OPCO",
+          "Mise en conformité réglementaire et suivi des obligations légales",
+          "Pilotage budgétaire et reporting formation"
+        ]
+      },
+      {
+        "n": "04",
+        "title": "Création de structure",
+        "body": "Créer de toutes pièces votre dispositif formation interne ou externe — OF, CFA, école spécialisée.",
+        "items": [
+          "OF interne : structuration d'une académie ou école d'entreprise",
+          "OF externe : création d'un organisme de formation indépendant",
+          "CFA : montage du dossier, habilitation, déploiement de l'alternance",
+          "École spécialisée : positionnement, certification, lancement commercial"
+        ]
+      }
+    ],
+    "resultsTitle": "Ce que les entreprises obtiennent",
+    "results": [
+      "Dispositifs réellement utilisés, mesurables et pérennes",
+      "Formation alignée avec les enjeux métier et les objectifs RH",
+      "Réduction des coûts inutiles et meilleure utilisation des financements",
+      "Indépendance progressive vis-à-vis des prestataires externes"
+    ],
+    "whyTitle": "Pourquoi Mentivis",
+    "why": [
+      "Spécialistes formation et éducation, pas généralistes",
+      "Nous déployons, nous ne livrons pas seulement des recommandations",
+      "Notre rémunération est alignée sur vos résultats",
+      "Intervention de bout en bout ou par étape selon vos besoins"
+    ],
+    "finalCta": "Un projet de formation à structurer ou transformer ?"
+  },
+  "solutions": {
+    "eyebrow": "Mentivis Solutions",
+    "heroTitle": ["Des outils conçus pour", "transformer", " vos pratiques formation."],
+    "heroLead": "Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation.",
+    "pillars": [
+      {
+        "n": "01",
+        "title": "Conception d'outils sur mesure",
+        "body": "Aucun outil générique — tout est pensé pour votre réalité opérationnelle.",
+        "items": [
+          "Analyse des besoins et cahier des charges fonctionnel",
+          "Conception UX et prototypage des parcours utilisateurs",
+          "Outils de pilotage, tableaux de bord, systèmes de reporting"
+        ]
+      },
+      {
+        "n": "02",
+        "title": "Développement d'outils spécifiques",
+        "body": "Du prototype à la mise en production. Solutions robustes, intégrées à votre écosystème existant.",
+        "items": [
+          "Plateformes LMS ou outils de gestion pédagogique",
+          "Intégration avec vos systèmes RH (SIRH, ATS, outils métier)",
+          "Modules e-learning interactifs et parcours digitaux sur mesure"
+        ]
+      },
+      {
+        "n": "03",
+        "title": "Mise en œuvre d'outils IA",
+        "body": "L'intelligence artificielle appliquée à la formation : recommandation, automatisation, analyse prédictive.",
+        "items": [
+          "Moteurs de recommandation de contenus et parcours personnalisés",
+          "Automatisation des processus administratifs",
+          "Analyse prédictive des compétences et détection des besoins",
+          "Chatbots et assistants pédagogiques intelligents"
+        ]
+      }
+    ],
+    "finalCta": "Un projet d'outil ou de solution IA ?"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": ["Vous avez un projet.", "Nous avons les réponses.", "Parlons-en."],
+    "lead": "Une page sans friction. Pas de long formulaire, pas de promesse marketing — juste une invitation à la conversation.",
+    "labels": {
+      "name": "Nom et prénom",
+      "you": "Vous êtes",
+      "email": "Email professionnel",
+      "phone": "Téléphone (optionnel)",
+      "project": "Votre projet en quelques mots",
+      "submit": "Envoyer"
+    },
+    "youOptions": ["Entreprise", "Organisme de formation", "Autre"],
+    "success": "Merci. Nous vous répondons sous 24h.",
+    "direct": {
+      "title": "Ou écrivez-nous directement",
+      "email": "contact@mentivis.com",
+      "phone": "+33 1 89 48 10 02",
+      "loc": "Paris · France"
+    }
+  },
+  "footer": {
+    "tagline": "Concevoir, structurer et déployer des dispositifs de formation qui fonctionnent.",
+    "newsletterTitle": "La lettre Mentivis",
+    "newsletterBody": "Tous les deux mois — analyses, retours de mission, regards sur la formation. Pas de spam.",
+    "newsletterPlaceholder": "votre@email.fr",
+    "newsletterCta": "S'abonner",
+    "newsletterSuccess": "Merci. À très bientôt.",
+    "navigation": "Navigation",
+    "offer": "Offre",
+    "legal": "Légal",
+    "contact": "Contact",
+    "legalLinks": ["Mentions légales", "Confidentialité", "CGU", "Cookies"],
+    "copy": "© 2026 Mentivis. Opérateur en formation et développement des compétences."
+  }
+}
