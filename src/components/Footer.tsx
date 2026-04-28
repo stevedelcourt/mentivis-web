@@ -8,9 +8,12 @@ type FooterMessages = {
   nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; };
   footer: {
     tagline: string;
+    ctaTitle: string;
+    ctaLead: string;
     navigation: string;
     copy: string;
   };
+  common: { learnMore: string; };
 };
 
 type FooterProps = {
@@ -95,6 +98,65 @@ function PageStats() {
 export default function Footer({ t, lang }: FooterProps) {
   return (
     <footer style={{ background: "var(--m-bg-soft)", marginTop: 80, position: "relative" as const, overflow: "hidden" }}>
+      <div style={{ position: "relative" as const, padding: "120px 0 60px", textAlign: "center" }}>
+        <div className="container" style={{ position: "relative" as const, zIndex: 2 }}>
+          <h2 className="t-display" style={{
+            fontSize: "clamp(32px, 4vw, 52px)",
+            margin: 0,
+            maxWidth: 780,
+            marginLeft: "auto",
+            marginRight: "auto",
+            lineHeight: 1.1,
+          }}>
+            {t.footer.ctaTitle}
+          </h2>
+          <p style={{
+            color: "var(--m-ink-3)",
+            fontSize: 17,
+            marginTop: 22,
+            maxWidth: 540,
+            marginLeft: "auto",
+            marginRight: "auto",
+            lineHeight: 1.5,
+          }}>
+            {t.footer.ctaLead}
+          </p>
+          <div style={{ marginTop: 32, display: "inline-flex", gap: 10 }}>
+            <Link href={`/${lang}/contact`} style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 22px",
+              fontSize: 14,
+              fontWeight: 600,
+              color: "white",
+              background: "var(--m-ink)",
+              borderRadius: 999,
+              textDecoration: "none",
+            }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+            <Link href={`/${lang}/about`} style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 22px",
+              fontSize: 14,
+              fontWeight: 600,
+              color: "var(--m-ink)",
+              background: "white",
+              border: "1.5px solid var(--m-line)",
+              borderRadius: 999,
+              textDecoration: "none",
+            }}>
+              {t.common.learnMore}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+
       <div style={{ position: "relative" as const, zIndex: 2, padding: "48px 24px 40px" }}>
         <div style={{
           maxWidth: 1280,

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useCallback, useMemo, useRef } from "react";
-import Image from "next/image";
 import { useMessages } from "@/lib/messages";
 import "./OpcoCalculator.css";
 
@@ -236,9 +235,6 @@ export default function OpcoCalculator() {
       {/* ==================== SCREEN 1: FORM ==================== */}
       <section className={`oc-screen ${screen === "form" ? "active" : ""}`}>
         <div className="oc-container">
-          <div style={{ marginBottom: 24, borderRadius: 16, overflow: "hidden", maxWidth: 560 }}>
-            <Image src="/score.webp" alt="OPCO" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
-          </div>
           <div className="oc-eyebrow">{s.eyebrow}</div>
           <h1 className="oc-hero-title">{s.title}</h1>
           <p className="oc-hero-sub">{s.sub}</p>
