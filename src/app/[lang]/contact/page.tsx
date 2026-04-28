@@ -51,7 +51,7 @@ export default function ContactPage() {
     if (!form.firstname || !form.lastname || !form.email || !form.project || !consent) return;
     if (honeypot) return; // spam bot
 
-    await hsSubmit(
+    const ok = await hsSubmit(
       {
         firstname: form.firstname,
         lastname: form.lastname,
@@ -65,7 +65,7 @@ export default function ContactPage() {
       }
     );
 
-    setSent(true);
+    if (ok) setSent(true);
   };
 
   return (

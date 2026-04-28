@@ -463,14 +463,14 @@ export default function ScoreCalculator() {
     e.preventDefault();
     if (!contactName.trim() || !contactEmail.trim() || !consent) return;
     if (honeypot) return;
-    await hsSubmit(
+    const ok = await hsSubmit(
       { firstname: contactName.trim(), email: contactEmail.trim() },
       {
         pageUri: typeof window !== "undefined" ? window.location.href : "https://www.mentivis.com/fr/score-formation",
         pageName: "Score Formation",
       }
     );
-    setContactSent(true);
+    if (ok) setContactSent(true);
   }, [contactName, contactEmail, consent, honeypot, hsSubmit]);
 
   const exportPDF = useCallback(async () => {

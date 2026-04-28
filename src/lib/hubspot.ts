@@ -39,8 +39,10 @@ export function useHubSpotSubmit() {
       }
 
       setSuccess(true);
+      return true;
     } catch (err: any) {
       setError(err?.message || "Submission failed");
+      return false;
     } finally {
       setLoading(false);
     }
