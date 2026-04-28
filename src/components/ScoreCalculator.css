@@ -79,6 +79,9 @@
   font-weight: 400;
 }
 .sc-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   background: var(--sc-navy);
   color: var(--sc-white);
   padding: 14px 28px;
@@ -93,11 +96,18 @@
   transform: translateY(-1px);
   box-shadow: 0 6px 18px rgba(0, 7, 118, 0.35);
 }
+.sc-btn-primary:hover .sc-btn-chevron {
+  transform: translateX(3px);
+}
 .sc-btn-primary:disabled {
   background: var(--sc-silver-blue);
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
+}
+.sc-btn-chevron {
+  font-size: 18px;
+  transition: transform 0.2s ease;
 }
 .sc-btn-outline {
   background: var(--sc-white);
@@ -1006,6 +1016,9 @@
 }
 .sc-cta-form input::placeholder { color: rgba(255, 255, 255, 0.4); }
 .sc-cta-form button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 14px 28px;
   background: var(--sc-navy);
   color: white;
@@ -1014,7 +1027,13 @@
   font-weight: 600;
   transition: all 0.2s;
 }
-.sc-cta-form button:hover { background: var(--sc-navy-deep); }
+.sc-cta-form button:hover {
+  background: var(--sc-navy-deep);
+  transform: translateY(-1px);
+}
+.sc-cta-form button:hover .sc-btn-chevron {
+  transform: translateX(3px);
+}
 .sc-cta-success {
   display: none;
   padding: 16px 20px;

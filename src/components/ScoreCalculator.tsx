@@ -459,8 +459,21 @@ export default function ScoreCalculator() {
   }, [contactName, contactEmail]);
 
   const exportPDF = useCallback(async () => {
-    if (!scores || !pdfRef.current) return;
+    if (!scores) return;
     const html2pdf = (await import("html2pdf.js")).default;
+
+    // Build PDF content on-the-fly in a temporary visible div
+    const tmp = document.createElement("div");
+    tmp.style.position = "fixed";
+    tmp.style.top = "0";
+    tmp.style.left = "0";
+    tmp.style.opacity = "0";
+    tmp.style.pointerEvents = "none";
+    tmp.style.zIndex = "-1";
+    tmp.style.width = "794px";
+    tmp.innerHTML = pdfRef.current?.innerHTML || "";
+    document.body.appendChild(tmp);
+
     const opt = {
       margin: 0,
       filename: `mentivis_diagnostic_${qualification.company.replace(/\s+/g, "_").toLowerCase()}.pdf`,
@@ -469,7 +482,12 @@ export default function ScoreCalculator() {
       jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
       pagebreak: { mode: ["css", "legacy"] },
     };
-    html2pdf().set(opt as any).from(pdfRef.current).save();
+
+    try {
+      await html2pdf().set(opt as any).from(tmp).save();
+    } finally {
+      document.body.removeChild(tmp);
+    }
   }, [scores, qualification.company]);
 
   /* Derived dashboard data */
@@ -780,7 +798,10 @@ export default function ScoreCalculator() {
             {s.landing.title3}
           </h1>
           <p className="sc-hero-sub">{s.landing.sub}</p>
-          <button className="sc-btn-primary" onClick={() => goToScreen("qualification")}>{s.landing.cta}</button>
+          <button className="sc-btn-primary" onClick={() => goToScreen("qualification")}>
+            {s.landing.cta}
+            <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+          </button>
 
           <div className="sc-landing-feats">
             <div className="sc-feat">
@@ -855,7 +876,10 @@ export default function ScoreCalculator() {
             </div>
             <div className="sc-form-actions">
               <button className="sc-btn-secondary" onClick={() => goToScreen("landing")}>{s.common.back}</button>
-              <button className="sc-btn-primary" onClick={handleQualSubmit}>{s.common.start}</button>
+                <button className="sc-btn-primary" onClick={handleQualSubmit}>
+                  {s.common.start}
+                  <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                </button>
             </div>
           </div>
         </div>
@@ -930,7 +954,10 @@ export default function ScoreCalculator() {
 
           <div className="sc-q-nav">
             <button className="sc-btn-secondary" style={{ visibility: currentBlock === 0 ? "hidden" : "visible" }} onClick={prevBlock}>{s.common.prev}</button>
-            <button className="sc-btn-primary" onClick={nextBlock}>{currentBlock === 5 ? s.common.finish : s.common.next}</button>
+              <button className="sc-btn-primary" onClick={nextBlock}>
+                {currentBlock === 5 ? s.common.finish : s.common.next}
+                <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+              </button>
           </div>
         </div>
       </section>
@@ -961,7 +988,10 @@ export default function ScoreCalculator() {
             </div>
             <div className="sc-dash-actions">
               <button className="sc-btn-outline" onClick={restart}>{s.dash.restart}</button>
-              <button className="sc-btn-primary" onClick={exportPDF}>{s.dash.download}</button>
+              <button className="sc-btn-primary" onClick={exportPDF}>
+                {s.dash.download}
+                <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+              </button>
             </div>
           </div>
 
@@ -1124,7 +1154,10 @@ export default function ScoreCalculator() {
                   <form className="sc-cta-form" onSubmit={handleContact}>
                     <input type="text" required placeholder={s.cta.name} value={contactName} onChange={e => setContactName(e.target.value)} />
                     <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
-                    <button type="submit">{s.cta.submit}</button>
+                    <button type="submit" className="sc-btn-primary">
+                      {s.cta.submit}
+                      <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                    </button>
                   </form>
                 ) : (
                   <div className="sc-cta-success visible">{s.cta.success}</div>
