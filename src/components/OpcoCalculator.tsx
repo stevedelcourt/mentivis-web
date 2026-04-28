@@ -137,25 +137,24 @@ export default function OpcoCalculator() {
       import("jspdf"),
     ]);
 
-    const el = pdfRef.current;
-    const saved = el.style.cssText;
+    // Build a temporary visible container inside a 1x1px overflow-hidden wrapper
+    // so the user never sees it, but html2canvas captures it fully.
+    const wrapper = document.createElement("div");
+    wrapper.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;overflow:hidden;z-index:-1;";
 
-    // Show the element briefly for capture
-    el.style.position = "fixed";
-    el.style.top = "0";
-    el.style.left = "0";
-    el.style.opacity = "0";
-    el.style.zIndex = "99999";
-    el.style.width = "794px";
+    const inner = document.createElement("div");
+    inner.style.width = "794px";
+    inner.innerHTML = pdfRef.current.innerHTML;
+    inner.className = pdfRef.current.className;
+    wrapper.appendChild(inner);
+    document.body.appendChild(wrapper);
 
     try {
-      const canvas = await html2canvas(el, {
+      const canvas = await html2canvas(inner, {
         scale: 2,
         useCORS: true,
         logging: false,
         backgroundColor: "#ffffff",
-        width: 794,
-        windowWidth: 794,
       });
 
       const imgData = canvas.toDataURL("image/jpeg", 0.98);
@@ -180,7 +179,7 @@ export default function OpcoCalculator() {
 
       pdf.save(`mentivis_opco_${form.company ? form.company.replace(/\s+/g, "_").toLowerCase() : "diagnostic"}.pdf`);
     } finally {
-      el.style.cssText = saved;
+      document.body.removeChild(wrapper);
     }
   }, [results, form.company]);
 
