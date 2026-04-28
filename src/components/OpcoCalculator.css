@@ -317,6 +317,92 @@
   position: relative;
   z-index: 1;
 }
+.oc-cta-card .sc-cta-eyebrow {
+  color: rgba(255, 255, 255, 0.85);
+}
+.sc-cta-eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--oc-navy);
+  margin-bottom: 12px;
+}
+.sc-cta-title {
+  font-family: var(--f-display);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.sc-cta-sub {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 540px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+/* CTA form inputs — match Score Formation exactly */
+.oc-cta-card .sc-cta-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.oc-cta-card .sc-cta-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: white;
+  font-size: 15px;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.oc-cta-card .sc-cta-form input:focus {
+  outline: none;
+  border-color: var(--oc-navy);
+  background: rgba(255, 255, 255, 0.1);
+}
+.oc-cta-card .sc-cta-form input::placeholder { color: rgba(255, 255, 255, 0.4); }
+.oc-cta-card .sc-cta-form button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 28px;
+  background: var(--oc-navy);
+  color: white;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.oc-cta-card .sc-cta-form button:hover {
+  background: var(--oc-near-black);
+  transform: translateY(-1px);
+}
+.oc-cta-card .sc-cta-form button:hover .sc-btn-chevron {
+  transform: translateX(3px);
+}
+.oc-cta-card .sc-cta-success {
+  display: none;
+  padding: 16px 20px;
+  background: rgba(20, 158, 97, 0.15);
+  border: 1px solid rgba(20, 158, 97, 0.3);
+  border-radius: 12px;
+  color: #4ade80;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.oc-cta-card .sc-cta-success.visible { display: block; }
 
 /* PDF report hidden */
 .oc-pdf-report {

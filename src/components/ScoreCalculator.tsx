@@ -462,15 +462,16 @@ export default function ScoreCalculator() {
     if (!scores || !pdfRef.current) return;
     const html2pdf = (await import("html2pdf.js")).default;
 
-    // Clone the hidden PDF node and move it off-screen so html2canvas captures it fully
-    const clone = pdfRef.current.cloneNode(true) as HTMLDivElement;
-    clone.style.position = "fixed";
-    clone.style.top = "-9999px";
-    clone.style.left = "-9999px";
-    clone.style.opacity = "1";
-    clone.style.pointerEvents = "none";
-    clone.style.width = "794px";
-    document.body.appendChild(clone);
+    const el = pdfRef.current;
+    const saved = el.style.cssText;
+
+    // Temporarily show the PDF div so html2canvas captures it
+    el.style.position = "absolute";
+    el.style.top = "0";
+    el.style.left = "0";
+    el.style.opacity = "1";
+    el.style.zIndex = "-1";
+    el.style.width = "794px";
 
     const opt = {
       margin: 0,
@@ -482,9 +483,9 @@ export default function ScoreCalculator() {
     };
 
     try {
-      await html2pdf().set(opt as any).from(clone).save();
+      await html2pdf().set(opt as any).from(el).save();
     } finally {
-      document.body.removeChild(clone);
+      el.style.cssText = saved;
     }
   }, [scores, qualification.company]);
 
