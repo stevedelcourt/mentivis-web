@@ -42,11 +42,10 @@ export function useHubSpotSubmit() {
     try {
       const hbspt = await waitForHbspt();
 
-      // Unique ID so hbspt can target via CSS selector
       const id = "hs-form-" + Date.now();
       const container = document.createElement("div");
       container.id = id;
-      container.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;z-index:-1;";
+      container.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;visibility:hidden;pointer-events:none;z-index:-1;";
       document.body.appendChild(container);
 
       await new Promise<void>((resolve, reject) => {
@@ -61,6 +60,7 @@ export function useHubSpotSubmit() {
         const timeout = setTimeout(() => doReject("HubSpot submission timed out"), 15000);
 
         hbspt.forms.create({
+          region: "na1",
           portalId: HUBSPOT_PORTAL_ID,
           formId: HUBSPOT_FORM_ID,
           target: "#" + id,
@@ -72,11 +72,13 @@ export function useHubSpotSubmit() {
                   (input as HTMLInputElement).value = String(value);
                 }
               });
-              // Give HubSpot a tick to attach its submit listener, then trigger submit
+
+              // Trigger native submit so HubSpot's handler intercepts
               setTimeout(() => {
                 try {
-                  if (typeof $form.requestSubmit === "function") {
-                    $form.requestSubmit();
+                  const submitBtn = $form.querySelector('input[type="submit"], button[type="submit"]');
+                  if (submitBtn) {
+                    (submitBtn as HTMLElement).click();
                   } else {
                     $form.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true }));
                   }
@@ -84,7 +86,7 @@ export function useHubSpotSubmit() {
                   clearTimeout(timeout);
                   doReject(String(err));
                 }
-              }, 150);
+              }, 200);
             } catch (err) {
               clearTimeout(timeout);
               doReject(String(err));
@@ -101,7 +103,6 @@ export function useHubSpotSubmit() {
         });
       });
 
-      // Cleanup hidden container
       try { document.body.removeChild(container); } catch { /* ignore */ }
 
       setSuccess(true);
