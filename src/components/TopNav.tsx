@@ -114,7 +114,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         </div>
 
         {/* Nav pill — centered */}
-        <div style={{
+        <div className="m-nav-pill" style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

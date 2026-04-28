@@ -167,9 +167,13 @@ button { font-family: inherit; cursor: pointer; }
   .m-footer-cols { grid-template-columns: 1fr !important; gap: 40px !important; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 950px) {
   .m-nav-burger { display: inline-flex !important; }
   .m-nav-cta { display: none !important; }
+  .m-nav-pill { display: none !important; }
+}
+
+@media (max-width: 720px) {
   .m-grid-3, .m-grid-4, .m-proof-grid, .m-triple-grid { grid-template-columns: 1fr !important; }
   .m-aside { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--m-line); padding-top: 32px !important; }
 }
