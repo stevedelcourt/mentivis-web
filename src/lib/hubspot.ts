@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useState } from "react";
 import { HUBSPOT_PORTAL_ID, HUBSPOT_FORM_ID } from "@/lib/config";
 
 type FieldMap = Record<string, string | number>;
@@ -33,7 +33,6 @@ export function useHubSpotSubmit() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const containerRef = useRef<HTMLDivElement | null>(null);
 
   const submit = useCallback(async (fields: FieldMap) => {
     setLoading(true);
@@ -43,15 +42,12 @@ export function useHubSpotSubmit() {
     try {
       const hbspt = await waitForHbspt();
 
-      let container = containerRef.current;
-      if (!container) {
-        container = document.createElement("div");
-        container.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;z-index:-1;";
-        document.body.appendChild(container);
-        containerRef.current = container;
-      }
-
-      container.innerHTML = "";
+      // Unique ID so hbspt can target via CSS selector
+      const id = "hs-form-" + Date.now();
+      const container = document.createElement("div");
+      container.id = id;
+      container.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;z-index:-1;";
+      document.body.appendChild(container);
 
       await new Promise<void>((resolve, reject) => {
         let resolved = false;
@@ -62,13 +58,12 @@ export function useHubSpotSubmit() {
           if (!resolved) { resolved = true; reject(new Error(reason || "HubSpot form submission failed")); }
         };
 
-        // Safety timeout
         const timeout = setTimeout(() => doReject("HubSpot submission timed out"), 15000);
 
         hbspt.forms.create({
           portalId: HUBSPOT_PORTAL_ID,
           formId: HUBSPOT_FORM_ID,
-          target: container,
+          target: "#" + id,
           onFormReady: ($form: any) => {
             try {
               Object.entries(fields).forEach(([key, value]) => {
@@ -77,9 +72,19 @@ export function useHubSpotSubmit() {
                   (input as HTMLInputElement).value = String(value);
                 }
               });
-              // Dispatch submit event so HubSpot's AJAX handler intercepts it
-              const submitEvent = new Event("submit", { bubbles: true, cancelable: true });
-              $form.dispatchEvent(submitEvent);
+              // Give HubSpot a tick to attach its submit listener, then trigger submit
+              setTimeout(() => {
+                try {
+                  if (typeof $form.requestSubmit === "function") {
+                    $form.requestSubmit();
+                  } else {
+                    $form.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true }));
+                  }
+                } catch (err) {
+                  clearTimeout(timeout);
+                  doReject(String(err));
+                }
+              }, 150);
             } catch (err) {
               clearTimeout(timeout);
               doReject(String(err));
@@ -95,6 +100,9 @@ export function useHubSpotSubmit() {
           },
         });
       });
+
+      // Cleanup hidden container
+      try { document.body.removeChild(container); } catch { /* ignore */ }
 
       setSuccess(true);
     } catch (err: any) {

@@ -38,7 +38,7 @@ function ContactSuccess({ title, body, back }: { title: string; body: string; ba
 export default function ContactPage() {
   const { t, lang } = useMessages();
   const c = t.contact;
-  const [form, setForm] = useState({ firstname: "", lastname: "", you: c.youOptions[0], email: "", phone: "", project: "" });
+  const [form, setForm] = useState({ firstname: "", lastname: "", email: "", phone: "", project: "" });
   const [consent, setConsent] = useState(false);
   const [sent, setSent] = useState(false);
   const [honeypot, setHoneypot] = useState("");
@@ -109,26 +109,6 @@ export default function ContactPage() {
                     <input className="input" required value={form.lastname} onChange={(e) => update("lastname", e.target.value)} />
                   </Field>
                 </div>
-                <Field label={c.labels.you}>
-                  <div style={{ display: "flex", gap: 8, flexWrap: "wrap" as const }}>
-                    {c.youOptions.map((opt) => (
-                      <button key={opt} type="button" onClick={() => update("you", opt)} style={{
-                        padding: "12px 18px",
-                        borderRadius: 12,
-                        border: "1px solid " + (form.you === opt ? "var(--m-ink)" : "var(--m-line)"),
-                        background: form.you === opt ? "var(--m-ink)" : "white",
-                        color: form.you === opt ? "white" : "var(--m-ink-2)",
-                        fontFamily: "var(--f-sans)",
-                        fontSize: 14,
-                        fontWeight: 500,
-                        cursor: "pointer",
-                        transition: "all 0.15s",
-                      }}>
-                        {opt}
-                      </button>
-                    ))}
-                  </div>
-                </Field>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
                   <Field label={c.labels.email}>
                     <input type="email" className="input" required value={form.email} onChange={(e) => update("email", e.target.value)} />
