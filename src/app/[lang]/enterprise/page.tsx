@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import PageHero from "@/components/PageHero";
@@ -82,6 +83,29 @@ export default function EnterprisePage() {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", padding: "40px 0", borderTop: "1px solid var(--m-line)" }} className="m-split-grid">
+            <div style={{ borderRadius: 16, overflow: "hidden", background: "var(--m-bg-soft)" }}>
+              <Image src="/score.webp" alt="Score Formation" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
+            </div>
+            <div>
+              <div className="t-eyebrow" style={{ marginBottom: 16 }}>{e.scoreTeaserEyebrow}</div>
+              <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
+                {e.scoreTeaserTitle}
+              </h3>
+              <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px", maxWidth: 480 }}>
+                {e.scoreTeaserBody}
+              </p>
+              <Link href={`/${lang}/score-formation`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+                {e.scoreTeaserCta}
+                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+              </Link>
             </div>
           </div>
         </div>

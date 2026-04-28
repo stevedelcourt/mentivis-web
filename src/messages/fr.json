@@ -238,7 +238,11 @@
       "Notre rémunération est alignée sur vos résultats",
       "Intervention de bout en bout ou par étape selon vos besoins"
     ],
-    "finalCta": "Un projet de formation à structurer ou transformer ?"
+    "finalCta": "Un projet de formation à structurer ou transformer ?",
+    "scoreTeaserEyebrow": "Diagnostic",
+    "scoreTeaserTitle": "Votre formation est-elle un levier business ou un coût subi ?",
+    "scoreTeaserBody": "10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre ce que vous croyez piloter et ce qui se passe vraiment.",
+    "scoreTeaserCta": "Démarrer le diagnostic"
   },
   "solutions": {
     "eyebrow": "Mentivis Solutions",

@@ -238,7 +238,11 @@
       "Our compensation is aligned with your results",
       "End-to-end or stage-by-stage, depending on your needs"
     ],
-    "finalCta": "A training project to structure or transform?"
+    "finalCta": "A training project to structure or transform?",
+    "scoreTeaserEyebrow": "Diagnostic",
+    "scoreTeaserTitle": "Is your training a business lever or a sunk cost?",
+    "scoreTeaserBody": "10 minutes to reveal the real maturity of your training system, measure the gap between what you think you control and what actually happens.",
+    "scoreTeaserCta": "Start the assessment"
   },
   "solutions": {
     "eyebrow": "Mentivis Solutions",
