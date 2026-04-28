@@ -1,25 +1,17 @@
 "use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import FinalCTA from "@/components/FinalCTA";
 import PageHero from "@/components/PageHero";
-import SectionHeader from "@/components/SectionHeader";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
 
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
 
 export default function SolutionsPage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const s = t.solutions;
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <PageHero
         eyebrow={s.eyebrow}
         titleParts={[s.heroTitle[0], s.heroTitle[1], s.heroTitle[2]]}
@@ -27,8 +19,14 @@ export default function SolutionsPage() {
         lead={s.heroLead}
       >
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const }}>
-          <Link href={`/${lang}/contact`} className="btn btn-primary">{t.nav.cta} →</Link>
-          <Link href={`/${lang}/solutions#solutions-pillars`} className="btn btn-outline">{lang === "fr" ? "Nos approches" : "Our approaches"}</Link>
+          <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+            {t.nav.cta}
+            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          </Link>
+          <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+            {lang === "fr" ? "Nos approches" : "Our approaches"}
+            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          </Link>
         </div>
       </PageHero>
 
@@ -36,9 +34,9 @@ export default function SolutionsPage() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16, marginTop: 0 }} className="m-grid-3">
             {[
-              { label: lang === "fr" ? "Conception" : "Design", icon: "□" },
-              { label: lang === "fr" ? "Développement" : "Development", icon: "◇" },
-              { label: lang === "fr" ? "IA appliquée" : "Applied AI", icon: "○" },
+              { label: lang === "fr" ? "Conception" : "Design", icon: "architecture" },
+              { label: lang === "fr" ? "Développement" : "Development", icon: "code_blocks" },
+              { label: lang === "fr" ? "IA appliquée" : "Applied AI", icon: "neurology" },
             ].map((x, i) => (
               <div key={i} style={{
                 padding: "26px 28px",
@@ -54,8 +52,10 @@ export default function SolutionsPage() {
                   background: "var(--m-purple-soft)",
                   color: "var(--m-purple)",
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: 22, fontFamily: "var(--f-display)",
-                }}>{x.icon}</div>
+                  fontSize: 22,
+                }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 22 }}>{x.icon}</span>
+                </div>
                 <div>
                   <div style={{ fontSize: 12, color: "var(--m-ink-4)", letterSpacing: "0.08em", textTransform: "uppercase" as const }}>0{i + 1}</div>
                   <div style={{ fontFamily: "var(--f-display)", fontSize: 20, letterSpacing: "-0.01em" }}>{x.label}</div>
@@ -83,11 +83,15 @@ export default function SolutionsPage() {
                   <div style={{
                     marginTop: 14, width: 80, height: 80, borderRadius: 16,
                     background: "var(--m-purple-soft)", display: "flex", alignItems: "center", justifyContent: "center",
-                    color: "var(--m-purple)", fontFamily: "var(--f-display)", fontSize: 36, fontWeight: 700,
-                  }}>{i === 0 ? "□" : i === 1 ? "◇" : "○"}</div>
+                    color: "var(--m-purple)",
+                  }}>
+                    <span className="material-symbols-outlined" style={{ fontSize: 36 }}>
+                      {i === 0 ? "architecture" : i === 1 ? "code_blocks" : "neurology"}
+                    </span>
+                  </div>
                 </div>
                 <div>
-                  <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(28px, 3vw, 38px)", fontWeight: 700, letterSpacing: "-1px", margin: 0, lineHeight: 1.1 }}>{p.title}</h3>
+                  <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 2.5vw, 32px)", fontWeight: 700, letterSpacing: "-1px", margin: 0, lineHeight: 1.1 }}>{p.title}</h3>
                   <p style={{ color: "var(--m-ink-3)", fontSize: 16.5, lineHeight: 1.55, margin: "16px 0 0", maxWidth: 360 }}>{p.body}</p>
                 </div>
                 <ul className="dot-list" style={{ marginTop: 4 }}>
@@ -99,8 +103,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      <FinalCTA t={t as any} title={s.finalCta} lang={lang} accent="purple" />
-      <Footer t={t as any} lang={lang} />
-    </main>
+      <FinalCTA t={t} title={s.finalCta} lang={lang} accent="purple" />
+    </PageShell>
   );
 }

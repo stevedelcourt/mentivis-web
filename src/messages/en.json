@@ -7,17 +7,11 @@
     "solutions": "Solutions",
     "resources": "Resources",
     "contact": "Contact",
-    "cta": "Talk to Mentivis"
+    "cta": "Contact us"
   },
   "common": {
     "learnMore": "Learn more",
-    "getStarted": "Let's talk",
-    "readMore": "Read more",
-    "letsTalk": "Let's talk",
-    "backTo": "Back",
-    "youAre": "You are",
-    "enterprise": "an enterprise",
-    "of": "a training organization"
+    "youAre": "You are"
   },
   "home": {
     "eyebrow": "Operator in training & skills development",
@@ -27,13 +21,19 @@
       "kicker": "01 — You are an enterprise",
       "title": "Turn training into a performance lever",
       "items": ["Maturity audit", "Internal academy creation", "Training policy & structure"],
-      "cta": "Explore enterprise solutions"
+      "cta": "Explore solutions"
     },
     "entryOf": {
       "kicker": "02 — You are a training organization",
       "title": "Structure, secure and grow your activity",
       "items": ["Pedagogy & compliance", "Strategy & positioning", "Outsourced services"],
-      "cta": "Explore TO solutions"
+      "cta": "Explore solutions"
+    },
+    "entrySolutions": {
+      "kicker": "03 — You are looking for a digital, dev or AI solution",
+      "title": "Custom tools, concrete solutions",
+      "items": ["Personalized platforms", "AI solutions for training", "Custom development"],
+      "cta": "Explore solutions"
     },
     "diffTitle": "What sets us apart",
     "diffLead": "Four structural principles — not a marketing pitch.",
@@ -294,24 +294,231 @@
     "youOptions": ["Enterprise", "Training organization", "Other"],
     "success": "Thank you. We'll reply within 24h.",
     "direct": {
-      "title": "Or write to us directly",
-      "email": "contact@mentivis.com",
-      "phone": "+33 1 89 48 10 02",
-      "loc": "Paris · France"
+      "title": "Or write to us directly"
     }
   },
   "footer": {
-    "tagline": "Designing, structuring and deploying training programs that work.",
+    "tagline": "Training solutions that work.",
+    "ctaTitle": "Starting a project is simple",
+    "ctaLead": "First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit.",
     "newsletterTitle": "The Mentivis letter",
     "newsletterBody": "Every two months — analyses, mission feedback, perspectives on training. No spam.",
     "newsletterPlaceholder": "your@email.com",
-    "newsletterCta": "Subscribe",
     "newsletterSuccess": "Thank you. See you soon.",
     "navigation": "Navigation",
-    "offer": "Offer",
-    "legal": "Legal",
-    "contact": "Contact",
-    "legalLinks": ["Legal notice", "Privacy", "Terms", "Cookies"],
     "copy": "© 2026 Mentivis. Operator in training and skills development."
+  },
+  "score": {
+    "landing": {
+      "eyebrow": "Strategic training assessment",
+      "title1": "Is your training a",
+      "title2": "business lever",
+      "title3": "or a sunk cost?",
+      "sub": "10 minutes to reveal the real maturity of your training system, measure the gap between what you think you control and what actually happens, and quantify the value you let leak every year.",
+      "cta": "Start the assessment",
+      "feat1Title": "Dimensions assessed",
+      "feat1Desc": "From strategic alignment to regulatory compliance, including ROI and funding.",
+      "feat2Title": "Calibrated questions",
+      "feat2Desc": "Including 12 proof questions that confront perception with process reality.",
+      "feat3Title": "Full exportable report",
+      "feat3Desc": "Diagnostic, risks, opportunities, three-tier action plan and quantified loss estimate."
+    },
+    "qual": {
+      "title": "A few details to calibrate your assessment",
+      "sub": "This data lets us adapt the analysis to your context and quantify the opportunities identified with precision.",
+      "company": "Company name",
+      "companyPh": "e.g. Acme Industries",
+      "sector": "Industry sector",
+      "size": "Organization size",
+      "role": "Your role",
+      "budget": "Annual training budget (in euros)",
+      "budgetPh": "e.g. 50000",
+      "choose": "Select",
+      "sIndustry": "Manufacturing",
+      "sServices": "Services",
+      "sRetail": "Retail",
+      "sHealth": "Healthcare",
+      "sConstruction": "Construction",
+      "sTech": "Tech",
+      "sFinance": "Finance",
+      "sOther": "Other",
+      "szTpe": "Micro (1 to 49 employees)",
+      "szPme": "Small/Medium (50 to 249)",
+      "szEti": "Mid-size (250 to 999)",
+      "szLarge": "Large enterprise (1000 and above)",
+      "rCeo": "Executive",
+      "rHr": "HR Director or Manager",
+      "rTraining": "Training Manager",
+      "rManager": "Manager or Director",
+      "rOther": "Other"
+    },
+    "common": {
+      "back": "Back",
+      "start": "Begin",
+      "prev": "Previous",
+      "next": "Next",
+      "finish": "View my diagnostic",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "q": {
+      "block": "Block {0} of 6",
+      "scaleLow": "Not at all",
+      "scaleHigh": "Completely",
+      "proofTag": "Proof question"
+    },
+    "trans": {
+      "text": "Analysis in progress",
+      "sub": "Computing scores and generating the diagnostic"
+    },
+    "dash": {
+      "eyebrow": "Your Mentivis diagnostic",
+      "restart": "Restart",
+      "download": "Download report",
+      "globalScore": "Global maturity score",
+      "perception": "Perception score (declared)",
+      "gap": "Perception vs reality gap",
+      "weakest": "Weakest dimension",
+      "strongest": "Strongest dimension",
+      "radarEyebrow": "Six-dimension mapping",
+      "radarTitle": "Perception against reality",
+      "radarDesc": "The solid polygon represents process reality. The lighter dashed polygon represents your declared perception. The gap between the two is the most profitable territory for improvement.",
+      "legendPerception": "Perception",
+      "legendReality": "Reality",
+      "quadEyebrow": "Prioritization matrix",
+      "quadTitle": "Impact against effort",
+      "quadDesc": "Each dimension positioned by estimated improvement effort (X axis) and strategic weight (Y axis). The top left quadrant concentrates quick wins.",
+      "funnelEyebrow": "Training value funnel",
+      "funnelTitle": "Where your budget converts and where it leaks",
+      "funnelDesc": "Projection from your declared annual training budget. Each step applies a conversion ratio computed from your real scores. The final line represents business impact actually generated.",
+      "lossLabel": "Estimated value loss",
+      "dimEyebrow": "Dimension breakdown",
+      "dimTitle": "Complete score table",
+      "narrEyebrow": "Strategic reading",
+      "narrTitle": "Diagnostic, risks, opportunities"
+    },
+    "dim": {
+      "dimension": "Dimension",
+      "weight": "Weight",
+      "perception": "Perception",
+      "reality": "Reality",
+      "gap": "Gap"
+    },
+    "narr": {
+      "diag": "Diagnostic",
+      "risks": "Identified risks",
+      "opp": "Priority opportunities"
+    },
+    "cta": {
+      "eyebrow": "Move from diagnostic to action",
+      "title": "Receive your personalized report and talk to a Mentivis expert",
+      "sub": "A Mentivis consultant will reach out within 48 hours to deepen your diagnostic and quantify the identified opportunities concretely.",
+      "name": "Your name",
+      "email": "Your business email",
+      "submit": "Request a callback",
+      "success": "Thank you. Your request has been recorded. A consultant will contact you within 48 hours.",
+      "scenariosLabel": "3 intervention scenarios",
+      "scenariosTitle": "Choose the scope that matches your stakes"
+    },
+    "funnel": {
+      "budget": "Training budget allocated",
+      "budgetSub": "Annual envelope declared",
+      "attended": "Training actually attended",
+      "attendedSub": "Conversion linked to system quality",
+      "acquired": "Skills genuinely acquired",
+      "acquiredSub": "Pedagogical conversion and delivery quality",
+      "used": "Skills applied in practice",
+      "usedSub": "Field transfer and managerial uptake",
+      "impact": "Measurable business impact",
+      "impactSub": "Value effectively generated for the company"
+    },
+    "scenarios": {
+      "tier1Tag": "Tier 1",
+      "tier1Title": "Quick correction",
+      "tier1Desc": "Compliance, funding, quick wins. Ideal if your score is below 50 on compliance or funding.",
+      "tier1It1": "Regulatory compliance reset",
+      "tier1It2": "Activation of unused funding mechanisms",
+      "tier1It3": "90-day action plan",
+      "tier2Tag": "Tier 2",
+      "tier2Title": "Structuring",
+      "tier2Desc": "Training system, governance, tooling. Suited if your global score sits between 40 and 70.",
+      "tier2It1": "Training architecture and learning paths",
+      "tier2It2": "Governance tools and ROI indicators",
+      "tier2It3": "Mapping of critical competencies",
+      "tier3Tag": "Tier 3",
+      "tier3Title": "Transformation",
+      "tier3Desc": "Training as a business lever, strategic integration, full design. For organizations ready to step up.",
+      "tier3It1": "Alignment of training with business strategy",
+      "tier3It2": "Complete redesign of the system",
+      "tier3It3": "Impact measurement model",
+      "recommended": "Recommended for you"
+    },
+    "maturity": {
+      "lvl1": "Endured training",
+      "lvl2": "Administrative training",
+      "lvl3": "Managed training",
+      "lvl4": "Performing training",
+      "lvl5": "Strategic training"
+    },
+    "dimNames": {
+      "STRAT": "Strategic alignment",
+      "SKILL": "Skill mastery",
+      "SYS": "Training system",
+      "ROI": "Impact and ROI",
+      "FUND": "Funding leverage",
+      "COMP": "Compliance"
+    },
+    "blockDesc": {
+      "STRAT": "How much is training tied to the company's business strategy?",
+      "SKILL": "What level of knowledge do you have of real skill gaps in your teams?",
+      "SYS": "How is training structured, delivered and evaluated in your organization?",
+      "ROI": "Do you measure the actual impact of training on performance?",
+      "FUND": "Do you master the funding levers of professional training?",
+      "COMP": "Are you up to date on legal obligations and able to respond to an audit?"
+    },
+    "pdf": {
+      "coverEyebrow": "Mentivis Diagnostic",
+      "coverTitle": "Training Impact Score",
+      "coverScoreLabel": "Global maturity score",
+      "coverGap": "Perception vs reality gap",
+      "coverDate": "Assessment date",
+      "coverRespondent": "Respondent",
+      "coverBudget": "Training budget analyzed",
+      "coverFooter": "Confidential document generated by Mentivis",
+      "summaryEyebrow": "Page 1",
+      "summaryTitle": "Executive summary",
+      "summaryIntro": "This assessment measures the maturity of {company}'s training system across six key dimensions. It combines declarative self-assessment with proof questions, allowing us to objectify the gap between perception and process reality.",
+      "summaryScore": "The global score of {score} out of 100 positions your organization at the {level} level.",
+      "summaryGap": "The {gap} point gap between your perception and reality indicates {gapInterpretation}.",
+      "summaryWeakest": "The weakest dimension is {weakest} with a score of {weakestScore} out of 100.",
+      "summaryStrongest": "The strongest is {strongest} with a score of {strongestScore} out of 100.",
+      "summaryGapLow": "good clarity on your training system",
+      "summaryGapMid": "a moderate gap that warrants attention",
+      "summaryGapHigh": "a significant disconnect between your convictions and your real processes",
+      "scoringEyebrow": "Page 2",
+      "scoringTitle": "Dimension mapping",
+      "scoringSubtitle": "The radar below overlays your declared perception and the reality adjusted by proof questions. Reading the gaps by dimension reveals where executive intuition diverges most from operational functioning.",
+      "scoringTableTitle": "Score breakdown",
+      "diagEyebrow": "Page 3",
+      "diagTitle": "Detailed diagnostic",
+      "diagIntro": "Strategic synthesis generated from the score combinations observed in your organization.",
+      "diagDiag": "Diagnostic",
+      "diagRisks": "Identified risks",
+      "diagOpp": "Priority opportunities",
+      "valueEyebrow": "Page 4",
+      "valueTitle": "Quantified loss estimate",
+      "valueIntro": "Projection of how your annual training budget converts into effective business value. Each conversion ratio is computed from your real scores.",
+      "valueTableHeader1": "Step",
+      "valueTableHeader2": "Amount",
+      "valueTableHeader3": "Conversion",
+      "valueLossLabel": "Estimated value loss across the full cycle",
+      "valueLossSub": "Difference between the initial budget and business impact actually generated.",
+      "planEyebrow": "Page 5",
+      "planTitle": "Recommended plan",
+      "planIntro": "Three intervention levels available depending on your stakes and current maturity level. The recommended scenario is highlighted.",
+      "planContact": "To discuss implementation, reach out to your Mentivis contact.",
+      "footerLeft": "Mentivis Training Impact Score",
+      "footerRight": "Page {page}/5"
+    }
   }
 }

@@ -4,9 +4,10 @@ type PillarCardProps = {
   body?: string;
   items?: string[];
   accent?: boolean;
+  icon?: string;
 };
 
-export default function PillarCard({ n, title, body, items, accent = false }: PillarCardProps) {
+export default function PillarCard({ n, title, body, items, accent = false, icon }: PillarCardProps) {
   return (
     <article style={{
       padding: "36px 32px",
@@ -19,9 +20,12 @@ export default function PillarCard({ n, title, body, items, accent = false }: Pi
       <div style={{
         display: "flex",
         alignItems: "center",
-        gap: 14,
+        gap: 12,
         marginBottom: 18,
       }}>
+        {icon && (
+          <span className="material-symbols-outlined" style={{ fontSize: 20, color: "var(--m-purple)", lineHeight: 1 }}>{icon}</span>
+        )}
         <span style={{
           fontFamily: "var(--f-display)",
           fontStyle: "italic",

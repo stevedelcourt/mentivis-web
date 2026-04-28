@@ -1,17 +1,12 @@
 "use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
-import PillarCard from "@/components/PillarCard";
+
 import FinalCTA from "@/components/FinalCTA";
 import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
 
 function HomeHeroBackdrop() {
   return (
@@ -48,14 +43,11 @@ function HomeHeroBackdrop() {
 }
 
 export default function HomePage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const h = t.home;
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
         <HomeHeroBackdrop />
         <div className="container" style={{ position: "relative" as const }}>
@@ -65,7 +57,7 @@ export default function HomePage() {
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="t-display" style={{ fontSize: "clamp(48px, 8vw, 116px)", maxWidth: 1180, margin: 0, lineHeight: 0.98 }}>
+            <h1 className="t-display" style={{ fontSize: "clamp(36px, 6vw, 88px)", maxWidth: 1180, margin: 0, lineHeight: 0.98 }}>
               {h.heroTitle[0]}<br />
               {h.heroTitle[1]}<br />
               {h.heroTitle[2]}<em>{h.heroTitle[3]}</em>{h.heroTitle[4]}
@@ -75,8 +67,14 @@ export default function HomePage() {
             <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 64, marginTop: 56, alignItems: "end" }} className="m-home-leadgrid">
               <p className="t-lead" style={{ maxWidth: 580, margin: 0 }}>{h.heroLead}</p>
               <div style={{ display: "flex", gap: 12, justifyContent: "flex-end", flexWrap: "wrap" as const }}>
-                <Link href={`/${lang}/contact`} className="btn btn-primary">{t.nav.cta} →</Link>
-                <Link href={`/${lang}/about`} className="btn btn-outline">{t.common.learnMore}</Link>
+                <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+                  {t.nav.cta}
+                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                </Link>
+                <Link href={`/${lang}/about`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+                  {t.common.learnMore}
+                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                </Link>
               </div>
             </div>
           </Reveal>
@@ -88,9 +86,10 @@ export default function HomePage() {
           <div className="t-eyebrow" style={{ marginBottom: 24 }}>
             {t.common.youAre}…
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-dual-grid">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 24 }} className="m-triple-grid">
             <DualEntryCard data={h.entryEnterprise} href={`/${lang}/enterprise`} tone="dark" />
             <DualEntryCard data={h.entryOf} href={`/${lang}/of`} tone="purple" />
+            <DualEntryCard data={h.entrySolutions} href={`/${lang}/solutions`} tone="light" />
           </div>
         </div>
       </section>
@@ -124,15 +123,15 @@ export default function HomePage() {
             marginRight: "auto",
             textAlign: "center",
             fontFamily: "var(--f-display)",
-            fontSize: "clamp(28px, 3.6vw, 48px)",
+            fontSize: "clamp(22px, 3vw, 38px)",
             fontWeight: 400,
             lineHeight: 1.2,
             letterSpacing: "-0.015em",
             color: "var(--m-ink)",
           }}>
-            <span style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: "1.4em", lineHeight: 0, verticalAlign: "-0.2em", marginRight: 8 }}>"</span>
+            <span style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: "1.4em", lineHeight: 0, verticalAlign: "-0.2em", marginRight: 8 }}>&ldquo;</span>
             {h.promiseBody}
-            <span style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: "1.4em", lineHeight: 0, verticalAlign: "-0.2em", marginLeft: 4 }}>"</span>
+            <span style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: "1.4em", lineHeight: 0, verticalAlign: "-0.2em", marginLeft: 4 }}>&rdquo;</span>
           </blockquote>
           <p style={{ textAlign: "center", marginTop: 28, color: "var(--m-ink-3)", fontFamily: "var(--f-display)", fontSize: 18 }}>{h.promiseSig}</p>
         </div>
@@ -149,7 +148,7 @@ export default function HomePage() {
                 <div style={{
                   fontFamily: "var(--f-display)",
                   fontWeight: 700,
-                  fontSize: "clamp(56px, 7vw, 96px)",
+                  fontSize: "clamp(44px, 5.5vw, 76px)",
                   letterSpacing: "-0.04em",
                   lineHeight: 0.95,
                   color: "white",
@@ -164,8 +163,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <FinalCTA t={t as any} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
-      <Footer t={t as any} lang={lang} />
-    </main>
+      <FinalCTA t={t} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
+    </PageShell>
   );
 }

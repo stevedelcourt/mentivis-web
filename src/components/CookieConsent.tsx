@@ -1,11 +1,11 @@
 'use client'
 
 import { useEffect } from 'react'
-import Script from 'next/script'
 import 'vanilla-cookieconsent/dist/cookieconsent.css'
 import * as CookieConsent from 'vanilla-cookieconsent'
 
-const GTM_ID = 'GTM-PM93CCQL'
+import { GTM_ID } from '@/lib/config'
+
 
 function initDataLayer() {
   const w = window as unknown as {

@@ -18,31 +18,43 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: Fi
       position: "relative" as const,
       overflow: "hidden",
     }}>
-      <div aria-hidden="true" style={{
-        position: "absolute" as const,
-        right: -60,
-        top: -100,
-        fontFamily: "var(--f-display)",
-        fontStyle: "italic",
-        fontWeight: 700,
-        fontSize: 480,
-        lineHeight: 1,
-        color: "rgba(255,255,255,0.06)",
-        userSelect: "none" as const,
-        pointerEvents: "none" as const,
-      }}>M</div>
       <div className="container" style={{ position: "relative" as const }}>
         <div style={{ maxWidth: 760 }}>
-          <h2 className="t-display" style={{ fontSize: "clamp(40px, 6vw, 72px)", margin: 0, color: "white" }}>
+          <h2 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 52px)", margin: 0, color: "white", lineHeight: 1.1 }}>
             {title}
           </h2>
-          {lead && <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 19, marginTop: 22, maxWidth: 560, lineHeight: 1.5 }}>{lead}</p>}
-          <div style={{ marginTop: 40, display: "flex", gap: 14, flexWrap: "wrap" as const }}>
-            <Link href={`/${lang}/contact`} className="btn" style={{ background: "white", color: "var(--m-ink)" }}>
-              {t.nav.cta} →
+          {lead && <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 17, marginTop: 22, maxWidth: 560, lineHeight: 1.5 }}>{lead}</p>}
+          <div style={{ marginTop: 36, display: "flex", gap: 14, flexWrap: "wrap" as const }}>
+            <Link href={`/${lang}/contact`} style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 22px",
+              fontSize: 14,
+              fontWeight: 600,
+              color: accent === "purple" ? "var(--m-purple)" : "var(--m-ink)",
+              background: "white",
+              borderRadius: 999,
+              textDecoration: "none",
+            }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
             </Link>
-            <Link href={`/${lang}/about`} className="btn" style={{ background: "transparent", color: "white", border: "1px solid rgba(255,255,255,0.3)" }}>
+            <Link href={`/${lang}/about`} style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 22px",
+              fontSize: 14,
+              fontWeight: 600,
+              color: "white",
+              background: "transparent",
+              border: "1.5px solid rgba(255,255,255,0.35)",
+              borderRadius: 999,
+              textDecoration: "none",
+            }}>
               {t.common.learnMore}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
             </Link>
           </div>
         </div>

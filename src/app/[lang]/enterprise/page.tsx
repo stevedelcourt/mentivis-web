@@ -1,33 +1,28 @@
 "use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
 
 export default function EnterprisePage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const e = t.enterprise;
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <PageHero
         eyebrow={e.eyebrow}
         titleParts={[e.heroTitle[0], e.heroTitle[1], e.heroTitle[2]]}
         accentIndices={[1]}
         lead={e.heroLead}
       >
-        <Link href={`/${lang}/contact`} className="btn btn-primary">{t.nav.cta} →</Link>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+          {t.nav.cta}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
       </PageHero>
 
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
@@ -50,9 +45,12 @@ export default function EnterprisePage() {
         <div className="container">
           <SectionHeader eyebrow={lang === "fr" ? "Axes d'intervention" : "Intervention axes"} title={e.pillarsTitle} lead={e.pillarsLead} />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, marginTop: 56 }} className="m-grid-2">
-            {e.pillars.map((p, i) => (
-              <PillarCard key={i} n={p.n} title={p.title} body={p.body} items={p.items} />
-            ))}
+            {e.pillars.map((p, i) => {
+              const icons = ["lightbulb", "engineering", "folder_open", "rocket_launch"];
+              return (
+                <PillarCard key={i} n={p.n} title={p.title} body={p.body} items={p.items} icon={icons[i]} />
+              );
+            })}
           </div>
         </div>
       </section>
@@ -64,7 +62,7 @@ export default function EnterprisePage() {
               <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.6)" }}>
                 {lang === "fr" ? "Résultats" : "Results"}
               </div>
-              <h3 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 48px)", color: "white", margin: 0 }}>{e.resultsTitle}</h3>
+              <h3 className="t-display" style={{ fontSize: "clamp(26px, 3.5vw, 40px)", color: "white", margin: 0 }}>{e.resultsTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>
                 {e.results.map((r, i) => (
                   <li key={i} style={{ padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.85)", fontSize: 16, lineHeight: 1.5 }}>{r}</li>
@@ -73,9 +71,9 @@ export default function EnterprisePage() {
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 20, color: "#6b73d6" }}>
-                {lang === "fr" ? "Mentivis" : "Mentivis"}
+                Mentivis
               </div>
-              <h3 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 48px)", color: "white", margin: 0 }}>{e.whyTitle}</h3>
+              <h3 className="t-display" style={{ fontSize: "clamp(26px, 3.5vw, 40px)", color: "white", margin: 0 }}>{e.whyTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>
                 {e.why.map((w, i) => (
                   <li key={i} style={{ display: "grid", gridTemplateColumns: "32px 1fr", gap: 14, padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.95)", fontSize: 16, lineHeight: 1.5 }}>
@@ -89,8 +87,7 @@ export default function EnterprisePage() {
         </div>
       </section>
 
-      <FinalCTA t={t as any} title={e.finalCta} lang={lang} accent="purple" />
-      <Footer t={t as any} lang={lang} />
-    </main>
+      <FinalCTA t={t} title={e.finalCta} lang={lang} accent="purple" />
+    </PageShell>
   );
 }

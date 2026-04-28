@@ -1,23 +1,17 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "Qui sommes-nous",
+    "about": "À propos",
     "enterprise": "Entreprises",
     "of": "Organismes de formation",
     "solutions": "Solutions",
     "resources": "Ressources",
     "contact": "Contact",
-    "cta": "Échanger avec Mentivis"
+    "cta": "Contactez-nous"
   },
   "common": {
     "learnMore": "En savoir plus",
-    "getStarted": "Discutons-en",
-    "readMore": "Lire la suite",
-    "letsTalk": "Parlons-en",
-    "backTo": "Retour",
-    "youAre": "Vous êtes",
-    "enterprise": "une entreprise",
-    "of": "un organisme de formation"
+    "youAre": "Vous êtes"
   },
   "home": {
     "eyebrow": "Opérateur en formation & développement des compétences",
@@ -27,13 +21,19 @@
       "kicker": "01 — Vous êtes une entreprise",
       "title": "Transformer la formation en levier de performance",
       "items": ["Audit de maturité", "Création d'académie interne", "Politique et structure de formation"],
-      "cta": "Découvrir les solutions entreprises"
+      "cta": "Découvrir les solutions"
     },
     "entryOf": {
       "kicker": "02 — Vous êtes un organisme de formation",
       "title": "Structurer, sécuriser et développer votre activité",
       "items": ["Pédagogie & conformité", "Stratégie & positionnement", "Services externalisés"],
-      "cta": "Découvrir les solutions OF"
+      "cta": "Découvrir les solutions"
+    },
+    "entrySolutions": {
+      "kicker": "03 — Vous cherchez une solution digitale, dév ou IA",
+      "title": "Des outils sur mesure, des solutions concrètes",
+      "items": ["Plateformes personnalisées", "Solutions IA adaptées à la formation", "Développement sur mesure"],
+      "cta": "Découvrir les solutions"
     },
     "diffTitle": "Ce qui nous distingue",
     "diffLead": "Quatre principes structurels — pas un argumentaire marketing.",
@@ -294,24 +294,231 @@
     "youOptions": ["Entreprise", "Organisme de formation", "Autre"],
     "success": "Merci. Nous vous répondons sous 24h.",
     "direct": {
-      "title": "Ou écrivez-nous directement",
-      "email": "contact@mentivis.com",
-      "phone": "+33 1 89 48 10 02",
-      "loc": "Paris · France"
+      "title": "Ou écrivez-nous directement"
     }
   },
   "footer": {
-    "tagline": "Concevoir, structurer et déployer des dispositifs de formation qui fonctionnent.",
+    "tagline": "Dispositifs de formation qui fonctionnent.",
+    "ctaTitle": "Démarrer un projet, c'est simple",
+    "ctaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs.",
     "newsletterTitle": "La lettre Mentivis",
     "newsletterBody": "Tous les deux mois — analyses, retours de mission, regards sur la formation. Pas de spam.",
     "newsletterPlaceholder": "votre@email.fr",
-    "newsletterCta": "S'abonner",
     "newsletterSuccess": "Merci. À très bientôt.",
     "navigation": "Navigation",
-    "offer": "Offre",
-    "legal": "Légal",
-    "contact": "Contact",
-    "legalLinks": ["Mentions légales", "Confidentialité", "CGU", "Cookies"],
     "copy": "© 2026 Mentivis. Opérateur en formation et développement des compétences."
+  },
+  "score": {
+    "landing": {
+      "eyebrow": "Diagnostic stratégique formation",
+      "title1": "Votre formation est-elle un",
+      "title2": "levier business",
+      "title3": "ou un coût subi ?",
+      "sub": "10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre ce que vous croyez piloter et ce qui se passe vraiment, et chiffrer la valeur que vous laissez fuir chaque année.",
+      "cta": "Démarrer le diagnostic",
+      "feat1Title": "Dimensions évaluées",
+      "feat1Desc": "De l'alignement stratégique à la conformité réglementaire, en passant par le ROI et les financements.",
+      "feat2Title": "Questions calibrées",
+      "feat2Desc": "Dont 12 questions de preuve qui confrontent perception et réalité processuelle.",
+      "feat3Title": "Rapport complet exportable",
+      "feat3Desc": "Diagnostic, risques, opportunités, plan d'action en 3 niveaux et estimation chiffrée des pertes."
+    },
+    "qual": {
+      "title": "Quelques informations pour calibrer votre diagnostic",
+      "sub": "Ces données nous permettent d'adapter l'analyse à votre contexte et de chiffrer précisément les opportunités identifiées.",
+      "company": "Nom de l'entreprise",
+      "companyPh": "Ex. Acme Industries",
+      "sector": "Secteur d'activité",
+      "size": "Taille de l'organisation",
+      "role": "Votre rôle",
+      "budget": "Budget formation annuel (en euros)",
+      "budgetPh": "Ex. 50000",
+      "choose": "Sélectionner",
+      "sIndustry": "Industrie",
+      "sServices": "Services",
+      "sRetail": "Commerce",
+      "sHealth": "Santé",
+      "sConstruction": "BTP",
+      "sTech": "Tech",
+      "sFinance": "Finance",
+      "sOther": "Autre",
+      "szTpe": "TPE (1 à 49 collaborateurs)",
+      "szPme": "PME (50 à 249)",
+      "szEti": "ETI (250 à 999)",
+      "szLarge": "Grande entreprise (1000 et plus)",
+      "rCeo": "Dirigeant",
+      "rHr": "DRH ou RRH",
+      "rTraining": "Responsable formation",
+      "rManager": "Manager ou Directeur",
+      "rOther": "Autre"
+    },
+    "common": {
+      "back": "Retour",
+      "start": "Commencer",
+      "prev": "Précédent",
+      "next": "Suivant",
+      "finish": "Voir mon diagnostic",
+      "yes": "Oui",
+      "no": "Non"
+    },
+    "q": {
+      "block": "Bloc {0} sur 6",
+      "scaleLow": "Pas du tout",
+      "scaleHigh": "Tout à fait",
+      "proofTag": "Question de preuve"
+    },
+    "trans": {
+      "text": "Analyse en cours",
+      "sub": "Calcul des scores et génération du diagnostic"
+    },
+    "dash": {
+      "eyebrow": "Votre diagnostic Mentivis",
+      "restart": "Recommencer",
+      "download": "Télécharger le rapport",
+      "globalScore": "Score global de maturité",
+      "perception": "Score perception (déclaratif)",
+      "gap": "Écart perception/réalité",
+      "weakest": "Dimension la plus faible",
+      "strongest": "Dimension la plus forte",
+      "radarEyebrow": "Cartographie en 6 dimensions",
+      "radarTitle": "Perception contre réalité",
+      "radarDesc": "Le polygone plein représente la réalité processuelle. Le polygone en pointillés représente votre perception déclarée. L'écart entre les deux est le territoire de progrès le plus rentable.",
+      "legendPerception": "Perception",
+      "legendReality": "Réalité",
+      "quadEyebrow": "Matrice de priorisation",
+      "quadTitle": "Impact contre effort",
+      "quadDesc": "Chaque dimension positionnée selon l'effort estimé pour l'améliorer (axe X) et son poids stratégique (axe Y). Le quadrant haut gauche concentre les quick wins.",
+      "funnelEyebrow": "Entonnoir de valeur formation",
+      "funnelTitle": "Où votre budget se transforme et où il se perd",
+      "funnelDesc": "Projection à partir de votre budget formation annuel saisi. Chaque étape applique un ratio de conversion calculé depuis vos scores réels. La dernière ligne représente l'impact business effectivement généré.",
+      "lossLabel": "Perte de valeur estimée",
+      "dimEyebrow": "Détail par dimension",
+      "dimTitle": "Tableau de scores complet",
+      "narrEyebrow": "Lecture stratégique",
+      "narrTitle": "Diagnostic, risques, opportunités"
+    },
+    "dim": {
+      "dimension": "Dimension",
+      "weight": "Poids",
+      "perception": "Perception",
+      "reality": "Réalité",
+      "gap": "Écart"
+    },
+    "narr": {
+      "diag": "Diagnostic",
+      "risks": "Risques identifiés",
+      "opp": "Opportunités prioritaires"
+    },
+    "cta": {
+      "eyebrow": "Passer du diagnostic à l'action",
+      "title": "Recevez votre rapport personnalisé et discutez avec un expert Mentivis",
+      "sub": "Un consultant Mentivis vous recontacte sous 48 heures pour approfondir votre diagnostic et chiffrer concrètement les opportunités identifiées.",
+      "name": "Votre nom",
+      "email": "Votre email professionnel",
+      "submit": "Être recontacté",
+      "success": "Merci. Votre demande a bien été enregistrée. Un consultant vous recontacte sous 48 heures.",
+      "scenariosLabel": "3 scénarios d'intervention",
+      "scenariosTitle": "Choisissez l'ampleur qui correspond à vos enjeux"
+    },
+    "funnel": {
+      "budget": "Budget formation alloué",
+      "budgetSub": "Enveloppe annuelle saisie",
+      "attended": "Formations effectivement suivies",
+      "attendedSub": "Conversion liée à la qualité du système formation",
+      "acquired": "Compétences réellement acquises",
+      "acquiredSub": "Conversion pédagogique et qualité de delivery",
+      "used": "Compétences mises en application",
+      "usedSub": "Transfert sur le terrain et appropriation managériale",
+      "impact": "Impact business mesurable",
+      "impactSub": "Valeur effectivement générée pour l'entreprise"
+    },
+    "scenarios": {
+      "tier1Tag": "Niveau 1",
+      "tier1Title": "Correction rapide",
+      "tier1Desc": "Conformité, financements, quick wins. Idéal si votre score est inférieur à 50 sur la conformité ou les financements.",
+      "tier1It1": "Mise en conformité réglementaire",
+      "tier1It2": "Activation des dispositifs de financement non utilisés",
+      "tier1It3": "Plan d'action 90 jours",
+      "tier2Tag": "Niveau 2",
+      "tier2Title": "Structuration",
+      "tier2Desc": "Système de formation, pilotage, outils. Adapté si votre score global se situe entre 40 et 70.",
+      "tier2It1": "Architecture de formation et parcours",
+      "tier2It2": "Outils de pilotage et indicateurs ROI",
+      "tier2It3": "Cartographie des compétences critiques",
+      "tier3Tag": "Niveau 3",
+      "tier3Title": "Transformation",
+      "tier3Desc": "Formation comme levier business, intégration stratégique, design complet. Pour les organisations prêtes à passer un cap.",
+      "tier3It1": "Alignement formation et stratégie business",
+      "tier3It2": "Refonte complète du dispositif",
+      "tier3It3": "Modèle de mesure d'impact",
+      "recommended": "Recommandé pour vous"
+    },
+    "maturity": {
+      "lvl1": "Formation subie",
+      "lvl2": "Formation administrative",
+      "lvl3": "Formation pilotée",
+      "lvl4": "Formation performante",
+      "lvl5": "Formation stratégique"
+    },
+    "dimNames": {
+      "STRAT": "Alignement stratégique",
+      "SKILL": "Maîtrise des compétences",
+      "SYS": "Système de formation",
+      "ROI": "Impact et ROI",
+      "FUND": "Financement",
+      "COMP": "Conformité"
+    },
+    "blockDesc": {
+      "STRAT": "À quel point la formation est-elle reliée à la stratégie business de l'entreprise ?",
+      "SKILL": "Quel niveau de connaissance avez-vous des écarts de compétences réels dans vos équipes ?",
+      "SYS": "Comment la formation est-elle structurée, déployée et évaluée dans votre organisation ?",
+      "ROI": "Mesurez-vous l'impact réel de la formation sur la performance ?",
+      "FUND": "Maîtrisez-vous les leviers de financement de la formation professionnelle ?",
+      "COMP": "Êtes-vous à jour de vos obligations légales et capable de répondre à un audit ?"
+    },
+    "pdf": {
+      "coverEyebrow": "Diagnostic Mentivis",
+      "coverTitle": "Training Impact Score",
+      "coverScoreLabel": "Score global de maturité",
+      "coverGap": "Écart perception/réalité",
+      "coverDate": "Date du diagnostic",
+      "coverRespondent": "Répondant",
+      "coverBudget": "Budget formation analysé",
+      "coverFooter": "Document confidentiel généré par Mentivis",
+      "summaryEyebrow": "Page 1",
+      "summaryTitle": "Synthèse exécutive",
+      "summaryIntro": "Ce diagnostic mesure la maturité du dispositif formation de {company} sur six dimensions clés. Il combine une auto-évaluation déclarative et des questions de preuve, ce qui permet d'objectiver l'écart entre la perception et la réalité processuelle.",
+      "summaryScore": "Le score global de {score} sur 100 positionne votre organisation au niveau {level}.",
+      "summaryGap": "L'écart de {gap} points entre votre perception et la réalité indique {gapInterpretation}.",
+      "summaryWeakest": "La dimension la plus faible est {weakest} avec un score de {weakestScore} sur 100.",
+      "summaryStrongest": "La plus forte est {strongest} avec un score de {strongestScore} sur 100.",
+      "summaryGapLow": "une bonne lucidité sur votre dispositif",
+      "summaryGapMid": "un écart modéré qui mérite attention",
+      "summaryGapHigh": "un décalage significatif entre vos convictions et vos processus réels",
+      "scoringEyebrow": "Page 2",
+      "scoringTitle": "Cartographie des dimensions",
+      "scoringSubtitle": "Le radar ci-dessous superpose votre perception déclarée et la réalité ajustée par les questions de preuve. La lecture des écarts par dimension révèle les zones où le ressenti dirigeant diverge le plus du fonctionnement opérationnel.",
+      "scoringTableTitle": "Détail des scores",
+      "diagEyebrow": "Page 3",
+      "diagTitle": "Diagnostic détaillé",
+      "diagIntro": "Synthèse stratégique générée à partir des combinaisons de scores observées dans votre organisation.",
+      "diagDiag": "Diagnostic",
+      "diagRisks": "Risques identifiés",
+      "diagOpp": "Opportunités prioritaires",
+      "valueEyebrow": "Page 4",
+      "valueTitle": "Estimation chiffrée des pertes",
+      "valueIntro": "Projection de la transformation de votre budget formation annuel en valeur business effective. Chaque ratio de conversion est calculé à partir de vos scores réels.",
+      "valueTableHeader1": "Étape",
+      "valueTableHeader2": "Montant",
+      "valueTableHeader3": "Conversion",
+      "valueLossLabel": "Perte de valeur estimée sur le cycle complet",
+      "valueLossSub": "Différence entre le budget initial et l'impact business effectivement généré.",
+      "planEyebrow": "Page 5",
+      "planTitle": "Plan recommandé",
+      "planIntro": "Trois niveaux d'intervention possibles selon vos enjeux et votre niveau de maturité actuel. Le scénario recommandé est mis en évidence.",
+      "planContact": "Pour discuter de la mise en œuvre, contactez votre interlocuteur Mentivis.",
+      "footerLeft": "Mentivis Training Impact Score",
+      "footerRight": "Page {page}/5"
+    }
   }
 }

@@ -8,15 +8,19 @@ type DualEntryCardProps = {
     cta: string;
   };
   href: string;
-  tone: "dark" | "purple";
+  tone: "dark" | "purple" | "light";
 };
 
 export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) {
   const isDark = tone === "dark";
   const isPurple = tone === "purple";
-  const bg = isDark ? "var(--m-ink)" : isPurple ? "var(--m-purple)" : "white";
+  const isLight = tone === "light";
+  const bg = isDark ? "var(--m-ink)" : isPurple ? "var(--m-purple)" : "var(--m-bg-soft)";
   const fg = isDark || isPurple ? "white" : "var(--m-ink)";
   const meta = isDark || isPurple ? "rgba(255,255,255,0.7)" : "var(--m-ink-3)";
+  const border = isDark || isPurple ? "rgba(255,255,255,0.15)" : "var(--m-line)";
+  const bgLetter = isDark || isPurple ? "rgba(255,255,255,0.05)" : "rgba(0,7,118,0.04)";
+  const letterText = isLight ? "S" : (isPurple ? "OF" : "E");
 
   return (
     <div style={{
@@ -28,6 +32,7 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
       overflow: "hidden",
       minHeight: 380,
       transition: "transform 0.25s ease",
+      border: isLight ? "1px solid var(--m-line)" : "none",
     }}>
       <Link href={href} style={{
         display: "block",
@@ -37,36 +42,49 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
         borderRadius: 24,
       }} aria-label={data.cta} />
       <div style={{ display: "flex", flexDirection: "column" as const, height: "100%", minHeight: 320, position: "relative" as const, zIndex: 2 }}>
-        <div style={{ fontFamily: "var(--f-display)", fontSize: 16, color: meta, letterSpacing: "0.01em" }}>{data.kicker}</div>
+        <div style={{ fontFamily: "var(--f-display)", fontSize: 18, color: meta, letterSpacing: "0.01em", fontWeight: 500 }}>{data.kicker}</div>
         <h3 style={{
           fontFamily: "var(--f-display)",
-          fontSize: "clamp(28px, 3.4vw, 42px)",
+          fontSize: "clamp(22px, 2.5vw, 32px)",
           fontWeight: 400,
           letterSpacing: "-0.015em",
-          lineHeight: 1.1,
-          margin: "16px 0 24px",
+          lineHeight: 1.15,
+          margin: "14px 0 20px",
           maxWidth: 380,
         }}>{data.title}</h3>
         <ul style={{ listStyle: "none", padding: 0, margin: 0, marginTop: "auto" }}>
           {data.items.map((it, i) => (
-            <li key={i} style={{ padding: "12px 0", borderTop: "1px solid " + (isDark || isPurple ? "rgba(255,255,255,0.15)" : "var(--m-line)"), fontSize: 15, color: meta }}>
+            <li key={i} style={{ padding: "11px 0", borderTop: `1px solid ${border}`, fontSize: 14.5, color: meta }}>
               {it}
             </li>
           ))}
         </ul>
-        <div style={{ marginTop: 28, fontSize: 14.5, fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 8, position: "relative" as const, zIndex: 3 }}>
-          <Link href={href} style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 8 }}>
-            {data.cta} <span style={{ display: "inline-block", transition: "transform 0.2s" }}>→</span>
+        <div style={{ marginTop: 24, display: "inline-flex", alignItems: "center", position: "relative" as const, zIndex: 3 }}>
+          <Link href={href} style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 8,
+            padding: "10px 20px",
+            fontSize: 13.5,
+            fontWeight: 600,
+            color: isDark || isPurple ? "white" : "var(--m-ink)",
+            border: `1.5px solid ${isDark || isPurple ? "rgba(255,255,255,0.5)" : "var(--m-ink)"}`,
+            borderRadius: 999,
+            textDecoration: "none",
+            transition: "all 0.18s ease",
+          }}>
+            {data.cta}
+            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
           </Link>
         </div>
       </div>
       <div aria-hidden="true" style={{
         position: "absolute" as const, right: -20, top: -40,
         fontFamily: "var(--f-display)", fontWeight: 700,
-        fontSize: 240, lineHeight: 1, color: isDark || isPurple ? "rgba(255,255,255,0.05)" : "rgba(0,7,118,0.04)",
+        fontSize: 240, lineHeight: 1, color: bgLetter,
         userSelect: "none" as const,
       }}>
-        {isPurple ? "OF" : "E"}
+        {letterText}
       </div>
     </div>
   );

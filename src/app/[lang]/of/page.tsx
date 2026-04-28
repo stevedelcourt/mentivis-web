@@ -1,26 +1,18 @@
 "use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
 
 export default function OfPage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const o = t.of;
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <PageHero
         eyebrow={o.eyebrow}
         titleParts={lang === "fr"
@@ -30,8 +22,14 @@ export default function OfPage() {
         lead={o.heroLead}
       >
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const }}>
-          <Link href={`/${lang}/contact`} className="btn btn-primary">{t.nav.cta} →</Link>
-          <Link href={`/${lang}/of#pillars`} className="btn btn-outline">{lang === "fr" ? "Voir les pôles" : "View pillars"}</Link>
+          <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+            {t.nav.cta}
+            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          </Link>
+          <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+            {lang === "fr" ? "Voir les pôles" : "View pillars"}
+            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          </Link>
         </div>
       </PageHero>
 
@@ -39,9 +37,12 @@ export default function OfPage() {
         <div className="container">
           <SectionHeader eyebrow={lang === "fr" ? "Pôles d'intervention" : "Pillars"} title={o.pillarsTitle} lead={o.pillarsLead} />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, marginTop: 56 }} className="m-grid-2">
-            {o.pillars.map((p, i) => (
-              <PillarCard key={i} n={p.n} title={p.title} body={p.body} items={p.items} />
-            ))}
+            {o.pillars.map((p, i) => {
+              const icons = ["lightbulb", "engineering", "folder_open", "rocket_launch"];
+              return (
+                <PillarCard key={i} n={p.n} title={p.title} body={p.body} items={p.items} icon={icons[i]} />
+              );
+            })}
           </div>
         </div>
       </section>
@@ -52,14 +53,24 @@ export default function OfPage() {
             <div className="t-eyebrow" style={{ marginBottom: 24, color: "rgba(255,255,255,0.6)" }}>
               05 — {lang === "fr" ? "Externalisation" : "Outsourcing"}
             </div>
-            <h2 className="t-display" style={{ fontSize: "clamp(36px, 5vw, 60px)", margin: 0, color: "white" }}>{o.externalisedTitle}</h2>
+            <h2 className="t-display" style={{ fontSize: "clamp(28px, 4vw, 48px)", margin: 0, color: "white" }}>{o.externalisedTitle}</h2>
             <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 19, marginTop: 22, maxWidth: 720, lineHeight: 1.55 }}>{o.externalisedLead}</p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 1, background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 16, overflow: "hidden", marginTop: 56 }} className="m-grid-3">
-            {o.externalised.map((s, i) => (
+            {[
+              { ...o.externalised[0], icon: "person_search" },
+              { ...o.externalised[1], icon: "school" },
+              { ...o.externalised[2], icon: "campaign" },
+              { ...o.externalised[3], icon: "folder_open" },
+              { ...o.externalised[4], icon: "verified" },
+              { ...o.externalised[5], icon: "build" },
+            ].map((s, i) => (
               <div key={i} style={{ background: "var(--m-ink)", padding: 32, minHeight: 180 }}>
-                <div style={{ fontFamily: "var(--f-display)", color: "#6b73d6", fontSize: 14, marginBottom: 14 }}>0{i + 1}</div>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
+                  <span className="material-symbols-outlined" style={{ color: "#6b73d6", fontSize: 22 }}>{s.icon}</span>
+                  <span style={{ fontFamily: "var(--f-display)", color: "#6b73d6", fontSize: 14 }}>0{i + 1}</span>
+                </div>
                 <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 10px", color: "white" }}>{s.title}</h4>
                 <p style={{ color: "rgba(255,255,255,0.65)", fontSize: 14.5, margin: 0, lineHeight: 1.55 }}>{s.body}</p>
               </div>
@@ -109,8 +120,7 @@ export default function OfPage() {
         </div>
       </section>
 
-      <FinalCTA t={t as any} title={o.finalCta} lang={lang} accent="purple" />
-      <Footer t={t as any} lang={lang} />
-    </main>
+      <FinalCTA t={t} title={o.finalCta} lang={lang} accent="purple" />
+    </PageShell>
   );
 }

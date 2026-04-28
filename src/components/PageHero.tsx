@@ -28,7 +28,7 @@ export default function PageHero({ eyebrow, titleParts, lead, accentIndices = []
           </div>
         </Reveal>
         <Reveal delay={80}>
-          <h1 className="t-display" style={{ fontSize: "clamp(44px, 7vw, 92px)", maxWidth: 1080, margin: 0 }}>
+          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 1080, margin: 0 }}>
             {titleParts.map((p, i) => (
               accentIndices.includes(i)
                 ? <em key={i}>{p}</em>

@@ -1,13 +1,10 @@
 "use client";
-import { useParams } from "next/navigation";
 import { useState } from "react";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -32,9 +29,7 @@ function ContactSuccess({ message }: { message: string }) {
 }
 
 export default function ContactPage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const c = t.contact;
   const [form, setForm] = useState({ name: "", you: c.youOptions[0], email: "", phone: "", project: "" });
   const [sent, setSent] = useState(false);
@@ -42,12 +37,12 @@ export default function ContactPage() {
   const update = (k: string, v: string) => setForm((f) => ({ ...f, [k]: v }));
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!form.name || !form.email || !form.project) return;
     setSent(true);
   };
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <section style={{ paddingTop: 120, paddingBottom: 60 }}>
         <div className="container">
           <Reveal>
@@ -56,7 +51,7 @@ export default function ContactPage() {
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="t-display" style={{ fontSize: "clamp(48px, 7vw, 88px)", margin: 0, maxWidth: 880 }}>
+            <h1 className="t-display" style={{ fontSize: "clamp(36px, 5vw, 68px)", margin: 0, maxWidth: 880 }}>
               {c.title[0]}<br />
               <em>{c.title[1]}</em><br />
               {c.title[2]}
@@ -110,34 +105,34 @@ export default function ContactPage() {
                   <textarea className="textarea" required value={form.project} onChange={(e) => update("project", e.target.value)} />
                 </Field>
                 <div>
-                  <button type="submit" className="btn btn-primary" style={{ marginTop: 8 }}>
-                    {c.labels.submit} →
+                  <button type="submit" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", border: "none", borderRadius: 999, cursor: "pointer", marginTop: 8 }}>
+                    {c.labels.submit}
+                    <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
                   </button>
                 </div>
               </form>
             )}
 
             <aside style={{ borderLeft: "1px solid var(--m-line)", paddingLeft: 40 }} className="m-aside">
-              <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: 0 }}>{c.direct.title}</h4>
-              <ul style={{ listStyle: "none", padding: 0, margin: "24px 0 0", display: "flex", flexDirection: "column" as const, gap: 16 }}>
-                <li>
-                  <div style={{ fontSize: 12, color: "var(--m-ink-4)", textTransform: "uppercase" as const, letterSpacing: "0.1em" }}>Email</div>
-                  <a href={"mailto:" + c.direct.email} style={{ fontSize: 17, color: "var(--m-ink)" }}>{c.direct.email}</a>
-                </li>
-                <li>
-                  <div style={{ fontSize: 12, color: "var(--m-ink-4)", textTransform: "uppercase" as const, letterSpacing: "0.1em" }}>Tel.</div>
-                  <a href={"tel:" + c.direct.phone.replace(/\s/g, "")} style={{ fontSize: 17, color: "var(--m-ink)" }}>{c.direct.phone}</a>
-                </li>
-                <li>
-                  <div style={{ fontSize: 12, color: "var(--m-ink-4)", textTransform: "uppercase" as const, letterSpacing: "0.1em" }}>{lang === "fr" ? "Localisation" : "Location"}</div>
-                  <span style={{ fontSize: 17 }}>{c.direct.loc}</span>
-                </li>
-              </ul>
+              <p style={{ fontSize: 14, color: "var(--m-ink-3)", margin: "0 0 20px", lineHeight: 1.5 }}>
+                {lang === "fr" ? "Vous pouvez également appeler" : "You can also call"}
+              </p>
+              <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 8 }}>
+                <div style={{ width: 56, height: 56, borderRadius: "50%", overflow: "hidden", flexShrink: 0, background: "var(--m-bg-soft)" }}>
+                  <Image src="/mathias.costes.webp" alt="Mathias Costes" width={56} height={56} style={{ objectFit: "cover", width: "100%", height: "100%" }} />
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, fontSize: 16, color: "var(--m-ink)" }}>Mathias Costes</div>
+                  <div style={{ fontSize: 13, color: "var(--m-ink-3)" }}>Partner Mentivis</div>
+                </div>
+              </div>
+              <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} style={{ fontSize: 17, color: "var(--m-ink)", fontWeight: 500, textDecoration: "none" }}>
+                {SITE.phone}
+              </a>
             </aside>
           </div>
         </div>
       </section>
-      <Footer t={t as any} lang={lang} />
-    </main>
+    </PageShell>
   );
 }

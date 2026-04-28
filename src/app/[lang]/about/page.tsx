@@ -1,33 +1,28 @@
 "use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const messages: Record<string, typeof fr> = { fr, en };
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
 
 export default function AboutPage() {
-  const params = useParams();
-  const lang = (params?.lang as string) || "fr";
-  const t = messages[lang] || messages.fr;
+  const { t, lang } = useMessages();
   const a = t.about;
 
   return (
-    <main className="page-shell">
-      <TopNav t={t as any} lang={lang} setLang={() => {}} route="" />
+    <PageShell>
       <PageHero
         eyebrow={a.eyebrow}
         titleParts={[a.title[0], a.title[1]]}
         accentIndices={[1]}
         lead={a.lead}
       >
-        <Link href={`/${lang}/contact`} className="btn btn-primary">{t.nav.cta} →</Link>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+          {t.nav.cta}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
       </PageHero>
 
       <section className="section">
@@ -90,8 +85,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <FinalCTA t={t as any} title={t.home.finalCtaTitle} lead={t.home.finalCtaLead} lang={lang} accent="ink" />
-      <Footer t={t as any} lang={lang} />
-    </main>
+      <FinalCTA t={t} title={t.home.finalCtaTitle} lead={t.home.finalCtaLead} lang={lang} accent="ink" />
+    </PageShell>
   );
 }

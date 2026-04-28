@@ -14,17 +14,23 @@ export default function Reveal({ children, delay = 0, as: Tag = "div", style }: 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    if (typeof IntersectionObserver === "undefined") { setShown(true); return; }
+    if (typeof IntersectionObserver === "undefined") {
+      requestAnimationFrame(() => setShown(true));
+      return;
+    }
     const io = new IntersectionObserver((entries) => {
       entries.forEach((e) => {
-        if (e.isIntersecting) { setShown(true); io.disconnect(); }
+        if (e.isIntersecting) {
+          requestAnimationFrame(() => setShown(true));
+          io.disconnect();
+        }
       });
     }, { threshold: 0.12 });
     io.observe(el);
     return () => io.disconnect();
   }, []);
 
-  const TagComponent = Tag as any;
+  const TagComponent = Tag as React.ElementType;
   return (
     <TagComponent ref={ref} style={{
       ...style,
