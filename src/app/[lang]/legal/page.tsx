@@ -3,6 +3,10 @@ import PageShell from "@/components/layout/PageShell";
 import LegalPageLayout from "@/components/ui/LegalPageLayout";
 import { useMessages } from "@/lib/messages";
 
+function encodeEntities(text: string): string {
+  return text.split("").map((c) => `&#${c.charCodeAt(0)};`).join("");
+}
+
 export default function LegalPage() {
   const { lang } = useMessages();
 
@@ -12,7 +16,7 @@ export default function LegalPage() {
     sections: [
       {
         title: "Éditeur du site",
-        body: `Mentivis SAS\nSociété par actions simplifiée au capital de dix mille euros\nSiège social : 60 rue François 1er, 75008 Paris\n941 914 814 R.C.S. Paris\nEmail : contact@mentivis.com\nTéléphone : +33 1 89 48 10 02`,
+        body: `Mentivis SAS\nSociété par actions simplifiée au capital de dix mille euros\nSiège social : 60 rue François 1er, 75008 Paris\n941 914 814 R.C.S. Paris\nEmail : ${encodeEntities("contact@mentivis.com")}\nTéléphone : ${encodeEntities("+33 1 89 48 10 02")}`,
       },
       {
         title: "Directeur de la publication",
@@ -37,7 +41,7 @@ export default function LegalPage() {
     sections: [
       {
         title: "Website publisher",
-        body: `Mentivis SAS\nSimplified Joint Stock Company with capital of 10,000 euros\nHeadquarters: 60 rue François 1er, 75008 Paris\n941 914 814 R.C.S. Paris\nEmail: contact@mentivis.com\nPhone: +33 1 89 48 10 02`,
+        body: `Mentivis SAS\nSimplified Joint Stock Company with capital of 10,000 euros\nHeadquarters: 60 rue François 1er, 75008 Paris\n941 914 814 R.C.S. Paris\nEmail: ${encodeEntities("contact@mentivis.com")}\nPhone: ${encodeEntities("+33 1 89 48 10 02")}`,
       },
       {
         title: "Publication director",

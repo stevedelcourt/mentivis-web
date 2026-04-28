@@ -8,16 +8,9 @@ type FooterMessages = {
   nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; };
   footer: {
     tagline: string;
-    ctaTitle: string;
-    ctaLead: string;
-    newsletterTitle: string;
-    newsletterBody: string;
-    newsletterPlaceholder: string;
-    newsletterSuccess: string;
     navigation: string;
     copy: string;
   };
-  common: { learnMore: string; };
 };
 
 type FooterProps = {
@@ -54,12 +47,12 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
           <li key={i} style={{ marginBottom: 9 }}>
             {l.onClick ? (
               <button onClick={l.onClick} className="m-footer-link" style={{ background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left", display: "inline-flex", alignItems: "center", gap: 4 }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 13, color: "var(--m-ink-3)" }}>chevron_right</span>
+                <span className="material-symbols-outlined m-footer-chevron">chevron_right</span>
                 {l.label}
               </button>
             ) : (
               <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 13, color: "var(--m-ink-3)" }}>chevron_right</span>
+                <span className="material-symbols-outlined m-footer-chevron">chevron_right</span>
                 {l.label}
               </a>
             )}
@@ -100,77 +93,9 @@ function PageStats() {
 }
 
 export default function Footer({ t, lang }: FooterProps) {
-  const [email, setEmail] = useState("");
-  const [subscribed, setSubscribed] = useState(false);
-
-  const submit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-    setSubscribed(true);
-  };
-
   return (
     <footer style={{ background: "var(--m-bg-soft)", marginTop: 80, position: "relative" as const, overflow: "hidden" }}>
-      <div style={{ position: "relative" as const, padding: "120px 0 60px", textAlign: "center" }}>
-        <div className="container" style={{ position: "relative" as const, zIndex: 2 }}>
-          <h2 className="t-display" style={{
-            fontSize: "clamp(32px, 4vw, 52px)",
-            margin: 0,
-            maxWidth: 780,
-            marginLeft: "auto",
-            marginRight: "auto",
-            lineHeight: 1.1,
-          }}>
-            {t.footer.ctaTitle}
-          </h2>
-          <p style={{
-            color: "var(--m-ink-3)",
-            fontSize: 17,
-            marginTop: 22,
-            maxWidth: 540,
-            marginLeft: "auto",
-            marginRight: "auto",
-            lineHeight: 1.5,
-          }}>
-            {t.footer.ctaLead}
-          </p>
-          <div style={{ marginTop: 32, display: "inline-flex", gap: 10 }}>
-            <Link href={`/${lang}/contact`} style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "12px 22px",
-              fontSize: 14,
-              fontWeight: 600,
-              color: "white",
-              background: "var(--m-ink)",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}>
-              {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-            <Link href={`/${lang}/about`} style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "12px 22px",
-              fontSize: 14,
-              fontWeight: 600,
-              color: "var(--m-ink)",
-              background: "white",
-              border: "1.5px solid var(--m-line)",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}>
-              {t.common.learnMore}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div style={{ position: "relative" as const, zIndex: 2, padding: "0 24px 40px" }}>
+      <div style={{ position: "relative" as const, zIndex: 2, padding: "48px 24px 40px" }}>
         <div style={{
           maxWidth: 1280,
           margin: "0 auto",
@@ -182,7 +107,7 @@ export default function Footer({ t, lang }: FooterProps) {
         }} className="m-footer-card">
           <div style={{
             display: "grid",
-            gridTemplateColumns: "1.4fr 1fr 1fr 1fr",
+            gridTemplateColumns: "1.4fr 1fr 1fr",
             gap: 48,
             paddingBottom: 36,
             borderBottom: "1px solid var(--m-line-2)",
@@ -226,66 +151,6 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
               { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)", external: true },
             ]} />
-            <div>
-              <h5 style={{
-                fontSize: 11,
-                textTransform: "uppercase" as const,
-                letterSpacing: "0.12em",
-                color: "var(--m-ink-4)",
-                margin: "0 0 14px 0",
-                fontWeight: 600,
-              }}>{t.footer.newsletterTitle}</h5>
-              {subscribed ? (
-                <div style={{ fontSize: 13.5, color: "var(--m-ink-2)" }}>
-                  ✓ {t.footer.newsletterSuccess}
-                </div>
-              ) : (
-                <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 8 }}>
-                  <p style={{ fontSize: 12.5, color: "var(--m-ink-3)", margin: 0, lineHeight: 1.5 }}>{t.footer.newsletterBody}</p>
-                  <div style={{
-                    display: "flex",
-                    background: "var(--m-bg-soft)",
-                    borderRadius: 999,
-                    padding: 4,
-                    border: "1px solid var(--m-line)",
-                    marginTop: 6,
-                  }}>
-                    <input
-                      type="email"
-                      required
-                      placeholder={t.footer.newsletterPlaceholder}
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      style={{
-                        flex: 1,
-                        background: "transparent",
-                        border: "none",
-                        outline: "none",
-                        color: "var(--m-ink)",
-                        fontFamily: "var(--f-sans)",
-                        fontSize: 13,
-                        padding: "6px 12px",
-                        minWidth: 0,
-                      }}
-                    />
-                    <button type="submit" style={{
-                      background: "var(--m-ink)",
-                      color: "white",
-                      border: "none",
-                      borderRadius: 999,
-                      padding: "8px 14px",
-                      fontWeight: 600,
-                      fontSize: 12,
-                      cursor: "pointer",
-                      fontFamily: "var(--f-sans)",
-                      whiteSpace: "nowrap" as const,
-                    }}>
-                      <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-                    </button>
-                  </div>
-                </form>
-              )}
-            </div>
           </div>
 
           <div style={{

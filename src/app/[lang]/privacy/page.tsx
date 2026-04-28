@@ -3,6 +3,10 @@ import PageShell from "@/components/layout/PageShell";
 import LegalPageLayout from "@/components/ui/LegalPageLayout";
 import { useMessages } from "@/lib/messages";
 
+function encodeEntities(text: string): string {
+  return text.split("").map((c) => `&#${c.charCodeAt(0)};`).join("");
+}
+
 export default function PrivacyPage() {
   const { lang } = useMessages();
 
@@ -12,7 +16,7 @@ export default function PrivacyPage() {
     sections: [
       {
         title: "Responsable du traitement",
-        body: `Mentivis SAS\n60 rue François 1er, 75008 Paris\nEmail : contact@mentivis.com`,
+        body: `Mentivis SAS\n60 rue François 1er, 75008 Paris\nEmail : ${encodeEntities("contact@mentivis.com")}`,
       },
       {
         title: "Données collectées",
@@ -28,7 +32,7 @@ export default function PrivacyPage() {
       },
       {
         title: "Vos droits",
-        body: "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Contactez-nous à contact@mentivis.com pour exercer ces droits.",
+        body: `Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Contactez-nous à ${encodeEntities("contact@mentivis.com")} pour exercer ces droits.`,
       },
     ],
   } : {
@@ -37,7 +41,7 @@ export default function PrivacyPage() {
     sections: [
       {
         title: "Data controller",
-        body: `Mentivis SAS\n60 rue François 1er, 75008 Paris\nEmail: contact@mentivis.com`,
+        body: `Mentivis SAS\n60 rue François 1er, 75008 Paris\nEmail: ${encodeEntities("contact@mentivis.com")}`,
       },
       {
         title: "Data collected",
@@ -53,7 +57,7 @@ export default function PrivacyPage() {
       },
       {
         title: "Your rights",
-        body: "In accordance with the GDPR, you have the right to access, rectify, delete and port your data. Contact us at contact@mentivis.com to exercise these rights.",
+        body: `In accordance with the GDPR, you have the right to access, rectify, delete and port your data. Contact us at ${encodeEntities("contact@mentivis.com")} to exercise these rights.`,
       },
     ],
   };

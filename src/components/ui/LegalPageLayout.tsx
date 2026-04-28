@@ -29,9 +29,7 @@ export default function LegalPageLayout({
               <h2 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, margin: "0 0 12px", letterSpacing: "-0.5px" }}>
                 {section.title}
               </h2>
-              <p style={{ color: "var(--m-ink-2)", fontSize: 16, lineHeight: 1.6, whiteSpace: "pre-line", margin: 0 }}>
-                {section.body}
-              </p>
+              <p style={{ color: "var(--m-ink-2)", fontSize: 16, lineHeight: 1.6, margin: 0 }} dangerouslySetInnerHTML={{ __html: section.body.replace(/\n/g, "<br/>") }} />
             </div>
           </Reveal>
         ))}

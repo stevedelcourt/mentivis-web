@@ -248,6 +248,18 @@ button { font-family: inherit; cursor: pointer; }
   font-weight: 500;
 }
 
+/* Footer chevrons: only on hover */
+.m-footer-chevron {
+  font-size: 13px;
+  color: var(--m-ink-3);
+  opacity: 0;
+  transition: opacity 0.18s;
+}
+.m-footer-link:hover .m-footer-chevron,
+.m-footer-bar-link:hover .m-footer-chevron {
+  opacity: 1;
+}
+
 /* Cookie consent overrides — Buy All + Analytics use navy #000776 */
 .cc-btn.cc-accept-all,
 .cc-btn.cc-show-preferences {
