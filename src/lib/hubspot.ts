@@ -10,7 +10,7 @@ function getHspt(): any {
   return (window as any).hbspt;
 }
 
-function waitForHbspt(maxMs = 10000): Promise<any> {
+function waitForHbspt(maxMs = 15000): Promise<any> {
   return new Promise((resolve, reject) => {
     const start = Date.now();
     const check = () => {
@@ -43,7 +43,6 @@ export function useHubSpotSubmit() {
     try {
       const hbspt = await waitForHbspt();
 
-      // Create hidden container if not exists
       let container = containerRef.current;
       if (!container) {
         container = document.createElement("div");
@@ -52,35 +51,47 @@ export function useHubSpotSubmit() {
         containerRef.current = container;
       }
 
-      // Clear previous form
       container.innerHTML = "";
 
       await new Promise<void>((resolve, reject) => {
+        let resolved = false;
+        const doResolve = () => {
+          if (!resolved) { resolved = true; resolve(); }
+        };
+        const doReject = (reason?: string) => {
+          if (!resolved) { resolved = true; reject(new Error(reason || "HubSpot form submission failed")); }
+        };
+
+        // Safety timeout
+        const timeout = setTimeout(() => doReject("HubSpot submission timed out"), 15000);
+
         hbspt.forms.create({
           portalId: HUBSPOT_PORTAL_ID,
           formId: HUBSPOT_FORM_ID,
           target: container,
           onFormReady: ($form: any) => {
             try {
-              // Set field values
               Object.entries(fields).forEach(([key, value]) => {
                 const input = $form.querySelector(`[name="${key}"]`);
                 if (input) {
                   (input as HTMLInputElement).value = String(value);
                 }
               });
-              // Submit
-              $form.submit();
-              resolve();
+              // Dispatch submit event so HubSpot's AJAX handler intercepts it
+              const submitEvent = new Event("submit", { bubbles: true, cancelable: true });
+              $form.dispatchEvent(submitEvent);
             } catch (err) {
-              reject(err);
+              clearTimeout(timeout);
+              doReject(String(err));
             }
           },
           onFormSubmitted: () => {
-            resolve();
+            clearTimeout(timeout);
+            doResolve();
           },
-          onFormSubmitError: () => {
-            reject(new Error("HubSpot form submission failed"));
+          onFormSubmitError: (err: any) => {
+            clearTimeout(timeout);
+            doReject(err?.message || "HubSpot rejected the submission");
           },
         });
       });

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -16,7 +17,7 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   );
 }
 
-function ContactSuccess({ message }: { message: string }) {
+function ContactSuccess({ title, body, back }: { title: string; body: string; back: string }) {
   return (
     <div style={{ padding: "60px 48px", border: "1px solid var(--m-line)", borderRadius: 20, background: "var(--m-bg-soft)", textAlign: "center" as const }}>
       <div style={{
@@ -24,7 +25,12 @@ function ContactSuccess({ message }: { message: string }) {
         display: "inline-flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: 24,
         marginBottom: 24,
       }}>✓</div>
-      <h3 style={{ fontFamily: "var(--f-display)", fontSize: 32, fontWeight: 700, letterSpacing: "-1px", margin: 0 }}>{message}</h3>
+      <h3 style={{ fontFamily: "var(--f-display)", fontSize: 32, fontWeight: 700, letterSpacing: "-1px", margin: "0 0 12px" }}>{title}</h3>
+      <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px" }}>{body}</p>
+      <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 14, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
+        {back}
+        <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+      </Link>
     </div>
   );
 }
@@ -32,7 +38,8 @@ function ContactSuccess({ message }: { message: string }) {
 export default function ContactPage() {
   const { t, lang } = useMessages();
   const c = t.contact;
-  const [form, setForm] = useState({ name: "", you: c.youOptions[0], email: "", phone: "", project: "" });
+  const [form, setForm] = useState({ firstname: "", lastname: "", you: c.youOptions[0], email: "", phone: "", project: "" });
+  const [consent, setConsent] = useState(false);
   const [sent, setSent] = useState(false);
   const [honeypot, setHoneypot] = useState("");
   const { submit: hsSubmit, loading, error } = useHubSpotSubmit();
@@ -41,16 +48,12 @@ export default function ContactPage() {
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!form.name || !form.email || !form.project) return;
+    if (!form.firstname || !form.lastname || !form.email || !form.project || !consent) return;
     if (honeypot) return; // spam bot
 
-    const nameParts = form.name.trim().split(/\s+/);
-    const firstname = nameParts[0] || "";
-    const lastname = nameParts.slice(1).join(" ") || "";
-
     await hsSubmit({
-      firstname,
-      lastname,
+      firstname: form.firstname,
+      lastname: form.lastname,
       email: form.email,
       phone: form.phone,
       message: form.project,
@@ -85,7 +88,7 @@ export default function ContactPage() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 80, alignItems: "start" }} className="m-split-grid">
             {sent ? (
-              <ContactSuccess message={c.success} />
+              <ContactSuccess title={c.successTitle} body={c.successBody} back={c.successBack} />
             ) : (
               <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
                 {/* Honeypot */}
@@ -98,9 +101,14 @@ export default function ContactPage() {
                   autoComplete="off"
                   style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
                 />
-                <Field label={c.labels.name}>
-                  <input className="input" required value={form.name} onChange={(e) => update("name", e.target.value)} />
-                </Field>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
+                  <Field label={c.labels.firstname}>
+                    <input className="input" required value={form.firstname} onChange={(e) => update("firstname", e.target.value)} />
+                  </Field>
+                  <Field label={c.labels.lastname}>
+                    <input className="input" required value={form.lastname} onChange={(e) => update("lastname", e.target.value)} />
+                  </Field>
+                </div>
                 <Field label={c.labels.you}>
                   <div style={{ display: "flex", gap: 8, flexWrap: "wrap" as const }}>
                     {c.youOptions.map((opt) => (
@@ -132,6 +140,19 @@ export default function ContactPage() {
                 <Field label={c.labels.project}>
                   <textarea className="textarea" required value={form.project} onChange={(e) => update("project", e.target.value)} />
                 </Field>
+                <label style={{ display: "flex", alignItems: "flex-start", gap: 10, cursor: "pointer", fontSize: 13, color: "var(--m-ink-3)", lineHeight: 1.5 }}>
+                  <input
+                    type="checkbox"
+                    required
+                    checked={consent}
+                    onChange={(e) => setConsent(e.target.checked)}
+                    style={{ marginTop: 2, flexShrink: 0 }}
+                  />
+                  <span>
+                    {c.labels.consent}{" "}
+                    <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{c.labels.consentLink}</Link>.
+                  </span>
+                </label>
                 {error && (
                   <p style={{ color: "#dc2626", fontSize: 14, margin: 0 }}>
                     {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}

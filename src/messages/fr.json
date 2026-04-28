@@ -284,15 +284,20 @@
     "title": ["Vous avez un projet.", "Nous avons les réponses.", "Parlons-en."],
     "lead": "Une page sans friction. Pas de long formulaire, pas de promesse marketing — juste une invitation à la conversation.",
     "labels": {
-      "name": "Nom et prénom",
+      "firstname": "Prénom",
+      "lastname": "Nom",
       "you": "Vous êtes",
       "email": "Email professionnel",
       "phone": "Téléphone (optionnel)",
       "project": "Votre projet en quelques mots",
-      "submit": "Envoyer"
+      "submit": "Envoyer",
+      "consent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
+      "consentLink": "politique de confidentialité"
     },
     "youOptions": ["Entreprise", "Organisme de formation", "Autre"],
-    "success": "Merci. Nous vous répondons sous 24h.",
+    "successTitle": "Message envoyé !",
+    "successBody": "Nous avons bien reçu votre demande. Nous vous répondrons dans les 48h.",
+    "successBack": "Retour à l'accueil",
     "direct": {
       "title": "Ou écrivez-nous directement"
     }
@@ -413,10 +418,12 @@
       "eyebrow": "Passer du diagnostic à l'action",
       "title": "Le diagnostic est posé. Reste à arbitrer et exécuter.",
       "sub": "Un consultant Mentivis peut vous recontacter sous 48 heures pour transformer les enseignements du rapport en plan d'action chiffré.",
-      "name": "Votre nom",
+      "name": "Nom",
       "email": "Votre email professionnel",
       "submit": "Être recontacté",
       "success": "Merci. Votre demande a bien été enregistrée. Un consultant vous recontacte sous 48 heures.",
+      "consent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
+      "consentLink": "politique de confidentialité",
       "scenariosLabel": "3 scénarios d'intervention",
       "scenariosTitle": "Choisissez l'ampleur qui correspond à vos enjeux"
     },
@@ -568,10 +575,12 @@
     "ctaEyebrow": "Passer du diagnostic à l'action",
     "ctaTitle": "Ces chiffres sont des estimations.\nUn expert Mentivis peut les affiner.",
     "ctaSub": "Mentivis peut vous accompagner dans la mobilisation de ces financements.",
-    "ctaName": "Votre nom",
+    "ctaName": "Nom",
     "ctaEmail": "Votre email professionnel",
     "ctaSubmit": "Être recontacté",
     "ctaSuccess": "Merci. Votre demande a bien été enregistrée. Un consultant vous recontacte sous 48 h.",
+    "ctaConsent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
+    "ctaConsentLink": "politique de confidentialité",
     "pdf": {
       "eyebrow": "Diagnostic OPCO",
       "title": "Potentiel de financement estimé",

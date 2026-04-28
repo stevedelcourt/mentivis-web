@@ -284,15 +284,20 @@
     "title": ["You have a project.", "We have the answers.", "Let's talk."],
     "lead": "A page without friction. No long form, no marketing promise — just an invitation to a conversation.",
     "labels": {
-      "name": "Full name",
+      "firstname": "First name",
+      "lastname": "Last name",
       "you": "You are",
       "email": "Professional email",
       "phone": "Phone (optional)",
       "project": "Your project in a few words",
-      "submit": "Send"
+      "submit": "Send",
+      "consent": "I agree to receive information from Mentivis, in accordance with the",
+      "consentLink": "privacy policy"
     },
     "youOptions": ["Enterprise", "Training organization", "Other"],
-    "success": "Thank you. We'll reply within 24h.",
+    "successTitle": "Message sent!",
+    "successBody": "We have received your request. We will reply within 48 hours.",
+    "successBack": "Back to home",
     "direct": {
       "title": "Or write to us directly"
     }
@@ -413,10 +418,12 @@
       "eyebrow": "Move from diagnostic to action",
       "title": "The diagnostic is set. Time to decide and execute.",
       "sub": "A Mentivis consultant can reach out within 48 hours to turn the report findings into a quantified action plan.",
-      "name": "Your name",
+      "name": "Name",
       "email": "Your business email",
       "submit": "Request a callback",
       "success": "Thank you. Your request has been recorded. A consultant will contact you within 48 hours.",
+      "consent": "I agree to receive information from Mentivis, in accordance with the",
+      "consentLink": "privacy policy",
       "scenariosLabel": "3 intervention scenarios",
       "scenariosTitle": "Choose the scope that matches your stakes"
     },
@@ -568,10 +575,12 @@
     "ctaEyebrow": "From diagnostic to action",
     "ctaTitle": "These figures are estimates.\nA Mentivis expert can refine them.",
     "ctaSub": "Mentivis can support you in mobilizing these funds.",
-    "ctaName": "Your name",
+    "ctaName": "Name",
     "ctaEmail": "Your business email",
     "ctaSubmit": "Request a callback",
     "ctaSuccess": "Thank you. Your request has been recorded. A consultant will contact you within 48 hours.",
+    "ctaConsent": "I agree to receive information from Mentivis, in accordance with the",
+    "ctaConsentLink": "privacy policy",
     "pdf": {
       "eyebrow": "OPCO Diagnostic",
       "title": "Estimated funding potential",

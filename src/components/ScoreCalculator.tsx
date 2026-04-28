@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useMemo, useRef } from "react";
+import Link from "next/link";
 import { useMessages } from "@/lib/messages";
 import { useHubSpotSubmit } from "@/lib/hubspot";
 import "./ScoreCalculator.css";
@@ -385,6 +386,7 @@ export default function ScoreCalculator() {
   const [contactEmail, setContactEmail] = useState("");
   const [contactSent, setContactSent] = useState(false);
   const [honeypot, setHoneypot] = useState("");
+  const [consent, setConsent] = useState(false);
   const { submit: hsSubmit, loading: hsLoading, error: hsError } = useHubSpotSubmit();
   const pdfRef = useRef<HTMLDivElement>(null);
 
@@ -453,16 +455,17 @@ export default function ScoreCalculator() {
     setContactEmail("");
     setContactSent(false);
     setHoneypot("");
+    setConsent(false);
     goToScreen("landing");
   }, [goToScreen]);
 
   const handleContact = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!contactName.trim() || !contactEmail.trim()) return;
+    if (!contactName.trim() || !contactEmail.trim() || !consent) return;
     if (honeypot) return;
     await hsSubmit({ firstname: contactName.trim(), email: contactEmail.trim() });
     setContactSent(true);
-  }, [contactName, contactEmail, honeypot, hsSubmit]);
+  }, [contactName, contactEmail, consent, honeypot, hsSubmit]);
 
   const exportPDF = useCallback(async () => {
     if (!scores || !pdfRef.current) return;
@@ -1183,6 +1186,19 @@ export default function ScoreCalculator() {
                     <input type="text" name="website" value={honeypot} onChange={e => setHoneypot(e.target.value)} tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }} />
                     <input type="text" required placeholder={s.cta.name} value={contactName} onChange={e => setContactName(e.target.value)} />
                     <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
+                    <label style={{ display: "flex", alignItems: "flex-start", gap: 10, cursor: "pointer", fontSize: 13, color: "var(--m-ink-3)", lineHeight: 1.5 }}>
+                      <input
+                        type="checkbox"
+                        required
+                        checked={consent}
+                        onChange={(e) => setConsent(e.target.checked)}
+                        style={{ marginTop: 2, flexShrink: 0 }}
+                      />
+                      <span>
+                        {s.cta.consent}{" "}
+                        <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{s.cta.consentLink}</Link>.
+                      </span>
+                    </label>
                     {hsError && (
                       <p style={{ color: "#dc2626", fontSize: 13, margin: 0 }}>
                         {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
