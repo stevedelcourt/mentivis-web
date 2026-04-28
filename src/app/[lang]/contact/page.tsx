@@ -51,13 +51,19 @@ export default function ContactPage() {
     if (!form.firstname || !form.lastname || !form.email || !form.project || !consent) return;
     if (honeypot) return; // spam bot
 
-    await hsSubmit({
-      firstname: form.firstname,
-      lastname: form.lastname,
-      email: form.email,
-      phone: form.phone,
-      message: form.project,
-    });
+    await hsSubmit(
+      {
+        firstname: form.firstname,
+        lastname: form.lastname,
+        email: form.email,
+        phone: form.phone,
+        message: form.project,
+      },
+      {
+        pageUri: typeof window !== "undefined" ? window.location.href : "https://www.mentivis.com/fr/contact",
+        pageName: "Contact",
+      }
+    );
 
     setSent(true);
   };

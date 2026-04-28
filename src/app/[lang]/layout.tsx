@@ -100,7 +100,6 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-PM93CCQL');`}
         </Script>
-        <Script src="https://js.hsforms.net/forms/embed/v2.js" strategy="lazyOnload" />
       </head>
       <body>
         {children}
