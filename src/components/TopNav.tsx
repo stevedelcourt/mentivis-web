@@ -17,45 +17,32 @@ export type NavMessages = {
 };
 
 function LangToggle({ lang }: { lang: string }) {
-  const switchLang = (target: string) => {
-    if (typeof window === "undefined" || target === lang) return;
+  const switchLang = () => {
+    if (typeof window === "undefined") return;
+    const target = lang === "fr" ? "en" : "fr";
     const currentPath = window.location.pathname;
     const newPath = currentPath.replace(/^\/(fr|en)\b/, `/${target}`);
-    // eslint-disable-next-line react-hooks/immutability
     window.location.assign(newPath);
   };
 
   return (
-    <div style={{
-      display: "inline-flex",
-      background: "rgba(0,0,0,0.04)",
-      borderRadius: 999,
-      padding: 2,
-      fontSize: 11,
-      fontWeight: 600,
-    }}>
-      {["fr", "en"].map((L) => (
-        <button
-          key={L}
-          onClick={() => switchLang(L)}
-          style={{
-            padding: "5px 10px",
-            borderRadius: 999,
-            border: "none",
-            background: lang === L ? "white" : "transparent",
-            color: lang === L ? "var(--m-ink)" : "var(--m-ink-3)",
-            fontWeight: 600,
-            letterSpacing: "0.04em",
-            textTransform: "uppercase" as const,
-            cursor: "pointer",
-            boxShadow: lang === L ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
-            transition: "all 0.15s",
-          }}
-        >
-          {L}
-        </button>
-      ))}
-    </div>
+    <button
+      onClick={switchLang}
+      style={{
+        background: "none",
+        border: "none",
+        fontSize: 13,
+        fontWeight: 600,
+        color: "var(--m-ink-2)",
+        cursor: "pointer",
+        padding: "4px 2px",
+        letterSpacing: "0.04em",
+        textTransform: "uppercase" as const,
+        fontFamily: "inherit",
+      }}
+    >
+      {lang === "fr" ? "EN" : "FR"}
+    </button>
   );
 }
 
@@ -68,6 +55,7 @@ type TopNavProps = {
 export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -81,6 +69,14 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
     { href: `/${lang}/enterprise`, label: t.nav.enterprise },
     { href: `/${lang}/of`, label: t.nav.of },
     { href: `/${lang}/solutions`, label: t.nav.solutions },
+  ];
+
+  const resourceLinks = [
+    { href: `/${lang}/resources`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
+    { href: `/${lang}/opco`, label: lang === "fr" ? "Calculateur OPCO" : "OPCO calculator" },
+    { href: `/${lang}/score-formation`, label: "Score Formation" },
+    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
+    { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)" },
   ];
 
   const isActive = (href: string) => route && href === `/${lang}` + route.replace(/^\/[a-z]{2}/, "");
@@ -113,9 +109,9 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         transition: "box-shadow 0.2s ease",
       }}>
         {/* Logo — left */}
-        <Link href="/" style={{ display: "flex", alignItems: "center", flexShrink: 0 }}>
+        <div style={{ display: "flex", alignItems: "center", flexShrink: 0, minWidth: 150 }}>
           <Logo width={150} height={35} />
-        </Link>
+        </div>
 
         {/* Nav pill — centered */}
         <div style={{
@@ -229,6 +225,58 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 {l.label}
               </Link>
             ))}
+            <button
+              onClick={() => setResourcesOpen(v => !v)}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                padding: "12px 8px",
+                fontSize: 16,
+                fontWeight: 500,
+                color: "var(--m-ink)",
+                background: "none",
+                border: "none",
+                borderBottom: "1px solid var(--m-line-2)",
+                cursor: "pointer",
+                fontFamily: "inherit",
+                textAlign: "left",
+              }}
+            >
+              <span>{t.nav.resources}</span>
+              <span
+                className="material-symbols-outlined"
+                style={{
+                  fontSize: 18,
+                  color: "var(--m-ink-3)",
+                  transition: "transform 0.2s",
+                  transform: resourcesOpen ? "rotate(90deg)" : "rotate(0deg)",
+                }}
+              >
+                chevron_right
+              </span>
+            </button>
+            {resourcesOpen && (
+              <div style={{ display: "flex", flexDirection: "column" as const, gap: 4, paddingLeft: 12, paddingBottom: 8 }}>
+                {resourceLinks.map((l) => (
+                  <Link
+                    key={l.href + l.label}
+                    href={l.href}
+                    onClick={() => setMobileOpen(false)}
+                    style={{
+                      display: "block",
+                      padding: "10px 8px",
+                      fontSize: 14,
+                      fontWeight: 500,
+                      color: "var(--m-ink-2)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
           <div style={{ marginTop: 16, display: "flex", flexDirection: "column" as const, gap: 10 }}>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>

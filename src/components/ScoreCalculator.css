@@ -3,8 +3,8 @@
 
 .sc-app {
   --sc-navy: #000776;
-  --sc-navy-dark: #00054d;
-  --sc-navy-deep: #00054d;
+  --sc-navy-dark: #000a99;
+  --sc-navy-deep: #000a99;
   --sc-navy-subtle: rgba(0, 7, 118, 0.12);
   --sc-navy-faint: rgba(0, 7, 118, 0.06);
   --sc-near-black: #101114;
@@ -68,6 +68,7 @@
   max-width: 780px;
   margin-left: auto;
   margin-right: auto;
+  text-wrap: balance;
 }
 .sc-hero-title .sc-accent { color: var(--sc-navy); }
 .sc-hero-sub {

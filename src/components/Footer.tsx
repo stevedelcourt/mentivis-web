@@ -53,9 +53,15 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
         {links.map((l, i) => (
           <li key={i} style={{ marginBottom: 9 }}>
             {l.onClick ? (
-              <button onClick={l.onClick} style={{ background: "none", border: "none", color: "var(--m-ink-2)", fontSize: 13.5, cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left" }}>{l.label}</button>
+              <button onClick={l.onClick} className="m-footer-link" style={{ background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left", display: "inline-flex", alignItems: "center", gap: 4 }}>
+                <span className="material-symbols-outlined" style={{ fontSize: 13, color: "var(--m-ink-3)" }}>chevron_right</span>
+                {l.label}
+              </button>
             ) : (
-              <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link">{l.label}</a>
+              <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+                <span className="material-symbols-outlined" style={{ fontSize: 13, color: "var(--m-ink-3)" }}>chevron_right</span>
+                {l.label}
+              </a>
             )}
           </li>
         ))}
