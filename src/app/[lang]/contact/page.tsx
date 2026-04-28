@@ -5,6 +5,7 @@ import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
+import { useHubSpotSubmit } from "@/lib/hubspot";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -33,11 +34,28 @@ export default function ContactPage() {
   const c = t.contact;
   const [form, setForm] = useState({ name: "", you: c.youOptions[0], email: "", phone: "", project: "" });
   const [sent, setSent] = useState(false);
+  const [honeypot, setHoneypot] = useState("");
+  const { submit: hsSubmit, loading, error } = useHubSpotSubmit();
 
   const update = (k: string, v: string) => setForm((f) => ({ ...f, [k]: v }));
-  const submit = (e: React.FormEvent) => {
+
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.project) return;
+    if (honeypot) return; // spam bot
+
+    const nameParts = form.name.trim().split(/\s+/);
+    const firstname = nameParts[0] || "";
+    const lastname = nameParts.slice(1).join(" ") || "";
+
+    await hsSubmit({
+      firstname,
+      lastname,
+      email: form.email,
+      phone: form.phone,
+      message: form.project,
+    });
+
     setSent(true);
   };
 
@@ -70,6 +88,16 @@ export default function ContactPage() {
               <ContactSuccess message={c.success} />
             ) : (
               <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
+                {/* Honeypot */}
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+                />
                 <Field label={c.labels.name}>
                   <input className="input" required value={form.name} onChange={(e) => update("name", e.target.value)} />
                 </Field>
@@ -104,9 +132,14 @@ export default function ContactPage() {
                 <Field label={c.labels.project}>
                   <textarea className="textarea" required value={form.project} onChange={(e) => update("project", e.target.value)} />
                 </Field>
+                {error && (
+                  <p style={{ color: "#dc2626", fontSize: 14, margin: 0 }}>
+                    {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
+                  </p>
+                )}
                 <div>
-                  <button type="submit" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", border: "none", borderRadius: 999, cursor: "pointer", marginTop: 8 }}>
-                    {c.labels.submit}
+                  <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 999, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
+                    {loading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : c.labels.submit}
                     <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
                   </button>
                 </div>

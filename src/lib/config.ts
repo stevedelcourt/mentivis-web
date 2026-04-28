@@ -9,5 +9,8 @@ export const SITE = {
 
 export const GTM_ID = "GTM-PM93CCQL";
 
+export const HUBSPOT_PORTAL_ID = "49558612";
+export const HUBSPOT_FORM_ID = "71a2e6a5-1ebe-46ea-9cdf-fe793b95e935";
+
 export const LOCALES = ["fr", "en"] as const;
 export const DEFAULT_LOCALE = "fr" as const;

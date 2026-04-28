@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useMemo, useRef } from "react";
 import { useMessages } from "@/lib/messages";
+import { useHubSpotSubmit } from "@/lib/hubspot";
 import "./ScoreCalculator.css";
 
 /* ============================================================
@@ -383,6 +384,8 @@ export default function ScoreCalculator() {
   const [contactName, setContactName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [contactSent, setContactSent] = useState(false);
+  const [honeypot, setHoneypot] = useState("");
+  const { submit: hsSubmit, loading: hsLoading, error: hsError } = useHubSpotSubmit();
   const pdfRef = useRef<HTMLDivElement>(null);
 
   const goToScreen = useCallback((name: Screen) => {
@@ -449,14 +452,17 @@ export default function ScoreCalculator() {
     setContactName("");
     setContactEmail("");
     setContactSent(false);
+    setHoneypot("");
     goToScreen("landing");
   }, [goToScreen]);
 
-  const handleContact = useCallback((e: React.FormEvent) => {
+  const handleContact = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();
     if (!contactName.trim() || !contactEmail.trim()) return;
+    if (honeypot) return;
+    await hsSubmit({ firstname: contactName.trim(), email: contactEmail.trim() });
     setContactSent(true);
-  }, [contactName, contactEmail]);
+  }, [contactName, contactEmail, honeypot, hsSubmit]);
 
   const exportPDF = useCallback(async () => {
     if (!scores || !pdfRef.current) return;
@@ -1174,10 +1180,16 @@ export default function ScoreCalculator() {
                 <p className="sc-cta-sub">{s.cta.sub}</p>
                 {!contactSent ? (
                   <form className="sc-cta-form" onSubmit={handleContact}>
+                    <input type="text" name="website" value={honeypot} onChange={e => setHoneypot(e.target.value)} tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }} />
                     <input type="text" required placeholder={s.cta.name} value={contactName} onChange={e => setContactName(e.target.value)} />
                     <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
-                    <button type="submit" className="sc-btn-primary">
-                      {s.cta.submit}
+                    {hsError && (
+                      <p style={{ color: "#dc2626", fontSize: 13, margin: 0 }}>
+                        {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
+                      </p>
+                    )}
+                    <button type="submit" className="sc-btn-primary" disabled={hsLoading}>
+                      {hsLoading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : s.cta.submit}
                       <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
                     </button>
                   </form>
