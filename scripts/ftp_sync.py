@@ -90,7 +90,7 @@ def upload_tree(ftp, local_root):
     count = 0
     for root, dirs, files in os.walk(local_root):
         for f in sorted(files):
-            if f.startswith("."):
+            if f.startswith(".") and f != ".htaccess":
                 continue
             local_rel = os.path.relpath(os.path.join(root, f), local_root)
             if local_rel.startswith("__next") or "/__next" in local_rel:

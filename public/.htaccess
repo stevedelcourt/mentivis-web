@@ -1,0 +1,46 @@
+# Mentivis — Apache config for Next.js static export
+# Placed in public/ so it gets copied to out/ on build
+
+# Disable directory listing
+Options -Indexes
+
+# Force index.html as directory index
+DirectoryIndex index.html
+
+# Enable rewrite engine for trailing-slash and extensionless URLs
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect /fr/ → /fr (remove trailing slash to avoid duplicate CDN cache)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+  # If request is a directory, serve its index.html
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.*)$ $1/index.html [L]
+
+  # Extensionless URLs: serve .html if it exists
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+# Never cache index files (directory roots) — fixes o2switch CDN stale cache
+<IfModule mod_headers.c>
+  <FilesMatch "^index(\.html)?$">
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+
+  # Aggressive cache for static assets
+  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp)$">
+    Header set Cache-Control "max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# Compress text assets
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>

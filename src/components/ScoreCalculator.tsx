@@ -459,20 +459,20 @@ export default function ScoreCalculator() {
   }, [contactName, contactEmail]);
 
   const exportPDF = useCallback(async () => {
-    if (!scores) return;
+    if (!scores || !pdfRef.current) return;
     const html2pdf = (await import("html2pdf.js")).default;
 
-    // Build PDF content on-the-fly in a temporary visible div
-    const tmp = document.createElement("div");
-    tmp.style.position = "fixed";
-    tmp.style.top = "0";
-    tmp.style.left = "0";
-    tmp.style.opacity = "0";
-    tmp.style.pointerEvents = "none";
-    tmp.style.zIndex = "-1";
-    tmp.style.width = "794px";
-    tmp.innerHTML = pdfRef.current?.innerHTML || "";
-    document.body.appendChild(tmp);
+    const el = pdfRef.current;
+    const original = el.style.cssText;
+
+    // Temporarily make the hidden PDF div capturable
+    el.style.position = "fixed";
+    el.style.top = "0";
+    el.style.left = "0";
+    el.style.opacity = "0";
+    el.style.pointerEvents = "none";
+    el.style.zIndex = "-1";
+    el.style.width = "794px";
 
     const opt = {
       margin: 0,
@@ -484,9 +484,9 @@ export default function ScoreCalculator() {
     };
 
     try {
-      await html2pdf().set(opt as any).from(tmp).save();
+      await html2pdf().set(opt as any).from(el).save();
     } finally {
-      document.body.removeChild(tmp);
+      el.style.cssText = original;
     }
   }, [scores, qualification.company]);
 
