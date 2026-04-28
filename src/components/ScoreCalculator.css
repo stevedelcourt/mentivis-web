@@ -33,13 +33,8 @@
 }
 
 .sc-app * { box-sizing: border-box; }
-.sc-app button { font-family: inherit; cursor: pointer; border: none; background: none; }
+.sc-app button { font-family: inherit; cursor: pointer; border: none; }
 .sc-app input, .sc-app select { font-family: inherit; font-size: inherit; color: inherit; }
-
-/* Button specificity fix: .sc-app button overrides these without .sc-app prefix */
-.sc-app .sc-btn-primary, .sc-app .sc-btn-secondary, .sc-app .sc-btn-outline {
-  border: none;
-}
 
 /* Screens */
 .sc-screen { display: none; }
