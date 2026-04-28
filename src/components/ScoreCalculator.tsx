@@ -462,14 +462,13 @@ export default function ScoreCalculator() {
     if (!scores || !pdfRef.current) return;
     const html2pdf = (await import("html2pdf.js")).default;
 
-    // Clone the hidden PDF node so html2canvas can capture it properly
+    // Clone the hidden PDF node and move it off-screen so html2canvas captures it fully
     const clone = pdfRef.current.cloneNode(true) as HTMLDivElement;
     clone.style.position = "fixed";
-    clone.style.top = "0";
-    clone.style.left = "0";
-    clone.style.opacity = "0";
+    clone.style.top = "-9999px";
+    clone.style.left = "-9999px";
+    clone.style.opacity = "1";
     clone.style.pointerEvents = "none";
-    clone.style.zIndex = "9999";
     clone.style.width = "794px";
     document.body.appendChild(clone);
 

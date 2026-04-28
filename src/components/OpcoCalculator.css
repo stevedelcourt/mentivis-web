@@ -66,7 +66,7 @@
 .oc-screen { display: none; }
 .oc-screen.active { display: block; }
 
-.oc-container { max-width: 720px; margin: 0 auto; padding: 0 32px; }
+.oc-container { max-width: 920px; margin: 0 auto; padding: 0 32px; }
 
 /* Landing */
 .oc-eyebrow {
@@ -296,6 +296,7 @@
   color: white;
   border-radius: 24px;
   padding: 48px;
+  margin-top: 24px;
   position: relative;
   overflow: hidden;
 }

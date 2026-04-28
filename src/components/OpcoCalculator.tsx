@@ -35,21 +35,6 @@ interface Results {
    HELPERS
    ============================================================ */
 
-const BLOCKED_DOMAINS = [
-  "gmail.com", "googlemail.com",
-  "hotmail.com", "hotmail.fr", "outlook.com", "outlook.fr", "live.com", "live.fr",
-  "yahoo.com", "yahoo.fr", "ymail.com",
-  "orange.fr", "wanadoo.fr",
-  "free.fr", "sfr.fr",
-  "laposte.net",
-  "aol.com", "icloud.com", "me.com",
-];
-
-function isValidProEmail(email: string) {
-  const domain = email.split("@")[1]?.toLowerCase();
-  return domain && !BLOCKED_DOMAINS.includes(domain);
-}
-
 function formatEuro(amount: number, lang: string) {
   return new Intl.NumberFormat(lang === "fr" ? "fr-FR" : "en-US", {
     style: "currency", currency: "EUR", maximumFractionDigits: 0,
@@ -99,7 +84,6 @@ export default function OpcoCalculator() {
     firstName: "", lastName: "", email: "", company: "", phone: "",
   });
   const [results, setResults] = useState<Results | null>(null);
-  const [emailError, setEmailError] = useState(false);
   const [contactName, setContactName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [contactSent, setContactSent] = useState(false);
@@ -111,16 +95,10 @@ export default function OpcoCalculator() {
   }, [results]);
 
   const validateAndSubmit = useCallback(() => {
-    if (!form.sector || !form.objective || form.employees <= 0 || form.payroll <= 0
-        || !form.firstName || !form.lastName || !form.email || !form.company) {
+    if (!form.sector || !form.objective || form.employees <= 0 || form.payroll <= 0) {
       alert(lang === "fr" ? "Merci de compléter tous les champs obligatoires." : "Please fill in all required fields.");
       return;
     }
-    if (!isValidProEmail(form.email)) {
-      setEmailError(true);
-      return;
-    }
-    setEmailError(false);
     const res = computeResults(form);
     setResults(res);
     setScreen("results");
@@ -136,7 +114,6 @@ export default function OpcoCalculator() {
       firstName: "", lastName: "", email: "", company: "", phone: "",
     });
     setResults(null);
-    setEmailError(false);
     setContactName("");
     setContactEmail("");
     setContactSent(false);
@@ -157,17 +134,16 @@ export default function OpcoCalculator() {
     const html2pdf = (await import("html2pdf.js")).default;
     const clone = pdfRef.current.cloneNode(true) as HTMLDivElement;
     clone.style.position = "fixed";
-    clone.style.top = "0";
-    clone.style.left = "0";
-    clone.style.opacity = "0";
+    clone.style.top = "-9999px";
+    clone.style.left = "-9999px";
+    clone.style.opacity = "1";
     clone.style.pointerEvents = "none";
-    clone.style.zIndex = "9999";
     clone.style.width = "794px";
     document.body.appendChild(clone);
 
     const opt = {
       margin: 0,
-      filename: `mentivis_opco_${form.company.replace(/\s+/g, "_").toLowerCase()}.pdf`,
+      filename: `mentivis_opco_${form.company ? form.company.replace(/\s+/g, "_").toLowerCase() : "diagnostic"}.pdf`,
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: { scale: 2, useCORS: true, logging: false },
       jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
@@ -201,7 +177,7 @@ export default function OpcoCalculator() {
         </div>
         <div class="oc-pdf-h1-eyebrow">${s.pdf.eyebrow}</div>
         <h1 class="oc-pdf-h1">${s.pdf.title}</h1>
-        <div class="oc-pdf-company">${form.company}</div>
+        <div class="oc-pdf-company">${form.company || (lang === "fr" ? "Votre entreprise" : "Your company")}</div>
         <div class="oc-pdf-meta">
           <div><strong>${s.pdf.sector}:</strong> ${form.sector}</div>
           <div><strong>${s.pdf.employees}:</strong> ${form.employees}</div>
@@ -287,40 +263,6 @@ export default function OpcoCalculator() {
               </div>
             </div>
 
-            {/* Contact section */}
-            <div className="oc-contact-divider" />
-            <div className="oc-contact-title">{s.contactTitle}</div>
-
-            <div className="oc-form-row-grid">
-              <div className="oc-form-row">
-                <label className="oc-form-label">{s.firstName} <span className="oc-required">*</span></label>
-                <input type="text" className="oc-form-input" placeholder={s.phFirstName} value={form.firstName} onChange={e => updateForm("firstName", e.target.value)} />
-              </div>
-              <div className="oc-form-row">
-                <label className="oc-form-label">{s.lastName} <span className="oc-required">*</span></label>
-                <input type="text" className="oc-form-input" placeholder={s.phLastName} value={form.lastName} onChange={e => updateForm("lastName", e.target.value)} />
-              </div>
-            </div>
-
-            <div className="oc-form-row">
-              <label className="oc-form-label">{s.email} <span className="oc-required">*</span></label>
-              <input type="email" className={`oc-form-input ${emailError ? "error" : ""}`} placeholder={s.phEmail} value={form.email} onChange={e => { updateForm("email", e.target.value); setEmailError(false); }} onBlur={() => { if (form.email && !isValidProEmail(form.email)) setEmailError(true); }} />
-              {emailError && <div className="oc-error-msg">{s.emailError}</div>}
-            </div>
-
-            <div className="oc-form-row-grid">
-              <div className="oc-form-row">
-                <label className="oc-form-label">{s.company} <span className="oc-required">*</span></label>
-                <input type="text" className="oc-form-input" placeholder={s.phCompany} value={form.company} onChange={e => updateForm("company", e.target.value)} />
-              </div>
-              <div className="oc-form-row">
-                <label className="oc-form-label">{s.phone}</label>
-                <input type="tel" className="oc-form-input" placeholder={s.phPhone} value={form.phone} onChange={e => updateForm("phone", e.target.value)} />
-              </div>
-            </div>
-
-            <div className="oc-rgpd">{s.rgpd}</div>
-
             <button className="sc-btn-primary oc-submit-btn" onClick={validateAndSubmit}>
               {s.submit}
               <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
@@ -335,7 +277,7 @@ export default function OpcoCalculator() {
           <div className="oc-dash-head">
             <div>
               <div className="oc-dash-eyebrow">{s.resultEyebrow}</div>
-              <h2 className="oc-dash-title">{form.company}</h2>
+              <h2 className="oc-dash-title">{form.company || (lang === "fr" ? "Votre entreprise" : "Your company")}</h2>
               <div className="oc-dash-meta">{form.employees} {lang === "fr" ? "salariés" : "employees"} · {formatEuro(form.payroll, lang)} {lang === "fr" ? "masse salariale" : "payroll"}</div>
             </div>
             <div className="oc-dash-actions">
