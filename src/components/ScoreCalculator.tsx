@@ -460,30 +460,54 @@ export default function ScoreCalculator() {
 
   const exportPDF = useCallback(async () => {
     if (!scores || !pdfRef.current) return;
-    const html2pdf = (await import("html2pdf.js")).default;
+
+    const [{ default: html2canvas }, { jsPDF }] = await Promise.all([
+      import("html2canvas"),
+      import("jspdf"),
+    ]);
 
     const el = pdfRef.current;
     const saved = el.style.cssText;
 
-    // Temporarily show the PDF div so html2canvas captures it
-    el.style.position = "absolute";
+    // Show the element briefly for capture
+    el.style.position = "fixed";
     el.style.top = "0";
     el.style.left = "0";
-    el.style.opacity = "1";
-    el.style.zIndex = "-1";
+    el.style.opacity = "0";
+    el.style.zIndex = "99999";
     el.style.width = "794px";
 
-    const opt = {
-      margin: 0,
-      filename: `mentivis_diagnostic_${qualification.company.replace(/\s+/g, "_").toLowerCase()}.pdf`,
-      image: { type: "jpeg", quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true, logging: false },
-      jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-      pagebreak: { mode: ["css", "legacy"] },
-    };
-
     try {
-      await html2pdf().set(opt as any).from(el).save();
+      const canvas = await html2canvas(el, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        backgroundColor: "#ffffff",
+        width: 794,
+        windowWidth: 794,
+      });
+
+      const imgData = canvas.toDataURL("image/jpeg", 0.98);
+      const pdf = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
+      const pageWidth = 210;
+      const pageHeight = 297;
+      const imgWidth = pageWidth;
+      const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+      let heightLeft = imgHeight;
+      let position = 0;
+
+      pdf.addImage(imgData, "JPEG", 0, position, imgWidth, imgHeight);
+      heightLeft -= pageHeight;
+
+      while (heightLeft > 0) {
+        position = heightLeft - imgHeight;
+        pdf.addPage();
+        pdf.addImage(imgData, "JPEG", 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+      }
+
+      pdf.save(`mentivis_diagnostic_${qualification.company.replace(/\s+/g, "_").toLowerCase()}.pdf`);
     } finally {
       el.style.cssText = saved;
     }
