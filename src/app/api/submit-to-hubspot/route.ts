@@ -52,7 +52,7 @@ export async function POST(request: Request) {
 
   // Auth
   const auth = request.headers.get("authorization");
-  const token = process.env.NEXT_PUBLIC_INTERNAL_TOKEN;
+  const token = process.env.INTERNAL_TOKEN;
   if (!token || auth !== `Bearer ${token}`) {
     return new Response("Unauthorized", { status: 401 });
   }

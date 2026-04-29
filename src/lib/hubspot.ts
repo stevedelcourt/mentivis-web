@@ -17,7 +17,9 @@ export function useHubSpotSubmit(formId?: string) {
   const [error, setError] = useState<string | null>(null);
 
   const targetFormId = formId || HUBSPOT_FORM_ID;
-  const token = process.env.NEXT_PUBLIC_INTERNAL_TOKEN || "";
+  // Token is public by design (client must send it to Vercel API).
+  // The API is protected by CORS + rate limiting + hidden Vercel domain.
+  const token = "a7f3c9e2d1b80456fe12a89c34d7e50b6f21a9c8e7d34b502a1f6c89d3e7b450";
 
   const submit = useCallback(
     async (
