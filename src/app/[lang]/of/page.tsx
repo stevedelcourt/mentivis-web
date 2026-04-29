@@ -18,7 +18,7 @@ export default function OfPage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/yellos-fail.webp)",
+          backgroundImage: "url(/site-images/yellos-fail.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
@@ -144,7 +144,7 @@ export default function OfPage() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", marginTop: 80, padding: "40px 0", borderTop: "1px solid var(--m-line)" }} className="m-split-grid">
             <div style={{ borderRadius: 16, overflow: "hidden", background: "var(--m-bg-soft)" }}>
-              <Image src="/guide-images/bpf.webp" alt="Guides de référence" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
+              <Image src="/guide-images/bpf.avif" alt="Guides de référence" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 16 }}>{lang === "fr" ? "Ressources" : "Resources"}</div>

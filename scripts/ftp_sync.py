@@ -12,7 +12,7 @@ REMOTE_ROOT = os.environ.get("FTP_ROOT", "public_html")
 LOCAL_ROOT = os.environ.get("LOCAL_ROOT", "out")
 
 ALLOWED_EXTS = {
-    ".html", ".js", ".css", ".json", ".png", ".jpg", ".svg", ".webp",
+    ".html", ".js", ".css", ".json", ".png", ".jpg", ".svg", ".webp", ".avif",
     ".txt", ".xml", ".gz", ".pdf", ".ico", ".woff2", ".woff", ".ttf",
     ".eot", ".webmanifest",
 }

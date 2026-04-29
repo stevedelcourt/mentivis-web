@@ -18,7 +18,7 @@ export default function EnterprisePage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/investor.webp)",
+          backgroundImage: "url(/site-images/investor.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
@@ -110,7 +110,7 @@ export default function EnterprisePage() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", padding: "40px 0", borderTop: "1px solid var(--m-line)" }} className="m-split-grid">
             <div style={{ borderRadius: 16, overflow: "hidden", background: "var(--m-bg-soft)" }}>
-              <Image src="/score.webp" alt="Score Formation" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
+              <Image src="/score.avif" alt="Score Formation" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 16 }}>{e.scoreTeaserEyebrow}</div>

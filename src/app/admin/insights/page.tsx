@@ -275,7 +275,7 @@ function ArticleForm({
           <input
             value={form.heroImage}
             onChange={(e) => update("heroImage", e.target.value)}
-            placeholder="/images/insights/mon-image.webp"
+            placeholder="/images/insights/mon-image.avif"
           />
         </Field>
         <Field label="Mots-clés">

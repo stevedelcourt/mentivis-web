@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
@@ -42,6 +42,12 @@ export default function InsightsPage() {
 
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+
+  useEffect(() => {
+    if (page > 1) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [page]);
 
   const handleCategoryChange = (cat: InsightCategory | "") => {
     setActiveCategory(cat);

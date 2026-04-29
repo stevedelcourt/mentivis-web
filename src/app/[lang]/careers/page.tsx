@@ -69,7 +69,7 @@ export default function CareersPage() {
           aspectRatio: "16 / 9",
           minHeight: 420,
           maxHeight: 640,
-          backgroundImage: "url(/site-images/blobs.webp)",
+          backgroundImage: "url(/site-images/blobs.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
@@ -212,7 +212,7 @@ export default function CareersPage() {
                     }}
                   >
                     <Image
-                      src="/marie-castelli.webp"
+                      src="/marie-castelli.avif"
                       alt={c.marieName}
                       width={320}
                       height={320}

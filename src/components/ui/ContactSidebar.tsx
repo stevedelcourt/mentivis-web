@@ -20,7 +20,7 @@ export default function ContactSidebar({ lang, eyebrow, showImage = true }: Cont
         <Link href={`/${lang}/meeting`} style={{ textDecoration: "none", display: "block" }}>
           <div style={{ aspectRatio: "1 / 1", borderRadius: 16, overflow: "hidden", marginBottom: 16, background: "var(--m-line-2)" }}>
             <Image
-              src="/mathias.costes.webp"
+              src="/mathias.costes.avif"
               alt="Mathias Costes"
               width={320}
               height={320}

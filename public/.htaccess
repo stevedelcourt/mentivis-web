@@ -1,6 +1,9 @@
 # Mentivis — Apache config for Next.js static export
 # Placed in public/ so it gets copied to out/ on build
 
+# AVIF image format support
+AddType image/avif .avif
+
 # Disable directory listing
 Options -Indexes
 
@@ -39,7 +42,7 @@ DirectoryIndex index.html
   </FilesMatch>
 
   # Aggressive cache for static assets
-  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp)$">
+  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp|avif)$">
     Header set Cache-Control "max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>

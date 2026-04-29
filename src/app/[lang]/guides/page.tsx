@@ -14,7 +14,7 @@ const GUIDES = [
     titleKey: "bpfTitle",
     descKey: "bpfDesc",
     pagesKey: "bpfPages",
-    image: "/guide-images/bpf.webp",
+    image: "/guide-images/bpf.avif",
     pdf: "/guide-pdf/BPF-guide.pdf",
   },
   {
@@ -22,7 +22,7 @@ const GUIDES = [
     titleKey: "fseTitle",
     descKey: "fseDesc",
     pagesKey: "fsePages",
-    image: "/guide-images/fse.webp",
+    image: "/guide-images/fse.avif",
     pdf: "/guide-pdf/FSEguide.pdf",
   },
   {
@@ -30,7 +30,7 @@ const GUIDES = [
     titleKey: "poeiTitle",
     descKey: "poeiDesc",
     pagesKey: "poeiPages",
-    image: "/guide-images/poei.webp",
+    image: "/guide-images/poei.avif",
     pdf: "/guide-pdf/POEI-guide.pdf",
   },
   {
@@ -38,7 +38,7 @@ const GUIDES = [
     titleKey: "cpfTitle",
     descKey: "cpfDesc",
     pagesKey: "cpfPages",
-    image: "/guide-images/cpf.webp",
+    image: "/guide-images/cpf.avif",
     pdf: "/guide-pdf/CPF-guide.pdf",
   },
   {
@@ -46,7 +46,7 @@ const GUIDES = [
     titleKey: "conventionsTitle",
     descKey: "conventionsDesc",
     pagesKey: "conventionsPages",
-    image: "/guide-images/conventions.webp",
+    image: "/guide-images/conventions.avif",
     pdf: "/guide-pdf/Convention-de-Formation-guide.pdf",
   },
   {
@@ -54,7 +54,7 @@ const GUIDES = [
     titleKey: "taxeTitle",
     descKey: "taxeDesc",
     pagesKey: "taxePages",
-    image: "/guide-images/taxe.webp",
+    image: "/guide-images/taxe.avif",
     pdf: "/guide-pdf/Taxe-dapprentissage-guide.pdf",
   },
 ];
