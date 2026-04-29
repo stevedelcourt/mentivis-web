@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
@@ -30,7 +31,8 @@ function loadHubSpotScript(): Promise<void> {
 }
 
 export default function CareersPage() {
-  const { lang } = useMessages();
+  const { t, lang } = useMessages();
+  const c = t.careers;
   const formRef = useRef<HTMLDivElement>(null);
   const initialized = useRef(false);
 
@@ -52,13 +54,14 @@ export default function CareersPage() {
       })
       .catch(() => {
         if (formRef.current) {
-          formRef.current.innerHTML = `<p style="color:var(--m-ink-3);text-align:center;padding:40px 0;">${lang === "fr" ? "Le formulaire est temporairement indisponible. Veuillez envoyer votre candidature directement à contact@mentivis.com" : "The form is temporarily unavailable. Please send your application directly to contact@mentivis.com"}</p>`;
+          formRef.current.innerHTML = `<p style="color:var(--m-ink-3);text-align:center;padding:40px 0;">${c.fallback}</p>`;
         }
       });
-  }, [lang]);
+  }, [lang, c.fallback]);
 
   return (
     <PageShell>
+      {/* Hero */}
       <section
         style={{
           position: "relative",
@@ -87,7 +90,7 @@ export default function CareersPage() {
                 opacity: 0.8,
               }}
             >
-              {lang === "fr" ? "Rejoindre l'équipe" : "Join the team"}
+              {c.eyebrow}
             </span>
           </Reveal>
           <Reveal delay={0.05}>
@@ -99,7 +102,7 @@ export default function CareersPage() {
                 lineHeight: 1.05,
               }}
             >
-              {lang === "fr" ? "Carrières" : "Careers"}
+              {c.title}
             </h1>
           </Reveal>
           <Reveal delay={0.1}>
@@ -111,57 +114,222 @@ export default function CareersPage() {
                 opacity: 0.9,
               }}
             >
-              {lang === "fr"
-                ? "Vous partagez notre conviction que la formation est un levier stratégique ? Envoyez-nous votre candidature."
-                : "You share our belief that training is a strategic lever? Send us your application."}
+              {c.lead}
             </p>
           </Reveal>
         </div>
       </section>
 
-      <section style={{ paddingBottom: 100 }}>
-        <div className="container" style={{ maxWidth: 640 }}>
-          <Reveal>
-            <div
-              style={{
-                background: "white",
-                border: "1px solid var(--m-line)",
-                borderRadius: 20,
-                padding: "40px 36px",
-                boxShadow: "0 4px 24px rgba(16,24,40,0.04)",
-              }}
-            >
-              <h2
-                style={{
-                  fontFamily: "var(--f-display)",
-                  fontSize: 24,
-                  fontWeight: 700,
-                  letterSpacing: "-0.5px",
-                  margin: "0 0 8px",
-                  color: "var(--m-ink)",
-                }}
-              >
-                {lang === "fr" ? "Postuler" : "Apply"}
-              </h2>
-              <p
-                style={{
-                  color: "var(--m-ink-3)",
-                  fontSize: 15,
-                  lineHeight: 1.5,
-                  margin: "0 0 28px",
-                }}
-              >
-                {lang === "fr"
-                  ? "Remplissez le formulaire ci-dessous et joignez votre CV. Nous étudions chaque candidature avec attention."
-                  : "Fill in the form below and attach your CV. We review every application carefully."}
-              </p>
-              <div
-                id="careers-hubspot-form"
-                ref={formRef}
-                style={{ minHeight: 200 }}
-              />
+      {/* Content: two columns */}
+      <section style={{ padding: "80px 0 100px" }}>
+        <div className="container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 64,
+              alignItems: "start",
+            }}
+            className="m-split-grid"
+          >
+            {/* Left column */}
+            <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
+              {/* About */}
+              <Reveal>
+                <div>
+                  <h2
+                    style={{
+                      fontFamily: "var(--f-display)",
+                      fontSize: 22,
+                      fontWeight: 700,
+                      letterSpacing: "-0.5px",
+                      margin: "0 0 14px",
+                      color: "var(--m-ink)",
+                    }}
+                  >
+                    {c.aboutTitle}
+                  </h2>
+                  <p
+                    style={{
+                      color: "var(--m-ink-2)",
+                      fontSize: 15.5,
+                      lineHeight: 1.65,
+                      margin: 0,
+                    }}
+                  >
+                    {c.aboutBody}
+                  </p>
+                </div>
+              </Reveal>
+
+              {/* Equity values */}
+              <Reveal delay={60}>
+                <div
+                  style={{
+                    background: "var(--m-bg-soft)",
+                    border: "1px solid var(--m-line-2)",
+                    borderRadius: 16,
+                    padding: "28px 28px",
+                  }}
+                >
+                  <h3
+                    style={{
+                      fontFamily: "var(--f-display)",
+                      fontSize: 18,
+                      fontWeight: 700,
+                      letterSpacing: "-0.3px",
+                      margin: "0 0 10px",
+                      color: "var(--m-ink)",
+                    }}
+                  >
+                    {c.equityTitle}
+                  </h3>
+                  <p
+                    style={{
+                      color: "var(--m-ink-2)",
+                      fontSize: 14.5,
+                      lineHeight: 1.6,
+                      margin: 0,
+                    }}
+                  >
+                    {c.equityBody}
+                  </p>
+                </div>
+              </Reveal>
+
+              {/* Marie Castelli */}
+              <Reveal delay={120}>
+                <div style={{ display: "flex", gap: 18, alignItems: "flex-start" }}>
+                  <div
+                    style={{
+                      width: 72,
+                      height: 72,
+                      borderRadius: "50%",
+                      overflow: "hidden",
+                      flexShrink: 0,
+                      background: "var(--m-line-2)",
+                    }}
+                  >
+                    <Image
+                      src="/marie-castelli.webp"
+                      alt={c.marieName}
+                      width={72}
+                      height={72}
+                      style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                    />
+                  </div>
+                  <div>
+                    <div
+                      style={{
+                        fontWeight: 700,
+                        fontSize: 16,
+                        color: "var(--m-ink)",
+                        marginBottom: 2,
+                      }}
+                    >
+                      {c.marieName}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 13,
+                        color: "var(--m-ink-3)",
+                        marginBottom: 10,
+                      }}
+                    >
+                      {c.marieRole}
+                    </div>
+                    <p
+                      style={{
+                        fontSize: 14,
+                        color: "var(--m-ink-2)",
+                        lineHeight: 1.55,
+                        fontStyle: "italic",
+                        margin: 0,
+                      }}
+                    >
+                      &ldquo;{c.marieQuote}&rdquo;
+                    </p>
+                  </div>
+                </div>
+              </Reveal>
+
+              {/* CTA paragraph */}
+              <Reveal delay={180}>
+                <div
+                  style={{
+                    borderLeft: "3px solid var(--m-purple)",
+                    paddingLeft: 20,
+                  }}
+                >
+                  <h3
+                    style={{
+                      fontFamily: "var(--f-display)",
+                      fontSize: 18,
+                      fontWeight: 700,
+                      letterSpacing: "-0.3px",
+                      margin: "0 0 8px",
+                      color: "var(--m-ink)",
+                    }}
+                  >
+                    {c.ctaTitle}
+                  </h3>
+                  <p
+                    style={{
+                      color: "var(--m-ink-2)",
+                      fontSize: 15,
+                      lineHeight: 1.6,
+                      margin: 0,
+                    }}
+                  >
+                    {c.ctaBody}
+                  </p>
+                </div>
+              </Reveal>
             </div>
-          </Reveal>
+
+            {/* Right column — form */}
+            <Reveal delay={80}>
+              <div
+                style={{
+                  background: "white",
+                  border: "1px solid var(--m-line)",
+                  borderRadius: 20,
+                  padding: "36px 32px",
+                  boxShadow: "0 4px 24px rgba(16,24,40,0.04)",
+                  position: "sticky",
+                  top: 100,
+                }}
+              >
+                <h2
+                  style={{
+                    fontFamily: "var(--f-display)",
+                    fontSize: 22,
+                    fontWeight: 700,
+                    letterSpacing: "-0.5px",
+                    margin: "0 0 8px",
+                    color: "var(--m-ink)",
+                  }}
+                >
+                  {c.formTitle}
+                </h2>
+                <p
+                  style={{
+                    color: "var(--m-ink-3)",
+                    fontSize: 14.5,
+                    lineHeight: 1.5,
+                    margin: "0 0 24px",
+                  }}
+                >
+                  {c.formSub}
+                </p>
+                <div
+                  id="careers-hubspot-form"
+                  ref={formRef}
+                  style={{ minHeight: 200 }}
+                />
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
     </PageShell>
