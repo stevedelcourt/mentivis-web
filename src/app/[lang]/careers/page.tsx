@@ -140,11 +140,12 @@ export default function CareersPage() {
                   <h2
                     style={{
                       fontFamily: "var(--f-display)",
-                      fontSize: 22,
+                      fontSize: 32,
                       fontWeight: 700,
-                      letterSpacing: "-0.5px",
-                      margin: "0 0 14px",
+                      letterSpacing: "-0.8px",
+                      margin: "0 0 18px",
                       color: "var(--m-ink)",
+                      lineHeight: 1.15,
                     }}
                   >
                     {c.aboutTitle}
