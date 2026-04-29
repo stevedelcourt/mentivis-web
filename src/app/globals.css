@@ -314,13 +314,24 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* ============================================================
-   Header load animation - drop down + fade in, soft velocity
+   Header load animation - Claude-style staggered entrance
    ============================================================ */
 
 @keyframes headerDropIn {
   0% {
     opacity: 0;
-    transform: translateY(-28px);
+    transform: translateY(-16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes navItemFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
   }
   100% {
     opacity: 1;
@@ -329,7 +340,27 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .m-header-load {
-  animation: headerDropIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: headerDropIn 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.m-nav-item {
+  opacity: 0;
+  animation: navItemFadeIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.m-nav-item-delay-0 { animation-delay: 0ms; }
+.m-nav-item-delay-1 { animation-delay: 100ms; }
+.m-nav-item-delay-2 { animation-delay: 200ms; }
+.m-nav-item-delay-3 { animation-delay: 280ms; }
+.m-nav-item-delay-4 { animation-delay: 360ms; }
+
+/* Scroll state - subtle backdrop */
+.m-header-scroll {
+  transition: backdrop-filter 0.3s ease, background 0.3s ease;
+}
+.m-header-scroll.scrolled {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.92);
 }
 
 /* ============================================================

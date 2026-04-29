@@ -26,15 +26,8 @@ export default function MeetingPage() {
           overflow: "hidden",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "linear-gradient(to bottom, rgba(0,7,118,0.55), rgba(0,7,118,0.35))",
-          }}
-        />
-        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 80 }}>
-          <div className="t-eyebrow" style={{ marginBottom: 28, color: "rgba(255,255,255,0.75)" }}>
+        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100 }}>
+          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
             {lang === "fr" ? "Prendre rendez-vous" : "Book a meeting"}
           </div>
           <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 64px)", margin: 0, maxWidth: 900, color: "white" }}>

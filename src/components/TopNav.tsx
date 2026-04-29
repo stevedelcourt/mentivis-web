@@ -101,28 +101,30 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         pointerEvents: "none" as const,
       }}
     >
-      <div style={{
-        pointerEvents: "auto" as const,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: 12,
-        width: "100%",
-        maxWidth: 1280,
-        background: "#ffffff",
-        borderRadius: 16,
-        padding: "10px 20px",
-        boxShadow: scrolled ? "0 6px 24px rgba(16,24,40,0.08)" : "0 2px 12px rgba(16,24,40,0.06)",
-        border: "1px solid var(--m-line)",
-        transition: "box-shadow 0.2s ease",
-      }}>
+      <div className={`m-header-scroll ${scrolled ? "scrolled" : ""}`}
+        style={{
+          pointerEvents: "auto" as const,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: 12,
+          width: "100%",
+          maxWidth: 1280,
+          background: scrolled ? "rgba(255,255,255,0.92)" : "#ffffff",
+          borderRadius: 16,
+          padding: "10px 20px",
+          boxShadow: scrolled ? "0 6px 24px rgba(16,24,40,0.08)" : "0 2px 12px rgba(16,24,40,0.06)",
+          border: "1px solid var(--m-line)",
+          transition: "box-shadow 0.2s ease, background 0.3s ease, backdrop-filter 0.3s ease",
+          backdropFilter: scrolled ? "blur(8px)" : "none",
+        }}>
         {/* Logo - left */}
-        <div style={{ display: "flex", alignItems: "center", flexShrink: 0, minWidth: 150 }}>
+        <div className="m-nav-item m-nav-item-delay-0" style={{ display: "flex", alignItems: "center", flexShrink: 0, minWidth: 150 }}>
           <Logo lang={lang} width={150} height={35} />
         </div>
 
         {/* Nav pill - centered */}
-        <div className="m-nav-pill" style={{
+        <div className="m-nav-pill m-nav-item m-nav-item-delay-1" style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -160,13 +162,15 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         </div>
 
         {/* Right side: FR/EN + Contact button + Burger */}
-        <div style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
-          <LangToggle lang={lang} />
+        <div className="m-nav-item m-nav-item-delay-2" style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
+          <div className="m-nav-item m-nav-item-delay-3">
+            <LangToggle lang={lang} />
+          </div>
 
           {/* Contact button - desktop only, Mentivis blue pill */}
           <Link
             href={`/${lang}/contact`}
-            className="m-nav-cta"
+            className="m-nav-cta m-nav-item m-nav-item-delay-2"
             style={{
               display: "inline-flex",
               alignItems: "center",
@@ -186,7 +190,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
           </Link>
 
           <button
-            className="m-nav-burger"
+            className="m-nav-burger m-nav-item m-nav-item-delay-3"
             aria-label="Menu"
             onClick={() => setMobileOpen((v) => !v)}
             style={{

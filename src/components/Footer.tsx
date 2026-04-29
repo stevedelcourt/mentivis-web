@@ -112,7 +112,9 @@ export default function Footer({ t, lang }: FooterProps) {
           }} className="m-footer-cols">
             <div>
               <Link href={`/${lang}/`}>
-                <Image src="/logo-noir.svg" alt="Mentivis" width={120} height={28} style={{ filter: "invert(1) brightness(100)" }} />
+                <div style={{ filter: "invert(1) brightness(100)" }}>
+                  <Image src="/logo-noir.svg" alt="Mentivis" width={120} height={28} />
+                </div>
               </Link>
               <p style={{
                 color: "rgba(255,255,255,0.65)",
