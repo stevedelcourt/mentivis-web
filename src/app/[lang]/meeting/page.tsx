@@ -78,7 +78,7 @@ export default function MeetingPage() {
               <ContactSidebar
                 lang={lang}
                 eyebrow={lang === "fr" ? "Nous vous répondrons sous 24h" : "We will reply within 24h"}
-                showImage={false}
+                showImage
               />
             </aside>
           </div>
