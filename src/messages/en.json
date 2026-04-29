@@ -6,6 +6,7 @@
     "of": "Training organizations",
     "solutions": "Solutions",
     "resources": "Resources",
+    "insights": "Insights",
     "corporate": "Corporate",
     "contact": "Contact",
     "cta": "Contact us"
@@ -659,5 +660,16 @@
       "footerLeft": "Mentivis OPCO Calculator",
       "footerRight": "Confidential document"
     }
+  },
+  "insights": {
+    "title": "Insights",
+    "eyebrow": "News & Perspectives",
+    "filterAll": "All topics",
+    "filterNewest": "Newest first",
+    "filterOldest": "Oldest first",
+    "readArticle": "Read article",
+    "backToList": "Back to insights",
+    "noArticles": "No articles in this category.",
+    "metaDescription": "News, regulatory insights, perspectives and strategy papers on professional training, education and digital transformation."
   }
 }

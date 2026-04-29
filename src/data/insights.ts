@@ -1,0 +1,87 @@
+/* eslint-disable */
+// Articles are stored as individual JSON files in src/content/insights/
+// This file aggregates them. To add an article, create a new JSON file and import it below.
+
+import article1 from "../content/insights/le-poste-est-mort-vive-la-competence.json";
+import article2 from "../content/insights/les-entreprises-sont-les-prochaines-grandes-ecoles.json";
+import article3 from "../content/insights/formation-professionnelle-france-enjeux-2026.json";
+import article4 from "../content/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere.json";
+import article5 from "../content/insights/mentivis-solutions-conseil-ingenierie-transformation-digitale.json";
+import article6 from "../content/insights/transformation-educative-solutions-cles-en-main.json";
+import article7 from "../content/insights/leurope-face-a-son-defi-educatif-le-grand-examen-de-davos.json";
+import article8 from "../content/insights/leducation-as-a-service-eaas-pour-une-transformation-durable.json";
+import article9 from "../content/insights/rearmement-france-penurie-competences-industrielles-defense.json";
+import article10 from "../content/insights/crise-competences-metallurgie-france-solutions.json";
+import article11 from "../content/insights/senegal-petrole-intelligence-artificielle-formation.json";
+import article12 from "../content/insights/la-franchise-francaise-a-la-croisee-des-chemins-quand-la-penurie-de-talents-revele-une-faille-systemique.json";
+import article13 from "../content/insights/crise-enseignement-superieur-entreprises-formation.json";
+import article14 from "../content/insights/lorientation-post-bac-anatomie-dun-chaos-organise.json";
+import article15 from "../content/insights/les-nouveaux-maitres-decole-les-patrons-francais-et-la-formation.json";
+import article16 from "../content/insights/leducation-merite-mieux-que-les-effets-de-mode-technologiques.json";
+import article17 from "../content/insights/conseil-boutique-vs-big-four.json";
+import article18 from "../content/insights/morin-contre-les-machines.json";
+import article19 from "../content/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros.json";
+
+export interface InsightArticle {
+  slug: string;
+  date: string;              // ISO date
+  category: InsightCategory;
+  author: string;
+  readTime: string;
+  titleFr: string;
+  titleEn: string;
+  excerptFr: string;
+  excerptEn: string;
+  bodyFr: string;            // simplified HTML
+  bodyEn: string;
+  heroImage: string;         // local path
+  keywords: string;
+}
+
+export type InsightCategory =
+  | "announcements"
+  | "perspectives"
+  | "regulatory-insights"
+  | "news"
+  | "strategy-papers";
+
+export const INSIGHT_CATEGORIES: InsightCategory[] = [
+  "announcements",
+  "perspectives",
+  "regulatory-insights",
+  "news",
+  "strategy-papers",
+];
+
+export const CATEGORY_LABELS: Record<InsightCategory, { fr: string; en: string }> = {
+  announcements:      { fr: "Annonces",              en: "Announcements" },
+  perspectives:       { fr: "Perspectives",          en: "Perspectives" },
+  "regulatory-insights": { fr: "Analyses réglementaires", en: "Regulatory Insights" },
+  news:               { fr: "Actualités",            en: "News" },
+  "strategy-papers":  { fr: "Notes stratégiques",    en: "Strategy Papers" },
+};
+
+export const INSIGHTS: InsightArticle[] = [
+  article1, article2, article3, article4, article5,
+  article6, article7, article8, article9, article10,
+  article11, article12, article13, article14, article15,
+  article16, article17, article18, article19,
+] as InsightArticle[];
+
+export function getInsightBySlug(slug: string): InsightArticle | undefined {
+  return INSIGHTS.find((a) => a.slug === slug);
+}
+
+export function getInsightSlugs(): string[] {
+  return INSIGHTS.map((a) => a.slug);
+}
+
+export function getInsightsByCategory(category: InsightCategory): InsightArticle[] {
+  return INSIGHTS.filter((a) => a.category === category);
+}
+
+export function getInsightCategories(): InsightCategory[] {
+  const set = new Set<InsightCategory>();
+  INSIGHTS.forEach((a) => set.add(a.category));
+  return Array.from(set);
+}

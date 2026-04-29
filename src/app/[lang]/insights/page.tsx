@@ -1,0 +1,422 @@
+"use client";
+
+import { useState, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import PageShell from "@/components/layout/PageShell";
+import Reveal from "@/components/Reveal";
+import { useMessages } from "@/lib/messages";
+import {
+  INSIGHTS,
+  CATEGORY_LABELS,
+  type InsightCategory,
+} from "@/data/insights";
+
+const PER_PAGE = 15;
+
+export default function InsightsPage() {
+  const { t, lang } = useMessages();
+  const i = t.insights;
+
+  const [activeCategory, setActiveCategory] = useState<InsightCategory | "">("");
+  const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
+  const [page, setPage] = useState(1);
+
+  const categories = useMemo(() => {
+    const set = new Set<InsightCategory>();
+    INSIGHTS.forEach((a) => set.add(a.category));
+    return Array.from(set);
+  }, []);
+
+  const filtered = useMemo(() => {
+    let list = activeCategory
+      ? INSIGHTS.filter((a) => a.category === activeCategory)
+      : [...INSIGHTS];
+    list.sort((a, b) => {
+      const da = new Date(a.date).getTime();
+      const db = new Date(b.date).getTime();
+      return sortOrder === "newest" ? db - da : da - db;
+    });
+    return list;
+  }, [activeCategory, sortOrder]);
+
+  const totalPages = Math.ceil(filtered.length / PER_PAGE);
+  const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+
+  const handleCategoryChange = (cat: InsightCategory | "") => {
+    setActiveCategory(cat);
+    setPage(1);
+  };
+
+  const handleSortChange = (order: "newest" | "oldest") => {
+    setSortOrder(order);
+    setPage(1);
+  };
+
+  return (
+    <PageShell>
+      <section
+        style={{
+          padding: "120px 24px 40px",
+          maxWidth: 1100,
+          margin: "0 auto",
+        }}
+      >
+        <Reveal>
+          <div
+            style={{
+              fontSize: 12,
+              fontWeight: 700,
+              letterSpacing: "0.12em",
+              textTransform: "uppercase",
+              color: "var(--m-ink-3)",
+              marginBottom: 12,
+            }}
+          >
+            {i.eyebrow}
+          </div>
+          <h1
+            style={{
+              fontSize: "clamp(32px, 5vw, 48px)",
+              fontWeight: 700,
+              lineHeight: 1.12,
+              color: "var(--m-ink)",
+              margin: 0,
+            }}
+          >
+            {i.title}
+          </h1>
+        </Reveal>
+      </section>
+
+      {/* Filters */}
+      <section
+        style={{
+          padding: "0 24px 24px",
+          maxWidth: 1100,
+          margin: "0 auto",
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "10px",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <Reveal delay={60}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            <FilterPill
+              label={i.filterAll}
+              active={activeCategory === ""}
+              onClick={() => handleCategoryChange("")}
+            />
+            {categories.map((cat) => (
+              <FilterPill
+                key={cat}
+                label={CATEGORY_LABELS[cat][lang as "fr" | "en"]}
+                active={activeCategory === cat}
+                onClick={() => handleCategoryChange(cat)}
+              />
+            ))}
+          </div>
+        </Reveal>
+        <Reveal delay={80}>
+          <div style={{ display: "flex", gap: 8 }}>
+            <SortPill
+              label={i.filterNewest}
+              active={sortOrder === "newest"}
+              onClick={() => handleSortChange("newest")}
+            />
+            <SortPill
+              label={i.filterOldest}
+              active={sortOrder === "oldest"}
+              onClick={() => handleSortChange("oldest")}
+            />
+          </div>
+        </Reveal>
+      </section>
+
+      {/* Count */}
+      <section
+        style={{
+          padding: "0 24px 16px",
+          maxWidth: 1100,
+          margin: "0 auto",
+        }}
+      >
+        <Reveal delay={100}>
+          <span style={{ fontSize: 13, color: "var(--m-ink-3)" }}>
+            {filtered.length} {lang === "fr" ? "articles" : "articles"}
+          </span>
+        </Reveal>
+      </section>
+
+      {/* Article list */}
+      <section
+        style={{
+          padding: "0 24px 40px",
+          maxWidth: 1100,
+          margin: "0 auto",
+        }}
+      >
+        {paginated.length === 0 ? (
+          <Reveal>
+            <p style={{ color: "var(--m-ink-3)", fontSize: 15 }}>
+              {i.noArticles}
+            </p>
+          </Reveal>
+        ) : (
+          <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
+            {paginated.map((article, idx) => (
+              <Reveal key={article.slug} delay={idx * 60}>
+                <ArticleCard article={article} lang={lang} />
+              </Reveal>
+            ))}
+          </div>
+        )}
+      </section>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <section
+          style={{
+            padding: "0 24px 100px",
+            maxWidth: 1100,
+            margin: "0 auto",
+          }}
+        >
+          <Reveal>
+            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+              <span
+                style={{
+                  fontSize: 13,
+                  color: "var(--m-ink-3)",
+                  marginRight: 8,
+                }}
+              >
+                {lang === "fr" ? "Pages" : "Pages"}
+              </span>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                <button
+                  key={p}
+                  onClick={() => setPage(p)}
+                  style={{
+                    fontSize: 14,
+                    fontWeight: p === page ? 700 : 500,
+                    padding: "6px 12px",
+                    border: "none",
+                    background: "transparent",
+                    color: p === page ? "var(--m-ink)" : "var(--m-ink-3)",
+                    cursor: "pointer",
+                    textDecoration: p === page ? "underline" : "none",
+                    textUnderlineOffset: 4,
+                  }}
+                >
+                  {p}
+                </button>
+              ))}
+            </div>
+          </Reveal>
+        </section>
+      )}
+    </PageShell>
+  );
+}
+
+function FilterPill({
+  label,
+  active,
+  onClick,
+}: {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        fontSize: 11,
+        fontWeight: 700,
+        letterSpacing: "0.06em",
+        textTransform: "uppercase",
+        padding: "7px 14px",
+        borderRadius: 100,
+        border: active ? "1px solid var(--m-ink)" : "1px solid var(--m-line-2)",
+        background: active ? "var(--m-ink)" : "var(--m-surface-2)",
+        color: active ? "#fff" : "var(--m-ink-2)",
+        cursor: "pointer",
+        transition: "all 0.2s ease",
+        whiteSpace: "nowrap",
+      }}
+      onMouseEnter={(e) => {
+        if (!active) {
+          e.currentTarget.style.borderColor = "var(--m-ink)";
+          e.currentTarget.style.color = "var(--m-ink)";
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (!active) {
+          e.currentTarget.style.borderColor = "var(--m-line-2)";
+          e.currentTarget.style.color = "var(--m-ink-2)";
+        }
+      }}
+    >
+      {label}
+    </button>
+  );
+}
+
+function SortPill({
+  label,
+  active,
+  onClick,
+}: {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        fontSize: 11,
+        fontWeight: 600,
+        letterSpacing: "0.04em",
+        padding: "6px 12px",
+        borderRadius: 6,
+        border: "1px solid transparent",
+        background: "transparent",
+        color: active ? "var(--m-ink)" : "var(--m-ink-3)",
+        cursor: "pointer",
+        textDecoration: active ? "underline" : "none",
+        textUnderlineOffset: 4,
+      }}
+    >
+      {label}
+    </button>
+  );
+}
+
+function ArticleCard({
+  article,
+  lang,
+}: {
+  article: (typeof INSIGHTS)[0];
+  lang: string;
+}) {
+  const d = new Date(article.date);
+  const dateStr = d.toLocaleDateString(lang === "fr" ? "fr-FR" : "en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+  return (
+    <Link
+      href={`/${lang}/insights/${article.slug}`}
+      style={{
+        display: "grid",
+        gridTemplateColumns: "260px 1fr",
+        gap: 28,
+        padding: "32px 0",
+        borderBottom: "1px solid var(--m-line-2)",
+        textDecoration: "none",
+        color: "inherit",
+        alignItems: "flex-start",
+      }}
+      className="insight-card"
+    >
+      {/* Image */}
+      <div
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          background: "var(--m-line-2)",
+          aspectRatio: "16/9",
+          flexShrink: 0,
+          borderRadius: 8,
+        }}
+      >
+        <Image
+          src={article.heroImage}
+          alt={article.titleFr}
+          fill
+          style={{ objectFit: "cover" }}
+          sizes="260px"
+        />
+      </div>
+
+      {/* Meta */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 10, paddingTop: 2 }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center" }}>
+          <CategoryBadge
+            label={CATEGORY_LABELS[article.category][lang as "fr" | "en"]}
+          />
+          <span style={{ fontSize: 12, color: "var(--m-ink-3)" }}>
+            {dateStr}
+          </span>
+        </div>
+        <h2
+          style={{
+            fontSize: 20,
+            fontWeight: 600,
+            lineHeight: 1.3,
+            color: "var(--m-ink)",
+            margin: 0,
+          }}
+        >
+          {article.titleFr}
+        </h2>
+        <p
+          style={{
+            fontSize: 14,
+            color: "var(--m-ink-2)",
+            lineHeight: 1.6,
+            margin: 0,
+          }}
+        >
+          {article.excerptFr}
+        </p>
+        <span
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 4,
+            fontSize: 13,
+            fontWeight: 600,
+            color: "var(--m-ink)",
+            marginTop: 4,
+            width: "fit-content",
+            transition: "color 0.2s ease",
+          }}
+          className="insight-read-btn"
+        >
+          {lang === "fr" ? "Lire" : "Read"}
+          <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
+            chevron_right
+          </span>
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+function CategoryBadge({ label }: { label: string }) {
+  return (
+    <span
+      style={{
+        fontSize: 9,
+        fontWeight: 700,
+        letterSpacing: "0.07em",
+        textTransform: "uppercase",
+        color: "var(--m-ink-3)",
+        background: "var(--m-surface-2)",
+        padding: "3px 8px",
+        border: "1px solid var(--m-line-2)",
+        borderRadius: 4,
+      }}
+    >
+      {label}
+    </span>
+  );
+}

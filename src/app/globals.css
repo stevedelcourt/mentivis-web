@@ -593,3 +593,102 @@ button { font-family: inherit; cursor: pointer; }
     margin-bottom: 14px !important;
   }
 }
+
+/* ── Insights ─────────────────────────────────────────── */
+.insight-body h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--m-ink);
+  margin: 40px 0 16px;
+  line-height: 1.25;
+}
+.insight-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--m-ink);
+  margin: 32px 0 12px;
+  line-height: 1.3;
+}
+.insight-body h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--m-ink-2);
+  margin: 28px 0 12px;
+  line-height: 1.35;
+}
+.insight-body p {
+  margin: 0 0 16px;
+  color: var(--m-ink-2);
+}
+.insight-body ul,
+.insight-body ol {
+  margin: 0 0 16px;
+  padding-left: 24px;
+}
+.insight-body li {
+  margin-bottom: 6px;
+  color: var(--m-ink-2);
+}
+.insight-body a {
+  color: var(--m-purple);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.insight-body a:hover {
+  color: var(--m-purple-mid);
+}
+.insight-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--r-md);
+  margin: 20px 0;
+}
+.insight-body blockquote {
+  margin: 24px 0;
+  padding: 16px 20px;
+  border-left: 3px solid var(--m-purple);
+  background: var(--m-bg-soft);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-style: italic;
+  color: var(--m-ink-2);
+}
+.insight-body strong,
+.insight-body b {
+  color: var(--m-ink);
+  font-weight: 600;
+}
+
+.insight-card:hover .insight-read-btn {
+  color: var(--m-purple) !important;
+}
+
+@media (max-width: 720px) {
+  .insight-card {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ── Admin Form ───────────────────────────────────────── */
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: var(--f-sans);
+  border: 1px solid var(--m-line);
+  border-radius: var(--r-sm);
+  background: #fff;
+  color: var(--m-ink);
+  outline: none;
+  transition: border-color 0.15s;
+}
+.admin-form input:focus,
+.admin-form select:focus,
+.admin-form textarea:focus {
+  border-color: var(--m-purple);
+}
+.admin-form textarea {
+  resize: vertical;
+  line-height: 1.5;
+}

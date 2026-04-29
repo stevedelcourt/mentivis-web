@@ -203,9 +203,9 @@ export default function CareersPage() {
                 <div style={{ display: "flex", gap: 18, alignItems: "flex-start" }}>
                   <div
                     style={{
-                      width: 72,
-                      height: 72,
-                      borderRadius: "50%",
+                      width: 96,
+                      aspectRatio: "1 / 1",
+                      borderRadius: 16,
                       overflow: "hidden",
                       flexShrink: 0,
                       background: "var(--m-line-2)",
@@ -214,9 +214,9 @@ export default function CareersPage() {
                     <Image
                       src="/marie-castelli.webp"
                       alt={c.marieName}
-                      width={72}
-                      height={72}
-                      style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                      width={320}
+                      height={320}
+                      style={{ objectFit: "cover", width: "100%", height: "100%", display: "block" }}
                     />
                   </div>
                   <div>

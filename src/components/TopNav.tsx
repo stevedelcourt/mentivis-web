@@ -11,6 +11,7 @@ export type NavMessages = {
     of: string;
     solutions: string;
     resources: string;
+    insights: string;
     corporate: string;
     contact: string;
     cta: string;
@@ -77,7 +78,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const resourceLinks = [
     { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
     { href: `/${lang}/score-formation`, label: "Score Formation" },
-    { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)" },
+    { href: `/${lang}/insights`, label: t.nav.insights },
   ];
 
   const corporateLinks = [

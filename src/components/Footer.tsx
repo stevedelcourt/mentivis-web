@@ -6,7 +6,7 @@ import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
 
 type FooterMessages = {
-  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; corporate: string; };
+  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; };
   footer: {
     tagline: string;
     ctaTitle: string;
@@ -145,7 +145,7 @@ export default function Footer({ t, lang }: FooterProps) {
             <FooterCol title={t.nav.resources} links={[
               { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
               { href: `/${lang}/score-formation`, label: "Score Formation" },
-              { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)", external: true },
+              { href: `/${lang}/insights`, label: t.nav.insights },
             ]} />
             <FooterCol title={t.nav.corporate} links={[
               { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },

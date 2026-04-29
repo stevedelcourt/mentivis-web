@@ -98,7 +98,7 @@ def upload_tree(ftp, local_root):
             if not is_allowed(f):
                 continue
 
-            remote_rel = local_rel[:-5] if local_rel.endswith(".html") else local_rel
+            remote_rel = local_rel
             local_path = os.path.join(local_root, local_rel)
 
             if upload_file(ftp, local_path, remote_rel):

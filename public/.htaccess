@@ -19,10 +19,6 @@ DirectoryIndex index.html
   RewriteRule ^fr/resources$ /fr/guides [R=301,L]
   RewriteRule ^en/resources$ /en/guides [R=301,L]
 
-  # Redirect /fr/ → /fr (remove trailing slash to avoid duplicate CDN cache)
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.+)/$ /$1 [R=301,L]
-
   # If request is a directory, serve its index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*)$ $1/index.html [L]

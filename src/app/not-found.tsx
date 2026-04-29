@@ -54,6 +54,7 @@ export default function NotFound() {
       of: "Organismes de formation",
       solutions: "Solutions",
       resources: "Ressources",
+      insights: "Insights",
       corporate: "Corporate",
       contact: "Contact",
       cta: "Contactez-nous",
@@ -69,6 +70,7 @@ export default function NotFound() {
       of: "Organismes de formation",
       solutions: "Solutions",
       resources: "Ressources",
+      insights: "Insights",
       corporate: "Corporate",
     },
     footer: {

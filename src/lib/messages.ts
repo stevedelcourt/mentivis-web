@@ -1,6 +1,6 @@
 import { useParams } from "next/navigation";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
+import fr from "../messages/fr.json";
+import en from "../messages/en.json";
 
 export type Messages = typeof fr;
 

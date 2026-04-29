@@ -6,6 +6,7 @@
     "of": "Organismes de formation",
     "solutions": "Solutions",
     "resources": "Ressources",
+    "insights": "Insights",
     "corporate": "Corporate",
     "contact": "Contact",
     "cta": "Contactez-nous"
@@ -659,5 +660,16 @@
       "footerLeft": "Mentivis OPCO Calculator",
       "footerRight": "Document confidentiel"
     }
+  },
+  "insights": {
+    "title": "Insights",
+    "eyebrow": "Actualités & Perspectives",
+    "filterAll": "Tous les sujets",
+    "filterNewest": "Plus récent",
+    "filterOldest": "Plus ancien",
+    "readArticle": "Lire l'article",
+    "backToList": "Retour aux insights",
+    "noArticles": "Aucun article dans cette catégorie.",
+    "metaDescription": "Actualités, analyses réglementaires, perspectives et notes stratégiques sur la formation professionnelle, l'éducation et la transformation digitale."
   }
 }

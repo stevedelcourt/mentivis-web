@@ -77,7 +77,7 @@ export default function MeetingPage() {
             <aside style={{ borderLeft: "1px solid var(--m-line)", paddingLeft: 40 }} className="m-aside">
               <ContactSidebar
                 lang={lang}
-                eyebrow={lang === "fr" ? "Nous vous répondrons sous 24h" : "We will reply within 24h"}
+                eyebrow={lang === "fr" ? "Nous serions ravis d'échanger avec vous. Chaque situation est unique : regardons ensemble comment faire progresser votre dispositif de formation." : "We would be delighted to talk with you. Every situation is unique: let's explore together how to advance your training system."}
                 showImage
               />
             </aside>
