@@ -5,15 +5,20 @@ const locales = ["fr", "en"];
 const defaultLocale = "fr";
 
 export function middleware(request: NextRequest) {
+  const host = request.headers.get("host") || "";
   const pathname = request.nextUrl.pathname;
 
-  // Check if the pathname is missing a locale
+  // 1. Block all vercel.app domain access except API routes
+  if (host.includes("vercel.app") && !pathname.startsWith("/api/")) {
+    return new Response("Forbidden", { status: 403 });
+  }
+
+  // 2. i18n routing (existing logic)
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
   if (pathnameIsMissingLocale) {
-    // Redirect to the default locale with the pathname appended
     return NextResponse.redirect(
       new URL(`/${defaultLocale}${pathname}`, request.url)
     );

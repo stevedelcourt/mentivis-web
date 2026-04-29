@@ -1,16 +1,16 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { HUBSPOT_PORTAL_ID, HUBSPOT_FORM_ID } from "@/lib/config";
+import { HUBSPOT_PORTAL_ID, HUBSPOT_FORM_ID, HUBSPOT_CAREERS_FORM_ID } from "@/lib/config";
 
 type FieldMap = Record<string, string | number>;
 
-const HUBSPOT_ENDPOINT = `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${HUBSPOT_FORM_ID}`;
-
-export function useHubSpotSubmit() {
+export function useHubSpotSubmit(formId?: string) {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${formId || HUBSPOT_FORM_ID}`;
 
   const submit = useCallback(async (fields: FieldMap, context?: { pageUri?: string; pageName?: string }) => {
     setLoading(true);
@@ -26,7 +26,7 @@ export function useHubSpotSubmit() {
         payload.context = { pageUri: context.pageUri, pageName: context.pageName || "" };
       }
 
-      const response = await fetch(HUBSPOT_ENDPOINT, {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -46,7 +46,9 @@ export function useHubSpotSubmit() {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [endpoint]);
 
   return { submit, loading, success, error };
 }
+
+export { HUBSPOT_CAREERS_FORM_ID };

@@ -1,11 +1,10 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
+import ContactSidebar from "@/components/ui/ContactSidebar";
 import { useMessages } from "@/lib/messages";
-import { SITE } from "@/lib/config";
 import { useHubSpotSubmit } from "@/lib/hubspot";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -49,7 +48,7 @@ export default function ContactPage() {
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.firstname || !form.lastname || !form.email || !form.project || !consent) return;
-    if (honeypot) return; // spam bot
+    if (honeypot) return;
 
     const ok = await hsSubmit(
       {
@@ -69,7 +68,7 @@ export default function ContactPage() {
   };
 
   return (
-    <PageShell>
+    <PageShell hidePreFooterCTA>
       <section style={{ paddingTop: 120, paddingBottom: 60 }}>
         <div className="container">
           <Reveal>
@@ -97,7 +96,6 @@ export default function ContactPage() {
               <ContactSuccess title={c.successTitle} body={c.successBody} back={c.successBack} />
             ) : (
               <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
-                {/* Honeypot */}
                 <input
                   type="text"
                   name="website"
@@ -154,21 +152,7 @@ export default function ContactPage() {
             )}
 
             <aside style={{ borderLeft: "1px solid var(--m-line)", paddingLeft: 40 }} className="m-aside">
-              <p style={{ fontSize: 14, color: "var(--m-ink-3)", margin: "0 0 20px", lineHeight: 1.5 }}>
-                {lang === "fr" ? "Vous pouvez également appeler" : "You can also call"}
-              </p>
-              <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 8 }}>
-                <div style={{ width: 56, height: 56, borderRadius: "50%", overflow: "hidden", flexShrink: 0, background: "var(--m-bg-soft)" }}>
-                  <Image src="/mathias.costes.webp" alt="Mathias Costes" width={56} height={56} style={{ objectFit: "cover", width: "100%", height: "100%" }} />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: 16, color: "var(--m-ink)" }}>Mathias Costes</div>
-                  <div style={{ fontSize: 13, color: "var(--m-ink-3)" }}>Partner Mentivis</div>
-                </div>
-              </div>
-              <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} style={{ fontSize: 17, color: "var(--m-ink)", fontWeight: 500, textDecoration: "none" }}>
-                {SITE.phone}
-              </a>
+              <ContactSidebar lang={lang} eyebrow="Un échange, sans détour" showImage />
             </aside>
           </div>
         </div>

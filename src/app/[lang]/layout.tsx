@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
   const isFr = lang === "fr";
 
   const title = isFr
-    ? "Mentivis — Opérateur en formation et développement des compétences"
-    : "Mentivis — Operator in training & skills development";
+    ? "Mentivis - Opérateur en formation et développement des compétences"
+    : "Mentivis - Operator in training & skills development";
   const description = isFr
     ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."
     : "Mentivis designs, structures and deploys training programs. Compensation aligned with results.";

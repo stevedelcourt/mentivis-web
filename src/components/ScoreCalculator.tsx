@@ -234,9 +234,7 @@ function getMaturityLevel(score: number) {
   return { num: 5, key: "lvl5" as const };
 }
 
-function formatEuro(amount: number, lang: string) {
-  return new Intl.NumberFormat(lang === "fr" ? "fr-FR" : "en-US", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount);
-}
+import { formatEuro } from "@/lib/utils";
 
 /* ============================================================
    RADAR SVG
@@ -1190,9 +1188,15 @@ export default function ScoreCalculator() {
                 {!contactSent ? (
                   <form className="sc-cta-form" onSubmit={handleContact}>
                     <input type="text" name="website" value={honeypot} onChange={e => setHoneypot(e.target.value)} tabIndex={-1} autoComplete="off" style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }} />
-                    <input type="text" required placeholder={s.cta.name} value={contactName} onChange={e => setContactName(e.target.value)} />
-                    <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
-                    <label style={{ display: "flex", alignItems: "flex-start", gap: 10, cursor: "pointer", fontSize: 13, color: "var(--m-ink-3)", lineHeight: 1.5 }}>
+                    <div className="sc-cta-row">
+                      <input type="text" required placeholder={s.cta.name} value={contactName} onChange={e => setContactName(e.target.value)} />
+                      <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
+                      <button type="submit" className="sc-btn-primary" disabled={hsLoading}>
+                        {hsLoading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : s.cta.submit}
+                        <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                      </button>
+                    </div>
+                    <label className="sc-cta-consent">
                       <input
                         type="checkbox"
                         required
@@ -1210,10 +1214,6 @@ export default function ScoreCalculator() {
                         {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
                       </p>
                     )}
-                    <button type="submit" className="sc-btn-primary" disabled={hsLoading}>
-                      {hsLoading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : s.cta.submit}
-                      <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
-                    </button>
                   </form>
                 ) : (
                   <div className="sc-cta-success visible">{s.cta.success}</div>

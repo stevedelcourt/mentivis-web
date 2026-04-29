@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 import FinalCTA from "@/components/FinalCTA";
@@ -7,6 +8,63 @@ import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
+
+function ProofSection({ proofs, proofTitle, proofNote }: { proofs: { value: string; unit: string; label: string }[]; proofTitle: string; proofNote: string }) {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setRevealed(true);
+          obs.disconnect();
+        }
+      },
+      { threshold: 0.25 }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
+  return (
+    <section ref={sectionRef} style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
+      <div className="container">
+        <div className="t-eyebrow" style={{ marginBottom: 28, color: "rgba(255,255,255,0.6)" }}>
+          {proofTitle}
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 1, background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 16, overflow: "hidden", marginTop: 24 }} className="m-proof-grid">
+          {proofs.map((p, i) => (
+            <div
+              key={i}
+              className={`m-proof-stat ${revealed ? "revealed" : ""}`}
+              style={{
+                background: "var(--m-ink)",
+                padding: "44px 32px",
+                animationDelay: revealed ? `${i * 120}ms` : "0ms",
+              }}
+            >
+              <div style={{
+                fontFamily: "var(--f-display)",
+                fontWeight: 700,
+                fontSize: "clamp(44px, 5.5vw, 76px)",
+                letterSpacing: "-0.04em",
+                lineHeight: 0.95,
+                color: "white",
+              }}>
+                {p.value}<span style={{ color: "#6b73d6", fontSize: "0.5em", verticalAlign: "0.6em", marginLeft: 4 }}>{p.unit}</span>
+              </div>
+              <div style={{ marginTop: 18, color: "rgba(255,255,255,0.7)", fontSize: 14.5, lineHeight: 1.45 }}>{p.label}</div>
+            </div>
+          ))}
+        </div>
+        <p style={{ marginTop: 24, color: "rgba(255,255,255,0.5)", fontSize: 13 }}>{proofNote}</p>
+      </div>
+    </section>
+  );
+}
 
 function HomeHeroBackdrop() {
   return (
@@ -137,31 +195,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
-        <div className="container">
-          <div className="t-eyebrow" style={{ marginBottom: 28, color: "rgba(255,255,255,0.6)" }}>
-            {h.proofTitle}
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 1, background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 16, overflow: "hidden", marginTop: 24 }} className="m-proof-grid">
-            {h.proofs.map((p, i) => (
-              <div key={i} style={{ background: "var(--m-ink)", padding: "44px 32px" }}>
-                <div style={{
-                  fontFamily: "var(--f-display)",
-                  fontWeight: 700,
-                  fontSize: "clamp(44px, 5.5vw, 76px)",
-                  letterSpacing: "-0.04em",
-                  lineHeight: 0.95,
-                  color: "white",
-                }}>
-                  {p.value}<span style={{ color: "#6b73d6", fontSize: "0.5em", verticalAlign: "0.6em", marginLeft: 4 }}>{p.unit}</span>
-                </div>
-                <div style={{ marginTop: 18, color: "rgba(255,255,255,0.7)", fontSize: 14.5, lineHeight: 1.45 }}>{p.label}</div>
-              </div>
-            ))}
-          </div>
-          <p style={{ marginTop: 24, color: "rgba(255,255,255,0.5)", fontSize: 13 }}>{h.proofNote}</p>
-        </div>
-      </section>
+      <ProofSection proofs={h.proofs} proofTitle={h.proofTitle} proofNote={h.proofNote} />
 
       <FinalCTA t={t} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
     </PageShell>

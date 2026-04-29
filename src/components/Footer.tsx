@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE } from "@/lib/config";
+import { encodeEntities } from "@/lib/utils";
 
 type FooterMessages = {
-  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; };
+  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; corporate: string; };
   footer: {
     tagline: string;
     ctaTitle: string;
@@ -13,7 +14,7 @@ type FooterMessages = {
     navigation: string;
     copy: string;
   };
-  common: { learnMore: string; };
+  common: { learnMore: string };
 };
 
 type FooterProps = {
@@ -30,10 +31,6 @@ function openCookies() {
   }
 }
 
-function encodeEntities(text: string): string {
-  return text.split("").map((c) => `&#${c.charCodeAt(0)};`).join("");
-}
-
 function FooterCol({ title, links }: { title: string; links: { href: string; label: string; external?: boolean; onClick?: () => void }[] }) {
   return (
     <div>
@@ -41,7 +38,7 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
         fontSize: 11,
         textTransform: "uppercase" as const,
         letterSpacing: "0.12em",
-        color: "var(--m-ink-4)",
+        color: "rgba(255,255,255,0.5)",
         margin: "0 0 16px 0",
         fontWeight: 600,
       }}>{title}</h5>
@@ -49,13 +46,13 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
         {links.map((l, i) => (
           <li key={i} style={{ marginBottom: 9 }}>
             {l.onClick ? (
-              <button onClick={l.onClick} className="m-footer-link" style={{ background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left", display: "inline-flex", alignItems: "center", gap: 4 }}>
-                <span className="material-symbols-outlined m-footer-chevron">chevron_right</span>
+              <button onClick={l.onClick} className="m-footer-link-dark" style={{ background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left", display: "inline-flex", alignItems: "center", position: "relative", color: "rgba(255,255,255,0.85)" }}>
+                <span className="material-symbols-outlined m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)", fontSize: 13 }}>chevron_right</span>
                 {l.label}
               </button>
             ) : (
-              <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
-                <span className="material-symbols-outlined m-footer-chevron">chevron_right</span>
+              <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link-dark" style={{ display: "inline-flex", alignItems: "center", position: "relative", color: "rgba(255,255,255,0.85)" }}>
+                <span className="material-symbols-outlined m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)", fontSize: 13 }}>chevron_right</span>
                 {l.label}
               </a>
             )}
@@ -66,9 +63,8 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
   );
 }
 
-
 function PageStats() {
-  const [stats, setStats] = useState({ time: 0.72, size: 387.1 });
+  const [stats, setStats] = useState({ time: 0.72 });
 
   useEffect(() => {
     const perf = performance.getEntriesByType("navigation")[0] as PerformanceNavigationTiming | undefined;
@@ -76,110 +72,50 @@ function PageStats() {
     const loadTime = perf.loadEventEnd - perf.fetchStart;
     setStats({
       time: Math.round(loadTime / 10) / 100,
-      size: Math.round((document.documentElement.scrollHeight || document.body.scrollWidth) / 10) / 100,
     });
   }, []);
 
   return (
     <div style={{
-      padding: "8px 0",
+      padding: "10px 0",
       textAlign: "center",
       color: "var(--m-ink-4)",
       fontSize: 12,
       fontFamily: "var(--f-mono)",
-      background: "var(--m-bg-soft)",
+      background: "#ffffff",
       borderTop: "1px solid var(--m-line)",
     }}>
-      Page chargée en <strong>{stats.time.toFixed(2)} secondes</strong>. Taille de la page : <strong>{stats.size.toFixed(2)} KB</strong>.
+      Page chargée en <strong>{stats.time.toFixed(2)} secondes</strong>.
     </div>
   );
 }
 
 export default function Footer({ t, lang }: FooterProps) {
   return (
-    <footer style={{ background: "var(--m-bg-soft)", marginTop: 80, position: "relative" as const, overflow: "hidden" }}>
-      <div style={{ position: "relative" as const, padding: "120px 0 60px", textAlign: "center" }}>
-        <div className="container" style={{ position: "relative" as const, zIndex: 2 }}>
-          <h2 className="t-display" style={{
-            fontSize: "clamp(32px, 4vw, 52px)",
-            margin: 0,
-            maxWidth: 780,
-            marginLeft: "auto",
-            marginRight: "auto",
-            lineHeight: 1.1,
-          }}>
-            {t.footer.ctaTitle}
-          </h2>
-          <p style={{
-            color: "var(--m-ink-3)",
-            fontSize: 17,
-            marginTop: 22,
-            maxWidth: 540,
-            marginLeft: "auto",
-            marginRight: "auto",
-            lineHeight: 1.5,
-          }}>
-            {t.footer.ctaLead}
-          </p>
-          <div style={{ marginTop: 32, display: "inline-flex", gap: 10 }}>
-            <Link href={`/${lang}/contact`} style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "12px 22px",
-              fontSize: 14,
-              fontWeight: 600,
-              color: "white",
-              background: "var(--m-ink)",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}>
-              {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-            <Link href={`/${lang}/about`} style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "12px 22px",
-              fontSize: 14,
-              fontWeight: 600,
-              color: "var(--m-ink)",
-              background: "white",
-              border: "1.5px solid var(--m-line)",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}>
-              {t.common.learnMore}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div style={{ position: "relative" as const, zIndex: 2, padding: "48px 24px 40px" }}>
-        <div style={{
+    <footer style={{ background: "#fafafd", marginTop: 0, position: "relative" as const, overflow: "hidden", padding: "24px 24px 0" }}>
+      <div
+        style={{
           maxWidth: 1280,
           margin: "0 auto",
-          background: "white",
           borderRadius: 28,
-          padding: "48px 56px 40px",
-          border: "1px solid var(--m-line)",
-          boxShadow: "0 4px 24px rgba(16,24,40,0.04)",
-        }} className="m-footer-card">
+          overflow: "hidden",
+        }}
+        className="m-footer-gradient-bg"
+      >
+        <div style={{ position: "relative" as const, zIndex: 2, padding: "48px 56px 40px" }}>
           <div style={{
             display: "grid",
-            gridTemplateColumns: "1.4fr 1fr 1fr",
-            gap: 48,
+            gridTemplateColumns: "1.4fr 1fr 1fr 1fr",
+            gap: 40,
             paddingBottom: 36,
-            borderBottom: "1px solid var(--m-line-2)",
+            borderBottom: "1px solid rgba(255,255,255,0.08)",
           }} className="m-footer-cols">
             <div>
-              <Link href="/">
-                <Image src="/logo-noir.svg" alt="Mentivis" width={120} height={28} />
+              <Link href={`/${lang}/`}>
+                <Image src="/logo-noir.svg" alt="Mentivis" width={120} height={28} style={{ filter: "invert(1) brightness(100)" }} />
               </Link>
               <p style={{
-                color: "var(--m-ink-3)",
+                color: "rgba(255,255,255,0.65)",
                 fontSize: 13.5,
                 lineHeight: 1.55,
                 marginTop: 16,
@@ -187,14 +123,14 @@ export default function Footer({ t, lang }: FooterProps) {
               }}>
                 {t.footer.tagline}
               </p>
-              <div style={{ marginTop: 16, color: "var(--m-ink-3)", fontSize: 13.5, lineHeight: 1.6 }}>
-                <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "block", marginBottom: 4 }}>
+              <div style={{ marginTop: 16, color: "rgba(255,255,255,0.65)", fontSize: 13.5, lineHeight: 1.6 }}>
+                <Link href={`/${lang}/contact`} className="m-footer-link-dark" style={{ display: "block", marginBottom: 4, color: "rgba(255,255,255,0.85)" }}>
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
                 </Link>
-                <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link" style={{ display: "block", marginBottom: 4 }}>
+                <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link-dark" style={{ display: "block", marginBottom: 4, color: "rgba(255,255,255,0.85)" }}>
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities("Tél. " + SITE.phone) }} />
                 </a>
-                <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="m-footer-link" style={{ display: "block" }}>
+                <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="m-footer-link-dark" style={{ display: "block", color: "rgba(255,255,255,0.85)" }}>
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.address) }} />
                 </a>
               </div>
@@ -207,11 +143,13 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/solutions`, label: t.nav.solutions },
             ]} />
             <FooterCol title={t.nav.resources} links={[
-              { href: `/${lang}/resources`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
-              { href: `/${lang}/opco`, label: lang === "fr" ? "Calculateur OPCO" : "OPCO calculator" },
+              { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
               { href: `/${lang}/score-formation`, label: "Score Formation" },
-              { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
               { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)", external: true },
+            ]} />
+            <FooterCol title={t.nav.corporate} links={[
+              { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
+              { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
             ]} />
           </div>
 
@@ -220,31 +158,33 @@ export default function Footer({ t, lang }: FooterProps) {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            color: "var(--m-ink-4)",
+            color: "rgba(255,255,255,0.4)",
             fontSize: 12.5,
             flexWrap: "wrap" as const,
             gap: 12,
           }}>
             <div>{t.footer.copy}</div>
             <div style={{ display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" as const }}>
-              <a href={`/${lang}/legal`} className="m-footer-bar-link">Mentions légales</a>
-              <span>·</span>
-              <a href={`/${lang}/privacy`} className="m-footer-bar-link">Confidentialité</a>
-              <span>·</span>
-              <a href={`/${lang}/terms`} className="m-footer-bar-link">CGU</a>
-              <span>·</span>
-              <button onClick={openCookies} className="m-footer-bar-link" style={{ background: "none", border: "none", fontSize: 12.5, padding: 0 }}>
+              <a href={`/${lang}/legal`} className="m-footer-bar-link-dark">Mentions légales</a>
+              <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
+              <a href={`/${lang}/privacy`} className="m-footer-bar-link-dark">Confidentialité</a>
+              <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
+              <a href={`/${lang}/terms`} className="m-footer-bar-link-dark">CGU</a>
+              <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
+              <a href={`/${lang}/cgv`} className="m-footer-bar-link-dark">CGV</a>
+              <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
+              <button onClick={openCookies} className="m-footer-bar-link-dark" style={{ background: "none", border: "none", fontSize: 12.5, padding: 0 }}>
                 Cookies
               </button>
-              <span>·</span>
-              <div className="t-mono" style={{ color: "var(--m-ink-4)" }}>
+              <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
+              <div className="t-mono" style={{ color: "rgba(255,255,255,0.35)" }}>
                 v.1 · {lang.toUpperCase()}
               </div>
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
       <PageStats />
     </footer>
   );

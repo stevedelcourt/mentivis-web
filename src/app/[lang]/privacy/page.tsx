@@ -2,10 +2,7 @@
 import PageShell from "@/components/layout/PageShell";
 import LegalPageLayout from "@/components/ui/LegalPageLayout";
 import { useMessages } from "@/lib/messages";
-
-function encodeEntities(text: string): string {
-  return text.split("").map((c) => `&#${c.charCodeAt(0)};`).join("");
-}
+import { encodeEntities } from "@/lib/utils";
 
 export default function PrivacyPage() {
   const { lang } = useMessages();

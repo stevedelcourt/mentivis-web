@@ -4,12 +4,20 @@
 # Disable directory listing
 Options -Indexes
 
+# Custom 404 page
+ErrorDocument 404 /404
+
 # Force index.html as directory index
 DirectoryIndex index.html
 
 # Enable rewrite engine for trailing-slash and extensionless URLs
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # Redirect old /resources → /guides (SEO)
+  RewriteRule ^resources$ /guides [R=301,L]
+  RewriteRule ^fr/resources$ /fr/guides [R=301,L]
+  RewriteRule ^en/resources$ /en/guides [R=301,L]
 
   # Redirect /fr/ → /fr (remove trailing slash to avoid duplicate CDN cache)
   RewriteCond %{REQUEST_FILENAME} !-d

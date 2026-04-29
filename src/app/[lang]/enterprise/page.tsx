@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
-import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -14,17 +13,36 @@ export default function EnterprisePage() {
 
   return (
     <PageShell>
-      <PageHero
-        eyebrow={e.eyebrow}
-        titleParts={[e.heroTitle[0], e.heroTitle[1], e.heroTitle[2]]}
-        accentIndices={[1]}
-        lead={e.heroLead}
+      <section
+        style={{
+          position: "relative",
+          width: "100%",
+          minHeight: 560,
+          backgroundImage: "url(/site-images/investor.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          overflow: "hidden",
+        }}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-          {t.nav.cta}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-        </Link>
-      </PageHero>
+        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100, textAlign: "left" }}>
+          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white", textAlign: "left" }}>
+            {e.eyebrow}
+          </div>
+          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white", textAlign: "left" }}>
+            <span style={{ color: "white" }}>{e.heroTitle[0]}</span><br />
+            <em style={{ color: "white" }}>{e.heroTitle[1]}</em>
+          </h1>
+          <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)", textAlign: "left" }}>{e.heroLead}</p>
+          <div style={{ marginTop: 36, textAlign: "left" }}>
+            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "white", borderRadius: 999, textDecoration: "none" }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
         <div className="container">
@@ -33,7 +51,7 @@ export default function EnterprisePage() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {e.problems.map((p, i) => (
                 <li key={i} style={{ display: "grid", gridTemplateColumns: "60px 1fr", gap: 20, padding: "20px 0", borderBottom: i < e.problems.length - 1 ? "1px solid var(--m-line)" : "none" }}>
-                  <div style={{ fontFamily: "var(--f-display)", color: "var(--m-ink-4)", fontSize: 18 }}>—</div>
+                  <div style={{ fontFamily: "var(--f-display)", color: "var(--m-ink-4)", fontSize: 18 }}>-</div>
                   <span style={{ fontSize: 17, color: "var(--m-ink-2)", lineHeight: 1.5 }}>{p}</span>
                 </li>
               ))}

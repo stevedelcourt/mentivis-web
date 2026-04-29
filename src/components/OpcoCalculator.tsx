@@ -33,15 +33,11 @@ interface Results {
   rate: number;
 }
 
+import { formatEuro } from "@/lib/utils";
+
 /* ============================================================
    HELPERS
    ============================================================ */
-
-function formatEuro(amount: number, lang: string) {
-  return new Intl.NumberFormat(lang === "fr" ? "fr-FR" : "en-US", {
-    style: "currency", currency: "EUR", maximumFractionDigits: 0,
-  }).format(amount);
-}
 
 function computeResults(data: FormData): Results {
   const { employees, payroll, objective, learners, duration } = data;

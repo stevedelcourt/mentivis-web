@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ftp": "node scripts/build-ftp.js",
     "start": "next start",
     "lint": "eslint"
   },

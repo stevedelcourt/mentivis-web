@@ -6,6 +6,7 @@
     "of": "Organismes de formation",
     "solutions": "Solutions",
     "resources": "Ressources",
+    "corporate": "Corporate",
     "contact": "Contact",
     "cta": "Contactez-nous"
   },
@@ -18,25 +19,25 @@
     "heroTitle": ["Concevoir, structurer et déployer", "des dispositifs de formation", "qui ", "fonctionnent réellement", "."],
     "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
     "entryEnterprise": {
-      "kicker": "01 — Vous êtes une entreprise",
+      "kicker": "01 - Vous êtes une entreprise",
       "title": "Transformer la formation en levier de performance",
       "items": ["Audit de maturité", "Création d'académie interne", "Politique et structure de formation"],
       "cta": "Découvrir les solutions"
     },
     "entryOf": {
-      "kicker": "02 — Vous êtes un organisme de formation",
+      "kicker": "02 - Vous êtes un organisme de formation",
       "title": "Structurer, sécuriser et développer votre activité",
       "items": ["Pédagogie & conformité", "Stratégie & positionnement", "Services externalisés"],
       "cta": "Découvrir les solutions"
     },
     "entrySolutions": {
-      "kicker": "03 — Vous cherchez une solution digitale, dév ou IA",
+      "kicker": "03 - Vous cherchez une solution digitale, dév ou IA",
       "title": "Des outils sur mesure, des solutions concrètes",
       "items": ["Plateformes personnalisées", "Solutions IA adaptées à la formation", "Développement sur mesure"],
       "cta": "Découvrir les solutions"
     },
     "diffTitle": "Ce qui nous distingue",
-    "diffLead": "Quatre principes structurels — pas un argumentaire marketing.",
+    "diffLead": "Quatre principes structurels - pas un argumentaire marketing.",
     "differentiation": [
       { "n": "01", "title": "Spécialistes formation et éducation", "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences." },
       { "n": "02", "title": "Approche full-stack", "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre." },
@@ -45,7 +46,7 @@
     ],
     "promiseTitle": "Notre promesse",
     "promiseBody": "Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.",
-    "promiseSig": "— C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
+    "promiseSig": "- C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
     "proofTitle": "Ce que nos missions produisent",
     "proofs": [
       { "value": "6", "unit": "sem.", "label": "structuration OF complète" },
@@ -53,7 +54,7 @@
       { "value": "×2", "unit": "", "label": "engagement académie interne" },
       { "value": "−30", "unit": "%", "label": "recours formations externes" }
     ],
-    "proofNote": "Indicateurs représentatifs — chaque mission est calibrée et mesurée selon ses propres KPI.",
+    "proofNote": "Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.",
     "finalCtaTitle": "Un projet de formation à structurer ?",
     "finalCtaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs."
   },
@@ -65,7 +66,7 @@
     "mission": [
       "Opérateur spécialisé en formation et développement des compétences",
       "Intervention de bout en bout : stratégie, conception, déploiement, pilotage",
-      "Rémunération alignée sur les résultats — pas sur les livrables"
+      "Rémunération alignée sur les résultats - pas sur les livrables"
     ],
     "expertiseTitle": "Nos expertises",
     "expertiseLead": "Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.",
@@ -76,7 +77,7 @@
       { "n": "04", "title": "Développement de solutions", "body": "Outils sur mesure, solutions IA, plateformes spécifiques." }
     ],
     "whyTitle": "Pourquoi faire appel à nous ?",
-    "whyLead": "Pas un catalogue de services — une promesse de résultat.",
+    "whyLead": "Pas un catalogue de services - une promesse de résultat.",
     "why": [
       { "title": "Vue 360°", "body": "Nous comprenons votre écosystème dans sa globalité avant d'agir." },
       { "title": "Conseil ET réalisation", "body": "Nous ne livrons pas de recommandations sans les mettre en œuvre." },
@@ -89,13 +90,13 @@
       { "title": "Fees alignés sur les résultats", "body": "Une part variable liée à la performance mesurée." },
       { "title": "Ciblage et efficacité", "body": "Nous intervenons là où l'impact est maximal, pas partout à la fois." },
       { "title": "ROI documenté", "body": "Chaque mission produit des KPIs de performance tangibles." },
-      { "title": "Offres adaptées", "body": "TPE, PME ou grand groupe — nous calibrons l'intervention." }
+      { "title": "Offres adaptées", "body": "TPE, PME ou grand groupe - nous calibrons l'intervention." }
     ]
   },
   "of": {
     "eyebrow": "Vous êtes un organisme de formation",
     "heroTitle": ["Structurer et développer un organisme", "de formation ", "solide", " et conforme."],
-    "heroLead": "Création, conformité, croissance — Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.",
+    "heroLead": "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.",
     "pillarsTitle": "Nos pôles d'intervention",
     "pillarsLead": "Une architecture de services claire et actionnable pour les OF.",
     "pillars": [
@@ -168,8 +169,8 @@
   },
   "enterprise": {
     "eyebrow": "Vous êtes une entreprise",
-    "heroTitle": ["Transformer la formation en", "levier de performance", " durable."],
-    "heroLead": "Académies internes, montée en compétences, structuration des dispositifs — Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
+    "heroTitle": ["Transformer la formation en", "levier de performance durable."],
+    "heroLead": "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
     "problemsTitle": "La formation en entreprise reste souvent inefficace",
     "problems": [
       "Dispositifs peu structurés, déconnectés des enjeux métier",
@@ -215,7 +216,7 @@
       {
         "n": "04",
         "title": "Création de structure",
-        "body": "Créer de toutes pièces votre dispositif formation interne ou externe — OF, CFA, école spécialisée.",
+        "body": "Créer de toutes pièces votre dispositif formation interne ou externe - OF, CFA, école spécialisée.",
         "items": [
           "OF interne : structuration d'une académie ou école d'entreprise",
           "OF externe : création d'un organisme de formation indépendant",
@@ -252,7 +253,7 @@
       {
         "n": "01",
         "title": "Conception d'outils sur mesure",
-        "body": "Aucun outil générique — tout est pensé pour votre réalité opérationnelle.",
+        "body": "Aucun outil générique - tout est pensé pour votre réalité opérationnelle.",
         "items": [
           "Analyse des besoins et cahier des charges fonctionnel",
           "Conception UX et prototypage des parcours utilisateurs",
@@ -286,7 +287,7 @@
   "contact": {
     "eyebrow": "Contact",
     "title": ["Vous avez un projet.", "Nous avons les réponses.", "Parlons-en."],
-    "lead": "Une page sans friction. Pas de long formulaire, pas de promesse marketing — juste une invitation à la conversation.",
+    "lead": "Une page sans friction. Pas de long formulaire, pas de promesse marketing - juste une invitation à la conversation.",
     "labels": {
       "firstname": "Prénom",
       "lastname": "Nom",
@@ -310,10 +311,6 @@
     "tagline": "Dispositifs de formation qui fonctionnent.",
     "ctaTitle": "Démarrer un projet, c'est simple",
     "ctaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs.",
-    "newsletterTitle": "La lettre Mentivis",
-    "newsletterBody": "Tous les deux mois — analyses, retours de mission, regards sur la formation. Pas de spam.",
-    "newsletterPlaceholder": "votre@email.fr",
-    "newsletterSuccess": "Merci. À très bientôt.",
     "navigation": "Navigation",
     "copy": "© 2026 Mentivis. Opérateur en formation et développement des compétences."
   },
@@ -531,6 +528,60 @@
       "footerLeft": "Mentivis Training Impact Score",
       "footerRight": "Page {page}/5"
     }
+  },
+  "guides": {
+    "eyebrow": "Ressources",
+    "title": "Les Guides de Référence Mentivis",
+    "lead": "Six guides pratiques pour maîtriser les mécanismes de financement, la conformité et la structuration de vos dispositifs formation.",
+    "guideLabel": "Guide",
+    "download": "Télécharger",
+    "downloadLocked": "Déverrouiller",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email professionnel",
+    "phone": "Téléphone",
+    "company": "Entreprise",
+    "submit": "Recevoir l'accès",
+    "submitting": "Envoi en cours...",
+    "consent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
+    "consentLink": "politique de confidentialité",
+    "modalTitle": "Accédez aux guides",
+    "modalSub": "Renseignez vos coordonnées pour déverrouiller l'accès à l'ensemble des guides. Un seul formulaire suffit.",
+    "modalSuccessTitle": "Accès déverrouillé !",
+    "modalSuccessBody": "Vous pouvez désormais télécharger tous les guides. Les boutons de téléchargement sont actifs.",
+    "bpfTitle": "Le guide BPF 2026",
+    "bpfDesc": "Bilan Pédagogique et Financier - comprendre les obligations, structurer sa déclaration et sécuriser sa conformité auprès des autorités de contrôle.",
+    "bpfPages": "20 pages",
+    "fseTitle": "Le guide FSE+",
+    "fseDesc": "Fonds Social Européen Plus - identifier les opportunités de financement, monter un dossier solide et maximiser l'impact de vos projets.",
+    "fsePages": "35 pages",
+    "poeiTitle": "Le guide POEI",
+    "poeiDesc": "Préparation Opérationnelle à l'Emploi Individuel - maîtriser le dispositif, sécuriser les conventions et optimiser le recours au POEI.",
+    "poeiPages": "22 pages",
+    "cpfTitle": "Le guide CPF 2026",
+    "cpfDesc": "Compte Personnel de Formation - réduire sa dépendance au CPF, diversifier ses sources de financement et sécuriser ses recettes.",
+    "cpfPages": "38 pages",
+    "conventionsTitle": "Le guide Conventions de Formation",
+    "conventionsDesc": "Méthode en 7 étapes pour structurer, négocier et sécuriser vos conventions de formation avec vos clients entreprises.",
+    "conventionsPages": "28 pages",
+    "taxeTitle": "Le guide Taxe d'Apprentissage",
+    "taxeDesc": "SOLTéA, circuit de financement et collecte - comprendre la réforme, sécuriser ses collectes et optimiser son potentiel de financement.",
+    "taxePages": "32 pages",
+    "teaserOpcoEyebrow": "Outil",
+    "teaserOpcoTitle": "Combien votre OPCO peut financer ?",
+    "teaserOpcoBody": "73 % des entreprises n'exploitent pas leurs droits OPCO. Estimez votre potentiel de financement en 2 minutes.",
+    "teaserScoreEyebrow": "Diagnostic",
+    "teaserScoreTitle": "Votre formation est-elle un levier business ?",
+    "teaserScoreBody": "10 minutes pour révéler la maturité réelle de votre dispositif formation et mesurer l'écart entre perception et réalité.",
+    "teaserCta": "Découvrir"
+  },
+  "careers": {
+    "eyebrow": "Rejoindre l'équipe",
+    "title": "Carrières",
+    "lead": "Vous partagez notre conviction que la formation est un levier stratégique ? Envoyez-nous votre candidature. Nous recrutons des profils passionnés, curieux et animés par l'impact.",
+    "formTitle": "Postuler",
+    "formSub": "Remplissez le formulaire ci-dessous et joignez votre CV. Nous étudions chaque candidature avec attention.",
+    "fallback": "Le formulaire est temporairement indisponible. Veuillez envoyer votre candidature directement à contact@mentivis.com"
   },
   "opco": {
     "eyebrow": "Calculateur de financement",

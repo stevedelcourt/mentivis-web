@@ -28,7 +28,7 @@ export default function AboutPage() {
       <section className="section">
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80, alignItems: "start" }} className="m-split-grid">
-            <SectionHeader eyebrow="01 — Identité" title={a.missionTitle} />
+            <SectionHeader eyebrow="01 - Identité" title={a.missionTitle} />
             <div style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
               {a.mission.map((m, i) => (
                 <div key={i} style={{ display: "grid", gridTemplateColumns: "60px 1fr", gap: 20, paddingBottom: 24, borderBottom: i < a.mission.length - 1 ? "1px solid var(--m-line)" : "none" }}>
@@ -45,7 +45,7 @@ export default function AboutPage() {
 
       <section className="section">
         <div className="container">
-          <SectionHeader eyebrow="02 — Expertises" title={a.expertiseTitle} lead={a.expertiseLead} />
+          <SectionHeader eyebrow="02 - Expertises" title={a.expertiseTitle} lead={a.expertiseLead} />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, marginTop: 56 }} className="m-grid-2">
             {a.expertise.map((e, i) => (
               <PillarCard key={i} n={e.n} title={e.title} body={e.body} />
@@ -56,7 +56,7 @@ export default function AboutPage() {
 
       <section style={{ padding: "100px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
         <div className="container">
-          <SectionHeader eyebrow="03 — Pourquoi" title={a.whyTitle} lead={a.whyLead} />
+          <SectionHeader eyebrow="03 - Pourquoi" title={a.whyTitle} lead={a.whyLead} />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 0, marginTop: 56, border: "1px solid var(--m-line)", borderRadius: 16, overflow: "hidden", background: "white" }} className="m-grid-4">
             {a.why.map((w, i) => (
               <div key={i} style={{ padding: 32, borderRight: i < a.why.length - 1 ? "1px solid var(--m-line)" : "none" }}>
@@ -72,7 +72,7 @@ export default function AboutPage() {
       <section className="section">
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80 }} className="m-split-grid">
-            <SectionHeader eyebrow="04 — Tarification" title={a.costTitle} lead={a.costLead} />
+            <SectionHeader eyebrow="04 - Tarification" title={a.costTitle} lead={a.costLead} />
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
               {a.cost.map((c, i) => (
                 <div key={i} style={{ borderTop: "1px solid var(--m-ink)", paddingTop: 18 }}>

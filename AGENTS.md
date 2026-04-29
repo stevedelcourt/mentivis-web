@@ -1,218 +1,101 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Mentivis Refactor - Skill
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+## Overview
 
-# Mentivis Web — Project Documentation
+This skill defines the complete refactor protocol for the Mentivis Next.js static site. Use this when performing codebase audits, cleanups, or structural improvements.
 
-## Architecture Overview
+## Architecture
 
-Static Next.js 16 export with bilingual routing (`/fr/` and `/en/`). No API routes, no database — pure static marketing site.
-
-## Folder Structure
+Static Next.js 16 export with bilingual routing (`/fr/` and `/en/`). No API routes, no database.
 
 ```
 src/
   app/
-    layout.tsx              # Root layout (minimal)
-    globals.css             # Global styles, design tokens, responsive utilities
-    [lang]/
-      layout.tsx            # Locale layout — metadata, GTM, cookie consent
-      page.tsx              # Home page
-      about/page.tsx        # About page
-      contact/page.tsx      # Contact form
-      enterprise/page.tsx   # Enterprise solutions
-      of/page.tsx           # Organismes de formation
-      solutions/page.tsx    # Digital/AI solutions
-      legal/page.tsx        # Mentions légales
-      privacy/page.tsx      # Politique de confidentialité
-      terms/page.tsx        # CGU
-      cookies/page.tsx      # Politique de cookies
-      resources/page.tsx    # Placeholder
-      opco/page.tsx         # Placeholder
-      score-formation/page.tsx      # Score Formation placeholder
-      careers/page.tsx      # Placeholder
+    [lang]/           # All pages (dynamic route for FR/EN)
+    globals.css       # Design tokens, responsive utilities
+    layout.tsx        # Root layout
+    not-found.tsx     # 404 page
   components/
-    layout/
-      PageShell.tsx         # Wraps every page: TopNav + Footer + page-shell
-    ui/
-      PageHero.tsx          # Reusable page hero with eyebrow/title/lead
-      SectionHeader.tsx     # Section eyebrow + title + lead
-      PillarCard.tsx        # Card with number, title, body, items
-      DualEntryCard.tsx     # Home entry card (3 tones)
-      FinalCTA.tsx          # Final call-to-action section
-      Reveal.tsx            # Scroll-reveal wrapper
-      ComingSoon.tsx        # Placeholder page content
-      LegalPageLayout.tsx   # Shared legal page structure
-    TopNav.tsx              # Fixed header with nav pill + lang switcher
-    Footer.tsx              # Full footer with newsletter + links
-    Logo.tsx                # SVG logo
-    CookieConsent.tsx       # vanilla-cookieconsent integration
-  lib/
-    messages.ts             # useMessages() hook, useLang() hook, getMessages()
-    config.ts               # Site constants (email, phone, address, GTM_ID)
-  messages/
-    fr.json                 # French translations
-    en.json                 # English translations
-public/
-  favicon.ico, favicon-*.png, apple-touch-icon.png, android-chrome-*.png
-  logo-noir.svg
-  mathias.costes.webp
-  site.webmanifest
+    layout/           # PageShell, structural wrappers
+    ui/               # Small reusable UI components
+    *.tsx             # Page-level components
+  lib/                # Utilities, hooks, config
+  messages/           # fr.json + en.json (identical keys)
+public/               # Static assets
 ```
 
-## i18n System
+## Refactor Rules
 
-### How translations work
+### 1. Code Quality
+- **No inline style duplication**: Extract repeated button/link patterns to `<ButtonLink>` component
+- **No duplicated functions**: `encodeEntities`, `formatEuro` → `src/lib/utils.ts`
+- **No dead code**: Remove unused components (`ComingSoon`), unused assets, dead CSS
+- **Consistent naming**: PascalCase for components, camelCase for functions/variables, kebab-case for files
 
-- All UI text lives in `src/messages/fr.json` and `src/messages/en.json`
-- Both files share the **exact same structure** — only values differ
-- Components consume translations via `useMessages()` from `src/lib/messages.ts`
-
-```tsx
-import { useMessages } from "@/lib/messages";
-
-export default function MyPage() {
-  const { t, lang } = useMessages();
-  return <h1>{t.nav.home}</h1>;
-}
+### 2. Components Hierarchy
+```
+layout/
+  PageShell.tsx       # TopNav + children + PreFooterCTA + Footer
+  TopNav.tsx          # Fixed header with nav pill + lang switcher
+  Footer.tsx          # Full footer (gradient animated bg)
+ui/
+  ButtonLink.tsx      # Primary + outline + ghost variants
+  ContactSidebar.tsx  # Mathias Costes card (reused on contact + meeting)
+  PageHero.tsx        # Standard hero with eyebrow/title/lead
+  SectionHeader.tsx   # Eyebrow + title + lead
+  PillarCard.tsx      # Numbered pillar card
+  DualEntryCard.tsx   # Home entry cards (3 tones)
+  FinalCTA.tsx        # Dark CTA section
+  PreFooterCTA.tsx    # Light CTA before footer
+  Reveal.tsx          # Scroll-reveal wrapper
 ```
 
-### Adding a new translation key
+### 3. Routing & Links
+- All internal links use `/${lang}/` prefix
+- Footer logo links to `/${lang}/`
+- No hardcoded `/fr/` or `/en/` in components (use `lang` prop)
+- Cookie consent privacy links point to `/${lang}/privacy`
 
-1. Add the key to **both** `fr.json` and `en.json` with the same path
-2. Use it in components via `t.your.new.key`
+### 4. Bilingual (FR/EN)
+- All UI strings live in `src/messages/fr.json` and `src/messages/en.json`
+- Both files share **exact same structure** — only values differ
+- No hardcoded strings in components
+- To add a page: create `[lang]/page.tsx`, add keys to both JSON files
 
-### Language switching
+### 5. Security
+- GTM ID and HubSpot IDs are client-side by design (no secrets)
+- No hardcoded passwords, API keys, or credentials in source
+- FTP credentials only in `.env.local` (gitignored)
 
-- TopNav has a FR/EN toggle that swaps the `/fr/` or `/en/` prefix in the current URL
-- Static export generates both `/fr/*` and `/en/*` routes
-- Default redirect middleware sends `/` → `/fr/`
+### 6. Calculator Components (Score + OPCO)
+- Shared CTA logic extracted to `useCalculatorCTA()` hook
+- Shared PDF export to `exportCalculatorPDF()` utility
+- Shared dark card styles consolidated in `globals.css`
+- Component-specific styles in `.css` files, shared styles in `globals.css`
 
-## How to Add a New Page
+### 7. Performance
+- Images: use `next/image` with proper width/height
+- Static export: `images.unoptimized: true` in `next.config.ts`
+- Lazy load heavy components (calculators)
+- Minimize render-blocking resources
 
-### 1. Create the page file
+### 8. Mobile
+- Breakpoint: 950px (mobile menu)
+- Grids collapse: 1000px → 2-col, 720px → 1-col
+- All pages tested on mobile viewport
 
-```tsx
-// src/app/[lang]/my-page/page.tsx
-"use client";
-import PageShell from "@/components/layout/PageShell";
-import { useMessages } from "@/lib/messages";
-
-export default function MyPage() {
-  const { t, lang } = useMessages();
-  return (
-    <PageShell>
-      <section className="section">
-        <div className="container">
-          <h1 className="t-display">{lang === "fr" ? "Ma page" : "My page"}</h1>
-        </div>
-      </section>
-    </PageShell>
-  );
-}
-```
-
-### 2. Add translations (if needed)
-
-Add keys to both `fr.json` and `en.json` under a new namespace:
-
-```json
-{
-  "myPage": {
-    "title": "Ma page"
-  }
-}
-```
-
-### 3. Add to navigation (optional)
-
-Edit `src/components/TopNav.tsx` `links` array to include the new route.
-
-## Adding a Placeholder Page
-
-For pages that are not ready yet, use the shared `ComingSoon` component:
-
-```tsx
-"use client";
-import PageShell from "@/components/layout/PageShell";
-import ComingSoon from "@/components/ui/ComingSoon";
-import Reveal from "@/components/Reveal";
-import { useMessages } from "@/lib/messages";
-
-export default function MyPlaceholderPage() {
-  const { lang } = useMessages();
-  return (
-    <PageShell>
-      <section style={{ paddingTop: 140, paddingBottom: 80 }}>
-        <div className="container" style={{ maxWidth: 800 }}>
-          <Reveal>
-            <h1 className="t-display">My Page Title</h1>
-          </Reveal>
-          <ComingSoon />
-        </div>
-      </section>
-    </PageShell>
-  );
-}
-```
-
-## Design Tokens (CSS Variables)
-
-All design tokens are defined in `src/app/globals.css`:
-
-| Token | Value |
-|-------|-------|
-| `--m-purple` | `#000776` |
-| `--m-ink` | `#101114` |
-| `--m-ink-2` | `#2a2c34` |
-| `--m-ink-3` | `#686b82` |
-| `--m-ink-4` | `#9497a9` |
-| `--m-line` | `#dedee5` |
-| `--m-bg-soft` | `#fafafd` |
-| `--f-display` | IBM Plex Sans |
-| `--f-mono` | JetBrains Mono |
-
-## Responsive Breakpoints
-
-| Breakpoint | Behavior |
-|------------|----------|
-| `max-width: 1000px` | 2-col grids collapse to 1-col, solution rows stack |
-| `max-width: 900px` | Section padding reduces, gutter shrinks to 20px |
-| `max-width: 720px` | Burger menu appears, contact CTA hides, grids go single column |
-
-## Deployment
-
-### Local build
+## Build & Deploy
 ```bash
 npm run build
+FTP_HOST=... FTP_USER=... FTP_PASSWORD=... FTP_ROOT=public_html LOCAL_ROOT=out python3 scripts/ftp_sync.py
 ```
 
-### FTP deploy
-```bash
-# Set env vars, then:
-python3 scripts/ftp_sync.py
-```
-
-Or with env vars inline:
-```bash
-FTP_HOST=sc4bovu7233.universe.wf FTP_USER=sc4bovu7233 FTP_PASSWORD='...' FTP_ROOT=public_html LOCAL_ROOT=out python3 scripts/ftp_sync.py
-```
-
-### GitHub Actions
-- `.github/workflows/deploy.yml` deploys to both Vercel and FTP on push to `main`
-
-## Security Notes
-
-- **No hardcoded secrets** in source code
-- FTP credentials read from environment variables only
-- GTM ID is client-side by design (cookie consent gated)
-- `.env.local` and `.env.example` are gitignored
-
-## Performance Notes
-
-- Static export — all pages prerendered at build time
-- `images.unoptimized: true` in `next.config.ts` (required for static export)
-- Google Fonts loaded via `<link>` (not JS)
-- Cookie consent loads asynchronously
+## Common Fixes Checklist
+- [ ] `encodeEntities()` → import from `lib/utils.ts`
+- [ ] `formatEuro()` → import from `lib/utils.ts`
+- [ ] Footer logo `href="/"` → `href={\`/${lang}/\`}`
+- [ ] Cookie consent privacy link → `/${lang}/privacy`
+- [ ] Button styles → use `<ButtonLink>` component
+- [ ] Contact sidebar → use `<ContactSidebar>` component
+- [ ] Delete unused assets: `score2.webp`, unused `site-images/`
+- [ ] Remove `ComingSoon.tsx` if unused

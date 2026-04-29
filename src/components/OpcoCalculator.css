@@ -288,7 +288,7 @@
   line-height: 1.5;
 }
 
-/* CTA card — reuse ScoreCalculator dark card */
+/* CTA card - reuse ScoreCalculator dark card */
 .oc-cta-card {
   background: linear-gradient(135deg, #1a0f3d 0%, #0d0822 100%);
   color: white;
@@ -342,7 +342,7 @@
   line-height: 1.5;
 }
 
-/* CTA form inputs — match Score Formation exactly */
+/* CTA form inputs - match Score Formation exactly */
 .oc-cta-card .sc-cta-form {
   display: flex;
   gap: 12px;

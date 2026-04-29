@@ -1,5 +1,5 @@
 /* === Mentivis Score Calculator === */
-/* Adapted from mentivis_score.html — purple #7132f5 replaced with navy #000776 */
+/* Adapted from mentivis_score.html - purple #7132f5 replaced with navy #000776 */
 
 .sc-app {
   --sc-navy: #000776;
@@ -993,15 +993,20 @@
 }
 .sc-cta-form {
   display: flex;
-  gap: 12px;
+  flex-direction: column;
+  gap: 14px;
   margin-bottom: 24px;
-  flex-wrap: wrap;
   position: relative;
   z-index: 1;
 }
-.sc-cta-form input {
+.sc-cta-row {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+.sc-cta-row input {
   flex: 1;
-  min-width: 200px;
+  min-width: 0;
   padding: 14px 18px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -1010,13 +1015,13 @@
   font-size: 15px;
   transition: all 0.2s;
 }
-.sc-cta-form input:focus {
+.sc-cta-row input:focus {
   outline: none;
   border-color: var(--sc-navy);
   background: rgba(255, 255, 255, 0.1);
 }
-.sc-cta-form input::placeholder { color: rgba(255, 255, 255, 0.4); }
-.sc-cta-form button {
+.sc-cta-row input::placeholder { color: rgba(255, 255, 255, 0.4); }
+.sc-cta-row button {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -1027,13 +1032,23 @@
   font-size: 15px;
   font-weight: 600;
   transition: all 0.2s;
+  white-space: nowrap;
 }
-.sc-cta-form button:hover {
+.sc-cta-row button:hover {
   background: var(--sc-near-black);
   transform: translateY(-1px);
 }
-.sc-cta-form button:hover .sc-btn-chevron {
+.sc-cta-row button:hover .sc-btn-chevron {
   transform: translateX(3px);
+}
+.sc-cta-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10;
+  cursor: pointer;
+  font-size: 13;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
 }
 .sc-cta-success {
   display: none;
@@ -1462,4 +1477,6 @@
   .sc-hero-card { padding: 28px 20px; }
   .sc-card { padding: 24px 20px; }
   .sc-form-card { padding: 28px 20px; }
+  .sc-cta-row { flex-direction: column; }
+  .sc-cta-row button { width: 100%; justify-content: center; }
 }

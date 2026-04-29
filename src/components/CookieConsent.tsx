@@ -118,7 +118,7 @@ export default function CookieConsentBanner() {
               acceptNecessaryBtn: 'Tout refuser',
               showPreferencesBtn: 'Configurer',
               footer:
-                '<a href="/fr/contact">Politique de confidentialité</a>',
+                '<a href="/fr/privacy">Politique de confidentialité</a>',
             },
             preferencesModal: {
               title: 'Gestion des cookies',
@@ -155,7 +155,7 @@ export default function CookieConsentBanner() {
               acceptNecessaryBtn: 'Reject all',
               showPreferencesBtn: 'Configure',
               footer:
-                '<a href="/en/contact">Privacy Policy</a>',
+                '<a href="/en/privacy">Privacy Policy</a>',
             },
             preferencesModal: {
               title: 'Cookie management',

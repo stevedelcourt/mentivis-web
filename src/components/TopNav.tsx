@@ -11,6 +11,7 @@ export type NavMessages = {
     of: string;
     solutions: string;
     resources: string;
+    corporate: string;
     contact: string;
     cta: string;
   };
@@ -56,6 +57,8 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
+  const [corporateOpen, setCorporateOpen] = useState(false);
+  const [desktopResourcesOpen, setDesktopResourcesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -72,17 +75,21 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   ];
 
   const resourceLinks = [
-    { href: `/${lang}/resources`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
-    { href: `/${lang}/opco`, label: lang === "fr" ? "Calculateur OPCO" : "OPCO calculator" },
+    { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
     { href: `/${lang}/score-formation`, label: "Score Formation" },
-    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
     { href: "#", label: lang === "fr" ? "Insights (à venir)" : "Insights (coming soon)" },
+  ];
+
+  const corporateLinks = [
+    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
+    { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
   ];
 
   const isActive = (href: string) => route && href === `/${lang}` + route.replace(/^\/[a-z]{2}/, "");
 
   return (
     <header
+      className="m-header-load"
       style={{
         position: "fixed",
         top: 12, left: 0, right: 0,
@@ -108,12 +115,12 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         border: "1px solid var(--m-line)",
         transition: "box-shadow 0.2s ease",
       }}>
-        {/* Logo — left */}
+        {/* Logo - left */}
         <div style={{ display: "flex", alignItems: "center", flexShrink: 0, minWidth: 150 }}>
-          <Logo width={150} height={35} />
+          <Logo lang={lang} width={150} height={35} />
         </div>
 
-        {/* Nav pill — centered */}
+        {/* Nav pill - centered */}
         <div className="m-nav-pill" style={{
           display: "flex",
           alignItems: "center",
@@ -147,6 +154,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 {l.label}
               </Link>
             ))}
+
           </nav>
         </div>
 
@@ -154,7 +162,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         <div style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
           <LangToggle lang={lang} />
 
-          {/* Contact button — desktop only, Mentivis blue pill */}
+          {/* Contact button - desktop only, Mentivis blue pill */}
           <Link
             href={`/${lang}/contact`}
             className="m-nav-cta"
@@ -277,11 +285,60 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 ))}
               </div>
             )}
+            <button
+              onClick={() => setCorporateOpen(v => !v)}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                padding: "12px 8px",
+                fontSize: 16,
+                fontWeight: 500,
+                color: "var(--m-ink)",
+                background: "none",
+                border: "none",
+                borderBottom: "1px solid var(--m-line-2)",
+                cursor: "pointer",
+                fontFamily: "inherit",
+                textAlign: "left",
+              }}
+            >
+              <span>{t.nav.corporate}</span>
+              <span
+                className="material-symbols-outlined"
+                style={{
+                  fontSize: 18,
+                  color: "var(--m-ink-3)",
+                  transition: "transform 0.2s",
+                  transform: corporateOpen ? "rotate(90deg)" : "rotate(0deg)",
+                }}
+              >
+                chevron_right
+              </span>
+            </button>
+            {corporateOpen && (
+              <div style={{ display: "flex", flexDirection: "column" as const, gap: 4, paddingLeft: 12, paddingBottom: 8 }}>
+                {corporateLinks.map((l) => (
+                  <Link
+                    key={l.href + l.label}
+                    href={l.href}
+                    onClick={() => setMobileOpen(false)}
+                    style={{
+                      display: "block",
+                      padding: "10px 8px",
+                      fontSize: 14,
+                      fontWeight: 500,
+                      color: "var(--m-ink-2)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
           <div style={{ marginTop: 16, display: "flex", flexDirection: "column" as const, gap: 10 }}>
-            <div style={{ display: "flex", justifyContent: "flex-end" }}>
-              <LangToggle lang={lang} />
-            </div>
             <Link href={`/${lang}/contact`} onClick={() => setMobileOpen(false)} style={{
               display: "flex",
               alignItems: "center",
@@ -298,22 +355,6 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               {t.nav.cta}
               <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
             </Link>
-            <a href="mailto:contact@mentivis.com" onClick={() => setMobileOpen(false)} style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: 8,
-              padding: "12px 20px",
-              fontSize: 14,
-              fontWeight: 600,
-              color: "var(--m-ink)",
-              background: "transparent",
-              border: "1.5px solid var(--m-line)",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}>
-              contact@mentivis.com
-            </a>
           </div>
         </div>
       )}

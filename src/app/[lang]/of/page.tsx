@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
-import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -14,25 +13,49 @@ export default function OfPage() {
 
   return (
     <PageShell>
-      <PageHero
-        eyebrow={o.eyebrow}
-        titleParts={lang === "fr"
-          ? [o.heroTitle[0] + " " + o.heroTitle[1], o.heroTitle[2], o.heroTitle[3]]
-          : [o.heroTitle[0], o.heroTitle[1], o.heroTitle[2] + o.heroTitle[3]]}
-        accentIndices={[1]}
-        lead={o.heroLead}
+      <section
+        style={{
+          position: "relative",
+          width: "100%",
+          minHeight: 560,
+          backgroundImage: "url(/site-images/yellos-fail.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          overflow: "hidden",
+        }}
       >
-        <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const }}>
-          <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-            {t.nav.cta}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-          </Link>
-          <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-            {lang === "fr" ? "Voir les pôles" : "View pillars"}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-          </Link>
+        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100 }}>
+          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
+            {o.eyebrow}
+          </div>
+          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white" }}>
+            {lang === "fr" ? (
+              <>
+                <span style={{ color: "white" }}>{o.heroTitle[0]} {o.heroTitle[1]}</span><br />
+                <em style={{ color: "white" }}>{o.heroTitle[2]}</em>{o.heroTitle[3]}
+              </>
+            ) : (
+              <>
+                <span style={{ color: "white" }}>{o.heroTitle[0]}</span><br />
+                <em style={{ color: "white" }}>{o.heroTitle[1]}</em>{o.heroTitle[2]}{o.heroTitle[3]}
+              </>
+            )}
+          </h1>
+          <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)" }}>{o.heroLead}</p>
+          <div style={{ marginTop: 36, display: "flex", gap: 12, flexWrap: "wrap" as const }}>
+            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "white", borderRadius: 999, textDecoration: "none" }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+            <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 999, textDecoration: "none" }}>
+              {lang === "fr" ? "Voir les pôles" : "View pillars"}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+          </div>
         </div>
-      </PageHero>
+      </section>
 
       <section className="section" id="pillars">
         <div className="container">
@@ -52,7 +75,7 @@ export default function OfPage() {
         <div className="container">
           <div style={{ maxWidth: 800 }}>
             <div className="t-eyebrow" style={{ marginBottom: 24, color: "rgba(255,255,255,0.6)" }}>
-              05 — {lang === "fr" ? "Externalisation" : "Outsourcing"}
+              05 - {lang === "fr" ? "Externalisation" : "Outsourcing"}
             </div>
             <h2 className="t-display" style={{ fontSize: "clamp(28px, 4vw, 48px)", margin: 0, color: "white" }}>{o.externalisedTitle}</h2>
             <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 19, marginTop: 22, maxWidth: 720, lineHeight: 1.55 }}>{o.externalisedLead}</p>
@@ -121,18 +144,18 @@ export default function OfPage() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", marginTop: 80, padding: "40px 0", borderTop: "1px solid var(--m-line)" }} className="m-split-grid">
             <div style={{ borderRadius: 16, overflow: "hidden", background: "var(--m-bg-soft)" }}>
-              <Image src="/score2.webp" alt="OPCO Calculator" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
+              <Image src="/guide-images/bpf.webp" alt="Guides de référence" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
             <div>
-              <div className="t-eyebrow" style={{ marginBottom: 16 }}>{lang === "fr" ? "Financement" : "Funding"}</div>
+              <div className="t-eyebrow" style={{ marginBottom: 16 }}>{lang === "fr" ? "Ressources" : "Resources"}</div>
               <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
-                {lang === "fr" ? "Découvrez le potentiel de financement OPCO de votre organisme" : "Discover your organization's OPCO funding potential"}
+                {lang === "fr" ? "Les guides pratiques pour structurer votre organisme" : "Practical guides to structure your organization"}
               </h3>
               <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px", maxWidth: 480 }}>
-                {lang === "fr" ? "73 % des organismes de formation n'exploitent pas leurs droits OPCO. Notre calculateur estime en 2 minutes le montant auquel vous pouvez prétendre." : "73% of training organizations do not use their OPCO rights. Our calculator estimates in 2 minutes the amount you can claim."}
+                {lang === "fr" ? "BPF, FSE+, POEI, CPF, conventions de formation, taxe d'apprentissage - six guides concrets pour sécuriser votre conformité et optimiser vos financements." : "BPF, FSE+, POEI, CPF, training agreements, apprenticeship tax - six concrete guides to secure your compliance and optimize your funding."}
               </p>
-              <Link href={`/${lang}/opco`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-                {lang === "fr" ? "Calculer mon potentiel OPCO" : "Calculate my OPCO potential"}
+              <Link href={`/${lang}/guides`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+                {lang === "fr" ? "Consulter les guides" : "Browse the guides"}
                 <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
               </Link>
             </div>

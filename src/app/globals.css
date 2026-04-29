@@ -1,4 +1,4 @@
-/* === Mentivis — Design Tokens & Utilities === */
+/* === Mentivis - Design Tokens & Utilities === */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
@@ -164,7 +164,7 @@ button { font-family: inherit; cursor: pointer; }
   .m-proof-grid { grid-template-columns: 1fr 1fr !important; }
   .m-diff-grid { grid-template-columns: 1fr !important; }
   .m-solution-row { grid-template-columns: 1fr !important; gap: 20px !important; padding: 36px 0 !important; }
-  .m-footer-cols { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .m-footer-cols { grid-template-columns: 1fr 1fr !important; gap: 40px !important; }
 }
 
 @media (max-width: 950px) {
@@ -176,9 +176,23 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 720px) {
   .m-grid-3, .m-grid-4, .m-proof-grid, .m-triple-grid { grid-template-columns: 1fr !important; }
   .m-aside { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--m-line); padding-top: 32px !important; }
+  .m-footer-cols { grid-template-columns: 1fr !important; gap: 32px !important; }
 }
 
-/* Material Symbols — ensure ligatures render as icons */
+/* Guides page responsive */
+@media (max-width: 900px) {
+  .m-guide-card { grid-template-columns: 1fr !important; }
+  .m-guide-img { order: 0 !important; aspect-ratio: 16 / 9 !important; }
+  .m-guide-body { order: 1 !important; padding: 24px !important; }
+  .m-guide-teasers { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 520px) {
+  .m-guide-modal { padding: 28px 20px 24px !important; }
+  .m-guide-modal-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Material Symbols - ensure ligatures render as icons */
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
@@ -260,7 +274,156 @@ button { font-family: inherit; cursor: pointer; }
   opacity: 1;
 }
 
-/* Cookie consent overrides — Buy All + Analytics use navy #000776 */
+/* ============================================================
+   Dark Footer (gradient background) - link hovers
+   ============================================================ */
+
+.m-footer-link-dark {
+  font-size: 13.5px;
+  text-decoration: none;
+  transition: color 0.18s, font-weight 0.18s;
+}
+.m-footer-link-dark:hover {
+  color: white !important;
+  font-weight: 500;
+}
+
+.m-footer-bar-link-dark {
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  transition: color 0.18s, font-weight 0.18s;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.m-footer-bar-link-dark:hover {
+  color: white !important;
+  font-weight: 500;
+}
+
+.m-footer-chevron-dark {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  opacity: 0;
+  transition: opacity 0.18s;
+}
+.m-footer-link-dark:hover .m-footer-chevron-dark,
+.m-footer-bar-link-dark:hover .m-footer-chevron-dark {
+  opacity: 1;
+}
+
+/* ============================================================
+   Header load animation - drop down + fade in, soft velocity
+   ============================================================ */
+
+@keyframes headerDropIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-28px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.m-header-load {
+  animation: headerDropIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* ============================================================
+   Proof stats - scroll reveal count up
+   ============================================================ */
+
+@keyframes proofReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(24px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.m-proof-stat {
+  opacity: 0;
+}
+.m-proof-stat.revealed {
+  animation: proofReveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Animated gradient background for footer inner card */
+.m-footer-gradient-bg {
+  background: linear-gradient(-45deg, #000721, #000776, #000721, #000776);
+  background-size: 400% 400%;
+  animation: footerGradient 10s ease infinite;
+}
+
+@keyframes footerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ============================================================
+   HubSpot Meetings Embed - no scrollbar
+   ============================================================ */
+
+.m-meeting-embed-wrap {
+  overflow: hidden !important;
+}
+
+.m-meeting-embed-wrap iframe,
+.m-meeting-embed-wrap .meetings-iframe-container iframe {
+  width: 100% !important;
+  min-height: 580px !important;
+  border: none !important;
+  overflow: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.m-meeting-embed-wrap iframe::-webkit-scrollbar,
+.m-meeting-embed-wrap .meetings-iframe-container iframe::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Bullet list - real round bullets */
+.bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bullet-list li {
+  position: relative;
+  padding-left: 18px;
+  margin: 8px 0;
+  color: var(--m-ink-2);
+  font-size: 16px;
+  line-height: 1.6;
+}
+.bullet-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--m-purple);
+}
+
+/* Cookie consent overrides - Buy All + Analytics use navy #000776 */
 .cc-btn.cc-accept-all,
 .cc-btn.cc-show-preferences {
   background-color: #000776 !important;
@@ -272,3 +435,161 @@ button { font-family: inherit; cursor: pointer; }
   background-color: #00054d !important;
 }
 .cc-category-description { display: none !important; }
+
+/* ============================================================
+   HubSpot Form Overrides - Mentivis styling
+   ============================================================ */
+
+/* Container */
+#careers-hubspot-form {
+  position: relative;
+}
+
+/* Iframe styling - force borderless, full-width */
+#careers-hubspot-form iframe {
+  border: none !important;
+  width: 100% !important;
+  min-height: 400px;
+}
+
+/* Hide HubSpot branding / disclaimer at parent level */
+#careers-hubspot-form .hs-form__virality-link,
+#careers-hubspot-form .hs-richtext p a[href*="hubspot"],
+#careers-hubspot-form .hs-richtext p:has(a[href*="hubspot"]),
+#careers-hubspot-form .hs-form__privacy,
+#careers-hubspot-form .hs-richtext:has(> p:only-child) {
+  display: none !important;
+}
+
+/* Form wrapper */
+#careers-hubspot-form .hbspt-form,
+#careers-hubspot-form .m-hs-form {
+  font-family: var(--f-sans) !important;
+}
+
+/* Labels */
+#careers-hubspot-form .hs-field-label,
+#careers-hubspot-form .m-hs-form .hs-field-label {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: var(--m-ink-2) !important;
+  margin-bottom: 8px !important;
+  display: block !important;
+}
+
+/* Inputs & textareas */
+#careers-hubspot-form input[type="text"],
+#careers-hubspot-form input[type="email"],
+#careers-hubspot-form input[type="tel"],
+#careers-hubspot-form textarea,
+#careers-hubspot-form select,
+#careers-hubspot-form .m-hs-form .hs-input {
+  width: 100% !important;
+  padding: 12px 16px !important;
+  border: 1.5px solid var(--m-line) !important;
+  border-radius: 12px !important;
+  font-family: var(--f-sans) !important;
+  font-size: 15px !important;
+  color: var(--m-ink) !important;
+  background: white !important;
+  outline: none !important;
+  transition: border-color 0.2s ease !important;
+  box-shadow: none !important;
+}
+#careers-hubspot-form input:focus,
+#careers-hubspot-form textarea:focus,
+#careers-hubspot-form select:focus,
+#careers-hubspot-form .m-hs-form .hs-input:focus {
+  border-color: var(--m-purple) !important;
+}
+
+/* File upload */
+#careers-hubspot-form input[type="file"],
+#careers-hubspot-form .m-hs-form input[type="file"] {
+  font-size: 14px !important;
+  color: var(--m-ink-3) !important;
+}
+
+/* Submit button */
+#careers-hubspot-form .hs-button,
+#careers-hubspot-form .m-hs-form .hs-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 13px 24px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  background: var(--m-purple) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  cursor: pointer !important;
+  font-family: var(--f-sans) !important;
+  transition: opacity 0.2s ease !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+#careers-hubspot-form .hs-button:hover,
+#careers-hubspot-form .m-hs-form .hs-button:hover {
+  opacity: 0.9 !important;
+  background: var(--m-purple) !important;
+}
+#careers-hubspot-form .hs-button:disabled,
+#careers-hubspot-form .m-hs-form .hs-button:disabled {
+  background: var(--m-ink-4) !important;
+  cursor: not-allowed !important;
+}
+
+/* Spacing between fields */
+#careers-hubspot-form .hs-form-field,
+#careers-hubspot-form .m-hs-form .hs-form-field {
+  margin-bottom: 16px !important;
+}
+
+/* Error messages */
+#careers-hubspot-form .hs-error-msgs,
+#careers-hubspot-form .m-hs-form .hs-error-msgs {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 6px 0 0 !important;
+}
+#careers-hubspot-form .hs-error-msgs li,
+#careers-hubspot-form .m-hs-form .hs-error-msgs li {
+  font-size: 13px !important;
+  color: #c62828 !important;
+}
+
+/* Legal / consent text */
+#careers-hubspot-form .hs-richtext,
+#careers-hubspot-form .m-hs-form .hs-richtext {
+  font-size: 13px !important;
+  color: var(--m-ink-3) !important;
+  line-height: 1.5 !important;
+}
+
+/* Checkbox wrapper */
+#careers-hubspot-form .hs-form-booleancheckbox,
+#careers-hubspot-form .m-hs-form .hs-form-booleancheckbox {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+}
+#careers-hubspot-form .hs-form-booleancheckbox input,
+#careers-hubspot-form .m-hs-form .hs-form-booleancheckbox input {
+  width: auto !important;
+  margin-top: 2px !important;
+}
+#careers-hubspot-form .hs-form-booleancheckbox label,
+#careers-hubspot-form .m-hs-form .hs-form-booleancheckbox label {
+  font-size: 13px !important;
+  color: var(--m-ink-3) !important;
+  line-height: 1.5 !important;
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+  #careers-hubspot-form .hs-form-field,
+  #careers-hubspot-form .m-hs-form .hs-form-field {
+    margin-bottom: 14px !important;
+  }
+}
