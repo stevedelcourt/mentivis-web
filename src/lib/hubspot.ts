@@ -5,11 +5,8 @@ import { HUBSPOT_FORM_ID, HUBSPOT_CAREERS_FORM_ID } from "@/lib/config";
 
 type FieldMap = Record<string, string | number>;
 
-const API_BASE = process.env.NEXT_PUBLIC_VERCEL_URL
-  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-  : typeof window !== "undefined"
-    ? window.location.origin
-    : "";
+// Vercel API base URL — must be absolute because the frontend runs on o2switch
+const API_BASE = "https://mentivis-web.vercel.app";
 
 export function useHubSpotSubmit(formId?: string) {
   const [loading, setLoading] = useState(false);
