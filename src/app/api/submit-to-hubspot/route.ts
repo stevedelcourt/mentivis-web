@@ -1,9 +1,13 @@
 import { NextResponse } from "next/server";
 
 const ALLOWED_ORIGINS = [
+  "http://sc4bovu7233.universe.wf",
   "https://sc4bovu7233.universe.wf",
+  "http://sc3bovu7233.universe.wf",
   "https://sc3bovu7233.universe.wf",
+  "http://mentivis.com",
   "https://mentivis.com",
+  "http://www.mentivis.com",
   "https://www.mentivis.com",
 ];
 
