@@ -13,7 +13,18 @@ export function middleware(request: NextRequest) {
     return new Response("Forbidden", { status: 403 });
   }
 
-  // 2. i18n routing (existing logic)
+  // 2. Admin routes bypass i18n entirely
+  if (pathname.startsWith("/admin")) {
+    return NextResponse.next();
+  }
+
+  // If someone accesses /fr/admin/*, rewrite to /admin/*
+  if (pathname.startsWith("/fr/admin") || pathname.startsWith("/en/admin")) {
+    const newPath = pathname.replace(/^\/(fr|en)\/admin/, "/admin");
+    return NextResponse.rewrite(new URL(newPath, request.url));
+  }
+
+  // 3. i18n routing
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );

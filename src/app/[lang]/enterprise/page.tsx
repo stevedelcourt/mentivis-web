@@ -36,7 +36,7 @@ export default function EnterprisePage() {
           </h1>
           <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)", textAlign: "left" }}>{e.heroLead}</p>
           <div style={{ marginTop: 36, textAlign: "left" }}>
-            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "white", borderRadius: 999, textDecoration: "none" }}>
+            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
               {t.nav.cta}
               <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
             </Link>

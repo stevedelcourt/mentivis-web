@@ -1,13 +1,38 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 
 const PARTICLE_COUNT = 24;
 
+// Seeded pseudo-random for SSR/client consistency
+function seededRandom(seed: number) {
+  let s = seed;
+  return () => {
+    s = (s * 16807 + 0) % 2147483647;
+    return (s - 1) / 2147483646;
+  };
+}
+
 function Particles() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const particles = useMemo(() => {
+    const rand = seededRandom(42); // fixed seed
+    return Array.from({ length: PARTICLE_COUNT }).map(() => ({
+      size: rand() * 4 + 2,
+      left: rand() * 100,
+      delay: rand() * 6,
+      duration: rand() * 8 + 8,
+    }));
+  }, []);
+
   return (
     <div
       style={{
@@ -18,27 +43,24 @@ function Particles() {
         zIndex: 0,
       }}
     >
-      {Array.from({ length: PARTICLE_COUNT }).map((_, i) => {
-        const size = Math.random() * 4 + 2;
-        const left = Math.random() * 100;
-        const delay = Math.random() * 6;
-        const duration = Math.random() * 8 + 8;
-        return (
-          <span
-            key={i}
-            style={{
-              position: "absolute",
-              left: `${left}%`,
-              bottom: `-10px`,
-              width: size,
-              height: size,
-              borderRadius: "50%",
-              background: "rgba(255,255,255,0.25)",
-              animation: `m-float-up ${duration}s linear ${delay}s infinite`,
-            }}
-          />
-        );
-      })}
+      {particles.map((p, i) => (
+        <span
+          key={i}
+          style={{
+            position: "absolute",
+            left: `${p.left}%`,
+            bottom: `-10px`,
+            width: p.size,
+            height: p.size,
+            borderRadius: "50%",
+            background: "rgba(255,255,255,0.25)",
+            animation: mounted
+              ? `m-float-up ${p.duration}s linear ${p.delay}s infinite`
+              : undefined,
+            opacity: mounted ? undefined : 0,
+          }}
+        />
+      ))}
     </div>
   );
 }

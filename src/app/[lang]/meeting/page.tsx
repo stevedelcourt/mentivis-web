@@ -21,8 +21,7 @@ export default function MeetingPage() {
           backgroundPosition: "center",
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
+          textAlign: "left",
           color: "white",
           overflow: "hidden",
         }}
