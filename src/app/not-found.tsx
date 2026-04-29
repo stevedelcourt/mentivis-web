@@ -131,9 +131,9 @@ export default function NotFound() {
       <TopNav t={navT} lang={lang} route="" />
 
       <main
+        className="m-404-gradient"
         style={{
           flex: 1,
-          background: "var(--m-purple)",
           color: "white",
           display: "flex",
           flexDirection: "column",

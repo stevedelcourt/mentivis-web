@@ -5,14 +5,20 @@ import { SITE } from "@/lib/config";
 type ContactSidebarProps = {
   lang: string;
   eyebrow?: string;
+  title?: string;
   showImage?: boolean;
 };
 
-export default function ContactSidebar({ lang, eyebrow, showImage = true }: ContactSidebarProps) {
+export default function ContactSidebar({ lang, eyebrow, title, showImage = true }: ContactSidebarProps) {
   return (
     <div style={{ maxWidth: 260 }}>
+      {title && (
+        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--m-ink)", margin: "0 0 8px", lineHeight: 1.35 }}>
+          {title}
+        </p>
+      )}
       {eyebrow && (
-        <p style={{ fontSize: 14, fontWeight: 600, color: "var(--m-ink-2)", margin: "0 0 16px", lineHeight: 1.4 }}>
+        <p style={{ fontSize: 14, fontWeight: title ? 400 : 600, color: "var(--m-ink-2)", margin: "0 0 16px", lineHeight: 1.5 }}>
           {eyebrow}
         </p>
       )}

@@ -2,7 +2,6 @@
 import Link from "next/link";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
-import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -13,17 +12,38 @@ export default function AboutPage() {
 
   return (
     <PageShell>
-      <PageHero
-        eyebrow={a.eyebrow}
-        titleParts={[a.title[0], a.title[1]]}
-        accentIndices={[1]}
-        lead={a.lead}
+      <section
+        style={{
+          position: "relative",
+          width: "100%",
+          minHeight: 560,
+          backgroundImage: "url(/site-images/twowomen.avif)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          overflow: "hidden",
+        }}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-          {t.nav.cta}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-        </Link>
-      </PageHero>
+        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100, textAlign: "left" }}>
+          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
+            {a.eyebrow}
+          </div>
+          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white" }}>
+            <span style={{ color: "white" }}>{a.title[0]}</span>{" "}
+            <em style={{ color: "white" }}>{a.title[1]}</em>
+          </h1>
+          <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)" }}>
+            {a.lead}
+          </p>
+          <div style={{ marginTop: 36, textAlign: "left" }}>
+            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <section className="section">
         <div className="container">

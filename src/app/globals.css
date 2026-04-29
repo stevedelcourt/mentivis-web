@@ -386,7 +386,8 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* Animated gradient background for footer inner card */
-.m-footer-gradient-bg {
+.m-footer-gradient-bg,
+.m-404-gradient {
   background: linear-gradient(-45deg, #000721, #000776, #000721, #000776);
   background-size: 400% 400%;
   animation: footerGradient 10s ease infinite;
