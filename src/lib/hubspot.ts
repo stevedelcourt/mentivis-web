@@ -1,54 +1,68 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { HUBSPOT_PORTAL_ID, HUBSPOT_FORM_ID, HUBSPOT_CAREERS_FORM_ID } from "@/lib/config";
+import { HUBSPOT_FORM_ID, HUBSPOT_CAREERS_FORM_ID } from "@/lib/config";
 
 type FieldMap = Record<string, string | number>;
+
+const API_BASE = process.env.NEXT_PUBLIC_VERCEL_URL
+  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+  : typeof window !== "undefined"
+    ? window.location.origin
+    : "";
 
 export function useHubSpotSubmit(formId?: string) {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${formId || HUBSPOT_FORM_ID}`;
+  const targetFormId = formId || HUBSPOT_FORM_ID;
+  const token = process.env.NEXT_PUBLIC_INTERNAL_TOKEN || "";
 
-  const submit = useCallback(async (fields: FieldMap, context?: { pageUri?: string; pageName?: string }) => {
-    setLoading(true);
-    setSuccess(false);
-    setError(null);
+  const submit = useCallback(
+    async (
+      fields: FieldMap,
+      context?: { pageUri?: string; pageName?: string },
+      honeypot?: string
+    ) => {
+      setLoading(true);
+      setSuccess(false);
+      setError(null);
 
-    try {
-      const payload: any = {
-        fields: Object.entries(fields).map(([name, value]) => ({ name, value: String(value) })),
-      };
+      try {
+        const response = await fetch(`${API_BASE}/api/submit-to-hubspot`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({
+            formId: targetFormId,
+            fields,
+            context,
+            honeypot,
+          }),
+        });
 
-      if (context?.pageUri) {
-        payload.context = { pageUri: context.pageUri, pageName: context.pageName || "" };
+        const data = await response.json().catch(() => ({}));
+
+        if (!response.ok) {
+          throw new Error(data.error || `Erreur ${response.status}`);
+        }
+
+        setSuccess(true);
+        return true;
+      } catch (err: any) {
+        setError(err?.message || "Submission failed");
+        return false;
+      } finally {
+        setLoading(false);
       }
-
-      const response = await fetch(endpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        throw new Error(data.message || data.error || `Erreur ${response.status}`);
-      }
-
-      setSuccess(true);
-      return true;
-    } catch (err: any) {
-      setError(err?.message || "Submission failed");
-      return false;
-    } finally {
-      setLoading(false);
-    }
-  }, [endpoint]);
+    },
+    [targetFormId, token]
+  );
 
   return { submit, loading, success, error };
 }
 
-export { HUBSPOT_CAREERS_FORM_ID };
+export { HUBSPOT_FORM_ID, HUBSPOT_CAREERS_FORM_ID };
