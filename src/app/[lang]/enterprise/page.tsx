@@ -18,7 +18,7 @@ export default function EnterprisePage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/investor.avif)",
+          backgroundImage: "url(/images/heroes/investor.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

@@ -16,7 +16,7 @@ export default function SolutionsPage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/teamflash.avif)",
+          backgroundImage: "url(/images/heroes/teamflash.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

@@ -69,7 +69,7 @@ export default function CareersPage() {
           aspectRatio: "16 / 9",
           minHeight: 420,
           maxHeight: 640,
-          backgroundImage: "url(/site-images/blobs.avif)",
+          backgroundImage: "url(/images/heroes/blobs.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

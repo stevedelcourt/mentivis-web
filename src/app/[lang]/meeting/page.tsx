@@ -16,7 +16,7 @@ export default function MeetingPage() {
           aspectRatio: "16 / 9",
           minHeight: 480,
           maxHeight: 640,
-          backgroundImage: "url(/site-images/circularline.avif)",
+          backgroundImage: "url(/images/heroes/circularline.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

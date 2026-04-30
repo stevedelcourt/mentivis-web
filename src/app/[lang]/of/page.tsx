@@ -18,7 +18,7 @@ export default function OfPage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/yellos-fail.avif)",
+          backgroundImage: "url(/images/heroes/yellos-fail.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
