@@ -354,13 +354,54 @@ button { font-family: inherit; cursor: pointer; }
 .m-nav-item-delay-3 { animation-delay: 280ms; }
 .m-nav-item-delay-4 { animation-delay: 360ms; }
 
-/* Scroll state - subtle backdrop */
+/* Scroll state - glassmorphism float */
 .m-header-scroll {
-  transition: backdrop-filter 0.3s ease, background 0.3s ease;
+  transition: box-shadow 0.35s ease, background 0.35s ease, backdrop-filter 0.35s ease;
 }
 .m-header-scroll.scrolled {
-  backdrop-filter: blur(8px);
-  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 40px rgba(16, 24, 40, 0.12);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+}
+
+/* ============================================================
+   Premium glassmorphism header (desktop scroll only)
+   Reliable cross-browser glass effect — no SVG filters.
+   ============================================================ */
+
+.m-header-liquid {
+  position: relative;
+  background: rgba(255, 255, 255, 0.60) !important;
+  backdrop-filter: blur(24px) saturate(1.4) !important;
+  box-shadow: 0 16px 48px rgba(16, 24, 40, 0.18),
+              inset 0 1px 0 rgba(255, 255, 255, 0.85),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Mobile: disable premium glass, keep simple blur */
+@media (max-width: 950px) {
+  .m-header-liquid {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    box-shadow: 0 12px 40px rgba(16, 24, 40, 0.12) !important;
+  }
+}
+
+/* Mobile menu overlay */
+.m-nav-mobile {
+  animation: mobileMenuIn 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes mobileMenuIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 /* ============================================================

@@ -15,6 +15,10 @@
     "learnMore": "En savoir plus",
     "youAre": "Vous êtes"
   },
+  "animation": {
+    "words": ["Concevoir", "Structurer", "Déployer"],
+    "subtitle": "des dispositifs de formation qui fonctionnent"
+  },
   "home": {
     "eyebrow": "Opérateur en formation & développement des compétences",
     "heroTitle": ["Concevoir, structurer et déployer", "des dispositifs de formation", "qui ", "fonctionnent réellement", "."],
@@ -96,7 +100,7 @@
   },
   "of": {
     "eyebrow": "Vous êtes un organisme de formation",
-    "heroTitle": ["Structurer et développer un organisme", "de formation ", "solide", " et conforme."],
+    "heroTitle": ["Structurer et", "développer un organisme", "de formation solide", "et conforme."],
     "heroLead": "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.",
     "pillarsTitle": "Nos pôles d'intervention",
     "pillarsLead": "Une architecture de services claire et actionnable pour les OF.",

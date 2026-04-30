@@ -15,6 +15,10 @@
     "learnMore": "Learn more",
     "youAre": "You are"
   },
+  "animation": {
+    "words": ["Design", "Structure", "Deploy"],
+    "subtitle": "training programs that actually work"
+  },
   "home": {
     "eyebrow": "Operator in training & skills development",
     "heroTitle": ["Designing, structuring and deploying", "training programs", "that ", "actually work", "."],
@@ -96,7 +100,7 @@
   },
   "of": {
     "eyebrow": "You are a training organization",
-    "heroTitle": ["Build a ", "solid", " and compliant", " training organization."],
+    "heroTitle": ["Build a", "solid and compliant", "training", "organization."],
     "heroLead": "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
     "pillarsTitle": "Our intervention pillars",
     "pillarsLead": "A clearer, more actionable services architecture.",

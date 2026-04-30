@@ -8,6 +8,7 @@ import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
+import { useTypewriter } from "@/lib/useTypewriter";
 
 function ProofSection({ proofs, proofTitle, proofNote }: { proofs: { value: string; unit: string; label: string }[]; proofTitle: string; proofNote: string }) {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -74,19 +75,6 @@ function HomeHeroBackdrop() {
       pointerEvents: "none" as const,
       overflow: "hidden",
     }}>
-      <svg style={{ position: "absolute" as const, top: 80, right: -120, width: 580, height: 580, opacity: 0.55 }} viewBox="0 0 400 400">
-        <defs>
-          <radialGradient id="hh-r" cx="0.4" cy="0.4" r="0.7">
-            <stop offset="0%" stopColor="#6b73d6" stopOpacity="0.55" />
-            <stop offset="60%" stopColor="#000776" stopOpacity="0.18" />
-            <stop offset="100%" stopColor="#000776" stopOpacity="0" />
-          </radialGradient>
-        </defs>
-        <circle cx="200" cy="200" r="180" fill="url(#hh-r)" />
-        {[40, 70, 100, 130, 160, 190].map((r, i) => (
-          <circle key={i} cx="200" cy="200" r={r} fill="none" stroke="rgba(0,7,118,0.10)" strokeWidth="0.8" />
-        ))}
-      </svg>
       <div style={{
         position: "absolute" as const,
         inset: 0,
@@ -104,6 +92,24 @@ export default function HomePage() {
   const { t, lang } = useMessages();
   const h = t.home;
 
+  const typewriterWords = t.animation?.words ?? ["Concevoir", "Structurer", "Déployer"];
+  const subtitleText = t.animation?.subtitle ?? "des dispositifs de formation qui fonctionnent";
+
+  const { displayedText } = useTypewriter({
+    words: typewriterWords,
+    typeSpeed: 100,
+    deleteSpeed: 60,
+    pauseType: 1200,
+    pauseDelete: 250,
+    loop: true,
+  });
+
+  const subtitleWords = subtitleText.split(" ");
+  const subtitleNavyWords = subtitleWords.slice(-2).join(" ");
+  const subtitleBlackWords = subtitleWords.slice(0, -2).join(" ");
+
+  const heroSize = "clamp(36px, 6vw, 88px)";
+
   return (
     <PageShell>
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
@@ -115,11 +121,20 @@ export default function HomePage() {
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="t-display" style={{ fontSize: "clamp(36px, 6vw, 88px)", maxWidth: 1180, margin: 0, lineHeight: 0.98 }}>
-              {h.heroTitle[0]}<br />
-              {h.heroTitle[1]}<br />
-              {h.heroTitle[2]}<em>{h.heroTitle[3]}</em>{h.heroTitle[4]}
+            <h1
+              className="t-display"
+              aria-live="polite"
+              aria-atomic="true"
+              style={{ fontSize: heroSize, maxWidth: 1180, margin: 0, lineHeight: 0.98, color: "var(--m-ink)", minHeight: "1.1em" }}
+            >
+              {displayedText}
             </h1>
+            <p className="t-display" style={{ fontSize: heroSize, maxWidth: 1180, margin: "4px 0 0", lineHeight: 0.98, color: "var(--m-ink)" }}>
+              {subtitleBlackWords}
+            </p>
+            <p className="t-display" style={{ fontSize: heroSize, maxWidth: 1180, margin: "4px 0 0", lineHeight: 0.98, color: "#000776" }}>
+              {subtitleNavyWords}
+            </p>
           </Reveal>
           <Reveal delay={160}>
             <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 64, marginTop: 56, alignItems: "end" }} className="m-home-leadgrid">

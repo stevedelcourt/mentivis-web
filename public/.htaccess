@@ -7,30 +7,27 @@ AddType image/avif .avif
 # Disable directory listing
 Options -Indexes
 
+# Disable MultiViews — prevents Apache from serving fr.html instead of fr/index.html
+Options -MultiViews
+
 # Custom 404 page
-ErrorDocument 404 /404
+ErrorDocument 404 /404/index.html
 
 # Force index.html as directory index
 DirectoryIndex index.html
 
-# Enable rewrite engine for trailing-slash and extensionless URLs
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /
 
   # Redirect old /resources → /guides (SEO)
-  RewriteRule ^resources$ /guides [R=301,L]
-  RewriteRule ^fr/resources$ /fr/guides [R=301,L]
-  RewriteRule ^en/resources$ /en/guides [R=301,L]
+  RewriteRule ^resources$ /guides/ [R=301,L]
+  RewriteRule ^fr/resources$ /fr/guides/ [R=301,L]
+  RewriteRule ^en/resources$ /en/guides/ [R=301,L]
 
   # If request is a directory, serve its index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*)$ $1/index.html [L]
-
-  # Extensionless URLs: serve .html if it exists
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME}.html -f
-  RewriteRule ^(.*)$ $1.html [L]
 </IfModule>
 
 # Never cache index files (directory roots) — fixes o2switch CDN stale cache

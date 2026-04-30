@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import FinalCTA from "@/components/FinalCTA";
-import PageHero from "@/components/PageHero";
 
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -12,23 +11,43 @@ export default function SolutionsPage() {
 
   return (
     <PageShell>
-      <PageHero
-        eyebrow={s.eyebrow}
-        titleParts={[s.heroTitle[0], s.heroTitle[1], s.heroTitle[2]]}
-        accentIndices={[1]}
-        lead={s.heroLead}
+      <section
+        style={{
+          position: "relative",
+          width: "100%",
+          minHeight: 560,
+          backgroundImage: "url(/site-images/teamflash.avif)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          overflow: "hidden",
+        }}
       >
-        <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const }}>
-          <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-            {t.nav.cta}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-          </Link>
-          <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-            {lang === "fr" ? "Nos approches" : "Our approaches"}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-          </Link>
+        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100, textAlign: "left" }}>
+          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
+            {s.eyebrow}
+          </div>
+          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 1080, margin: 0, color: "white" }}>
+            <span style={{ color: "white" }}>{s.heroTitle[0]}</span>{" "}
+            <em style={{ color: "white" }}>{s.heroTitle[1]}</em>{" "}
+            <span style={{ color: "white" }}>{s.heroTitle[2]}</span>
+          </h1>
+          <p className="t-lead" style={{ marginTop: 28, maxWidth: 680, color: "rgba(255,255,255,0.9)" }}>
+            {s.heroLead}
+          </p>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const, marginTop: 36 }}>
+            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+              {t.nav.cta}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+            <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
+              {lang === "fr" ? "Nos approches" : "Our approaches"}
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            </Link>
+          </div>
         </div>
-      </PageHero>
+      </section>
 
       <section style={{ padding: "20px 0 80px" }}>
         <div className="container">

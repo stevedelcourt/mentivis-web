@@ -212,7 +212,7 @@ export default function CareersPage() {
                     }}
                   >
                     <Image
-                      src="/marie-castelli.avif"
+                      src="/images/team/marie-castelli.avif"
                       alt={c.marieName}
                       width={320}
                       height={320}

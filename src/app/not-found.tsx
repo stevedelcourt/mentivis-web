@@ -3,7 +3,6 @@
 import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
 import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
 
 const PARTICLE_COUNT = 24;
 
@@ -83,27 +82,7 @@ export default function NotFound() {
     },
   }), []);
 
-  const footerT = useMemo(() => ({
-    nav: {
-      cta: "Contactez-nous",
-      home: "Accueil",
-      about: "À propos",
-      enterprise: "Entreprises",
-      of: "Organismes de formation",
-      solutions: "Solutions",
-      resources: "Ressources",
-      insights: "Insights",
-      corporate: "Corporate",
-    },
-    footer: {
-      tagline: "Dispositifs de formation qui fonctionnent.",
-      ctaTitle: "Démarrer un projet, c'est simple",
-      ctaLead: "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs.",
-      navigation: "Navigation",
-      copy: "© 2026 Mentivis. Opérateur en formation et développement des compétences.",
-    },
-    common: { learnMore: "En savoir plus" },
-  }), []);
+
 
   return (
     <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
@@ -288,8 +267,6 @@ export default function NotFound() {
           </div>
         </div>
       </main>
-
-      <Footer t={footerT} lang={lang} />
     </div>
   );
 }

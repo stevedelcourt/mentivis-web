@@ -17,7 +17,7 @@ export default function AboutPage() {
           position: "relative",
           width: "100%",
           minHeight: 560,
-          backgroundImage: "url(/site-images/twowomen.avif)",
+          backgroundImage: "url(/site-images/two-women.avif)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

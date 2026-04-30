@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   },
   // Static export ONLY for o2switch FTP builds.
   // Vercel serverless builds skip this so API routes + middleware work.
-  ...(isFtpBuild ? { output: "export" } : {}),
+  ...(isFtpBuild ? { output: "export", trailingSlash: true } : {}),
 
   async headers() {
     return [

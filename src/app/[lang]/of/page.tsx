@@ -31,17 +31,10 @@ export default function OfPage() {
             {o.eyebrow}
           </div>
           <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white" }}>
-            {lang === "fr" ? (
-              <>
-                <span style={{ color: "white" }}>{o.heroTitle[0]} {o.heroTitle[1]}</span><br />
-                <em style={{ color: "white" }}>{o.heroTitle[2]}</em>{o.heroTitle[3]}
-              </>
-            ) : (
-              <>
-                <span style={{ color: "white" }}>{o.heroTitle[0]}</span><br />
-                <em style={{ color: "white" }}>{o.heroTitle[1]}</em>{o.heroTitle[2]}{o.heroTitle[3]}
-              </>
-            )}
+            <span style={{ color: "white" }}>{o.heroTitle[0]}</span><br />
+            <span style={{ color: "white" }}>{o.heroTitle[1]}</span><br />
+            <span style={{ color: "white" }}>{o.heroTitle[2]}</span><br />
+            <span style={{ color: "white" }}>{o.heroTitle[3]}</span>
           </h1>
           <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)" }}>{o.heroLead}</p>
           <div style={{ marginTop: 36, display: "flex", gap: 12, flexWrap: "wrap" as const }}>
