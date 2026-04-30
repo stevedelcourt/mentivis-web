@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { marked } from "marked";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
 import { CATEGORY_LABELS, type InsightArticle } from "@/data/insights";
@@ -161,7 +162,7 @@ export default function InsightDetailClient({
         {/* Body */}
         <div
           className="insight-body"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: marked.parse(body) as string }}
           style={{
             fontSize: 16,
             lineHeight: 1.7,

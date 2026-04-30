@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { marked } from "marked";
 import {
   INSIGHT_CATEGORIES,
   CATEGORY_LABELS,
@@ -319,22 +320,20 @@ function ArticleForm({
         />
       </Field>
 
-      <Field label="Body FR (HTML) *">
-        <textarea
-          value={form.bodyFr}
-          onChange={(e) => update("bodyFr", e.target.value)}
-          rows={12}
-          placeholder="<p>Contenu HTML...</p>"
-        />
-      </Field>
-      <Field label="Body EN (HTML)">
-        <textarea
-          value={form.bodyEn}
-          onChange={(e) => update("bodyEn", e.target.value)}
-          rows={12}
-          placeholder="<p>English HTML content...</p>"
-        />
-      </Field>
+      <MarkdownField
+        label="Body FR (Markdown) *"
+        value={form.bodyFr}
+        onChange={(v) => update("bodyFr", v)}
+        rows={12}
+        placeholder="# Titre&#10;Contenu en **Markdown**..."
+      />
+      <MarkdownField
+        label="Body EN (Markdown)"
+        value={form.bodyEn}
+        onChange={(v) => update("bodyEn", v)}
+        rows={12}
+        placeholder="# Title&#10;Content in **Markdown**..."
+      />
 
       <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
         <button
@@ -384,5 +383,78 @@ function Field({
       <span style={{ fontSize: 12, fontWeight: 600, color: "#686b82" }}>{label}</span>
       {children}
     </label>
+  );
+}
+
+function MarkdownField({
+  label,
+  value,
+  onChange,
+  rows = 12,
+  placeholder = "",
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  rows?: number;
+  placeholder?: string;
+}) {
+  const [preview, setPreview] = useState(false);
+
+  return (
+    <div style={{ marginTop: 16 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 4 }}>
+        <span style={{ fontSize: 12, fontWeight: 600, color: "#686b82" }}>{label}</span>
+        <button
+          type="button"
+          onClick={() => setPreview((p) => !p)}
+          style={{
+            fontSize: 11,
+            fontWeight: 600,
+            padding: "3px 10px",
+            border: "1px solid #dedee5",
+            background: preview ? "#000776" : "#fff",
+            color: preview ? "#fff" : "#686b82",
+            borderRadius: 4,
+            cursor: "pointer",
+          }}
+        >
+          {preview ? "Éditer" : "Preview"}
+        </button>
+      </div>
+      {preview ? (
+        <div
+          dangerouslySetInnerHTML={{ __html: marked.parse(value) as string }}
+          style={{
+            border: "1px solid #dedee5",
+            borderRadius: 6,
+            padding: 12,
+            background: "#fafafd",
+            minHeight: rows * 20,
+            fontSize: 14,
+            lineHeight: 1.6,
+            color: "var(--m-ink-2)",
+            overflow: "auto",
+          }}
+        />
+      ) : (
+        <textarea
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          rows={rows}
+          placeholder={placeholder}
+          style={{
+            width: "100%",
+            padding: 10,
+            border: "1px solid #dedee5",
+            borderRadius: 6,
+            fontFamily: "monospace",
+            fontSize: 13,
+            lineHeight: 1.5,
+            resize: "vertical",
+          }}
+        />
+      )}
+    </div>
   );
 }
