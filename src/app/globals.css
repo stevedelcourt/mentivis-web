@@ -177,6 +177,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 720px) {
   .m-grid-3, .m-grid-4, .m-proof-grid, .m-triple-grid { grid-template-columns: 1fr !important; }
   .featured-insights-grid { grid-template-columns: 1fr !important; }
+  .m-usecase-grid { grid-template-columns: 1fr !important; }
   .m-aside { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--m-line); padding-top: 32px !important; }
   .m-footer-cols { grid-template-columns: 1fr !important; gap: 32px !important; }
 }
