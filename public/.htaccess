@@ -20,6 +20,9 @@ DirectoryIndex index.html
   RewriteEngine On
   RewriteBase /
 
+  # Redirect root to default locale (FR)
+  RewriteRule ^$ /fr/ [R=301,L]
+
   # Redirect old /resources → /guides (SEO)
   RewriteRule ^resources$ /guides/ [R=301,L]
   RewriteRule ^fr/resources$ /fr/guides/ [R=301,L]
