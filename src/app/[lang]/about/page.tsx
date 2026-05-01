@@ -6,7 +6,9 @@ import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 export default function AboutPage() {
   const { t, lang } = useMessages();
@@ -14,6 +16,16 @@ export default function AboutPage() {
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        name: a.title.join(" "),
+        description: a.lead,
+        url: `${SITE.baseUrl}/${lang}/about`,
+        mainEntity: { "@id": `${SITE.baseUrl}/#organization` },
+        image: `${SITE.baseUrl}/images/heroes/two-women.avif`,
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <ImageHero
         image="/images/heroes/two-women.avif"
         eyebrow={a.eyebrow}

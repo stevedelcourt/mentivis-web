@@ -1,14 +1,26 @@
 "use client";
 import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import ContactSidebar from "@/components/ui/ContactSidebar";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 export default function MeetingPage() {
   const { t, lang } = useMessages();
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting",
+        description: lang === "fr" ? "Premier rendez-vous gratuit et sans engagement." : "First meeting free and without commitment.",
+        url: `${SITE.baseUrl}/${lang}/meeting`,
+        publisher: { "@id": `${SITE.baseUrl}/#organization` },
+        image: `${SITE.baseUrl}/images/heroes/circularline.avif`,
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <section
         style={{
           position: "relative",

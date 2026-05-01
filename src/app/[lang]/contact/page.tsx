@@ -3,8 +3,10 @@ import { useState } from "react";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import ContactSidebar from "@/components/ui/ContactSidebar";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 import { useHubSpotSubmit } from "@/lib/hubspot";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -69,6 +71,15 @@ export default function ContactPage() {
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        name: c.title,
+        description: c.lead,
+        url: `${SITE.baseUrl}/${lang}/contact`,
+        mainEntity: { "@id": `${SITE.baseUrl}/#organization` },
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <section style={{ paddingTop: 120, paddingBottom: 60 }}>
         <div className="container">
           <Reveal>

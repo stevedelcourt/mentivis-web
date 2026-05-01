@@ -1,0 +1,56 @@
+# Mentivis
+
+Conseil en formation et solutions digitales pour entreprises et organismes de formation.
+
+## Pages principales
+
+- /fr/ — Accueil Mentivis
+- /fr/about — À propos de Mentivis
+- /fr/enterprise — Conseil en formation pour entreprises
+- /fr/of — Conseil pour organismes de formation
+- /fr/solutions — Solutions digitales formation
+- /fr/contact — Contact et demande de diagnostic
+- /fr/insights — Publications et perspectives
+- /fr/guides — Guides pratiques BPF, CPF, POEI
+- /fr/score-formation — Évaluez votre dispositif de formation
+- /fr/careers — Rejoindre l'équipe Mentivis
+- /fr/meeting — Prendre rendez-vous
+
+## Insights récents
+
+- Le poste est mort, vive la compétence (2026-03-28) — https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
+  Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises.
+
+- Les entreprises sont les prochaines grandes écoles (2026-03-16) — https://www.mentivis.com/fr/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
+  Si l'école ne forme pas aux besoins réels des entreprises, que les entreprises deviennent des écoles. Roxan Roumégas explique pourquoi.
+
+- Formation professionnelle 2026 : stratégie, IA et mobilité (2026-03-03) — https://www.mentivis.com/fr/insights/formation-professionnelle-france-enjeux-2026
+  Analyse du baromètre 2026 : IA, seniors, mobilité interne et budgets. Comment transformer la formation professionnelle en levier stratégique durable.
+
+- L’IA comme nouvelle alphabétisation : reprendre la bataille de la lumière (2026-01-26) — https://www.mentivis.com/fr/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere
+  L'enjeu n'est pas l'innovation. L'enjeu, c'est le progrès — ce qui élève réellement le niveau de liberté, d'égalité et de dignité dans une société.
+
+- Mentivis Solutions, la nouvelle offre Engineering and Technology Solutions (2026-01-26) — https://www.mentivis.com/fr/insights/mentivis-solutions-conseil-ingenierie-transformation-digitale
+  Mentivis Solutions accompagne les DSI et directeurs transformation dans leurs projets IA souveraine, Fintech, VR et LMS.
+
+- Pourquoi vos transformations éducatives échouent face aux solutions toutes faites (2026-01-25) — https://www.mentivis.com/fr/insights/transformation-educative-solutions-cles-en-main
+  La transformation éducative stagne. Découvrez pourquoi les solutions clés en main ne fonctionnent pas et comment adopter une approche réelle et durable.
+
+- L’Europe face à son défi éducatif : le grand examen de Davos (2026-01-22) — https://www.mentivis.com/fr/insights/leurope-face-a-son-defi-educatif-le-grand-examen-de-davos
+  L'Europe peut-elle former 100 millions d'élèves à l'IA ? Analyse du plan de 200 milliards d'euros et des défis de formation des enseignants.
+
+- L’Éducation-as-a-Service : réinventer la formation professionnelle à l’ère de l’obsolescence accélérée (2026-01-19) — https://www.mentivis.com/fr/insights/leducation-as-a-service-eaas-pour-une-transformation-durable
+  L'Education-as-a-Service (EaaS), un modèle de formation continue pour lutter contre l'obsolescence des compétences techniques.
+
+- La France forme-t-elle assez d’ingénieurs pour sa défense ? (2026-01-14) — https://www.mentivis.com/fr/insights/rearmement-france-penurie-competences-industrielles-defense
+  Réarmement, pénurie d'ingénieurs, apprentissage en déclin : pourquoi la défense française manque de compétences ?
+
+- La forge des talents (2026-01-05) — https://www.mentivis.com/fr/insights/crise-competences-metallurgie-france-solutions
+  Face à la pénurie de talents, la métallurgie française doit recruter 200 000 personnes par an. Les solutions et les enjeux de la réindustrialisation d'ici 2035.
+
+## Contact
+
+- Email: contact@mentivis.com
+- Téléphone: +33 1 89 48 10 02
+- Adresse: 60 Rue François 1er, 75008 Paris
+- LinkedIn: https://www.linkedin.com/company/mentivis/

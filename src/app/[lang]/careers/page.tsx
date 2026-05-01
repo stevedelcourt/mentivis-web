@@ -3,9 +3,10 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
-import { HUBSPOT_PORTAL_ID, HUBSPOT_CAREERS_FORM_ID } from "@/lib/config";
+import { HUBSPOT_PORTAL_ID, HUBSPOT_CAREERS_FORM_ID, SITE } from "@/lib/config";
 
 function loadHubSpotScript(): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -61,6 +62,16 @@ export default function CareersPage() {
 
   return (
     <PageShell>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: c.title,
+        description: c.lead,
+        url: `${SITE.baseUrl}/${lang}/careers`,
+        publisher: { "@id": `${SITE.baseUrl}/#organization` },
+        image: `${SITE.baseUrl}/images/heroes/blobs.avif`,
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       {/* Hero */}
       <section
         style={{

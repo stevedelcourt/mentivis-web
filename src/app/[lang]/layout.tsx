@@ -59,9 +59,9 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
       description,
       images: [
         {
-          url: `${baseUrl}/android-chrome-512x512.png`,
-          width: 512,
-          height: 512,
+          url: `${baseUrl}/opengraph-image.jpg`,
+          width: 1200,
+          height: 630,
           alt: "Mentivis",
         },
       ],
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
       card: "summary_large_image",
       title,
       description,
-      images: [`${baseUrl}/android-chrome-512x512.png`],
+      images: [`${baseUrl}/opengraph-image.jpg`],
     },
     alternates: {
       canonical: `${baseUrl}/${lang}/`,

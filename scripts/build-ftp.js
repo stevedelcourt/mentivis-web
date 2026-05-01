@@ -29,7 +29,11 @@ try {
     stdio: "inherit",
     cwd: rootDir,
   });
-  execSync("NEXT_BUILD_TARGET=ftp next build", {
+  execSync("node scripts/gen-llms-txt.js", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
+  execSync("npx next build", {
     stdio: "inherit",
     cwd: rootDir,
     env: { ...process.env, NEXT_BUILD_TARGET: "ftp" },

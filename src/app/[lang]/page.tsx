@@ -8,8 +8,10 @@ import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { useTypewriter } from "@/lib/useTypewriter";
+import { SITE } from "@/lib/config";
 
 function ProofSection({ proofs, proofTitle, proofNote }: { proofs: { value: string; unit: string; label: string }[]; proofTitle: string; proofNote: string }) {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -113,6 +115,38 @@ export default function HomePage() {
 
   return (
     <PageShell>
+      <JsonLd data={[
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": `${SITE.baseUrl}/#organization`,
+          name: SITE.name,
+          url: SITE.baseUrl,
+          logo: `${SITE.baseUrl}/images/ui/logo-dark.svg`,
+          sameAs: [SITE.linkedin, SITE.instagram],
+          contactPoint: {
+            "@type": "ContactPoint",
+            telephone: SITE.phone,
+            contactType: "customer service",
+            email: SITE.email,
+            availableLanguage: ["French", "English"],
+          },
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "60 Rue François 1er",
+            addressLocality: "Paris",
+            postalCode: "75008",
+            addressCountry: "FR",
+          },
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: SITE.name,
+          url: `${SITE.baseUrl}/${lang}/`,
+          publisher: { "@id": `${SITE.baseUrl}/#organization` },
+        },
+      ]} />
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
         <HomeHeroBackdrop />
         <div className="container" style={{ position: "relative" as const }}>

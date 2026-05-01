@@ -6,6 +6,7 @@ import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
@@ -16,6 +17,17 @@ export default function SolutionsPage() {
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: lang === "fr" ? "Solutions digitales formation" : "Digital training solutions",
+        description: s.heroLead,
+        provider: { "@id": `${SITE.baseUrl}/#organization` },
+        url: `${SITE.baseUrl}/${lang}/solutions`,
+        image: `${SITE.baseUrl}/images/heroes/teamflash.avif`,
+        areaServed: { "@type": "Country", name: "France" },
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <ImageHero
         image="/images/heroes/teamflash.avif"
         eyebrow={s.eyebrow}

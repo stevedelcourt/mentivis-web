@@ -7,7 +7,9 @@ import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 export default function OfPage() {
   const { t, lang } = useMessages();
@@ -15,6 +17,17 @@ export default function OfPage() {
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: lang === "fr" ? "Conseil organismes de formation" : "Training organisation consulting",
+        description: o.heroLead,
+        provider: { "@id": `${SITE.baseUrl}/#organization` },
+        url: `${SITE.baseUrl}/${lang}/of`,
+        image: `${SITE.baseUrl}/images/heroes/of.avif`,
+        areaServed: { "@type": "Country", name: "France" },
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <ImageHero
         image="/images/heroes/of.avif"
         eyebrow={o.eyebrow}

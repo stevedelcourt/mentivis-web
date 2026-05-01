@@ -7,7 +7,9 @@ import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 export default function EnterprisePage() {
   const { t, lang } = useMessages();
@@ -15,6 +17,17 @@ export default function EnterprisePage() {
 
   return (
     <PageShell hidePreFooterCTA>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: lang === "fr" ? "Conseil en formation entreprises" : "Enterprise training consulting",
+        description: e.heroLead,
+        provider: { "@id": `${SITE.baseUrl}/#organization` },
+        url: `${SITE.baseUrl}/${lang}/enterprise`,
+        image: `${SITE.baseUrl}/images/heroes/investor.avif`,
+        areaServed: { "@type": "Country", name: "France" },
+        inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+      }} />
       <ImageHero
         image="/images/heroes/investor.avif"
         eyebrow={e.eyebrow}
