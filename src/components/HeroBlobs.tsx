@@ -4,15 +4,18 @@ import { useEffect, useRef } from "react";
 
 interface BlobConfig {
   color: string;
-  radius: number;
-  originX: number; // 0-1 percentage of container width
-  originY: number; // 0-1 percentage of container height
+  baseRadius: number;
+  originX: number;
+  originY: number;
+  // Offset for initial disconnected position (smallest blob only)
+  initialOffsetX?: number;
+  initialOffsetY?: number;
 }
 
 const BLOBS: BlobConfig[] = [
-  { color: "#000776", radius: 140, originX: 0.85, originY: 0.291 },
-  { color: "#4a4a9e", radius: 110, originX: 0.82, originY: 0.52 },
-  { color: "#b8b8e0", radius: 90,  originX: 0.68, originY: 0.68 },
+  { color: "#000776", baseRadius: 112, originX: 0.85, originY: 0.291 },
+  { color: "#4a4a9e", baseRadius: 88, originX: 0.82, originY: 0.52 },
+  { color: "#b8b8e0", baseRadius: 72,  originX: 0.68, originY: 0.68, initialOffsetX: 180, initialOffsetY: 120 },
 ];
 
 interface BlobState {
@@ -26,41 +29,72 @@ interface BlobState {
   color: string;
 }
 
+function getScale(w: number): number {
+  // Scale blobs based on container width; 1440px is reference
+  if (w >= 1440) return 1;
+  if (w >= 1200) return 0.9;
+  if (w >= 950) return 0.8;
+  if (w >= 720) return 0.65;
+  return 0.5;
+}
+
 export default function HeroBlobs() {
   const svgRef = useRef<SVGSVGElement>(null);
   const mouseRef = useRef({ x: -9999, y: -9999 });
   const blobsRef = useRef<BlobState[]>([]);
   const rafRef = useRef<number>(0);
   const sizeRef = useRef({ w: 0, h: 0 });
+  const isMobileRef = useRef(false);
 
   useEffect(() => {
     const svg = svgRef.current;
     if (!svg) return;
 
+    // Detect mobile (no animation on mobile/touch devices)
+    const isMobile = window.innerWidth < 950 || "ontouchstart" in window;
+    isMobileRef.current = isMobile;
+
     function initSize() {
       if (!svg) return;
       const rect = svg.getBoundingClientRect();
       sizeRef.current = { w: rect.width, h: rect.height };
+      const scale = getScale(rect.width);
 
-      // Initialize blob positions based on origin percentages
+      // Initialize blob positions
       if (blobsRef.current.length === 0) {
-        blobsRef.current = BLOBS.map((b) => ({
-          x: b.originX * rect.width,
-          y: b.originY * rect.height,
-          vx: 0,
-          vy: 0,
-          ox: b.originX * rect.width,
-          oy: b.originY * rect.height,
-          r: b.radius,
-          color: b.color,
-        }));
+        blobsRef.current = BLOBS.map((b) => {
+          const ox = b.originX * rect.width;
+          const oy = b.originY * rect.height;
+          const r = b.baseRadius * scale;
+          // Smallest blob starts offset so it's not connected
+          const offsetX = b.initialOffsetX ? b.initialOffsetX * scale : 0;
+          const offsetY = b.initialOffsetY ? b.initialOffsetY * scale : 0;
+          return {
+            x: ox + offsetX,
+            y: oy + offsetY,
+            vx: 0,
+            vy: 0,
+            ox,
+            oy,
+            r,
+            color: b.color,
+          };
+        });
+      } else {
+        // Resize: recompute origins and radii
+        blobsRef.current.forEach((blob, i) => {
+          const cfg = BLOBS[i];
+          blob.ox = cfg.originX * rect.width;
+          blob.oy = cfg.originY * rect.height;
+          blob.r = cfg.baseRadius * scale;
+        });
       }
     }
 
     initSize();
 
     function onMouseMove(e: MouseEvent) {
-      if (!svg) return;
+      if (!svg || isMobileRef.current) return;
       const rect = svg.getBoundingClientRect();
       mouseRef.current = { x: e.clientX - rect.left, y: e.clientY - rect.top };
     }
@@ -73,18 +107,26 @@ export default function HeroBlobs() {
       if (!svg) return;
       const rect = svg.getBoundingClientRect();
       const oldW = sizeRef.current.w;
-      const oldH = sizeRef.current.h;
       sizeRef.current = { w: rect.width, h: rect.height };
+      const scale = getScale(rect.width);
 
-      // Recompute origins proportionally
       blobsRef.current.forEach((blob, i) => {
         const cfg = BLOBS[i];
         blob.ox = cfg.originX * rect.width;
         blob.oy = cfg.originY * rect.height;
-        // If first init, set position to origin
+        blob.r = cfg.baseRadius * scale;
         if (oldW === 0) {
-          blob.x = blob.ox;
-          blob.y = blob.oy;
+          blob.x = blob.ox + (cfg.initialOffsetX ? cfg.initialOffsetX * scale : 0);
+          blob.y = blob.oy + (cfg.initialOffsetY ? cfg.initialOffsetY * scale : 0);
+        }
+      });
+
+      // Update DOM radii immediately on resize
+      const circles = svg.querySelectorAll("circle");
+      circles.forEach((circle, i) => {
+        const blob = blobsRef.current[i];
+        if (blob) {
+          circle.setAttribute("r", String(blob.r));
         }
       });
     }
@@ -96,6 +138,8 @@ export default function HeroBlobs() {
     }
 
     function animate() {
+      if (isMobileRef.current) return;
+
       const { w, h } = sizeRef.current;
       if (w === 0 || h === 0) {
         rafRef.current = requestAnimationFrame(animate);
@@ -171,7 +215,21 @@ export default function HeroBlobs() {
     window.addEventListener("mousemove", onMouseMove, { passive: true });
     window.addEventListener("mouseleave", onMouseLeave);
     window.addEventListener("resize", onResize);
-    rafRef.current = requestAnimationFrame(animate);
+
+    if (!isMobile) {
+      rafRef.current = requestAnimationFrame(animate);
+    } else {
+      // On mobile: set blobs to their origin positions (static)
+      const circles = svg.querySelectorAll("circle");
+      circles.forEach((circle, i) => {
+        const blob = blobsRef.current[i];
+        if (blob) {
+          circle.setAttribute("cx", String(blob.ox));
+          circle.setAttribute("cy", String(blob.oy));
+          circle.setAttribute("r", String(blob.r));
+        }
+      });
+    }
 
     return () => {
       cancelAnimationFrame(rafRef.current);
@@ -219,7 +277,7 @@ export default function HeroBlobs() {
               key={i}
               cx={b.originX * 100 + "%"}
               cy={b.originY * 100 + "%"}
-              r={b.radius}
+              r={b.baseRadius}
               fill={b.color}
               style={{ willChange: "transform" }}
             />
