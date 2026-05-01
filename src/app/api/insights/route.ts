@@ -20,7 +20,7 @@ function readAllArticles(): any[] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   const files = fs
     .readdirSync(CONTENT_DIR)
-    .filter((f) => f.endsWith(".json"))
+    .filter((f) => f.endsWith(".json") && !f.endsWith(".tech.json"))
     .sort();
   return files.map((f) => {
     const raw = fs.readFileSync(path.join(CONTENT_DIR, f), "utf-8");

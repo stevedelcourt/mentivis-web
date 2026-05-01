@@ -142,6 +142,21 @@ export default function AdminInsightsPage() {
           {message && (
             <span style={{ fontSize: 13, color: "#149e61" }}>{message}</span>
           )}
+          <button
+            onClick={() => window.location.href = "/api/insights/backup"}
+            style={{
+              padding: "8px 16px",
+              background: "#fff",
+              color: "#000776",
+              border: "1.5px solid #000776",
+              borderRadius: 6,
+              cursor: "pointer",
+              fontSize: 13,
+              fontWeight: 600,
+            }}
+          >
+            📦 Backup
+          </button>
           {tab === "articles" && (
             <button
               onClick={() => setEditing({ ...EMPTY_ARTICLE })}

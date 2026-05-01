@@ -16,7 +16,7 @@ export default function OfPage() {
   return (
     <PageShell hidePreFooterCTA>
       <ImageHero
-        image="/images/heroes/diversity.avif"
+        image="/images/heroes/of.avif"
         eyebrow={o.eyebrow}
         title={<><span style={{ color: "white" }}>{o.heroTitle[0]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[1]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[2]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[3]}</span></>}
         lead={o.heroLead}
