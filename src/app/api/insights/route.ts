@@ -43,6 +43,56 @@ function deleteArticle(slug: string) {
   }
 }
 
+function syncInsightToTxt(slug: string) {
+  const jsonPath = path.join(CONTENT_DIR, `${slug}.json`);
+  if (!fs.existsSync(jsonPath)) return;
+
+  const data = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+
+  // Write .tech.json
+  const tech: any = {};
+  ["slug", "date", "category", "author", "readTime", "heroImage", "keywords"].forEach((f) => {
+    if (f in data) tech[f] = data[f];
+  });
+  fs.writeFileSync(
+    path.join(CONTENT_DIR, `${slug}.tech.json`),
+    JSON.stringify(tech, null, 2) + "\n",
+    "utf-8"
+  );
+
+  // Write .txt
+  const text: string[] = [];
+  text.push("# metadata");
+  text.push(`titleFr: ${data.titleFr || ""}`);
+  text.push(`titleEn: ${data.titleEn || ""}`);
+  text.push(`excerptFr: ${data.excerptFr || ""}`);
+  text.push(`excerptEn: ${data.excerptEn || ""}`);
+  text.push("");
+  text.push("# bodyFr");
+  if (data.bodyFr) {
+    data.bodyFr.split("\n\n").forEach((p: string, i: number) => {
+      if (i > 0) text.push("///");
+      text.push(p.trim());
+    });
+  }
+  text.push("");
+  text.push("# bodyEn");
+  if (data.bodyEn) {
+    data.bodyEn.split("\n\n").forEach((p: string, i: number) => {
+      if (i > 0) text.push("///");
+      text.push(p.trim());
+    });
+  }
+  fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.txt`), text.join("\n"), "utf-8");
+}
+
+function deleteInsightSourceFiles(slug: string) {
+  const txtPath = path.join(CONTENT_DIR, `${slug}.txt`);
+  const techPath = path.join(CONTENT_DIR, `${slug}.tech.json`);
+  if (fs.existsSync(txtPath)) fs.unlinkSync(txtPath);
+  if (fs.existsSync(techPath)) fs.unlinkSync(techPath);
+}
+
 function updateTsImports(articles: any[]) {
   const tsContent = fs.readFileSync(TS_FILE, "utf-8");
 
@@ -108,6 +158,7 @@ export async function POST(req: NextRequest) {
 
     const isNew = !fs.existsSync(path.join(CONTENT_DIR, `${body.slug}.json`));
     writeArticle(body);
+    syncInsightToTxt(body.slug);
 
     if (isNew) {
       // New article: regenerate imports in insights.ts
@@ -127,6 +178,7 @@ export async function DELETE(req: NextRequest) {
   try {
     const { slug } = await req.json();
     deleteArticle(slug);
+    deleteInsightSourceFiles(slug);
 
     // Regenerate imports in insights.ts
     const all = readAllArticles();
