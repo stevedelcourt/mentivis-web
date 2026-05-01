@@ -18,7 +18,7 @@ export default function EnterprisePage() {
       <ImageHero
         image="/images/heroes/investor.avif"
         eyebrow={e.eyebrow}
-        title={<><span style={{ color: "white" }}>{e.heroTitle[0]}</span><br /><em style={{ color: "white" }}>{e.heroTitle[1]}</em></>}
+        title={<span style={{ color: "white" }}>{e.heroTitle[0]} <em style={{ color: "white" }}>{e.heroTitle[1]}</em></span>}
         lead={e.heroLead}
       >
         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>

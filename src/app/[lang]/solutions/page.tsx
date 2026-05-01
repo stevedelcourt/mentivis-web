@@ -8,6 +8,7 @@ import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
+import { encodeEntities } from "@/lib/utils";
 
 export default function SolutionsPage() {
   const { t, lang } = useMessages();
@@ -160,18 +161,18 @@ export default function SolutionsPage() {
               </div>
               <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.6, margin: 0 }}>{s.julie.body}</p>
               <div style={{ display: "flex", flexDirection: "column" as const, gap: 8, fontSize: 14, color: "var(--m-ink-3)", marginTop: 4 }}>
-                <a href={`mailto:${SITE.email}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+                <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 16 }}>mail</span>
-                  {SITE.email}
-                </a>
+                  <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
+                </Link>
                 <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 16 }}>phone</span>
-                  {SITE.phone}
+                  <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.phone) }} />
                 </a>
-                <span style={{ display: "inline-flex", alignItems: "flex-start", gap: 8, lineHeight: 1.45 }}>
+                <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="m-footer-link" style={{ display: "inline-flex", alignItems: "flex-start", gap: 8, lineHeight: 1.45 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 16, flexShrink: 0, marginTop: 2 }}>location_on</span>
-                  {SITE.address}
-                </span>
+                  <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.address) }} />
+                </a>
               </div>
             </div>
           </div>
