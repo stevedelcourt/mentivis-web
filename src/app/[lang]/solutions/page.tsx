@@ -10,6 +10,7 @@ import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
+import Icon from "@/components/ui/Icon";
 
 export default function SolutionsPage() {
   const { t, lang } = useMessages();
@@ -36,11 +37,11 @@ export default function SolutionsPage() {
       >
         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
           {t.nav.cta}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          <Icon name="chevron_right" size={18} />
         </Link>
         <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
           {lang === "fr" ? "Nos approches" : "Our approaches"}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          <Icon name="chevron_right" size={18} />
         </Link>
       </ImageHero>
 
@@ -68,7 +69,7 @@ export default function SolutionsPage() {
                   display: "flex", alignItems: "center", justifyContent: "center",
                   fontSize: 22,
                 }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 22 }}>{x.icon}</span>
+                  <Icon name={x.icon as any} size={22} />
                 </div>
                 <div>
                   <div style={{ fontSize: 12, color: "var(--m-ink-4)", letterSpacing: "0.08em", textTransform: "uppercase" as const }}>0{i + 1}</div>
@@ -101,7 +102,7 @@ export default function SolutionsPage() {
                   color: "var(--m-purple)",
                   display: "flex", alignItems: "center", justifyContent: "center",
                 }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 22 }}>{sec.icon}</span>
+                  <Icon name={sec.icon as any} size={22} />
                 </div>
                 <div>
                   <h4 style={{ fontFamily: "var(--f-display)", fontSize: 18, fontWeight: 600, letterSpacing: "-0.01em", margin: "0 0 8px" }}>{sec.title}</h4>
@@ -132,9 +133,7 @@ export default function SolutionsPage() {
                     background: "var(--m-purple-soft)", display: "flex", alignItems: "center", justifyContent: "center",
                     color: "var(--m-purple)",
                   }}>
-                    <span className="material-symbols-outlined" style={{ fontSize: 36 }}>
-                      {i === 0 ? "architecture" : i === 1 ? "code_blocks" : "neurology"}
-                    </span>
+                    <Icon name={i === 0 ? "architecture" : i === 1 ? "code_blocks" : "neurology"} size={36} />
                   </div>
                 </div>
                 <div>
@@ -174,15 +173,15 @@ export default function SolutionsPage() {
               <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.6, margin: 0 }}>{s.julie.body}</p>
               <div style={{ display: "flex", flexDirection: "column" as const, gap: 8, fontSize: 14, color: "var(--m-ink-3)", marginTop: 4 }}>
                 <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>mail</span>
+                  <Icon name="mail" size={16} />
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
                 </Link>
                 <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>phone</span>
+                  <Icon name="phone" size={16} />
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.phone) }} />
                 </a>
                 <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="m-footer-link" style={{ display: "inline-flex", alignItems: "flex-start", gap: 8, lineHeight: 1.45 }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 16, flexShrink: 0, marginTop: 2 }}>location_on</span>
+                  <Icon name="location_on" size={16} style={{ flexShrink: 0, marginTop: 2 }} />
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.address) }} />
                 </a>
               </div>

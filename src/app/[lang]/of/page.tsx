@@ -10,6 +10,7 @@ import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
+import Icon from "@/components/ui/Icon";
 
 export default function OfPage() {
   const { t, lang } = useMessages();
@@ -36,11 +37,11 @@ export default function OfPage() {
       >
         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
           {t.nav.cta}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          <Icon name="chevron_right" size={18} />
         </Link>
         <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 999, textDecoration: "none" }}>
           {lang === "fr" ? "Voir les pôles" : "View pillars"}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          <Icon name="chevron_right" size={18} />
         </Link>
       </ImageHero>
 
@@ -79,7 +80,7 @@ export default function OfPage() {
             ].map((s, i) => (
               <div key={i} style={{ background: "var(--m-ink)", padding: 32, minHeight: 180 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-                  <span className="material-symbols-outlined" style={{ color: "#6b73d6", fontSize: 22 }}>{s.icon}</span>
+                  <Icon name={s.icon as any} size={22} style={{ color: "#6b73d6" }} />
                   <span style={{ fontFamily: "var(--f-display)", color: "#6b73d6", fontSize: 14 }}>0{i + 1}</span>
                 </div>
                 <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 10px", color: "white" }}>{s.title}</h4>
@@ -143,7 +144,7 @@ export default function OfPage() {
               </p>
               <Link href={`/${lang}/guides`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
                 {lang === "fr" ? "Consulter les guides" : "Browse the guides"}
-                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                <Icon name="chevron_right" size={18} />
               </Link>
             </div>
           </div>

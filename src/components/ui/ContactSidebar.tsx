@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Icon from "./Icon";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
 
@@ -42,15 +43,15 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
       <div style={{ fontSize: 13, color: "var(--m-ink-3)", marginBottom: 20 }}>Partner Mentivis</div>
       <div style={{ display: "flex", flexDirection: "column" as const, gap: 10, fontSize: 14, color: "var(--m-ink-3)" }}>
         <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
-          <span className="material-symbols-outlined" style={{ fontSize: 16 }}>mail</span>
+          <Icon name="mail" size={16} />
           <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
         </Link>
         <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
-          <span className="material-symbols-outlined" style={{ fontSize: 16 }}>phone</span>
+          <Icon name="phone" size={16} />
           <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.phone) }} />
         </a>
         <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer" className="m-footer-link" style={{ display: "inline-flex", alignItems: "flex-start", gap: 8, lineHeight: 1.45 }}>
-          <span className="material-symbols-outlined" style={{ fontSize: 16, flexShrink: 0, marginTop: 2 }}>location_on</span>
+          <Icon name="location_on" size={16} style={{ flexShrink: 0, marginTop: 2 }} />
           <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.address) }} />
         </a>
       </div>

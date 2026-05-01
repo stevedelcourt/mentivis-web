@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Icon from "./ui/Icon";
 
 type DualEntryCardProps = {
   data: {
@@ -74,7 +75,7 @@ export default function DualEntryCard({ data, href, tone, bg: bgProp }: DualEntr
             transition: "all 0.18s ease",
           }}>
             {data.cta}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+            <Icon name="chevron_right" size={18} />
           </Link>
         </div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Icon from "./ui/Icon";
 
 type PreFooterCTAMessages = {
   nav: { cta: string };
@@ -70,9 +71,7 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
             }}
           >
             {t.nav.cta}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
-              chevron_right
-            </span>
+            <Icon name="chevron_right" size={18} />
           </Link>
           <Link
             href={`/${lang}/about`}
@@ -91,9 +90,7 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
             }}
           >
             {t.common.learnMore}
-            <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
-              chevron_right
-            </span>
+            <Icon name="chevron_right" size={18} />
           </Link>
         </div>
       </div>

@@ -107,7 +107,6 @@
   transform: none;
 }
 .sc-btn-chevron {
-  font-size: 18px;
   transition: transform 0.2s ease;
 }
 .sc-btn-outline {

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Icon from "./ui/Icon";
 
 type FinalCTAProps = {
   title: string;
@@ -38,7 +39,7 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: Fi
               textDecoration: "none",
             }}>
               {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+              <Icon name="chevron_right" size={18} />
             </Link>
             <Link href={`/${lang}/about`} style={{
               display: "inline-flex",
@@ -54,7 +55,7 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: Fi
               textDecoration: "none",
             }}>
               {t.common.learnMore}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+              <Icon name="chevron_right" size={18} />
             </Link>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Icon from "./Icon";
 
 type ButtonLinkProps = {
   href: string;
@@ -53,7 +54,7 @@ export default function ButtonLink({ href, children, variant = "primary", icon =
   return (
     <Link href={href} target={target} rel={rel} style={styles[variant]}>
       {children}
-      {icon && <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>}
+      {icon && <Icon name="chevron_right" size={18} />}
     </Link>
   );
 }

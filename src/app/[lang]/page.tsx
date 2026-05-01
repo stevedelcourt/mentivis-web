@@ -5,7 +5,7 @@ import Link from "next/link";
 import FinalCTA from "@/components/FinalCTA";
 import FaqSection from "@/components/FaqSection";
 import FeaturedInsights from "@/components/FeaturedInsights";
-import HeroBlobs from "@/components/HeroBlobs";
+
 import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
@@ -14,6 +14,7 @@ import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { useTypewriter } from "@/lib/useTypewriter";
 import { SITE } from "@/lib/config";
+import Icon from "@/components/ui/Icon";
 
 function ProofSection({ proofs, proofTitle, proofNote }: { proofs: { value: string; unit: string; label: string }[]; proofTitle: string; proofNote: string }) {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -163,7 +164,6 @@ export default function HomePage() {
       ]} />
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
         <HomeHeroBackdrop />
-        <HeroBlobs />
         <div className="container" style={{ position: "relative" as const, zIndex: 1 }}>
           <Reveal>
             <div className="t-eyebrow" style={{ marginBottom: 32 }}>
@@ -192,11 +192,11 @@ export default function HomePage() {
               <div style={{ display: "flex", gap: 12, justifyContent: "flex-end", flexWrap: "wrap" as const }}>
                 <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
                   {t.nav.cta}
-                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                  <Icon name="chevron_right" size={18} />
                 </Link>
                 <Link href={`/${lang}/about`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "var(--m-purple)", background: "transparent", border: "1.5px solid var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
                   {t.common.learnMore}
-                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                  <Icon name="chevron_right" size={18} />
                 </Link>
               </div>
             </div>

@@ -7,6 +7,7 @@ import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
 import { useHubSpotSubmit } from "@/lib/hubspot";
+import Icon from "@/components/ui/Icon";
 
 const GUIDES = [
   {
@@ -163,7 +164,7 @@ function DownloadModal({
           }}
           aria-label="Close"
         >
-          <span className="material-symbols-outlined" style={{ fontSize: 22 }}>close</span>
+          <Icon name="close" size={22} />
         </button>
 
         {success ? (
@@ -180,7 +181,7 @@ function DownloadModal({
                 margin: "0 auto 20px",
               }}
             >
-              <span className="material-symbols-outlined" style={{ fontSize: 28, color: "#2e7d32" }}>check</span>
+              <Icon name="check" size={28} style={{ color: "#2e7d32" }} />
             </div>
             <h3 style={{ fontSize: 20, fontWeight: 500, margin: "0 0 10px", color: "var(--m-ink)" }}>
               {t.guides.modalSuccessTitle}
@@ -324,7 +325,7 @@ function DownloadModal({
               >
                 {loading ? t.guides.submitting : t.guides.submit}
                 {!loading && (
-                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                  <Icon name="chevron_right" size={18} />
                 )}
               </button>
             </form>
@@ -464,7 +465,7 @@ function GuideCard({
               }}
             >
               {t.guides.download}
-              <span className="material-symbols-outlined" style={{ fontSize: 16 }}>download</span>
+              <Icon name="download" size={16} />
             </a>
           ) : (
             <button
@@ -485,7 +486,7 @@ function GuideCard({
                 transition: "opacity 0.2s",
               }}
             >
-              <span className="material-symbols-outlined" style={{ fontSize: 16 }}>lock</span>
+              <Icon name="lock" size={16} />
               {t.guides.downloadLocked}
             </button>
           )}
@@ -653,7 +654,7 @@ export default function GuidesPage() {
                   }}
                 >
                   {t.guides.teaserCta}
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>chevron_right</span>
+                  <Icon name="chevron_right" size={16} />
                 </div>
               </Link>
             </Reveal>

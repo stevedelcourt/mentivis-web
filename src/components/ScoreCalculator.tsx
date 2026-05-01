@@ -4,6 +4,7 @@ import { useState, useCallback, useMemo, useRef } from "react";
 import Link from "next/link";
 import { useMessages } from "@/lib/messages";
 import { useHubSpotSubmit } from "@/lib/hubspot";
+import Icon from "./ui/Icon";
 import "./ScoreCalculator.css";
 
 /* ============================================================
@@ -835,7 +836,7 @@ export default function ScoreCalculator() {
           <p className="sc-hero-sub">{s.landing.sub}</p>
           <button className="sc-btn-primary" onClick={() => goToScreen("qualification")}>
             {s.landing.cta}
-            <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+            <span className="sc-btn-chevron"><Icon name="chevron_right" size={18} /></span>
           </button>
 
           <div className="sc-landing-feats">
@@ -913,7 +914,7 @@ export default function ScoreCalculator() {
               <button className="sc-btn-secondary" onClick={() => goToScreen("landing")}>{s.common.back}</button>
                 <button className="sc-btn-primary" onClick={handleQualSubmit}>
                   {s.common.start}
-                  <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                  <span className="sc-btn-chevron"><Icon name="chevron_right" size={18} /></span>
                 </button>
             </div>
           </div>
@@ -991,7 +992,7 @@ export default function ScoreCalculator() {
             <button className="sc-btn-secondary" style={{ visibility: currentBlock === 0 ? "hidden" : "visible" }} onClick={prevBlock}>{s.common.prev}</button>
               <button className="sc-btn-primary" onClick={nextBlock}>
                 {currentBlock === 5 ? s.common.finish : s.common.next}
-                <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                <span className="sc-btn-chevron"><Icon name="chevron_right" size={18} /></span>
               </button>
           </div>
         </div>
@@ -1025,7 +1026,7 @@ export default function ScoreCalculator() {
               <button className="sc-btn-outline" onClick={restart}>{s.dash.restart}</button>
               <button className="sc-btn-primary" onClick={exportPDF}>
                 {s.dash.download}
-                <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                <span className="sc-btn-chevron"><Icon name="chevron_right" size={18} /></span>
               </button>
             </div>
           </div>
@@ -1193,7 +1194,7 @@ export default function ScoreCalculator() {
                       <input type="email" required placeholder={s.cta.email} value={contactEmail} onChange={e => setContactEmail(e.target.value)} />
                       <button type="submit" className="sc-btn-primary" disabled={hsLoading}>
                         {hsLoading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : s.cta.submit}
-                        <span className="material-symbols-outlined sc-btn-chevron">chevron_right</span>
+                        <span className="sc-btn-chevron"><Icon name="chevron_right" size={18} /></span>
                       </button>
                     </div>
                     <label className="sc-cta-consent">

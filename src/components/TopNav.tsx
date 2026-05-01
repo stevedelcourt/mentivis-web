@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
+import Icon from "./ui/Icon";
 
 export type NavMessages = {
   nav: {
@@ -184,7 +185,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             }}
           >
             {t.nav.cta}
-            <span className="material-symbols-outlined" style={{ fontSize: 16 }}>chevron_right</span>
+            <Icon name="chevron_right" size={16} />
           </Link>
 
           <button
@@ -256,15 +257,13 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             >
               <span>{t.nav.resources}</span>
               <span
-                className="material-symbols-outlined"
                 style={{
-                  fontSize: 18,
                   color: "var(--m-ink-3)",
                   transition: "transform 0.2s",
                   transform: resourcesOpen ? "rotate(90deg)" : "rotate(0deg)",
                 }}
               >
-                chevron_right
+                <Icon name="chevron_right" size={18} />
               </span>
             </button>
             {resourcesOpen && (
@@ -308,15 +307,13 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             >
               <span>{t.nav.corporate}</span>
               <span
-                className="material-symbols-outlined"
                 style={{
-                  fontSize: 18,
                   color: "var(--m-ink-3)",
                   transition: "transform 0.2s",
                   transform: corporateOpen ? "rotate(90deg)" : "rotate(0deg)",
                 }}
               >
-                chevron_right
+                <Icon name="chevron_right" size={18} />
               </span>
             </button>
             {corporateOpen && (
@@ -356,7 +353,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               textDecoration: "none",
             }}>
               {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+              <Icon name="chevron_right" size={18} />
             </Link>
           </div>
         </div>

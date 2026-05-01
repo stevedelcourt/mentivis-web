@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Icon from "./ui/Icon";
 import { CATEGORY_LABELS, type InsightArticle } from "@/data/insights";
 
 export default function InsightCard({
@@ -104,9 +105,7 @@ export default function InsightCard({
             className="insight-read-btn"
           >
             {lang === "fr" ? "Lire" : "Read"}
-            <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-              chevron_right
-            </span>
+            <Icon name="chevron_right" size={16} />
           </span>
         </div>
       </Link>
@@ -191,10 +190,8 @@ export default function InsightCard({
           }}
           className="insight-read-btn"
         >
-          {lang === "fr" ? "Lire" : "Read"}
-          <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-            chevron_right
-          </span>
+            {lang === "fr" ? "Lire" : "Read"}
+            <Icon name="chevron_right" size={16} />
         </span>
       </div>
     </Link>

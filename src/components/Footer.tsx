@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Icon from "./ui/Icon";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
 
@@ -47,12 +48,12 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
           <li key={i} style={{ marginBottom: 9 }}>
             {l.onClick ? (
               <button onClick={l.onClick} className="m-footer-link-dark" style={{ background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "inherit", textAlign: "left", display: "inline-flex", alignItems: "center", position: "relative", color: "rgba(255,255,255,0.85)" }}>
-                <span className="material-symbols-outlined m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)", fontSize: 13 }}>chevron_right</span>
+                <span className="m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)" }}><Icon name="chevron_right" size={13} /></span>
                 {l.label}
               </button>
             ) : (
               <a href={l.href} target={l.external ? "_blank" : undefined} rel={l.external ? "noopener noreferrer" : undefined} className="m-footer-link-dark" style={{ display: "inline-flex", alignItems: "center", position: "relative", color: "rgba(255,255,255,0.85)" }}>
-                <span className="material-symbols-outlined m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)", fontSize: 13 }}>chevron_right</span>
+                <span className="m-footer-chevron-dark" style={{ position: "absolute", left: -16, top: "50%", transform: "translateY(-50%)" }}><Icon name="chevron_right" size={13} /></span>
                 {l.label}
               </a>
             )}

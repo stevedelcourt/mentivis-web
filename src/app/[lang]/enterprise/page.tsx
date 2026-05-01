@@ -10,6 +10,7 @@ import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
+import Icon from "@/components/ui/Icon";
 
 export default function EnterprisePage() {
   const { t, lang } = useMessages();
@@ -36,7 +37,7 @@ export default function EnterprisePage() {
       >
         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
           {t.nav.cta}
-          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+          <Icon name="chevron_right" size={18} />
         </Link>
       </ImageHero>
 
@@ -118,7 +119,7 @@ export default function EnterprisePage() {
               </p>
               <Link href={`/${lang}/score-formation`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
                 {e.scoreTeaserCta}
-                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                <Icon name="chevron_right" size={18} />
               </Link>
             </div>
           </div>

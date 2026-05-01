@@ -1,7 +1,5 @@
 /* === Mentivis - Design Tokens & Utilities === */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
-
 :root {
   --m-purple: #000776;
   --m-purple-mid: #1a2294;
@@ -195,29 +193,6 @@ button { font-family: inherit; cursor: pointer; }
   .m-guide-modal-grid { grid-template-columns: 1fr !important; }
 }
 
-/* Material Symbols - ensure ligatures render as icons */
-.material-symbols-outlined {
-  font-family: 'Material Symbols Outlined';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  font-feature-settings: 'liga';
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-}
-
 /* Header nav hover underline */
 .m-nav-link {
   position: relative;
@@ -267,7 +242,6 @@ button { font-family: inherit; cursor: pointer; }
 
 /* Footer chevrons: only on hover */
 .m-footer-chevron {
-  font-size: 13px;
   color: var(--m-ink-3);
   opacity: 0;
   transition: opacity 0.18s;
@@ -306,7 +280,6 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .m-footer-chevron-dark {
-  font-size: 13px;
   color: rgba(255,255,255,0.5);
   opacity: 0;
   transition: opacity 0.18s;

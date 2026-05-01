@@ -1,3 +1,5 @@
+import Icon from "./ui/Icon";
+
 type PillarCardProps = {
   n: string;
   title: string;
@@ -23,7 +25,7 @@ export default function PillarCard({ n, title, body, items, accent = false, icon
         marginBottom: 18,
       }}>
         {icon && (
-          <span className="material-symbols-outlined" style={{ fontSize: 20, color: "var(--m-purple)", lineHeight: 1 }}>{icon}</span>
+          <Icon name={icon as any} size={20} style={{ color: "var(--m-purple)" }} />
         )}
         <span style={{
           fontFamily: "var(--f-display)",

@@ -8,6 +8,7 @@ import ContactSidebar from "@/components/ui/ContactSidebar";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import { useHubSpotSubmit } from "@/lib/hubspot";
+import Icon from "@/components/ui/Icon";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -30,7 +31,7 @@ function ContactSuccess({ title, body, back }: { title: string; body: string; ba
       <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px" }}>{body}</p>
       <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 14, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
         {back}
-        <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        <Icon name="chevron_right" size={18} />
       </Link>
     </div>
   );
@@ -156,7 +157,7 @@ export default function ContactPage() {
                 <div>
                   <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 999, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
                     {loading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : c.labels.submit}
-                    <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+                    <Icon name="chevron_right" size={18} />
                   </button>
                 </div>
               </form>
