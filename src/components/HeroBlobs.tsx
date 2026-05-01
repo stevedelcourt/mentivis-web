@@ -10,7 +10,7 @@ interface BlobConfig {
 }
 
 const BLOBS: BlobConfig[] = [
-  { color: "#000776", radius: 140, originX: 0.75, originY: 0.30 },
+  { color: "#000776", radius: 140, originX: 0.85, originY: 0.291 },
   { color: "#4a4a9e", radius: 110, originX: 0.82, originY: 0.52 },
   { color: "#b8b8e0", radius: 90,  originX: 0.68, originY: 0.68 },
 ];
