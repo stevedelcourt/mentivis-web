@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 import FinalCTA from "@/components/FinalCTA";
+import FaqSection from "@/components/FaqSection";
 import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
@@ -245,7 +246,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <ProofSection proofs={h.proofs} proofTitle={h.proofTitle} proofNote={h.proofNote} />
+      <FaqSection t={h.faq} />
 
       <FinalCTA t={t} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
       <FeaturedInsights pageKey="enterprise" lang={lang} />

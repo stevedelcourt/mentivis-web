@@ -765,6 +765,17 @@ button { font-family: inherit; cursor: pointer; }
   }
 }
 
+/* ── FAQ Section ───────────────────────────────────────── */
+@media (max-width: 950px) {
+  .m-faq-grid {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+  .m-faq-intro {
+    position: static !important;
+  }
+}
+
 /* ── Admin Form ───────────────────────────────────────── */
 .admin-form input,
 .admin-form select,

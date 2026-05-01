@@ -106,6 +106,25 @@ label: recours formations externes
 
 # home
 proofNote: Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.
+
+# home.faq
+eyebrow: Questions fréquentes
+title: Ce que vous voulez savoir avant le premier rendez-vous.
+lead: Six questions, six réponses directes. Pas de discours, pas de promesses marketing, juste ce qu'il faut pour décider si Mentivis a sa place dans votre projet.
+items[0].question: Êtes-vous un cabinet de conseil ?
+items[0].answer: Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur.
+items[1].question: À qui s'adresse Mentivis ?
+items[1].answer: Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international.
+items[2].question: Comment facturez-vous ?
+items[2].answer: Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre.
+items[3].question: Combien de temps prend une mission ?
+items[3].answer: De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent.
+items[4].question: Pourquoi ne citez-vous pas vos clients sur le site ?
+items[4].answer: Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous.
+items[5].question: Comment se passe un premier contact ?
+items[5].answer: Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons.
+
+# home
 finalCtaTitle: Un projet de formation à structurer ?
 finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
 
