@@ -93,7 +93,7 @@ def upload_tree(ftp, local_root):
             if f.startswith(".") and f != ".htaccess":
                 continue
             local_rel = os.path.relpath(os.path.join(root, f), local_root)
-            if local_rel.startswith("__next") or "/__next" in local_rel:
+            if local_rel.startswith("__next"):
                 continue
             if not is_allowed(f):
                 continue
