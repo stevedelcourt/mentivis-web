@@ -25,6 +25,10 @@ if (fs.existsSync(apiDir)) {
 }
 
 try {
+  execSync("node scripts/txt2json.js", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
   execSync("NEXT_BUILD_TARGET=ftp next build", {
     stdio: "inherit",
     cwd: rootDir,

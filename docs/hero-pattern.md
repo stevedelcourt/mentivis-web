@@ -1,8 +1,8 @@
 # Hero with Background Image — Pattern
 
-## The Golden Reference: `/enterprise`
+## The Golden Reference: `/solutions`
 
-This is the **absolute pattern** for any hero section that sits on top of a background image.
+All image heroes must use the shared **`ImageHero`** component. Do NOT write inline `<section>` markup — it leads to alignment drift between pages.
 
 ### Rules
 
@@ -15,78 +15,40 @@ This is the **absolute pattern** for any hero section that sits on top of a back
 ### Code Template
 
 ```tsx
-<section
-  style={{
-    position: "relative",
-    width: "100%",
-    minHeight: 560,
-    backgroundImage: "url(/PATH/TO/image.avif)",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    display: "flex",
-    alignItems: "center",
-    overflow: "hidden",
-  }}
+import ImageHero from "@/components/ImageHero";
+
+<ImageHero
+  image="/images/heroes/your-photo.avif"
+  eyebrow={t.section.eyebrow}
+  title={<>...title markup...</>}
+  lead={t.section.lead}
 >
-  <div
-    className="container"
-    style={{
-      position: "relative",
-      zIndex: 2,
-      paddingTop: 140,
-      paddingBottom: 100,
-      textAlign: "left",
-    }}
-  >
-    <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
-      {eyebrowText}
-    </div>
-    <h1
-      className="t-display"
-      style={{
-        fontSize: "clamp(32px, 5vw, 68px)",
-        maxWidth: 720,
-        margin: 0,
-        color: "white",
-      }}
-    >
-      {titleLine1}<br />
-      <em style={{ color: "white" }}>{titleLine2}</em>
-    </h1>
-    <p
-      className="t-lead"
-      style={{
-        marginTop: 28,
-        maxWidth: 560,
-        color: "rgba(255,255,255,0.9)",
-      }}
-    >
-      {leadText}
-    </p>
-    <div style={{ marginTop: 36, textAlign: "left" }}>
-      <Link
-        href={`/${lang}/contact`}
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: 8,
-          padding: "13px 20px",
-          fontSize: 14,
-          fontWeight: 600,
-          color: "white",
-          background: "var(--m-purple)",
-          borderRadius: 999,
-          textDecoration: "none",
-        }}
-      >
-        {ctaLabel}
-        <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
-          chevron_right
-        </span>
-      </Link>
-    </div>
-  </div>
-</section>
+  <Link href={`/${lang}/contact`}>...</Link>
+</ImageHero>
+```
+
+### Critical CSS Rule — `width: 100%` on Container
+
+The `<section>` uses `display: flex`. Without `width: "100%"` on the inner `.container`, its width is determined by its **content** (the headline). This causes `margin: 0 auto` to center it at a different pixel position on every page, creating visible misalignment between heros.
+
+**The `ImageHero` component already includes this fix.** Do not remove it.
+
+### Title Formatting — Single-Line JSX
+
+Keep the `title` prop on a single JSX line to avoid whitespace text nodes that shift the text right by a few pixels:
+
+```tsx
+// ✅ Correct
+<>
+  <span>{title[0]}</span>{" "}
+  <em>{title[1]}</em>
+</>
+
+// ❌ Wrong — multi-line JSX creates a leading text node
+<>
+  <span>{title[0]}</span>
+  ...
+</>
 ```
 
 ### What NOT to do
@@ -103,11 +65,12 @@ This is the **absolute pattern** for any hero section that sits on top of a back
 
 ### Pages using this pattern
 
-- `/enterprise` — Reference implementation
-- `/of` — Same pattern
-- `/careers` — Same pattern (adds `aspectRatio: "16/9"` because image is very wide)
+- `/solutions` — Reference implementation (uses `ImageHero`)
+- `/about` — Uses `ImageHero`
+- `/enterprise` — Uses `ImageHero`
+- `/of` — Uses `ImageHero`
+- `/careers` — Image hero but adds `aspectRatio: "16/9"` (image is very wide)
 
 ### Pages that must NOT use this pattern
 
-- `/about` — Uses `PageHero` component with grid-line background (no image)
-- `/meeting` — Uses `aspectRatio: "16/9"` with centered text; acceptable but prefer `/enterprise` style
+- `/meeting` — Uses `aspectRatio: "16/9"` with centered text; acceptable but prefer `/solutions` style

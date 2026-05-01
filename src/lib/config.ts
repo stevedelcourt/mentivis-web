@@ -5,6 +5,8 @@ export const SITE = {
   phone: "+33 1 89 48 10 02",
   address: "60 Rue François 1er, 75008 Paris",
   mapsUrl: "https://maps.app.goo.gl/MbLN5V5JHMpLtqWz8",
+  linkedin: "https://www.linkedin.com/company/mentivis/",
+  instagram: "https://www.instagram.com/menti.vis/",
 } as const;
 
 export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-PM93CCQL";

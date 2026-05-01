@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 
 const CONTENT_DIR = path.join(process.cwd(), "src", "content", "insights");
+const FEATURED_FILE = path.join(process.cwd(), "src", "content", "featured-insights.json");
 const TS_FILE = path.join(process.cwd(), "src", "data", "insights.ts");
 
 function checkDev() {
@@ -94,6 +95,17 @@ export async function POST(req: NextRequest) {
   if (err) return err;
   try {
     const body = await req.json();
+
+    // Featured config save
+    if (body._action === "featured") {
+      fs.writeFileSync(
+        FEATURED_FILE,
+        JSON.stringify(body.config, null, 2),
+        "utf-8"
+      );
+      return NextResponse.json({ ok: true });
+    }
+
     const isNew = !fs.existsSync(path.join(CONTENT_DIR, `${body.slug}.json`));
     writeArticle(body);
 

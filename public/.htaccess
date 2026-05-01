@@ -30,9 +30,9 @@ DirectoryIndex index.html
   RewriteRule ^(.*)$ $1/index.html [L]
 </IfModule>
 
-# Never cache index files (directory roots) — fixes o2switch CDN stale cache
+# Never cache any HTML files — fixes o2switch CDN stale cache
 <IfModule mod_headers.c>
-  <FilesMatch "^index(\.html)?$">
+  <FilesMatch "\.(html|htm)$">
     Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires "0"

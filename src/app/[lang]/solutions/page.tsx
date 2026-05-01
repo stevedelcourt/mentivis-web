@@ -1,53 +1,35 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import ImageHero from "@/components/ImageHero";
 import FinalCTA from "@/components/FinalCTA";
-
+import FeaturedInsights from "@/components/FeaturedInsights";
+import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 
 export default function SolutionsPage() {
   const { t, lang } = useMessages();
   const s = t.solutions;
 
   return (
-    <PageShell>
-      <section
-        style={{
-          position: "relative",
-          width: "100%",
-          minHeight: 560,
-          backgroundImage: "url(/images/heroes/teamflash.avif)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "flex",
-          alignItems: "center",
-          overflow: "hidden",
-        }}
+    <PageShell hidePreFooterCTA>
+      <ImageHero
+        image="/images/heroes/teamflash.avif"
+        eyebrow={s.eyebrow}
+        title={<><span style={{ color: "white" }}>{s.heroTitle[0]}</span>{" "}<em style={{ color: "white" }}>{s.heroTitle[1]}</em>{" "}<span style={{ color: "white" }}>{s.heroTitle[2]}</span></>}
+        lead={s.heroLead}
       >
-        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100, textAlign: "left" }}>
-          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
-            {s.eyebrow}
-          </div>
-          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 1080, margin: 0, color: "white" }}>
-            <span style={{ color: "white" }}>{s.heroTitle[0]}</span>{" "}
-            <em style={{ color: "white" }}>{s.heroTitle[1]}</em>{" "}
-            <span style={{ color: "white" }}>{s.heroTitle[2]}</span>
-          </h1>
-          <p className="t-lead" style={{ marginTop: 28, maxWidth: 680, color: "rgba(255,255,255,0.9)" }}>
-            {s.heroLead}
-          </p>
-          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" as const, marginTop: 36 }}>
-            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-              {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-            <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
-              {lang === "fr" ? "Nos approches" : "Our approaches"}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-          </div>
-        </div>
-      </section>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+          {t.nav.cta}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
+        <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
+          {lang === "fr" ? "Nos approches" : "Our approaches"}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
+      </ImageHero>
 
       <section style={{ padding: "20px 0 80px" }}>
         <div className="container">
@@ -78,6 +60,39 @@ export default function SolutionsPage() {
                 <div>
                   <div style={{ fontSize: 12, color: "var(--m-ink-4)", letterSpacing: "0.08em", textTransform: "uppercase" as const }}>0{i + 1}</div>
                   <div style={{ fontFamily: "var(--f-display)", fontSize: 20, letterSpacing: "-0.01em" }}>{x.label}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sectors */}
+      <section style={{ padding: "100px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
+        <div className="container">
+          <SectionHeader eyebrow={s.sectorsTitle.eyebrow} title={s.sectorsTitle.title} lead={s.sectorsTitle.lead} />
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 20, marginTop: 56 }} className="m-grid-2">
+            {s.sectors.map((sec: any, i: number) => (
+              <div key={i} style={{
+                padding: 32,
+                border: "1px solid var(--m-line)",
+                borderRadius: 16,
+                background: "white",
+                display: "flex",
+                flexDirection: "column" as const,
+                gap: 16,
+              }}>
+                <div style={{
+                  width: 44, height: 44, borderRadius: 12,
+                  background: "var(--m-purple-soft)",
+                  color: "var(--m-purple)",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 22 }}>{sec.icon}</span>
+                </div>
+                <div>
+                  <h4 style={{ fontFamily: "var(--f-display)", fontSize: 18, fontWeight: 600, letterSpacing: "-0.01em", margin: "0 0 8px" }}>{sec.title}</h4>
+                  <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.55, margin: 0 }}>{sec.body}</p>
                 </div>
               </div>
             ))}
@@ -122,7 +137,49 @@ export default function SolutionsPage() {
         </div>
       </section>
 
+      {/* Julie Steiner */}
+      <section style={{ padding: "100px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
+        <div className="container">
+          <h2 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(28px, 3vw, 40px)", fontWeight: 700, letterSpacing: "-1.5px", lineHeight: 1.1, margin: "0 0 48px" }}>
+            {lang === "fr" ? "Votre interlocutrice pour vos projets" : "Your contact for your projects"}
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "260px 1fr", gap: 48, alignItems: "start" }} className="m-julie-row">
+            <div style={{ aspectRatio: "1 / 1", position: "relative", overflow: "hidden", borderRadius: 16 }}>
+              <Image
+                src="/images/team/julie-steiner.webp"
+                alt={s.julie.name}
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="260px"
+              />
+            </div>
+            <div style={{ display: "flex", flexDirection: "column" as const, gap: 14, paddingTop: 4 }}>
+              <div>
+                <h3 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 4px" }}>{s.julie.name}</h3>
+                <p style={{ fontSize: 14, color: "var(--m-purple)", fontWeight: 600, margin: 0 }}>Partner Mentivis</p>
+              </div>
+              <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.6, margin: 0 }}>{s.julie.body}</p>
+              <div style={{ display: "flex", flexDirection: "column" as const, gap: 8, fontSize: 14, color: "var(--m-ink-3)", marginTop: 4 }}>
+                <a href={`mailto:${SITE.email}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>mail</span>
+                  {SITE.email}
+                </a>
+                <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>phone</span>
+                  {SITE.phone}
+                </a>
+                <span style={{ display: "inline-flex", alignItems: "flex-start", gap: 8, lineHeight: 1.45 }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 16, flexShrink: 0, marginTop: 2 }}>location_on</span>
+                  {SITE.address}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <FinalCTA t={t} title={s.finalCta} lang={lang} accent="purple" />
+      <FeaturedInsights pageKey="solutions" lang={lang} />
     </PageShell>
   );
 }

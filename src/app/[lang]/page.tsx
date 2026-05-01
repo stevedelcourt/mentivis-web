@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 import FinalCTA from "@/components/FinalCTA";
+import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
@@ -162,7 +163,7 @@ export default function HomePage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 24 }} className="m-triple-grid">
             <DualEntryCard data={h.entryEnterprise} href={`/${lang}/enterprise`} tone="dark" />
             <DualEntryCard data={h.entryOf} href={`/${lang}/of`} tone="purple" />
-            <DualEntryCard data={h.entrySolutions} href={`/${lang}/solutions`} tone="light" />
+            <DualEntryCard data={h.entrySolutions} href={`/${lang}/solutions`} tone="light" bg="#e0e1ee" />
           </div>
         </div>
       </section>
@@ -213,6 +214,7 @@ export default function HomePage() {
       <ProofSection proofs={h.proofs} proofTitle={h.proofTitle} proofNote={h.proofNote} />
 
       <FinalCTA t={t} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
+      <FeaturedInsights pageKey="enterprise" lang={lang} />
     </PageShell>
   );
 }

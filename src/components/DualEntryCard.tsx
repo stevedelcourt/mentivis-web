@@ -9,13 +9,14 @@ type DualEntryCardProps = {
   };
   href: string;
   tone: "dark" | "purple" | "light";
+  bg?: string;
 };
 
-export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) {
+export default function DualEntryCard({ data, href, tone, bg: bgProp }: DualEntryCardProps) {
   const isDark = tone === "dark";
   const isPurple = tone === "purple";
   const isLight = tone === "light";
-  const bg = isDark ? "var(--m-ink)" : isPurple ? "var(--m-purple)" : "var(--m-bg-soft)";
+  const bg = bgProp ?? (isDark ? "var(--m-ink)" : isPurple ? "var(--m-purple)" : "var(--m-bg-soft)");
   const fg = isDark || isPurple ? "white" : "var(--m-ink)";
   const meta = isDark || isPurple ? "rgba(255,255,255,0.7)" : "var(--m-ink-3)";
   const border = isDark || isPurple ? "rgba(255,255,255,0.15)" : "var(--m-line)";
@@ -23,7 +24,7 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
   const letterText = isLight ? "S" : (isPurple ? "OF" : "E");
 
   return (
-    <div style={{
+    <div className="m-dual-card" style={{
       background: bg,
       color: fg,
       padding: "44px 40px",
@@ -31,7 +32,6 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
       position: "relative" as const,
       overflow: "hidden",
       minHeight: 380,
-      transition: "transform 0.25s ease",
       border: isLight ? "1px solid var(--m-line)" : "none",
     }}>
       <Link href={href} style={{
@@ -78,14 +78,7 @@ export default function DualEntryCard({ data, href, tone }: DualEntryCardProps) 
           </Link>
         </div>
       </div>
-      <div aria-hidden="true" style={{
-        position: "absolute" as const, right: -20, top: -40,
-        fontFamily: "var(--f-display)", fontWeight: 700,
-        fontSize: 240, lineHeight: 1, color: bgLetter,
-        userSelect: "none" as const,
-      }}>
-        {letterText}
-      </div>
+
     </div>
   );
 }

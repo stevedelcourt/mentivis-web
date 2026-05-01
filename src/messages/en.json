@@ -16,56 +16,113 @@
     "youAre": "You are"
   },
   "animation": {
-    "words": ["Design", "Structure", "Deploy"],
+    "words": [
+      "Design",
+      "Structure",
+      "Deploy"
+    ],
     "subtitle": "training programs that actually work"
   },
   "home": {
     "eyebrow": "Operator in training & skills development",
-    "heroTitle": ["Designing, structuring and deploying", "training programs", "that ", "actually work", "."],
+    "heroTitle": [
+      "Designing, structuring and deploying",
+      "training programs",
+      "that",
+      "actually work",
+      "."
+    ],
     "heroLead": "Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.",
     "entryEnterprise": {
       "kicker": "01 - You are an enterprise",
       "title": "Turn training into a performance lever",
-      "items": ["Maturity audit", "Internal academy creation", "Training policy & structure"],
+      "items": [
+        "Maturity audit",
+        "Internal academy creation",
+        "Training policy & structure"
+      ],
       "cta": "Explore solutions"
     },
     "entryOf": {
       "kicker": "02 - You are a training organization",
       "title": "Structure, secure and grow your activity",
-      "items": ["Pedagogy & compliance", "Strategy & positioning", "Outsourced services"],
+      "items": [
+        "Pedagogy & compliance",
+        "Strategy & positioning",
+        "Outsourced services"
+      ],
       "cta": "Explore solutions"
     },
     "entrySolutions": {
       "kicker": "03 - You are looking for a digital, dev or AI solution",
       "title": "Custom tools, concrete solutions",
-      "items": ["Personalized platforms", "AI solutions for training", "Custom development"],
+      "items": [
+        "Personalized platforms",
+        "AI solutions for training",
+        "Custom development"
+      ],
       "cta": "Explore solutions"
     },
     "diffTitle": "What sets us apart",
     "diffLead": "Four structural principles - not a marketing pitch.",
     "differentiation": [
-      { "n": "01", "title": "Training & education specialists", "body": "We are not consulting generalists. All of our expertise is concentrated on a single field: training and skills development." },
-      { "n": "02", "title": "Full-stack approach", "body": "From strategy to operational execution. We don't deliver recommendations without implementing them." },
-      { "n": "03", "title": "Compensation tied to your results", "body": "A variable share linked to measured performance. We perform when you perform - that's what structurally distinguishes us from a consulting firm." },
-      { "n": "04", "title": "Real intervention on the ground", "body": "No deliverables without follow-through. Our work is measured by actual deployment, not by slide decks." }
+      {
+        "n": "01",
+        "title": "Training & education specialists",
+        "body": "We are not consulting generalists. All of our expertise is concentrated on a single field: training and skills development."
+      },
+      {
+        "n": "02",
+        "title": "Full-stack approach",
+        "body": "From strategy to operational execution. We don't deliver recommendations without implementing them."
+      },
+      {
+        "n": "03",
+        "title": "Compensation tied to your results",
+        "body": "A variable share linked to measured performance. We perform when you perform - that's what structurally distinguishes us from a consulting firm."
+      },
+      {
+        "n": "04",
+        "title": "Real intervention on the ground",
+        "body": "No deliverables without follow-through. Our work is measured by actual deployment, not by slide decks."
+      }
     ],
     "promiseTitle": "Our promise",
     "promiseBody": "Our model is based on variable compensation aligned with results. We have no interest in delivering a recommendation you can't apply.",
     "promiseSig": "- That's what structurally sets us apart from a consulting firm.",
     "proofTitle": "What our missions produce",
     "proofs": [
-      { "value": "6", "unit": "wks", "label": "to structure a complete TO" },
-      { "value": "100", "unit": "%", "label": "Qualiopi audit pass rate" },
-      { "value": "×2", "unit": "", "label": "internal academy engagement" },
-      { "value": "−30", "unit": "%", "label": "external training spend" }
+      {
+        "value": "6",
+        "unit": "wks",
+        "label": "to structure a complete TO"
+      },
+      {
+        "value": "100",
+        "unit": "%",
+        "label": "Qualiopi audit pass rate"
+      },
+      {
+        "value": "×2",
+        "unit": "",
+        "label": "internal academy engagement"
+      },
+      {
+        "value": "−30",
+        "unit": "%",
+        "label": "external training spend"
+      }
     ],
     "proofNote": "Representative indicators - every mission is calibrated and measured against its own KPIs.",
     "finalCtaTitle": "A training project to structure?",
-    "finalCtaLead": "First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit."
+    "finalCtaLead": "First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you."
   },
   "about": {
     "eyebrow": "About",
-    "title": ["A specialized operator.", "Not a consulting firm."],
+    "title": [
+      "A specialized operator.",
+      "Not a consulting firm."
+    ],
     "lead": "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
     "missionTitle": "Identity & mission",
     "mission": [
@@ -76,31 +133,76 @@
     "expertiseTitle": "Our expertise",
     "expertiseLead": "Four pillars covering the full training spectrum, from strategy to operational execution.",
     "expertise": [
-      { "n": "01", "title": "Strategy", "body": "Positioning, maturity audit, program development, go-to-market." },
-      { "n": "02", "title": "Operations", "body": "Acquisition, apprenticeship, communication, instructional design." },
-      { "n": "03", "title": "End-to-end creation", "body": "Legal, pedagogical and operational structuring of any training entity." },
-      { "n": "04", "title": "Solution development", "body": "Custom tools, AI solutions, dedicated platforms." }
+      {
+        "n": "01",
+        "title": "Strategy",
+        "body": "Positioning, maturity audit, program development, go-to-market."
+      },
+      {
+        "n": "02",
+        "title": "Operations",
+        "body": "Acquisition, apprenticeship, communication, instructional design."
+      },
+      {
+        "n": "03",
+        "title": "End-to-end creation",
+        "body": "Legal, pedagogical and operational structuring of any training entity."
+      },
+      {
+        "n": "04",
+        "title": "Solution development",
+        "body": "Custom tools, AI solutions, dedicated platforms."
+      }
     ],
     "whyTitle": "Why work with us?",
     "whyLead": "Not a service catalogue - a results promise.",
     "why": [
-      { "title": "360° view", "body": "We understand your ecosystem as a whole before acting." },
-      { "title": "Advice AND execution", "body": "We don't deliver recommendations without implementing them." },
-      { "title": "Effective actions", "body": "Rigorous prioritization, controlled timelines, real operational execution." },
-      { "title": "KPI-driven steering", "body": "Every mission is measured. Our compensation depends on it." }
+      {
+        "title": "360° view",
+        "body": "We understand your ecosystem as a whole before acting."
+      },
+      {
+        "title": "Advice AND execution",
+        "body": "We don't deliver recommendations without implementing them."
+      },
+      {
+        "title": "Effective actions",
+        "body": "Rigorous prioritization, controlled timelines, real operational execution."
+      },
+      {
+        "title": "KPI-driven steering",
+        "body": "Every mission is measured. Our compensation depends on it."
+      }
     ],
     "costTitle": "What does it cost?",
     "costLead": "A transparent pricing approach designed to remove the client's risk and align both parties' interests.",
     "cost": [
-      { "title": "Results-aligned fees", "body": "A variable share tied to measured performance." },
-      { "title": "Targeted & efficient", "body": "We intervene where impact is maximal - not everywhere at once." },
-      { "title": "Documented ROI", "body": "Every mission produces tangible performance KPIs." },
-      { "title": "Offers tailored to you", "body": "Small, mid-size or large company - we calibrate the intervention." }
+      {
+        "title": "Results-aligned fees",
+        "body": "A variable share tied to measured performance."
+      },
+      {
+        "title": "Targeted & efficient",
+        "body": "We intervene where impact is maximal - not everywhere at once."
+      },
+      {
+        "title": "Documented ROI",
+        "body": "Every mission produces tangible performance KPIs."
+      },
+      {
+        "title": "Offers tailored to you",
+        "body": "Small, mid-size or large company - we calibrate the intervention."
+      }
     ]
   },
   "of": {
     "eyebrow": "You are a training organization",
-    "heroTitle": ["Build a", "solid and compliant", "training", "organization."],
+    "heroTitle": [
+      "Build a",
+      "solid and compliant",
+      "training",
+      "organization."
+    ],
     "heroLead": "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
     "pillarsTitle": "Our intervention pillars",
     "pillarsLead": "A clearer, more actionable services architecture.",
@@ -154,12 +256,30 @@
     "externalisedTitle": "Outsourced services",
     "externalisedLead": "Take over key functions to free the pedagogical team. This offer is distinct from advisory and structuring: Mentivis runs it, the TO focuses on its core business.",
     "externalised": [
-      { "title": "Acquisition", "body": "Lead generation, funnels, conversion." },
-      { "title": "Apprenticeship", "body": "Administrative management, employer relations." },
-      { "title": "Marketing & Communication", "body": "Positioning, content, visibility." },
-      { "title": "Administrative", "body": "File management, ongoing compliance." },
-      { "title": "BPF & Qualiopi", "body": "Preparation, follow-up, audit presence." },
-      { "title": "Custom", "body": "Any other function on demand." }
+      {
+        "title": "Acquisition",
+        "body": "Lead generation, funnels, conversion."
+      },
+      {
+        "title": "Apprenticeship",
+        "body": "Administrative management, employer relations."
+      },
+      {
+        "title": "Marketing & Communication",
+        "body": "Positioning, content, visibility."
+      },
+      {
+        "title": "Administrative",
+        "body": "File management, ongoing compliance."
+      },
+      {
+        "title": "BPF & Qualiopi",
+        "body": "Preparation, follow-up, audit presence."
+      },
+      {
+        "title": "Custom",
+        "body": "Any other function on demand."
+      }
     ],
     "paymentTitle": "Compensation model",
     "paymentBody": "Variable compensation aligned with the results obtained. Guaranteed alignment of interests: we perform when you perform. That's what structurally differentiates this model from a classic engagement.",
@@ -174,7 +294,10 @@
   },
   "enterprise": {
     "eyebrow": "You are an enterprise",
-    "heroTitle": ["Turn training into a", "performance lever", " that lasts."],
+    "heroTitle": [
+      "Turn training into a",
+      "performance lever that lasts."
+    ],
     "heroLead": "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
     "problemsTitle": "Enterprise training is often ineffective",
     "problems": [
@@ -252,7 +375,11 @@
   },
   "solutions": {
     "eyebrow": "Mentivis Solutions",
-    "heroTitle": ["Tools designed to ", "transform", " your training practices."],
+    "heroTitle": [
+      "Tools designed to",
+      "transform",
+      "your training practices."
+    ],
     "heroLead": "Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.",
     "pillars": [
       {
@@ -287,11 +414,67 @@
         ]
       }
     ],
-    "finalCta": "A tool or AI solution project?"
+    "finalCta": "A tool or AI solution project?",
+    "sectorsTitle": {
+      "eyebrow": "Our sectors",
+      "title": "We know your terrain.",
+      "lead": "Every sector has its regulators, its constraints, its business vocabulary. We don't discover them when we arrive on your project."
+    },
+    "sectors": [
+      {
+        "icon": "account_balance",
+        "title": "Financial Services & Insurance",
+        "body": "Regulatory transformation (DORA, PSD3), AI agents for case processing, KYC/AML, core banking modernization, open banking."
+      },
+      {
+        "icon": "factory",
+        "title": "Industry & Manufacturing",
+        "body": "Production process transformation, MES, predictive maintenance, VR safety training, industrial IoT, OT/IT convergence."
+      },
+      {
+        "icon": "health_and_safety",
+        "title": "Health & Life Sciences",
+        "body": "Digitalization strategy, HDS hosting, HL7/FHIR interoperability, diagnostic AI, MDR compliance, augmented patient record."
+      },
+      {
+        "icon": "shield",
+        "title": "Public Sector & Defense",
+        "body": "Digital sovereignty, critical IT system transformation, ANSSI certification, SecNumCloud, service dematerialization."
+      },
+      {
+        "icon": "bolt",
+        "title": "Energy & Utilities",
+        "body": "Transformation toward energy efficiency, AI network optimization, automated ESG reporting, predictive maintenance."
+      },
+      {
+        "icon": "cast",
+        "title": "Telecoms & Media",
+        "body": "Platform modernization, AI personalization, immersive experiences."
+      },
+      {
+        "icon": "shopping_bag",
+        "title": "Retail & Consumer Goods",
+        "body": "Omnichannel transformation, 3D configurators, AI personalization, intelligent supply chain."
+      },
+      {
+        "icon": "local_shipping",
+        "title": "Transport & Logistics",
+        "body": "Fleet optimization, demand prediction, predictive maintenance."
+      }
+    ],
+    "julie": {
+      "name": "Julie Steiner",
+      "role": "Your contact for your projects",
+      "body": "Your privileged contact for all your engineering and application development projects. Julie gets involved from the first discussions to understand your challenges, transform a need into a structured project and mobilize the right expertise. She ensures coordination between business and technical teams, from initial scoping to implementation follow-up."
+    }
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": ["You have a project.", "We have the answers.", "Let's talk."],
+    "title": [
+      "You have a project.",
+      "We have the answers.",
+      "Let's talk."
+    ],
     "lead": "A page without friction. No long form, no marketing promise - just an invitation to a conversation.",
     "labels": {
       "firstname": "First name",
@@ -304,7 +487,11 @@
       "consent": "I agree to receive information from Mentivis, in accordance with the",
       "consentLink": "privacy policy"
     },
-    "youOptions": ["Enterprise", "Training organization", "Other"],
+    "youOptions": [
+      "Enterprise",
+      "Training organization",
+      "Other"
+    ],
     "successTitle": "Message sent!",
     "successBody": "We have received your request. We will reply within 48 hours.",
     "successBack": "Back to home",
@@ -315,7 +502,7 @@
   "footer": {
     "tagline": "Training solutions that work.",
     "ctaTitle": "Starting a project is simple",
-    "ctaLead": "First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit.",
+    "ctaLead": "First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.",
     "navigation": "Navigation",
     "copy": "© 2026 Mentivis. Operator in training and skills development."
   },
@@ -615,10 +802,40 @@
     "company": "Company",
     "phone": "Phone",
     "choose": "Select",
-    "sectors": ["Industry / Manufacturing", "Retail / Distribution", "Business services", "Construction / Civil engineering", "Transport / Logistics", "Healthcare / Social", "Hospitality / Restaurants", "Other sector"],
-    "sectorValues": ["industry", "retail", "services", "construction", "transport", "health", "hospitality", "other"],
-    "objectives": ["Internal Campus / CFA creation", "Professional certifications (RNCP)", "Conversions / Upskilling", "Apprenticeship development", "Digital transformation / AI"],
-    "objectiveValues": ["campus", "certifications", "reconversion", "alternance", "digital"],
+    "sectors": [
+      "Industry / Manufacturing",
+      "Retail / Distribution",
+      "Business services",
+      "Construction / Civil engineering",
+      "Transport / Logistics",
+      "Healthcare / Social",
+      "Hospitality / Restaurants",
+      "Other sector"
+    ],
+    "sectorValues": [
+      "industry",
+      "retail",
+      "services",
+      "construction",
+      "transport",
+      "health",
+      "hospitality",
+      "other"
+    ],
+    "objectives": [
+      "Internal Campus / CFA creation",
+      "Professional certifications (RNCP)",
+      "Conversions / Upskilling",
+      "Apprenticeship development",
+      "Digital transformation / AI"
+    ],
+    "objectiveValues": [
+      "campus",
+      "certifications",
+      "reconversion",
+      "alternance",
+      "digital"
+    ],
     "phEmployees": "e.g. 250",
     "phPayroll": "e.g. 8,000,000",
     "phLearners": "e.g. 50",
@@ -642,7 +859,7 @@
     "download": "Download report",
     "disclaimer": "Methodology: calculation based on 2025 OPCO contribution rates (0.55% to 1% of payroll depending on headcount), FNE-Training mechanisms, France 2030, and regional aid. Actual amounts depend on your affiliated OPCO, collective agreement and project eligibility.",
     "ctaEyebrow": "From diagnostic to action",
-    "ctaTitle": "These figures are estimates.\nA Mentivis expert can refine them.",
+    "ctaTitle": "These figures are estimates.",
     "ctaSub": "Mentivis can support you in mobilizing these funds.",
     "ctaName": "Name",
     "ctaEmail": "Your business email",

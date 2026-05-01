@@ -26,10 +26,10 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
       }}
     >
       <div className="container" style={{ position: "relative" as const, zIndex: 2 }}>
-        <h2
+          <h2
           className="t-display"
           style={{
-            fontSize: "clamp(32px, 4vw, 52px)",
+            fontSize: "clamp(22px, 4vw, 52px)",
             margin: 0,
             maxWidth: 780,
             marginLeft: "auto",

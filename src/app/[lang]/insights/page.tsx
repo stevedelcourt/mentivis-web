@@ -1,8 +1,6 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
@@ -11,6 +9,7 @@ import {
   CATEGORY_LABELS,
   type InsightCategory,
 } from "@/data/insights";
+import InsightCard from "@/components/InsightCard";
 
 const PER_PAGE = 15;
 
@@ -174,7 +173,7 @@ export default function InsightsPage() {
           <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
             {paginated.map((article, idx) => (
               <Reveal key={article.slug} delay={idx * 60}>
-                <ArticleCard article={article} lang={lang} />
+                <InsightCard article={article} lang={lang} variant="list" />
               </Reveal>
             ))}
           </div>
@@ -303,126 +302,4 @@ function SortPill({
   );
 }
 
-function ArticleCard({
-  article,
-  lang,
-}: {
-  article: (typeof INSIGHTS)[0];
-  lang: string;
-}) {
-  const d = new Date(article.date);
-  const dateStr = d.toLocaleDateString(lang === "fr" ? "fr-FR" : "en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
 
-  return (
-    <Link
-      href={`/${lang}/insights/${article.slug}`}
-      style={{
-        display: "grid",
-        gridTemplateColumns: "260px 1fr",
-        gap: 28,
-        padding: "32px 0",
-        borderBottom: "1px solid var(--m-line-2)",
-        textDecoration: "none",
-        color: "inherit",
-        alignItems: "flex-start",
-      }}
-      className="insight-card"
-    >
-      {/* Image */}
-      <div
-        style={{
-          position: "relative",
-          overflow: "hidden",
-          background: "var(--m-line-2)",
-          aspectRatio: "16/9",
-          flexShrink: 0,
-          borderRadius: 8,
-        }}
-      >
-        <Image
-          src={article.heroImage}
-          alt={article.titleFr}
-          fill
-          style={{ objectFit: "cover" }}
-          sizes="260px"
-        />
-      </div>
-
-      {/* Meta */}
-      <div style={{ display: "flex", flexDirection: "column", gap: 10, paddingTop: 2 }}>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center" }}>
-          <CategoryBadge
-            label={CATEGORY_LABELS[article.category][lang as "fr" | "en"]}
-          />
-          <span style={{ fontSize: 12, color: "var(--m-ink-3)" }}>
-            {dateStr}
-          </span>
-        </div>
-        <h2
-          style={{
-            fontSize: 20,
-            fontWeight: 600,
-            lineHeight: 1.3,
-            color: "var(--m-ink)",
-            margin: 0,
-          }}
-        >
-          {article.titleFr}
-        </h2>
-        <p
-          style={{
-            fontSize: 14,
-            color: "var(--m-ink-2)",
-            lineHeight: 1.6,
-            margin: 0,
-          }}
-        >
-          {article.excerptFr}
-        </p>
-        <span
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 4,
-            fontSize: 13,
-            fontWeight: 600,
-            color: "var(--m-ink)",
-            marginTop: 4,
-            width: "fit-content",
-            transition: "color 0.2s ease",
-          }}
-          className="insight-read-btn"
-        >
-          {lang === "fr" ? "Lire" : "Read"}
-          <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-            chevron_right
-          </span>
-        </span>
-      </div>
-    </Link>
-  );
-}
-
-function CategoryBadge({ label }: { label: string }) {
-  return (
-    <span
-      style={{
-        fontSize: 9,
-        fontWeight: 700,
-        letterSpacing: "0.07em",
-        textTransform: "uppercase",
-        color: "var(--m-ink-3)",
-        background: "var(--m-surface-2)",
-        padding: "3px 8px",
-        border: "1px solid var(--m-line-2)",
-        borderRadius: 4,
-      }}
-    >
-      {label}
-    </span>
-  );
-}

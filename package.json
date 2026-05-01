@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "build:ftp": "node scripts/build-ftp.js",
+    "texts": "node scripts/txt2json.js",
+    "texts:check": "node scripts/txt2json.js --check",
     "start": "next start",
     "lint": "eslint"
   },

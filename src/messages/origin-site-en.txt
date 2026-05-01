@@ -1,0 +1,781 @@
+
+# nav
+home: Home
+about: About
+enterprise: Enterprises
+of: Training organizations
+solutions: Solutions
+resources: Resources
+insights: Insights
+corporate: Corporate
+contact: Contact
+cta: Contact us
+
+# common
+learnMore: Learn more
+youAre: You are
+
+# animation
+words[0]: Design
+words[1]: Structure
+words[2]: Deploy
+subtitle: training programs that actually work
+
+# home
+eyebrow: Operator in training & skills development
+heroTitle[0]: Designing, structuring and deploying
+heroTitle[1]: training programs
+heroTitle[2]: that 
+heroTitle[3]: actually work
+heroTitle[4]: .
+heroLead: Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.
+
+# home.entryEnterprise
+kicker: 01 - You are an enterprise
+title: Turn training into a performance lever
+items[0]: Maturity audit
+items[1]: Internal academy creation
+items[2]: Training policy & structure
+cta: Explore solutions
+
+# home.entryOf
+kicker: 02 - You are a training organization
+title: Structure, secure and grow your activity
+items[0]: Pedagogy & compliance
+items[1]: Strategy & positioning
+items[2]: Outsourced services
+cta: Explore solutions
+
+# home.entrySolutions
+kicker: 03 - You are looking for a digital, dev or AI solution
+title: Custom tools, concrete solutions
+items[0]: Personalized platforms
+items[1]: AI solutions for training
+items[2]: Custom development
+cta: Explore solutions
+
+# home
+diffTitle: What sets us apart
+diffLead: Four structural principles - not a marketing pitch.
+
+# home.differentiation[0]
+n: 01
+title: Training & education specialists
+body: We are not consulting generalists. All of our expertise is concentrated on a single field: training and skills development.
+
+# home.differentiation[1]
+n: 02
+title: Full-stack approach
+body: From strategy to operational execution. We don't deliver recommendations without implementing them.
+
+# home.differentiation[2]
+n: 03
+title: Compensation tied to your results
+body: A variable share linked to measured performance. We perform when you perform - that's what structurally distinguishes us from a consulting firm.
+
+# home.differentiation[3]
+n: 04
+title: Real intervention on the ground
+body: No deliverables without follow-through. Our work is measured by actual deployment, not by slide decks.
+
+# home
+promiseTitle: Our promise
+promiseBody: Our model is based on variable compensation aligned with results. We have no interest in delivering a recommendation you can't apply.
+promiseSig: - That's what structurally sets us apart from a consulting firm.
+proofTitle: What our missions produce
+
+# home.proofs[0]
+value: 6
+unit: wks
+label: to structure a complete TO
+
+# home.proofs[1]
+value: 100
+unit: %
+label: Qualiopi audit pass rate
+
+# home.proofs[2]
+value: ×2
+unit: 
+label: internal academy engagement
+
+# home.proofs[3]
+value: −30
+unit: %
+label: external training spend
+
+# home
+proofNote: Representative indicators - every mission is calibrated and measured against its own KPIs.
+finalCtaTitle: A training project to structure?
+finalCtaLead: First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit.
+
+# about
+eyebrow: About
+title[0]: A specialized operator.
+title[1]: Not a consulting firm.
+lead: Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.
+missionTitle: Identity & mission
+mission[0]: Specialized operator in training and skills development
+mission[1]: End-to-end intervention: strategy, design, deployment, steering
+mission[2]: Compensation aligned with results - not deliverables
+expertiseTitle: Our expertise
+expertiseLead: Four pillars covering the full training spectrum, from strategy to operational execution.
+
+# about.expertise[0]
+n: 01
+title: Strategy
+body: Positioning, maturity audit, program development, go-to-market.
+
+# about.expertise[1]
+n: 02
+title: Operations
+body: Acquisition, apprenticeship, communication, instructional design.
+
+# about.expertise[2]
+n: 03
+title: End-to-end creation
+body: Legal, pedagogical and operational structuring of any training entity.
+
+# about.expertise[3]
+n: 04
+title: Solution development
+body: Custom tools, AI solutions, dedicated platforms.
+
+# about
+whyTitle: Why work with us?
+whyLead: Not a service catalogue - a results promise.
+
+# about.why[0]
+title: 360° view
+body: We understand your ecosystem as a whole before acting.
+
+# about.why[1]
+title: Advice AND execution
+body: We don't deliver recommendations without implementing them.
+
+# about.why[2]
+title: Effective actions
+body: Rigorous prioritization, controlled timelines, real operational execution.
+
+# about.why[3]
+title: KPI-driven steering
+body: Every mission is measured. Our compensation depends on it.
+
+# about
+costTitle: What does it cost?
+costLead: A transparent pricing approach designed to remove the client's risk and align both parties' interests.
+
+# about.cost[0]
+title: Results-aligned fees
+body: A variable share tied to measured performance.
+
+# about.cost[1]
+title: Targeted & efficient
+body: We intervene where impact is maximal - not everywhere at once.
+
+# about.cost[2]
+title: Documented ROI
+body: Every mission produces tangible performance KPIs.
+
+# about.cost[3]
+title: Offers tailored to you
+body: Small, mid-size or large company - we calibrate the intervention.
+
+# of
+eyebrow: You are a training organization
+heroTitle[0]: Build a
+heroTitle[1]: solid and compliant
+heroTitle[2]: training
+heroTitle[3]: organization.
+heroLead: Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.
+pillarsTitle: Our intervention pillars
+pillarsLead: A clearer, more actionable services architecture.
+
+# of.pillars[0]
+n: 01
+title: Strategy
+body: Position your TO on the market, structure its growth and secure its financing.
+items[0]: Positioning audit and competitive analysis
+items[1]: Program development and new offer launches
+items[2]: Financing engineering (CPF, OPCO, Region, FSE)
+items[3]: Go-to-market and commercial strategy
+items[4]: Marketing and communication of the training offer
+
+# of.pillars[1]
+n: 02
+title: Operations
+body: Take over key functions to free your pedagogical teams and accelerate growth.
+items[0]: Acquisition: lead generation, conversion funnels, prescribers
+items[1]: Apprenticeship: administrative management, employer relations, OPCO
+items[2]: Communication: brand positioning, content, digital visibility
+items[3]: Instructional content: e-learning modules, materials, assessments
+
+# of.pillars[2]
+n: 03
+title: Administrative
+body: Secure regulatory compliance and lighten the administrative load.
+items[0]: Activity declaration and initial compliance setup
+items[1]: Qualiopi preparation and follow-up: mock audit, action plan, audit presence
+items[2]: Pedagogical and Financial Report (BPF): collection, entry, filing
+items[3]: Learner files management and continuous compliance
+
+# of.pillars[3]
+n: 04
+title: End-to-end creation
+body: Design and launch a complete training entity, turnkey, from zero.
+items[0]: Pedagogical project and economic model definition
+items[1]: Legal and administrative structuring (declaration, certifications)
+items[2]: Operational processes and management tools setup
+items[3]: Initial commercial deployment and activity launch
+
+# of
+externalisedTitle: Outsourced services
+externalisedLead: Take over key functions to free the pedagogical team. This offer is distinct from advisory and structuring: Mentivis runs it, the TO focuses on its core business.
+
+# of.externalised[0]
+title: Acquisition
+body: Lead generation, funnels, conversion.
+
+# of.externalised[1]
+title: Apprenticeship
+body: Administrative management, employer relations.
+
+# of.externalised[2]
+title: Marketing & Communication
+body: Positioning, content, visibility.
+
+# of.externalised[3]
+title: Administrative
+body: File management, ongoing compliance.
+
+# of.externalised[4]
+title: BPF & Qualiopi
+body: Preparation, follow-up, audit presence.
+
+# of.externalised[5]
+title: Custom
+body: Any other function on demand.
+
+# of
+paymentTitle: Compensation model
+paymentBody: Variable compensation aligned with the results obtained. Guaranteed alignment of interests: we perform when you perform. That's what structurally differentiates this model from a classic engagement.
+resultsTitle: What organizations get
+results[0]: Secured, lasting compliance
+results[1]: Structured pedagogical offer, credible on the market
+results[2]: Stable acquisition and apprenticeship growth
+results[3]: Robust organization, less dependent on improvisation
+finalCta: An organization to structure, secure or grow?
+
+# enterprise
+eyebrow: You are an enterprise
+heroTitle[0]: Turn training into a
+heroTitle[1]: performance lever that lasts.
+heroLead: Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.
+problemsTitle: Enterprise training is often ineffective
+problems[0]: Loosely structured programs, disconnected from business stakes
+problems[1]: No steering of skills or results
+problems[2]: Dependency on multiple vendors, no global view
+problems[3]: Heavy investment, limited measurable impact
+pillarsTitle: The four intervention axes
+pillarsLead: A clear offer aligned with what business directors actually need.
+
+# enterprise.pillars[0]
+n: 01
+title: Strategy
+body: Build the training vision and the foundations to steer skills development long term.
+items[0]: HR audit and training diagnosis: status, gaps, priorities
+items[1]: Feasibility studies: target model, resources, financial viability
+items[2]: Financing engineering (OPCO, skills development plan)
+items[3]: Definition of skills paths and career tracks
+
+# enterprise.pillars[1]
+n: 02
+title: Operations
+body: Move from strategy to execution: we design and deploy the concrete programs.
+items[0]: Training creation: instructional design, content, assessments
+items[1]: Operational rollout: facilitation, team support, tooling
+items[2]: Declarations and regulatory compliance (Qualiopi if applicable, BPF)
+items[3]: Support for HR teams and managers in adoption
+
+# enterprise.pillars[2]
+n: 03
+title: Administrative
+body: Handle administrative and regulatory complexity so your teams can focus on results.
+items[0]: Training files management and OPCO relations
+items[1]: Regulatory compliance and legal obligations follow-up
+items[2]: Budget steering and training reporting
+
+# enterprise.pillars[3]
+n: 04
+title: Entity creation
+body: Build your internal or external training entity from scratch - TO, CFA, specialized school.
+items[0]: Internal TO: structure an academy or corporate school
+items[1]: External TO: create an independent training organization
+items[2]: CFA: file preparation, accreditation, apprenticeship rollout
+items[3]: Specialized school: positioning, certification, commercial launch
+
+# enterprise
+resultsTitle: What enterprises get
+results[0]: Programs that are actually used, measurable and lasting
+results[1]: Training aligned with business stakes and HR objectives
+results[2]: Reduced wasteful spend, better use of financing
+results[3]: Progressive independence from external vendors
+whyTitle: Why Mentivis
+why[0]: Training and education specialists, not generalists
+why[1]: We deploy - we don't just deliver recommendations
+why[2]: Our compensation is aligned with your results
+why[3]: End-to-end or stage-by-stage, depending on your needs
+finalCta: A training project to structure or transform?
+scoreTeaserEyebrow: Diagnostic
+scoreTeaserTitle: Is your training a business lever or a sunk cost?
+scoreTeaserBody: 10 minutes to reveal the real maturity of your training system, measure the gap between what you think you control and what actually happens.
+scoreTeaserCta: Start the assessment
+
+# solutions
+eyebrow: Mentivis Solutions
+heroTitle[0]: Tools designed to 
+heroTitle[1]: transform
+heroTitle[2]:  your training practices.
+heroLead: Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.
+
+# solutions.pillars[0]
+n: 01
+title: Custom tool design
+body: No generic tools - everything is built for your operational reality.
+items[0]: Needs analysis and functional specification
+items[1]: UX design and user journey prototyping
+items[2]: Steering tools, dashboards, reporting systems
+
+# solutions.pillars[1]
+n: 02
+title: Specific tool development
+body: From prototype to production. Robust solutions, integrated with your existing ecosystem.
+items[0]: LMS platforms or pedagogical management tools
+items[1]: Integration with your HR systems (SIRH, ATS, business tools)
+items[2]: Interactive e-learning modules and custom digital paths
+
+# solutions.pillars[2]
+n: 03
+title: AI tools
+body: AI applied to training: recommendation, automation, predictive analysis.
+items[0]: Personalized content and path recommendation engines
+items[1]: Automation of administrative processes
+items[2]: Predictive skills analysis and needs detection
+items[3]: Chatbots and intelligent pedagogical assistants
+
+# solutions
+finalCta: A tool or AI solution project?
+
+# contact
+eyebrow: Contact
+title[0]: You have a project.
+title[1]: We have the answers.
+title[2]: Let's talk.
+lead: A page without friction. No long form, no marketing promise - just an invitation to a conversation.
+
+# contact.labels
+firstname: First name
+lastname: Last name
+you: You are
+email: Professional email
+phone: Phone (optional)
+project: Your project in a few words
+submit: Send
+consent: I agree to receive information from Mentivis, in accordance with the
+consentLink: privacy policy
+
+# contact
+youOptions[0]: Enterprise
+youOptions[1]: Training organization
+youOptions[2]: Other
+successTitle: Message sent!
+successBody: We have received your request. We will reply within 48 hours.
+successBack: Back to home
+
+# contact.direct
+title: Or write to us directly
+
+# footer
+tagline: Training solutions that work.
+ctaTitle: Starting a project is simple
+ctaLead: First conversation is free, no commitment. We listen, then tell you honestly whether we're the right fit.
+navigation: Navigation
+copy: © 2026 Mentivis. Operator in training and skills development.
+
+# score.landing
+eyebrow: Strategic training assessment
+title1: Is your training a
+title2: business lever
+title3: or a sunk cost?
+sub: 10 minutes to reveal the real maturity of your training system, measure the gap between what you think you control and what actually happens, and quantify the value you let leak every year.
+cta: Start the assessment
+feat1Title: Dimensions assessed
+feat1Desc: From strategic alignment to regulatory compliance, including ROI and funding.
+feat2Title: Calibrated questions
+feat2Desc: Including 12 proof questions that confront perception with process reality.
+feat3Title: Full exportable report
+feat3Desc: Diagnostic, risks, opportunities, three-tier action plan and quantified loss estimate.
+
+# score.qual
+title: A few details to calibrate your assessment
+sub: This data lets us adapt the analysis to your context and quantify the opportunities identified with precision.
+company: Company name
+companyPh: e.g. Acme Industries
+sector: Industry sector
+size: Organization size
+role: Your role
+budget: Annual training budget (in euros)
+budgetPh: e.g. 50000
+choose: Select
+sIndustry: Manufacturing
+sServices: Services
+sRetail: Retail
+sHealth: Healthcare
+sConstruction: Construction
+sTech: Tech
+sFinance: Finance
+sOther: Other
+szTpe: Micro (1 to 49 employees)
+szPme: Small/Medium (50 to 249)
+szEti: Mid-size (250 to 999)
+szLarge: Large enterprise (1000 and above)
+rCeo: Executive
+rHr: HR Director or Manager
+rTraining: Training Manager
+rManager: Manager or Director
+rOther: Other
+
+# score.common
+back: Back
+start: Begin
+prev: Previous
+next: Next
+finish: View my diagnostic
+yes: Yes
+no: No
+
+# score.q
+block: Block {0} of 6
+scaleLow: Not at all
+scaleHigh: Completely
+proofTag: Proof question
+
+# score.trans
+text: Analysis in progress
+sub: Computing scores and generating the diagnostic
+
+# score.dash
+eyebrow: Your Mentivis diagnostic
+restart: Restart
+download: Download report
+globalScore: Global maturity score
+perception: Perception score (declared)
+gap: Perception vs reality gap
+weakest: Weakest dimension
+strongest: Strongest dimension
+radarEyebrow: Six-dimension mapping
+radarTitle: Perception against reality
+radarDesc: The solid polygon represents process reality. The lighter dashed polygon represents your declared perception. The gap between the two is the most profitable territory for improvement.
+legendPerception: Perception
+legendReality: Reality
+quadEyebrow: Prioritization matrix
+quadTitle: Impact against effort
+quadDesc: Each dimension positioned by estimated improvement effort (X axis) and strategic weight (Y axis). The top left quadrant concentrates quick wins.
+funnelEyebrow: Training value funnel
+funnelTitle: Where your budget converts and where it leaks
+funnelDesc: Projection from your declared annual training budget. Each step applies a conversion ratio computed from your real scores. The final line represents business impact actually generated.
+lossLabel: Estimated value loss
+dimEyebrow: Dimension breakdown
+dimTitle: Complete score table
+narrEyebrow: Strategic reading
+narrTitle: Diagnostic, risks, opportunities
+
+# score.dim
+dimension: Dimension
+weight: Weight
+perception: Perception
+reality: Reality
+gap: Gap
+
+# score.narr
+diag: Diagnostic
+risks: Identified risks
+opp: Priority opportunities
+
+# score.cta
+eyebrow: Move from diagnostic to action
+title: The diagnostic is set. Time to decide and execute.
+sub: A Mentivis consultant can reach out within 48 hours to turn the report findings into a quantified action plan.
+name: Name
+email: Your business email
+submit: Request a callback
+success: Thank you. Your request has been recorded. A consultant will contact you within 48 hours.
+consent: I agree to receive information from Mentivis, in accordance with the
+consentLink: privacy policy
+scenariosLabel: 3 intervention scenarios
+scenariosTitle: Choose the scope that matches your stakes
+
+# score.funnel
+budget: Training budget allocated
+budgetSub: Annual envelope declared
+attended: Training actually attended
+attendedSub: Conversion linked to system quality
+acquired: Skills genuinely acquired
+acquiredSub: Pedagogical conversion and delivery quality
+used: Skills applied in practice
+usedSub: Field transfer and managerial uptake
+impact: Measurable business impact
+impactSub: Value effectively generated for the company
+
+# score.scenarios
+tier1Tag: Tier 1
+tier1Title: Quick correction
+tier1Desc: Compliance, funding, quick wins. Ideal if your score is below 50 on compliance or funding.
+tier1It1: Regulatory compliance reset
+tier1It2: Activation of unused funding mechanisms
+tier1It3: 90-day action plan
+tier2Tag: Tier 2
+tier2Title: Structuring
+tier2Desc: Training system, governance, tooling. Suited if your global score sits between 40 and 70.
+tier2It1: Training architecture and learning paths
+tier2It2: Governance tools and ROI indicators
+tier2It3: Mapping of critical competencies
+tier3Tag: Tier 3
+tier3Title: Transformation
+tier3Desc: Training as a business lever, strategic integration, full design. For organizations ready to step up.
+tier3It1: Alignment of training with business strategy
+tier3It2: Complete redesign of the system
+tier3It3: Impact measurement model
+recommended: Recommended for you
+
+# score.maturity
+lvl1: Endured training
+lvl2: Administrative training
+lvl3: Managed training
+lvl4: Performing training
+lvl5: Strategic training
+
+# score.dimNames
+STRAT: Strategic alignment
+SKILL: Skill mastery
+SYS: Training system
+ROI: Impact and ROI
+FUND: Funding leverage
+COMP: Compliance
+
+# score.blockDesc
+STRAT: How much is training tied to the company's business strategy?
+SKILL: What level of knowledge do you have of real skill gaps in your teams?
+SYS: How is training structured, delivered and evaluated in your organization?
+ROI: Do you measure the actual impact of training on performance?
+FUND: Do you master the funding levers of professional training?
+COMP: Are you up to date on legal obligations and able to respond to an audit?
+
+# score.pdf
+coverEyebrow: Mentivis Diagnostic
+coverTitle: Training Impact Score
+coverScoreLabel: Global maturity score
+coverGap: Perception vs reality gap
+coverDate: Assessment date
+coverRespondent: Respondent
+coverBudget: Training budget analyzed
+coverFooter: Confidential document generated by Mentivis
+summaryEyebrow: Page 1
+summaryTitle: Executive summary
+summaryIntro: This assessment measures the maturity of {company}'s training system across six key dimensions. It combines declarative self-assessment with proof questions, allowing us to objectify the gap between perception and process reality.
+summaryScore: The global score of {score} out of 100 positions your organization at the {level} level.
+summaryGap: The {gap} point gap between your perception and reality indicates {gapInterpretation}.
+summaryWeakest: The weakest dimension is {weakest} with a score of {weakestScore} out of 100.
+summaryStrongest: The strongest is {strongest} with a score of {strongestScore} out of 100.
+summaryGapLow: good clarity on your training system
+summaryGapMid: a moderate gap that warrants attention
+summaryGapHigh: a significant disconnect between your convictions and your real processes
+scoringEyebrow: Page 2
+scoringTitle: Dimension mapping
+scoringSubtitle: The radar below overlays your declared perception and the reality adjusted by proof questions. Reading the gaps by dimension reveals where executive intuition diverges most from operational functioning.
+scoringTableTitle: Score breakdown
+diagEyebrow: Page 3
+diagTitle: Detailed diagnostic
+diagIntro: Strategic synthesis generated from the score combinations observed in your organization.
+diagDiag: Diagnostic
+diagRisks: Identified risks
+diagOpp: Priority opportunities
+valueEyebrow: Page 4
+valueTitle: Quantified loss estimate
+valueIntro: Projection of how your annual training budget converts into effective business value. Each conversion ratio is computed from your real scores.
+valueTableHeader1: Step
+valueTableHeader2: Amount
+valueTableHeader3: Conversion
+valueLossLabel: Estimated value loss across the full cycle
+valueLossSub: Difference between the initial budget and business impact actually generated.
+planEyebrow: Page 5
+planTitle: Recommended plan
+planIntro: Three intervention levels available depending on your stakes and current maturity level. The recommended scenario is highlighted.
+planContact: To discuss implementation, reach out to your Mentivis contact.
+footerLeft: Mentivis Training Impact Score
+footerRight: Page {page}/5
+
+# guides
+eyebrow: Resources
+title: Mentivis Reference Guides
+lead: Six practical guides to master funding mechanisms, compliance, and the structuring of your training programs.
+guideLabel: Guide
+download: Download
+downloadLocked: Unlock
+firstname: First name
+lastname: Last name
+email: Business email
+phone: Phone
+company: Company
+submit: Get access
+submitting: Sending...
+consent: I agree to receive information from Mentivis, in accordance with the
+consentLink: privacy policy
+modalTitle: Access the guides
+modalSub: Fill in your details to unlock access to all guides. One form is all it takes.
+modalSuccessTitle: Access unlocked!
+modalSuccessBody: You can now download all the guides. The download buttons are active.
+bpfTitle: The BPF 2026 Guide
+bpfDesc: Pedagogical and Financial Report - understand obligations, structure your declaration, and secure compliance with supervisory authorities.
+bpfPages: 20 pages
+fseTitle: The FSE+ Guide
+fseDesc: European Social Fund Plus - identify funding opportunities, build a strong application, and maximize the impact of your projects.
+fsePages: 35 pages
+poeiTitle: The POEI Guide
+poeiDesc: Individual Operational Employment Preparation - master the scheme, secure agreements, and optimize POEI usage.
+poeiPages: 22 pages
+cpfTitle: The CPF 2026 Guide
+cpfDesc: Personal Training Account - reduce CPF dependency, diversify funding sources, and secure your revenue.
+cpfPages: 38 pages
+conventionsTitle: The Training Agreements Guide
+conventionsDesc: A 7-step method to structure, negotiate, and secure your training agreements with corporate clients.
+conventionsPages: 28 pages
+taxeTitle: The Apprenticeship Tax Guide
+taxeDesc: SOLTéA, funding circuits and collection - understand the reform, secure collections, and optimize your funding potential.
+taxePages: 32 pages
+teaserOpcoEyebrow: Tool
+teaserOpcoTitle: How much can your OPCO fund?
+teaserOpcoBody: 73% of companies do not use their OPCO rights. Estimate your funding potential in 2 minutes.
+teaserScoreEyebrow: Diagnostic
+teaserScoreTitle: Is your training a business lever?
+teaserScoreBody: 10 minutes to reveal the real maturity of your training system and measure the gap between perception and reality.
+teaserCta: Discover
+
+# careers
+eyebrow: Join the team
+title: Careers
+lead: You share our belief that training is a strategic lever? Send us your application. We recruit passionate, curious profiles driven by impact.
+aboutTitle: Why join Mentivis?
+aboutBody: At Mentivis, we believe that diversity of backgrounds is our greatest strength. We recruit talent from education, consulting, digital, finance, and entrepreneurship. Each profile brings a unique perspective that enriches our ability to innovate for our clients.
+equityTitle: Our commitments
+equityBody: Equity, inclusion, and accountability are not buzzwords. We practice transparent compensation, bias-free recruiting processes, and a flexible remote-work policy that places trust at the center of the relationship.
+marieName: Marie Castelli
+marieRole: Partner, Talent Manager
+marieQuote: We look for profiles who want to build, not just execute. If you are hungry for impact and autonomy, you will feel at home.
+ctaTitle: Don't hesitate to apply
+ctaBody: Even if you don't find your dream role, send us a spontaneous application. We are always looking for exceptional talent to strengthen the team.
+formTitle: Apply
+formSub: Fill in the form below and attach your CV. We review every application carefully.
+fallback: The form is temporarily unavailable. Please send your application directly to contact@mentivis.com
+
+# opco
+eyebrow: Funding calculator
+title: How much can your OPCO fund?
+sub: 73% of companies do not use their OPCO rights. This calculator estimates your funding potential for training projects and internal Campus creation.
+infoTitle: Why this calculation?
+infoBody: The OPCO contribution represents 0.55% to 1% of your payroll. A substantial part of this effort can be mobilized to finance your training projects.
+sector: Industry sector
+employees: Total headcount
+payroll: Annual payroll (€)
+objective: Training objective
+learners: Target number of learners
+duration: Average duration (hours)
+firstName: First name
+lastName: Last name
+email: Business email
+company: Company
+phone: Phone
+choose: Select
+sectors[0]: Industry / Manufacturing
+sectors[1]: Retail / Distribution
+sectors[2]: Business services
+sectors[3]: Construction / Civil engineering
+sectors[4]: Transport / Logistics
+sectors[5]: Healthcare / Social
+sectors[6]: Hospitality / Restaurants
+sectors[7]: Other sector
+sectorValues[0]: industry
+sectorValues[1]: retail
+sectorValues[2]: services
+sectorValues[3]: construction
+sectorValues[4]: transport
+sectorValues[5]: health
+sectorValues[6]: hospitality
+sectorValues[7]: other
+objectives[0]: Internal Campus / CFA creation
+objectives[1]: Professional certifications (RNCP)
+objectives[2]: Conversions / Upskilling
+objectives[3]: Apprenticeship development
+objectives[4]: Digital transformation / AI
+objectiveValues[0]: campus
+objectiveValues[1]: certifications
+objectiveValues[2]: reconversion
+objectiveValues[3]: alternance
+objectiveValues[4]: digital
+phEmployees: e.g. 250
+phPayroll: e.g. 8,000,000
+phLearners: e.g. 50
+phDuration: e.g. 400
+phFirstName: Your first name
+phLastName: Your last name
+phEmail: first.last@company.com
+phCompany: Your company name
+phPhone: +33 6 12 34 56 78
+emailError: Please use a business email address.
+contactTitle: Your details to receive the diagnostic
+rgpd: Data protection: the information collected is used solely to provide your personalized diagnostic and to contact you if you wish. In accordance with the GDPR, you have the right to access, rectify and delete your data.
+submit: Calculate my funding potential
+resultEyebrow: Your Mentivis OPCO diagnostic
+resultContribution: Annual OPCO contribution
+resultFunding: Training funding (excl. apprenticeship)
+resultCampus: Campus / CFA creation aid
+resultOther: Other public mechanisms
+resultTotal3Years: Total potential over 3 years
+restart: Restart
+download: Download report
+disclaimer: Methodology: calculation based on 2025 OPCO contribution rates (0.55% to 1% of payroll depending on headcount), FNE-Training mechanisms, France 2030, and regional aid. Actual amounts depend on your affiliated OPCO, collective agreement and project eligibility.
+ctaEyebrow: From diagnostic to action
+ctaTitle: These figures are estimates.
+A Mentivis expert can refine them.
+ctaSub: Mentivis can support you in mobilizing these funds.
+ctaName: Name
+ctaEmail: Your business email
+ctaSubmit: Request a callback
+ctaSuccess: Thank you. Your request has been recorded. A consultant will contact you within 48 hours.
+ctaConsent: I agree to receive information from Mentivis, in accordance with the
+ctaConsentLink: privacy policy
+
+# opco.pdf
+eyebrow: OPCO Diagnostic
+title: Estimated funding potential
+sector: Sector
+employees: Headcount
+payroll: Payroll
+objective: Objective
+date: Assessment date
+tableLabel: Item
+tableValue: Amount
+disclaimer: Methodology: calculation based on 2025 OPCO contribution rates, FNE-Training mechanisms, France 2030, and regional aid. Actual amounts depend on your affiliated OPCO, collective agreement and project eligibility.
+footerLeft: Mentivis OPCO Calculator
+footerRight: Confidential document
+
+# insights
+title: Insights
+eyebrow: News & Perspectives
+filterAll: All topics
+filterNewest: Newest first
+filterOldest: Oldest first
+readArticle: Read article
+backToList: Back to insights
+noArticles: No articles in this category.
+metaDescription: News, regulatory insights, perspectives and strategy papers on professional training, education and digital transformation.

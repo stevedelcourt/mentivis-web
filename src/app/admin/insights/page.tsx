@@ -9,6 +9,7 @@ import {
   type InsightArticle,
   type InsightCategory,
 } from "@/data/insights";
+import featuredConfig from "@/content/featured-insights.json";
 
 const EMPTY_ARTICLE: InsightArticle = {
   slug: "",
@@ -26,11 +27,30 @@ const EMPTY_ARTICLE: InsightArticle = {
   keywords: "",
 };
 
+const PAGE_KEYS = [
+  { key: "about", label: "À propos" },
+  { key: "enterprise", label: "Entreprises" },
+  { key: "of", label: "Organismes de formation" },
+  { key: "solutions", label: "Solutions" },
+];
+
 export default function AdminInsightsPage() {
+  const [tab, setTab] = useState<"articles" | "pages">("articles");
   const [articles, setArticles] = useState<InsightArticle[]>([]);
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState<InsightArticle | null>(null);
   const [message, setMessage] = useState("");
+
+  // Featured config state — initialized directly from the JSON file
+  const [featured, setFeatured] = useState<Record<string, string[]>>(() => {
+    const normalized: Record<string, string[]> = {};
+    PAGE_KEYS.forEach(({ key }) => {
+      const arr = (featuredConfig as any)[key] || [];
+      normalized[key] = [arr[0] || "", arr[1] || "", arr[2] || ""];
+    });
+    return normalized;
+  });
+  const [featuredLoading, setFeaturedLoading] = useState(false);
 
   const fetchArticles = useCallback(async () => {
     try {
@@ -80,6 +100,32 @@ export default function AdminInsightsPage() {
     }
   };
 
+  const handleSaveFeatured = async () => {
+    setFeaturedLoading(true);
+    try {
+      const res = await fetch("/api/insights", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ _action: "featured", config: featured }),
+      });
+      if (!res.ok) throw new Error("Save failed");
+      setMessage("Configuration sauvegardée ✓");
+    } catch (e) {
+      setMessage("Erreur de sauvegarde");
+    } finally {
+      setFeaturedLoading(false);
+    }
+  };
+
+  const updateFeatured = (page: string, pos: number, slug: string) => {
+    setFeatured((prev) => {
+      const next = { ...prev };
+      next[page] = [...next[page]];
+      next[page][pos] = slug;
+      return next;
+    });
+  };
+
   if (loading) {
     return (
       <div style={{ padding: 40, fontFamily: "system-ui" }}>
@@ -96,106 +142,206 @@ export default function AdminInsightsPage() {
           {message && (
             <span style={{ fontSize: 13, color: "#149e61" }}>{message}</span>
           )}
-          <button
-            onClick={() => setEditing({ ...EMPTY_ARTICLE })}
-            style={{
-              padding: "8px 16px",
-              background: "#000776",
-              color: "#fff",
-              border: "none",
-              borderRadius: 6,
-              cursor: "pointer",
-              fontSize: 13,
-              fontWeight: 600,
-            }}
-          >
-            + Nouvel article
-          </button>
+          {tab === "articles" && (
+            <button
+              onClick={() => setEditing({ ...EMPTY_ARTICLE })}
+              style={{
+                padding: "8px 16px",
+                background: "#000776",
+                color: "#fff",
+                border: "none",
+                borderRadius: 6,
+                cursor: "pointer",
+                fontSize: 13,
+                fontWeight: 600,
+              }}
+            >
+              + Nouvel article
+            </button>
+          )}
         </div>
       </div>
 
-      {editing ? (
-        <ArticleForm
-          article={editing}
-          onSave={handleSave}
-          onCancel={() => setEditing(null)}
-        />
+      {/* Tabs */}
+      <div style={{ display: "flex", gap: 4, marginBottom: 24, borderBottom: "1px solid #dedee5" }}>
+        <button
+          onClick={() => setTab("articles")}
+          style={{
+            padding: "10px 20px",
+            fontSize: 14,
+            fontWeight: tab === "articles" ? 700 : 500,
+            border: "none",
+            borderBottom: tab === "articles" ? "2px solid #000776" : "2px solid transparent",
+            background: "transparent",
+            cursor: "pointer",
+            color: tab === "articles" ? "#000776" : "#686b82",
+          }}
+        >
+          Articles
+        </button>
+        <button
+          onClick={() => setTab("pages")}
+          style={{
+            padding: "10px 20px",
+            fontSize: 14,
+            fontWeight: tab === "pages" ? 700 : 500,
+            border: "none",
+            borderBottom: tab === "pages" ? "2px solid #000776" : "2px solid transparent",
+            background: "transparent",
+            cursor: "pointer",
+            color: tab === "pages" ? "#000776" : "#686b82",
+          }}
+        >
+          Pages
+        </button>
+      </div>
+
+      {tab === "articles" ? (
+        editing ? (
+          <ArticleForm
+            article={editing}
+            onSave={handleSave}
+            onCancel={() => setEditing(null)}
+          />
+        ) : (
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            {articles.map((a) => (
+              <div
+                key={a.slug}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  padding: "12px 16px",
+                  border: "1px solid #eef0f5",
+                  borderRadius: 8,
+                  background: "#fafafd",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: 16, flex: 1, minWidth: 0 }}>
+                  <span
+                    style={{
+                      fontSize: 10,
+                      fontWeight: 700,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      padding: "3px 8px",
+                      borderRadius: 4,
+                      background: "#eef0f5",
+                      color: "#686b82",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {CATEGORY_LABELS[a.category].fr}
+                  </span>
+                  <span style={{ fontSize: 13, color: "#9497a9", whiteSpace: "nowrap" }}>
+                    {a.date}
+                  </span>
+                  <span style={{ fontSize: 14, fontWeight: 600, color: "#101114", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                    {a.titleFr || a.slug}
+                  </span>
+                </div>
+                <div style={{ display: "flex", gap: 8, flexShrink: 0 }}>
+                  <Link
+                    href={`/fr/insights/${a.slug}`}
+                    target="_blank"
+                    style={{ fontSize: 12, color: "#000776", textDecoration: "none", padding: "4px 8px" }}
+                  >
+                    Voir →
+                  </Link>
+                  <button
+                    onClick={() => setEditing({ ...a })}
+                    style={{
+                      fontSize: 12,
+                      padding: "4px 10px",
+                      border: "1px solid #dedee5",
+                      background: "#fff",
+                      borderRadius: 4,
+                      cursor: "pointer",
+                    }}
+                  >
+                    Modifier
+                  </button>
+                  <button
+                    onClick={() => handleDelete(a.slug)}
+                    style={{
+                      fontSize: 12,
+                      padding: "4px 10px",
+                      border: "1px solid #dedee5",
+                      background: "#fff",
+                      color: "#c62828",
+                      borderRadius: 4,
+                      cursor: "pointer",
+                    }}
+                  >
+                    Supprimer
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        )
       ) : (
-        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-          {articles.map((a) => (
-            <div
-              key={a.slug}
+        <div>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+            {PAGE_KEYS.map(({ key, label }) => (
+              <div
+                key={key}
+                style={{
+                  border: "1px solid #dedee5",
+                  borderRadius: 12,
+                  padding: 24,
+                  background: "#fff",
+                }}
+              >
+                <h3 style={{ margin: "0 0 16px", fontSize: 16, fontWeight: 700 }}>{label}</h3>
+                {[0, 1, 2].map((pos) => (
+                  <div key={pos} style={{ marginBottom: 12 }}>
+                    <label style={{ fontSize: 12, fontWeight: 600, color: "#686b82", display: "block", marginBottom: 4 }}>
+                      Position {pos + 1}
+                    </label>
+                    <select
+                      value={featured[key][pos] || ""}
+                      onChange={(e) => updateFeatured(key, pos, e.target.value)}
+                      style={{
+                        width: "100%",
+                        padding: "8px 10px",
+                        border: "1px solid #dedee5",
+                        borderRadius: 6,
+                        fontSize: 13,
+                        background: "#fff",
+                      }}
+                    >
+                      <option value="">— Aucun —</option>
+                      {articles.map((a) => (
+                        <option key={a.slug} value={a.slug}>
+                          {a.titleFr || a.slug}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+          <div style={{ marginTop: 24 }}>
+            <button
+              onClick={handleSaveFeatured}
+              disabled={featuredLoading}
               style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                padding: "12px 16px",
-                border: "1px solid #eef0f5",
-                borderRadius: 8,
-                background: "#fafafd",
+                padding: "10px 20px",
+                background: "#000776",
+                color: "#fff",
+                border: "none",
+                borderRadius: 6,
+                cursor: featuredLoading ? "not-allowed" : "pointer",
+                fontWeight: 600,
+                opacity: featuredLoading ? 0.6 : 1,
               }}
             >
-              <div style={{ display: "flex", alignItems: "center", gap: 16, flex: 1, minWidth: 0 }}>
-                <span
-                  style={{
-                    fontSize: 10,
-                    fontWeight: 700,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.06em",
-                    padding: "3px 8px",
-                    borderRadius: 4,
-                    background: "#eef0f5",
-                    color: "#686b82",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  {CATEGORY_LABELS[a.category].fr}
-                </span>
-                <span style={{ fontSize: 13, color: "#9497a9", whiteSpace: "nowrap" }}>
-                  {a.date}
-                </span>
-                <span style={{ fontSize: 14, fontWeight: 600, color: "#101114", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                  {a.titleFr || a.slug}
-                </span>
-              </div>
-              <div style={{ display: "flex", gap: 8, flexShrink: 0 }}>
-                <Link
-                  href={`/fr/insights/${a.slug}`}
-                  target="_blank"
-                  style={{ fontSize: 12, color: "#000776", textDecoration: "none", padding: "4px 8px" }}
-                >
-                  Voir →
-                </Link>
-                <button
-                  onClick={() => setEditing({ ...a })}
-                  style={{
-                    fontSize: 12,
-                    padding: "4px 10px",
-                    border: "1px solid #dedee5",
-                    background: "#fff",
-                    borderRadius: 4,
-                    cursor: "pointer",
-                  }}
-                >
-                  Modifier
-                </button>
-                <button
-                  onClick={() => handleDelete(a.slug)}
-                  style={{
-                    fontSize: 12,
-                    padding: "4px 10px",
-                    border: "1px solid #dedee5",
-                    background: "#fff",
-                    color: "#c62828",
-                    borderRadius: 4,
-                    cursor: "pointer",
-                  }}
-                >
-                  Supprimer
-                </button>
-              </div>
-            </div>
-          ))}
+              {featuredLoading ? "Sauvegarde…" : "Sauvegarder la configuration"}
+            </button>
+          </div>
         </div>
       )}
     </div>

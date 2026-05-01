@@ -1,0 +1,831 @@
+
+# nav
+home: Accueil
+about: À propos
+enterprise: Entreprises
+of: Organismes de formation
+solutions: Solutions
+resources: Ressources
+insights: Insights
+corporate: Corporate
+contact: Contact
+cta: Contactez-nous
+
+# common
+learnMore: En savoir plus
+youAre: Vous êtes
+
+# animation
+words[0]: Concevoir
+words[1]: Structurer
+words[2]: Déployer
+subtitle: des dispositifs de formation qui fonctionnent
+
+# home
+eyebrow: Opérateur en formation & développement des compétences
+heroTitle[0]: Concevoir, structurer et déployer
+heroTitle[1]: des dispositifs de formation
+heroTitle[2]: qui 
+heroTitle[3]: fonctionnent réellement
+heroTitle[4]: .
+heroLead: Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.
+
+# home.entryEnterprise
+kicker: 01 - Vous êtes une entreprise
+title: Transformer la formation en levier de performance
+items[0]: Audit de maturité
+items[1]: Création d'académie interne
+items[2]: Politique et structure de formation
+cta: Découvrir les solutions
+
+# home.entryOf
+kicker: 02 - Vous êtes un organisme de formation
+title: Structurer, sécuriser et développer votre activité
+items[0]: Pédagogie & conformité
+items[1]: Stratégie & positionnement
+items[2]: Services externalisés
+cta: Découvrir les solutions
+
+# home.entrySolutions
+kicker: 03 - Vous cherchez une solution digitale, dév ou IA
+title: Des outils sur mesure, des solutions concrètes
+items[0]: Plateformes personnalisées
+items[1]: Solutions IA adaptées à la formation
+items[2]: Développement sur mesure
+cta: Découvrir les solutions
+
+# home
+diffTitle: Ce qui nous distingue
+diffLead: Quatre principes structurels - pas un argumentaire marketing.
+
+# home.differentiation[0]
+n: 01
+title: Spécialistes formation et éducation
+body: Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences.
+
+# home.differentiation[1]
+n: 02
+title: Approche full-stack
+body: De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre.
+
+# home.differentiation[2]
+n: 03
+title: Rémunération alignée sur vos résultats
+body: Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil.
+
+# home.differentiation[3]
+n: 04
+title: Intervention réelle sur le terrain
+body: Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint.
+
+# home
+promiseTitle: Notre promesse
+promiseBody: Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.
+promiseSig: - C'est ce qui nous distingue structurellement d'un cabinet de conseil.
+proofTitle: Ce que nos missions produisent
+
+# home.proofs[0]
+value: 6
+unit: sem.
+label: structuration OF complète
+
+# home.proofs[1]
+value: 100
+unit: %
+label: audit Qualiopi validé
+
+# home.proofs[2]
+value: ×2
+unit: 
+label: engagement académie interne
+
+# home.proofs[3]
+value: −30
+unit: %
+label: recours formations externes
+
+# home
+proofNote: Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.
+finalCtaTitle: Un projet de formation à structurer ?
+finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
+
+# about
+eyebrow: Qui sommes-nous
+title[0]: Un opérateur spécialisé,
+title[1]: multi compétences.
+lead: Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.
+missionTitle: Identité & mission
+mission[0]: Opérateur spécialisé en formation et développement des compétences
+mission[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage
+mission[2]: Rémunération aligné sur les résultats: des success fees garantie de nos intérêts
+expertiseTitle: Nos expertises
+expertiseLead: Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.
+
+# about.expertise[0]
+n: 01
+title: Stratégie
+body: Recherche de financements, Positionnement, audit de maturité, développement de filières, go-to-market.
+
+# about.expertise[1]
+n: 02
+title: Opérationnel
+body: Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques.
+
+# about.expertise[2]
+n: 03
+title: Création de A à Z
+body: Structuration juridique, pédagogique et opérationnelle de toute structure formation.
+
+# about.expertise[3]
+n: 04
+title: Développement de solutions
+body: Outils sur mesure, solutions IA, plateformes spécifiques.
+
+# about
+whyTitle: Pourquoi faire appel à nous ?
+whyLead: Des offres sur mesure, adaptées à votre structure. Un engagement totalement orienté vers le résultat.
+
+# about.why[0]
+title: Vue 360°
+body: Nous comprenons votre écosystème dans sa globalité avant d'agir.
+
+# about.why[1]
+title: Conseil ET réalisation
+body: Nous ne livrons pas de recommandations sans les mettre en œuvre.
+
+# about.why[2]
+title: Actions efficaces
+body: Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle.
+
+# about.why[3]
+title: Pilotage par les KPIs
+body: Chaque mission est mesurée. Notre rémunération en dépend.
+
+# about
+costTitle: Combien ça coûte ?
+costLead: Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.
+
+# about.cost[0]
+title: Fees alignés sur les résultats
+body: Une part variable liée à la performance mesurée.
+
+# about.cost[1]
+title: Ciblage et efficacité
+body: Nous intervenons avec méthode, là où l'impact est maximal, sans s’éparpiller.
+
+# about.cost[2]
+title: ROI documenté
+body: Chaque mission produit des KPIs de performance tangibles.
+
+# about.cost[3]
+title: Offres adaptées
+body: Écoles, centres de formation, TPE, PME, Grands groupes, nous calibrons nos interventions au plus juste.
+
+# of
+eyebrow: Vous êtes un organisme de formation
+heroTitle[0]: Structurer et
+heroTitle[1]: développer un organisme
+heroTitle[2]: de formation solide
+heroTitle[3]: et conforme.
+heroLead: Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.
+pillarsTitle: Nos pôles d'intervention
+pillarsLead: Une architecture de services claire et actionnable pour les OF.
+
+# of.pillars[0]
+n: 01
+title: Stratégie
+body: Positionner votre OF sur son marché, structurer son développement et sécuriser ses financements.
+items[0]: Audit de positionnement et analyse concurrentielle
+items[1]: Développement de filières et ouverture de nouvelles offres
+items[2]: Ingénierie de financements (CPF, OPCO, Région, FSE)
+items[3]: Go-to-market et stratégie commerciale
+items[4]: Marketing et communication de l'offre formation
+
+# of.pillars[1]
+n: 02
+title: Opérationnel
+body: Concentrez vous sur votre métier, la formation. Nous prenons en charge les fonctions tranverses pour libérer vos équipes, accélérer votre développement et limiter l’impact de la saisonnalité.
+items[0]: Acquisition : externalisation, génération de leads, tunnels de conversion, partenariats prescripteurs
+items[1]: Alternance : externalisation, gestion administrative, relations entreprises, OPCO
+items[2]: Communication : positionnement de marque, contenus, visibilité digitale, externalisation
+items[3]: Création de contenus pédagogiques : externalisation, modules e-learning, supports, évaluations
+
+# of.pillars[2]
+n: 03
+title: Administratif
+body: Sécuriser la conformité réglementaire et alléger la charge administrative.
+items[0]: Déclaration d'activité et mise en conformité initiale
+items[1]: Préparation et suivi Qualiopi : audit blanc, plan d'action, présence en audit
+items[2]: Bilan Pédagogique et Financier (BPF) : collecte, saisie, dépôt
+items[3]: Gestion des dossiers apprenants et conformité continue
+
+# of.pillars[3]
+n: 04
+title: Création de A à Z
+body: Concevoir et lancer une structure de formation complète, clé en main, en partant de zéro.
+items[0]: Définition du projet pédagogique et du modèle économique
+items[1]: Structuration juridique et administrative (déclaration, certifications)
+items[2]: Mise en place des process opérationnels et outils de gestion
+items[3]: Premier déploiement commercial et lancement de l'activité
+
+# of
+externalisedTitle: Services externalisés
+externalisedLead: Prendre en charge des fonctions clés pour libérer vos équipes. Plus de flexibilité, moins de coûts, dans un offre packagée. Mentivis gère, l'OF se concentre sur son cœur de métier.
+
+# of.externalised[0]
+title: Acquisition
+body: Génération de leads, tunnels, conversion.
+
+# of.externalised[1]
+title: Alternance
+body: Gestion administrative, relations entreprises.
+
+# of.externalised[2]
+title: Marketing & Communication
+body: Positionnement, contenus, visibilité.
+
+# of.externalised[3]
+title: Administratif
+body: Gestion des dossiers, conformité continue.
+
+# of.externalised[4]
+title: BPF & Qualiopi
+body: Préparation, suivi, présence audit.
+
+# of.externalised[5]
+title: Sur mesure
+body: Toute autre fonction sur demande.
+
+# of
+paymentTitle: Modèle de rémunération
+paymentBody: Rémunération variable alignée sur les résultats obtenus. Convergence d'intérêts garantie : nous performons quand vous performez. C'est ce qui différencie structurellement ce modèle d'une prestation classique.
+resultsTitle: Ce que les organismes obtiennent
+results[0]: Conformité sécurisée et pérenne
+results[1]: Offre pédagogique structurée et crédible sur le marché
+results[2]: Croissance stable de l'acquisition et de l'alternance
+results[3]: Organisation robuste, prévisible et optimisée
+finalCta: Un organisme à structurer, sécuriser ou développer ?
+
+# enterprise
+eyebrow: Vous êtes une entreprise
+heroTitle[0]: Transformer la formation en
+heroTitle[1]: levier de performance durable.
+heroLead: Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.
+problemsTitle: Pour une formation en entreprise réellement efficace.
+problems[0]: Dispositifs structurés, connectés aux enjeux métiers
+problems[1]: Un pilotage par les compétences avec des résultats concrets
+problems[2]: Une approche intégrée, avec une vision globale et cohérente
+problems[3]: Des investissements maîtrisés, avec des impacts mesurables
+pillarsTitle: Les quatre axes d'intervention
+pillarsLead: Une structuration de l'offre lisible et alignée avec les besoins réels des directions.
+
+# enterprise.pillars[0]
+n: 01
+title: Stratégie
+body: Construire la vision formation et les fondations qui permettent de piloter la montée en compétences à long terme.
+items[0]: Audit RH et diagnostic formation : état des lieux, écarts, priorités
+items[1]: Études de faisabilité : modèle cible, ressources, viabilité financière
+items[2]: Ingénierie des financements (OPCO, plan de développement des compétences)
+items[3]: Définition des filières et parcours de montée en compétences
+
+# enterprise.pillars[1]
+n: 02
+title: Opérationnel
+body: Passer de la stratégie à l'exécution : nous concevons et déployons les dispositifs concrets.
+items[0]: Création de formations : ingénierie pédagogique, contenus, évaluations
+items[1]: Déploiement opérationnel : animation, accompagnement des équipes, outillage
+items[2]: Déclarations et conformité réglementaire (Qualiopi si applicable, BPF)
+items[3]: Accompagnement des équipes RH et managers dans la prise en main
+
+# enterprise.pillars[2]
+n: 03
+title: Administratif
+body: Gérer la complexité administrative et réglementaire pour que vos équipes se concentrent sur les résultats.
+items[0]: Gestion des dossiers formation et relations OPCO
+items[1]: Mise en conformité réglementaire et suivi des obligations légales
+items[2]: Pilotage budgétaire et reporting formation
+
+# enterprise.pillars[3]
+n: 04
+title: Création de structure
+body: Créer de toutes pièces votre dispositif formation interne ou externe - OF, CFA, école spécialisée.
+items[0]: OF interne : structuration d'une académie ou école d'entreprise
+items[1]: OF externe : création d'un organisme de formation indépendant
+items[2]: CFA : montage du dossier, habilitation, déploiement de l'alternance
+items[3]: École spécialisée : positionnement, certification, lancement commercial
+
+# enterprise
+resultsTitle: Ce que les entreprises obtiennent
+results[0]: Dispositifs réellement utilisés, mesurables et pérennes
+results[1]: Formation alignée avec les enjeux métier et les objectifs RH
+results[2]: Réduction des coûts inutiles et meilleure utilisation des financements
+results[3]: Indépendance progressive vis-à-vis des prestataires externes
+whyTitle: Pourquoi Mentivis
+why[0]: Spécialistes formation et éducation, pas généralistes
+why[1]: Nous déployons, nous ne livrons pas seulement des recommandations
+why[2]: Notre rémunération est alignée sur vos résultats
+why[3]: Intervention de bout en bout ou par étape selon vos besoins
+finalCta: Un projet de formation à structurer ou transformer ?
+scoreTeaserEyebrow: Diagnostic
+scoreTeaserTitle: Votre formation est-elle un levier business ou un coût subi ?
+scoreTeaserBody: 10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre ce que vous croyez piloter et ce qui se passe vraiment.
+scoreTeaserCta: Démarrer le diagnostic
+
+# solutions
+eyebrow: Mentivis Solutions
+heroTitle[0]: Des outils conçus pour
+heroTitle[1]: transformer
+heroTitle[2]:  vos pratiques formation.
+heroLead: Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation.
+
+# solutions.pillars[0]
+n: 01
+title: Conception d'outils sur mesure
+body: Aucun outil générique - tout est pensé pour votre réalité opérationnelle.
+items[0]: Analyse des besoins et cahier des charges fonctionnel
+items[1]: Conception UX et prototypage des parcours utilisateurs
+items[2]: Outils de pilotage, tableaux de bord, systèmes de reporting
+
+# solutions.pillars[1]
+n: 02
+title: Développement d'outils spécifiques
+body: Du prototype à la mise en production. Solutions robustes, intégrées à votre écosystème existant.
+items[0]: Plateformes LMS ou outils de gestion pédagogique
+items[1]: Intégration avec vos systèmes RH (SIRH, ATS, outils métier)
+items[2]: Modules e-learning interactifs et parcours digitaux sur mesure
+
+# solutions.pillars[2]
+n: 03
+title: Mise en œuvre d'outils IA
+body: L'intelligence artificielle appliquée à la formation : recommandation, automatisation, analyse prédictive.
+items[0]: Moteurs de recommandation de contenus et parcours personnalisés
+items[1]: Automatisation des processus administratifs
+items[2]: Analyse prédictive des compétences et détection des besoins
+items[3]: Chatbots et assistants pédagogiques intelligents
+
+# solutions
+finalCta: Un projet d'outil ou de solution IA ?
+
+# solutions.sectorsTitle
+eyebrow: Nos secteurs
+title: Nous connaissons votre terrain.
+lead: Chaque secteur a ses régulateurs, ses contraintes, son vocabulaire métier. Nous ne les découvrons pas en arrivant sur votre projet.
+
+# solutions.sectors[0]
+icon: account_balance
+title: Services financiers & Assurance
+body: Transformation réglementaire (DORA, PSD3), agents IA de traitement de dossiers, KYC/AML, modernisation de cores bancaires, open banking.
+
+# solutions.sectors[1]
+icon: factory
+title: Industrie & Manufacturing
+body: Transformation des processus de production, MES, maintenance prédictive, formation VR sécurité, IoT industriel, convergence OT/IT.
+
+# solutions.sectors[2]
+icon: health_and_safety
+title: Santé & Sciences de la Vie
+body: Stratégie de numérisation, hébergement HDS, interopérabilité HL7/FHIR, IA diagnostique, conformité MDR, dossier patient augmenté.
+
+# solutions.sectors[3]
+icon: shield
+title: Secteur public & Défense
+body: Souveraineté numérique, transformation de SI critiques, homologation ANSSI, SecNumCloud, dématérialisation de services.
+
+# solutions.sectors[4]
+icon: bolt
+title: Énergie & Utilities
+body: Transformation vers l'efficience énergétique, optimisation réseau par IA, reporting ESG automatisé, maintenance prédictive.
+
+# solutions.sectors[5]
+icon: cast
+title: Télécoms & Médias
+body: Modernisation de plateformes, personnalisation IA, expériences immersives.
+
+# solutions.sectors[6]
+icon: shopping_bag
+title: Retail & Grande Consommation
+body: Transformation omnicanale, configurateurs 3D, personnalisation par IA, supply chain intelligente.
+
+# solutions.sectors[7]
+icon: local_shipping
+title: Transport & Logistique
+body: Optimisation de flotte, prédiction de la demande, maintenance prédictive.
+
+# solutions.julie
+name: Julie Steiner
+role: Votre interlocutrice pour vos projets
+body: Votre interlocutrice privilégiée pour tous vos projets d'ingénierie et de développement applicatif. Julie s'implique dès les premières discussions pour comprendre vos enjeux, transformer un besoin en projet structuré et mobiliser les bonnes expertises. Elle assure la coordination entre équipes métiers et techniques, du cadrage initial jusqu'au suivi de mise en œuvre.
+
+# contact
+eyebrow: Contact
+title[0]: Vous avez un projet.
+title[1]: Nous avons les réponses.
+title[2]: Parlons-en.
+lead: Une page sans friction. Pas de long formulaire, pas de promesse marketing - juste une invitation à la conversation.
+
+# contact.labels
+firstname: Prénom
+lastname: Nom
+you: Vous êtes
+email: Email professionnel
+phone: Téléphone (optionnel)
+project: Votre projet en quelques mots
+submit: Envoyer
+consent: J'accepte de recevoir des informations de Mentivis, conformément à la
+consentLink: politique de confidentialité
+
+# contact
+youOptions[0]: Entreprise
+youOptions[1]: Organisme de formation
+youOptions[2]: Autre
+successTitle: Message envoyé !
+successBody: Nous avons bien reçu votre demande. Nous vous répondrons dans les 48h.
+successBack: Retour à l'accueil
+
+# contact.direct
+title: Ou écrivez-nous directement
+
+# footer
+tagline: Dispositifs de formation qui fonctionnent.
+ctaTitle: Démarrer un projet, c'est simple
+ctaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
+navigation: Navigation
+copy: © 2026 Mentivis. Opérateur en formation et développement des compétences.
+
+# score.landing
+eyebrow: Diagnostic stratégique formation
+title1: Votre formation est-elle un
+title2: levier business
+title3: ou un coût subi ?
+sub: 10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre ce que vous croyez piloter et ce qui se passe vraiment, et chiffrer la valeur que vous laissez fuir chaque année.
+cta: Démarrer le diagnostic
+feat1Title: Dimensions évaluées
+feat1Desc: De l'alignement stratégique à la conformité réglementaire, en passant par le ROI et les financements.
+feat2Title: Questions calibrées
+feat2Desc: Dont 12 questions de preuve qui confrontent perception et réalité processuelle.
+feat3Title: Rapport complet exportable
+feat3Desc: Diagnostic, risques, opportunités, plan d'action en 3 niveaux et estimation chiffrée des pertes.
+
+# score.qual
+title: Quelques informations pour calibrer votre diagnostic
+sub: Ces données nous permettent d'adapter l'analyse à votre contexte et de chiffrer précisément les opportunités identifiées.
+company: Nom de l'entreprise
+companyPh: Ex. Acme Industries
+sector: Secteur d'activité
+size: Taille de l'organisation
+role: Votre rôle
+budget: Budget formation annuel (en euros)
+budgetPh: Ex. 50000
+choose: Sélectionner
+sIndustry: Industrie
+sServices: Services
+sRetail: Commerce
+sHealth: Santé
+sConstruction: BTP
+sTech: Tech
+sFinance: Finance
+sOther: Autre
+szTpe: TPE (1 à 49 collaborateurs)
+szPme: PME (50 à 249)
+szEti: ETI (250 à 999)
+szLarge: Grande entreprise (1000 et plus)
+rCeo: Dirigeant
+rHr: DRH ou RRH
+rTraining: Responsable formation
+rManager: Manager ou Directeur
+rOther: Autre
+
+# score.common
+back: Retour
+start: Commencer
+prev: Précédent
+next: Suivant
+finish: Voir mon diagnostic
+yes: Oui
+no: Non
+
+# score.q
+block: Bloc {0} sur 6
+scaleLow: Pas du tout
+scaleHigh: Tout à fait
+proofTag: Question de preuve
+
+# score.trans
+text: Analyse en cours
+sub: Calcul des scores et génération du diagnostic
+
+# score.dash
+eyebrow: Votre diagnostic Mentivis
+restart: Recommencer
+download: Télécharger le rapport
+globalScore: Score global de maturité
+perception: Score perception (déclaratif)
+gap: Écart perception/réalité
+weakest: Dimension la plus faible
+strongest: Dimension la plus forte
+radarEyebrow: Cartographie en 6 dimensions
+radarTitle: Perception contre réalité
+radarDesc: Le polygone plein représente la réalité processuelle. Le polygone en pointillés représente votre perception déclarée. L'écart entre les deux est le territoire de progrès le plus rentable.
+legendPerception: Perception
+legendReality: Réalité
+quadEyebrow: Matrice de priorisation
+quadTitle: Impact contre effort
+quadDesc: Chaque dimension positionnée selon l'effort estimé pour l'améliorer (axe X) et son poids stratégique (axe Y). Le quadrant haut gauche concentre les quick wins.
+funnelEyebrow: Entonnoir de valeur formation
+funnelTitle: Où votre budget se transforme et où il se perd
+funnelDesc: Projection à partir de votre budget formation annuel saisi. Chaque étape applique un ratio de conversion calculé depuis vos scores réels. La dernière ligne représente l'impact business effectivement généré.
+lossLabel: Perte de valeur estimée
+dimEyebrow: Détail par dimension
+dimTitle: Tableau de scores complet
+narrEyebrow: Lecture stratégique
+narrTitle: Diagnostic, risques, opportunités
+
+# score.dim
+dimension: Dimension
+weight: Poids
+perception: Perception
+reality: Réalité
+gap: Écart
+
+# score.narr
+diag: Diagnostic
+risks: Risques identifiés
+opp: Opportunités prioritaires
+
+# score.cta
+eyebrow: Passer du diagnostic à l'action
+title: Le diagnostic est posé. Reste à arbitrer et exécuter.
+sub: Un consultant Mentivis peut vous recontacter sous 48 heures pour transformer les enseignements du rapport en plan d'action chiffré.
+name: Nom
+email: Votre email professionnel
+submit: Être recontacté
+success: Merci. Votre demande a bien été enregistrée. Un consultant vous recontacte sous 48 heures.
+consent: J'accepte de recevoir des informations de Mentivis, conformément à la
+consentLink: politique de confidentialité
+scenariosLabel: 3 scénarios d'intervention
+scenariosTitle: Choisissez l'ampleur qui correspond à vos enjeux
+
+# score.funnel
+budget: Budget formation alloué
+budgetSub: Enveloppe annuelle saisie
+attended: Formations effectivement suivies
+attendedSub: Conversion liée à la qualité du système formation
+acquired: Compétences réellement acquises
+acquiredSub: Conversion pédagogique et qualité de delivery
+used: Compétences mises en application
+usedSub: Transfert sur le terrain et appropriation managériale
+impact: Impact business mesurable
+impactSub: Valeur effectivement générée pour l'entreprise
+
+# score.scenarios
+tier1Tag: Niveau 1
+tier1Title: Correction rapide
+tier1Desc: Conformité, financements, quick wins. Idéal si votre score est inférieur à 50 sur la conformité ou les financements.
+tier1It1: Mise en conformité réglementaire
+tier1It2: Activation des dispositifs de financement non utilisés
+tier1It3: Plan d'action 90 jours
+tier2Tag: Niveau 2
+tier2Title: Structuration
+tier2Desc: Système de formation, pilotage, outils. Adapté si votre score global se situe entre 40 et 70.
+tier2It1: Architecture de formation et parcours
+tier2It2: Outils de pilotage et indicateurs ROI
+tier2It3: Cartographie des compétences critiques
+tier3Tag: Niveau 3
+tier3Title: Transformation
+tier3Desc: Formation comme levier business, intégration stratégique, design complet. Pour les organisations prêtes à passer un cap.
+tier3It1: Alignement formation et stratégie business
+tier3It2: Refonte complète du dispositif
+tier3It3: Modèle de mesure d'impact
+recommended: Recommandé pour vous
+
+# score.maturity
+lvl1: Formation subie
+lvl2: Formation administrative
+lvl3: Formation pilotée
+lvl4: Formation performante
+lvl5: Formation stratégique
+
+# score.dimNames
+STRAT: Alignement stratégique
+SKILL: Maîtrise des compétences
+SYS: Système de formation
+ROI: Impact et ROI
+FUND: Financement
+COMP: Conformité
+
+# score.blockDesc
+STRAT: À quel point la formation est-elle reliée à la stratégie business de l'entreprise ?
+SKILL: Quel niveau de connaissance avez-vous des écarts de compétences réels dans vos équipes ?
+SYS: Comment la formation est-elle structurée, déployée et évaluée dans votre organisation ?
+ROI: Mesurez-vous l'impact réel de la formation sur la performance ?
+FUND: Maîtrisez-vous les leviers de financement de la formation professionnelle ?
+COMP: Êtes-vous à jour de vos obligations légales et capable de répondre à un audit ?
+
+# score.pdf
+coverEyebrow: Diagnostic Mentivis
+coverTitle: Training Impact Score
+coverScoreLabel: Score global de maturité
+coverGap: Écart perception/réalité
+coverDate: Date du diagnostic
+coverRespondent: Répondant
+coverBudget: Budget formation analysé
+coverFooter: Document confidentiel généré par Mentivis
+summaryEyebrow: Page 1
+summaryTitle: Synthèse exécutive
+summaryIntro: Ce diagnostic mesure la maturité du dispositif formation de {company} sur six dimensions clés. Il combine une auto-évaluation déclarative et des questions de preuve, ce qui permet d'objectiver l'écart entre la perception et la réalité processuelle.
+summaryScore: Le score global de {score} sur 100 positionne votre organisation au niveau {level}.
+summaryGap: L'écart de {gap} points entre votre perception et la réalité indique {gapInterpretation}.
+summaryWeakest: La dimension la plus faible est {weakest} avec un score de {weakestScore} sur 100.
+summaryStrongest: La plus forte est {strongest} avec un score de {strongestScore} sur 100.
+summaryGapLow: une bonne lucidité sur votre dispositif
+summaryGapMid: un écart modéré qui mérite attention
+summaryGapHigh: un décalage significatif entre vos convictions et vos processus réels
+scoringEyebrow: Page 2
+scoringTitle: Cartographie des dimensions
+scoringSubtitle: Le radar ci-dessous superpose votre perception déclarée et la réalité ajustée par les questions de preuve. La lecture des écarts par dimension révèle les zones où le ressenti dirigeant diverge le plus du fonctionnement opérationnel.
+scoringTableTitle: Détail des scores
+diagEyebrow: Page 3
+diagTitle: Diagnostic détaillé
+diagIntro: Synthèse stratégique générée à partir des combinaisons de scores observées dans votre organisation.
+diagDiag: Diagnostic
+diagRisks: Risques identifiés
+diagOpp: Opportunités prioritaires
+valueEyebrow: Page 4
+valueTitle: Estimation chiffrée des pertes
+valueIntro: Projection de la transformation de votre budget formation annuel en valeur business effective. Chaque ratio de conversion est calculé à partir de vos scores réels.
+valueTableHeader1: Étape
+valueTableHeader2: Montant
+valueTableHeader3: Conversion
+valueLossLabel: Perte de valeur estimée sur le cycle complet
+valueLossSub: Différence entre le budget initial et l'impact business effectivement généré.
+planEyebrow: Page 5
+planTitle: Plan recommandé
+planIntro: Trois niveaux d'intervention possibles selon vos enjeux et votre niveau de maturité actuel. Le scénario recommandé est mis en évidence.
+planContact: Pour discuter de la mise en œuvre, contactez votre interlocuteur Mentivis.
+footerLeft: Mentivis Training Impact Score
+footerRight: Page {page}/5
+
+# guides
+eyebrow: Ressources
+title: Les Guides de Référence Mentivis
+lead: Six guides pratiques pour maîtriser les mécanismes de financement, la conformité et la structuration de vos dispositifs formation.
+guideLabel: Guide
+download: Télécharger
+downloadLocked: Déverrouiller
+firstname: Prénom
+lastname: Nom
+email: Email professionnel
+phone: Téléphone
+company: Entreprise
+submit: Recevoir l'accès
+submitting: Envoi en cours...
+consent: J'accepte de recevoir des informations de Mentivis, conformément à la
+consentLink: politique de confidentialité
+modalTitle: Accédez aux guides
+modalSub: Renseignez vos coordonnées pour déverrouiller l'accès à l'ensemble des guides. Un seul formulaire suffit.
+modalSuccessTitle: Accès déverrouillé !
+modalSuccessBody: Vous pouvez désormais télécharger tous les guides. Les boutons de téléchargement sont actifs.
+bpfTitle: Le guide BPF 2026
+bpfDesc: Bilan Pédagogique et Financier - comprendre les obligations, structurer sa déclaration et sécuriser sa conformité auprès des autorités de contrôle.
+bpfPages: 20 pages
+fseTitle: Le guide FSE+
+fseDesc: Fonds Social Européen Plus - identifier les opportunités de financement, monter un dossier solide et maximiser l'impact de vos projets.
+fsePages: 35 pages
+poeiTitle: Le guide POEI
+poeiDesc: Préparation Opérationnelle à l'Emploi Individuel - maîtriser le dispositif, sécuriser les conventions et optimiser le recours au POEI.
+poeiPages: 22 pages
+cpfTitle: Le guide CPF 2026
+cpfDesc: Compte Personnel de Formation - réduire sa dépendance au CPF, diversifier ses sources de financement et sécuriser ses recettes.
+cpfPages: 38 pages
+conventionsTitle: Le guide Conventions de Formation
+conventionsDesc: Méthode en 7 étapes pour structurer, négocier et sécuriser vos conventions de formation avec vos clients entreprises.
+conventionsPages: 28 pages
+taxeTitle: Le guide Taxe d'Apprentissage
+taxeDesc: SOLTéA, circuit de financement et collecte - comprendre la réforme, sécuriser ses collectes et optimiser son potentiel de financement.
+taxePages: 32 pages
+teaserOpcoEyebrow: Outil
+teaserOpcoTitle: Combien votre OPCO peut financer ?
+teaserOpcoBody: 73 % des entreprises n'exploitent pas leurs droits OPCO. Estimez votre potentiel de financement en 2 minutes.
+teaserScoreEyebrow: Diagnostic
+teaserScoreTitle: Votre formation est-elle un levier business ?
+teaserScoreBody: 10 minutes pour révéler la maturité réelle de votre dispositif formation et mesurer l'écart entre perception et réalité.
+teaserCta: Découvrir
+
+# careers
+eyebrow: Rejoindre l'équipe
+title: Carrières
+lead: Vous partagez notre conviction que la formation est un levier stratégique ? Envoyez-nous votre candidature. Nous recrutons des profils passionnés, curieux et animés par l'impact.
+aboutTitle: Pourquoi rejoindre Mentivis ?
+aboutBody: Chez Mentivis, nous croyons que la diversité des parcours est notre plus grande force. Nous recrutons des talents issus de l'enseignement, du conseil, du digital, de la finance et de l'entrepreneuriat. Chaque profil apporte une perspective unique qui enrichit notre capacité à innover pour nos clients.
+equityTitle: Nos engagements
+equityBody: Équité, inclusion et responsabilité ne sont pas des buzzwords. Nous pratiquons une rémunération transparente, des processus de recrutement sans biais et une politique de télétravail flexible qui place la confiance au centre de la relation.
+marieName: Marie Castelli
+marieRole: Partner, Talent Manager
+marieQuote: Nous recherchons des profils qui veulent construire, pas juste exécuter. Si vous avez soif d'impact et d'autonomie, vous serez chez vous.
+ctaTitle: N'hésitez pas à postuler
+ctaBody: Même si vous ne trouvez pas l'offre de vos rêves, envoyez-nous votre candidature spontanée. Nous sommes toujours à la recherche de talents exceptionnels pour renforcer l'équipe.
+formTitle: Postuler
+formSub: Remplissez le formulaire ci-dessous et joignez votre CV. Nous étudions chaque candidature avec attention.
+fallback: Le formulaire est temporairement indisponible. Veuillez envoyer votre candidature directement à contact@mentivis.com
+
+# opco
+eyebrow: Calculateur de financement
+title: Combien votre OPCO peut financer ?
+sub: 73 % des entreprises n'exploitent pas leurs droits OPCO. Ce calculateur estime votre potentiel de financement pour vos projets de formation et de création de Campus interne.
+infoTitle: Pourquoi ce calcul ?
+infoBody: La contribution OPCO représente 0,55 % à 1 % de votre masse salariale. Une partie substantielle de cet effort peut être mobilisée pour financer vos projets de formation.
+sector: Secteur d'activité
+employees: Effectif total
+payroll: Masse salariale annuelle (€)
+objective: Objectif de formation
+learners: Nombre d'apprenants visés
+duration: Durée moyenne (heures)
+firstName: Prénom
+lastName: Nom
+email: Email professionnel
+company: Entreprise
+phone: Téléphone
+choose: Sélectionner
+sectors[0]: Industrie / Manufacturing
+sectors[1]: Commerce / Distribution
+sectors[2]: Services aux entreprises
+sectors[3]: Construction / BTP
+sectors[4]: Transport / Logistique
+sectors[5]: Santé / Social
+sectors[6]: Hôtellerie / Restauration
+sectors[7]: Autre secteur
+sectorValues[0]: industry
+sectorValues[1]: retail
+sectorValues[2]: services
+sectorValues[3]: construction
+sectorValues[4]: transport
+sectorValues[5]: health
+sectorValues[6]: hospitality
+sectorValues[7]: other
+objectives[0]: Création d'un Campus interne / CFA
+objectives[1]: Certifications professionnelles (RNCP)
+objectives[2]: Reconversions / Montées en compétences
+objectives[3]: Développement de l'alternance
+objectives[4]: Transformation digitale / IA
+objectiveValues[0]: campus
+objectiveValues[1]: certifications
+objectiveValues[2]: reconversion
+objectiveValues[3]: alternance
+objectiveValues[4]: digital
+phEmployees: Ex: 250
+phPayroll: Ex: 8 000 000
+phLearners: Ex: 50
+phDuration: Ex: 400
+phFirstName: Votre prénom
+phLastName: Votre nom
+phEmail: prenom.nom@entreprise.com
+phCompany: Nom de votre entreprise
+phPhone: 06 12 34 56 78
+emailError: Veuillez utiliser une adresse email professionnelle.
+contactTitle: Vos coordonnées pour recevoir le diagnostic
+rgpd: Protection de vos données : les informations collectées sont utilisées uniquement pour vous fournir votre diagnostic personnalisé et vous contacter si vous le souhaitez. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.
+submit: Calculer mon potentiel de financement
+resultEyebrow: Votre diagnostic Mentivis OPCO
+resultContribution: Contribution OPCO annuelle
+resultFunding: Financement formation (hors alternance)
+resultCampus: Aide création Campus / CFA
+resultOther: Autres dispositifs publics
+resultTotal3Years: Total potentiel sur 3 ans
+restart: Recommencer
+download: Télécharger le rapport
+disclaimer: Méthodologie : calcul basé sur les taux de contribution OPCO 2025 (0,55 % à 1 % de la masse salariale selon l'effectif), les dispositifs FNE-Formation, France 2030, et les aides régionales. Les montants réels dépendent de votre OPCO de rattachement, de votre convention collective et de l'éligibilité de vos projets.
+ctaEyebrow: Passer du diagnostic à l'action
+ctaTitle: Ces chiffres sont des estimations.
+Un expert Mentivis peut les affiner.
+ctaSub: Mentivis peut vous accompagner dans la mobilisation de ces financements.
+ctaName: Nom
+ctaEmail: Votre email professionnel
+ctaSubmit: Être recontacté
+ctaSuccess: Merci. Votre demande a bien été enregistrée. Un consultant vous recontacte sous 48 h.
+ctaConsent: J'accepte de recevoir des informations de Mentivis, conformément à la
+ctaConsentLink: politique de confidentialité
+
+# opco.pdf
+eyebrow: Diagnostic OPCO
+title: Potentiel de financement estimé
+sector: Secteur
+employees: Effectif
+payroll: Masse salariale
+objective: Objectif
+date: Date du diagnostic
+tableLabel: Poste
+tableValue: Montant
+disclaimer: Méthodologie : calcul basé sur les taux de contribution OPCO 2025, les dispositifs FNE-Formation, France 2030, et les aides régionales. Les montants réels dépendent de votre OPCO de rattachement, de votre convention collective et de l'éligibilité de vos projets.
+footerLeft: Mentivis OPCO Calculator
+footerRight: Document confidentiel
+
+# insights
+title: Insights
+eyebrow: Actualités & Perspectives
+filterAll: Tous les sujets
+filterNewest: Plus récent
+filterOldest: Plus ancien
+readArticle: Lire l'article
+backToList: Retour aux insights
+noArticles: Aucun article dans cette catégorie.
+metaDescription: Actualités, analyses réglementaires, perspectives et notes stratégiques sur la formation professionnelle, l'éducation et la transformation digitale.

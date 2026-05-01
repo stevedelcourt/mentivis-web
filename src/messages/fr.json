@@ -16,91 +16,193 @@
     "youAre": "Vous êtes"
   },
   "animation": {
-    "words": ["Concevoir", "Structurer", "Déployer"],
+    "words": [
+      "Concevoir",
+      "Structurer",
+      "Déployer"
+    ],
     "subtitle": "des dispositifs de formation qui fonctionnent"
   },
   "home": {
     "eyebrow": "Opérateur en formation & développement des compétences",
-    "heroTitle": ["Concevoir, structurer et déployer", "des dispositifs de formation", "qui ", "fonctionnent réellement", "."],
+    "heroTitle": [
+      "Concevoir, structurer et déployer",
+      "des dispositifs de formation",
+      "qui",
+      "fonctionnent réellement",
+      "."
+    ],
     "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
     "entryEnterprise": {
       "kicker": "01 - Vous êtes une entreprise",
       "title": "Transformer la formation en levier de performance",
-      "items": ["Audit de maturité", "Création d'académie interne", "Politique et structure de formation"],
+      "items": [
+        "Audit de maturité",
+        "Création d'académie interne",
+        "Politique et structure de formation"
+      ],
       "cta": "Découvrir les solutions"
     },
     "entryOf": {
       "kicker": "02 - Vous êtes un organisme de formation",
       "title": "Structurer, sécuriser et développer votre activité",
-      "items": ["Pédagogie & conformité", "Stratégie & positionnement", "Services externalisés"],
+      "items": [
+        "Pédagogie & conformité",
+        "Stratégie & positionnement",
+        "Services externalisés"
+      ],
       "cta": "Découvrir les solutions"
     },
     "entrySolutions": {
       "kicker": "03 - Vous cherchez une solution digitale, dév ou IA",
       "title": "Des outils sur mesure, des solutions concrètes",
-      "items": ["Plateformes personnalisées", "Solutions IA adaptées à la formation", "Développement sur mesure"],
+      "items": [
+        "Plateformes personnalisées",
+        "Solutions IA adaptées à la formation",
+        "Développement sur mesure"
+      ],
       "cta": "Découvrir les solutions"
     },
     "diffTitle": "Ce qui nous distingue",
     "diffLead": "Quatre principes structurels - pas un argumentaire marketing.",
     "differentiation": [
-      { "n": "01", "title": "Spécialistes formation et éducation", "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences." },
-      { "n": "02", "title": "Approche full-stack", "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre." },
-      { "n": "03", "title": "Rémunération alignée sur vos résultats", "body": "Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil." },
-      { "n": "04", "title": "Intervention réelle sur le terrain", "body": "Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint." }
+      {
+        "n": "01",
+        "title": "Spécialistes formation et éducation",
+        "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences."
+      },
+      {
+        "n": "02",
+        "title": "Approche full-stack",
+        "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre."
+      },
+      {
+        "n": "03",
+        "title": "Rémunération alignée sur vos résultats",
+        "body": "Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil."
+      },
+      {
+        "n": "04",
+        "title": "Intervention réelle sur le terrain",
+        "body": "Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint."
+      }
     ],
     "promiseTitle": "Notre promesse",
     "promiseBody": "Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.",
     "promiseSig": "- C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
     "proofTitle": "Ce que nos missions produisent",
     "proofs": [
-      { "value": "6", "unit": "sem.", "label": "structuration OF complète" },
-      { "value": "100", "unit": "%", "label": "audit Qualiopi validé" },
-      { "value": "×2", "unit": "", "label": "engagement académie interne" },
-      { "value": "−30", "unit": "%", "label": "recours formations externes" }
+      {
+        "value": "6",
+        "unit": "sem.",
+        "label": "structuration OF complète"
+      },
+      {
+        "value": "100",
+        "unit": "%",
+        "label": "audit Qualiopi validé"
+      },
+      {
+        "value": "×2",
+        "unit": "",
+        "label": "engagement académie interne"
+      },
+      {
+        "value": "−30",
+        "unit": "%",
+        "label": "recours formations externes"
+      }
     ],
     "proofNote": "Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.",
     "finalCtaTitle": "Un projet de formation à structurer ?",
-    "finalCtaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs."
+    "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
   },
   "about": {
     "eyebrow": "Qui sommes-nous",
-    "title": ["Un opérateur spécialisé.", "Pas un cabinet de conseil."],
+    "title": [
+      "Un opérateur spécialisé,",
+      "multi compétences."
+    ],
     "lead": "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.",
     "missionTitle": "Identité & mission",
     "mission": [
       "Opérateur spécialisé en formation et développement des compétences",
       "Intervention de bout en bout : stratégie, conception, déploiement, pilotage",
-      "Rémunération alignée sur les résultats - pas sur les livrables"
+      "Rémunération aligné sur les résultats: des success fees garantie de nos intérêts"
     ],
     "expertiseTitle": "Nos expertises",
     "expertiseLead": "Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.",
     "expertise": [
-      { "n": "01", "title": "Stratégie", "body": "Positionnement, audit de maturité, développement de filières, go-to-market." },
-      { "n": "02", "title": "Opérationnel", "body": "Acquisition, alternance, communication, création de contenus pédagogiques." },
-      { "n": "03", "title": "Création de A à Z", "body": "Structuration juridique, pédagogique et opérationnelle de toute structure formation." },
-      { "n": "04", "title": "Développement de solutions", "body": "Outils sur mesure, solutions IA, plateformes spécifiques." }
+      {
+        "n": "01",
+        "title": "Stratégie",
+        "body": "Recherche de financements, Positionnement, audit de maturité, développement de filières, go-to-market."
+      },
+      {
+        "n": "02",
+        "title": "Opérationnel",
+        "body": "Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques."
+      },
+      {
+        "n": "03",
+        "title": "Création de A à Z",
+        "body": "Structuration juridique, pédagogique et opérationnelle de toute structure formation."
+      },
+      {
+        "n": "04",
+        "title": "Développement de solutions",
+        "body": "Outils sur mesure, solutions IA, plateformes spécifiques."
+      }
     ],
     "whyTitle": "Pourquoi faire appel à nous ?",
-    "whyLead": "Pas un catalogue de services - une promesse de résultat.",
+    "whyLead": "Des offres sur mesure, adaptées à votre structure. Un engagement totalement orienté vers le résultat.",
     "why": [
-      { "title": "Vue 360°", "body": "Nous comprenons votre écosystème dans sa globalité avant d'agir." },
-      { "title": "Conseil ET réalisation", "body": "Nous ne livrons pas de recommandations sans les mettre en œuvre." },
-      { "title": "Actions efficaces", "body": "Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle." },
-      { "title": "Pilotage par les KPIs", "body": "Chaque mission est mesurée. Notre rémunération en dépend." }
+      {
+        "title": "Vue 360°",
+        "body": "Nous comprenons votre écosystème dans sa globalité avant d'agir."
+      },
+      {
+        "title": "Conseil ET réalisation",
+        "body": "Nous ne livrons pas de recommandations sans les mettre en œuvre."
+      },
+      {
+        "title": "Actions efficaces",
+        "body": "Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle."
+      },
+      {
+        "title": "Pilotage par les KPIs",
+        "body": "Chaque mission est mesurée. Notre rémunération en dépend."
+      }
     ],
     "costTitle": "Combien ça coûte ?",
     "costLead": "Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.",
     "cost": [
-      { "title": "Fees alignés sur les résultats", "body": "Une part variable liée à la performance mesurée." },
-      { "title": "Ciblage et efficacité", "body": "Nous intervenons là où l'impact est maximal, pas partout à la fois." },
-      { "title": "ROI documenté", "body": "Chaque mission produit des KPIs de performance tangibles." },
-      { "title": "Offres adaptées", "body": "TPE, PME ou grand groupe - nous calibrons l'intervention." }
+      {
+        "title": "Fees alignés sur les résultats",
+        "body": "Une part variable liée à la performance mesurée."
+      },
+      {
+        "title": "Ciblage et efficacité",
+        "body": "Nous intervenons avec méthode, là où l'impact est maximal, sans s’éparpiller."
+      },
+      {
+        "title": "ROI documenté",
+        "body": "Chaque mission produit des KPIs de performance tangibles."
+      },
+      {
+        "title": "Offres adaptées",
+        "body": "Écoles, centres de formation, TPE, PME, Grands groupes, nous calibrons nos interventions au plus juste."
+      }
     ]
   },
   "of": {
     "eyebrow": "Vous êtes un organisme de formation",
-    "heroTitle": ["Structurer et", "développer un organisme", "de formation solide", "et conforme."],
+    "heroTitle": [
+      "Structurer et",
+      "développer un organisme",
+      "de formation solide",
+      "et conforme."
+    ],
     "heroLead": "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance.",
     "pillarsTitle": "Nos pôles d'intervention",
     "pillarsLead": "Une architecture de services claire et actionnable pour les OF.",
@@ -120,12 +222,12 @@
       {
         "n": "02",
         "title": "Opérationnel",
-        "body": "Prendre en charge les fonctions clés pour libérer vos équipes pédagogiques et accélérer votre développement.",
+        "body": "Concentrez vous sur votre métier, la formation. Nous prenons en charge les fonctions tranverses pour libérer vos équipes, accélérer votre développement et limiter l’impact de la saisonnalité.",
         "items": [
-          "Acquisition : génération de leads, tunnels de conversion, partenariats prescripteurs",
-          "Alternance : gestion administrative, relations entreprises, OPCO",
-          "Communication : positionnement de marque, contenus, visibilité digitale",
-          "Création de contenus pédagogiques : modules e-learning, supports, évaluations"
+          "Acquisition : externalisation, génération de leads, tunnels de conversion, partenariats prescripteurs",
+          "Alternance : externalisation, gestion administrative, relations entreprises, OPCO",
+          "Communication : positionnement de marque, contenus, visibilité digitale, externalisation",
+          "Création de contenus pédagogiques : externalisation, modules e-learning, supports, évaluations"
         ]
       },
       {
@@ -152,14 +254,32 @@
       }
     ],
     "externalisedTitle": "Services externalisés",
-    "externalisedLead": "Prendre en charge des fonctions clés pour libérer l'équipe pédagogique. Cette offre est distincte du conseil et de la structuration : Mentivis gère, l'OF se concentre sur son cœur de métier.",
+    "externalisedLead": "Prendre en charge des fonctions clés pour libérer vos équipes. Plus de flexibilité, moins de coûts, dans un offre packagée. Mentivis gère, l'OF se concentre sur son cœur de métier.",
     "externalised": [
-      { "title": "Acquisition", "body": "Génération de leads, tunnels, conversion." },
-      { "title": "Alternance", "body": "Gestion administrative, relations entreprises." },
-      { "title": "Marketing & Communication", "body": "Positionnement, contenus, visibilité." },
-      { "title": "Administratif", "body": "Gestion des dossiers, conformité continue." },
-      { "title": "BPF & Qualiopi", "body": "Préparation, suivi, présence audit." },
-      { "title": "Sur mesure", "body": "Toute autre fonction sur demande." }
+      {
+        "title": "Acquisition",
+        "body": "Génération de leads, tunnels, conversion."
+      },
+      {
+        "title": "Alternance",
+        "body": "Gestion administrative, relations entreprises."
+      },
+      {
+        "title": "Marketing & Communication",
+        "body": "Positionnement, contenus, visibilité."
+      },
+      {
+        "title": "Administratif",
+        "body": "Gestion des dossiers, conformité continue."
+      },
+      {
+        "title": "BPF & Qualiopi",
+        "body": "Préparation, suivi, présence audit."
+      },
+      {
+        "title": "Sur mesure",
+        "body": "Toute autre fonction sur demande."
+      }
     ],
     "paymentTitle": "Modèle de rémunération",
     "paymentBody": "Rémunération variable alignée sur les résultats obtenus. Convergence d'intérêts garantie : nous performons quand vous performez. C'est ce qui différencie structurellement ce modèle d'une prestation classique.",
@@ -168,20 +288,23 @@
       "Conformité sécurisée et pérenne",
       "Offre pédagogique structurée et crédible sur le marché",
       "Croissance stable de l'acquisition et de l'alternance",
-      "Organisation robuste, moins dépendante de l'improvisation"
+      "Organisation robuste, prévisible et optimisée"
     ],
     "finalCta": "Un organisme à structurer, sécuriser ou développer ?"
   },
   "enterprise": {
     "eyebrow": "Vous êtes une entreprise",
-    "heroTitle": ["Transformer la formation en", "levier de performance durable."],
+    "heroTitle": [
+      "Transformer la formation en",
+      "levier de performance durable."
+    ],
     "heroLead": "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
-    "problemsTitle": "La formation en entreprise reste souvent inefficace",
+    "problemsTitle": "Pour une formation en entreprise réellement efficace.",
     "problems": [
-      "Dispositifs peu structurés, déconnectés des enjeux métier",
-      "Absence de pilotage des compétences et des résultats",
-      "Dépendance à des prestataires multiples, sans vision globale",
-      "Investissements importants, impact mesurable limité"
+      "Dispositifs structurés, connectés aux enjeux métiers",
+      "Un pilotage par les compétences avec des résultats concrets",
+      "Une approche intégrée, avec une vision globale et cohérente",
+      "Des investissements maîtrisés, avec des impacts mesurables"
     ],
     "pillarsTitle": "Les quatre axes d'intervention",
     "pillarsLead": "Une structuration de l'offre lisible et alignée avec les besoins réels des directions.",
@@ -252,7 +375,11 @@
   },
   "solutions": {
     "eyebrow": "Mentivis Solutions",
-    "heroTitle": ["Des outils conçus pour", "transformer", " vos pratiques formation."],
+    "heroTitle": [
+      "Des outils conçus pour",
+      "transformer",
+      "vos pratiques formation."
+    ],
     "heroLead": "Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation.",
     "pillars": [
       {
@@ -287,11 +414,67 @@
         ]
       }
     ],
-    "finalCta": "Un projet d'outil ou de solution IA ?"
+    "finalCta": "Un projet d'outil ou de solution IA ?",
+    "sectorsTitle": {
+      "eyebrow": "Nos secteurs",
+      "title": "Nous connaissons votre terrain.",
+      "lead": "Chaque secteur a ses régulateurs, ses contraintes, son vocabulaire métier. Nous ne les découvrons pas en arrivant sur votre projet."
+    },
+    "sectors": [
+      {
+        "icon": "account_balance",
+        "title": "Services financiers & Assurance",
+        "body": "Transformation réglementaire (DORA, PSD3), agents IA de traitement de dossiers, KYC/AML, modernisation de cores bancaires, open banking."
+      },
+      {
+        "icon": "factory",
+        "title": "Industrie & Manufacturing",
+        "body": "Transformation des processus de production, MES, maintenance prédictive, formation VR sécurité, IoT industriel, convergence OT/IT."
+      },
+      {
+        "icon": "health_and_safety",
+        "title": "Santé & Sciences de la Vie",
+        "body": "Stratégie de numérisation, hébergement HDS, interopérabilité HL7/FHIR, IA diagnostique, conformité MDR, dossier patient augmenté."
+      },
+      {
+        "icon": "shield",
+        "title": "Secteur public & Défense",
+        "body": "Souveraineté numérique, transformation de SI critiques, homologation ANSSI, SecNumCloud, dématérialisation de services."
+      },
+      {
+        "icon": "bolt",
+        "title": "Énergie & Utilities",
+        "body": "Transformation vers l'efficience énergétique, optimisation réseau par IA, reporting ESG automatisé, maintenance prédictive."
+      },
+      {
+        "icon": "cast",
+        "title": "Télécoms & Médias",
+        "body": "Modernisation de plateformes, personnalisation IA, expériences immersives."
+      },
+      {
+        "icon": "shopping_bag",
+        "title": "Retail & Grande Consommation",
+        "body": "Transformation omnicanale, configurateurs 3D, personnalisation par IA, supply chain intelligente."
+      },
+      {
+        "icon": "local_shipping",
+        "title": "Transport & Logistique",
+        "body": "Optimisation de flotte, prédiction de la demande, maintenance prédictive."
+      }
+    ],
+    "julie": {
+      "name": "Julie Steiner",
+      "role": "Votre interlocutrice pour vos projets",
+      "body": "Votre interlocutrice privilégiée pour tous vos projets d'ingénierie et de développement applicatif. Julie s'implique dès les premières discussions pour comprendre vos enjeux, transformer un besoin en projet structuré et mobiliser les bonnes expertises. Elle assure la coordination entre équipes métiers et techniques, du cadrage initial jusqu'au suivi de mise en œuvre."
+    }
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": ["Vous avez un projet.", "Nous avons les réponses.", "Parlons-en."],
+    "title": [
+      "Vous avez un projet.",
+      "Nous avons les réponses.",
+      "Parlons-en."
+    ],
     "lead": "Une page sans friction. Pas de long formulaire, pas de promesse marketing - juste une invitation à la conversation.",
     "labels": {
       "firstname": "Prénom",
@@ -304,7 +487,11 @@
       "consent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
       "consentLink": "politique de confidentialité"
     },
-    "youOptions": ["Entreprise", "Organisme de formation", "Autre"],
+    "youOptions": [
+      "Entreprise",
+      "Organisme de formation",
+      "Autre"
+    ],
     "successTitle": "Message envoyé !",
     "successBody": "Nous avons bien reçu votre demande. Nous vous répondrons dans les 48h.",
     "successBack": "Retour à l'accueil",
@@ -315,7 +502,7 @@
   "footer": {
     "tagline": "Dispositifs de formation qui fonctionnent.",
     "ctaTitle": "Démarrer un projet, c'est simple",
-    "ctaLead": "Premier échange gratuit, sans engagement. Nous écoutons, puis nous vous disons honnêtement si nous sommes les bons interlocuteurs.",
+    "ctaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.",
     "navigation": "Navigation",
     "copy": "© 2026 Mentivis. Opérateur en formation et développement des compétences."
   },
@@ -615,10 +802,40 @@
     "company": "Entreprise",
     "phone": "Téléphone",
     "choose": "Sélectionner",
-    "sectors": ["Industrie / Manufacturing", "Commerce / Distribution", "Services aux entreprises", "Construction / BTP", "Transport / Logistique", "Santé / Social", "Hôtellerie / Restauration", "Autre secteur"],
-    "sectorValues": ["industry", "retail", "services", "construction", "transport", "health", "hospitality", "other"],
-    "objectives": ["Création d'un Campus interne / CFA", "Certifications professionnelles (RNCP)", "Reconversions / Montées en compétences", "Développement de l'alternance", "Transformation digitale / IA"],
-    "objectiveValues": ["campus", "certifications", "reconversion", "alternance", "digital"],
+    "sectors": [
+      "Industrie / Manufacturing",
+      "Commerce / Distribution",
+      "Services aux entreprises",
+      "Construction / BTP",
+      "Transport / Logistique",
+      "Santé / Social",
+      "Hôtellerie / Restauration",
+      "Autre secteur"
+    ],
+    "sectorValues": [
+      "industry",
+      "retail",
+      "services",
+      "construction",
+      "transport",
+      "health",
+      "hospitality",
+      "other"
+    ],
+    "objectives": [
+      "Création d'un Campus interne / CFA",
+      "Certifications professionnelles (RNCP)",
+      "Reconversions / Montées en compétences",
+      "Développement de l'alternance",
+      "Transformation digitale / IA"
+    ],
+    "objectiveValues": [
+      "campus",
+      "certifications",
+      "reconversion",
+      "alternance",
+      "digital"
+    ],
     "phEmployees": "Ex: 250",
     "phPayroll": "Ex: 8 000 000",
     "phLearners": "Ex: 50",
@@ -642,7 +859,7 @@
     "download": "Télécharger le rapport",
     "disclaimer": "Méthodologie : calcul basé sur les taux de contribution OPCO 2025 (0,55 % à 1 % de la masse salariale selon l'effectif), les dispositifs FNE-Formation, France 2030, et les aides régionales. Les montants réels dépendent de votre OPCO de rattachement, de votre convention collective et de l'éligibilité de vos projets.",
     "ctaEyebrow": "Passer du diagnostic à l'action",
-    "ctaTitle": "Ces chiffres sont des estimations.\nUn expert Mentivis peut les affiner.",
+    "ctaTitle": "Ces chiffres sont des estimations.",
     "ctaSub": "Mentivis peut vous accompagner dans la mobilisation de ces financements.",
     "ctaName": "Nom",
     "ctaEmail": "Votre email professionnel",

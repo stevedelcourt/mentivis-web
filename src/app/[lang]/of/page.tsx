@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
+import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -12,43 +14,22 @@ export default function OfPage() {
   const o = t.of;
 
   return (
-    <PageShell>
-      <section
-        style={{
-          position: "relative",
-          width: "100%",
-          minHeight: 560,
-          backgroundImage: "url(/images/heroes/yellos-fail.avif)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "flex",
-          alignItems: "center",
-          overflow: "hidden",
-        }}
+    <PageShell hidePreFooterCTA>
+      <ImageHero
+        image="/images/heroes/diversity.avif"
+        eyebrow={o.eyebrow}
+        title={<><span style={{ color: "white" }}>{o.heroTitle[0]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[1]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[2]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[3]}</span></>}
+        lead={o.heroLead}
       >
-        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100 }}>
-          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white" }}>
-            {o.eyebrow}
-          </div>
-          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white" }}>
-            <span style={{ color: "white" }}>{o.heroTitle[0]}</span><br />
-            <span style={{ color: "white" }}>{o.heroTitle[1]}</span><br />
-            <span style={{ color: "white" }}>{o.heroTitle[2]}</span><br />
-            <span style={{ color: "white" }}>{o.heroTitle[3]}</span>
-          </h1>
-          <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)" }}>{o.heroLead}</p>
-          <div style={{ marginTop: 36, display: "flex", gap: 12, flexWrap: "wrap" as const }}>
-            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-              {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-            <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 999, textDecoration: "none" }}>
-              {lang === "fr" ? "Voir les pôles" : "View pillars"}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-          </div>
-        </div>
-      </section>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+          {t.nav.cta}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
+        <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 999, textDecoration: "none" }}>
+          {lang === "fr" ? "Voir les pôles" : "View pillars"}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
+      </ImageHero>
 
       <section className="section" id="pillars">
         <div className="container">
@@ -157,6 +138,7 @@ export default function OfPage() {
       </section>
 
       <FinalCTA t={t} title={o.finalCta} lang={lang} accent="purple" />
+      <FeaturedInsights pageKey="of" lang={lang} />
     </PageShell>
   );
 }

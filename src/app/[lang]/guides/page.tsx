@@ -606,7 +606,6 @@ export default function GuidesPage() {
                   padding: "32px",
                   border: "1px solid var(--m-line)",
                   textDecoration: "none",
-                  transition: "box-shadow 0.2s, transform 0.2s",
                 }}
                 className="m-guide-teaser-card"
               >

@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
+import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import { useMessages } from "@/lib/messages";
@@ -12,37 +14,18 @@ export default function EnterprisePage() {
   const e = t.enterprise;
 
   return (
-    <PageShell>
-      <section
-        style={{
-          position: "relative",
-          width: "100%",
-          minHeight: 560,
-          backgroundImage: "url(/images/heroes/investor.avif)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "flex",
-          alignItems: "center",
-          overflow: "hidden",
-        }}
+    <PageShell hidePreFooterCTA>
+      <ImageHero
+        image="/images/heroes/investor.avif"
+        eyebrow={e.eyebrow}
+        title={<><span style={{ color: "white" }}>{e.heroTitle[0]}</span><br /><em style={{ color: "white" }}>{e.heroTitle[1]}</em></>}
+        lead={e.heroLead}
       >
-        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 140, paddingBottom: 100, textAlign: "left" }}>
-          <div className="t-eyebrow" style={{ marginBottom: 28, color: "white", textAlign: "left" }}>
-            {e.eyebrow}
-          </div>
-          <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 68px)", maxWidth: 720, margin: 0, color: "white", textAlign: "left" }}>
-            <span style={{ color: "white" }}>{e.heroTitle[0]}</span><br />
-            <em style={{ color: "white" }}>{e.heroTitle[1]}</em>
-          </h1>
-          <p className="t-lead" style={{ marginTop: 28, maxWidth: 560, color: "rgba(255,255,255,0.9)", textAlign: "left" }}>{e.heroLead}</p>
-          <div style={{ marginTop: 36, textAlign: "left" }}>
-            <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
-              {t.nav.cta}
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
-            </Link>
-          </div>
-        </div>
-      </section>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+          {t.nav.cta}
+          <span className="material-symbols-outlined" style={{ fontSize: 18 }}>chevron_right</span>
+        </Link>
+      </ImageHero>
 
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
         <div className="container">
@@ -130,6 +113,7 @@ export default function EnterprisePage() {
       </section>
 
       <FinalCTA t={t} title={e.finalCta} lang={lang} accent="purple" />
+      <FeaturedInsights pageKey="enterprise" lang={lang} />
     </PageShell>
   );
 }

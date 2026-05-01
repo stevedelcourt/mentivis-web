@@ -9,12 +9,11 @@ type PillarCardProps = {
 
 export default function PillarCard({ n, title, body, items, accent = false, icon }: PillarCardProps) {
   return (
-    <article style={{
+    <article className="m-pillar-card" style={{
       padding: "36px 32px",
       borderRadius: 18,
       border: "1px solid var(--m-line)",
       background: accent ? "var(--m-bg-soft)" : "white",
-      transition: "border-color 0.2s ease, transform 0.2s ease",
       height: "100%",
     }}>
       <div style={{

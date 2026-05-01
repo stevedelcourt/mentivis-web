@@ -101,7 +101,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
         pointerEvents: "none" as const,
       }}
     >
-      <div className={`m-header-scroll ${scrolled ? "scrolled" : ""}`}
+      <div className={`m-header-scroll ${scrolled ? "scrolled m-header-shadow" : ""}`}
         style={{
           pointerEvents: "auto" as const,
           display: "flex",
@@ -113,9 +113,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
           background: scrolled ? "rgba(255,255,255,0.92)" : "#ffffff",
           borderRadius: 16,
           padding: "10px 20px",
-          boxShadow: scrolled ? "0 6px 24px rgba(16,24,40,0.08)" : "0 2px 12px rgba(16,24,40,0.06)",
-          border: "1px solid var(--m-line)",
-          transition: "box-shadow 0.2s ease, background 0.3s ease, backdrop-filter 0.3s ease",
+          transition: "background 0.3s ease, backdrop-filter 0.3s ease",
           backdropFilter: scrolled ? "blur(8px)" : "none",
         }}>
         {/* Logo - left */}

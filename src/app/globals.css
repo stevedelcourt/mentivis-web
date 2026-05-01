@@ -161,6 +161,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 1000px) {
   .m-home-leadgrid, .m-split-grid, .m-grid-2 { grid-template-columns: 1fr !important; }
   .m-grid-3, .m-grid-4 { grid-template-columns: 1fr 1fr !important; }
+  .featured-insights-grid { grid-template-columns: 1fr 1fr !important; }
   .m-proof-grid { grid-template-columns: 1fr 1fr !important; }
   .m-diff-grid { grid-template-columns: 1fr !important; }
   .m-solution-row { grid-template-columns: 1fr !important; gap: 20px !important; padding: 36px 0 !important; }
@@ -175,6 +176,7 @@ button { font-family: inherit; cursor: pointer; }
 
 @media (max-width: 720px) {
   .m-grid-3, .m-grid-4, .m-proof-grid, .m-triple-grid { grid-template-columns: 1fr !important; }
+  .featured-insights-grid { grid-template-columns: 1fr !important; }
   .m-aside { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--m-line); padding-top: 32px !important; }
   .m-footer-cols { grid-template-columns: 1fr !important; gap: 32px !important; }
 }
@@ -320,7 +322,7 @@ button { font-family: inherit; cursor: pointer; }
 @keyframes headerDropIn {
   0% {
     opacity: 0;
-    transform: translateY(-16px);
+    transform: translateY(-28px);
   }
   100% {
     opacity: 1;
@@ -331,7 +333,7 @@ button { font-family: inherit; cursor: pointer; }
 @keyframes navItemFadeIn {
   0% {
     opacity: 0;
-    transform: translateY(-8px);
+    transform: translateY(-10px);
   }
   100% {
     opacity: 1;
@@ -340,28 +342,47 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .m-header-load {
-  animation: headerDropIn 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: headerDropIn 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .m-nav-item {
   opacity: 0;
-  animation: navItemFadeIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: navItemFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.m-nav-item-delay-0 { animation-delay: 0ms; }
-.m-nav-item-delay-1 { animation-delay: 100ms; }
-.m-nav-item-delay-2 { animation-delay: 200ms; }
-.m-nav-item-delay-3 { animation-delay: 280ms; }
-.m-nav-item-delay-4 { animation-delay: 360ms; }
+.m-nav-item-delay-0 { animation-delay: 200ms; }
+.m-nav-item-delay-1 { animation-delay: 350ms; }
+.m-nav-item-delay-2 { animation-delay: 500ms; }
+.m-nav-item-delay-3 { animation-delay: 600ms; }
+.m-nav-item-delay-4 { animation-delay: 680ms; }
 
 /* Scroll state - glassmorphism float */
 .m-header-scroll {
-  transition: box-shadow 0.35s ease, background 0.35s ease, backdrop-filter 0.35s ease;
+  transition: box-shadow 0.5s ease, background 0.5s ease, backdrop-filter 0.5s ease;
 }
 .m-header-scroll.scrolled {
-  box-shadow: 0 12px 40px rgba(16, 24, 40, 0.12);
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
+}
+
+/* Soft lift shadow on scroll - desktop only */
+.m-header-shadow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* CTA hover micro-interaction */
+.m-nav-cta {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.m-nav-cta:hover {
+  transform: scale(1.04);
+  opacity: 0.92;
+}
+
+@media (max-width: 950px) {
+  .m-header-shadow {
+    box-shadow: none;
+  }
 }
 
 /* ============================================================
@@ -373,9 +394,7 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
   background: rgba(255, 255, 255, 0.60) !important;
   backdrop-filter: blur(24px) saturate(1.4) !important;
-  box-shadow: 0 16px 48px rgba(16, 24, 40, 0.18),
-              inset 0 1px 0 rgba(255, 255, 255, 0.85),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 16px 48px rgba(16, 24, 40, 0.18) !important;
 }
 
 /* Mobile: disable premium glass, keep simple blur */
@@ -739,6 +758,10 @@ button { font-family: inherit; cursor: pointer; }
   .insight-card {
     grid-template-columns: 1fr !important;
   }
+  .m-julie-row {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
 }
 
 /* ── Admin Form ───────────────────────────────────────── */
@@ -764,4 +787,89 @@ button { font-family: inherit; cursor: pointer; }
 .admin-form textarea {
   resize: vertical;
   line-height: 1.5;
+}
+
+/* ============================================================
+   Premium micro-interactions & atmosphere
+   ============================================================ */
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Page transitions */
+.m-page-transition {
+  animation: pageFadeIn 180ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pageFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ImageHero text staggered entrance */
+.m-hero-text {
+  opacity: 0;
+  animation: heroTextIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.m-hero-text-delay-0 { animation-delay: 0ms; }
+.m-hero-text-delay-1 { animation-delay: 120ms; }
+.m-hero-text-delay-2 { animation-delay: 240ms; }
+.m-hero-text-delay-3 { animation-delay: 360ms; }
+
+@keyframes heroTextIn {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* DualEntryCard hover lift */
+.m-dual-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.m-dual-card:hover {
+  transform: translateY(-2px);
+  box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* PillarCard hover */
+.m-pillar-card {
+  transition: border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.m-pillar-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--m-purple);
+}
+
+/* Guide teaser hover */
+.m-guide-teaser-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.m-guide-teaser-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* InsightCard image zoom */
+.m-insight-img-wrap {
+  overflow: hidden;
+}
+.m-insight-img-wrap img {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.m-insight-card:hover .m-insight-img-wrap img,
+a.insight-card:hover .m-insight-img-wrap img {
+  transform: scale(1.03);
 }
