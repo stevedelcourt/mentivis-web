@@ -41,7 +41,9 @@ Analyse des pénuries RH de la BITD, échec des réponses actuelles, doctrine na
 ///
 Volume : 36 pages
 ///
-Télécharger
+<img src="/images/insights/rapport-defense-mentivis-2026.avif" alt="Rapport défense Mentivis 2026" style="width:100%; max-width:400px; height:auto; border-radius:16px; display:block; margin:28px auto;" />
+///
+<p style="text-align:center; font-size:14px; color:var(--m-ink-3); margin-top:8px;">Rapport gratuit sur demande.</p>
 
 # bodyEn
 ##### **French rearmament is hitting a skills shortage that the education system is struggling to fill**
