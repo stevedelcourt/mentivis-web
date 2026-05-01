@@ -5,6 +5,7 @@ import Link from "next/link";
 import FinalCTA from "@/components/FinalCTA";
 import FaqSection from "@/components/FaqSection";
 import FeaturedInsights from "@/components/FeaturedInsights";
+import HeroBlobs from "@/components/HeroBlobs";
 import SectionHeader from "@/components/SectionHeader";
 import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
@@ -147,10 +148,23 @@ export default function HomePage() {
           url: `${SITE.baseUrl}/${lang}/`,
           publisher: { "@id": `${SITE.baseUrl}/#organization` },
         },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: t.home.faq.items.map((item: any) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        },
       ]} />
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
         <HomeHeroBackdrop />
-        <div className="container" style={{ position: "relative" as const }}>
+        <HeroBlobs />
+        <div className="container" style={{ position: "relative" as const, zIndex: 1 }}>
           <Reveal>
             <div className="t-eyebrow" style={{ marginBottom: 32 }}>
               {h.eyebrow}

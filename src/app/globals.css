@@ -885,3 +885,10 @@ html {
 a.insight-card:hover .m-insight-img-wrap img {
   transform: scale(1.03);
 }
+
+/* ── Hero Blobs ───────────────────────────────────────── */
+@media (max-width: 950px) {
+  .m-hero-blobs {
+    opacity: 0.5;
+  }
+}
