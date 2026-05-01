@@ -63,7 +63,14 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const [desktopResourcesOpen, setDesktopResourcesOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
+    let last = false;
+    const onScroll = () => {
+      const curr = window.scrollY > 8;
+      if (curr !== last) {
+        last = curr;
+        setScrolled(curr);
+      }
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);

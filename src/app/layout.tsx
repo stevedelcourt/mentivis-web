@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieConsentBanner from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Mentivis",
@@ -17,7 +18,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
       </head>
-      <body>{children}</body>
+      <body>{children}<CookieConsentBanner /></body>
     </html>
   );
 }

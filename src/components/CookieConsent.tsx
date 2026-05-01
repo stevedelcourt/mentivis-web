@@ -65,6 +65,7 @@ export default function CookieConsentBanner() {
     CookieConsent.run({
       cookie: {
         name: 'cc_cookie',
+        path: '/',
         expiresAfterDays: 365,
         secure: true,
         sameSite: 'Strict',

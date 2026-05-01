@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
-import CookieConsentBanner from "@/components/CookieConsent";
+
 
 export type Messages = typeof fr;
 
@@ -101,7 +101,6 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         </Script>
       )}
       {children}
-      <CookieConsentBanner />
     </>
   );
 }

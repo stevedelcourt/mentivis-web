@@ -1,7 +1,11 @@
 "use client";
+import dynamic from "next/dynamic";
 import PageShell from "@/components/layout/PageShell";
-import ScoreCalculator from "@/components/ScoreCalculator";
-import { useMessages } from "@/lib/messages";
+
+const ScoreCalculator = dynamic(
+  () => import("@/components/ScoreCalculator"),
+  { ssr: false, loading: () => <div style={{ minHeight: 600 }} /> }
+);
 
 export default function ScoreFormationPage() {
   return (

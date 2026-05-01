@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 type Phase = "typing" | "pausing" | "deleting";
 
@@ -32,56 +32,58 @@ export function useTypewriter({
   const [charIndex, setCharIndex] = useState(0);
 
   const currentWord = words[wordIndex];
+  const rafRef = useRef<number>(0);
+  const lastTickRef = useRef<number>(0);
+  const stateRef = useRef({ phase: "typing" as Phase, charIndex: 0, wordIndex: 0 });
 
-  const nextWord = useCallback(() => {
-    setCharIndex(0);
-    setWordIndex((prev) => (prev + 1) % words.length);
-    setPhase("typing");
-  }, [words.length]);
+  // Keep ref in sync with state for the rAF loop
+  useEffect(() => {
+    stateRef.current = { phase, charIndex, wordIndex };
+  }, [phase, charIndex, wordIndex]);
 
   useEffect(() => {
     if (words.length === 0) return;
 
-    let timeout: ReturnType<typeof setTimeout>;
+    const tick = (now: number) => {
+      const s = stateRef.current;
+      const cw = words[s.wordIndex];
+      const elapsed = now - lastTickRef.current;
 
-    if (phase === "typing") {
-      if (charIndex < currentWord.length) {
-        timeout = setTimeout(() => {
-          setCharIndex((prev) => prev + 1);
-        }, typeSpeed);
-      } else {
-        setPhase("pausing");
-      }
-    } else if (phase === "pausing") {
-      timeout = setTimeout(() => {
-        setPhase("deleting");
-      }, pauseType);
-    } else if (phase === "deleting") {
-      if (charIndex > 0) {
-        timeout = setTimeout(() => {
-          setCharIndex((prev) => prev - 1);
-        }, deleteSpeed);
-      } else {
-        if (loop) {
-          timeout = setTimeout(() => {
-            nextWord();
-          }, pauseDelete);
+      if (s.phase === "typing") {
+        if (elapsed >= typeSpeed) {
+          lastTickRef.current = now;
+          if (s.charIndex < cw.length) {
+            setCharIndex(s.charIndex + 1);
+          } else {
+            setPhase("pausing");
+          }
+        }
+      } else if (s.phase === "pausing") {
+        if (elapsed >= pauseType) {
+          lastTickRef.current = now;
+          setPhase("deleting");
+        }
+      } else if (s.phase === "deleting") {
+        if (elapsed >= deleteSpeed) {
+          lastTickRef.current = now;
+          if (s.charIndex > 0) {
+            setCharIndex(s.charIndex - 1);
+          } else if (loop) {
+            setPhase("typing");
+            setWordIndex((prev) => (prev + 1) % words.length);
+            setCharIndex(0);
+          }
         }
       }
-    }
 
-    return () => clearTimeout(timeout);
-  }, [
-    phase,
-    charIndex,
-    currentWord,
-    typeSpeed,
-    deleteSpeed,
-    pauseType,
-    pauseDelete,
-    loop,
-    nextWord,
-  ]);
+      rafRef.current = requestAnimationFrame(tick);
+    };
+
+    lastTickRef.current = performance.now();
+    rafRef.current = requestAnimationFrame(tick);
+
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [words, typeSpeed, deleteSpeed, pauseType, pauseDelete, loop]);
 
   const displayedText = currentWord?.slice(0, charIndex) ?? "";
 
