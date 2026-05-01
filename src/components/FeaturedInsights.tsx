@@ -37,7 +37,7 @@ export default function FeaturedInsights({
         <div
           style={{
             fontSize: 12,
-            fontWeight: 700,
+            fontWeight: 500,
             letterSpacing: "0.12em",
             textTransform: "uppercase",
             color: "var(--m-ink-3)",
@@ -49,7 +49,7 @@ export default function FeaturedInsights({
         <h3
           style={{
             fontSize: "clamp(22px, 3vw, 32px)",
-            fontWeight: 700,
+            fontWeight: 500,
             lineHeight: 1.15,
             color: "var(--m-ink)",
             margin: "0 0 40px",

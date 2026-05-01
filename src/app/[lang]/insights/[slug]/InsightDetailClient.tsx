@@ -93,7 +93,7 @@ export default function InsightDetailClient({
           <span
             style={{
               fontSize: 10,
-              fontWeight: 700,
+              fontWeight: 500,
               letterSpacing: "0.08em",
               textTransform: "uppercase",
               color: "#fff",
@@ -114,7 +114,7 @@ export default function InsightDetailClient({
         <h1
           style={{
             fontSize: "clamp(28px, 4.5vw, 42px)",
-            fontWeight: 700,
+            fontWeight: 500,
             lineHeight: 1.15,
             color: "var(--m-ink)",
             margin: "0 0 8px",

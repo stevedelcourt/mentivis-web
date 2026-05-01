@@ -74,7 +74,7 @@ export default function AboutPage() {
             {a.why.map((w, i) => (
               <div key={i} style={{ padding: 32, borderRight: i < a.why.length - 1 ? "1px solid var(--m-line)" : "none" }}>
                 <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 14, marginBottom: 12 }}>0{i + 1}</div>
-                <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 10px" }}>{w.title}</h4>
+                <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 10px" }}>{w.title}</h4>
                 <p style={{ color: "var(--m-ink-3)", fontSize: 14.5, margin: 0, lineHeight: 1.55 }}>{w.body}</p>
               </div>
             ))}
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
               {a.cost.map((c, i) => (
                 <div key={i} style={{ borderTop: "1px solid var(--m-ink)", paddingTop: 18 }}>
-                  <h4 style={{ fontFamily: "var(--f-display)", fontSize: 20, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 8px" }}>{c.title}</h4>
+                  <h4 style={{ fontFamily: "var(--f-display)", fontSize: 20, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 8px" }}>{c.title}</h4>
                   <p style={{ color: "var(--m-ink-3)", fontSize: 15, margin: 0, lineHeight: 1.5 }}>{c.body}</p>
                 </div>
               ))}

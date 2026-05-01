@@ -236,7 +236,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
               style={{
                 fontFamily: "var(--f-display)",
                 fontSize: "clamp(26px, 3vw, 36px)",
-                fontWeight: 700,
+                fontWeight: 500,
                 color: "white",
                 lineHeight: 1,
                 marginBottom: 8,
@@ -277,7 +277,7 @@ function CaseSection({
           style={{
             fontFamily: "var(--f-display)",
             fontSize: "clamp(28px, 3vw, 40px)",
-            fontWeight: 700,
+            fontWeight: 500,
             letterSpacing: "-1.5px",
             lineHeight: 1.1,
             margin: "0 0 48px",

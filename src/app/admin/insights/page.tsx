@@ -237,7 +237,7 @@ export default function AdminInsightsPage() {
                   <span
                     style={{
                       fontSize: 10,
-                      fontWeight: 700,
+                      fontWeight: 500,
                       textTransform: "uppercase",
                       letterSpacing: "0.06em",
                       padding: "3px 8px",
@@ -309,7 +309,7 @@ export default function AdminInsightsPage() {
                   background: "#fff",
                 }}
               >
-                <h3 style={{ margin: "0 0 16px", fontSize: 16, fontWeight: 700 }}>{label}</h3>
+                <h3 style={{ margin: "0 0 16px", fontSize: 16, fontWeight: 500 }}>{label}</h3>
                 {[0, 1, 2].map((pos) => (
                   <div key={pos} style={{ marginBottom: 12 }}>
                     <label style={{ fontSize: 12, fontWeight: 600, color: "#686b82", display: "block", marginBottom: 4 }}>

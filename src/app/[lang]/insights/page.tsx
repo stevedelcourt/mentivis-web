@@ -71,7 +71,7 @@ export default function InsightsPage() {
           <div
             style={{
               fontSize: 12,
-              fontWeight: 700,
+              fontWeight: 500,
               letterSpacing: "0.12em",
               textTransform: "uppercase",
               color: "var(--m-ink-3)",
@@ -83,7 +83,7 @@ export default function InsightsPage() {
           <h1
             style={{
               fontSize: "clamp(32px, 5vw, 48px)",
-              fontWeight: 700,
+              fontWeight: 500,
               lineHeight: 1.12,
               color: "var(--m-ink)",
               margin: 0,
@@ -241,7 +241,7 @@ function FilterPill({
       onClick={onClick}
       style={{
         fontSize: 11,
-        fontWeight: 700,
+        fontWeight: 500,
         letterSpacing: "0.06em",
         textTransform: "uppercase",
         padding: "7px 14px",

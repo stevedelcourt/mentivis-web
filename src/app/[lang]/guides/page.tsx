@@ -182,7 +182,7 @@ function DownloadModal({
             >
               <span className="material-symbols-outlined" style={{ fontSize: 28, color: "#2e7d32" }}>check</span>
             </div>
-            <h3 style={{ fontSize: 20, fontWeight: 700, margin: "0 0 10px", color: "var(--m-ink)" }}>
+            <h3 style={{ fontSize: 20, fontWeight: 500, margin: "0 0 10px", color: "var(--m-ink)" }}>
               {t.guides.modalSuccessTitle}
             </h3>
             <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.5, margin: 0 }}>
@@ -191,7 +191,7 @@ function DownloadModal({
           </div>
         ) : (
           <>
-            <h3 style={{ fontSize: 20, fontWeight: 700, margin: "0 0 6px", color: "var(--m-ink)" }}>
+            <h3 style={{ fontSize: 20, fontWeight: 500, margin: "0 0 6px", color: "var(--m-ink)" }}>
               {t.guides.modalTitle}
             </h3>
             <p style={{ color: "var(--m-ink-3)", fontSize: 14, lineHeight: 1.5, margin: "0 0 22px" }}>
@@ -409,7 +409,7 @@ function GuideCard({
         <h3
           style={{
             fontSize: "clamp(20px, 2.5vw, 26px)",
-            fontWeight: 700,
+            fontWeight: 500,
             color: "var(--m-ink)",
             margin: "0 0 12px",
             lineHeight: 1.2,
@@ -623,7 +623,7 @@ export default function GuidesPage() {
                 <h3
                   style={{
                     fontSize: 22,
-                    fontWeight: 700,
+                    fontWeight: 500,
                     color: "var(--m-ink)",
                     margin: "10px 0 8px",
                     lineHeight: 1.2,

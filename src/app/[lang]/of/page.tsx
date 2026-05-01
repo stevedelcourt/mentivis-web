@@ -82,7 +82,7 @@ export default function OfPage() {
                   <span className="material-symbols-outlined" style={{ color: "#6b73d6", fontSize: 22 }}>{s.icon}</span>
                   <span style={{ fontFamily: "var(--f-display)", color: "#6b73d6", fontSize: 14 }}>0{i + 1}</span>
                 </div>
-                <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 10px", color: "white" }}>{s.title}</h4>
+                <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 10px", color: "white" }}>{s.title}</h4>
                 <p style={{ color: "rgba(255,255,255,0.65)", fontSize: 14.5, margin: 0, lineHeight: 1.55 }}>{s.body}</p>
               </div>
             ))}
@@ -105,10 +105,10 @@ export default function OfPage() {
               fontSize: 56,
               color: "#6b73d6",
               lineHeight: 1,
-              fontWeight: 700,
+              fontWeight: 500,
             }}>%</div>
             <div>
-              <h4 style={{ fontFamily: "var(--f-display)", fontSize: 24, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 8px", color: "white" }}>{o.paymentTitle}</h4>
+              <h4 style={{ fontFamily: "var(--f-display)", fontSize: 24, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 8px", color: "white" }}>{o.paymentTitle}</h4>
               <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 15.5, lineHeight: 1.55, margin: 0 }}>{o.paymentBody}</p>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function OfPage() {
               {o.results.map((r, i) => (
                 <li key={i} style={{ display: "grid", gridTemplateColumns: "60px 1fr", gap: 20, padding: "22px 0", borderBottom: "1px solid var(--m-line)" }}>
                   <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 18 }}>0{i + 1}</div>
-                  <span style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", color: "var(--m-ink)", lineHeight: 1.3 }}>{r}</span>
+                  <span style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", color: "var(--m-ink)", lineHeight: 1.3 }}>{r}</span>
                 </li>
               ))}
             </ul>
@@ -135,7 +135,7 @@ export default function OfPage() {
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 16 }}>{lang === "fr" ? "Ressources" : "Resources"}</div>
-              <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
+              <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 500, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
                 {lang === "fr" ? "Les guides pratiques pour structurer votre organisme" : "Practical guides to structure your organization"}
               </h3>
               <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px", maxWidth: 480 }}>

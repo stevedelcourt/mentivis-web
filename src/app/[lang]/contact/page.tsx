@@ -26,7 +26,7 @@ function ContactSuccess({ title, body, back }: { title: string; body: string; ba
         display: "inline-flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: 24,
         marginBottom: 24,
       }}>✓</div>
-      <h3 style={{ fontFamily: "var(--f-display)", fontSize: 32, fontWeight: 700, letterSpacing: "-1px", margin: "0 0 12px" }}>{title}</h3>
+      <h3 style={{ fontFamily: "var(--f-display)", fontSize: 32, fontWeight: 500, letterSpacing: "-1px", margin: "0 0 12px" }}>{title}</h3>
       <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px" }}>{body}</p>
       <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 14, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
         {back}

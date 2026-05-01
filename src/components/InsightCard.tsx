@@ -206,7 +206,7 @@ export function CategoryBadge({ label }: { label: string }) {
     <span
       style={{
         fontSize: 9,
-        fontWeight: 700,
+        fontWeight: 500,
         letterSpacing: "0.07em",
         textTransform: "uppercase",
         color: "var(--m-ink-3)",

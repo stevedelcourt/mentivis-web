@@ -53,7 +53,7 @@ function ProofSection({ proofs, proofTitle, proofNote }: { proofs: { value: stri
             >
               <div style={{
                 fontFamily: "var(--f-display)",
-                fontWeight: 700,
+                fontWeight: 500,
                 fontSize: "clamp(44px, 5.5vw, 76px)",
                 letterSpacing: "-0.04em",
                 lineHeight: 0.95,
@@ -211,7 +211,7 @@ export default function HomePage() {
               {h.differentiation.map((d, i) => (
                 <div key={i} style={{ background: "white", padding: 32 }}>
                   <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 14 }}>{d.n}</div>
-                  <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "10px 0 12px" }}>{d.title}</h4>
+                  <h4 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", margin: "10px 0 12px" }}>{d.title}</h4>
                   <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.55, margin: 0 }}>{d.body}</p>
                 </div>
               ))}

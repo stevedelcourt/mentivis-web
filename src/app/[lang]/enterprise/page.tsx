@@ -110,7 +110,7 @@ export default function EnterprisePage() {
             </div>
             <div>
               <div className="t-eyebrow" style={{ marginBottom: 16 }}>{e.scoreTeaserEyebrow}</div>
-              <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
+              <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 500, letterSpacing: "-0.5px", lineHeight: 1.15, margin: "0 0 16px", color: "var(--m-ink)" }}>
                 {e.scoreTeaserTitle}
               </h3>
               <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px", maxWidth: 480 }}>

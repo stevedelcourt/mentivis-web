@@ -14,7 +14,7 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
   return (
     <div style={{ maxWidth: 260 }}>
       {title && (
-        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--m-ink)", margin: "0 0 8px", lineHeight: 1.35 }}>
+        <p style={{ fontSize: 15, fontWeight: 500, color: "var(--m-ink)", margin: "0 0 8px", lineHeight: 1.35 }}>
           {title}
         </p>
       )}
@@ -37,7 +37,7 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
         </Link>
       )}
       <Link href={`/${lang}/meeting`} style={{ textDecoration: "none" }}>
-        <div style={{ fontWeight: 700, fontSize: 18, color: "var(--m-ink)", marginBottom: 2 }}>Mathias Costes</div>
+        <div style={{ fontWeight: 500, fontSize: 18, color: "var(--m-ink)", marginBottom: 2 }}>Mathias Costes</div>
       </Link>
       <div style={{ fontSize: 13, color: "var(--m-ink-3)", marginBottom: 20 }}>Partner Mentivis</div>
       <div style={{ display: "flex", flexDirection: "column" as const, gap: 10, fontSize: 14, color: "var(--m-ink-3)" }}>

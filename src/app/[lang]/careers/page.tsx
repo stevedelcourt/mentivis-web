@@ -152,7 +152,7 @@ export default function CareersPage() {
                     style={{
                       fontFamily: "var(--f-display)",
                       fontSize: 32,
-                      fontWeight: 700,
+                      fontWeight: 500,
                       letterSpacing: "-0.8px",
                       margin: "0 0 18px",
                       color: "var(--m-ink)",
@@ -188,7 +188,7 @@ export default function CareersPage() {
                     style={{
                       fontFamily: "var(--f-display)",
                       fontSize: 18,
-                      fontWeight: 700,
+                      fontWeight: 500,
                       letterSpacing: "-0.3px",
                       margin: "0 0 10px",
                       color: "var(--m-ink)",
@@ -233,7 +233,7 @@ export default function CareersPage() {
                   <div>
                     <div
                       style={{
-                        fontWeight: 700,
+                        fontWeight: 500,
                         fontSize: 16,
                         color: "var(--m-ink)",
                         marginBottom: 2,
@@ -277,7 +277,7 @@ export default function CareersPage() {
                     style={{
                       fontFamily: "var(--f-display)",
                       fontSize: 18,
-                      fontWeight: 700,
+                      fontWeight: 500,
                       letterSpacing: "-0.3px",
                       margin: "0 0 8px",
                       color: "var(--m-ink)",
@@ -316,7 +316,7 @@ export default function CareersPage() {
                   style={{
                     fontFamily: "var(--f-display)",
                     fontSize: 22,
-                    fontWeight: 700,
+                    fontWeight: 500,
                     letterSpacing: "-0.5px",
                     margin: "0 0 8px",
                     color: "var(--m-ink)",

@@ -138,7 +138,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
                 <div>
-                  <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 2.5vw, 32px)", fontWeight: 700, letterSpacing: "-1px", margin: 0, lineHeight: 1.1 }}>{p.title}</h3>
+                  <h3 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(24px, 2.5vw, 32px)", fontWeight: 500, letterSpacing: "-1px", margin: 0, lineHeight: 1.1 }}>{p.title}</h3>
                   <p style={{ color: "var(--m-ink-3)", fontSize: 16.5, lineHeight: 1.55, margin: "16px 0 0", maxWidth: 360 }}>{p.body}</p>
                 </div>
                 <ul className="dot-list" style={{ marginTop: 4 }}>
@@ -153,7 +153,7 @@ export default function SolutionsPage() {
       {/* Julie Steiner */}
       <section style={{ padding: "100px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
         <div className="container">
-          <h2 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(28px, 3vw, 40px)", fontWeight: 700, letterSpacing: "-1.5px", lineHeight: 1.1, margin: "0 0 48px" }}>
+          <h2 style={{ fontFamily: "var(--f-display)", fontSize: "clamp(28px, 3vw, 40px)", fontWeight: 500, letterSpacing: "-1.5px", lineHeight: 1.1, margin: "0 0 48px" }}>
             {lang === "fr" ? "Votre interlocutrice pour vos projets" : "Your contact for your projects"}
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "260px 1fr", gap: 48, alignItems: "start" }} className="m-julie-row">
@@ -168,7 +168,7 @@ export default function SolutionsPage() {
             </div>
             <div style={{ display: "flex", flexDirection: "column" as const, gap: 14, paddingTop: 4 }}>
               <div>
-                <h3 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, letterSpacing: "-0.5px", margin: "0 0 4px" }}>{s.julie.name}</h3>
+                <h3 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", margin: "0 0 4px" }}>{s.julie.name}</h3>
                 <p style={{ fontSize: 14, color: "var(--m-purple)", fontWeight: 600, margin: 0 }}>Partner Mentivis</p>
               </div>
               <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.6, margin: 0 }}>{s.julie.body}</p>

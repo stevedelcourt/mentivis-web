@@ -29,7 +29,7 @@ export default function LegalPageLayout({
         {sections.map((section, i) => (
           <Reveal key={i} delay={i * 50}>
             <div style={{ marginBottom: 40 }}>
-              <h2 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 700, margin: "0 0 12px", letterSpacing: "-0.5px" }}>
+              <h2 style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, margin: "0 0 12px", letterSpacing: "-0.5px" }}>
                 {section.title}
               </h2>
               {"body" in section ? (
