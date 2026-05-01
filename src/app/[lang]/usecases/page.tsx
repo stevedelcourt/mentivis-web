@@ -84,33 +84,33 @@ const casesOf: UseCase[] = [
 
 const casesSolutions: UseCase[] = [
   {
-    tag: "Conseil · PME · 120 collaborateurs",
+    tag: "Éditeur de logiciel · 320 développeurs · SaaS B2B",
     context:
-      "Projets complexes nécessitant une expertise formation externe. Manque de temps interne pour structurer les dispositifs. Besoin d\'un interlocuteur unique et d\'un reporting clair.",
+      "Dette technique croissante, codebase legacy difficile à maintenir. Équipes fragmentées entre anciens et nouveaux stacks. Temps de mise en production allongé, turnover élevé chez les profils seniors.",
     solutions: [
-      "Mission de conseil en ingénierie de formation : diagnostic, structuration, déploiement",
-      "Mise en place d\'un comité de pilotage mensuel avec reporting chiffré des indicateurs clés",
-      "Formation des équipes RH internes à l\'autonomie sur le pilotage des dispositifs",
+      "Académie interne DevOps : CI/CD, tests automatisés, clean architecture par squads",
+      "Programme de mentorship technique senior → junior avec revue de code systématique",
+      "Hackathons internes mensuels et certification sur les nouveaux frameworks adoptés",
     ],
     results: [
-      { value: "+60%", label: "Efficacité formation" },
-      { value: "1 interlocuteur", label: "Point unique" },
-      { value: "8 mois", label: "Déploiement" },
+      { value: "-55%", label: "Dette technique" },
+      { value: "+38%", label: "Déploiements / sem" },
+      { value: "10 mois", label: "Déploiement" },
     ],
   },
   {
-    tag: "Tech · Start-up · 45 salariés",
+    tag: "ESN · 180 consultants · Cloud & Data",
     context:
-      "Scaling rapide avec recrutement de profils juniors. Besoin de monter en compétence sur les bonnes pratiques techniques et le produit. Culture d\'apprentissage à créer.",
+      "Consultants sur 40 projets clients avec stacks très hétérogènes. Aucune montée en compétence structurée sur le cloud native et l'IA générative. Certifications partenaires (AWS, Azure) en retard.",
     solutions: [
-      "Bootcamp d\'onboarding technique personnalisé par rôle (dev, product, data)",
-      "Programme de mentorat interne et accès à une plateforme de formation tech continue",
-      "Ateliers mensuels de veille technologique et partage de connaissances",
+      "Labs internes par practice (Kubernetes, LLM, data engineering) avec projets réels",
+      "Parcours de certification accélérée AWS/Azure avec sandbox dédiés et mentorat",
+      "Communautés de practice tech et conférences internes mensuelles animées par les seniors",
     ],
     results: [
-      { value: "-40%", label: "Time-to-productivity" },
-      { value: "100%", label: "Juniors accompagnés" },
-      { value: "4 mois", label: "Déploiement" },
+      { value: "+92%", label: "Certifications cloud" },
+      { value: "+45%", label: "TJM moyen" },
+      { value: "6 mois", label: "Déploiement" },
     ],
   },
 ];
@@ -119,12 +119,12 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
   return (
     <article
       style={{
-        background: "var(--m-ink)",
-        color: "white",
+        background: "var(--m-bg-soft)",
         borderRadius: 20,
         overflow: "hidden",
         display: "flex",
         flexDirection: "column" as const,
+        border: "1px solid var(--m-line)",
       }}
     >
       {/* Header */}
@@ -132,7 +132,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
         <div
           className="t-eyebrow"
           style={{
-            color: "rgba(255,255,255,0.55)",
+            color: "var(--m-ink-2)",
             marginBottom: 20,
             fontSize: 11,
             letterSpacing: "0.08em",
@@ -151,7 +151,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
               fontFamily: "var(--f-display)",
               fontSize: 16,
               fontWeight: 600,
-              color: "rgba(255,255,255,0.85)",
+              color: "var(--m-purple)",
               margin: "0 0 10px",
             }}
           >
@@ -159,7 +159,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
           </h4>
           <p
             style={{
-              color: "rgba(255,255,255,0.6)",
+              color: "var(--m-ink-3)",
               fontSize: 15,
               lineHeight: 1.6,
               margin: 0,
@@ -176,7 +176,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
               fontFamily: "var(--f-display)",
               fontSize: 16,
               fontWeight: 600,
-              color: "rgba(255,255,255,0.85)",
+              color: "var(--m-purple)",
               margin: "0 0 10px",
             }}
           >
@@ -187,7 +187,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
               <li
                 key={i}
                 style={{
-                  color: "rgba(255,255,255,0.6)",
+                  color: "var(--m-ink-3)",
                   fontSize: 15,
                   lineHeight: 1.55,
                   paddingLeft: 20,
@@ -218,8 +218,8 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
           gap: 1,
-          background: "rgba(255,255,255,0.08)",
-          borderTop: "1px solid rgba(255,255,255,0.1)",
+          background: "rgba(255,255,255,0.15)",
+          borderTop: "1px solid var(--m-line)",
         }}
         className="m-case-results"
       >
@@ -229,7 +229,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
             style={{
               padding: "28px 20px",
               textAlign: "center" as const,
-              background: "var(--m-ink)",
+              background: "var(--m-purple)",
             }}
           >
             <div
@@ -248,7 +248,7 @@ function CaseCard({ data, index }: { data: UseCase; index: number }) {
             <div
               style={{
                 fontSize: 12,
-                color: "rgba(255,255,255,0.45)",
+                color: "rgba(255,255,255,0.6)",
                 textTransform: "uppercase" as const,
                 letterSpacing: "0.08em",
                 fontWeight: 600,

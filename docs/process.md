@@ -240,6 +240,46 @@ Vercel auto-deploys from GitHub.
 ### 10.3 Prod (o2switch)
 Same as dev but use prod FTP credentials. Ensure `NEXT_PUBLIC_GTM_ID` is set in Vercel for the prod domain.
 
+## 11. FTP Sync Script (`scripts/ftp_sync.py`)
+
+### 11.1 Robustness Features
+The FTP sync script includes multiple safeguards against silent failures:
+
+- **Retry logic**: each file gets 2 attempts initially; failed files get a second pass with 3 retries
+- **Error reporting**: every failed upload prints to stderr with the exact error message — no more silent skips
+- **Progress tracking**: shows `current/total` for every file uploaded
+- **CSS verification**: after upload, scans all HTML files for `_next/static/chunks/*.css` references and checks they exist on the server; warns by name if any are missing
+- **Exit code 1** if any files still fail after all retries
+
+### 11.2 Common Issue — Missing CSS After Deploy
+If the site loads without styles (console shows `404` on `.css` chunks), the most likely cause is a transient FTP failure during upload. The script now detects and reports this, but you can also verify manually:
+
+```bash
+# Check that referenced CSS files exist on server
+curl -I https://sc4bovu7233.universe.wf/_next/static/chunks/0b77fyp3h9pug.css
+```
+
+If missing, re-run `python3 scripts/ftp_sync.py` — the retry logic will re-upload them.
+
+### 11.3 FTP Cleanup (Required After Structural Changes)
+**Our FTP script does NOT delete old files.** After any structural change (e.g. moving from `fr.html` to `fr/index.html`), you MUST manually clean the server:
+
+1. Connect to FTP:
+```bash
+FTP_HOST=sc4bovu7233.universe.wf FTP_USER=sc4bovu7233 FTP_PASSWORD=... python3 scripts/ftp_sync.py
+```
+
+2. Delete conflicting files at the root:
+```
+fr.html
+en.html
+index.html   (if it was manually copied from an old build)
+```
+
+3. Verify `fr/` and `en/` directories contain the latest `index.html`
+
+4. Clear browser cache / hard refresh after deploy
+
 ## 11. Image Organization
 
 All images go in `public/images/` with sub-folders:
