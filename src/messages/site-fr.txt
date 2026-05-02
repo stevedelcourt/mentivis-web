@@ -352,9 +352,9 @@ scoreTeaserCta: Démarrer le diagnostic
 
 # solutions
 eyebrow: Mentivis Solutions
-heroTitle[0]: Des outils conçus pour
-heroTitle[1]: transformer
-heroTitle[2]:  vos pratiques formation.
+heroTitle[0]: L'ingénierie au service de votre
+heroTitle[1]: transformation
+heroTitle[2]:  digitale.
 heroLead: Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation.
 
 # solutions.pillars[0]

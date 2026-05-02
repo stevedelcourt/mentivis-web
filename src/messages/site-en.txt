@@ -352,9 +352,9 @@ scoreTeaserCta: Start the assessment
 
 # solutions
 eyebrow: Mentivis Solutions
-heroTitle[0]: Tools designed to 
-heroTitle[1]: transform
-heroTitle[2]:  your training practices.
+heroTitle[0]: Engineering that drives your
+heroTitle[1]: digital
+heroTitle[2]:  transformation.
 heroLead: Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.
 
 # solutions.pillars[0]
