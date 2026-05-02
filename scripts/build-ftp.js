@@ -6,11 +6,18 @@ const rootDir = path.join(__dirname, "..");
 const apiDir = path.join(rootDir, "src", "app", "api");
 const apiBackupDir = path.join(rootDir, ".api-temp");
 const nextDir = path.join(rootDir, ".next");
+const outDir = path.join(rootDir, "out");
 
-// Clean Next.js cache to avoid stale route references
+// Clean Next.js cache AND out/ to avoid stale chunk references.
+// Next.js static export appends to out/ rather than replacing it,
+// so old chunks can persist and cause inconsistent HTML references.
 if (fs.existsSync(nextDir)) {
   fs.rmSync(nextDir, { recursive: true, force: true });
   console.log("Cleaned .next cache");
+}
+if (fs.existsSync(outDir)) {
+  fs.rmSync(outDir, { recursive: true, force: true });
+  console.log("Cleaned out/ directory");
 }
 
 // Copy API routes to temp backup, then remove from src/app

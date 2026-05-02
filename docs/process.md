@@ -270,7 +270,78 @@ Or via npm:
 npm run deploy              # same as ./scripts/deploy.sh
 ```
 
-### 10.5 Test Result (2026-05-02)
+### 10.5 Clean Build Requirement (Critical)
+
+When chunk filenames change (which happens on every build when source code changes), **old and new chunks can coexist in `out/` if the build cache is not cleared**. This causes HTML pages to reference **inconsistent chunk versions** — some pages load `main-app-ea6f24afb835bf04.js` while others still reference `main-app-c45e51a3e45d15c6.js` from a previous build.
+
+**Symptom:** `ChunkLoadError` on some pages but not others, or different pages loading different versions of the app.
+
+**Fix:** Always do a clean build before deploying:
+```bash
+rm -rf out .next
+npm run build:ftp
+```
+
+`scripts/build-ftp.js` now clears **both** `.next/` and `out/` before building to prevent stale files.
+
+**Verification:** After build, check that all HTML files reference the same `main-app` chunk:
+```bash
+grep -r 'main-app[^"]*\.js' out/ | sort -u
+```
+Expected: exactly **one** unique `main-app-XXXXXXXXXXXXXXXX.js` filename.
+
+### 10.6 FTP Static Cleanup (Old Chunks & Hash Dirs)
+
+**`scripts/ftp_sync.py` is additive only — it never deletes old files.** Over time this causes:
+
+1. **Old JS chunks accumulating** in `/_next/static/chunks/` (hundreds of unused files)
+2. **Old build hash directories** accumulating in `/_next/static/` (e.g., `UczeJus_vkl3HpWJ0LFIV`, `t8-fYrE2TMDkZKErIxvPM`)
+3. **Orphaned `_next` subdirectories** inside `chunks/` (naming collision artifacts)
+
+**When to clean:** After any deploy where chunk hashes have changed (check with the grep command in 10.5).
+
+**How to clean manually:**
+```bash
+# 1. List remote chunks vs local chunks
+python3 << 'EOF'
+import ftplib, os
+
+local = set()
+for root, _, files in os.walk('out/_next/static/chunks'):
+    for f in files:
+        local.add(os.path.relpath(os.path.join(root, f), 'out/_next/static/chunks').replace(os.sep, '/'))
+
+ftp = ftplib.FTP('sc4bovu7233.universe.wf')
+ftp.login('sc4bovu7233', 'RoxanStevenMathias2024')
+ftp.cwd('public_html/_next/static/chunks')
+remote = [i for i in ftp.nlst() if i not in ('.', '..') and '.' in i]
+
+old = [r for r in remote if r not in local]
+print(f"Old chunks to delete: {len(old)}")
+for f in sorted(old)[:10]:
+    print(f"  - {f}")
+
+# Delete
+for f in sorted(old):
+    try:
+        ftp.delete(f)
+    except:
+        pass
+print(f"Deleted {len(old)} old chunks")
+ftp.quit()
+EOF
+
+# 2. Clean old hash directories (keep only the current one)
+# Find current hash: ls out/_next/static/ | grep -v chunks | grep -v css | grep -v media
+# Then delete all others under public_html/_next/static/ except that one + chunks + css + media
+```
+
+**Impact of not cleaning:** None on functionality (current HTML only references current chunks), but:
+- Wastes server storage (700+ unused files)
+- Old chunks may be served if cached HTML still references them
+- Risk of naming collisions with old artifacts
+
+### 10.7 Test Result (2026-05-02)
 
 **Executed:** `./scripts/deploy.sh` (default: git push + FTP sc4)
 
