@@ -31,7 +31,7 @@ heroTitle[4]: .
 heroLead: Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.
 
 # home.entryEnterprise
-kicker: 01 - You are an enterprise
+kicker: 01｜You are an enterprise
 title: Turn training into a performance lever
 items[0]: Maturity audit
 items[1]: Internal academy creation
@@ -39,7 +39,7 @@ items[2]: Training policy & structure
 cta: Explore solutions
 
 # home.entryOf
-kicker: 02 - You are a training organization
+kicker: 02｜You are a training organization
 title: Structure, secure and grow your activity
 items[0]: Pedagogy & compliance
 items[1]: Strategy & positioning
@@ -47,7 +47,7 @@ items[2]: Outsourced services
 cta: Explore solutions
 
 # home.entrySolutions
-kicker: 03 - You are looking for a digital, dev or AI solution
+kicker: 03｜You are looking for a digital, dev or AI solution
 title: Custom tools, concrete solutions
 items[0]: Personalized platforms
 items[1]: AI solutions for training

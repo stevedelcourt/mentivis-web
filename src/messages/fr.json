@@ -34,7 +34,7 @@
     ],
     "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
     "entryEnterprise": {
-      "kicker": "01 - Vous êtes une entreprise",
+      "kicker": "01｜Vous êtes une entreprise",
       "title": "Transformer la formation en levier de performance",
       "items": [
         "Audit de maturité",
@@ -44,7 +44,7 @@
       "cta": "Découvrir les solutions"
     },
     "entryOf": {
-      "kicker": "02 - Vous êtes un organisme de formation",
+      "kicker": "02｜Vous êtes un organisme de formation",
       "title": "Structurer, sécuriser et développer votre activité",
       "items": [
         "Pédagogie & conformité",
@@ -54,7 +54,7 @@
       "cta": "Découvrir les solutions"
     },
     "entrySolutions": {
-      "kicker": "03 - Vous cherchez une solution digitale, dév ou IA",
+      "kicker": "03｜Vous cherchez une solution digitale, dév ou IA",
       "title": "Des outils sur mesure, des solutions concrètes",
       "items": [
         "Plateformes personnalisées",

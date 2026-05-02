@@ -34,7 +34,7 @@
     ],
     "heroLead": "Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.",
     "entryEnterprise": {
-      "kicker": "01 - You are an enterprise",
+      "kicker": "01｜You are an enterprise",
       "title": "Turn training into a performance lever",
       "items": [
         "Maturity audit",
@@ -44,7 +44,7 @@
       "cta": "Explore solutions"
     },
     "entryOf": {
-      "kicker": "02 - You are a training organization",
+      "kicker": "02｜You are a training organization",
       "title": "Structure, secure and grow your activity",
       "items": [
         "Pedagogy & compliance",
@@ -54,7 +54,7 @@
       "cta": "Explore solutions"
     },
     "entrySolutions": {
-      "kicker": "03 - You are looking for a digital, dev or AI solution",
+      "kicker": "03｜You are looking for a digital, dev or AI solution",
       "title": "Custom tools, concrete solutions",
       "items": [
         "Personalized platforms",
