@@ -204,13 +204,9 @@ export default function CookieConsentBanner() {
     ;(window as unknown as { CookieConsent: typeof CookieConsent }).CookieConsent = CookieConsent
 
     return () => {
-      try {
-        CookieConsent.reset()
-      } catch {
-        // ignore if already reset
-      }
-      const w = window as unknown as { _ccRun?: boolean }
-      w._ccRun = false
+      // Don't reset cookie consent on unmount — it causes the banner
+      // to reappear on every route change in Next.js App Router.
+      // The cookie itself persists via the browser's cookie store.
     }
   }, [])
 
