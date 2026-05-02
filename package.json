@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "build:ftp": "node scripts/build-ftp.js",
     "texts": "node scripts/txt2json.js",
     "texts:check": "node scripts/txt2json.js --check",
