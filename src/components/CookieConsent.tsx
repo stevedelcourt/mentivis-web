@@ -67,7 +67,7 @@ export default function CookieConsentBanner() {
         name: 'cc_cookie',
         path: '/',
         expiresAfterDays: 365,
-        secure: true,
+        secure: window.location.protocol === 'https:',
         sameSite: 'Strict',
       },
       guiOptions: {

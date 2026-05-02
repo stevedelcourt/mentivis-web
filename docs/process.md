@@ -296,12 +296,53 @@ public/images/
 **Format**: AVIF primary, webp/jpg fallback in the same folder.
 **Reference in code**: `/images/team/mathias.costes.avif`
 
-## 12. TXT → JSON Editing System
+## 12. Standalone Iframe Pages (`mentivis-solutions`)
 
-### 12.1 Philosophy
+### 12.1 Pattern
+Some sub-sites (e.g. the Mentivis Solutions Vercel app) are deployed independently but need to appear under the same domain and header. Instead of integrating them as Next.js pages, we embed them as full-screen iframes inside a minimal static HTML page.
+
+### 12.2 File Locations
+```
+public/mentivis-solutions/index.html          # root redirector / fallback
+public/fr/mentivis-solutions/index.html       # French version
+public/en/mentivis-solutions/index.html       # English version
+```
+
+These directories are static assets (not Next.js routes). They are copied verbatim into the `out/` folder during `npm run build:ftp` and uploaded via `ftp_sync.py`.
+
+### 12.3 Source Template
+`iframe-embed.html` (project root) is the reference template. It provides:
+- Full-viewport iframe (`width: 100%; height: 100%`)
+- Dark loader overlay with spinner
+- `allow="fullscreen"` attribute
+- 5-second loader fallback
+
+Copy this template to create new embedded sub-sites.
+
+### 12.4 Linking from Next.js Pages
+Internal links should use the dynamic `lang` prefix:
+```tsx
+<Link href={`/${lang}/mentivis-solutions`}>...</Link>
+```
+
+**Example change (2026-05-02):**
+`/solutions` hero secondary CTA updated:
+- Text: `"Nos approches"` → `"Voir plus"` (FR), `"Our approaches"` → `"Explore"` (EN)
+- Link: `/${lang}/solutions#solutions-pillars` → `/${lang}/mentivis-solutions`
+
+### 12.5 Deployment Notes
+- The iframe pages are included automatically in every `build:ftp` because they live under `public/`.
+- They persist on the o2switch server since `ftp_sync.py` never deletes files.
+- No API routes or server-side logic required.
+
+---
+
+## 13. TXT → JSON Editing System
+
+### 13.1 Philosophy
 All editable text content lives in human-readable `.txt` files. JSON files are **generated artifacts** — never edit them directly.
 
-### 12.2 Site Messages
+### 13.2 Site Messages
 **Source files:**
 - `src/messages/site-fr.txt`
 - `src/messages/site-en.txt`
@@ -326,7 +367,7 @@ nestedKey: value
 - Arrays use indexed notation: `key[0]: value`, `key[1]: value`
 - Sections start with `# sectionName` or `# section.array[index]`
 
-### 12.3 Insight Articles
+### 13.3 Insight Articles
 **Source files:**
 - `src/content/insights/{slug}.txt` — body + translated titles/excerpts
 - `src/content/insights/{slug}.tech.json` — metadata (slug, date, category, etc.)
@@ -360,7 +401,7 @@ English paragraph two.
 - Markdown headings inside body are preserved (only `# metadata`, `# bodyFr`, `# bodyEn` are treated as section boundaries)
 - Missing `bodyEn` defaults to empty string in generated JSON
 
-### 12.4 Commands
+### 13.4 Commands
 ```bash
 # Convert all .txt → .json (with backup and validation)
 npm run texts
@@ -372,15 +413,15 @@ npm run texts:check
 node scripts/json2txt.js
 ```
 
-### 12.5 Backup
+### 13.5 Backup
 `txt2json.js` creates a timestamped backup in `.backup/YYYY-MM-DD_HH-mm/` before overwriting any JSON. Maximum 10 backups kept.
 
-## 13. ImageHero Component
+## 14. ImageHero Component
 
-### 12.1 When to Use
+### 14.1 When to Use
 Any page with a **full-bleed background image hero** (e.g. `/about`, `/enterprise`, `/of`, `/solutions`) must use the shared `ImageHero` component instead of inline `<section>` markup. This ensures consistent padding, text alignment, and responsive behavior across all pages.
 
-### 12.2 Props
+### 14.2 Props
 ```tsx
 <ImageHero
   image="/images/heroes/photo.avif"
@@ -393,7 +434,7 @@ Any page with a **full-bleed background image hero** (e.g. `/about`, `/enterpris
 </ImageHero>
 ```
 
-### 12.3 Critical CSS Rule — `width: 100%` on Container
+### 14.3 Critical CSS Rule — `width: 100%` on Container
 The parent `<section>` uses `display: flex`. Without an explicit `width` on the inner `.container`, its width is determined by its **content** (the headline text). This causes the container to have a different width on every page, making `margin: 0 auto` center it at a different `left` position.
 
 **Always include:**
@@ -403,7 +444,7 @@ The parent `<section>` uses `display: flex`. Without an explicit `width` on the 
 
 This forces the container to fill the viewport before being capped by `max-width: 1240px`, ensuring the hero text starts at the exact same pixel on every page regardless of headline length.
 
-### 12.4 Title Formatting — No Line Breaks in JSX
+### 14.4 Title Formatting — No Line Breaks in JSX
 The `title` prop should be a single-line JSX expression to avoid whitespace text nodes that create invisible padding:
 
 ```tsx
@@ -420,7 +461,7 @@ The `title` prop should be a single-line JSX expression to avoid whitespace text
 </>
 ```
 
-## 13. Contact
+## 15. Contact
 
 For questions about this setup, check:
 - `AGENTS.md` — coding conventions and component hierarchy
