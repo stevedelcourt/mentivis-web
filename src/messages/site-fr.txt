@@ -39,7 +39,7 @@ items[2]: Politique et structure de formation
 cta: Découvrir les solutions
 
 # home.entryOf
-kicker: 02｜Vous êtes un organisme de formation
+kicker: 02｜Vous êtes un organisme de formation, école, enseignement supérieur
 title: Structurer, sécuriser et développer votre activité
 items[0]: Pédagogie & conformité
 items[1]: Stratégie & positionnement
@@ -47,7 +47,7 @@ items[2]: Services externalisés
 cta: Découvrir les solutions
 
 # home.entrySolutions
-kicker: 03｜Vous cherchez une solution digitale, dév ou IA
+kicker: 03｜Vous cherchez une solution digitale, dév, IA ou transformation IT
 title: Des outils sur mesure, des solutions concrètes
 items[0]: Plateformes personnalisées
 items[1]: Solutions IA adaptées à la formation

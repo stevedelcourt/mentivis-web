@@ -39,7 +39,7 @@ items[2]: Training policy & structure
 cta: Explore solutions
 
 # home.entryOf
-kicker: 02｜You are a training organization
+kicker: 02｜You are a training organization, school, or higher ed
 title: Structure, secure and grow your activity
 items[0]: Pedagogy & compliance
 items[1]: Strategy & positioning
@@ -47,7 +47,7 @@ items[2]: Outsourced services
 cta: Explore solutions
 
 # home.entrySolutions
-kicker: 03｜You are looking for a digital, dev or AI solution
+kicker: 03｜You are looking for a digital, dev, AI, or IT transformation solution
 title: Custom tools, concrete solutions
 items[0]: Personalized platforms
 items[1]: AI solutions for training
