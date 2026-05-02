@@ -81,12 +81,12 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
     { href: `/${lang}/enterprise`, label: t.nav.enterprise },
     { href: `/${lang}/of`, label: t.nav.of },
     { href: `/${lang}/solutions`, label: t.nav.solutions },
+    { href: `/${lang}/insights`, label: t.nav.insights },
   ];
 
   const resourceLinks = [
     { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
     { href: `/${lang}/score-formation`, label: "Score Formation" },
-    { href: `/${lang}/insights`, label: t.nav.insights },
   ];
 
   const corporateLinks = [

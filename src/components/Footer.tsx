@@ -147,7 +147,6 @@ export default function Footer({ t, lang }: FooterProps) {
               </div>
             </div>
             <FooterCol title={t.footer.navigation} links={[
-              { href: `/${lang}/`, label: t.nav.home },
               { href: `/${lang}/about`, label: t.nav.about },
               { href: `/${lang}/enterprise`, label: t.nav.enterprise },
               { href: `/${lang}/of`, label: t.nav.of },

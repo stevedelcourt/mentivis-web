@@ -166,7 +166,7 @@ button { font-family: inherit; cursor: pointer; }
   .m-footer-cols { grid-template-columns: 1fr 1fr !important; gap: 40px !important; }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1070px) {
   .m-nav-burger { display: inline-flex !important; }
   .m-nav-cta { display: none !important; }
   .m-nav-pill { display: none !important; }
