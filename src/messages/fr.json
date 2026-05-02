@@ -921,7 +921,14 @@
     "filterOldest": "Plus ancien",
     "readArticle": "Lire l'article",
     "backToList": "Retour aux insights",
-    "noArticles": "Aucun article dans cette catégorie.",
-    "metaDescription": "Actualités, analyses réglementaires, perspectives et notes stratégiques sur la formation professionnelle, l'éducation et la transformation digitale."
+    "noArticles": "Aucun article dans cette catégorie."
+  },
+  "videosPage": {
+    "eyebrow": "Vidéos",
+    "title": "Le conseil en mouvement",
+    "lead": "Vidéos de projets, coulisses du conseil, formats corporate et moments plus libres : Mentivis tel que ça se vit, au quotidien.",
+    "noVideos": "Aucune vidéo disponible pour le moment.",
+    "contactCta": "Contactez-nous",
+    "metaDescription": "Découvrez nos vidéos sur la formation, l'ingénierie pédagogique et les solutions digitales."
   }
 }

@@ -68,7 +68,7 @@ export default function CookieConsentBanner() {
         path: '/',
         expiresAfterDays: 365,
         secure: window.location.protocol === 'https:',
-        sameSite: 'Strict',
+        sameSite: 'Lax',
       },
       guiOptions: {
         consentModal: {
@@ -202,6 +202,16 @@ export default function CookieConsentBanner() {
     })
 
     ;(window as unknown as { CookieConsent: typeof CookieConsent }).CookieConsent = CookieConsent
+
+    return () => {
+      try {
+        CookieConsent.reset()
+      } catch {
+        // ignore if already reset
+      }
+      const w = window as unknown as { _ccRun?: boolean }
+      w._ccRun = false
+    }
   }, [])
 
   return null

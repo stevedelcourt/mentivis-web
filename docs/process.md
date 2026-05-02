@@ -240,6 +240,30 @@ Vercel auto-deploys from GitHub.
 ### 10.3 Prod (o2switch)
 Same as dev but use prod FTP credentials. Ensure `NEXT_PUBLIC_GTM_ID` is set in Vercel for the prod domain.
 
+### 10.4 All-in-One Deploy Script (`scripts/deploy.sh`)
+Combines git commit/push + optional Vercel CLI + FTP upload in one command.
+
+**Usage:**
+```bash
+./scripts/deploy.sh              # git push + FTP sc4 (dev)
+./scripts/deploy.sh --prod      # git push + FTP sc3 (prod)
+./scripts/deploy.sh --vercel    # git push + manual Vercel deploy
+./scripts/deploy.sh --prod --vercel  # git push + FTP sc3 + Vercel
+```
+
+Or via npm:
+```bash
+npm run deploy              # same as ./scripts/deploy.sh
+```
+
+**What it does:**
+1. `git add -A` + auto commit (`"Deploy YYYY-MM-DD HH:MM"`) + `git push origin main`
+2. GitHub push triggers Vercel auto-deploy (if connected)
+3. Optional `vercel --prod` if `--vercel` flag passed
+4. `npm run build:ftp` + upload to FTP (sc4 default, sc3 if `--prod`)
+
+**FTP credentials** are hardcoded in the script (`FTP_PASSWORD=RoxanStevenMathias2024`).
+
 ## 11. FTP Sync Script (`scripts/ftp_sync.py`)
 
 ### 11.1 Robustness Features
@@ -467,3 +491,132 @@ For questions about this setup, check:
 - `AGENTS.md` — coding conventions and component hierarchy
 - `docs/hero-pattern.md` — hero layout patterns
 - `memory.md` — Material Symbols usage
+
+---
+
+## 16. Videos Page
+
+### 16.1 Overview
+The `/videos` page displays all Mentivis video content in a responsive grid. It uses the shared `ImageHero` component (like `/enterprise`) with a full-bleed background image.
+
+**Features:**
+- 2-column grid (collapses to 1-col on mobile ≤720px)
+- Native HTML5 video player for local MP4 files
+- YouTube iframe embeds (privacy mode, minimal interface)
+- Play-one-at-a-time logic (clicking play pauses all others)
+- Hover-only controls (Safari CSS hides overlay play button)
+- Staggered entrance animation via `Reveal` component
+- Max 24 videos (enforced in `useVideos()` hook)
+
+### 16.2 Video Content Management
+**Source files:**
+- `src/content/videos/videos-fr.txt`
+- `src/content/videos/videos-en.txt`
+
+**Generated files:**
+- `src/content/videos/videos-fr.json`
+- `src/content/videos/videos-en.json`
+
+**Format:**
+```
+# video[0]
+title: Video title
+description: Short description under the video.
+filepath: videos/media/filename.mp4
+poster: videos/media/filename.jpg
+youtube: YOUTUBE_ID  # (optional - if present, ignores filepath/poster)
+
+# video[1]
+...
+```
+
+**Rules:**
+- Each video uses indexed notation: `video[0]`, `video[1]`, etc.
+- Either `filepath` (local MP4) OR `youtube` (YouTube ID) — not both
+- Posters are auto-generated JPG thumbnails (see Section 16.3)
+- Both languages must have identical structure (validated by `txt2json.js`)
+
+### 16.3 Video Thumbnail Generation
+**Script:** `scripts/generate-video-posters.js`
+
+**What it does:**
+- Scans `public/videos/media/*.mp4` for files without matching `.jpg` poster
+- Extracts frame at 5 seconds using ffmpeg (`-ss 5 -frames:v 1`)
+- Outputs JPG to same directory as source MP4
+
+**Run manually after adding new videos:**
+```bash
+node scripts/generate-video-posters.js
+```
+
+### 16.4 Video Data Hook
+**File:** `src/lib/videos.ts`
+
+**Usage:**
+```tsx
+const { data } = useVideos();
+const videos = data.videos || [];
+```
+
+Loads `videos-{lang}.json` based on current language. Returns `{ data: { videos: [...] } }`.
+
+### 16.5 Player Features
+**Native HTML5 video (local files):**
+- `controls` enabled, `preload="metadata"`
+- `aspectRatio: 16/9`, `borderRadius: var(--r-lg)`
+- Safari: hides overlay play button via `::-webkit-media-controls-overlay-play-button { display: none !important }`
+- Controls appear on hover via `::-webkit-media-controls { opacity: 0; transition }`
+
+**YouTube embeds:**
+- Privacy mode: `youtube-nocookie.com`
+- Minimal interface: `modestbranding=1&rel=0&iv_load_policy=3`
+- Lazy loading: `loading="lazy"`
+
+**Play-one-at-a-time:**
+Clicking play on any video automatically pauses all other `<video>` elements using a shared `videoRefs` array and `play` event listener.
+
+### 16.6 Site Messages
+The `videosPage` section in `src/messages/site-fr.txt` and `src/messages/site-en.txt`:
+
+```
+# videosPage
+eyebrow: Videos
+title: Consulting in motion
+lead: Project videos, behind the scenes...
+noVideos: No videos available at the moment.
+contactCta: Contact us
+metaDescription: ...
+```
+
+After editing, run `npm run texts` to regenerate JSON.
+
+### 16.7 Commands
+```bash
+# Generate missing video thumbnails
+node scripts/generate-video-posters.js
+
+# Convert videos txt → json (after editing videos-*.txt)
+npm run texts
+
+# Convert all txt → json (site messages + insights + videos)
+npm run texts
+```
+
+### 16.8 File Structure
+```
+public/videos/media/
+  ├── 1-cyber-text.mp4
+  ├── 1-cyber-text.jpg   # auto-generated poster
+  ├── 2-Mentivis-Strategy-Rap.mp4
+  ├── 2-Mentivis-Strategy-Rap.jpg
+  └── ...
+
+src/content/videos/
+  ├── videos-fr.txt
+  ├── videos-en.txt
+  ├── videos-fr.json    # generated
+  └── videos-en.json    # generated
+
+src/app/[lang]/videos/
+  └── page.tsx          # videos page component
+```

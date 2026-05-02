@@ -921,7 +921,14 @@
     "filterOldest": "Oldest first",
     "readArticle": "Read article",
     "backToList": "Back to insights",
-    "noArticles": "No articles in this category.",
+    "noArticles": "No articles in this category."
+  },
+  "videosPage": {
+    "eyebrow": "Videos",
+    "title": "Consulting in motion",
+    "lead": "Project videos, behind the scenes, corporate formats and more informal moments: Mentivis as it is lived, every day.",
+    "noVideos": "No videos available at the moment.",
+    "contactCta": "Contact us",
     "metaDescription": "News, regulatory insights, perspectives and strategy papers on professional training, education and digital transformation."
   }
 }

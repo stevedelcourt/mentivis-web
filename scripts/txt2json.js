@@ -15,6 +15,7 @@ const ROOT = path.join(__dirname, "..");
 const MESSAGES_DIR = path.join(ROOT, "src", "messages");
 const CONTENT_DIR = path.join(ROOT, "src", "content");
 const INSIGHTS_DIR = path.join(CONTENT_DIR, "insights");
+const VIDEOS_DIR = path.join(CONTENT_DIR, "videos");
 const BACKUP_DIR = path.join(ROOT, ".backup");
 const MAX_BACKUPS = 10;
 
@@ -299,6 +300,74 @@ function parseInsightTxt(text) {
 }
 
 /* ============================================================
+   Convert video lists
+   ============================================================ */
+function convertVideos() {
+  if (!fs.existsSync(VIDEOS_DIR)) return;
+
+  const pairs = [
+    { txt: "videos-fr.txt", json: "videos-fr.json" },
+    { txt: "videos-en.txt", json: "videos-en.json" },
+  ];
+
+  for (const { txt, json } of pairs) {
+    const txtPath = path.join(VIDEOS_DIR, txt);
+    const jsonPath = path.join(VIDEOS_DIR, json);
+
+    if (!fs.existsSync(txtPath)) {
+      console.warn(`⚠ Missing ${txt}, skipping`);
+      continue;
+    }
+
+    const text = fs.readFileSync(txtPath, "utf-8");
+    const parsed = parseVideosTxt(text);
+
+    if (!CHECK_ONLY) {
+      fs.writeFileSync(jsonPath, JSON.stringify(parsed, null, 2) + "\n", "utf-8");
+      console.log(`✓ ${txt} → ${json}`);
+    } else {
+      console.log(`✓ ${txt} parsed (dry-run)`);
+    }
+  }
+}
+
+function parseVideosTxt(text) {
+  const lines = text.split(/\r?\n/);
+  const videos = [];
+  let currentVideo = null;
+
+  for (let raw of lines) {
+    const line = raw.trim();
+    if (!line) continue;
+
+    if (line.startsWith("#")) {
+      // Section header like # videos[0]
+      if (currentVideo) {
+        videos.push(currentVideo);
+      }
+      currentVideo = {};
+      continue;
+    }
+
+    const colonIdx = line.indexOf(":");
+    if (colonIdx === -1) continue;
+
+    const key = line.slice(0, colonIdx).trim();
+    const value = line.slice(colonIdx + 1).trim();
+
+    if (currentVideo) {
+      currentVideo[key] = value;
+    }
+  }
+
+  if (currentVideo) {
+    videos.push(currentVideo);
+  }
+
+  return { videos };
+}
+
+/* ============================================================
    Main
    ============================================================ */
 function main() {
@@ -307,6 +376,7 @@ function main() {
   ensureBackup();
   convertSiteTexts();
   convertInsights();
+  convertVideos();
 
   console.log("\n✅ Done");
 }

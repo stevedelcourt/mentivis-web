@@ -9,7 +9,8 @@
     "texts": "node scripts/txt2json.js",
     "texts:check": "node scripts/txt2json.js --check",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",

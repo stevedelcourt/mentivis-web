@@ -1,0 +1,100 @@
+# videos[0]
+filepath: videos/media/1-cyber-text.mp4
+poster: videos/media/1-cyber-text.jpg
+title: Cyber Granny
+description: Cybersecurity is not just for experts. It's already your business.
+
+# videos[1]
+filepath: videos/media/2-Mentivis-Strategy-Rap.mp4
+poster: videos/media/2-Mentivis-Strategy-Rap.jpg
+title: Mentivis Strategy Rap
+description: A rapper talks consultants. Not the slide makers — the ones who deliver.
+
+# videos[2]
+filepath: videos/media/3Mentivis-reality.mp4
+poster: videos/media/3Mentivis-reality.jpg
+title: Mentivis Reality
+description: Everything is artificial. Except what we build with you.
+
+# videos[3]
+filepath: videos/media/4-Mentivis-Tout-est-possible.mp4
+poster: videos/media/4-Mentivis-Tout-est-possible.jpg
+title: Everything is Possible
+description: Everything is possible. As long as you do it. Mentivis campaign film.
+
+# videos[4]
+filepath: videos/media/4-birds-rock.mp4
+poster: videos/media/4-birds-rock.jpg
+title: Birds on the Rock
+description: Everything is possible. The world changes. Not you? Mentivis campaign film.
+
+# videos[5]
+filepath: videos/media/4a-waterfall.mp4
+poster: videos/media/4a-waterfall.jpg
+title: Waterfall
+description: Everything is possible. The world changes. Not you? Mentivis campaign film.
+
+# videos[6]
+filepath: videos/media/4b-opera.mp4
+poster: videos/media/4b-opera.jpg
+title: Opera
+description: Cultural and elegant sequence — art at the service of consulting.
+
+# videos[7]
+filepath: videos/media/5-RH Woman AD.mp4
+poster: videos/media/5-RH Woman AD.jpg
+title: HR Solutions for Enterprises
+description: Corporate HR video — recruitment and talent development.
+
+# videos[8]
+filepath: videos/media/7-Appel-a-Manifestation-first.mp4
+poster: videos/media/7-Appel-a-Manifestation-first.jpg
+title: Call for Interest Clip 1
+description: Presentation of the call for expressions of interest for Marseille associations. A local campaign for École Perrin Sainte Trinité.
+
+# videos[9]
+filepath: videos/media/8-Appel-a-Manifestation-second.mp4
+poster: videos/media/8-Appel-a-Manifestation-second.jpg
+title: Call for Interest Clip 2
+description: Presentation of the call for expressions of interest for Marseille associations. A local campaign for École Perrin Sainte Trinité in Marseille.
+
+# videos[10]
+filepath: videos/media/9-Santa-School.mp4
+poster: videos/media/9-Santa-School.jpg
+title: Santa School
+description: We didn't create a school for Santa. But maybe for you?
+
+# videos[11]
+filepath: videos/media/10-vacances16.mp4
+poster: videos/media/10-vacances16.jpg
+title: Finally, Vacation!
+description: Even during vacation, we're there. Because transformation doesn't stop.
+
+# videos[12]
+filepath: videos/media/15-flag.mp4
+poster: videos/media/15-flag.jpg
+title: Flag
+description: A social clip that makes you dance. So 80s!
+
+# videos[13]
+filepath: videos/media/16-train.mp4
+poster: videos/media/16-train.jpg
+title: The Train
+description: Train your teams on AI with Mentivis — don't miss the moving train, hop on board.
+
+# videos[14]
+filepath: videos/media/11-EcoSQ-alligator.mp4
+poster: videos/media/11-EcoSQ-alligator.jpg
+title: Ecolearn Alligator
+description: A campaign for our client Ecolearn, specialist in CSR training.
+
+# videos[15]
+filepath: videos/media/20-EcoSQ-toolate.mp4
+poster: videos/media/20-EcoSQ-toolate.jpg
+title: Ecolearn Too Late
+description: Second video of the campaign for our client Ecolearn, specialist in CSR training.
+
+# videos[16]
+youtube: dGoOE0eauSU
+title: Roxan Roumégas, Learning Club Podcast
+description: Roxan Roumégas explains why enterprises are the next grandes écoles.

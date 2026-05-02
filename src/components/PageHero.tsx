@@ -7,20 +7,24 @@ type PageHeroProps = {
   lead?: string;
   accentIndices?: number[];
   children?: ReactNode;
+  backgroundImage?: string;
+  backgroundColor?: string;
 };
 
-export default function PageHero({ eyebrow, titleParts, lead, accentIndices = [], children }: PageHeroProps) {
+export default function PageHero({ eyebrow, titleParts, lead, accentIndices = [], children, backgroundImage, backgroundColor }: PageHeroProps) {
   return (
-    <section style={{ paddingTop: 140, paddingBottom: 80, position: "relative" as const, overflow: "hidden" }}>
-      <div aria-hidden="true" style={{
-        position: "absolute" as const,
-        inset: 0,
-        backgroundImage: "linear-gradient(var(--m-line-2) 1px, transparent 1px)",
-        backgroundSize: "100% 96px",
-        opacity: 0.5,
-        pointerEvents: "none" as const,
-        maskImage: "linear-gradient(to bottom, black, transparent)",
-      }} />
+    <section style={{ paddingTop: 140, paddingBottom: 80, position: "relative" as const, overflow: "hidden", backgroundImage, backgroundColor, backgroundSize: backgroundImage ? "cover" : undefined, backgroundPosition: backgroundImage ? "center" : undefined }}>
+      {backgroundImage ? null : (
+        <div aria-hidden="true" style={{
+          position: "absolute" as const,
+          inset: 0,
+          backgroundImage: "linear-gradient(var(--m-line-2) 1px, transparent 1px)",
+          backgroundSize: "100% 96px",
+          opacity: 0.5,
+          pointerEvents: "none" as const,
+          maskImage: "linear-gradient(to bottom, black, transparent)",
+        }} />
+      )}
       <div className="container" style={{ position: "relative" as const }}>
         <Reveal>
           <div className="t-eyebrow" style={{ marginBottom: 28 }}>

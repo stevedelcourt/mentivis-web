@@ -1,0 +1,100 @@
+# videos[0]
+filepath: videos/media/1-cyber-text.mp4
+poster: videos/media/1-cyber-text.jpg
+title: Cyber Mamie
+description: La cybersécurité, ce n’est pas qu’une affaire d’experts. C’est déjà votre affaire.
+
+# videos[1]
+filepath: videos/media/2-Mentivis-Strategy-Rap.mp4
+poster: videos/media/2-Mentivis-Strategy-Rap.jpg
+title: Mentivis Strategy Rap
+description: Un rappeur parle de consultants. Pas ceux qui font des slides, ceux qui livrent.
+
+# videos[2]
+filepath: videos/media/3Mentivis-reality.mp4
+poster: videos/media/3Mentivis-reality.jpg
+title: Mentivis Reality
+description: Tout est artificiel. Sauf ce qu’on construit avec vous.
+
+# videos[3]
+filepath: videos/media/4-Mentivis-Tout-est-possible.mp4
+poster: videos/media/4-Mentivis-Tout-est-possible.jpg
+title: Tout est possible
+description: Tout est possible. À condition de le faire. Film campagne Mentivis
+
+# videos[4]
+filepath: videos/media/4-birds-rock.mp4
+poster: videos/media/4-birds-rock.jpg
+title: Birds on the Rock
+description: Tout est possible. Le monde change. Pas vous ? Film campagne Mentivis
+
+# videos[5]
+filepath: videos/media/4a-waterfall.mp4
+poster: videos/media/4a-waterfall.jpg
+title: Waterfall
+description: Tout est possible. Le monde change. Pas vous ? Film campagne Mentivis
+
+# videos[6]
+filepath: videos/media/4b-opera.mp4
+poster: videos/media/4b-opera.jpg
+title: Opéra
+description: Séquence culturelle et élégante — l'art au service du conseil.
+
+# videos[7]
+filepath: videos/media/5-RH Woman AD.mp4
+poster: videos/media/5-RH Woman AD.jpg
+title: Solutions RH pour entrepises
+description: Vidéo corporate RH — recrutement et développement des talents.
+
+# videos[8]
+filepath: videos/media/7-Appel-a-Manifestation-first.mp4
+poster: videos/media/7-Appel-a-Manifestation-first.jpg
+title: Appel à Manifestation d'Intérêt Clip 1
+description: Présentation de l'appel à manifestation d'intérêt pour les associations marseillaises. Une campagne locale pour l'école Perrin Sainte Trinité
+
+# videos[9]
+filepath: videos/media/8-Appel-a-Manifestation-second.mp4
+poster: videos/media/8-Appel-a-Manifestation-second.jpg
+title: Appel à Manifestation d'Intérêt Clip 2
+description: Présentation de l'appel à manifestation d'intérêt pour les associations marseillaises. Une campagne locale pour l'école Perrin Sainte Trinité à Marseille
+
+# videos[10]
+filepath: videos/media/9-Santa-School.mp4
+poster: videos/media/9-Santa-School.jpg
+title: Santa School
+description: On n’a pas créé une école pour le Père Noël. Mais peut-être pour vous ?
+
+# videos[11]
+filepath: videos/media/10-vacances16.mp4
+poster: videos/media/10-vacances16.jpg
+title: Enfin les Vacances !
+description: Même pendant les vacances, nous sommes là. Parce que la transformation ne s’arrête pas.
+
+# videos[12]
+filepath: videos/media/15-flag.mp4
+poster: videos/media/15-flag.jpg
+title: Flag
+description: Un clip social qui fait danser. Tellement années 80 !
+
+# videos[13]
+filepath: videos/media/16-train.mp4
+poster: videos/media/16-train.jpg
+title: Le Train
+description: Si vous vous formez à l’IA avec Mentivis, vous ne restez pas sur le quai, vous prenez le train en marche.
+
+# videos[14]
+filepath: videos/media/11-EcoSQ-alligator.mp4
+poster: videos/media/11-EcoSQ-alligator.jpg
+title: Ecolearn Alligator
+description: Une campagne pour notre client Ecolearn, spécialiste des formations RSE.
+
+# videos[15]
+filepath: videos/media/20-EcoSQ-toolate.mp4
+poster: videos/media/20-EcoSQ-toolate.jpg
+title: Ecolearn Too Late
+description: Deuxième vidéo de la campagne pour notre client Ecolearn, spécialiste des formations RSE.
+
+# videos[16]
+youtube: dGoOE0eauSU
+title: Roxan Roumégas, podcast Learning Club
+description: Roxan Roumégas explique pourquoi les entreprises sont les prochaines grandes écoles.

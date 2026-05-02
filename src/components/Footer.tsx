@@ -156,6 +156,7 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
               { href: `/${lang}/score-formation`, label: "Score Formation" },
               { href: `/${lang}/insights`, label: t.nav.insights },
+              { href: `/${lang}/videos`, label: lang === "fr" ? "Vidéos" : "Videos" },
             ]} />
             <FooterCol title={t.nav.corporate} links={[
               { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
