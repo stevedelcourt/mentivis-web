@@ -224,10 +224,24 @@ npm run build:ftp
 python3 scripts/ftp_sync.py
 ```
 
+**Build note:** `npm run build:ftp` uses Webpack (not Turbopack) for static export.
+Turbopack has a known chunk naming bug (GitHub #87680, #88775) that causes `ChunkLoadError` —
+HTML references non-existent chunk files (e.g., `11genh_764f2u.js` returns 404).
+
+The fix is in `scripts/build-ftp.js`:
+```javascript
+// ✅ Webpack (works)
+execSync("npx next build --webpack", { ... });
+
+// ❌ Turbopack (broken chunk references)
+execSync("npx next build", { ... });
+```
+
 **After deploy:**
 1. Check that `fr/` and `en/` directories exist on the server
 2. Delete any `fr.html`, `en.html` at the root if they exist from old builds
 3. Test `/fr/` and `/en/` in browser (hard refresh)
+4. Verify no `ChunkLoadError` in browser console
 
 ### 10.2 Git → Vercel
 ```bash
