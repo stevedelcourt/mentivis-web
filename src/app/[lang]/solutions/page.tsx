@@ -39,8 +39,8 @@ export default function SolutionsPage() {
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
-        <Link href={`/${lang}/solutions#solutions-pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
-          {lang === "fr" ? "Nos approches" : "Our approaches"}
+        <Link href={`/${lang}/mentivis-solutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
+          {lang === "fr" ? "Voir plus" : "Explore"}
           <Icon name="chevron_right" size={18} />
         </Link>
       </ImageHero>
