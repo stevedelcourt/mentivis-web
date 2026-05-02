@@ -256,6 +256,19 @@ Or via npm:
 npm run deploy              # same as ./scripts/deploy.sh
 ```
 
+### 10.5 Test Result (2026-05-02)
+
+**Executed:** `./scripts/deploy.sh` (default: git push + FTP sc4)
+
+**Result:**
+- Git commit: `b5d5cc7` — "Deploy 2026-05-02 21:55"
+- Git push: successful to `origin main`
+- FTP build: `npm run build:ftp` — success (866 files generated)
+- FTP upload: `866/866 files uploaded successfully` to `sc4bovu7233.universe.wf`
+- Verification: `http://sc4bovu7233.universe.wf/fr` returns `200 OK`
+
+**Conclusion:** Script works as expected. Git → FTP sc4 flow is fully functional.
+
 **What it does:**
 1. `git add -A` + auto commit (`"Deploy YYYY-MM-DD HH:MM"`) + `git push origin main`
 2. GitHub push triggers Vercel auto-deploy (if connected)

@@ -33,7 +33,7 @@ try {
     stdio: "inherit",
     cwd: rootDir,
   });
-  execSync("npx next build", {
+  execSync("npx next build --webpack", {
     stdio: "inherit",
     cwd: rootDir,
     env: { ...process.env, NEXT_BUILD_TARGET: "ftp" },
