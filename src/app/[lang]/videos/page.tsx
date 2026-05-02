@@ -107,9 +107,11 @@ export default function VideosPage() {
                         <iframe
                           src={`https://www.youtube-nocookie.com/embed/${video.youtube}?modestbranding=1&rel=0&iv_load_policy=3`}
                           title={video.title}
+                          name={`youtube-${video.youtube}`}
                           loading="lazy"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowFullScreen
+                          sandbox="allow-scripts allow-same-origin allow-presentation"
                           style={{
                             width: "100%",
                             height: "auto",
