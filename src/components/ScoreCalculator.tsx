@@ -469,7 +469,16 @@ export default function ScoreCalculator() {
         pageName: "Score Formation",
       }
     );
-    if (ok) setContactSent(true);
+    if (ok) {
+      setContactSent(true);
+      if (typeof window !== "undefined" && (window as any).dataLayer) {
+        (window as any).dataLayer.push({
+          event: "form_submit_success",
+          form_name: "score_calculator",
+          form_language: lang,
+        });
+      }
+    }
   }, [contactName, contactEmail, consent, honeypot, hsSubmit]);
 
   const exportPDF = useCallback(async () => {

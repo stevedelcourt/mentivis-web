@@ -117,6 +117,13 @@ function DownloadModal({
 
     if (ok) {
       onSuccess();
+      if (typeof window !== "undefined" && (window as any).dataLayer) {
+        (window as any).dataLayer.push({
+          event: "form_submit_success",
+          form_name: "guides",
+          form_language: lang,
+        });
+      }
     }
   };
 

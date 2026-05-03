@@ -4,64 +4,31 @@ import { useEffect } from 'react'
 import 'vanilla-cookieconsent/dist/cookieconsent.css'
 import * as CookieConsent from 'vanilla-cookieconsent'
 
-import { GTM_ID } from '@/lib/config'
-
-
-function initDataLayer() {
-  const w = window as unknown as {
-    dataLayer: unknown[]
-    gtag: (...args: unknown[]) => void
-  }
-  w.dataLayer = w.dataLayer || []
-  function gtag(...args: unknown[]) {
-    w.dataLayer.push(args)
-  }
-  w.gtag = gtag
-  gtag('consent', 'default', {
-    ad_storage: 'denied',
-    analytics_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied',
-    wait_for_update: 500,
-  })
+type Props = {
+  lang: string
 }
 
-function loadGTMScript() {
-  if (document.getElementById('gtm-script-loaded')) return
-  const script = document.createElement('script')
-  script.id = 'gtm-script-loaded'
-  script.async = true
-  script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`
-  document.head.appendChild(script)
-}
-
-function updateConsent(accepted: boolean) {
+function updateConsent(categories: string[]) {
   const w = window as unknown as { gtag?: (...args: unknown[]) => void }
   if (!w.gtag) return
+
+  const hasAnalytics = categories.includes('analytics')
+  const hasMarketing = categories.includes('marketing')
+
   w.gtag('consent', 'update', {
-    ad_storage: accepted ? 'granted' : 'denied',
-    analytics_storage: accepted ? 'granted' : 'denied',
-    ad_user_data: accepted ? 'granted' : 'denied',
-    ad_personalization: accepted ? 'granted' : 'denied',
+    ad_storage: hasMarketing ? 'granted' : 'denied',
+    analytics_storage: hasAnalytics ? 'granted' : 'denied',
+    ad_user_data: hasMarketing ? 'granted' : 'denied',
+    ad_personalization: hasMarketing ? 'granted' : 'denied',
   })
 }
 
 function handleConsent(cookie: { categories?: string[] }) {
-  const hasAnalytics = cookie.categories?.includes('analytics') ?? false
-  if (hasAnalytics) {
-    loadGTMScript()
-    const w = window as unknown as { gtag?: (...args: unknown[]) => void; dataLayer?: unknown[] }
-    if (w.gtag) {
-      w.gtag('js', new Date())
-    }
-  }
-  updateConsent(hasAnalytics)
+  updateConsent(cookie.categories || [])
 }
 
-export default function CookieConsentBanner() {
+export default function CookieConsentBanner({ lang }: Props) {
   useEffect(() => {
-    initDataLayer()
-
     CookieConsent.run({
       cookie: {
         name: 'cc_cookie',
@@ -97,6 +64,21 @@ export default function CookieConsentBanner() {
             },
           },
         },
+        marketing: {
+          enabled: false,
+          readOnly: false,
+          autoClear: {
+            cookies: [
+              { name: /_gcl/ },
+              { name: '_fbp' },
+            ],
+          },
+          services: {
+            google_ads: {
+              label: lang === 'fr' ? 'Publicité Google' : 'Google Ads',
+            },
+          },
+        },
       },
       onFirstConsent: ({ cookie }) => {
         handleConsent(cookie)
@@ -108,7 +90,7 @@ export default function CookieConsentBanner() {
         handleConsent(cookie)
       },
       language: {
-        default: 'fr',
+        default: lang === 'en' ? 'en' : 'fr',
         translations: {
           fr: {
             consentModal: {
@@ -143,6 +125,12 @@ export default function CookieConsentBanner() {
                   description:
                     "Ces cookies nous permettent de mesurer l'audience et d'améliorer notre site.",
                   linkedCategory: 'analytics',
+                },
+                {
+                  title: 'Marketing et publicité personnalisée',
+                  description:
+                    "Ces cookies permettent de mesurer l'efficacité de nos campagnes publicitaires et de proposer des contenus personnalisés.",
+                  linkedCategory: 'marketing',
                 },
               ],
             },
@@ -181,6 +169,12 @@ export default function CookieConsentBanner() {
                     "These cookies allow us to measure audience and improve our site.",
                   linkedCategory: 'analytics',
                 },
+                {
+                  title: 'Marketing & personalized advertising',
+                  description:
+                    "These cookies help measure the effectiveness of our advertising campaigns and provide personalized content.",
+                  linkedCategory: 'marketing',
+                },
               ],
             },
           },
@@ -208,7 +202,7 @@ export default function CookieConsentBanner() {
       // to reappear on every route change in Next.js App Router.
       // The cookie itself persists via the browser's cookie store.
     }
-  }, [])
+  }, [lang])
 
   return null
 }

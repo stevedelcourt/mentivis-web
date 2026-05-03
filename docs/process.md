@@ -950,3 +950,175 @@ lighthouse http://localhost:3456/fr/solutions --output=json
 ### 19.4 Audit Results
 
 *Run `lighthouse` locally after each major build and paste results here.*
+
+---
+
+## 20. Cookie Consent & Google Consent Mode (v2)
+
+### 20.1 Architecture
+
+The site uses **vanilla-cookieconsent** with **Google Consent Mode v2** for GDPR/EEA compliance.
+
+**Key principle:** No tracking cookies load until the user explicitly consents. Analytics and Marketing are opt-in.
+
+### 20.2 Consent Categories
+
+| Category | Default | Controls | Cookie Pattern |
+|----------|---------|----------|----------------|
+| **necessary** | ✅ Always on | Essential site functionality | Session cookies |
+| **analytics** | ⬜ Opt-in | Google Analytics 4 | `_ga`, `_gid`, `_gat` |
+| **marketing** | ⬜ Opt-in | Google Ads, remarketing | `_gcl*`, `_fbp` |
+
+### 20.3 Consent Mode Signals
+
+```javascript
+// Before user choice (default)
+gtag('consent', 'default', {
+  ad_storage: 'denied',
+  analytics_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  wait_for_update: 500
+});
+
+// After user accepts analytics + marketing
+gtag('consent', 'update', {
+  ad_storage: 'granted',
+  analytics_storage: 'granted',
+  ad_user_data: 'granted',
+  ad_personalization: 'granted'
+});
+
+// After user accepts analytics only (marketing denied)
+gtag('consent', 'update', {
+  ad_storage: 'denied',
+  analytics_storage: 'granted',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
+```
+
+### 20.4 Bilingual Banner
+
+The cookie banner adapts to the page language (`fr` or `en`):
+- **FR:** "Gestion des cookies" / "Tout accepter" / "Tout refuser" / "Configurer"
+- **EN:** "Cookie management" / "Accept all" / "Reject all" / "Configure"
+
+**Implementation:** `CookieConsentBanner` receives `lang` prop from `app/[lang]/layout.tsx`.
+
+### 20.5 Files
+
+| File | Role |
+|------|------|
+| `src/components/CookieConsent.tsx` | Banner logic, Consent Mode, 3 categories, i18n |
+| `src/app/layout.tsx` | Injects `consent default` inline script in `<head>` |
+| `src/app/[lang]/layout.tsx` | Renders `<CookieConsentBanner lang={lang} />` |
+
+---
+
+## 21. GTM (Google Tag Manager)
+
+### 21.1 Container
+
+- **Container ID:** `GTM-PM93CCQL`
+- **GA4 Measurement ID:** `G-NX7WKDYB1T`
+
+### 21.2 GTM Loader
+
+In `src/app/[lang]/layout.tsx`:
+```tsx
+{process.env.NEXT_PUBLIC_GTM_ID && (
+  <Script id="gtm-script" strategy="afterInteractive">
+    {`(function(w,d,s,l,i){...})(window,document,'script','dataLayer','GTM-PM93CCQL');`}
+  </Script>
+)}
+```
+
+### 21.3 Build Integration
+
+`scripts/build-ftp.js` injects `NEXT_PUBLIC_GTM_ID` automatically:
+```javascript
+env: {
+  ...process.env,
+  NEXT_BUILD_TARGET: "ftp",
+  NEXT_PUBLIC_GTM_ID: "GTM-PM93CCQL",
+}
+```
+
+**Result:** Both Vercel and o2switch builds include GTM.
+
+---
+
+## 22. Form Tracking (dataLayer Events)
+
+### 22.1 Events
+
+All form submissions push a `dataLayer` event for GTM/GA4:
+
+```javascript
+window.dataLayer.push({
+  event: 'form_submit_success',
+  form_name: 'contact',           // 'contact' | 'score_calculator' | 'guides'
+  form_language: 'fr',            // 'fr' | 'en'
+});
+```
+
+### 22.2 Covered Forms
+
+| Form | File | `form_name` |
+|------|------|-------------|
+| Contact | `contact/ContactClient.tsx` | `contact` |
+| Score Calculator CTA | `ScoreCalculator.tsx` | `score_calculator` |
+| Guides Download | `guides/GuidesClient.tsx` | `guides` |
+
+### 22.3 GA4 Configuration
+
+In GA4, create a **Custom Event** trigger:
+- **Event name:** `form_submit_success`
+- **Tag:** GA4 Event `generate_lead`
+- **Parameters:** `form_name={{dlv - form_name}}`, `form_language={{dlv - form_language}}`
+
+Mark `generate_lead` as a **Key Event (Conversion)** in GA4 → Admin → Key Events.
+
+### 22.4 GTM Tag Setup
+
+**Tag:** `GA4 - Event - generate_lead`
+- **Type:** Google Analytics: GA4 Event
+- **Configuration Tag:** `Google Tag G-NX7WKDYB1T`
+- **Event Name:** `generate_lead`
+- **Trigger:** Custom Event `form_submit_success`
+
+**Variables to create (User-Defined):**
+- `dlv - form_name` — Data Layer Variable `form_name`
+- `dlv - form_language` — Data Layer Variable `form_language`
+
+### 22.5 Remarketing Requirements
+
+For Google Ads remarketing, the user **must** accept the **Marketing** category in the cookie banner. This grants:
+- `ad_storage: granted`
+- `ad_user_data: granted`
+- `ad_personalization: granted`
+
+Without this consent, GA4 collects analytics data but **cannot** send audience data to Google Ads.
+
+---
+
+## 23. Checklist Before Production Launch
+
+### 23.1 GTM / GA4
+- [ ] Publish GTM container
+- [ ] Mark `generate_lead` as Key Event in GA4
+- [ ] Verify `form_submit_success` fires in GTM Preview Mode
+- [ ] Create audiences in GA4 (optional: Leads Qualifiés, Visiteurs Engagés)
+
+### 23.2 Cookie Consent
+- [ ] Banner shows 3 categories on both `/fr/` and `/en/`
+- [ ] Consent `default` = denied on page load
+- [ ] Consent `update` = granted after "Accept all"
+- [ ] Consent `update` = analytics only after "Reject all" + manual analytics enable
+- [ ] `dataLayer` contains both signals
+
+### 23.3 Forms
+- [ ] Contact form pushes `form_submit_success` (FR + EN)
+- [ ] Score Calculator pushes `form_submit_success`
+- [ ] Guides download pushes `form_submit_success`

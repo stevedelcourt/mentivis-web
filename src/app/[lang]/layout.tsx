@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import Script from "next/script";
+import CookieConsentBanner from "@/components/CookieConsent";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
 
@@ -101,6 +102,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         </Script>
       )}
       {children}
+      <CookieConsentBanner lang={lang} />
     </>
   );
 }

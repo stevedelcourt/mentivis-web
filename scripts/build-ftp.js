@@ -43,7 +43,11 @@ try {
   execSync("npx next build --webpack", {
     stdio: "inherit",
     cwd: rootDir,
-    env: { ...process.env, NEXT_BUILD_TARGET: "ftp" },
+    env: {
+      ...process.env,
+      NEXT_BUILD_TARGET: "ftp",
+      NEXT_PUBLIC_GTM_ID: "GTM-PM93CCQL",
+    },
   });
 } finally {
   // Always restore API routes

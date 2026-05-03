@@ -67,7 +67,16 @@ export default function ContactClient() {
       }
     );
 
-    if (ok) setSent(true);
+    if (ok) {
+      setSent(true);
+      if (typeof window !== "undefined" && (window as any).dataLayer) {
+        (window as any).dataLayer.push({
+          event: "form_submit_success",
+          form_name: "contact",
+          form_language: lang,
+        });
+      }
+    }
   };
 
   return (
