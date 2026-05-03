@@ -99,6 +99,29 @@ Key directives:
 - `RewriteRule` for directory → `index.html` (optional, DirectoryIndex handles it)
 - Cache headers for static assets (1 year) and no-cache for index files
 
+### 6.3 o2switch HTTPS CDN Cache (Critical Gotcha)
+
+**Problem:** o2switch runs a CDN/proxy cache on the **HTTPS layer** — in front of Apache. This cache ignores `.htaccess` `Cache-Control` headers, ignores `?nocache=1` query strings, and caches HTML files independently by path.
+
+**Symptom:** After deploy, pages show `ChunkLoadError` (404 on old JS chunks) even though:
+- Files on disk are correct (verified by FTP)
+- `.htaccess` has `no-store` headers
+- Browser hard refresh doesn't help
+
+**Why:** The CDN served stale HTML with old chunk references. Purging "cache" in cPanel often only clears the HTTP or homepage cache — not HTTPS or nested paths (`/fr/insights/`).
+
+**Fix:**
+1. **Immediate:** In o2switch cPanel, find the **HTTPS cache setting** (not Varnish, not Apache) and **disable it entirely**.
+2. **Alternative:** Find "Purge All" for the HTTPS CDN — must purge ALL paths, not just root.
+3. **Last resort:** Wait 30-120 minutes for CDN TTL to expire.
+
+**Prevention:**
+- Disable HTTPS CDN caching for the dev domain (`sc4bovu7233.universe.wf`)
+- For production (`mentivis.com`), either disable it or purge it after every deploy
+- The performance gain is negligible for a static site; the deploy breakage is severe
+
+**2026-05-03:** After clean deploy, `/fr/` and `/en/` worked but `/fr/insights/` showed `ChunkLoadError`. Root cause: CDN cached old HTML on HTTPS. Disabling the HTTPS cache fixed all pages instantly.
+
 ### 6.2 FTP Cleanup (Required After Structural Changes)
 **Our FTP script does NOT delete old files.** After any structural change (e.g. moving from `fr.html` to `fr/index.html`), you MUST manually clean the server:
 

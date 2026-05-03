@@ -39,10 +39,10 @@ export default function SolutionsClient() {
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
-        <Link href={`/${lang}/mentivis-solutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
+        <a href={`/${lang}/mentivis-solutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
           {lang === "fr" ? "Voir plus" : "Explore"}
           <Icon name="chevron_right" size={18} />
-        </Link>
+        </a>
       </ImageHero>
 
       <section style={{ padding: "20px 0 80px" }}>
