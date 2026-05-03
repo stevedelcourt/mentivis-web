@@ -362,6 +362,61 @@ EOF
 
 **FTP credentials** are hardcoded in the script (`FTP_PASSWORD=RoxanStevenMathias2024`).
 
+### 10.8 Clean Deploy — `scripts/ftp_clean_deploy.py`
+
+**When to use:**
+- After major refactoring that changes chunk hashes
+- When `ChunkLoadError` appears (stale chunks on server)
+- When switching between Turbopack and Webpack builds
+- When client-side navigation breaks (`__next._tree.txt` 404s)
+- Before production launch (guarantees clean state)
+
+**When NOT to use:**
+- Minor text edits (use `./scripts/deploy.sh` instead — faster, no downtime)
+- Quick bug fixes (incremental upload is fine)
+
+**What it does:**
+1. **Deletes** old Next.js build artifacts from server:
+   - `fr/`, `en/`, `404/`, `about/`, `admin/`, `_not-found/`, `index/`
+   - `_next/` (old chunks, hash dirs, CSS)
+   - `site-images/` (deprecated)
+   - `index.html`, `404.html`, `sitemap.xml`, `llms.txt`
+2. **Preserves** manual uploads:
+   - `.htaccess`, `robots.txt`, `site.webmanifest`
+   - All favicons and touch icons
+   - `mentivis-solutions/` (iframe sub-site)
+   - `guide-images/`, `guide-pdf/` (manually uploaded guides)
+   - `rapport-defense-mentivis-2026.*`
+   - `cgi-bin/`
+3. **Uploads ALL files** from `out/` including `__next` files:
+   - ~893 files total (~159 MB)
+   - Includes 553 `__next` files (4.1 MB) for client-side navigation
+   - Videos uploaded last with progress tracking (146 MB, 60s timeout)
+
+**Usage:**
+```bash
+# 1. Clean build
+rm -rf out .next
+npm run build:ftp
+
+# 2. Clean deploy (10-12 min downtime on dev server)
+python3 scripts/ftp_clean_deploy.py
+```
+
+**Downtime:** ~10-12 minutes (delete: 2 min, upload: 8-10 min at ~500 KB/s)
+
+**Why this prevents ChunkLoadError:**
+- Old `_next/static/` is completely wiped — no stale chunks remain
+- `__next` files are uploaded — enables proper Next.js client-side navigation
+- Browser gets fresh HTML with fresh chunk mapping table
+- Zero possibility of hash mismatch between HTML and chunks
+
+**2026-05-03 Result:**
+- Deleted: 7 dirs, 4 files
+- Uploaded: 893 files, 158.7 MB
+- Total time: 630s (10m 30s)
+- Site fully operational after deploy — no ChunkLoadError
+
 ## 11. FTP Sync Script (`scripts/ftp_sync.py`)
 
 ### 11.1 Robustness Features
