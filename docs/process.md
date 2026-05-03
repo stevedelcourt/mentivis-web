@@ -718,3 +718,157 @@ src/content/videos/
 src/app/[lang]/videos/
   └── page.tsx          # videos page component
 ```
+
+---
+
+## 17. Console Errors (Expected vs. Real Problems)
+
+The browser console may show errors that are **not bugs in our code**. Here's how to tell the difference.
+
+### 17.1 `__next._tree.txt 404` — Expected
+
+**What you see:**
+```
+GET https://sc4bovu7233.universe.wf/fr/mentivis-solutions/__next._tree.txt?_rsc=... 404
+```
+
+**Why it happens:** Next.js App Router generates `__next._tree.txt`, `__next._head.txt`, etc. (553 files total) to enable **client-side navigation** — smooth SPA-style page transitions without full reloads. Our FTP sync script (`scripts/ftp_sync.py` line 103-104) intentionally skips these files to reduce upload size and server clutter.
+
+**Impact:** Pages work perfectly but do **full page reloads** on navigation instead of smooth transitions. This is acceptable for a static marketing site.
+
+**Fix if needed:** Remove lines 103-104 from `scripts/ftp_sync.py` to upload all `__next` files. Upload count increases by ~553 files per deploy.
+
+### 17.2 `ERR_BLOCKED_BY_ADMINISTRATOR` — Browser Extensions
+
+**What you see:**
+```
+youtube-nocookie.com/... net::ERR_BLOCKED_BY_ADMINISTRATOR
+forms.hsforms.com/embed/... 403
+exceptions.hubspot.com/... net::ERR_BLOCKED_BY_ADMINISTRATOR
+```
+
+**Why it happens:** Ad blockers, privacy extensions (uBlock Origin, Privacy Badger, Brave Shields), or corporate proxies block HubSpot tracking pixels and YouTube analytics. The error code `ERR_BLOCKED_BY_ADMINISTRATOR` specifically means a browser extension or system policy intervened — not a server-side 403.
+
+**Impact:** Users with ad blockers won't see HubSpot forms load or YouTube tracking will fail. ~30-40% of users have ad blockers — this is expected and unfixable by us.
+
+**Not our bug.** Do not attempt to fix.
+
+### 17.3 `chrome://theme/colors.css` — Browser Extension
+
+**What you see:**
+```
+Not allowed to load local resource: chrome://theme/colors.css
+```
+
+**Why it happens:** A browser extension (dark mode, theme manager, or UI customizer) is trying to inject Chrome's internal CSS into the page. Browsers block `chrome://` URLs from web content as a security measure.
+
+**Impact:** The extension's styling may not apply to our site. Nothing we can or should fix.
+
+**Not our bug.** Do not attempt to fix.
+
+---
+
+## 18. SEO Implementation
+
+### 18.1 Sitemap (`src/app/sitemap.ts`)
+
+**Auto-generated at build time.** Next.js exports `/sitemap.xml` statically.
+
+**Includes:**
+- 16 static pages × 2 languages (home, about, enterprise, of, solutions, insights, guides, score-formation, careers, meeting, contact, videos, legal, privacy, terms, cgv)
+- 19 insight articles × 2 languages
+- **Total: ~70 URLs**
+
+**Excludes:** `/usecases` (orphan page, no nav links), `/admin/*` (internal)
+
+**Fields per entry:**
+```ts
+{
+  url: "https://www.mentivis.com/fr/insights/...",
+  lastModified: new Date(article.date), // article publish date for insights
+  changeFrequency: "weekly", // "monthly" for articles, "yearly" for legal pages
+  priority: 1.0, // 1.0 home, 0.8 main pages, 0.6 insights, 0.3 legal
+}
+```
+
+**Note:** `export const dynamic = "force-static"` is required for static export compatibility.
+
+### 18.2 Page-Level Metadata
+
+All major pages export `generateMetadata` with language-specific titles and descriptions:
+
+| Page | FR Title | EN Title |
+|------|----------|----------|
+| `/about` | À propos | About |
+| `/enterprise` | Conseil entreprise | Enterprise consulting |
+| `/of` | Organismes de formation | Training organizations |
+| `/solutions` | Solutions digitales | Digital solutions |
+| `/contact` | Contact | Contact |
+| `/careers` | Carrières | Careers |
+| `/meeting` | Prendre rendez-vous | Book a meeting |
+| `/guides` | Guides pratiques | Reference guides |
+| `/score-formation` | Score Formation | Score Formation |
+| `/videos` | Vidéos | Videos |
+| `/legal` | Mentions légales | Legal Notice |
+| `/privacy` | Confidentialité | Privacy Policy |
+| `/terms` | CGU | Terms of Use |
+| `/cgv` | CGV | Terms of Sale |
+
+**Implementation:** Client Components were split into `{Page}Client.tsx` + `page.tsx` wrapper exporting `generateMetadata`.
+
+### 18.3 Structured Data (Json-LD)
+
+**BreadcrumbList:** Added to all pages via `BreadcrumbJsonLd` component.
+- Home: `[{ name: "Accueil", url: ... }]`
+- Level 1: `[{ name: "Accueil", url: ... }, { name: "Page" }]`
+- Level 2 (insights): `[{ name: "Accueil" }, { name: "Insights" }, { name: "Article" }]`
+
+**Existing schemas:**
+- `Organization` + `WebSite` + `FAQPage` — homepage
+- `AboutPage` — /about
+- `Service` — /enterprise, /of, /solutions
+- `ContactPage` — /contact
+- `WebPage` — /careers, /meeting
+- `BlogPosting` — insight articles
+
+**VideoObject:** Added to `/videos` page — one schema per video (local MP4 + YouTube embeds).
+
+### 18.4 `llms.txt`
+
+**Bilingual** (FR + EN) — auto-generated by `scripts/gen-llms-txt.js` at build time.
+- Lists all main pages in both languages
+- Lists 10 most recent insights with both FR and EN titles/excerpts
+- Updated during `npm run build:ftp`
+
+---
+
+## 19. Core Web Vitals
+
+### 19.1 Measurement
+
+**Run locally after build:**
+```bash
+npx http-server out -p 3456
+# In another terminal:
+lighthouse http://localhost:3456/fr/ --output=json
+lighthouse http://localhost:3456/fr/solutions --output=json
+```
+
+### 19.2 Targets
+
+| Metric | Target | Notes |
+|--------|--------|-------|
+| **LCP** | < 2.5s | Largest Contentful Paint — hero images are AVIF, should be fast |
+| **CLS** | < 0.1 | Cumulative Layout Shift — fonts load with `display=swap`, minimal shift |
+| **INP** | < 200ms | Interaction to Next Paint — calculators may need optimization |
+
+### 19.3 Known Optimizations
+
+- **Images:** AVIF primary format, `next/image` with `unoptimized: true` for static export
+- **Fonts:** Google Fonts with `display=swap`, preconnected
+- **Lazy loading:** Calculators loaded with `dynamic()` + `ssr: false`
+- **Static export:** No server runtime overhead
+
+### 19.4 Audit Results
+
+*Run `lighthouse` locally after each major build and paste results here.*

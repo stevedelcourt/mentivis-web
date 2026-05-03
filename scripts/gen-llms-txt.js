@@ -29,8 +29,11 @@ function generateLlmsTxt() {
     "# Mentivis",
     "",
     "Conseil en formation et solutions digitales pour entreprises et organismes de formation.",
+    "Training consulting and digital solutions for enterprises and training organizations.",
     "",
-    "## Pages principales",
+    "## Pages principales / Main Pages",
+    "",
+    "### Français",
     "",
     "- /fr/ — Accueil Mentivis",
     "- /fr/about — À propos de Mentivis",
@@ -43,19 +46,43 @@ function generateLlmsTxt() {
     "- /fr/score-formation — Évaluez votre dispositif de formation",
     "- /fr/careers — Rejoindre l'équipe Mentivis",
     "- /fr/meeting — Prendre rendez-vous",
+    "- /fr/videos — Vidéos Mentivis",
     "",
-    "## Insights récents",
+    "### English",
+    "",
+    "- /en/ — Mentivis Home",
+    "- /en/about — About Mentivis",
+    "- /en/enterprise — Enterprise training consulting",
+    "- /en/of — Training organization consulting",
+    "- /en/solutions — Digital training solutions",
+    "- /en/contact — Contact and diagnostic request",
+    "- /en/insights — Insights and perspectives",
+    "- /en/guides — Reference guides BPF, CPF, POEI",
+    "- /en/score-formation — Score Formation diagnostic",
+    "- /en/careers — Join the Mentivis team",
+    "- /en/meeting — Book a meeting",
+    "- /en/videos — Mentivis Videos",
+    "",
+    "## Insights récents / Recent Insights",
     "",
   ];
 
   for (const a of articles) {
-    const title = a.titleFr || a.slug;
-    const url = `${BASE_URL}/fr/insights/${a.slug}`;
+    const titleFr = a.titleFr || a.slug;
+    const titleEn = a.titleEn || a.titleFr || a.slug;
+    const urlFr = `${BASE_URL}/fr/insights/${a.slug}`;
+    const urlEn = `${BASE_URL}/en/insights/${a.slug}`;
     const date = a.date;
-    const excerpt = a.excerptFr || "";
-    lines.push(`- ${title} (${date}) — ${url}`);
-    if (excerpt) {
-      lines.push(`  ${excerpt.replace(/\n/g, " ")}`);
+    const excerptFr = a.excerptFr || "";
+    const excerptEn = a.excerptEn || "";
+
+    lines.push(`- ${titleFr} (${date}) — ${urlFr}`);
+    if (excerptFr) {
+      lines.push(`  ${excerptFr.replace(/\n/g, " ")}`);
+    }
+    lines.push(`- ${titleEn} (${date}) — ${urlEn}`);
+    if (excerptEn) {
+      lines.push(`  ${excerptEn.replace(/\n/g, " ")}`);
     }
     lines.push("");
   }
@@ -63,13 +90,13 @@ function generateLlmsTxt() {
   lines.push("## Contact");
   lines.push("");
   lines.push("- Email: contact@mentivis.com");
-  lines.push("- Téléphone: +33 1 89 48 10 02");
-  lines.push("- Adresse: 60 Rue François 1er, 75008 Paris");
+  lines.push("- Phone: +33 1 89 48 10 02");
+  lines.push("- Address: 60 Rue François 1er, 75008 Paris");
   lines.push("- LinkedIn: https://www.linkedin.com/company/mentivis/");
   lines.push("");
 
   fs.writeFileSync(OUTPUT_FILE, lines.join("\n"), "utf-8");
-  console.log(`Generated ${OUTPUT_FILE} with ${articles.length} recent articles.`);
+  console.log(`Generated ${OUTPUT_FILE} with ${articles.length} recent articles (bilingual).`);
 }
 
 generateLlmsTxt();

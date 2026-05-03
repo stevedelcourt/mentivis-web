@@ -4,6 +4,8 @@ import {
   INSIGHTS,
   getInsightBySlug,
 } from "@/data/insights";
+import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
+import { SITE } from "@/lib/config";
 import InsightDetailClient from "./InsightDetailClient";
 
 export function generateStaticParams() {
@@ -48,9 +50,20 @@ export default async function InsightDetailPage({
 }: {
   params: Promise<{ lang: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { lang, slug } = await params;
   const article = getInsightBySlug(slug);
   if (!article) notFound();
 
-  return <InsightDetailClient article={article} />;
+  const title = lang === "fr" ? article.titleFr : article.titleEn || article.titleFr;
+
+  return (
+    <>
+      <BreadcrumbJsonLd items={[
+        { name: lang === "fr" ? "Accueil" : "Home", url: `${SITE.baseUrl}/${lang}/` },
+        { name: "Insights", url: `${SITE.baseUrl}/${lang}/insights/` },
+        { name: title }
+      ]} />
+      <InsightDetailClient article={article} />
+    </>
+  );
 }

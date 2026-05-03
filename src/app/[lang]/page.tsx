@@ -11,6 +11,7 @@ import Reveal from "@/components/Reveal";
 import DualEntryCard from "@/components/DualEntryCard";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
+import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import { useMessages } from "@/lib/messages";
 import { useTypewriter } from "@/lib/useTypewriter";
 import { SITE } from "@/lib/config";
@@ -162,6 +163,7 @@ export default function HomePage() {
           })),
         },
       ]} />
+      <BreadcrumbJsonLd items={[{ name: lang === "fr" ? "Accueil" : "Home", url: `${SITE.baseUrl}/${lang}/` }]} />
       <section style={{ paddingTop: 96, paddingBottom: 40, position: "relative" as const, overflow: "hidden" }}>
         <HomeHeroBackdrop />
         <div className="container" style={{ position: "relative" as const, zIndex: 1 }}>

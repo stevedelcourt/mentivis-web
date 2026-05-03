@@ -1,18 +1,32 @@
-"use client";
-import dynamic from "next/dynamic";
-import PageShell from "@/components/layout/PageShell";
+import { Metadata } from "next";
+import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
+import ScoreFormationClient from "./ScoreFormationClient";
 
-const ScoreCalculator = dynamic(
-  () => import("@/components/ScoreCalculator"),
-  { ssr: false, loading: () => <div style={{ minHeight: 600 }} /> }
-);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const isFr = lang === "fr";
+  return {
+    title: isFr ? "Score Formation" : "Score Formation",
+    description: isFr
+      ? "10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre perception et réalité, et chiffrer la valeur que vous laissez fuir chaque année."
+      : "10 minutes to reveal the real maturity of your training program, measure the gap between perception and reality, and quantify the value you are losing each year.",
+  };
+}
 
-export default function ScoreFormationPage() {
+export default async function ScoreFormationPage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const isFr = lang === "fr";
   return (
-    <PageShell>
-      <section style={{ paddingTop: 100, paddingBottom: 60 }}>
-        <ScoreCalculator />
-      </section>
-    </PageShell>
+    <>
+      <BreadcrumbJsonLd items={[
+        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Score Formation" : "Score Formation" }
+      ]} />
+      <ScoreFormationClient />
+    </>
   );
 }

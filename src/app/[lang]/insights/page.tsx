@@ -10,6 +10,8 @@ import {
   type InsightCategory,
 } from "@/data/insights";
 import InsightCard from "@/components/InsightCard";
+import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
+import { SITE } from "@/lib/config";
 
 const PER_PAGE = 15;
 
@@ -60,6 +62,10 @@ export default function InsightsPage() {
 
   return (
     <PageShell>
+      <BreadcrumbJsonLd items={[
+        { name: lang === "fr" ? "Accueil" : "Home", url: `${SITE.baseUrl}/${lang}/` },
+        { name: lang === "fr" ? "Insights" : "Insights" }
+      ]} />
       <section
         style={{
           padding: "120px 24px 40px",
