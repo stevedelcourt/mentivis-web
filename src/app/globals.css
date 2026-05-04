@@ -22,9 +22,9 @@
   --m-success-soft: rgba(20, 158, 97, 0.16);
   --m-success-text: #026b3f;
 
-  --f-display: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --f-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --f-display: var(--font-ibm-plex-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --f-sans: var(--font-ibm-plex-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --f-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", Menlo, monospace;
 
   --r-sm: 6px;
   --r-md: 10px;
