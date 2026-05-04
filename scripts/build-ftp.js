@@ -61,4 +61,19 @@ try {
 // ── Post-build: trailingSlash: true handles folder/index.html natively ──
 // No manual conversion needed since Next.js static export with trailingSlash
 // generates fr/index.html, fr/insights/index.html, etc. automatically.
+
+// ── Sanitize bracket characters in chunk paths ──
+// Next.js generates [lang] / [slug] directories; some Apache/nginx configs
+// block URLs containing brackets. Rename dirs and update references.
+console.log("Sanitizing bracket characters in chunk paths...");
+try {
+  execSync("python3 scripts/sanitize-chunks.py", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
+} catch (e) {
+  console.error("sanitize-chunks.py failed:", e.message);
+  process.exit(1);
+}
+
 console.log("Build complete — trailingSlash: true enabled");
