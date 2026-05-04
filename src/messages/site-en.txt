@@ -146,7 +146,30 @@ body: No deliverables without follow-through. Our work is measured by actual dep
 eyebrow: Frequently asked questions
 title: What you want to know before the first meeting.
 lead: Six questions, six direct answers. No pitch, no marketing promises, just what you need to decide whether Mentivis belongs in your project.
-items: [{"question":"Are you a consulting firm?","answer":"Yes. Mentivis is a specialist firm focused on training and education. The difference shows up after the recommendation: we don't just deliver slides, we actually implement, and we stay until your project is complete. Advice plus execution is what makes us an operator, not a consultancy."},{"question":"Who is Mentivis for?","answer":"Companies that want to turn training into a real performance lever (internal academies, structured learning programs, upskilling) and training providers that need to structure, secure compliance, or grow. From founders launching a new training company to large corporations, in the US, France, and internationally."},{"question":"How do you charge?","answer":"A fixed portion covers design and execution. A variable portion, tied to KPIs defined with you upfront, unlocks the rest of our compensation. If the agreed results aren't met, we don't collect our full fee. Our profitability depends on yours."},{"question":"How long does an engagement take?","answer":"Six weeks to fully structure a training company. Six to nine months to build an internal academy or a school from the ground up. Every engagement has a fixed scope, clear milestones, and a defined endpoint. No projects that drag on."},{"question":"Why don't you list your clients on the website?","answer":"Because they don't want us to. Building competing structures, strategic repositioning, internal academy launches, pedagogical transformation: most of our work is confidential by nature. Discretion isn't a marketing line, it's a contractual obligation. Relevant references are shared in person, during the first meeting."},{"question":"What does a first contact look like?","answer":"A free, no-obligation conversation. We analyze your need, validate whether a Mentivis engagement makes sense, and, if we're aligned, deliver a clear proposal: scope, milestones, KPIs, fee structure. If we're not the right partner, we tell you."}]
+
+# home.faq.items[0]
+question: Are you a consulting firm?
+answer: Yes. Mentivis is a specialist firm focused on training and education. The difference shows up after the recommendation: we don't just deliver slides, we actually implement, and we stay until your project is complete. Advice plus execution is what makes us an operator, not a consultancy.
+
+# home.faq.items[1]
+question: Who is Mentivis for?
+answer: Companies that want to turn training into a real performance lever (internal academies, structured learning programs, upskilling) and training providers that need to structure, secure compliance, or grow. From founders launching a new training company to large corporations, in the US, France, and internationally.
+
+# home.faq.items[2]
+question: How do you charge?
+answer: A fixed portion covers design and execution. A variable portion, tied to KPIs defined with you upfront, unlocks the rest of our compensation. If the agreed results aren't met, we don't collect our full fee. Our profitability depends on yours.
+
+# home.faq.items[3]
+question: How long does an engagement take?
+answer: Six weeks to fully structure a training company. Six to nine months to build an internal academy or a school from the ground up. Every engagement has a fixed scope, clear milestones, and a defined endpoint. No projects that drag on.
+
+# home.faq.items[4]
+question: Why don't you list your clients on the website?
+answer: Because they don't want us to. Building competing structures, strategic repositioning, internal academy launches, pedagogical transformation: most of our work is confidential by nature. Discretion isn't a marketing line, it's a contractual obligation. Relevant references are shared in person, during the first meeting.
+
+# home.faq.items[5]
+question: What does a first contact look like?
+answer: A free, no-obligation conversation. We analyze your need, validate whether a Mentivis engagement makes sense, and, if we're aligned, deliver a clear proposal: scope, milestones, KPIs, fee structure. If we're not the right partner, we tell you.
 
 # home
 finalCtaTitle: A training project to structure?

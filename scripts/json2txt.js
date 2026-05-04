@@ -37,6 +37,20 @@ function writeSection(lines, obj, sectionPrefix) {
         for (const [sk, sv] of Object.entries(v)) {
           if (Array.isArray(sv) && sv.every((item) => typeof item !== "object" || item === null)) {
             sv.forEach((item, i) => lines.push(`${sk}[${i}]: ${item}`));
+          } else if (Array.isArray(sv)) {
+            sv.forEach((item, i) => {
+              lines.push("");
+              lines.push(`# ${sectionPrefix}.${k}.${sk}[${i}]`);
+              for (const [ik, iv] of Object.entries(item)) {
+                if (Array.isArray(iv) && iv.every((x) => typeof x !== "object" || x === null)) {
+                  iv.forEach((x, j) => lines.push(`${ik}[${j}]: ${x}`));
+                } else if (typeof iv !== "object" || iv === null) {
+                  lines.push(`${ik}: ${iv}`);
+                } else {
+                  lines.push(`${ik}: ${JSON.stringify(iv)}`);
+                }
+              }
+            });
           } else if (typeof sv !== "object" || sv === null) {
             lines.push(`${sk}: ${sv}`);
           } else {
