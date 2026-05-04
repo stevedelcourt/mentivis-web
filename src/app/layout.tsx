@@ -32,15 +32,23 @@ gtag('consent', 'default', {
 });
 `;
 
+const LANG_SCRIPT = `
+(function() {
+  var m = location.pathname.match(/^\/(fr|en)\//);
+  if (m) document.documentElement.lang = m[1];
+})();
+`;
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`}>
+    <html lang="fr" className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }} />
+        <script dangerouslySetInnerHTML={{ __html: LANG_SCRIPT }} />
       </head>
       <body>{children}</body>
     </html>
