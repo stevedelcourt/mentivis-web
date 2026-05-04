@@ -23,13 +23,76 @@ words[2]: Déployer
 subtitle: des dispositifs de formation qui fonctionnent
 
 # home
-eyebrow: Opérateur en formation & développement des compétences
-heroTitle[0]: Concevoir, structurer et déployer
-heroTitle[1]: des dispositifs de formation
-heroTitle[2]: qui 
-heroTitle[3]: fonctionnent réellement
-heroTitle[4]: .
-heroLead: Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.
+eyebrow: Qui sommes-nous
+title[0]: Un opérateur spécialisé,
+title[1]: multi compétences.
+lead: Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.
+missionTitle: Identité & mission
+mission[0]: Opérateur spécialisé en formation et développement des compétences
+mission[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage
+mission[2]: Rémunération aligné sur les résultats: des success fees garantie de nos intérêts
+expertiseTitle: Nos expertises
+expertiseLead: Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.
+
+# home.expertise[0]
+n: 01
+title: Stratégie
+body: Recherche de financements, Positionnement, audit de maturité, développement de filières, go-to-market.
+
+# home.expertise[1]
+n: 02
+title: Opérationnel
+body: Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques.
+
+# home.expertise[2]
+n: 03
+title: Création de A à Z
+body: Structuration juridique, pédagogique et opérationnelle de toute structure formation.
+
+# home.expertise[3]
+n: 04
+title: Développement de solutions
+body: Outils sur mesure, solutions IA, plateformes spécifiques.
+
+# home
+whyTitle: Pourquoi faire appel à nous ?
+whyLead: Des offres sur mesure, adaptées à votre structure. Un engagement totalement orienté vers le résultat.
+
+# home.why[0]
+title: Vue 360°
+body: Nous comprenons votre écosystème dans sa globalité avant d'agir.
+
+# home.why[1]
+title: Conseil ET réalisation
+body: Nous ne livrons pas de recommandations sans les mettre en œuvre.
+
+# home.why[2]
+title: Actions efficaces
+body: Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle.
+
+# home.why[3]
+title: Pilotage par les KPIs
+body: Chaque mission est mesurée. Notre rémunération en dépend.
+
+# home
+costTitle: Combien ça coûte ?
+costLead: Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.
+
+# home.cost[0]
+title: Fees alignés sur les résultats
+body: Une part variable liée à la performance mesurée.
+
+# home.cost[1]
+title: Ciblage et efficacité
+body: Nous intervenons avec méthode, là où l'impact est maximal, sans s’éparpiller.
+
+# home.cost[2]
+title: ROI documenté
+body: Chaque mission produit des KPIs de performance tangibles.
+
+# home.cost[3]
+title: Offres adaptées
+body: Écoles, centres de formation, TPE, PME, Grands groupes, nous calibrons nos interventions au plus juste.
 
 # home.entryEnterprise
 kicker: 01｜Vous êtes une entreprise, PME, TPE ou grand groupe
@@ -79,127 +142,154 @@ n: 04
 title: Intervention réelle sur le terrain
 body: Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint.
 
-# home
-promiseTitle: Notre promesse
-promiseBody: Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.
-promiseSig: - C'est ce qui nous distingue structurellement d'un cabinet de conseil.
-proofTitle: Ce que nos missions produisent
-
-# home.proofs[0]
-value: 6
-unit: sem.
-label: structuration OF complète
-
-# home.proofs[1]
-value: 100
-unit: %
-label: audit Qualiopi validé
-
-# home.proofs[2]
-value: ×2
-unit: 
-label: engagement académie interne
-
-# home.proofs[3]
-value: −30
-unit: %
-label: recours formations externes
-
-# home
-proofNote: Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.
-
 # home.faq
 eyebrow: Questions fréquentes
 title: Ce que vous voulez savoir avant le premier rendez-vous.
 lead: Six questions, six réponses directes. Pas de discours, pas de promesses marketing, juste ce qu'il faut pour décider si Mentivis a sa place dans votre projet.
-items[0].question: Êtes-vous un cabinet de conseil ?
-items[0].answer: Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur.
-items[1].question: À qui s'adresse Mentivis ?
-items[1].answer: Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international.
-items[2].question: Comment facturez-vous ?
-items[2].answer: Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre.
-items[3].question: Combien de temps prend une mission ?
-items[3].answer: De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent.
-items[4].question: Pourquoi ne citez-vous pas vos clients sur le site ?
-items[4].answer: Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous.
-items[5].question: Comment se passe un premier contact ?
-items[5].answer: Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons.
+items: [{"question":"Êtes-vous un cabinet de conseil ?","answer":"Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur."},{"question":"À qui s'adresse Mentivis ?","answer":"Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international."},{"question":"Comment facturez-vous ?","answer":"Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre."},{"question":"Combien de temps prend une mission ?","answer":"De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent."},{"question":"Pourquoi ne citez-vous pas vos clients sur le site ?","answer":"Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous."},{"question":"Comment se passe un premier contact ?","answer":"Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons."}]
 
 # home
 finalCtaTitle: Un projet de formation à structurer ?
 finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
 
 # about
-eyebrow: Qui sommes-nous
-title[0]: Un opérateur spécialisé,
-title[1]: multi compétences.
-lead: Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.
-missionTitle: Identité & mission
-mission[0]: Opérateur spécialisé en formation et développement des compétences
-mission[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage
-mission[2]: Rémunération aligné sur les résultats: des success fees garantie de nos intérêts
-expertiseTitle: Nos expertises
-expertiseLead: Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.
+heroEyebrow: Conviction.
+heroTitle[0]: Former n'est pas un coût.
+heroTitle[1]: C'est un système
+heroTitle[2]: de production
+heroTitle[3]: de valeur.
+heroSub: Mentivis conçoit les systèmes qui permettent aux organisations de former, certifier et faire grandir leurs talents. De la stratégie au déploiement opérationnel.
+storyEyebrow: Histoire et positionnement.
+storyTitle: Né d'un constat opérationnel.
+storyLede: Ses fondateurs ont déjà créé des écoles ensemble. Pédagogie, développement commercial, marketing, conformité, opérations. Toutes les dimensions du métier.
+storyBody1: Ils se sont associés pour une raison précise. Les mutations rapides de l'éducation et de la formation exigent un acteur spécialisé, capable de faire le lien entre entreprises, dispositifs de formation et enjeux à venir.
+storyBody2: Un choix dès l'origine. Ne pas faire du conseil abstrait, mais construire des dispositifs qui fonctionnent réellement.
+storyClosing: Chaque mission va jusqu'au déploiement opérationnel. Pas de livrable sans exécution.
 
-# about.expertise[0]
-n: 01
+# about.domains[0]
+name: Écoles et organismes de formation
+tag: Création, pilotage
+
+# about.domains[1]
+name: Campus corporate
+tag: Conception, exploitation
+
+# about.domains[2]
+name: Dispositifs certifiants
+tag: Ingénierie, RNCP
+
+# about.domains[3]
+name: Recrutement par la formation
+tag: POEI, AFEST, alternance
+
+# about
+whyEyebrow: Pourquoi l'éducation.
+whyTitle: Parce que tout y converge.
+whyForces: Pénurie de talents · Transformation des métiers · Pression économique · Accélération technologique.
+whyBody: Les entreprises deviennent des acteurs éducatifs. Les écoles deviennent des plateformes d'employabilité. Nous travaillons exactement à cet endroit.
+approachEyebrow: Notre approche.
+approachTitle: Quatre blocs intégrés.
+approachLede: Un seul objectif. Un système viable, financé, activable rapidement.
+
+# about.approachBlocks[0]
 title: Stratégie
-body: Recherche de financements, Positionnement, audit de maturité, développement de filières, go-to-market.
+desc: Cadrage du projet, positionnement de marché, modèle économique. Ce qui rend le système viable avant même le premier inscrit.
+marker: Bloc
 
-# about.expertise[1]
-n: 02
-title: Opérationnel
-body: Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques.
+# about.approachBlocks[1]
+title: Ingénierie pédagogique
+desc: Référentiels, certifications, parcours. Conception fine des objets pédagogiques et de leur évaluation.
+marker: Bloc
 
-# about.expertise[2]
-n: 03
-title: Création de A à Z
-body: Structuration juridique, pédagogique et opérationnelle de toute structure formation.
+# about.approachBlocks[2]
+title: Marketing et admissions
+desc: Recrutement des apprenants, notoriété, conversion. Du tunnel de candidature à l'identité de marque.
+marker: Bloc
 
-# about.expertise[3]
-n: 04
-title: Développement de solutions
-body: Outils sur mesure, solutions IA, plateformes spécifiques.
-
-# about
-whyTitle: Pourquoi faire appel à nous ?
-whyLead: Des offres sur mesure, adaptées à votre structure. Un engagement totalement orienté vers le résultat.
-
-# about.why[0]
-title: Vue 360°
-body: Nous comprenons votre écosystème dans sa globalité avant d'agir.
-
-# about.why[1]
-title: Conseil ET réalisation
-body: Nous ne livrons pas de recommandations sans les mettre en œuvre.
-
-# about.why[2]
-title: Actions efficaces
-body: Priorisation rigoureuse, délais maîtrisés, exécution opérationnelle réelle.
-
-# about.why[3]
-title: Pilotage par les KPIs
-body: Chaque mission est mesurée. Notre rémunération en dépend.
+# about.approachBlocks[3]
+title: Conformité et déploiement
+desc: OPCO, dispositifs publics, certifications qualité, mise en oeuvre opérationnelle quotidienne.
+marker: Bloc
 
 # about
-costTitle: Combien ça coûte ?
-costLead: Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.
+distinguishEyebrow: Ce qui nous distingue.
+distinguishTitle: Quatre signatures.
 
-# about.cost[0]
-title: Fees alignés sur les résultats
-body: Une part variable liée à la performance mesurée.
+# about.distinguishItems[0]
+title: Obsession du résultat.
+desc: Pas du rapport. Un projet qui n'est pas lancé n'a pas existé.
 
-# about.cost[1]
-title: Ciblage et efficacité
-body: Nous intervenons avec méthode, là où l'impact est maximal, sans s’éparpiller.
+# about.distinguishItems[1]
+title: Maîtrise du financement.
+desc: OPCO, dispositifs publics, montages hybrides. Le levier économique du projet.
 
-# about.cost[2]
-title: ROI documenté
-body: Chaque mission produit des KPIs de performance tangibles.
+# about.distinguishItems[2]
+title: Approche full-stack.
+desc: Stratégie, pédagogie, marketing, conformité. Sous un seul toit.
 
-# about.cost[3]
-title: Offres adaptées
-body: Écoles, centres de formation, TPE, PME, Grands groupes, nous calibrons nos interventions au plus juste.
+# about.distinguishItems[3]
+title: Capacité à opérer.
+desc: Pas seulement à conseiller. Nous tenons les rênes jusqu'à la première promotion.
+
+# about
+valuesEyebrow: Nos valeurs.
+valuesTitle: Cinq règles de fonctionnement.
+
+# about.values[0]
+name: Clarté.
+desc: Dire ce qui fonctionne. Éliminer le reste.
+
+# about.values[1]
+name: Exécution.
+desc: Un projet n'existe que s'il est lancé.
+
+# about.values[2]
+name: Responsabilité.
+desc: Nous allons jusqu'au résultat.
+
+# about.values[3]
+name: Confidentialité.
+desc: Les projets ne circulent pas.
+
+# about.values[4]
+name: Utilité.
+desc: Chaque action doit créer de la valeur mesurable.
+
+# about
+teamEyebrow: L'équipe.
+teamTitle: Quatre partenaires.
+
+# about.team[0]
+name: Roxan Roumégas
+role: Partner, Président
+detail: Stratégie pédagogique
+photo: /images/team/roxan-roumegas.avif
+
+# about.team[1]
+name: Mathias Costes
+role: Partner, Corporate Sales
+detail: Développement corporate
+photo: /images/team/mathias.costes.avif
+
+# about.team[2]
+name: Julie Steiner
+role: Partner, Direction commerciale
+detail: Pilotage des admissions
+photo: /images/team/julie-steiner.webp
+
+# about.team[3]
+name: Steven Delcourt
+role: Partner, Strategy
+detail: Brand et marketing
+photo: /images/team/steven-delcourt.avif
+
+# about
+closingEyebrow: Ce que nous construisons.
+closingTitle[0]: Pas des structures.
+closingTitle[1]: Des systèmes éducatifs.
+closingSub: Capables de produire des talents, de sécuriser la croissance, de s'adapter dans le temps.
+finalCtaTitle: Un projet de formation à structurer ?
+finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
 
 # of
 eyebrow: Vous êtes un organisme de formation
@@ -355,7 +445,7 @@ scoreTeaserCta: Démarrer le diagnostic
 eyebrow: Mentivis Solutions
 heroTitle[0]: L'ingénierie au service de votre
 heroTitle[1]: transformation
-heroTitle[2]:  digitale.
+heroTitle[2]: digitale.
 heroLead: Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation.
 
 # solutions.pillars[0]
@@ -816,7 +906,6 @@ download: Télécharger le rapport
 disclaimer: Méthodologie : calcul basé sur les taux de contribution OPCO 2025 (0,55 % à 1 % de la masse salariale selon l'effectif), les dispositifs FNE-Formation, France 2030, et les aides régionales. Les montants réels dépendent de votre OPCO de rattachement, de votre convention collective et de l'éligibilité de vos projets.
 ctaEyebrow: Passer du diagnostic à l'action
 ctaTitle: Ces chiffres sont des estimations.
-Un expert Mentivis peut les affiner.
 ctaSub: Mentivis peut vous accompagner dans la mobilisation de ces financements.
 ctaName: Nom
 ctaEmail: Votre email professionnel
@@ -856,3 +945,41 @@ lead: Vidéos de projets, coulisses du conseil, formats corporate et moments plu
 noVideos: Aucune vidéo disponible pour le moment.
 contactCta: Contactez-nous
 metaDescription: Découvrez nos vidéos sur la formation, l'ingénierie pédagogique et les solutions digitales.
+
+# homeOld
+eyebrow: Opérateur en formation & développement des compétences
+heroTitle[0]: Concevoir, structurer et déployer
+heroTitle[1]: des dispositifs de formation
+heroTitle[2]: qui
+heroTitle[3]: fonctionnent réellement
+heroTitle[4]: .
+heroLead: Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.
+promiseTitle: Notre promesse
+promiseBody: Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.
+promiseSig: - C'est ce qui nous distingue structurellement d'un cabinet de conseil.
+proofTitle: Ce que nos missions produisent
+
+# homeOld.proofs[0]
+value: 6
+unit: sem.
+label: structuration OF complète
+
+# homeOld.proofs[1]
+value: 100
+unit: %
+label: audit Qualiopi validé
+
+# homeOld.proofs[2]
+value: ×2
+unit: 
+label: engagement académie interne
+
+# homeOld.proofs[3]
+value: −30
+unit: %
+label: recours formations externes
+
+# homeOld
+proofNote: Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.
+finalCtaTitle: Un projet de formation à structurer ?
+finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.

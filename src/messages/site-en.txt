@@ -23,13 +23,76 @@ words[2]: Deploy
 subtitle: training programs that actually work
 
 # home
-eyebrow: Operator in training & skills development
-heroTitle[0]: Designing, structuring and deploying
-heroTitle[1]: training programs
-heroTitle[2]: that 
-heroTitle[3]: actually work
-heroTitle[4]: .
-heroLead: Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.
+eyebrow: About
+title[0]: A specialized operator.
+title[1]: Not a consulting firm.
+lead: Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.
+missionTitle: Identity & mission
+mission[0]: Specialized operator in training and skills development
+mission[1]: End-to-end intervention: strategy, design, deployment, steering
+mission[2]: Compensation aligned with results - not deliverables
+expertiseTitle: Our expertise
+expertiseLead: Four pillars covering the full training spectrum, from strategy to operational execution.
+
+# home.expertise[0]
+n: 01
+title: Strategy
+body: Positioning, maturity audit, program development, go-to-market.
+
+# home.expertise[1]
+n: 02
+title: Operations
+body: Acquisition, apprenticeship, communication, instructional design.
+
+# home.expertise[2]
+n: 03
+title: End-to-end creation
+body: Legal, pedagogical and operational structuring of any training entity.
+
+# home.expertise[3]
+n: 04
+title: Solution development
+body: Custom tools, AI solutions, dedicated platforms.
+
+# home
+whyTitle: Why work with us?
+whyLead: Not a service catalogue - a results promise.
+
+# home.why[0]
+title: 360° view
+body: We understand your ecosystem as a whole before acting.
+
+# home.why[1]
+title: Advice AND execution
+body: We don't deliver recommendations without implementing them.
+
+# home.why[2]
+title: Effective actions
+body: Rigorous prioritization, controlled timelines, real operational execution.
+
+# home.why[3]
+title: KPI-driven steering
+body: Every mission is measured. Our compensation depends on it.
+
+# home
+costTitle: What does it cost?
+costLead: A transparent pricing approach designed to remove the client's risk and align both parties' interests.
+
+# home.cost[0]
+title: Results-aligned fees
+body: A variable share tied to measured performance.
+
+# home.cost[1]
+title: Targeted & efficient
+body: We intervene where impact is maximal - not everywhere at once.
+
+# home.cost[2]
+title: Documented ROI
+body: Every mission produces tangible performance KPIs.
+
+# home.cost[3]
+title: Offers tailored to you
+body: Small, mid-size or large company - we calibrate the intervention.
 
 # home.entryEnterprise
 kicker: 01｜You are an enterprise, SME, start-up or large group
@@ -79,127 +142,154 @@ n: 04
 title: Real intervention on the ground
 body: No deliverables without follow-through. Our work is measured by actual deployment, not by slide decks.
 
-# home
-promiseTitle: Our promise
-promiseBody: Our model is based on variable compensation aligned with results. We have no interest in delivering a recommendation you can't apply.
-promiseSig: - That's what structurally sets us apart from a consulting firm.
-proofTitle: What our missions produce
-
-# home.proofs[0]
-value: 6
-unit: wks
-label: to structure a complete TO
-
-# home.proofs[1]
-value: 100
-unit: %
-label: Qualiopi audit pass rate
-
-# home.proofs[2]
-value: ×2
-unit: 
-label: internal academy engagement
-
-# home.proofs[3]
-value: −30
-unit: %
-label: external training spend
-
-# home
-proofNote: Representative indicators - every mission is calibrated and measured against its own KPIs.
-
 # home.faq
 eyebrow: Frequently asked questions
 title: What you want to know before the first meeting.
 lead: Six questions, six direct answers. No pitch, no marketing promises, just what you need to decide whether Mentivis belongs in your project.
-items[0].question: Are you a consulting firm?
-items[0].answer: Yes. Mentivis is a specialist firm focused on training and education. The difference shows up after the recommendation: we don't just deliver slides, we actually implement, and we stay until your project is complete. Advice plus execution is what makes us an operator, not a consultancy.
-items[1].question: Who is Mentivis for?
-items[1].answer: Companies that want to turn training into a real performance lever (internal academies, structured learning programs, upskilling) and training providers that need to structure, secure compliance, or grow. From founders launching a new training company to large corporations, in the US, France, and internationally.
-items[2].question: How do you charge?
-items[2].answer: A fixed portion covers design and execution. A variable portion, tied to KPIs defined with you upfront, unlocks the rest of our compensation. If the agreed results aren't met, we don't collect our full fee. Our profitability depends on yours.
-items[3].question: How long does an engagement take?
-items[3].answer: Six weeks to fully structure a training company. Six to nine months to build an internal academy or a school from the ground up. Every engagement has a fixed scope, clear milestones, and a defined endpoint. No projects that drag on.
-items[4].question: Why don't you list your clients on the website?
-items[4].answer: Because they don't want us to. Building competing structures, strategic repositioning, internal academy launches, pedagogical transformation: most of our work is confidential by nature. Discretion isn't a marketing line, it's a contractual obligation. Relevant references are shared in person, during the first meeting.
-items[5].question: What does a first contact look like?
-items[5].answer: A free, no-obligation conversation. We analyze your need, validate whether a Mentivis engagement makes sense, and, if we're aligned, deliver a clear proposal: scope, milestones, KPIs, fee structure. If we're not the right partner, we tell you.
+items: [{"question":"Are you a consulting firm?","answer":"Yes. Mentivis is a specialist firm focused on training and education. The difference shows up after the recommendation: we don't just deliver slides, we actually implement, and we stay until your project is complete. Advice plus execution is what makes us an operator, not a consultancy."},{"question":"Who is Mentivis for?","answer":"Companies that want to turn training into a real performance lever (internal academies, structured learning programs, upskilling) and training providers that need to structure, secure compliance, or grow. From founders launching a new training company to large corporations, in the US, France, and internationally."},{"question":"How do you charge?","answer":"A fixed portion covers design and execution. A variable portion, tied to KPIs defined with you upfront, unlocks the rest of our compensation. If the agreed results aren't met, we don't collect our full fee. Our profitability depends on yours."},{"question":"How long does an engagement take?","answer":"Six weeks to fully structure a training company. Six to nine months to build an internal academy or a school from the ground up. Every engagement has a fixed scope, clear milestones, and a defined endpoint. No projects that drag on."},{"question":"Why don't you list your clients on the website?","answer":"Because they don't want us to. Building competing structures, strategic repositioning, internal academy launches, pedagogical transformation: most of our work is confidential by nature. Discretion isn't a marketing line, it's a contractual obligation. Relevant references are shared in person, during the first meeting."},{"question":"What does a first contact look like?","answer":"A free, no-obligation conversation. We analyze your need, validate whether a Mentivis engagement makes sense, and, if we're aligned, deliver a clear proposal: scope, milestones, KPIs, fee structure. If we're not the right partner, we tell you."}]
 
 # home
 finalCtaTitle: A training project to structure?
 finalCtaLead: First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.
 
 # about
-eyebrow: About
-title[0]: A specialized operator.
-title[1]: Not a consulting firm.
-lead: Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.
-missionTitle: Identity & mission
-mission[0]: Specialized operator in training and skills development
-mission[1]: End-to-end intervention: strategy, design, deployment, steering
-mission[2]: Compensation aligned with results - not deliverables
-expertiseTitle: Our expertise
-expertiseLead: Four pillars covering the full training spectrum, from strategy to operational execution.
+heroEyebrow: Conviction.
+heroTitle[0]: Training is not a cost.
+heroTitle[1]: It is a value
+heroTitle[2]: production
+heroTitle[3]: system.
+heroSub: Mentivis designs the systems that enable organizations to train, certify and grow their talent. From strategy to operational deployment.
+storyEyebrow: History and positioning.
+storyTitle: Born from an operational observation.
+storyLede: Its founders have already created schools together. Pedagogy, business development, marketing, compliance, operations. All dimensions of the trade.
+storyBody1: They partnered for a specific reason. The rapid changes in education and training require a specialized actor, capable of bridging enterprises, training devices and future challenges.
+storyBody2: A choice from the start. Not to do abstract consulting, but to build devices that actually work.
+storyClosing: Every mission goes all the way to operational deployment. No deliverable without execution.
 
-# about.expertise[0]
-n: 01
+# about.domains[0]
+name: Schools and training organizations
+tag: Creation, management
+
+# about.domains[1]
+name: Corporate campus
+tag: Design, operation
+
+# about.domains[2]
+name: Certifying devices
+tag: Engineering, RNCP
+
+# about.domains[3]
+name: Recruitment through training
+tag: POEI, AFEST, apprenticeship
+
+# about
+whyEyebrow: Why education.
+whyTitle: Because everything converges there.
+whyForces: Talent shortage · Job transformation · Economic pressure · Technological acceleration.
+whyBody: Companies are becoming educational actors. Schools are becoming employability platforms. We work exactly at that intersection.
+approachEyebrow: Our approach.
+approachTitle: Four integrated blocks.
+approachLede: One single objective. A viable, funded, quickly activatable system.
+
+# about.approachBlocks[0]
 title: Strategy
-body: Positioning, maturity audit, program development, go-to-market.
+desc: Project framing, market positioning, economic model. What makes the system viable before the first enrollment.
+marker: Block
 
-# about.expertise[1]
-n: 02
-title: Operations
-body: Acquisition, apprenticeship, communication, instructional design.
+# about.approachBlocks[1]
+title: Pedagogical engineering
+desc: Frameworks, certifications, pathways. Fine design of pedagogical objects and their evaluation.
+marker: Block
 
-# about.expertise[2]
-n: 03
-title: End-to-end creation
-body: Legal, pedagogical and operational structuring of any training entity.
+# about.approachBlocks[2]
+title: Marketing and admissions
+desc: Learner recruitment, notoriety, conversion. From the application funnel to brand identity.
+marker: Block
 
-# about.expertise[3]
-n: 04
-title: Solution development
-body: Custom tools, AI solutions, dedicated platforms.
-
-# about
-whyTitle: Why work with us?
-whyLead: Not a service catalogue - a results promise.
-
-# about.why[0]
-title: 360° view
-body: We understand your ecosystem as a whole before acting.
-
-# about.why[1]
-title: Advice AND execution
-body: We don't deliver recommendations without implementing them.
-
-# about.why[2]
-title: Effective actions
-body: Rigorous prioritization, controlled timelines, real operational execution.
-
-# about.why[3]
-title: KPI-driven steering
-body: Every mission is measured. Our compensation depends on it.
+# about.approachBlocks[3]
+title: Compliance and deployment
+desc: OPCO, public devices, quality certifications, daily operational implementation.
+marker: Block
 
 # about
-costTitle: What does it cost?
-costLead: A transparent pricing approach designed to remove the client's risk and align both parties' interests.
+distinguishEyebrow: What sets us apart.
+distinguishTitle: Four signatures.
 
-# about.cost[0]
-title: Results-aligned fees
-body: A variable share tied to measured performance.
+# about.distinguishItems[0]
+title: Obsession with results.
+desc: Not reports. A project that isn't launched hasn't existed.
 
-# about.cost[1]
-title: Targeted & efficient
-body: We intervene where impact is maximal - not everywhere at once.
+# about.distinguishItems[1]
+title: Funding mastery.
+desc: OPCO, public devices, hybrid structures. The economic leverage of the project.
 
-# about.cost[2]
-title: Documented ROI
-body: Every mission produces tangible performance KPIs.
+# about.distinguishItems[2]
+title: Full-stack approach.
+desc: Strategy, pedagogy, marketing, compliance. Under one roof.
 
-# about.cost[3]
-title: Offers tailored to you
-body: Small, mid-size or large company - we calibrate the intervention.
+# about.distinguishItems[3]
+title: Ability to operate.
+desc: Not just to advise. We hold the reins until the first cohort.
+
+# about
+valuesEyebrow: Our values.
+valuesTitle: Five operating rules.
+
+# about.values[0]
+name: Clarity.
+desc: Say what works. Eliminate the rest.
+
+# about.values[1]
+name: Execution.
+desc: A project only exists if it is launched.
+
+# about.values[2]
+name: Responsibility.
+desc: We go all the way to the result.
+
+# about.values[3]
+name: Confidentiality.
+desc: Projects do not circulate.
+
+# about.values[4]
+name: Utility.
+desc: Every action must create measurable value.
+
+# about
+teamEyebrow: The team.
+teamTitle: Four partners.
+
+# about.team[0]
+name: Roxan Roumégas
+role: Partner, President
+detail: Pedagogical strategy
+photo: /images/team/roxan-roumegas.avif
+
+# about.team[1]
+name: Mathias Costes
+role: Partner, Corporate Sales
+detail: Corporate development
+photo: /images/team/mathias.costes.avif
+
+# about.team[2]
+name: Julie Steiner
+role: Partner, Commercial Director
+detail: Admissions management
+photo: /images/team/julie-steiner.webp
+
+# about.team[3]
+name: Steven Delcourt
+role: Partner, Strategy
+detail: Brand and marketing
+photo: /images/team/steven-delcourt.avif
+
+# about
+closingEyebrow: What we build.
+closingTitle[0]: Not structures.
+closingTitle[1]: Educational systems.
+closingSub: Capable of producing talent, securing growth, adapting over time.
+finalCtaTitle: A training project to structure?
+finalCtaLead: First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.
 
 # of
 eyebrow: You are a training organization
@@ -355,7 +445,7 @@ scoreTeaserCta: Start the assessment
 eyebrow: Mentivis Solutions
 heroTitle[0]: Engineering that drives your
 heroTitle[1]: digital
-heroTitle[2]:  transformation.
+heroTitle[2]: transformation.
 heroLead: Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.
 
 # solutions.pillars[0]
@@ -816,7 +906,6 @@ download: Download report
 disclaimer: Methodology: calculation based on 2025 OPCO contribution rates (0.55% to 1% of payroll depending on headcount), FNE-Training mechanisms, France 2030, and regional aid. Actual amounts depend on your affiliated OPCO, collective agreement and project eligibility.
 ctaEyebrow: From diagnostic to action
 ctaTitle: These figures are estimates.
-A Mentivis expert can refine them.
 ctaSub: Mentivis can support you in mobilizing these funds.
 ctaName: Name
 ctaEmail: Your business email
@@ -856,3 +945,41 @@ lead: Project videos, behind the scenes, corporate formats and more informal mom
 noVideos: No videos available at the moment.
 contactCta: Contact us
 metaDescription: News, regulatory insights, perspectives and strategy papers on professional training, education and digital transformation.
+
+# homeOld
+eyebrow: Operator in training & skills development
+heroTitle[0]: Designing, structuring and deploying
+heroTitle[1]: training programs
+heroTitle[2]: that
+heroTitle[3]: actually work
+heroTitle[4]: .
+heroLead: Enterprises and training organizations face the same challenges: complexity, inefficiency, lost time. Mentivis designs and deploys concrete solutions, end to end.
+promiseTitle: Our promise
+promiseBody: Our model is based on variable compensation aligned with results. We have no interest in delivering a recommendation you can't apply.
+promiseSig: - That's what structurally sets us apart from a consulting firm.
+proofTitle: What our missions produce
+
+# homeOld.proofs[0]
+value: 6
+unit: wks
+label: to structure a complete TO
+
+# homeOld.proofs[1]
+value: 100
+unit: %
+label: Qualiopi audit pass rate
+
+# homeOld.proofs[2]
+value: ×2
+unit: 
+label: internal academy engagement
+
+# homeOld.proofs[3]
+value: −30
+unit: %
+label: external training spend
+
+# homeOld
+proofNote: Representative indicators - every mission is calibrated and measured against its own KPIs.
+finalCtaTitle: A training project to structure?
+finalCtaLead: First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.
