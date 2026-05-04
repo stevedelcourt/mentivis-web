@@ -79,6 +79,7 @@ export default function NotFound() {
       corporate: "Corporate",
       contact: "Contact",
       cta: "Contactez-nous",
+      ctaShort: "Contact",
     },
   }), []);
 
@@ -237,7 +238,7 @@ export default function NotFound() {
                 fontWeight: 600,
                 color: "var(--m-purple)",
                 background: "white",
-                borderRadius: 999,
+                borderRadius: 12,
                 textDecoration: "none",
                 transition: "transform 0.2s, box-shadow 0.2s",
                 animation: "m-pulse-glow 2.5s ease-in-out infinite",
@@ -257,7 +258,7 @@ export default function NotFound() {
                 color: "white",
                 background: "rgba(255,255,255,0.1)",
                 border: "1.5px solid rgba(255,255,255,0.25)",
-                borderRadius: 999,
+                borderRadius: 12,
                 textDecoration: "none",
                 transition: "background 0.2s",
               }}

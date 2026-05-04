@@ -35,11 +35,11 @@ export default function SolutionsClient() {
         title={<><span style={{ color: "white" }}>{s.heroTitle[0]}</span>{" "}<em style={{ color: "white" }}>{s.heroTitle[1]}</em>{" "}<span style={{ color: "white" }}>{s.heroTitle[2]}</span></>}
         lead={s.heroLead}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
-        <a href={`/${lang}/mentivis-solutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 999, textDecoration: "none" }}>
+        <a href={`/${lang}/mentivis-solutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid rgba(255,255,255,0.45)", borderRadius: 12, textDecoration: "none" }}>
           {lang === "fr" ? "Voir plus" : "Explore"}
           <Icon name="chevron_right" size={18} />
         </a>

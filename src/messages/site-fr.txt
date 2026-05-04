@@ -10,6 +10,7 @@ insights: Insights
 corporate: Corporate
 contact: Contact
 cta: Contactez-nous
+ctaShort: Contact
 
 # common
 learnMore: En savoir plus
@@ -39,7 +40,7 @@ items[2]: Politique et structure de formation
 cta: Découvrir les solutions
 
 # home.entryOf
-kicker: 02｜Vous êtes un organisme de formation, école, enseignement supérieur
+kicker: 02｜Vous êtes un organisme de formation, école, université
 title: Structurer, sécuriser et développer votre activité
 items[0]: Pédagogie & conformité
 items[1]: Stratégie & positionnement

@@ -7,7 +7,7 @@ import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
 
 type FooterMessages = {
-  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; };
+  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; contact: string; };
   footer: {
     tagline: string;
     ctaTitle: string;
@@ -98,7 +98,7 @@ export default function Footer({ t, lang }: FooterProps) {
         style={{
           maxWidth: 1280,
           margin: "0 auto",
-          borderRadius: 28,
+          borderRadius: 16,
           overflow: "hidden",
         }}
         className="m-footer-gradient-bg"
@@ -153,12 +153,13 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/solutions`, label: t.nav.solutions },
             ]} />
             <FooterCol title={t.nav.resources} links={[
+              { href: `/${lang}/insights`, label: t.nav.insights },
               { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
               { href: `/${lang}/score-formation`, label: "Score Formation" },
-              { href: `/${lang}/insights`, label: t.nav.insights },
               { href: `/${lang}/videos`, label: lang === "fr" ? "Vidéos" : "Videos" },
             ]} />
             <FooterCol title={t.nav.corporate} links={[
+              { href: `/${lang}/contact`, label: t.nav.contact },
               { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
               { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
             ]} />

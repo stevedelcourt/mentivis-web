@@ -61,12 +61,12 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              padding: "12px 22px",
+              padding: "10px 22px",
               fontSize: 14,
               fontWeight: 600,
               color: "white",
               background: "var(--m-purple)",
-              borderRadius: 999,
+              borderRadius: 12,
               textDecoration: "none",
             }}
           >
@@ -79,13 +79,13 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
               display: "inline-flex",
               alignItems: "center",
               gap: 8,
-              padding: "12px 22px",
+              padding: "10px 22px",
               fontSize: 14,
               fontWeight: 600,
               color: "var(--m-ink)",
               background: "white",
               border: "1.5px solid var(--m-line)",
-              borderRadius: 999,
+              borderRadius: 12,
               textDecoration: "none",
             }}
           >

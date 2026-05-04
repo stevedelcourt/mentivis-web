@@ -30,16 +30,16 @@ export default function OfClient() {
         inLanguage: lang === "fr" ? "fr-FR" : "en-US",
       }} />
       <ImageHero
-        image="/images/heroes/of.avif"
+        image="/images/heroes/organisme-formation.avif"
         eyebrow={o.eyebrow}
         title={<><span style={{ color: "white" }}>{o.heroTitle[0]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[1]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[2]}</span>{" "}<span style={{ color: "white" }}>{o.heroTitle[3]}</span></>}
         lead={o.heroLead}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
-        <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 999, textDecoration: "none" }}>
+        <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 12, textDecoration: "none" }}>
           {lang === "fr" ? "Voir les pôles" : "View pillars"}
           <Icon name="chevron_right" size={18} />
         </Link>
@@ -142,7 +142,7 @@ export default function OfClient() {
               <p style={{ color: "var(--m-ink-3)", fontSize: 16, lineHeight: 1.55, margin: "0 0 24px", maxWidth: 480 }}>
                 {lang === "fr" ? "BPF, FSE+, POEI, CPF, conventions de formation, taxe d'apprentissage - six guides concrets pour sécuriser votre conformité et optimiser vos financements." : "BPF, FSE+, POEI, CPF, training agreements, apprenticeship tax - six concrete guides to secure your compliance and optimize your funding."}
               </p>
-              <Link href={`/${lang}/guides`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+              <Link href={`/${lang}/guides`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
                 {lang === "fr" ? "Consulter les guides" : "Browse the guides"}
                 <Icon name="chevron_right" size={18} />
               </Link>

@@ -29,7 +29,7 @@ export default function DualEntryCard({ data, href, tone, bg: bgProp }: DualEntr
       background: bg,
       color: fg,
       padding: "44px 40px",
-      borderRadius: 24,
+      borderRadius: 16,
       position: "relative" as const,
       overflow: "hidden",
       minHeight: 380,
@@ -40,7 +40,7 @@ export default function DualEntryCard({ data, href, tone, bg: bgProp }: DualEntr
         position: "absolute" as const,
         inset: 0,
         zIndex: 1,
-        borderRadius: 24,
+        borderRadius: 16,
       }} aria-label={data.cta} />
       <div style={{ display: "flex", flexDirection: "column" as const, height: "100%", minHeight: 320, position: "relative" as const, zIndex: 2 }}>
         <div style={{ fontFamily: "var(--f-display)", fontSize: 18, color: meta, letterSpacing: "0.01em", fontWeight: 500 }}>{data.kicker}</div>
@@ -65,12 +65,12 @@ export default function DualEntryCard({ data, href, tone, bg: bgProp }: DualEntr
             display: "inline-flex",
             alignItems: "center",
             gap: 8,
-            padding: "10px 20px",
+            padding: "8px 20px",
             fontSize: 13.5,
             fontWeight: 600,
             color: isDark || isPurple ? "white" : "var(--m-ink)",
             border: `1.5px solid ${isDark || isPurple ? "rgba(255,255,255,0.5)" : "var(--m-ink)"}`,
-            borderRadius: 999,
+            borderRadius: 12,
             textDecoration: "none",
             transition: "all 0.18s ease",
           }}>

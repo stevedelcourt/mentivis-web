@@ -15,7 +15,7 @@ export default function SectionHeader({ eyebrow, title, lead, align = "left", ki
         </div>
       )}
       {kicker && <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 18, marginBottom: 8 }}>{kicker}</div>}
-      <h2 className="t-display" style={{ fontSize: "clamp(36px, 5vw, 60px)", margin: 0 }}>{title}</h2>
+      <h2 className="t-display" style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)", margin: 0 }}>{title}</h2>
       {lead && <p className="t-lead" style={{ marginTop: 22, maxWidth: 640 }}>{lead}</p>}
     </div>
   );

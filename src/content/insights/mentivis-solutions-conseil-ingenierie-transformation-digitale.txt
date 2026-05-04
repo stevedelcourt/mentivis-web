@@ -17,7 +17,7 @@ Le positionnement sur la souveraineté numérique est lui aussi structurant. Don
 ///
 **Quatre domaines d’expertise**
 ///
-L’offre s’articule autour de quatre spécialités construites sur des projets réels. L’IA souveraine et les agents intelligents constituent le cœur de l’activité : d��ploiement de LLM on-premise, agents métiers autonomes, intégrations MCP, RAG documentaire, gouvernance EU AI Act. La Fintech & Paiement mobilise une expertise pointue en modernisation de plateformes et conformité réglementaire — PCI-DSS, PSD3, DORA, Bâle IV. La réalité virtuelle et augmentée est mise au service de la formation industrielle et médicale, avec des résultats mesurables : moins d’accidents, meilleure rétention, coûts réduits. Enfin, les Learning Systems permettent aux organisations de déployer des LMS sur-mesure, conformes Qualiopi, intégrés à leur SIRH.
+L’offre s’articule autour de quatre spécialités construites sur des projets réels. L’IA souveraine et les agents intelligents constituent le cœur de l’activité : déploiement de LLM on-premise, agents métiers autonomes, intégrations MCP, RAG documentaire, gouvernance EU AI Act. La Fintech & Paiement mobilise une expertise pointue en modernisation de plateformes et conformité réglementaire — PCI-DSS, PSD3, DORA, Bâle IV. La réalité virtuelle et augmentée est mise au service de la formation industrielle et médicale, avec des résultats mesurables : moins d’accidents, meilleure rétention, coûts réduits. Enfin, les Learning Systems permettent aux organisations de déployer des LMS sur-mesure, conformes Qualiopi, intégrés à leur SIRH.
 ///
 Les références de Mentivis Solutions couvrent la finance, l’industrie, l’assurance et la formation.
 ///
@@ -26,10 +26,6 @@ Les références de Mentivis Solutions couvrent la finance, l’industrie, l’a
 La méthodologie de Mentivis Solutions repose sur une continuité rare dans le secteur : les consultants qui cadrent sont les ingénieurs qui livrent. Le cycle débute par un audit et cadrage stratégique d’une à deux semaines, suivi de sprints itératifs de deux semaines chacun. Le déploiement sur infrastructure française s’accompagne d’un transfert de compétences documenté et de SLA contractuels. Premier livrable en moins de trois semaines.
 ///
 Un projet de transformation en tête ?
-///
-Pas de démo générique, pas de deck de 50 slides. Une conversation honnête sur votre contexte et si nous pouvons vraiment vous aider.
-///
-[Parlons de votre projet](/meeting/)
 
 # bodyEn
 ##### In a technology landscape saturated with promises and interchangeable providers, Mentivis Solutions claims a singular position: that of a human-sized consulting and engineering team, French from end to end, that does not abandon its clients after delivery.
@@ -53,7 +49,3 @@ Mentivis Solutions' references cover finance, industry, insurance and training.
 The Mentivis Solutions methodology relies on a rare continuity in the sector: the consultants who frame are the engineers who deliver. The cycle begins with a one-to-two-week audit and strategic framing, followed by iterative two-week sprints. Deployment on French infrastructure is accompanied by documented skills transfer and contractual SLAs. First deliverable in less than three weeks.
 ///
 A transformation project in mind?
-///
-No generic demo, no 50-slide deck. An honest conversation about your context and whether we can really help you.
-///
-[Let's talk about your project](/meeting/)

@@ -164,7 +164,7 @@ export default function ContactClient() {
                   </p>
                 )}
                 <div>
-                  <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 999, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
+                  <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 12, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
                     {loading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : c.labels.submit}
                     <Icon name="chevron_right" size={18} />
                   </button>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 interface FaqItem {
   question: string;
@@ -16,6 +16,22 @@ interface FaqData {
 
 export default function FaqSection({ t }: { t: FaqData }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [visible, setVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  const triggerAnimation = () => {
+    setVisible(false);
+    setTimeout(() => setVisible(true), 50);
+  };
+
+  useEffect(() => {
+    const timer = setTimeout(() => setVisible(true), 100);
+    window.addEventListener('triggerFaqScroll', triggerAnimation);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('triggerFaqScroll', triggerAnimation);
+    };
+  }, []);
 
   const toggle = (index: number) => {
     setOpenIndex((prev) => (prev === index ? null : index));
@@ -23,10 +39,14 @@ export default function FaqSection({ t }: { t: FaqData }) {
 
   return (
     <section
+      ref={sectionRef}
       style={{
         padding: "clamp(4rem, 10vw, 9rem) 0",
         background: "var(--m-ink)",
         color: "white",
+        opacity: visible ? 1 : 0,
+        transform: visible ? 'translateY(0)' : 'translateY(60px)',
+        transition: 'opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
       }}
     >
       <div className="container">

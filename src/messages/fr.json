@@ -9,7 +9,8 @@
     "insights": "Insights",
     "corporate": "Corporate",
     "contact": "Contact",
-    "cta": "Contactez-nous"
+    "cta": "Contactez-nous",
+    "ctaShort": "Contact"
   },
   "common": {
     "learnMore": "En savoir plus",
@@ -24,131 +25,6 @@
     "subtitle": "des dispositifs de formation qui fonctionnent"
   },
   "home": {
-    "eyebrow": "Opérateur en formation & développement des compétences",
-    "heroTitle": [
-      "Concevoir, structurer et déployer",
-      "des dispositifs de formation",
-      "qui",
-      "fonctionnent réellement",
-      "."
-    ],
-    "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
-    "entryEnterprise": {
-      "kicker": "01｜Vous êtes une entreprise, PME, TPE ou grand groupe",
-      "title": "Transformer la formation en levier de performance",
-      "items": [
-        "Audit de maturité",
-        "Création d'académie interne",
-        "Politique et structure de formation"
-      ],
-      "cta": "Découvrir les solutions"
-    },
-    "entryOf": {
-      "kicker": "02｜Vous êtes un organisme de formation, école, enseignement supérieur",
-      "title": "Structurer, sécuriser et développer votre activité",
-      "items": [
-        "Pédagogie & conformité",
-        "Stratégie & positionnement",
-        "Services externalisés"
-      ],
-      "cta": "Découvrir les solutions"
-    },
-    "entrySolutions": {
-      "kicker": "03｜Vous cherchez une solution digitale, dév, IA ou transformation IT",
-      "title": "Des outils sur mesure, des solutions concrètes",
-      "items": [
-        "Plateformes personnalisées",
-        "Solutions IA adaptées à la formation",
-        "Développement sur mesure"
-      ],
-      "cta": "Découvrir les solutions"
-    },
-    "diffTitle": "Ce qui nous distingue",
-    "diffLead": "Quatre principes structurels - pas un argumentaire marketing.",
-    "differentiation": [
-      {
-        "n": "01",
-        "title": "Spécialistes formation et éducation",
-        "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences."
-      },
-      {
-        "n": "02",
-        "title": "Approche full-stack",
-        "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre."
-      },
-      {
-        "n": "03",
-        "title": "Rémunération alignée sur vos résultats",
-        "body": "Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil."
-      },
-      {
-        "n": "04",
-        "title": "Intervention réelle sur le terrain",
-        "body": "Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint."
-      }
-    ],
-    "promiseTitle": "Notre promesse",
-    "promiseBody": "Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.",
-    "promiseSig": "- C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
-    "proofTitle": "Ce que nos missions produisent",
-    "proofs": [
-      {
-        "value": "6",
-        "unit": "sem.",
-        "label": "structuration OF complète"
-      },
-      {
-        "value": "100",
-        "unit": "%",
-        "label": "audit Qualiopi validé"
-      },
-      {
-        "value": "×2",
-        "unit": "",
-        "label": "engagement académie interne"
-      },
-      {
-        "value": "−30",
-        "unit": "%",
-        "label": "recours formations externes"
-      }
-    ],
-    "proofNote": "Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.",
-    "faq": {
-      "eyebrow": "Questions fréquentes",
-      "title": "Ce que vous voulez savoir avant le premier rendez-vous.",
-      "lead": "Six questions, six réponses directes. Pas de discours, pas de promesses marketing, juste ce qu'il faut pour décider si Mentivis a sa place dans votre projet.",
-      "items": [
-        {
-          "question": "Êtes-vous un cabinet de conseil ?",
-          "answer": "Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur."
-        },
-        {
-          "question": "À qui s'adresse Mentivis ?",
-          "answer": "Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international."
-        },
-        {
-          "question": "Comment facturez-vous ?",
-          "answer": "Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre."
-        },
-        {
-          "question": "Combien de temps prend une mission ?",
-          "answer": "De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent."
-        },
-        {
-          "question": "Pourquoi ne citez-vous pas vos clients sur le site ?",
-          "answer": "Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous."
-        },
-        {
-          "question": "Comment se passe un premier contact ?",
-          "answer": "Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons."
-        }
-      ]
-    },
-    "finalCtaTitle": "Un projet de formation à structurer ?",
-    "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
-  },
-  "about": {
     "eyebrow": "Qui sommes-nous",
     "title": [
       "Un opérateur spécialisé,",
@@ -224,7 +100,237 @@
         "title": "Offres adaptées",
         "body": "Écoles, centres de formation, TPE, PME, Grands groupes, nous calibrons nos interventions au plus juste."
       }
-    ]
+    ],
+    "entryEnterprise": {
+      "kicker": "01｜Vous êtes une entreprise, PME, TPE ou grand groupe",
+      "title": "Transformer la formation en levier de performance",
+      "items": [
+        "Audit de maturité",
+        "Création d'académie interne",
+        "Politique et structure de formation"
+      ],
+      "cta": "Découvrir les solutions"
+    },
+    "entryOf": {
+      "kicker": "02｜Vous êtes un organisme de formation, école, université",
+      "title": "Structurer, sécuriser et développer votre activité",
+      "items": [
+        "Pédagogie & conformité",
+        "Stratégie & positionnement",
+        "Services externalisés"
+      ],
+      "cta": "Découvrir les solutions"
+    },
+    "entrySolutions": {
+      "kicker": "03｜Vous cherchez une solution digitale, dév, IA ou transformation IT",
+      "title": "Des outils sur mesure, des solutions concrètes",
+      "items": [
+        "Plateformes personnalisées",
+        "Solutions IA adaptées à la formation",
+        "Développement sur mesure"
+      ],
+      "cta": "Découvrir les solutions"
+    },
+    "diffTitle": "Ce qui nous distingue",
+    "diffLead": "Quatre principes structurels - pas un argumentaire marketing.",
+    "differentiation": [
+      {
+        "n": "01",
+        "title": "Spécialistes formation et éducation",
+        "body": "Nous ne sommes pas des généralistes du conseil. Toute notre expertise est concentrée sur un seul terrain : la formation et le développement des compétences."
+      },
+      {
+        "n": "02",
+        "title": "Approche full-stack",
+        "body": "De la stratégie à l'exécution opérationnelle. Nous ne livrons pas de recommandations sans les mettre en œuvre."
+      },
+      {
+        "n": "03",
+        "title": "Rémunération alignée sur vos résultats",
+        "body": "Une part variable liée à la performance mesurée. Nous performons quand vous performez. C'est ce qui nous distingue structurellement d'un cabinet de conseil."
+      },
+      {
+        "n": "04",
+        "title": "Intervention réelle sur le terrain",
+        "body": "Pas de livrables sans suite. Notre travail se mesure au déploiement effectif, pas au PowerPoint."
+      }
+    ],
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "title": "Ce que vous voulez savoir avant le premier rendez-vous.",
+      "lead": "Six questions, six réponses directes. Pas de discours, pas de promesses marketing, juste ce qu'il faut pour décider si Mentivis a sa place dans votre projet.",
+      "items": [
+        {
+          "question": "Êtes-vous un cabinet de conseil ?",
+          "answer": "Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur."
+        },
+        {
+          "question": "À qui s'adresse Mentivis ?",
+          "answer": "Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international."
+        },
+        {
+          "question": "Comment facturez-vous ?",
+          "answer": "Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre."
+        },
+        {
+          "question": "Combien de temps prend une mission ?",
+          "answer": "De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent."
+        },
+        {
+          "question": "Pourquoi ne citez-vous pas vos clients sur le site ?",
+          "answer": "Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous."
+        },
+        {
+          "question": "Comment se passe un premier contact ?",
+          "answer": "Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons."
+        }
+      ]
+    },
+    "finalCtaTitle": "Un projet de formation à structurer ?",
+    "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
+  },
+  "about": {
+    "heroEyebrow": "Conviction.",
+    "heroTitle": [
+      "Former n'est pas un coût.",
+      "C'est un système",
+      "de production",
+      "de valeur."
+    ],
+    "heroSub": "Mentivis conçoit les systèmes qui permettent aux organisations de former, certifier et faire grandir leurs talents. De la stratégie au déploiement opérationnel.",
+    "storyEyebrow": "Histoire et positionnement.",
+    "storyTitle": "Né d'un constat opérationnel.",
+    "storyLede": "Ses fondateurs ont déjà créé des écoles ensemble. Pédagogie, développement commercial, marketing, conformité, opérations. Toutes les dimensions du métier.",
+    "storyBody1": "Ils se sont associés pour une raison précise. Les mutations rapides de l'éducation et de la formation exigent un acteur spécialisé, capable de faire le lien entre entreprises, dispositifs de formation et enjeux à venir.",
+    "storyBody2": "Un choix dès l'origine. Ne pas faire du conseil abstrait, mais construire des dispositifs qui fonctionnent réellement.",
+    "storyClosing": "Chaque mission va jusqu'au déploiement opérationnel. Pas de livrable sans exécution.",
+    "domains": [
+      {
+        "name": "Écoles et organismes de formation",
+        "tag": "Création, pilotage"
+      },
+      {
+        "name": "Campus corporate",
+        "tag": "Conception, exploitation"
+      },
+      {
+        "name": "Dispositifs certifiants",
+        "tag": "Ingénierie, RNCP"
+      },
+      {
+        "name": "Recrutement par la formation",
+        "tag": "POEI, AFEST, alternance"
+      }
+    ],
+    "whyEyebrow": "Pourquoi l'éducation.",
+    "whyTitle": "Parce que tout y converge.",
+    "whyForces": "Pénurie de talents · Transformation des métiers · Pression économique · Accélération technologique.",
+    "whyBody": "Les entreprises deviennent des acteurs éducatifs. Les écoles deviennent des plateformes d'employabilité. Nous travaillons exactement à cet endroit.",
+    "approachEyebrow": "Notre approche.",
+    "approachTitle": "Quatre blocs intégrés.",
+    "approachLede": "Un seul objectif. Un système viable, financé, activable rapidement.",
+    "approachBlocks": [
+      {
+        "title": "Stratégie",
+        "desc": "Cadrage du projet, positionnement de marché, modèle économique. Ce qui rend le système viable avant même le premier inscrit.",
+        "marker": "Bloc"
+      },
+      {
+        "title": "Ingénierie pédagogique",
+        "desc": "Référentiels, certifications, parcours. Conception fine des objets pédagogiques et de leur évaluation.",
+        "marker": "Bloc"
+      },
+      {
+        "title": "Marketing et admissions",
+        "desc": "Recrutement des apprenants, notoriété, conversion. Du tunnel de candidature à l'identité de marque.",
+        "marker": "Bloc"
+      },
+      {
+        "title": "Conformité et déploiement",
+        "desc": "OPCO, dispositifs publics, certifications qualité, mise en oeuvre opérationnelle quotidienne.",
+        "marker": "Bloc"
+      }
+    ],
+    "distinguishEyebrow": "Ce qui nous distingue.",
+    "distinguishTitle": "Quatre signatures.",
+    "distinguishItems": [
+      {
+        "title": "Obsession du résultat.",
+        "desc": "Pas du rapport. Un projet qui n'est pas lancé n'a pas existé."
+      },
+      {
+        "title": "Maîtrise du financement.",
+        "desc": "OPCO, dispositifs publics, montages hybrides. Le levier économique du projet."
+      },
+      {
+        "title": "Approche full-stack.",
+        "desc": "Stratégie, pédagogie, marketing, conformité. Sous un seul toit."
+      },
+      {
+        "title": "Capacité à opérer.",
+        "desc": "Pas seulement à conseiller. Nous tenons les rênes jusqu'à la première promotion."
+      }
+    ],
+    "valuesEyebrow": "Nos valeurs.",
+    "valuesTitle": "Cinq règles de fonctionnement.",
+    "values": [
+      {
+        "name": "Clarté.",
+        "desc": "Dire ce qui fonctionne. Éliminer le reste."
+      },
+      {
+        "name": "Exécution.",
+        "desc": "Un projet n'existe que s'il est lancé."
+      },
+      {
+        "name": "Responsabilité.",
+        "desc": "Nous allons jusqu'au résultat."
+      },
+      {
+        "name": "Confidentialité.",
+        "desc": "Les projets ne circulent pas."
+      },
+      {
+        "name": "Utilité.",
+        "desc": "Chaque action doit créer de la valeur mesurable."
+      }
+    ],
+    "teamEyebrow": "L'équipe.",
+    "teamTitle": "Quatre partenaires.",
+    "team": [
+      {
+        "name": "Roxan Roumégas",
+        "role": "Partner, Président",
+        "detail": "Stratégie pédagogique",
+        "photo": "/images/team/roxan-roumegas.avif"
+      },
+      {
+        "name": "Mathias Costes",
+        "role": "Partner, Corporate Sales",
+        "detail": "Développement corporate",
+        "photo": "/images/team/mathias.costes.avif"
+      },
+      {
+        "name": "Julie Steiner",
+        "role": "Partner, Direction commerciale",
+        "detail": "Pilotage des admissions",
+        "photo": "/images/team/julie-steiner.webp"
+      },
+      {
+        "name": "Steven Delcourt",
+        "role": "Partner, Strategy",
+        "detail": "Brand et marketing",
+        "photo": "/images/team/steven-delcourt.avif"
+      }
+    ],
+    "closingEyebrow": "Ce que nous construisons.",
+    "closingTitle": [
+      "Pas des structures.",
+      "Des systèmes éducatifs."
+    ],
+    "closingSub": "Capables de produire des talents, de sécuriser la croissance, de s'adapter dans le temps.",
+    "finalCtaTitle": "Un projet de formation à structurer ?",
+    "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
   },
   "of": {
     "eyebrow": "Vous êtes un organisme de formation",
@@ -930,5 +1036,45 @@
     "noVideos": "Aucune vidéo disponible pour le moment.",
     "contactCta": "Contactez-nous",
     "metaDescription": "Découvrez nos vidéos sur la formation, l'ingénierie pédagogique et les solutions digitales."
+  },
+  "homeOld": {
+    "eyebrow": "Opérateur en formation & développement des compétences",
+    "heroTitle": [
+      "Concevoir, structurer et déployer",
+      "des dispositifs de formation",
+      "qui",
+      "fonctionnent réellement",
+      "."
+    ],
+    "heroLead": "Entreprises et organismes de formation font face aux mêmes défis : complexité, inefficacité, perte de temps. Mentivis conçoit et déploie des solutions concrètes, de bout en bout.",
+    "promiseTitle": "Notre promesse",
+    "promiseBody": "Notre modèle repose sur une rémunération variable, alignée sur les résultats obtenus. Nous n'avons pas intérêt à vous livrer une recommandation que vous ne pourrez pas appliquer.",
+    "promiseSig": "- C'est ce qui nous distingue structurellement d'un cabinet de conseil.",
+    "proofTitle": "Ce que nos missions produisent",
+    "proofs": [
+      {
+        "value": "6",
+        "unit": "sem.",
+        "label": "structuration OF complète"
+      },
+      {
+        "value": "100",
+        "unit": "%",
+        "label": "audit Qualiopi validé"
+      },
+      {
+        "value": "×2",
+        "unit": "",
+        "label": "engagement académie interne"
+      },
+      {
+        "value": "−30",
+        "unit": "%",
+        "label": "recours formations externes"
+      }
+    ],
+    "proofNote": "Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.",
+    "finalCtaTitle": "Un projet de formation à structurer ?",
+    "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
   }
 }

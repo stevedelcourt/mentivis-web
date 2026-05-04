@@ -72,12 +72,12 @@ export default function VideosClient() {
 
        {/* Hero using ImageHero like /enterprise */}
        <ImageHero
-         image="/images/heroes/video-open_color.avif"
+         image="/images/heroes/video-open.avif"
          eyebrow={v.eyebrow}
          title={v.title}
          lead={v.lead}
        >
-         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 999, textDecoration: "none" }}>
+         <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
            {v.contactCta}
            <Icon name="chevron_right" size={18} />
          </Link>
