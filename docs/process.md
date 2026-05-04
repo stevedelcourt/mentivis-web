@@ -428,6 +428,35 @@ python3 scripts/ftp_clean_deploy.py
 
 **Downtime:** ~10-12 minutes (delete: 2 min, upload: 8-10 min at ~500 KB/s)
 
+### 10.8 Post-Build Sanitize — `scripts/sanitize-chunks.py`
+
+**Problem:** Next.js generates directories like `[lang]` and `[slug]` in `_next/static/chunks/app/` for dynamic routes. Some Apache/nginx configurations (o2switch) block URLs containing brackets (`%5B` / `%5D`), causing `ChunkLoadError` 404.
+
+**Solution:** Post-build script renames bracket directories and updates all references:
+- `[lang]` → `lang`
+- `[slug]` → `slug`
+- Updates 380+ files (HTML, JS, CSS, JSON, txt)
+
+**Integration:**
+- `scripts/build-ftp.js` runs `sanitize-chunks.py` automatically after every build
+- Manual: `python3 scripts/sanitize-chunks.py`
+
+**Verification after sanitize:**
+```bash
+# Should return 0
+ls out/_next/static/chunks/app/ | grep '\[' | wc -l
+
+# Should return 0
+grep -rl '%5Blang%5D' out/ | wc -l
+```
+
+**2026-05-04 Result:**
+- Renamed 2 directories: `[lang]`, `[lang]/insights/[slug]`
+- Modified 380 files
+- Deployed to sc4: 954 files, zero bracket references remaining
+
+---
+
 **Why this prevents ChunkLoadError:**
 - Old `_next/static/` is completely wiped — no stale chunks remain
 - `__next` files are uploaded — enables proper Next.js client-side navigation
