@@ -11,7 +11,7 @@ const STATIC_PAGES = [
   { path: "about", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "enterprise", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "of", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "mentivissolutions", priority: 0.8, changeFrequency: "monthly" as const },
+
   { path: "insights", priority: 0.8, changeFrequency: "weekly" as const },
   { path: "guides", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "score-formation", priority: 0.7, changeFrequency: "monthly" as const },

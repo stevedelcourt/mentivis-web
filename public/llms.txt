@@ -11,7 +11,7 @@ Training consulting and digital solutions for enterprises and training organizat
 - /fr/about — À propos de Mentivis
 - /fr/enterprise — Conseil en formation pour entreprises
 - /fr/of — Conseil pour organismes de formation
-- /fr/solutions — Solutions digitales formation
+- /fr/mentivissolutions — Mentivis Solutions
 - /fr/contact — Contact et demande de diagnostic
 - /fr/insights — Publications et perspectives
 - /fr/guides — Guides pratiques BPF, CPF, POEI
@@ -26,7 +26,7 @@ Training consulting and digital solutions for enterprises and training organizat
 - /en/about — About Mentivis
 - /en/enterprise — Enterprise training consulting
 - /en/of — Training organization consulting
-- /en/solutions — Digital training solutions
+- /en/mentivissolutions — Mentivis Solutions
 - /en/contact — Contact and diagnostic request
 - /en/insights — Insights and perspectives
 - /en/guides — Reference guides BPF, CPF, POEI

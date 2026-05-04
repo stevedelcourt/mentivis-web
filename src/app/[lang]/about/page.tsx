@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
+import JsonLd from "@/components/JsonLd";
 import AboutClient from "./AboutClient";
+import { SITE } from "@/lib/config";
 
 export async function generateMetadata({
   params,
@@ -20,6 +22,14 @@ export async function generateMetadata({
 export default function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   return (
     <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        name: "À propos de Mentivis",
+        url: `${SITE.baseUrl}/fr/about`,
+        description: "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.",
+        publisher: { "@id": `${SITE.baseUrl}/#organization` },
+      }} />
       <BreadcrumbJsonLd items={[
         { name: "Accueil", url: "https://www.mentivis.com/fr/" },
         { name: "À propos" }
