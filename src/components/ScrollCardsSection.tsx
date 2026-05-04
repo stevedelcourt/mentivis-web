@@ -123,7 +123,7 @@ const update = () => {
   const cardData = [
     { ...entries.enterprise, href: `/${lang}/enterprise` },
     { ...entries.of, href: `/${lang}/of` },
-    { ...entries.solutions, href: `/${lang}/solutions` },
+    { ...entries.solutions, href: `/mentivis-solutions/` },
   ];
 
   const cards = cardData.map((c, i) => ({

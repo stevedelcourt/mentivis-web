@@ -34,8 +34,9 @@ gtag('consent', 'default', {
 
 const LANG_SCRIPT = `
 (function() {
-  var m = location.pathname.match(/^\/(fr|en)\//);
-  if (m) document.documentElement.lang = m[1];
+  var p = location.pathname;
+  var lang = p.startsWith('/fr/') ? 'fr' : p.startsWith('/en/') ? 'en' : null;
+  if (lang) document.documentElement.lang = lang;
 })();
 `;
 
