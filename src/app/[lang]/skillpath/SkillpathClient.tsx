@@ -88,53 +88,24 @@ export default function SkillpathClient() {
               {s.ctaDemo}
               <Icon name="chevron_right" size={18} />
             </Link>
-            <a
-              href="#steps"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 8,
-                padding: "13px 22px",
-                fontSize: 14,
-                fontWeight: 600,
-                color: "white",
-                background: "transparent",
-                border: "1.5px solid rgba(255,255,255,0.45)",
-                borderRadius: 999,
-                textDecoration: "none",
-              }}
-            >
-              {s.ctaHow}
-              <Icon name="expand_more" size={18} />
-            </a>
           </div>
         </div>
       </section>
 
       {/* ── PROBLEM ── */}
-      <section style={{ padding: "96px 0", background: "var(--m-bg-soft)" }}>
+      <section style={{ padding: "80px 0", background: "var(--m-bg-soft)" }}>
         <div className="container">
-          <div style={{ maxWidth: 640, margin: "0 auto", textAlign: "center" }}>
-            <h2
-              className="t-display"
-              style={{
-                fontSize: "clamp(24px, 3vw, 36px)",
-                margin: "0 0 24px",
-              }}
-            >
-              {s.problemTitle}
-            </h2>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.65,
-                color: "var(--m-ink-2)",
-                margin: 0,
-              }}
-            >
-              {s.problemText}
-            </p>
-          </div>
+          <p
+            style={{
+              fontSize: 16,
+              lineHeight: 1.65,
+              color: "var(--m-ink-2)",
+              margin: 0,
+              maxWidth: 720,
+            }}
+          >
+            {s.problemText}
+          </p>
         </div>
       </section>
 
