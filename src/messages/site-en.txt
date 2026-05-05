@@ -1091,7 +1091,7 @@ title: You declare your objective
 body: Profile, current situation, time constraints.
 
 # skillpath.steps[1]
-title: The diagnosis drops
+title: The diagnosis
 body: Coverage score, residual risk, estimated duration, identified modules, learning order. In under a minute.
 
 # skillpath.steps[2]

@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`}>
+    <html className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }} />
         <script dangerouslySetInnerHTML={{ __html: LANG_SCRIPT }} />

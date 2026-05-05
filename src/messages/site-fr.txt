@@ -1079,7 +1079,7 @@ finalCtaTitle: Un projet de formation à structurer ?
 finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
 # skillpath
 heroTitle: Skillpath
-heroLead: Le LearningOS natif IA qui construit le parcours de formation exact dont chaque personne a besoin.
+heroLead: Le LearningOS natif IA, qui construit le parcours de formation exact dont chaque personne a besoin.
 heroSub: Pas un catalogue. Pas un LMS. Un moteur pédagogique.
 ctaDemo: Demander une démonstration
 ctaHow: Voir comment ça marche
@@ -1091,7 +1091,7 @@ title: Vous déclarez votre objectif
 body: Profil, situation actuelle, contraintes de temps.
 
 # skillpath.steps[1]
-title: Le diagnostic tombe
+title: Le diagnostic
 body: Score de couverture, risque résiduel, durée estimée, modules identifiés, ordre d'apprentissage. En moins d'une minute.
 
 # skillpath.steps[2]

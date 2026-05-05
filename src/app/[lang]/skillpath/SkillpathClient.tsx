@@ -183,7 +183,7 @@ export default function SkillpathClient() {
                   text: s.forWho[2],
                 },
                 {
-                  icon: "book",
+                  icon: "psychology",
                   title: s.forWhoSubtitles[3],
                   text: s.forWho[3],
                 },

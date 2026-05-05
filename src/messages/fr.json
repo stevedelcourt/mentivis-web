@@ -1166,7 +1166,7 @@
   },
   "skillpath": {
     "heroTitle": "Skillpath",
-    "heroLead": "Le LearningOS natif IA qui construit le parcours de formation exact dont chaque personne a besoin.",
+    "heroLead": "Le LearningOS natif IA, qui construit le parcours de formation exact dont chaque personne a besoin.",
     "heroSub": "Pas un catalogue. Pas un LMS. Un moteur pédagogique.",
     "ctaDemo": "Demander une démonstration",
     "ctaHow": "Voir comment ça marche",
@@ -1178,7 +1178,7 @@
         "body": "Profil, situation actuelle, contraintes de temps."
       },
       {
-        "title": "Le diagnostic tombe",
+        "title": "Le diagnostic",
         "body": "Score de couverture, risque résiduel, durée estimée, modules identifiés, ordre d'apprentissage. En moins d'une minute."
       },
       {
