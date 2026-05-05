@@ -1079,7 +1079,7 @@ finalCtaTitle: A training project to structure?
 finalCtaLead: First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.
 # skillpath
 heroTitle: Skillpath
-heroLead: The AI-native platform that builds the exact learning path each person needs.
+heroLead: The AI-native LearningOS that builds the exact learning path each person needs.
 heroSub: Not a catalogue. Not an LMS. A pedagogical engine.
 ctaDemo: Request a demo
 ctaHow: See how it works

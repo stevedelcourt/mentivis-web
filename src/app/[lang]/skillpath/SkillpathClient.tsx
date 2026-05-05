@@ -99,13 +99,13 @@ export default function SkillpathClient() {
 
       {/* ── PROBLEM ── */}
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)" }}>
-        <div className="container">
+        <div className="container" style={{ textAlign: "center" }}>
           <p
             style={{
               fontSize: 16,
               lineHeight: 1.65,
               color: "var(--m-ink-2)",
-              margin: 0,
+              margin: "0 auto",
               maxWidth: 720,
             }}
           >
