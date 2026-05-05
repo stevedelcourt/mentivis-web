@@ -51,6 +51,11 @@ Training consulting and digital solutions for enterprises and training organizat
 
 ## Insights récents / Recent Insights
 
+- Mentivis dévoile SkillPath, l'OS de la formation native IA (2026-05-05) — https://www.mentivis.com/fr/insights/mentivis-devoile-skillpath-os-formation-native-ia
+  Mentivis dévoile une plateforme native IA qui calcule en temps réel le parcours optimal de chaque apprenant à partir de son profil et de son objectif. Une rupture revendiquée avec le LMS classique.
+- Mentivis Unveils SkillPath, the AI-Native Learning OS (2026-05-05) — https://www.mentivis.com/en/insights/mentivis-devoile-skillpath-os-formation-native-ia
+  Mentivis unveils an AI-native platform that calculates the optimal learning path for each learner in real time based on their profile and goal. A claimed break from the classic LMS.
+
 - Le poste est mort, vive la compétence (2026-03-28) — https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
   Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises.
 - The Job Is Dead, Long Live the Skill (2026-03-28) — https://www.mentivis.com/en/insights/le-poste-est-mort-vive-la-competence
@@ -95,11 +100,6 @@ Training consulting and digital solutions for enterprises and training organizat
   Réarmement, pénurie d'ingénieurs, apprentissage en déclin : pourquoi la défense française manque de compétences ?
 - Is France Training Enough Engineers for Its Defense? (2026-01-14) — https://www.mentivis.com/en/insights/rearmement-france-penurie-competences-industrielles-defense
   Rearmament, engineer shortage, declining apprenticeships: why is French defense short of skills?
-
-- La forge des talents (2026-01-05) — https://www.mentivis.com/fr/insights/crise-competences-metallurgie-france-solutions
-  Face à la pénurie de talents, la métallurgie française doit recruter 200 000 personnes par an. Les solutions et les enjeux de la réindustrialisation d'ici 2035.
-- The Forge of Talent (2026-01-05) — https://www.mentivis.com/en/insights/crise-competences-metallurgie-france-solutions
-  Faced with a talent shortage, French metallurgy must recruit 200,000 people per year. The solutions and challenges of reindustrialization by 2035.
 
 ## Contact
 

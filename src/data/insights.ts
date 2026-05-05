@@ -22,6 +22,7 @@ import article16 from "../content/insights/leducation-merite-mieux-que-les-effet
 import article17 from "../content/insights/conseil-boutique-vs-big-four.json";
 import article18 from "../content/insights/morin-contre-les-machines.json";
 import article19 from "../content/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros.json";
+import article20 from "../content/insights/skillpath-os-formation-native-ia.json";
 
 // Re-export types from meta so detail pages can import from either module
 export type { InsightCategory } from "./insights-meta";
@@ -37,6 +38,7 @@ export const INSIGHTS: InsightArticle[] = [
   article6, article7, article8, article9, article10,
   article11, article12, article13, article14, article15,
   article16, article17, article18, article19,
+  article20,
 ] as InsightArticle[];
 
 export function getInsightBySlug(slug: string): InsightArticle | undefined {
