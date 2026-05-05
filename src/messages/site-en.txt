@@ -178,9 +178,8 @@ finalCtaLead: First exchange with no commitment, analysis of your needs and clea
 # about
 heroEyebrow: Conviction.
 heroTitle[0]: Training is not a cost.
-heroTitle[1]: It is a value
-heroTitle[2]: production
-heroTitle[3]: system.
+heroTitle[1]: It is a system
+heroTitle[2]: for producing value.
 heroSub: Mentivis designs the systems that enable organizations to train, certify and grow their talent. From strategy to operational deployment.
 storyEyebrow: History and positioning.
 storyTitle: Born from an operational observation.

@@ -179,8 +179,7 @@ finalCtaLead: Premier échange sans engagement, analyse de votre besoin et posit
 heroEyebrow: Conviction.
 heroTitle[0]: Former n'est pas un coût.
 heroTitle[1]: C'est un système
-heroTitle[2]: de production
-heroTitle[3]: de valeur.
+heroTitle[2]: de production de valeur.
 heroSub: Mentivis conçoit les systèmes qui permettent aux organisations de former, certifier et faire grandir leurs talents. De la stratégie au déploiement opérationnel.
 storyEyebrow: Histoire et positionnement.
 storyTitle: Né d'un constat opérationnel.

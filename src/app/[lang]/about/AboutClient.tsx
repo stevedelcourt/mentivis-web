@@ -155,10 +155,10 @@ export default function AboutClient() {
                 <p className="t-lead" style={{ marginBottom: "1.5rem" }}>{a.storyLede}</p>
               </Reveal>
               <Reveal delay={160}>
-                <p style={{ fontSize: 14, lineHeight: 1.65, color: "var(--m-ink-2)", marginBottom: "1rem" }}>{a.storyBody1}</p>
+                <p style={{ fontSize: 15, lineHeight: 1.65, color: "var(--m-ink-2)", marginBottom: "1rem" }}>{a.storyBody1}</p>
               </Reveal>
               <Reveal delay={200}>
-                <p style={{ fontSize: 14, lineHeight: 1.65, color: "var(--m-ink-2)", marginBottom: "2rem" }}>
+                <p style={{ fontSize: 15, lineHeight: 1.65, color: "var(--m-ink-2)", marginBottom: "2rem" }}>
                   <strong style={{ color: "var(--m-ink)", fontWeight: 500 }}>{a.storyBody2}</strong>
                 </p>
               </Reveal>
@@ -173,7 +173,7 @@ export default function AboutClient() {
                 </div>
               </Reveal>
               <Reveal delay={280}>
-                <p style={{ marginTop: "2rem", fontSize: 14, lineHeight: 1.65, color: "var(--m-ink)" }}>{a.storyClosing}</p>
+                <p style={{ marginTop: "2rem", fontSize: 15, lineHeight: 1.65, color: "var(--m-ink)" }}>{a.storyClosing}</p>
               </Reveal>
             </div>
           </div>
@@ -263,10 +263,10 @@ export default function AboutClient() {
               <Reveal delay={160}>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 0, borderTop: "0.5px solid rgba(255,255,255,0.15)" }} className="m-approach-dark-grid">
                   {a.approachBlocks.map((b: any, i: number) => (
-                    <div key={i} style={{ padding: "2rem", borderBottom: "0.5px solid rgba(255,255,255,0.15)", borderRight: i % 2 === 0 ? "0.5px solid rgba(255,255,255,0.15)" : "none" }}>
+                    <div key={i} style={{ padding: "2.5rem", borderBottom: "0.5px solid rgba(255,255,255,0.15)", borderRight: i % 2 === 0 ? "0.5px solid rgba(255,255,255,0.15)" : "none" }}>
                       <span className="t-mono" style={{ color: "rgba(255,255,255,0.45)", display: "block", marginBottom: "0.75rem" }}>{b.marker}</span>
                       <h3 style={{ fontSize: 20, fontWeight: 500, color: "white", marginBottom: "0.5rem" }}>{b.title}</h3>
-                      <p style={{ fontSize: 13, lineHeight: 1.55, color: "rgba(255,255,255,0.55)" }}>{b.desc}</p>
+                      <p style={{ fontSize: 16, lineHeight: 1.6, color: "rgba(255,255,255,0.75)" }}>{b.desc}</p>
                     </div>
                   ))}
                 </div>
@@ -328,8 +328,8 @@ export default function AboutClient() {
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 0, borderTop: "0.5px solid var(--m-line)" }} className="m-values-grid">
                   {a.values.map((v: any, i: number) => (
                     <div key={i} style={{ padding: "2rem", borderBottom: "0.5px solid var(--m-line)", borderRight: i % 2 === 0 ? "0.5px solid var(--m-line)" : "none" }}>
-                      <h3 style={{ fontSize: 22, fontWeight: 500, color: "var(--m-ink)", lineHeight: 1.2, marginBottom: "0.5rem" }}>{v.name}</h3>
-                      <p style={{ fontSize: 14, lineHeight: 1.55, color: "var(--m-ink-3)" }}>{v.desc}</p>
+                      <h3 style={{ fontSize: 24, fontWeight: 500, color: "var(--m-ink)", lineHeight: 1.2, marginBottom: "0.5rem" }}>{v.name}</h3>
+                      <p style={{ fontSize: 15, lineHeight: 1.6, color: "var(--m-ink-2)" }}>{v.desc}</p>
                     </div>
                   ))}
                 </div>

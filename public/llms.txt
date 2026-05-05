@@ -11,7 +11,8 @@ Training consulting and digital solutions for enterprises and training organizat
 - /fr/about — À propos de Mentivis
 - /fr/enterprise — Conseil en formation pour entreprises
 - /fr/of — Conseil pour organismes de formation
-- /fr/mentivissolutions — Mentivis Solutions
+- /fr/solutions — Solutions digitales (conception d'outils sur mesure, développement spécifique, IA)
+- /fr/mentivissolutions — Mentivis Solutions (iframe externe)
 - /fr/contact — Contact et demande de diagnostic
 - /fr/insights — Publications et perspectives
 - /fr/guides — Guides pratiques BPF, CPF, POEI
@@ -26,7 +27,8 @@ Training consulting and digital solutions for enterprises and training organizat
 - /en/about — About Mentivis
 - /en/enterprise — Enterprise training consulting
 - /en/of — Training organization consulting
-- /en/mentivissolutions — Mentivis Solutions
+- /en/solutions — Digital solutions (custom tool design, specific development, AI)
+- /en/mentivissolutions — Mentivis Solutions (external iframe)
 - /en/contact — Contact and diagnostic request
 - /en/insights — Insights and perspectives
 - /en/guides — Reference guides BPF, CPF, POEI
@@ -34,6 +36,18 @@ Training consulting and digital solutions for enterprises and training organizat
 - /en/careers — Join the Mentivis team
 - /en/meeting — Book a meeting
 - /en/videos — Mentivis Videos
+
+## Cas clients / Client Cases
+
+### Entreprises / Enterprise
+
+- Réseau immobilier international — Étude Go/NoGo pour 2 dispositifs de formation (Start Immo + BTS alternance). Budget: 9.9k €, 6 semaines.
+- Éditeur de logiciels métiers — Création et déploiement de 3 centres de formation (Nice, Lyon, Bordeaux). Budget: ~2.2 M€, 3 ans.
+
+### Organismes de formation / Training Organizations
+
+- PSH Sup — Externalisation opérationnelle complète (administratif, relations entreprises, marketing). Contrat 3 ans.
+- Ecolearn — Structuration Qualiopi et croissance (+85% CA, 480 apprenants). Budget: 14.5k € + 3.5k €/mois.
 
 ## Insights récents / Recent Insights
 
