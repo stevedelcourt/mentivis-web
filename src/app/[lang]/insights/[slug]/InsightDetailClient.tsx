@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { marked } from "marked";
 import PageShell from "@/components/layout/PageShell";
+import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
+import { SITE } from "@/lib/config";
 import { CATEGORY_LABELS, type InsightArticle } from "@/data/insights";
 
 export default function InsightDetailClient({
@@ -30,27 +32,47 @@ export default function InsightDetailClient({
     day: "numeric",
   });
 
-  const jsonLd = {
+  const articleUrl = `${SITE.baseUrl}/${lang}/insights/${article.slug}`;
+  const imageUrl = article.heroImage?.startsWith("http")
+    ? article.heroImage
+    : `${SITE.baseUrl}${article.heroImage}`;
+
+  const jsonLd: Record<string, any> = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: title,
     description: excerpt,
+    url: articleUrl,
     datePublished: article.date,
-    author: article.author
-      ? { "@type": "Person", name: article.author }
-      : undefined,
-    image: article.heroImage,
+    image: imageUrl,
     keywords: article.keywords,
     articleSection: categoryLabel,
     inLanguage: lang === "fr" ? "fr-FR" : "en-US",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.baseUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE.baseUrl}/images/logo/mentivis-logo.png`,
+      },
+    },
   };
+
+  if (article.author) {
+    jsonLd.author = {
+      "@type": "Person",
+      name: article.author,
+    };
+  }
 
   return (
     <PageShell>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
 
       <article
         style={{ maxWidth: 780, margin: "0 auto", padding: "120px 24px 100px" }}
@@ -169,6 +191,67 @@ export default function InsightDetailClient({
             color: "var(--m-ink-2)",
           }}
         />
+
+        {/* Article CTA */}
+        <div
+          style={{
+            marginTop: 60,
+            padding: "32px 36px",
+            background: "var(--m-bg-soft)",
+            borderRadius: 16,
+            border: "1px solid var(--m-line)",
+            textAlign: "center" as const,
+          }}
+        >
+          <h3
+            style={{
+              fontFamily: "var(--f-display)",
+              fontSize: "clamp(20px, 2.5vw, 26px)",
+              fontWeight: 500,
+              color: "var(--m-ink)",
+              margin: "0 0 12px",
+              lineHeight: 1.2,
+            }}
+          >
+            {lang === "fr" ? "Vous souhaitez en savoir plus ?" : "Want to learn more?"}
+          </h3>
+          <p
+            style={{
+              fontSize: 15,
+              lineHeight: 1.6,
+              color: "var(--m-ink-3)",
+              margin: "0 0 24px",
+              maxWidth: 480,
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            {lang === "fr"
+              ? "Discutons de vos besoins et explorez ce que Mentivis peut construire pour vous."
+              : "Let's discuss your needs and explore what Mentivis can build for you."}
+          </p>
+          <Link
+            href={`/${lang}/contact`}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 24px",
+              fontSize: 14,
+              fontWeight: 600,
+              color: "white",
+              background: "var(--m-purple)",
+              borderRadius: 999,
+              textDecoration: "none",
+              transition: "opacity 0.25s ease",
+            }}
+          >
+            {lang === "fr" ? "Contact et demande de démo" : "Contact and demo request"}
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </Link>
+        </div>
       </article>
     </PageShell>
   );
