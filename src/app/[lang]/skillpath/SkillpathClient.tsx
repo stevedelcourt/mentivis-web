@@ -38,33 +38,6 @@ export default function SkillpathClient() {
           {/* SEO title only — visual title is inside the hero image */}
           <h1 className="visually-hidden">{s.heroTitle}</h1>
 
-          {/* Subtitle — main visible text under the hero image */}
-          <p
-            className="m-hero-text m-hero-text-delay-0"
-            style={{
-              marginTop: 0,
-              maxWidth: 640,
-              color: "rgba(255,255,255,0.95)",
-              fontSize: "clamp(20px, 2.8vw, 28px)",
-              lineHeight: 1.35,
-              fontWeight: 400,
-            }}
-          >
-            {s.heroLead}
-          </p>
-          <p
-            className="m-hero-text m-hero-text-delay-1"
-            style={{
-              marginTop: 14,
-              maxWidth: 640,
-              color: "rgba(255,255,255,0.7)",
-              fontSize: "clamp(16px, 1.8vw, 20px)",
-              lineHeight: 1.45,
-              fontWeight: 500,
-            }}
-          >
-            {s.heroSub}
-          </p>
           <div
             className="m-hero-text m-hero-text-delay-2"
             style={{
