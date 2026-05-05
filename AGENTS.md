@@ -76,8 +76,12 @@ ui/
 ### 7. Performance
 - Images: use `next/image` with proper width/height
 - Static export: `images.unoptimized: true` in `next.config.ts`
-- Lazy load heavy components (calculators)
-- Minimize render-blocking resources
+- Lazy load heavy components (calculators, CookieConsent) via `next/dynamic`
+- **Never** set a hardcoded `lang` attribute on `<html>` in `layout.tsx` — the `LANG_SCRIPT` sets it client-side; use `suppressHydrationWarning` to prevent React hydration errors
+- **Always** use `dynamic()` for `CookieConsent` in `app/[lang]/layout.tsx` — it splits the bundle and prevents `vanilla-cookieconsent` from bloating the main chunk
+- **Never** split message catalogs by language — fr.json + en.json = ~120KB total. Async loading would require async `useMessages()` changes across the entire codebase for negligible gain
+- **Always** add new external domains to `scripts/inject-preconnect.js` AND `docs/process.md` Section 19 — the post-build script injects `<link rel="preconnect">` into all HTML files
+- `.visually-hidden` utility class exists in `globals.css` for SEO-only elements (screen-reader accessible, visually hidden)
 
 ### 8. Mobile
 - Breakpoint: 950px (mobile menu)

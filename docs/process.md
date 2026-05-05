@@ -935,9 +935,9 @@ Not allowed to load local resource: chrome://theme/colors.css
 **Auto-generated at build time.** Next.js exports `/sitemap.xml` statically.
 
 **Includes:**
-- 16 static pages × 2 languages (home, about, enterprise, of, solutions, insights, guides, score-formation, careers, meeting, contact, videos, legal, privacy, terms, cgv)
+- 17 static pages × 2 languages (home, about, enterprise, of, solutions, skillpath, insights, guides, score-formation, careers, meeting, contact, videos, legal, privacy, terms, cgv)
 - 19 insight articles × 2 languages
-- **Total: ~70 URLs**
+- **Total: ~72 URLs**
 
 **Excludes:** `/usecases` (orphan page, no nav links), `/admin/*` (internal), `/mentivissolutions` (redirected to `/`)
 
@@ -1045,14 +1045,40 @@ lighthouse http://localhost:3456/fr/solutions --output=json
 | **CLS** | < 0.1 | Cumulative Layout Shift — fonts load with `display=swap`, minimal shift |
 | **INP** | < 200ms | Interaction to Next Paint — calculators may need optimization |
 
-### 19.3 Known Optimizations
+### 19.3 Implemented Optimizations (2026-05-05)
 
-- **Images:** AVIF primary format, `next/image` with `unoptimized: true` for static export
-- **Fonts:** Google Fonts with `display=swap`, preconnected
-- **Lazy loading:** Calculators loaded with `dynamic()` + `ssr: false`
-- **Static export:** No server runtime overhead
+| Optimization | Implementation | Files |
+|--------------|----------------|-------|
+| **Preconnect external domains** | `<link rel="preconnect">` injected into all HTML files post-build | `scripts/inject-preconnect.js` |
+| **DNS prefetch** | `<link rel="dns-prefetch">` for less-critical domains | `scripts/inject-preconnect.js` |
+| **Lazy-load CookieConsent** | `next/dynamic()` splits `vanilla-cookieconsent` into separate chunk | `app/[lang]/layout.tsx` |
+| **Hydration fix** | `suppressHydrationWarning` on `<html>` prevents React mismatch from `LANG_SCRIPT` | `app/layout.tsx` |
+| **Visually hidden utility** | `.visually-hidden` class for SEO h1s without visual display | `globals.css` |
 
-### 19.4 Audit Results
+**Preconnected domains:**
+- `googletagmanager.com` — GTM script
+- `google-analytics.com` — GA4
+- `api.hsforms.com` — HubSpot forms API
+
+**DNS-prefetched domains:**
+- `meetings.hubspot.com` — HubSpot booking iframe
+- `youtube-nocookie.com` — YouTube embeds
+
+**When adding a new external script/iframe:**
+1. Add the domain to `scripts/inject-preconnect.js` (preconnect for critical, dns-prefetch for secondary)
+2. Add it to the table above in this document
+3. Rebuild — the script runs automatically via `npm run build` and `npm run build:ftp`
+
+### 19.4 What Was NOT Changed (and Why)
+
+| Idea | Decision | Rationale |
+|------|----------|-----------|
+| Split message catalogs by language | ❌ Deferred | fr.json + en.json = ~120KB total. Async loading requires `useMessages()` to become async, which breaks every component in the app. Cost >> benefit. |
+| Split `globals.css` by route | ❌ Deferred | Compiled CSS is only ~32KB. Next.js already splits CSS chunks automatically. |
+| Remove dead dependencies | ❌ Blocked | `jspdf`/`html2canvas`/`html2pdf.js` are actively used by `ScoreCalculator.tsx` for PDF export. Cannot remove. |
+| Lazy-load `vanilla-cookieconsent` CSS | ❌ Blocked | The CSS must be loaded before the banner renders. Moving to `dynamic()` with CSS import inside the component causes FOUC. Current approach (dynamic component + CSS in head) is optimal. |
+
+### 19.5 Audit Results
 
 *Run `lighthouse` locally after each major build and paste results here.*
 
