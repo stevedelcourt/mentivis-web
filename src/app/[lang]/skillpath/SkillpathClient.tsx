@@ -35,15 +35,19 @@ export default function SkillpathClient() {
             textAlign: "left",
           }}
         >
+          {/* SEO title only — visual title is inside the hero image */}
           <h1 className="visually-hidden">{s.heroTitle}</h1>
+
+          {/* Subtitle — main visible text under the hero image */}
           <p
-            className="m-hero-text m-hero-text-delay-0 t-lead"
+            className="m-hero-text m-hero-text-delay-0"
             style={{
               marginTop: 0,
-              maxWidth: 620,
+              maxWidth: 640,
               color: "rgba(255,255,255,0.95)",
-              fontSize: "clamp(16px, 2vw, 20px)",
-              lineHeight: 1.5,
+              fontSize: "clamp(20px, 2.8vw, 28px)",
+              lineHeight: 1.35,
+              fontWeight: 400,
             }}
           >
             {s.heroLead}
@@ -51,11 +55,11 @@ export default function SkillpathClient() {
           <p
             className="m-hero-text m-hero-text-delay-1"
             style={{
-              marginTop: 12,
-              maxWidth: 620,
-              color: "rgba(255,255,255,0.75)",
-              fontSize: "clamp(14px, 1.6vw, 17px)",
-              lineHeight: 1.5,
+              marginTop: 14,
+              maxWidth: 640,
+              color: "rgba(255,255,255,0.7)",
+              fontSize: "clamp(16px, 1.8vw, 20px)",
+              lineHeight: 1.45,
               fontWeight: 500,
             }}
           >
@@ -179,49 +183,94 @@ export default function SkillpathClient() {
       </section>
 
       {/* ── FOR WHO ── */}
-      <section style={{ padding: "96px 0", background: "var(--m-bg-soft)" }}>
+      <section style={{ padding: "110px 0", background: "var(--m-bg-soft)" }}>
         <div className="container">
-          <div style={{ maxWidth: 720, margin: "0 auto" }}>
+          <div style={{ maxWidth: 880, margin: "0 auto" }}>
             <h2
               className="t-display"
               style={{
-                fontSize: "clamp(24px, 3vw, 36px)",
-                margin: "0 0 32px",
+                fontSize: "clamp(28px, 3.5vw, 44px)",
+                margin: "0 0 56px",
                 textAlign: "center",
+                lineHeight: 1.1,
               }}
             >
               {s.forWhoTitle}
             </h2>
             <div
               style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: 16,
+                display: "grid",
+                gridTemplateColumns: "repeat(2, 1fr)",
+                gap: 20,
               }}
+              className="m-grid-2"
             >
-              {s.forWho.map((line: string, i: number) => (
+              {[
+                {
+                  icon: "trending_up",
+                  text: s.forWho[0],
+                },
+                {
+                  icon: "corporate_fare",
+                  text: s.forWho[1],
+                },
+                {
+                  icon: "school",
+                  text: s.forWho[2],
+                },
+                {
+                  icon: "handshake",
+                  text: s.forWho[3],
+                },
+              ].map((item, i) => (
                 <div
                   key={i}
                   style={{
+                    padding: "36px 32px",
+                    background: "white",
+                    border: "1px solid var(--m-line)",
+                    borderRadius: 16,
                     display: "flex",
-                    alignItems: "flex-start",
-                    gap: 14,
-                    fontSize: 16,
-                    lineHeight: 1.6,
-                    color: "var(--m-ink-2)",
+                    flexDirection: "column",
+                    gap: 18,
+                    transition: "border-color 0.25s ease, transform 0.25s ease",
+                    cursor: "default",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = "var(--m-purple)";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = "var(--m-line)";
+                    e.currentTarget.style.transform = "translateY(0)";
                   }}
                 >
-                  <span
+                  <div
                     style={{
-                      width: 6,
-                      height: 6,
-                      borderRadius: "50%",
-                      background: "var(--m-purple)",
-                      marginTop: 9,
-                      flexShrink: 0,
+                      width: 48,
+                      height: 48,
+                      borderRadius: 14,
+                      background: "var(--m-purple-soft)",
+                      color: "var(--m-purple)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      fontSize: 24,
                     }}
-                  />
-                  {line}
+                  >
+                    <Icon name={item.icon as any} size={24} />
+                  </div>
+                  <p
+                    style={{
+                      fontSize: "clamp(15px, 1.4vw, 17px)",
+                      lineHeight: 1.55,
+                      color: "var(--m-ink-2)",
+                      margin: 0,
+                      fontWeight: 500,
+                    }}
+                  >
+                    {item.text}
+                  </p>
                 </div>
               ))}
             </div>

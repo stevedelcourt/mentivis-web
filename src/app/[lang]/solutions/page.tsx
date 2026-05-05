@@ -10,7 +10,7 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Solutions digitales formation" : "Digital training solutions",
+    title: isFr ? "Solutions numériques formation" : "Digital training solutions",
     description: isFr
       ? "Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation."
       : "Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.",
@@ -24,7 +24,7 @@ export default async function SolutionsPage({ params }: { params: Promise<{ lang
     <>
       <BreadcrumbJsonLd items={[
         { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
-        { name: isFr ? "Solutions digitales" : "Digital solutions" }
+        { name: isFr ? "Solutions numériques" : "Digital solutions" }
       ]} />
       <SolutionsClient />
     </>

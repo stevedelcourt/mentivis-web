@@ -114,7 +114,7 @@ const update = () => {
   }, [rect]);
 
   const headings: Record<string, string[]> = {
-    fr: ["Entreprise", "Organisme de formation", "Solutions digitales"],
+    fr: ["Entreprise", "Organisme de formation", "Solutions numériques"],
     en: ["Enterprise", "Training Organization", "Digital Solutions"],
   };
   const labels = headings[lang] || headings.fr;

@@ -21,7 +21,7 @@ export default function SolutionsClient() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "Service",
-        name: lang === "fr" ? "Solutions digitales formation" : "Digital training solutions",
+        name: lang === "fr" ? "Solutions numériques formation" : "Digital training solutions",
         description: s.heroLead,
         provider: { "@id": `${SITE.baseUrl}/#organization` },
         url: `${SITE.baseUrl}/${lang}/solutions`,
