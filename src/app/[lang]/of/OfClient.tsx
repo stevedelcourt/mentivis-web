@@ -40,8 +40,8 @@ export default function OfClient() {
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
-        <Link href={`/${lang}/of#pillars`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 12, textDecoration: "none" }}>
-          {lang === "fr" ? "Voir les pôles" : "View pillars"}
+        <Link href={`/${lang}/of#externalisation`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "transparent", border: "1.5px solid white", borderRadius: 12, textDecoration: "none" }}>
+          {lang === "fr" ? "Services" : "Services"}
           <Icon name="chevron_right" size={18} />
         </Link>
       </ImageHero>
@@ -60,7 +60,7 @@ export default function OfClient() {
         </div>
       </section>
 
-      <section style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
+      <section id="externalisation" style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
         <div className="container">
           <div style={{ maxWidth: 800 }}>
             <div className="t-eyebrow" style={{ marginBottom: 24, color: "rgba(255,255,255,0.6)" }}>

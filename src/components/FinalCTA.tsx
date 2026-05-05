@@ -9,9 +9,10 @@ type FinalCTAProps = {
   t: { nav: { cta: string }; common: { learnMore: string } };
   lang: string;
   accent?: "purple" | "ink";
+  centered?: boolean;
 };
 
-export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: FinalCTAProps) {
+export default function FinalCTA({ title, lead, t, lang, accent = "purple", centered = false }: FinalCTAProps) {
   const contactUrl = useContactUrl(lang);
   return (
     <section style={{
@@ -22,12 +23,12 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: Fi
       overflow: "hidden",
     }}>
       <div className="container" style={{ position: "relative" as const }}>
-        <div style={{ maxWidth: 760 }}>
-<h2 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 52px)", fontWeight: 500, margin: 0, color: "white", lineHeight: 1.1 }}>
-              {title}
-            </h2>
-          {lead && <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 17, marginTop: 22, maxWidth: 560, lineHeight: 1.5 }}>{lead}</p>}
-          <div style={{ marginTop: 36, display: "flex", gap: 14, flexWrap: "wrap" as const }}>
+        <div style={{ maxWidth: 760, margin: centered ? "0 auto" : undefined, textAlign: centered ? "center" : undefined }}>
+          <h2 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 52px)", fontWeight: 500, margin: 0, color: "white", lineHeight: 1.1 }}>
+            {title}
+          </h2>
+          {lead && <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 17, marginTop: 22, maxWidth: centered ? "none" : 560, lineHeight: 1.5 }}>{lead}</p>}
+          <div style={{ marginTop: 36, display: "flex", gap: 14, flexWrap: "wrap" as const, justifyContent: centered ? "center" : undefined }}>
             <Link href={contactUrl} style={{
               display: "inline-flex",
               alignItems: "center",

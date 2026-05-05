@@ -340,7 +340,7 @@ export default function AboutClient() {
       </section>
 
       {/* 8. FinalCTA ─────────────────────────────────────── */}
-      <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="ink" />
+      <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="ink" centered />
     </PageShell>
   );
 }
