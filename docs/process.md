@@ -1,8 +1,47 @@
 # Mentivis — Process & Architecture Documentation
 
+## 0. Agent Critical Rules
+
+### External Pages — STRICTLY FORBIDDEN to modify
+
+**`/out/mentivis-solutions/`** is an external static page hosted on a distant server.
+
+- **NEVER** modify, delete, or touch any files in `/out/mentivis-solutions/` without **explicit written consent** from the user.
+- This directory is managed externally and is not part of the Next.js application build.
+- If changes to this page are needed, the user must request them specifically.
+
+### Violation Consequence
+Modifying `/out/mentivis-solutions/` without consent will break the external site and may cause irreversible damage.
+
+---
+
 ## 1. Overview
 
 Dual-host architecture: static frontend on o2switch, serverless backend on Vercel.
+
+## 1.1 Navigation Order
+
+Enterprise → OF → Solutions (dropdown) → Resources (dropdown) → About → Contact
+
+## 1.2 Page Structure
+
+| Route | Content |
+|-------|---------|
+| `/` | Homepage (old about content + ScrollCards, Différenciation, FAQ) |
+| `/about/` | Editorial about page (hero image, story, why, team, approach, distinguish, values, finalCTA) |
+| `/mentivissolutions/` | Redirect 301 → `/` (removed from nav and sitemap) |
+| `/homepage-old/` | Backup of old homepage |
+
+### About Page Sections (in order)
+
+1. **Hero** — `ImageHero` with `young-secretary.avif`, staggered text entrance
+2. **Story** — History & positioning, domain rows
+3. **Why** — "Pourquoi l'éducation", diagramme 4 forces, fond `#fafafd`
+4. **Team** — 4 partners, cards sans bordure, fond blanc
+5. **Approach** — "Notre approche", 4 blocs en grille 2×2, fond violet
+6. **Distinguish** — "Ce qui nous distingue", editorial list avec grands numéros
+7. **Values** — "Nos valeurs", grille 2×2, fond `#f0f0f5`
+8. **FinalCTA** — CTA avant footer, fond encre
 
 ## 2. Dual-Host Architecture
 
@@ -98,6 +137,14 @@ Key directives:
 - `Options -MultiViews` — prevents Apache from serving `fr.html` instead of `fr/index.html`
 - `RewriteRule` for directory → `index.html` (optional, DirectoryIndex handles it)
 - Cache headers for static assets (1 year) and no-cache for index files
+
+**Active redirects:**
+| From | To | Code |
+|------|-----|------|
+| `/` | `/fr/` | 301 |
+| `/resources` | `/guides/` | 301 |
+| `/fr/mentivissolutions` | `/fr/` | 301 |
+| `/en/mentivissolutions` | `/en/` | 301 |
 
 ### 6.3 o2switch HTTPS CDN Cache (Critical Gotcha)
 
@@ -454,6 +501,12 @@ grep -rl '%5Blang%5D' out/ | wc -l
 - Renamed 2 directories: `[lang]`, `[lang]/insights/[slug]`
 - Modified 380 files
 - Deployed to sc4: 954 files, zero bracket references remaining
+
+## 24. Git
+
+- **Remote:** `origin` → `git@github.com:stevedelcourt/mentivis-web.git` (SSH)
+- **Branch:** `main`
+- **SSH key:** `~/.ssh/id_ed25519_mentivis`
 
 ---
 
@@ -886,7 +939,7 @@ Not allowed to load local resource: chrome://theme/colors.css
 - 19 insight articles × 2 languages
 - **Total: ~70 URLs**
 
-**Excludes:** `/usecases` (orphan page, no nav links), `/admin/*` (internal)
+**Excludes:** `/usecases` (orphan page, no nav links), `/admin/*` (internal), `/mentivissolutions` (redirected to `/`)
 
 **Fields per entry:**
 ```ts
@@ -920,6 +973,29 @@ All major pages export `generateMetadata` with language-specific titles and desc
 | `/privacy` | Confidentialité | Privacy Policy |
 | `/terms` | CGU | Terms of Use |
 | `/cgv` | CGV | Terms of Sale |
+
+**JSON-LD Schemas per page:**
+| Page | Schema |
+|------|--------|
+| Homepage | Organization + WebSite + FAQPage |
+| /about | AboutPage |
+| /enterprise | ProfessionalService (with hasOfferCatalog) |
+| /of | ProfessionalService (with hasOfferCatalog) |
+| /contact | ContactPage |
+| /careers, /meeting | WebPage |
+| Insight articles | BlogPosting |
+| /videos | VideoObject (one per video) |
+
+### 18.2.1 robots.txt
+
+- **Search engines (6 allowed):** Googlebot, Bingbot, DuckDuckBot, Applebot, Slurp, Baiduspider, YandexBot
+- **AI crawlers (17 allowed):** GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Claude-Web, Anthropic AI, YouBot, Amazonbot, OAI-SearchBot, DeepSeekbot, Mistral-bot, Grok-bot, Coherebot, AI21Bot, Applebot-Extended, Diffbot
+- Default: `Disallow: /` (everything else blocked)
+
+### 18.2.2 llms.txt
+
+- `/fr/solutions` corrected → `/fr/mentivissolutions`
+- `/en/solutions` corrected → `/en/mentivissolutions`
 
 **Implementation:** Client Components were split into `{Page}Client.tsx` + `page.tsx` wrapper exporting `generateMetadata`.
 
