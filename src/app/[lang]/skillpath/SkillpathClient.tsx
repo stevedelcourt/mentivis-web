@@ -25,48 +25,8 @@ export default function SkillpathClient() {
           overflow: "hidden",
         }}
       >
-        <div
-          className="container"
-          style={{
-            position: "relative",
-            zIndex: 2,
-            paddingTop: 140,
-            paddingBottom: 100,
-            textAlign: "left",
-          }}
-        >
-          {/* SEO title only — visual title is inside the hero image */}
-          <h1 className="visually-hidden">{s.heroTitle}</h1>
-
-          <div
-            className="m-hero-text m-hero-text-delay-2"
-            style={{
-              display: "flex",
-              gap: 12,
-              flexWrap: "wrap",
-              marginTop: 36,
-            }}
-          >
-            <Link
-              href={`/${lang}/contact?subject=Skillpath`}
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 8,
-                padding: "13px 22px",
-                fontSize: 14,
-                fontWeight: 600,
-                color: "white",
-                background: "var(--m-purple)",
-                borderRadius: 999,
-                textDecoration: "none",
-              }}
-            >
-              {s.ctaDemo}
-              <Icon name="chevron_right" size={18} />
-            </Link>
-          </div>
-        </div>
+        {/* SEO title only — visual title is inside the hero image */}
+        <h1 className="visually-hidden">{s.heroTitle}</h1>
       </section>
 
       {/* ── HERO TAGLINE ── */}
