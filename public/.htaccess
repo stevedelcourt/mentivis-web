@@ -32,6 +32,16 @@ DirectoryIndex index.html
   RewriteRule ^fr/mentivissolutions$ /fr/ [R=301,L]
   RewriteRule ^en/mentivissolutions$ /en/ [R=301,L]
 
+  # Old WordPress URLs → new Next.js routes (SEO preservation)
+  RewriteRule ^creation-decole-et-centre-de-formation-en-france/?$ /fr/of/ [R=301,L]
+  RewriteRule ^offres-mentivis-conseil-et-transformation-educative/?$ /fr/of/ [R=301,L]
+  RewriteRule ^jobs-et-offres-demploi/?$ /fr/careers/ [R=301,L]
+  RewriteRule ^carrieres/?$ /fr/careers/ [R=301,L]
+  RewriteRule ^contact-general/?$ /fr/contact/ [R=301,L]
+  RewriteRule ^les-guides-de-reference-mentivis/?$ /fr/guides/ [R=301,L]
+  RewriteRule ^mentivis-solutions-conseil-ingenierie-transformation-digitale/?$ /fr/solutions/ [R=301,L]
+  RewriteRule ^blog/insights/?$ /fr/insights/ [R=301,L]
+
   # If request is a directory, serve its index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*)$ $1/index.html [L]

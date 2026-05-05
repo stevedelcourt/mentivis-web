@@ -32,24 +32,15 @@ gtag('consent', 'default', {
 });
 `;
 
-const LANG_SCRIPT = `
-(function() {
-  var p = location.pathname;
-  var lang = p.startsWith('/fr/') ? 'fr' : p.startsWith('/en/') ? 'en' : null;
-  if (lang) document.documentElement.lang = lang;
-})();
-`;
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`} suppressHydrationWarning>
+    <html lang="fr" className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }} />
-        <script dangerouslySetInnerHTML={{ __html: LANG_SCRIPT }} />
       </head>
       <body>{children}</body>
     </html>

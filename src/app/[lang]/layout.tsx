@@ -1,13 +1,9 @@
-import { ReactNode, Suspense } from "react";
+import { ReactNode } from "react";
 import type { Metadata } from "next";
-import Script from "next/script";
-import dynamic from "next/dynamic";
+import CookieConsentBanner from "@/components/CookieConsent";
+import GTMClient from "@/components/GTMClient";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
-
-const CookieConsentBanner = dynamic(() => import("@/components/CookieConsent"), {
-  loading: () => null,
-});
 
 
 export type Messages = typeof fr;
@@ -96,19 +92,11 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <>
-      {process.env.NEXT_PUBLIC_GTM_ID && (
-        <Script id="gtm-script" strategy="lazyOnload">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID}');`}
-        </Script>
-      )}
       {children}
-      <Suspense fallback={null}>
-        <CookieConsentBanner lang={lang} />
-      </Suspense>
+      <CookieConsentBanner lang={lang} />
+      {process.env.NEXT_PUBLIC_GTM_ID && (
+        <GTMClient gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+      )}
     </>
   );
 }
