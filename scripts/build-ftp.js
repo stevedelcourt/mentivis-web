@@ -36,6 +36,10 @@ try {
     stdio: "inherit",
     cwd: rootDir,
   });
+  execSync("node scripts/generate-insights-meta.js", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
   execSync("node scripts/gen-llms-txt.js", {
     stdio: "inherit",
     cwd: rootDir,

@@ -1,7 +1,8 @@
 /* eslint-disable */
-// Articles are stored as individual JSON files in src/content/insights/
-// This file aggregates them. To add an article, create a new JSON file and import it below.
+// Full article data with body content — used ONLY for article detail pages.
+// For listings and cards, use @/data/insights-meta (much lighter, no body content).
 
+import type { InsightArticleMeta, InsightCategory } from "./insights-meta";
 import article1 from "../content/insights/le-poste-est-mort-vive-la-competence.json";
 import article2 from "../content/insights/les-entreprises-sont-les-prochaines-grandes-ecoles.json";
 import article3 from "../content/insights/formation-professionnelle-france-enjeux-2026.json";
@@ -22,44 +23,14 @@ import article17 from "../content/insights/conseil-boutique-vs-big-four.json";
 import article18 from "../content/insights/morin-contre-les-machines.json";
 import article19 from "../content/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros.json";
 
-export interface InsightArticle {
-  slug: string;
-  date: string;              // ISO date
-  category: InsightCategory;
-  author: string;
-  readTime: string;
-  titleFr: string;
-  titleEn: string;
-  excerptFr: string;
-  excerptEn: string;
-  bodyFr: string;            // simplified HTML
+// Re-export types from meta so detail pages can import from either module
+export type { InsightCategory } from "./insights-meta";
+export { CATEGORY_LABELS, INSIGHT_CATEGORIES } from "./insights-meta";
+
+export interface InsightArticle extends InsightArticleMeta {
+  bodyFr: string;  // full HTML body
   bodyEn: string;
-  heroImage: string;         // local path
-  keywords: string;
 }
-
-export type InsightCategory =
-  | "announcements"
-  | "perspectives"
-  | "regulatory-insights"
-  | "news"
-  | "strategy-papers";
-
-export const INSIGHT_CATEGORIES: InsightCategory[] = [
-  "announcements",
-  "perspectives",
-  "regulatory-insights",
-  "news",
-  "strategy-papers",
-];
-
-export const CATEGORY_LABELS: Record<InsightCategory, { fr: string; en: string }> = {
-  announcements:      { fr: "Annonces",              en: "Announcements" },
-  perspectives:       { fr: "Perspectives",          en: "Perspectives" },
-  "regulatory-insights": { fr: "Analyses réglementaires", en: "Regulatory Insights" },
-  news:               { fr: "Actualités",            en: "News" },
-  "strategy-papers":  { fr: "Notes stratégiques",    en: "Strategy Papers" },
-};
 
 export const INSIGHTS: InsightArticle[] = [
   article1, article2, article3, article4, article5,

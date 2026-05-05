@@ -3,14 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import Icon from "./ui/Icon";
-import { CATEGORY_LABELS, type InsightArticle } from "@/data/insights";
+import { CATEGORY_LABELS, type InsightArticleMeta } from "@/data/insights-meta";
 
 export default function InsightCard({
   article,
   lang,
   variant = "list",
 }: {
-  article: InsightArticle;
+  article: InsightArticleMeta;
   lang: string;
   variant?: "list" | "grid";
 }) {

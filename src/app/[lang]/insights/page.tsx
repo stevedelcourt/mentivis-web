@@ -5,10 +5,10 @@ import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
 import {
-  INSIGHTS,
+  INSIGHTS_META,
   CATEGORY_LABELS,
   type InsightCategory,
-} from "@/data/insights";
+} from "@/data/insights-meta";
 import InsightCard from "@/components/InsightCard";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import { SITE } from "@/lib/config";
@@ -25,14 +25,14 @@ export default function InsightsPage() {
 
   const categories = useMemo(() => {
     const set = new Set<InsightCategory>();
-    INSIGHTS.forEach((a) => set.add(a.category));
+    INSIGHTS_META.forEach((a) => set.add(a.category));
     return Array.from(set);
   }, []);
 
   const filtered = useMemo(() => {
     let list = activeCategory
-      ? INSIGHTS.filter((a) => a.category === activeCategory)
-      : [...INSIGHTS];
+      ? INSIGHTS_META.filter((a) => a.category === activeCategory)
+      : [...INSIGHTS_META];
     list.sort((a, b) => {
       const da = new Date(a.date).getTime();
       const db = new Date(b.date).getTime();

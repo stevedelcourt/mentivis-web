@@ -1,7 +1,7 @@
 "use client";
 
 import InsightCard from "./InsightCard";
-import { INSIGHTS } from "@/data/insights";
+import { INSIGHTS_META } from "@/data/insights-meta";
 import featuredConfig from "@/content/featured-insights.json";
 
 const PAGE_LABELS: Record<string, { fr: string; en: string }> = {
@@ -20,7 +20,7 @@ export default function FeaturedInsights({
 }) {
   const slugs = (featuredConfig as Record<string, string[]>)[pageKey] || [];
   const articles = slugs
-    .map((slug) => INSIGHTS.find((a) => a.slug === slug))
+    .map((slug) => INSIGHTS_META.find((a) => a.slug === slug))
     .filter(Boolean);
 
   if (articles.length === 0) return null;
