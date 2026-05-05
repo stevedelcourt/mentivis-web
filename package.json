@@ -8,6 +8,7 @@
     "build:ftp": "node scripts/build-ftp.js",
     "texts": "node scripts/txt2json.js",
     "texts:check": "node scripts/txt2json.js --check",
+    "favicon": "node scripts/sync-favicon.js",
     "start": "next start",
     "lint": "eslint",
     "deploy": "./scripts/deploy.sh"
