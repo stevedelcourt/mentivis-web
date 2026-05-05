@@ -53,6 +53,10 @@ try {
       NEXT_PUBLIC_GTM_ID: "GTM-PM93CCQL",
     },
   });
+  execSync("node scripts/inject-preconnect.js", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
 } finally {
   // Always restore API routes
   if (fs.existsSync(apiBackupDir)) {

@@ -1,9 +1,13 @@
-import { ReactNode } from "react";
+import { ReactNode, Suspense } from "react";
 import type { Metadata } from "next";
 import Script from "next/script";
-import CookieConsentBanner from "@/components/CookieConsent";
+import dynamic from "next/dynamic";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
+
+const CookieConsentBanner = dynamic(() => import("@/components/CookieConsent"), {
+  loading: () => null,
+});
 
 
 export type Messages = typeof fr;
@@ -102,7 +106,9 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         </Script>
       )}
       {children}
-      <CookieConsentBanner lang={lang} />
+      <Suspense fallback={null}>
+        <CookieConsentBanner lang={lang} />
+      </Suspense>
     </>
   );
 }
