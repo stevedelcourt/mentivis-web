@@ -69,6 +69,34 @@ export default function SkillpathClient() {
         </div>
       </section>
 
+      {/* ── HERO TAGLINE ── */}
+      <section style={{ padding: "80px 0 40px", background: "white" }}>
+        <div className="container" style={{ maxWidth: 720, margin: "0 auto", textAlign: "center" }}>
+          <p
+            style={{
+              fontSize: "clamp(20px, 2.8vw, 28px)",
+              lineHeight: 1.35,
+              fontWeight: 400,
+              color: "var(--m-ink)",
+              margin: "0 0 14px",
+            }}
+          >
+            {s.heroLead}
+          </p>
+          <p
+            style={{
+              fontSize: "clamp(16px, 1.8vw, 20px)",
+              lineHeight: 1.45,
+              fontWeight: 500,
+              color: "var(--m-purple)",
+              margin: 0,
+            }}
+          >
+            {s.heroSub}
+          </p>
+        </div>
+      </section>
+
       {/* ── PROBLEM ── */}
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)" }}>
         <div className="container">
