@@ -1100,6 +1100,10 @@ body: Theory, practice, assessment. Module by module. With an embedded pedagogic
 
 # skillpath
 forWhoTitle: For whom
+forWhoSubtitles[0]: Individual
+forWhoSubtitles[1]: Corporate
+forWhoSubtitles[2]: Training
+forWhoSubtitles[3]: Competencies
 forWho[0]: Professionals in career transition or upskilling.
 forWho[1]: L&D and training directors in large groups.
 forWho[2]: Schools, CFAs, reconversion operators and OPCOs.

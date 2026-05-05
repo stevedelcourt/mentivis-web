@@ -1187,6 +1187,12 @@
       }
     ],
     "forWhoTitle": "For whom",
+    "forWhoSubtitles": [
+      "Individual",
+      "Corporate",
+      "Training",
+      "Competencies"
+    ],
     "forWho": [
       "Professionals in career transition or upskilling.",
       "L&D and training directors in large groups.",

@@ -1100,6 +1100,10 @@ body: Théorie, pratique, évaluation. Module par module. Avec un assistant péd
 
 # skillpath
 forWhoTitle: Pour qui
+forWhoSubtitles[0]: Individuel
+forWhoSubtitles[1]: Corporate
+forWhoSubtitles[2]: Formation
+forWhoSubtitles[3]: Compétences
 forWho[0]: Professionnels en reconversion ou en montée en compétence.
 forWho[1]: Directions formation et L&D des grands groupes.
 forWho[2]: Écoles, CFAs, opérateurs de reconversion et OPCO.

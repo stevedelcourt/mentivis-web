@@ -1187,6 +1187,12 @@
       }
     ],
     "forWhoTitle": "Pour qui",
+    "forWhoSubtitles": [
+      "Individuel",
+      "Corporate",
+      "Formation",
+      "Compétences"
+    ],
     "forWho": [
       "Professionnels en reconversion ou en montée en compétence.",
       "Directions formation et L&D des grands groupes.",

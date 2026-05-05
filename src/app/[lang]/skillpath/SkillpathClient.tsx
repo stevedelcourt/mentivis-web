@@ -208,18 +208,22 @@ export default function SkillpathClient() {
               {[
                 {
                   icon: "trending_up",
+                  title: s.forWhoSubtitles[0],
                   text: s.forWho[0],
                 },
                 {
                   icon: "corporate_fare",
+                  title: s.forWhoSubtitles[1],
                   text: s.forWho[1],
                 },
                 {
                   icon: "school",
+                  title: s.forWhoSubtitles[2],
                   text: s.forWho[2],
                 },
                 {
                   icon: "handshake",
+                  title: s.forWhoSubtitles[3],
                   text: s.forWho[3],
                 },
               ].map((item, i) => (
@@ -227,46 +231,54 @@ export default function SkillpathClient() {
                   key={i}
                   style={{
                     padding: "36px 32px",
-                    background: "white",
-                    border: "1px solid var(--m-line)",
+                    background: "var(--m-purple)",
                     borderRadius: 16,
                     display: "flex",
                     flexDirection: "column",
-                    gap: 18,
-                    transition: "border-color 0.25s ease, transform 0.25s ease",
+                    gap: 14,
+                    transition: "transform 0.25s ease, box-shadow 0.25s ease",
                     cursor: "default",
+                    boxShadow: "0 2px 8px rgba(0,7,118,0.15)",
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = "var(--m-purple)";
                     e.currentTarget.style.transform = "translateY(-2px)";
+                    e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,7,118,0.25)";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = "var(--m-line)";
                     e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,7,118,0.15)";
                   }}
                 >
                   <div
                     style={{
-                      width: 48,
-                      height: 48,
-                      borderRadius: 14,
-                      background: "var(--m-purple-soft)",
-                      color: "var(--m-purple)",
                       display: "flex",
                       alignItems: "center",
-                      justifyContent: "center",
-                      fontSize: 24,
+                      gap: 16,
                     }}
                   >
-                    <Icon name={item.icon as any} size={24} />
+                    <div style={{ color: "white", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <Icon name={item.icon as any} size={28} />
+                    </div>
+                    <span
+                      style={{
+                        fontSize: "clamp(18px, 1.8vw, 22px)",
+                        fontWeight: 700,
+                        color: "white",
+                        lineHeight: 1.2,
+                        fontFamily: "var(--font-jetbrains)",
+                      }}
+                    >
+                      {item.title}
+                    </span>
                   </div>
                   <p
                     style={{
-                      fontSize: "clamp(15px, 1.4vw, 17px)",
+                      fontSize: "clamp(14px, 1.3vw, 16px)",
                       lineHeight: 1.55,
-                      color: "var(--m-ink-2)",
+                      color: "rgba(255,255,255,0.85)",
                       margin: 0,
-                      fontWeight: 500,
+                      fontWeight: 400,
+                      textAlign: "left",
                     }}
                   >
                     {item.text}
