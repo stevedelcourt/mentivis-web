@@ -47,3 +47,9 @@ next-env.d.ts
 # Editor & backups
 *.swp
 *.bak
+
+# Source favicon (copy to src/app/ and public/ when changed)
+/favicon.ico
+
+# Temporary archives
+*.zip

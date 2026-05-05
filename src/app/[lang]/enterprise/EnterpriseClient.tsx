@@ -5,6 +5,7 @@ import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
+import UseCaseSection from "@/components/UseCaseSection";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
@@ -71,29 +72,29 @@ export default function EnterpriseClient() {
         </div>
       </section>
 
-      <section style={{ padding: "100px 0", background: "var(--m-ink)", color: "white" }}>
+      <section style={{ padding: "100px 0", background: "var(--m-purple)", color: "white" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 64 }} className="m-grid-2">
             <div>
-              <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.6)" }}>
+              <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.7)" }}>
                 {lang === "fr" ? "Résultats" : "Results"}
               </div>
               <h3 className="t-display" style={{ fontSize: "clamp(26px, 3.5vw, 40px)", color: "white", margin: 0 }}>{e.resultsTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>
                 {e.results.map((r, i) => (
-                  <li key={i} style={{ padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.85)", fontSize: 16, lineHeight: 1.5 }}>{r}</li>
+                  <li key={i} style={{ padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.9)", fontSize: 16, lineHeight: 1.5 }}>{r}</li>
                 ))}
               </ul>
             </div>
             <div>
-              <div className="t-eyebrow" style={{ marginBottom: 20, color: "#6b73d6" }}>
+              <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.7)" }}>
                 Mentivis
               </div>
               <h3 className="t-display" style={{ fontSize: "clamp(26px, 3.5vw, 40px)", color: "white", margin: 0 }}>{e.whyTitle}</h3>
               <ul style={{ listStyle: "none", padding: 0, margin: "32px 0 0" }}>
                 {e.why.map((w, i) => (
-                  <li key={i} style={{ display: "grid", gridTemplateColumns: "32px 1fr", gap: 14, padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.95)", fontSize: 16, lineHeight: 1.5 }}>
-                    <span style={{ color: "#6b73d6" }}>→</span>
+                  <li key={i} style={{ display: "grid", gridTemplateColumns: "32px 1fr", gap: 14, padding: "16px 0", borderBottom: "1px solid rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.95)", fontSize: 16, lineHeight: 1.5 }}>
+                    <span style={{ color: "rgba(255,255,255,0.7)" }}>→</span>
                     <span>{w}</span>
                   </li>
                 ))}
@@ -126,6 +127,7 @@ export default function EnterpriseClient() {
         </div>
       </section>
 
+      {e.useCases && <UseCaseSection t={e.useCases} />}
       <FinalCTA t={t} title={e.finalCta} lang={lang} accent="purple" />
       <FeaturedInsights pageKey="enterprise" lang={lang} />
     </PageShell>

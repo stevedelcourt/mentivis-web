@@ -427,7 +427,51 @@
       "Stable acquisition and apprenticeship growth",
       "Robust organization, less dependent on improvisation"
     ],
-    "finalCta": "An organization to structure, secure or grow?"
+    "finalCta": "An organization to structure, secure or grow?",
+    "useCases": {
+      "eyebrow": "Client cases",
+      "title": "They trusted us",
+      "lead": "Concrete missions for training organizations at every stage of their development.",
+      "labels": {
+        "context": "Context & challenge",
+        "solutions": "Solutions deployed",
+        "results": "Result",
+        "budget": "Budget invested",
+        "duration": "Duration"
+      },
+      "items": [
+        {
+          "title": "PSH Sup - Higher education school",
+          "subtitle": "Complete operational outsourcing",
+          "status": "In progress",
+          "meta": "Year 2 · Multi-year contract",
+          "context": "This specialized higher education school in apprenticeship is facing rapid growth in its student body (+150 apprentices over 2 years) but lacks the operational structure to absorb this ramp-up. The pedagogical team is overloaded with administrative tasks, OPCO/employer relationship management and learner file follow-up, impacting the quality of support and partner satisfaction.",
+          "solutions": [
+            "Administrative outsourcing: complete management of learner files, agreements, amendments and follow-up with OPCOs (direct interfacing with the school's SIS).",
+            "Employer relationship management: prospecting, negotiation and follow-up of partnership agreements, organization of selection interviews, monthly reporting to management.",
+            "Marketing & acquisition: website overhaul, targeted digital campaigns (SEO/SEA), participation in student fairs and recruitment events, content creation (testimonials, career videos)."
+          ],
+          "results": "+40% apprentices recruited · Employer satisfaction rate: 4.6/5 · Pedagogical team freed to focus on training quality",
+          "budget": "Variable (success fee per apprentice recruited + administrative flat fee)",
+          "duration": "3-year contract, renewable"
+        },
+        {
+          "title": "Ecolearn - Training organization",
+          "subtitle": "Qualiopi structuring & growth",
+          "status": "Completed",
+          "meta": "6-month mission · Quarterly follow-up",
+          "context": "This independent training organization, active for 3 years in digital learning, wants to obtain Qualiopi certification to access CPF and OPCO funding, and structure its offer to grow from 200 to 500 annual learners. The organization lacks documented processes, steering KPIs and a structured commercial strategy.",
+          "solutions": [
+            "Qualiopi: complete mock audit, construction of the 7-criteria framework with documented evidence, support for the official audit (certification obtained on first attempt).",
+            "Operational structuring: implementation of standardized processes (learner intake/output, pedagogical follow-up, assessments), creation of steering dashboards (completion rate, satisfaction, placement).",
+            "Commercial strategy: offer repositioning by programs, creation of commercial materials, OPCO and company outreach, implementation of a CRM and conversion funnel."
+          ],
+          "results": "Qualiopi certification obtained · Revenue +85% over 12 months · 480 learners (500 target reached) · 4 OPCO agreements signed",
+          "budget": "14.5k € (Qualiopi + structuring) + 3.5k €/month (acquisition, 6 months)",
+          "duration": "6 months active + quarterly follow-up"
+        }
+      ]
+    }
   },
   "enterprise": {
     "eyebrow": "You are an enterprise",
@@ -508,7 +552,51 @@
     "scoreTeaserEyebrow": "Diagnostic",
     "scoreTeaserTitle": "Is your training a business lever or a sunk cost?",
     "scoreTeaserBody": "10 minutes to reveal the real maturity of your training system, measure the gap between what you think you control and what actually happens.",
-    "scoreTeaserCta": "Start the assessment"
+    "scoreTeaserCta": "Start the assessment",
+    "useCases": {
+      "eyebrow": "Client cases",
+      "title": "They trusted us",
+      "lead": "Concrete missions, measurable results.",
+      "labels": {
+        "context": "Context & challenge",
+        "solutions": "Solutions deployed",
+        "results": "Result",
+        "budget": "Budget invested",
+        "duration": "Duration"
+      },
+      "items": [
+        {
+          "title": "International real estate network",
+          "subtitle": "2 training programs",
+          "status": "Pre-project",
+          "meta": "Study · 6 to 8 weeks",
+          "context": "The client wants to structure a training offer to reveal and retain new talent within its network, around a two-step journey: a short Start Immo course (level 4, ~4 months) followed by a BTS Real Estate Professions apprenticeship. Before any deployment commitment, the client needs a consolidated view of costs, regulatory and operational feasibility, and possible scenarios to make an informed decision.",
+          "solutions": [
+            "Scoping & qualification: consolidation of objectives, network constraints and deployment hypotheses; arbitration of pedagogical modalities; deliverable: scoping note and arbitration criteria.",
+            "Scenario construction: modeling of a target scenario and an alternative (pedagogy, exams, organization, tools), comparative pre-costing of budget envelopes and identification of risks (Qualiopi compliance, funding, image).",
+            "Go / No Go decision file: consolidated costing (setup + operation), resource plan, governance, macro roadmap and presentation session allowing the client to arbitrate the deployment scenario."
+          ],
+          "results": "Go/NoGo file delivered · Decision: Go, chosen solution being implemented",
+          "budget": "9.9k €",
+          "duration": "6 weeks"
+        },
+        {
+          "title": "Specialized business software publisher",
+          "subtitle": "Creation and deployment of 3 training centers",
+          "status": "In progress",
+          "meta": "Phase 1 · 18 months",
+          "context": "This national publisher wants to create its own training ecosystem to reveal, train and retain its future real estate agent clients directly on its proprietary tools, transforming its 8,500 client agencies into a natural pool for apprenticeship placement. The project starts with 3 owned sites (Nice year 1, Lyon year 2, Bordeaux year 3), offering controlled ramp-up before any further development.",
+          "solutions": [
+            "Central engineering & tools: design of the pedagogical model (BTS RNCP 5, Bachelor RNCP 6, MSc RNCP 7), development of the LMS and SIS (OPCO, Chorus interfacing), content creation and deployment of the centralized information system.",
+            "Deployment of 3 sites & compliance: search and negotiation of premises (300 m² ground floor, city center), recruitment of permanent and pedagogical teams, Qualiopi steps, CFA creation, OPCO agreements.",
+            "Marketing & acquisition: national communication strategy piloted by Mentivis (fairs, high schools, mobilization of the agency network), target acquisition cost under €600 per apprentice, campaigns launched in January-February for a September intake."
+          ],
+          "results": "3 sites · Toulon · Lyon · Bordeaux · ~300 apprentices at scale · Break-even expected year 4",
+          "budget": "~2.2 M€ (central CAPEX 960k€ + 3 sites ~1.2 M€)",
+          "duration": "3 years (staggered openings)"
+        }
+      ]
+    }
   },
   "solutions": {
     "eyebrow": "Mentivis Solutions",

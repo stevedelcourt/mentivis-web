@@ -398,6 +398,42 @@ results[1]: Offre pédagogique structurée et crédible sur le marché
 results[2]: Croissance stable de l'acquisition et de l'alternance
 results[3]: Organisation robuste, prévisible et optimisée
 finalCta: Un organisme à structurer, sécuriser ou développer ?
+# of.useCases
+eyebrow: Cas clients
+title: Ils nous ont fait confiance
+lead: Des missions concrètes pour des organismes de formation à chaque étape de leur développement.
+labels.context: Contexte & défi
+labels.solutions: Solutions déployées
+labels.results: Résultat
+labels.budget: Budget investi
+labels.duration: Durée
+
+# of.useCases.items[0]
+title: PSH Sup - École supérieure
+subtitle: Externalisation opérationnelle complète
+status: En cours
+meta: Année 2 · Contrat pluriannuel
+context: Cette école supérieure spécialisée en alternance fait face à une croissance rapide de son effectif (+150 alternants sur 2 ans) mais manque de structure opérationnelle pour absorber cette montée en charge. L'équipe pédagogique est surchargée par les tâches administratives, la gestion des relations OPCO/entreprises et le suivi des dossiers apprenants, ce qui impacte la qualité de l'accompagnement et la satisfaction des partenaires.
+solutions[0]: Externalisation administrative : prise en charge complète de la gestion des dossiers apprenants, conventions, avenants et suivis auprès des OPCO (interfaçage direct avec le SIS de l'école).
+solutions[1]: Gestion des relations entreprises : prospection, négociation et suivi des conventions de partenariat, organisation des entretiens de sélection, reporting mensuel aux directions.
+solutions[2]: Marketing & acquisition : refonte du site web, campagnes digitales ciblées (SEO/SEA), participation aux salons étudiants et événements de recrutement, création de contenus (témoignages, vidéos métiers).
+results: +40% d'alternants recrutés · Taux de satisfaction entreprises : 4.6/5 · Équipe pédagogique libérée pour se concentrer sur la qualité de formation
+budget: Variable (success fee par alternant recruté + forfait administratif)
+duration: Contrat 3 ans, renouvelable
+
+# of.useCases.items[1]
+title: Ecolearn - Organisme de formation
+subtitle: Structuration Qualiopi & croissance
+status: Terminé
+meta: Mission 6 mois · Suivi trimestriel
+context: Cet organisme de formation indépendant, actif depuis 3 ans dans le digital learning, souhaite obtenir la certification Qualiopi pour accéder aux financements CPF et OPCO, et structurer son offre pour passer de 200 à 500 apprenants annuels. L'organisation manque de process documentés, de KPIs de pilotage et d'une stratégie commerciale structurée.
+solutions[0]: Qualiopi : audit blanc complet, construction du référentiel de 7 critères avec preuves documentées, accompagnement à l'audit officiel (obtention de la certification au premier passage).
+solutions[1]: Structuration opérationnelle : mise en place des processus standardisés (entrées/sorties apprenants, suivi pédagogique, évaluations), création des tableaux de bord de pilotage (taux de complétion, satisfaction, insertion).
+solutions[2]: Stratégie commerciale : repositionnement de l'offre par filières, création des supports commerciaux, démarchage OPCO et entreprises, mise en place d'un CRM et d'un tunnel de conversion.
+results: Certification Qualiopi obtenue · CA +85% sur 12 mois · 480 apprenants (objectif 500 atteint) · 4 conventions OPCO signées
+budget: 14.5k € (Qualiopi + structuration) + 3.5k €/mois (acquisition, 6 mois)
+duration: 6 mois actif + suivi trimestriel
+
 
 # enterprise
 eyebrow: Vous êtes une entreprise
@@ -463,6 +499,42 @@ scoreTeaserEyebrow: Diagnostic
 scoreTeaserTitle: Votre formation est-elle un levier business ou un coût subi ?
 scoreTeaserBody: 10 minutes pour révéler la maturité réelle de votre dispositif formation, mesurer l'écart entre ce que vous croyez piloter et ce qui se passe vraiment.
 scoreTeaserCta: Démarrer le diagnostic
+# enterprise.useCases
+eyebrow: Cas clients
+title: Ils nous ont fait confiance
+lead: Des missions concrètes, des résultats mesurables.
+labels.context: Contexte & défi
+labels.solutions: Solutions déployées
+labels.results: Résultat
+labels.budget: Budget investi
+labels.duration: Durée
+
+# enterprise.useCases.items[0]
+title: Réseau immobilier international
+subtitle: 2 dispositifs de formation
+status: Avant-projet
+meta: Étude · 6 à 8 semaines
+context: Le client souhaite structurer une offre de formation pour révéler et fidéliser de nouveaux talents au sein de son réseau, autour d'un parcours en deux temps : une formation courte Start Immo (niveau 4, ~4 mois) suivie d'un BTS Professions immobilières en alternance. Avant tout engagement de déploiement, le client a besoin d'une vision consolidée des coûts, de la faisabilité réglementaire et opérationnelle, et des scénarios possibles pour arbitrer en connaissance de cause.
+solutions[0]: Cadrage & qualification : consolidation des objectifs, contraintes réseau et hypothèses de déploiement ; arbitrage des modalités pédagogiques ; livrable : note de cadrage et critères d'arbitrage.
+solutions[1]: Construction des scénarios : modélisation d'un scénario cible et d'un alternatif (pédagogie, examens, organisation, outils), pré-chiffrage comparatif des enveloppes budgétaires et identification des risques (conformité Qualiopi, financement, image).
+solutions[2]: Dossier de décision Go / No Go : chiffrage consolidé (mise en place + fonctionnement), plan de moyens, gouvernance, feuille de route macro et session de présentation permettant au client d'arbitrer le scénario de déploiement.
+results: Dossier Go/NoGo livré · Décision : Go, solution choisie en cours d'implémentation
+budget: 9.9k €
+duration: 6 semaines
+
+# enterprise.useCases.items[1]
+title: Éditeur de logiciels métiers spécialisés
+subtitle: Création et déploiement de 3 centres de formation
+status: En cours
+meta: Phase 1 · 18 mois
+context: Cet éditeur national souhaite créer son propre écosystème de formation pour révéler, former et fidéliser ses futurs clients agents immobiliers directement sur ses outils propriétaires, transformant ses 8 500 agences clientes en vivier naturel de placement en alternance. Le projet démarre avec 3 sites en propre (Nice an 1, Lyon an 2, Bordeaux an 3), offrant une montée en charge maîtrisée avant tout développement complémentaire.
+solutions[0]: Ingénierie centrale & outils : conception du modèle pédagogique (BTS RNCP 5, Bachelor RNCP 6, MSc RNCP 7), développement du LMS et du SIS (interfaçage OPCO, Chorus), création des contenus et déploiement du système d'information centralisé.
+solutions[1]: Déploiement des 3 sites & conformité : recherche et négociation des locaux (300 m² RDC, centre-ville), recrutement des équipes permanentes et pédagogiques, démarches Qualiopi, création du CFA, conventions OPCO.
+solutions[2]: Marketing & acquisition : stratégie de communication nationale pilotée par Mentivis (salons, lycées, mobilisation du réseau d'agences), coût d'acquisition cible inférieur à 600 € par alternant, campagnes lancées dès janvier-février pour une rentrée en septembre.
+results: 3 sites · Toulon · Lyon · Bordeaux · ~300 alternants à régime · Point mort anticipé an 4
+budget: ~2,2 M€ (CAPEX central 960k€ + 3 sites ~1,2 M€)
+duration: 3 ans (ouvertures échelonnées)
+
 
 # solutions
 eyebrow: Mentivis Solutions

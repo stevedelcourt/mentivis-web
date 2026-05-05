@@ -150,7 +150,7 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/about`, label: t.nav.about },
               { href: `/${lang}/enterprise`, label: t.nav.enterprise },
               { href: `/${lang}/of`, label: t.nav.of },
-              { href: `/mentivis-solutions/`, label: t.nav.solutions },
+              { href: `/${lang}/solutions`, label: t.nav.solutions },
             ]} />
             <FooterCol title={t.nav.resources} links={[
               { href: `/${lang}/insights`, label: t.nav.insights },

@@ -5,6 +5,7 @@ import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
+import UseCaseSection from "@/components/UseCaseSection";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
@@ -116,21 +117,31 @@ export default function OfClient() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" style={{ background: "var(--m-purple)", color: "white" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80 }} className="m-split-grid">
-            <SectionHeader eyebrow={lang === "fr" ? "Résultats" : "Results"} title={o.resultsTitle} />
+            <div>
+              <div className="t-eyebrow" style={{ marginBottom: 20, color: "rgba(255,255,255,0.7)" }}>
+                {lang === "fr" ? "Résultats" : "Results"}
+              </div>
+              <h3 className="t-display" style={{ fontSize: "clamp(26px, 3.5vw, 40px)", color: "white", margin: 0 }}>{o.resultsTitle}</h3>
+            </div>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {o.results.map((r, i) => (
-                <li key={i} style={{ display: "grid", gridTemplateColumns: "60px 1fr", gap: 20, padding: "22px 0", borderBottom: "1px solid var(--m-line)" }}>
-                  <div style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 18 }}>0{i + 1}</div>
-                  <span style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", color: "var(--m-ink)", lineHeight: 1.3 }}>{r}</span>
+                <li key={i} style={{ display: "grid", gridTemplateColumns: "60px 1fr", gap: 20, padding: "22px 0", borderBottom: "1px solid rgba(255,255,255,0.2)" }}>
+                  <div style={{ fontFamily: "var(--f-display)", color: "rgba(255,255,255,0.7)", fontSize: 18 }}>0{i + 1}</div>
+                  <span style={{ fontFamily: "var(--f-display)", fontSize: 22, fontWeight: 500, letterSpacing: "-0.5px", color: "rgba(255,255,255,0.95)", lineHeight: 1.3 }}>{r}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", marginTop: 80, padding: "40px 0", borderTop: "1px solid var(--m-line)" }} className="m-split-grid">
+        </div>
+      </section>
+
+      <section className="section" style={{ background: "#fafafd" }}>
+        <div className="container">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 48, alignItems: "center", padding: "40px 0" }} className="m-split-grid">
             <div style={{ borderRadius: 16, overflow: "hidden", background: "var(--m-bg-soft)" }}>
               <Image src="/guide-images/bpf.avif" alt="Guides de référence" width={560} height={320} style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
@@ -151,6 +162,7 @@ export default function OfClient() {
         </div>
       </section>
 
+      {o.useCases && <UseCaseSection t={o.useCases} />}
       <FinalCTA t={t} title={o.finalCta} lang={lang} accent="purple" />
       <FeaturedInsights pageKey="of" lang={lang} />
     </PageShell>

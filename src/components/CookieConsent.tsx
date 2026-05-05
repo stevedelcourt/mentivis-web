@@ -29,7 +29,8 @@ function handleConsent(cookie: { categories?: string[] }) {
 
 export default function CookieConsentBanner({ lang }: Props) {
   useEffect(() => {
-    CookieConsent.run({
+    const timer = setTimeout(() => {
+      CookieConsent.run({
       cookie: {
         name: 'cc_cookie',
         path: '/',
@@ -196,8 +197,10 @@ export default function CookieConsentBanner({ lang }: Props) {
     })
 
     ;(window as unknown as { CookieConsent: typeof CookieConsent }).CookieConsent = CookieConsent
+    }, 1500)
 
     return () => {
+      clearTimeout(timer)
       // Don't reset cookie consent on unmount — it causes the banner
       // to reappear on every route change in Next.js App Router.
       // The cookie itself persists via the browser's cookie store.
