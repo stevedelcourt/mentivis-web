@@ -1,8 +1,10 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import Icon from "./Icon";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
+import { useContactUrl } from "@/lib/contact-url";
 
 type ContactSidebarProps = {
   lang: string;
@@ -12,6 +14,7 @@ type ContactSidebarProps = {
 };
 
 export default function ContactSidebar({ lang, eyebrow, title, showImage = true }: ContactSidebarProps) {
+  const contactUrl = useContactUrl(lang);
   return (
     <div style={{ maxWidth: 260 }}>
       {title && (
@@ -42,7 +45,7 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
       </Link>
       <div style={{ fontSize: 13, color: "var(--m-ink-3)", marginBottom: 20 }}>Partner Mentivis</div>
       <div style={{ display: "flex", flexDirection: "column" as const, gap: 10, fontSize: 14, color: "var(--m-ink-3)" }}>
-        <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+        <Link href={contactUrl} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
           <Icon name="mail" size={16} />
           <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
         </Link>

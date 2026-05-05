@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Icon from "./ui/Icon";
+import { useContactUrl } from "@/lib/contact-url";
 
 type PreFooterCTAMessages = {
   nav: { cta: string };
@@ -17,6 +18,7 @@ type PreFooterCTAProps = {
 };
 
 export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
+  const contactUrl = useContactUrl(lang);
   return (
     <section
       style={{
@@ -56,7 +58,7 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
         </p>
         <div style={{ marginTop: 32, display: "inline-flex", gap: 10, flexWrap: "wrap" as const, justifyContent: "center" }}>
           <Link
-            href={`/${lang}/contact`}
+            href={contactUrl}
             style={{
               display: "inline-flex",
               alignItems: "center",

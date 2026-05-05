@@ -231,7 +231,7 @@ export default function InsightDetailClient({
               : "Let's discuss your needs and explore what Mentivis can build for you."}
           </p>
           <Link
-            href={`/${lang}/contact`}
+            href={`/${lang}/contact?subject=Insights`}
             style={{
               display: "inline-flex",
               alignItems: "center",

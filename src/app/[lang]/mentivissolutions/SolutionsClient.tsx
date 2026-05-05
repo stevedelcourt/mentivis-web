@@ -35,7 +35,7 @@ export default function SolutionsClient() {
         title={<><span style={{ color: "white" }}>{s.heroTitle[0]}</span>{" "}<em style={{ color: "white" }}>{s.heroTitle[1]}</em>{" "}<span style={{ color: "white" }}>{s.heroTitle[2]}</span></>}
         lead={s.heroLead}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
+        <Link href={`/${lang}/contact?subject=MentivisSolutions`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>
@@ -172,7 +172,7 @@ export default function SolutionsClient() {
               </div>
               <p style={{ color: "var(--m-ink-3)", fontSize: 15, lineHeight: 1.6, margin: 0 }}>{s.julie.body}</p>
               <div style={{ display: "flex", flexDirection: "column" as const, gap: 8, fontSize: 14, color: "var(--m-ink-3)", marginTop: 4 }}>
-                <Link href={`/${lang}/contact`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+                <Link href={`/${lang}/contact?subject=MentivisSolutions`} className="m-footer-link" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
                   <Icon name="mail" size={16} />
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
                 </Link>

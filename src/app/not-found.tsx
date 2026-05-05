@@ -247,7 +247,7 @@ export default function NotFound() {
               Retour à l'accueil →
             </Link>
             <Link
-              href="/fr/contact"
+              href="/fr/contact?subject=NotFound"
               style={{
                 display: "inline-flex",
                 alignItems: "center",

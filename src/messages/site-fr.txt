@@ -1077,3 +1077,54 @@ label: recours formations externes
 proofNote: Indicateurs représentatifs - chaque mission est calibrée et mesurée selon ses propres KPI.
 finalCtaTitle: Un projet de formation à structurer ?
 finalCtaLead: Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner.
+# skillpath
+heroTitle: Skillpath
+heroLead: La plateforme native IA qui construit le parcours de formation exact dont chaque personne a besoin.
+heroSub: Pas un catalogue. Pas un LMS. Un moteur pédagogique.
+ctaDemo: Demander une démonstration
+ctaHow: Voir comment ça marche
+problemTitle: Le problème
+problemText: Les LMS diffusent du contenu. Personne ne sait si ça comble le bon écart. Skillpath produit le diagnostic exact, le programme correspondant, et l'accompagnement pour aller au bout.
+
+# skillpath.steps[0]
+title: Vous déclarez votre objectif
+body: Profil, situation actuelle, contraintes de temps.
+
+# skillpath.steps[1]
+title: Le diagnostic tombe
+body: Score de couverture, risque résiduel, durée estimée, modules identifiés, ordre d'apprentissage. En moins d'une minute.
+
+# skillpath.steps[2]
+title: Le programme se construit
+body: Théorie, pratique, évaluation. Module par module. Avec un assistant pédagogique embarqué qui ne sort jamais du sujet.
+
+# skillpath
+forWhoTitle: Pour qui
+forWho[0]: Professionnels en reconversion ou en montée en compétence.
+forWho[1]: Directions formation et L&D des grands groupes.
+forWho[2]: Écoles, CFAs, opérateurs de reconversion et OPCO.
+forWho[3]: ESN et cabinets de conseil en gestion de compétences.
+corporateBadge: Disponible dès aujourd'hui pour les clients corporate
+corporateText: Skillpath va plus loin pour les organisations. Fin du curriculum unique. Lisibilité des écarts à la maille fine. Rétention de l'attention. Référentiels opérationnels en quelques jours.
+corporateCta: En savoir plus sur l'offre corporate
+modesTitle: S'intégrer en trois modes
+
+# skillpath.modes[0]
+title: Accès direct par apprenant
+items[0]: Opérationnel en 24h
+items[1]: Zéro infrastructure
+
+# skillpath.modes[1]
+title: Licence entreprise
+items[0]: Référentiels métiers personnalisés
+items[1]: Onboarding Mentivis
+
+# skillpath.modes[2]
+title: API
+items[0]: Connexion LMS, SIRH, ATS
+items[1]: Documentation disponible
+
+# skillpath
+finalCtaText: Une démonstration. Un cas concret issu de votre organisation. Quelques jours pour la préparer.
+finalCtaBtn: Oui, je veux tester Skillpath
+footerNote: Skillpath est développé par Mentivis, cabinet de conseil en éducation spécialisé.

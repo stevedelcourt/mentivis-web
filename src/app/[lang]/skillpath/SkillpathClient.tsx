@@ -1,0 +1,439 @@
+"use client";
+
+import Link from "next/link";
+import PageShell from "@/components/layout/PageShell";
+import { useMessages } from "@/lib/messages";
+import Icon from "@/components/ui/Icon";
+
+export default function SkillpathClient() {
+  const { t, lang } = useMessages();
+  const s = t.skillpath;
+
+  return (
+    <PageShell hidePreFooterCTA>
+      {/* ── HERO ── */}
+      <section
+        style={{
+          position: "relative",
+          width: "100%",
+          minHeight: 560,
+          backgroundImage: "url(/images/heroes/skillpath.avif)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          overflow: "hidden",
+        }}
+      >
+        <div
+          className="container"
+          style={{
+            position: "relative",
+            zIndex: 2,
+            paddingTop: 140,
+            paddingBottom: 100,
+            textAlign: "left",
+          }}
+        >
+          <h1 className="visually-hidden">{s.heroTitle}</h1>
+          <p
+            className="m-hero-text m-hero-text-delay-0 t-lead"
+            style={{
+              marginTop: 0,
+              maxWidth: 620,
+              color: "rgba(255,255,255,0.95)",
+              fontSize: "clamp(16px, 2vw, 20px)",
+              lineHeight: 1.5,
+            }}
+          >
+            {s.heroLead}
+          </p>
+          <p
+            className="m-hero-text m-hero-text-delay-1"
+            style={{
+              marginTop: 12,
+              maxWidth: 620,
+              color: "rgba(255,255,255,0.75)",
+              fontSize: "clamp(14px, 1.6vw, 17px)",
+              lineHeight: 1.5,
+              fontWeight: 500,
+            }}
+          >
+            {s.heroSub}
+          </p>
+          <div
+            className="m-hero-text m-hero-text-delay-2"
+            style={{
+              display: "flex",
+              gap: 12,
+              flexWrap: "wrap",
+              marginTop: 36,
+            }}
+          >
+            <Link
+              href={`/${lang}/contact?subject=Skillpath`}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "13px 22px",
+                fontSize: 14,
+                fontWeight: 600,
+                color: "white",
+                background: "var(--m-purple)",
+                borderRadius: 999,
+                textDecoration: "none",
+              }}
+            >
+              {s.ctaDemo}
+              <Icon name="chevron_right" size={18} />
+            </Link>
+            <a
+              href="#steps"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "13px 22px",
+                fontSize: 14,
+                fontWeight: 600,
+                color: "white",
+                background: "transparent",
+                border: "1.5px solid rgba(255,255,255,0.45)",
+                borderRadius: 999,
+                textDecoration: "none",
+              }}
+            >
+              {s.ctaHow}
+              <Icon name="expand_more" size={18} />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROBLEM ── */}
+      <section style={{ padding: "96px 0", background: "var(--m-bg-soft)" }}>
+        <div className="container">
+          <div style={{ maxWidth: 640, margin: "0 auto", textAlign: "center" }}>
+            <h2
+              className="t-display"
+              style={{
+                fontSize: "clamp(24px, 3vw, 36px)",
+                margin: "0 0 24px",
+              }}
+            >
+              {s.problemTitle}
+            </h2>
+            <p
+              style={{
+                fontSize: 16,
+                lineHeight: 1.65,
+                color: "var(--m-ink-2)",
+                margin: 0,
+              }}
+            >
+              {s.problemText}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── THREE STEPS ── */}
+      <section id="steps" style={{ padding: "96px 0", background: "white" }}>
+        <div className="container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: 32,
+            }}
+            className="m-grid-3"
+          >
+            {s.steps.map((step: any, i: number) => (
+              <div
+                key={i}
+                style={{
+                  padding: "36px 28px",
+                  border: "1px solid var(--m-line)",
+                  borderRadius: 16,
+                  background: "white",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 16,
+                }}
+              >
+                <div
+                  style={{
+                    width: 44,
+                    height: 44,
+                    borderRadius: 12,
+                    background: "var(--m-purple-soft)",
+                    color: "var(--m-purple)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 20,
+                    fontWeight: 700,
+                    fontFamily: "var(--f-display)",
+                  }}
+                >
+                  {i + 1}
+                </div>
+                <h3
+                  style={{
+                    fontFamily: "var(--f-display)",
+                    fontSize: 20,
+                    fontWeight: 600,
+                    lineHeight: 1.25,
+                    margin: 0,
+                    color: "var(--m-ink)",
+                  }}
+                >
+                  {step.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: 15,
+                    lineHeight: 1.6,
+                    color: "var(--m-ink-2)",
+                    margin: 0,
+                  }}
+                >
+                  {step.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FOR WHO ── */}
+      <section style={{ padding: "96px 0", background: "var(--m-bg-soft)" }}>
+        <div className="container">
+          <div style={{ maxWidth: 720, margin: "0 auto" }}>
+            <h2
+              className="t-display"
+              style={{
+                fontSize: "clamp(24px, 3vw, 36px)",
+                margin: "0 0 32px",
+                textAlign: "center",
+              }}
+            >
+              {s.forWhoTitle}
+            </h2>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: 16,
+              }}
+            >
+              {s.forWho.map((line: string, i: number) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: 14,
+                    fontSize: 16,
+                    lineHeight: 1.6,
+                    color: "var(--m-ink-2)",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: 6,
+                      height: 6,
+                      borderRadius: "50%",
+                      background: "var(--m-purple)",
+                      marginTop: 9,
+                      flexShrink: 0,
+                    }}
+                  />
+                  {line}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── CORPORATE ── */}
+      <section style={{ padding: "80px 0", background: "var(--m-purple-tint)" }}>
+        <div className="container">
+          <div
+            style={{
+              maxWidth: 720,
+              margin: "0 auto",
+              textAlign: "center",
+            }}
+          >
+            <span
+              style={{
+                display: "inline-block",
+                fontSize: 11,
+                fontWeight: 600,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "var(--m-purple)",
+                background: "var(--m-purple-soft)",
+                padding: "6px 14px",
+                borderRadius: 999,
+                marginBottom: 20,
+              }}
+            >
+              {s.corporateBadge}
+            </span>
+            <p
+              style={{
+                fontSize: 16,
+                lineHeight: 1.65,
+                color: "var(--m-ink-2)",
+                margin: "0 0 28px",
+              }}
+            >
+              {s.corporateText}
+            </p>
+            <Link
+              href={`/${lang}/contact?subject=Skillpath`}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "12px 24px",
+                fontSize: 14,
+                fontWeight: 600,
+                color: "white",
+                background: "var(--m-purple)",
+                borderRadius: 999,
+                textDecoration: "none",
+              }}
+            >
+              {s.corporateCta}
+              <Icon name="chevron_right" size={18} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── INTEGRATION MODES ── */}
+      <section style={{ padding: "96px 0", background: "white" }}>
+        <div className="container">
+          <h2
+            className="t-display"
+            style={{
+              fontSize: "clamp(24px, 3vw, 36px)",
+              margin: "0 0 48px",
+              textAlign: "center",
+            }}
+          >
+            {s.modesTitle}
+          </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: 32,
+            }}
+            className="m-grid-3"
+          >
+            {s.modes.map((mode: any, i: number) => (
+              <div
+                key={i}
+                style={{
+                  padding: "32px 28px",
+                  border: "1px solid var(--m-line)",
+                  borderRadius: 16,
+                  background: "white",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 12,
+                }}
+              >
+                <h3
+                  style={{
+                    fontFamily: "var(--f-display)",
+                    fontSize: 18,
+                    fontWeight: 600,
+                    lineHeight: 1.3,
+                    margin: 0,
+                    color: "var(--m-ink)",
+                  }}
+                >
+                  {mode.title}
+                </h3>
+                {mode.items.map((item: string, j: number) => (
+                  <div
+                    key={j}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 10,
+                      fontSize: 14,
+                      color: "var(--m-ink-2)",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    <Icon name="check" size={16} style={{ color: "var(--m-purple)", flexShrink: 0 }} />
+                    {item}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FINAL CTA ── */}
+      <section
+        style={{
+          padding: "120px 0 100px",
+          background: "var(--m-ink)",
+          color: "white",
+          textAlign: "center",
+        }}
+      >
+        <div className="container">
+          <p
+            style={{
+              fontSize: "clamp(18px, 2.5vw, 24px)",
+              lineHeight: 1.45,
+              color: "rgba(255,255,255,0.85)",
+              maxWidth: 640,
+              margin: "0 auto 36px",
+            }}
+          >
+            {s.finalCtaText}
+          </p>
+          <Link
+            href={`/${lang}/contact?subject=Skillpath`}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "14px 28px",
+              fontSize: 15,
+              fontWeight: 600,
+              color: "var(--m-ink)",
+              background: "white",
+              borderRadius: 999,
+              textDecoration: "none",
+            }}
+          >
+            {s.finalCtaBtn}
+            <Icon name="chevron_right" size={18} />
+          </Link>
+        </div>
+      </section>
+
+      {/* ── FOOTER NOTE ── */}
+      <section style={{ padding: "40px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
+        <div className="container" style={{ textAlign: "center" }}>
+          <p style={{ fontSize: 13, color: "var(--m-ink-3)", margin: 0 }}>
+            {s.footerNote}
+          </p>
+        </div>
+      </section>
+    </PageShell>
+  );
+}

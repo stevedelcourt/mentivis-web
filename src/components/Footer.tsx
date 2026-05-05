@@ -5,6 +5,7 @@ import Image from "next/image";
 import Icon from "./ui/Icon";
 import { SITE } from "@/lib/config";
 import { encodeEntities } from "@/lib/utils";
+import { useContactUrl } from "@/lib/contact-url";
 
 type FooterMessages = {
   nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; contact: string; };
@@ -92,6 +93,7 @@ function PageStats() {
 }
 
 export default function Footer({ t, lang }: FooterProps) {
+  const contactUrl = useContactUrl(lang);
   return (
     <footer style={{ background: "#fafafd", marginTop: 0, position: "relative" as const, overflow: "hidden", padding: "24px 24px 0" }}>
       <div
@@ -127,7 +129,7 @@ export default function Footer({ t, lang }: FooterProps) {
                 {t.footer.tagline}
               </p>
               <div style={{ marginTop: 16, color: "rgba(255,255,255,0.65)", fontSize: 13.5, lineHeight: 1.6 }}>
-                <Link href={`/${lang}/contact`} className="m-footer-link-dark" style={{ display: "block", marginBottom: 4, color: "rgba(255,255,255,0.85)" }}>
+                <Link href={contactUrl} className="m-footer-link-dark" style={{ display: "block", marginBottom: 4, color: "rgba(255,255,255,0.85)" }}>
                   <span dangerouslySetInnerHTML={{ __html: encodeEntities(SITE.email) }} />
                 </Link>
                 <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="m-footer-link-dark" style={{ display: "block", marginBottom: 4, color: "rgba(255,255,255,0.85)" }}>

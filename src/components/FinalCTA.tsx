@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Icon from "./ui/Icon";
+import { useContactUrl } from "@/lib/contact-url";
 
 type FinalCTAProps = {
   title: string;
@@ -11,6 +12,7 @@ type FinalCTAProps = {
 };
 
 export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: FinalCTAProps) {
+  const contactUrl = useContactUrl(lang);
   return (
     <section style={{
       padding: "120px 0 100px",
@@ -22,11 +24,11 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple" }: Fi
       <div className="container" style={{ position: "relative" as const }}>
         <div style={{ maxWidth: 760 }}>
 <h2 className="t-display" style={{ fontSize: "clamp(32px, 4vw, 52px)", fontWeight: 500, margin: 0, color: "white", lineHeight: 1.1 }}>
-             {title}
-           </h2>
+              {title}
+            </h2>
           {lead && <p style={{ color: "rgba(255,255,255,0.75)", fontSize: 17, marginTop: 22, maxWidth: 560, lineHeight: 1.5 }}>{lead}</p>}
           <div style={{ marginTop: 36, display: "flex", gap: 14, flexWrap: "wrap" as const }}>
-            <Link href={`/${lang}/contact`} style={{
+            <Link href={contactUrl} style={{
               display: "inline-flex",
               alignItems: "center",
               gap: 8,

@@ -1077,3 +1077,54 @@ label: external training spend
 proofNote: Representative indicators - every mission is calibrated and measured against its own KPIs.
 finalCtaTitle: A training project to structure?
 finalCtaLead: First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you.
+# skillpath
+heroTitle: Skillpath
+heroLead: The AI-native platform that builds the exact learning path each person needs.
+heroSub: Not a catalogue. Not an LMS. A pedagogical engine.
+ctaDemo: Request a demo
+ctaHow: See how it works
+problemTitle: The problem
+problemText: LMS platforms distribute content. No one knows if it fills the right gap. Skillpath produces the exact diagnosis, the matching program, and the support to go all the way.
+
+# skillpath.steps[0]
+title: You declare your objective
+body: Profile, current situation, time constraints.
+
+# skillpath.steps[1]
+title: The diagnosis drops
+body: Coverage score, residual risk, estimated duration, identified modules, learning order. In under a minute.
+
+# skillpath.steps[2]
+title: The program builds itself
+body: Theory, practice, assessment. Module by module. With an embedded pedagogical assistant that never strays from the topic.
+
+# skillpath
+forWhoTitle: For whom
+forWho[0]: Professionals in career transition or upskilling.
+forWho[1]: L&D and training directors in large groups.
+forWho[2]: Schools, CFAs, reconversion operators and OPCOs.
+forWho[3]: ESNs and competency management consulting firms.
+corporateBadge: Available today for corporate clients
+corporateText: Skillpath goes further for organizations. End of one-size-fits-all curricula. Fine-grained gap visibility. Attention retention. Operational frameworks in days.
+corporateCta: Learn more about the corporate offer
+modesTitle: Integrate in three modes
+
+# skillpath.modes[0]
+title: Direct learner access
+items[0]: Operational in 24h
+items[1]: Zero infrastructure
+
+# skillpath.modes[1]
+title: Enterprise license
+items[0]: Custom job frameworks
+items[1]: Mentivis onboarding
+
+# skillpath.modes[2]
+title: API
+items[0]: LMS, HRIS, ATS integration
+items[1]: Documentation available
+
+# skillpath
+finalCtaText: A demo. A real case from your organization. A few days to prepare it.
+finalCtaBtn: Yes, I want to test Skillpath
+footerNote: Skillpath is developed by Mentivis, a specialized education consultancy.

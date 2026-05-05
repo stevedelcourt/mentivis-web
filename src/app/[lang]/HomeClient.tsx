@@ -35,7 +35,7 @@ export default function HomeClient() {
         title={<><span style={{ color: "white" }}>{h.title[0]}</span><br /><em style={{ color: "white" }}>{h.title[1]}</em></>}
         lead={h.lead}
       >
-        <Link href={`/${lang}/contact`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
+        <Link href={`/${lang}/contact?subject=Home`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
           {t.nav.cta}
           <Icon name="chevron_right" size={18} />
         </Link>

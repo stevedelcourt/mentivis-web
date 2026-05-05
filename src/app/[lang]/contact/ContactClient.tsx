@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import Reveal from "@/components/Reveal";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
@@ -37,10 +38,67 @@ function ContactSuccess({ title, body, back }: { title: string; body: string; ba
   );
 }
 
+function getSubjectPrefill(subject: string | null, lang: string): string {
+  if (!subject) return "";
+  const isFr = lang === "fr";
+  const map: Record<string, { fr: string; en: string }> = {
+    Skillpath: {
+      fr: "Je souhaite en savoir plus sur Skillpath.",
+      en: "I would like to learn more about Skillpath.",
+    },
+    Solutions: {
+      fr: "Demande concernant les solutions digitales Mentivis.",
+      en: "Inquiry about Mentivis digital solutions.",
+    },
+    Enterprise: {
+      fr: "Demande concernant l'offre Entreprises.",
+      en: "Inquiry about the Enterprise offer.",
+    },
+    OF: {
+      fr: "Demande concernant l'offre Organismes de formation.",
+      en: "Inquiry about the Training Organizations offer.",
+    },
+    MentivisSolutions: {
+      fr: "Demande concernant Mentivis Solutions.",
+      en: "Inquiry about Mentivis Solutions.",
+    },
+    About: {
+      fr: "Je souhaite entrer en contact avec Mentivis.",
+      en: "I would like to get in touch with Mentivis.",
+    },
+    Insights: {
+      fr: "Demande suite à la lecture d'un article.",
+      en: "Inquiry following an article read.",
+    },
+    Guides: {
+      fr: "Demande concernant les guides.",
+      en: "Inquiry about the guides.",
+    },
+    ScoreFormation: {
+      fr: "Demande concernant Score Formation.",
+      en: "Inquiry about Score Formation.",
+    },
+    Careers: {
+      fr: "Candidature spontanée.",
+      en: "Spontaneous application.",
+    },
+    Videos: {
+      fr: "Demande suite à la vision d'une vidéo.",
+      en: "Inquiry after watching a video.",
+    },
+  };
+  const entry = map[subject];
+  if (entry) return isFr ? entry.fr : entry.en;
+  return isFr ? `Demande concernant : ${subject}` : `Inquiry about: ${subject}`;
+}
+
 export default function ContactClient() {
   const { t, lang } = useMessages();
   const c = t.contact;
-  const [form, setForm] = useState({ firstname: "", lastname: "", email: "", phone: "", project: "" });
+  const searchParams = useSearchParams();
+  const subject = searchParams.get("subject");
+  const prefill = getSubjectPrefill(subject, lang);
+  const [form, setForm] = useState({ firstname: "", lastname: "", email: "", phone: "", project: prefill });
   const [consent, setConsent] = useState(false);
   const [sent, setSent] = useState(false);
   const [honeypot, setHoneypot] = useState("");
