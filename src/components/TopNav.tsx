@@ -300,6 +300,12 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                   <Link
                     href={`/${lang}/skillpath`}
                     className="m-dropdown-link"
+                  >
+                    SkillPath
+                  </Link>
+                  <Link
+                    href={`https://skillpath.mentivis.com/`}
+                    className="m-dropdown-link"
                     style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}
                   >
                     <span>SkillPath Dashboard</span>

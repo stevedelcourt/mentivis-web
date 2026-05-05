@@ -178,12 +178,12 @@ export default function SkillpathClient() {
                   text: s.forWho[1],
                 },
                 {
-                  icon: "book",
+                  icon: "school",
                   title: s.forWhoSubtitles[2],
                   text: s.forWho[2],
                 },
                 {
-                  icon: "handshake",
+                  icon: "book",
                   title: s.forWhoSubtitles[3],
                   text: s.forWho[3],
                 },
