@@ -55,6 +55,19 @@ button { font-family: inherit; cursor: pointer; }
 
 ::selection { background: var(--m-purple); color: white; }
 
+/* Utility: hide visually but keep accessible to screen readers & SEO */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .t-display {
   font-family: var(--f-display);
   font-weight: 500;
