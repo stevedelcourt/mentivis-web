@@ -20,8 +20,8 @@ DirectoryIndex index.html
   RewriteEngine On
   RewriteBase /
 
-  # Redirect root to default locale (FR)
-  RewriteRule ^$ /fr/ [R=301,L]
+  # Root serves fr/index.html directly (no redirect needed)
+  # RewriteRule ^$ /fr/ [R=301,L] — REMOVED, index.html is served by DirectoryIndex
 
   # Redirect old /resources → /guides (SEO)
   RewriteRule ^resources$ /guides/ [R=301,L]

@@ -85,3 +85,13 @@ try {
 }
 
 console.log("Build complete — trailingSlash: true enabled");
+
+// ── Post-build: copy fr/index.html to root to eliminate redirect ──
+// Apache .htaccess redirects / → /fr/ (301, +34ms).
+// Serving fr/index.html directly at / saves the redirect round-trip.
+const frIndex = path.join(outDir, "fr", "index.html");
+const rootIndex = path.join(outDir, "index.html");
+if (fs.existsSync(frIndex)) {
+  fs.copyFileSync(frIndex, rootIndex);
+  console.log("Copied fr/index.html → out/index.html (eliminates root redirect)");
+}
