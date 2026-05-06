@@ -85,7 +85,7 @@ export default function SkillpathClient() {
             }}
             className="m-grid-3"
           >
-            {s.steps.map((step: any, i: number) => (
+            {s.steps.map((step, i: number) => (
               <div
                 key={i}
                 style={{
@@ -330,7 +330,7 @@ export default function SkillpathClient() {
             }}
             className="m-grid-3"
           >
-            {s.modes.map((mode: any, i: number) => (
+            {s.modes.map((mode, i: number) => (
               <div
                 key={i}
                 style={{
@@ -447,7 +447,7 @@ export default function SkillpathClient() {
                   margin: 0,
                 }}
               >
-                Ici votre espace de travail. Vous centralisez vos parcours de formation, vos modules actifs et le suivi de vos progrès en temps réel. Tout est structuré pour vous permettre d'accéder rapidement à vos contenus, d'évaluer vos acquis et de piloter votre activité de formation de manière fluide et continue.
+                Ici votre espace de travail. Vous centralisez vos parcours de formation, vos modules actifs et le suivi de vos progrès en temps réel. Tout est structuré pour vous permettre d&apos;accéder rapidement à vos contenus, d&apos;évaluer vos acquis et de piloter votre activité de formation de manière fluide et continue.
               </p>
               <a
                 href="https://skillpath.mentivis.com/"
