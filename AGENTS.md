@@ -94,8 +94,19 @@ ui/
 
 ## Build & Deploy
 ```bash
+# Dev build (Vercel)
 npm run build
+
+# Static export for o2switch FTP
+npm run build:ftp
+
+# Deploy to dev (sc4) via FTP
 FTP_HOST=... FTP_USER=... FTP_PASSWORD=... FTP_ROOT=public_html LOCAL_ROOT=out python3 scripts/ftp_sync.py
+
+# Deploy to prod (sc3) via SSH
+./scripts/deploy_sc3_ssh.sh              # build + deploy
+./scripts/deploy_sc3_ssh.sh --dry-run    # preview only
+./scripts/deploy_sc3_ssh.sh --skip-build # skip build, use existing out/
 ```
 
 ## Common Fixes Checklist

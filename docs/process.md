@@ -1271,3 +1271,77 @@ Without this consent, GA4 collects analytics data but **cannot** send audience d
 - [ ] Contact form pushes `form_submit_success` (FR + EN)
 - [ ] Score Calculator pushes `form_submit_success`
 - [ ] Guides download pushes `form_submit_success`
+
+---
+
+## 24. SSH Deploy to Production (sc3)
+
+### 24.1 Why SSH over FTP
+
+| | FTP (`ftp_sync.py`) | SSH (`deploy_sc3_ssh.sh`) |
+|---|---|---|
+| **Speed** | Sequential, slow | rsync parallel, 10x faster |
+| **Safety** | Deletes dirs then uploads | Atomic, only transfers changes |
+| **Reliability** | Connection drops lose progress | rsync resumes automatically |
+| **Security** | Plaintext credentials | Encrypted SSH tunnel |
+
+### 24.2 Usage
+
+```bash
+# Full deploy (build + rsync)
+./scripts/deploy_sc3_ssh.sh
+
+# Preview what would change (no modifications)
+./scripts/deploy_sc3_ssh.sh --dry-run
+
+# Skip build, deploy existing out/
+./scripts/deploy_sc3_ssh.sh --skip-build
+```
+
+### 24.3 How it works
+
+1. Sources `.env.local` for `FTP_HOST_PROD`, `FTP_USER_PROD`, `FTP_PASSWORD_PROD`
+2. Runs `npm run build:ftp` (unless `--skip-build`)
+3. Deletes `out/admin/` locally (not needed on production)
+4. Tests SSH connection to sc3
+5. Removes `admin/` from server
+6. `rsync -avz --delete` with excludes:
+   - `_next/` — CDN chunk safety (never delete old chunks)
+   - `admin/` — internal tool, not public
+   - `mentivis-solutions/` — external site
+   - `guide-images/`, `guide-pdf/` — external assets
+   - `.DS_Store` — macOS junk
+
+### 24.4 Authentication
+
+The script auto-detects authentication method:
+- **If `sshpass` installed** (`brew install sshpass`): non-interactive, uses password from `.env.local`
+- **If `sshpass` not installed**: prompts for password interactively (macOS built-in)
+
+### 24.5 Credentials
+
+Add to `.env.local`:
+```
+FTP_HOST_PROD=sc3bovu7233.universe.wf
+FTP_USER_PROD=sc3bovu7233
+FTP_PASSWORD_PROD=your-password
+```
+
+### 24.6 Troubleshooting
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| `Cannot connect to sc3 via SSH` | SSH not enabled on o2switch | Enable SSH in o2switch cPanel |
+| `Permission denied` | Wrong credentials | Check `.env.local` values |
+| `rsync: command not found` | rsync not on server (rare) | o2switch includes rsync by default |
+| Stale content after deploy | o2switch HTTPS CDN cache | Wait 30-120 min for TTL, or disable HTTPS cache in cPanel |
+
+### 24.7 Vercel Build Fix (2026-05-06)
+
+**Problem:** `npm run build` failed on Vercel with `ENOENT: no such file or directory, scandir '/vercel/path0/out'`
+
+**Root cause:** `inject-preconnect.js` was in the `build` script but Vercel doesn't produce an `out/` directory (serverless build, not static export).
+
+**Fix:** Moved `inject-preconnect.js` from `build` to `build:ftp` only.
+- `npm run build` → Vercel serverless (API routes + middleware)
+- `npm run build:ftp` → static export + preconnect injection (o2switch)

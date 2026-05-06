@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack && node scripts/inject-preconnect.js",
-    "build:ftp": "node scripts/build-ftp.js",
+    "build": "next build --webpack",
+    "build:ftp": "node scripts/build-ftp.js && node scripts/inject-preconnect.js",
     "texts": "node scripts/txt2json.js",
     "texts:check": "node scripts/txt2json.js --check",
     "favicon": "node scripts/sync-favicon.js",
