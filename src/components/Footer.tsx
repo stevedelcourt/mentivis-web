@@ -108,7 +108,7 @@ export default function Footer({ t, lang }: FooterProps) {
         <div style={{ position: "relative" as const, zIndex: 2, padding: "48px 56px 40px" }}>
           <div style={{
             display: "grid",
-            gridTemplateColumns: "1.4fr 1fr 1fr 1fr",
+            gridTemplateColumns: "1.4fr 1fr 1fr 1fr 1fr",
             gap: 40,
             paddingBottom: 36,
             borderBottom: "1px solid rgba(255,255,255,0.08)",
@@ -152,7 +152,12 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/about`, label: t.nav.about },
               { href: `/${lang}/enterprise`, label: t.nav.enterprise },
               { href: `/${lang}/of`, label: t.nav.of },
-              { href: `/${lang}/solutions`, label: t.nav.solutions },
+            ]} />
+            <FooterCol title={lang === "fr" ? "Solutions" : "Solutions"} links={[
+              { href: `/${lang}/solutions`, label: lang === "fr" ? "Solutions ingénierie" : "Engineering solutions" },
+              { href: `/mentivis-solutions`, label: "Mentivis Solutions" },
+              { href: `https://www.mariusia.com/`, label: "Marius IA", external: true },
+              { href: `/${lang}/skillpath`, label: "Skillpath LearningOS" },
             ]} />
             <FooterCol title={t.nav.resources} links={[
               { href: `/${lang}/insights`, label: t.nav.insights },

@@ -241,7 +241,7 @@ export default function InsightDetailClient({
               fontWeight: 600,
               color: "white",
               background: "var(--m-purple)",
-              borderRadius: 999,
+              borderRadius: 12,
               textDecoration: "none",
               transition: "opacity 0.25s ease",
             }}
