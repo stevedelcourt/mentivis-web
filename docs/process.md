@@ -169,6 +169,8 @@ Key directives:
 
 **2026-05-03:** After clean deploy, `/fr/` and `/en/` worked but `/fr/insights/` showed `ChunkLoadError`. Root cause: CDN cached old HTML on HTTPS. Disabling the HTTPS cache fixed all pages instantly.
 
+**2026-05-06:** Added hydration recovery script in `layout.tsx` that auto-reloads page with `?__nc=<timestamp>` when React error #418 is detected. Also added cache-busting `<meta http-equiv>` tags via `inject-preconnect.js`. CDN TTL expired and fresh build (`layout-28cdf160650dfd6c.js`) is now serving.
+
 ### 6.2 FTP Cleanup (Required After Structural Changes)
 **Our FTP script does NOT delete old files.** After any structural change (e.g. moving from `fr.html` to `fr/index.html`), you MUST manually clean the server:
 
@@ -1045,7 +1047,7 @@ lighthouse http://localhost:3456/fr/solutions --output=json
 | **CLS** | < 0.1 | Cumulative Layout Shift — fonts load with `display=swap`, minimal shift |
 | **INP** | < 200ms | Interaction to Next Paint — calculators may need optimization |
 
-### 19.3 Implemented Optimizations (2026-05-05)
+### 19.3 Implemented Optimizations (2026-05-06)
 
 | Optimization | Implementation | Files |
 |--------------|----------------|-------|
@@ -1054,6 +1056,9 @@ lighthouse http://localhost:3456/fr/solutions --output=json
 | **Lazy-load CookieConsent** | `next/dynamic()` splits `vanilla-cookieconsent` into separate chunk | `app/[lang]/layout.tsx` |
 | **Hydration fix** | `suppressHydrationWarning` on `<html>` prevents React mismatch from `LANG_SCRIPT` | `app/layout.tsx` |
 | **Visually hidden utility** | `.visually-hidden` class for SEO h1s without visual display | `globals.css` |
+| **Hydration recovery script** | Auto-reloads page with `?__nc=<timestamp>` when React error #418 detected | `app/layout.tsx` |
+| **Cache-busting meta tags** | `<meta http-equiv="Cache-Control">` injected into all HTML files | `scripts/inject-preconnect.js` |
+| **Cookie persistence fix** | Reads `cc_cookie` + localStorage backup before showing banner | `CookieConsent.tsx` |
 
 **Preconnected domains:**
 - `googletagmanager.com` — GTM script
@@ -1137,12 +1142,25 @@ The cookie banner adapts to the page language (`fr` or `en`):
 
 **Implementation:** `CookieConsentBanner` receives `lang` prop from `app/[lang]/layout.tsx`.
 
-### 20.5 Files
+### 20.5 Cookie Persistence Fix (2026-05-06)
+
+**Problem:** After returning from mentivis-solutions iframe, cookie banner reappeared despite `cc_cookie` existing.
+
+**Root cause:** `vanilla-cookieconsent` doesn't read `cc_cookie` before `CookieConsent.run()`.
+
+**Fix:** Added `getStoredConsent()` function that:
+1. Reads `cc_cookie` directly from `document.cookie`
+2. Falls back to `localStorage.getItem('cc_backup')` (backup saved in `handleConsent()`)
+3. If consent found, calls `CookieConsent.run()` with existing categories → banner doesn't show
+
+**Files modified:** `src/components/CookieConsent.tsx`
+
+### 20.6 Files
 
 | File | Role |
 |------|------|
-| `src/components/CookieConsent.tsx` | Banner logic, Consent Mode, 3 categories, i18n |
-| `src/app/layout.tsx` | Injects `consent default` inline script in `<head>` |
+| `src/components/CookieConsent.tsx` | Banner logic, Consent Mode, 3 categories, i18n, cookie persistence fix |
+| `src/app/layout.tsx` | Injects `consent default` inline script in `<head>` + hydration recovery script |
 | `src/app/[lang]/layout.tsx` | Renders `<CookieConsentBanner lang={lang} />` |
 
 ---
