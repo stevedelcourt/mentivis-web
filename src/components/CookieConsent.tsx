@@ -33,44 +33,9 @@ function handleConsent(cookie: { categories?: string[] }) {
   updateConsent(cookie.categories || [])
 }
 
-function getStoredConsent(): string[] | null {
-  // 1. Lire cc_cookie directement
-  try {
-    const match = document.cookie.match(/cc_cookie=([^;]+)/)
-    if (match) {
-      const data = JSON.parse(decodeURIComponent(match[1]))
-      if (data.categories && data.categories.length > 0) {
-        return data.categories
-      }
-    }
-  } catch {}
-  
-  // 2. Vérifier le backup localStorage
-  try {
-    const backup = localStorage.getItem('cc_backup')
-    if (backup) {
-      const data = JSON.parse(backup)
-      if (data.categories && data.categories.length > 0) {
-        return data.categories
-      }
-    }
-  } catch {}
-  
-  return null
-}
-
 export default function CookieConsentBanner({ lang }: Props) {
   useEffect(() => {
     const timer = setTimeout(() => {
-      // Vérifier si un consentement existe déjà (cookie ou backup localStorage)
-      const existing = getStoredConsent();
-      if (existing) {
-        // Cookie trouvé → restaurer le consentement sans afficher la bannière
-        updateConsent(existing);
-        return; // ⚠️ NE PAS appeler CookieConsent.run()
-      }
-
-      // Pas de consentement valide → comportement normal
       CookieConsent.run({
         cookie: {
           name: 'cc_cookie',
@@ -223,7 +188,7 @@ export default function CookieConsentBanner({ lang }: Props) {
           },
         },
         onModalReady: ({ modalName, modal }) => {
-          if (modalName === 'preferencesModal') {
+          if (modalName === 'preferencesModal' && modal) {
             const body = modal.querySelector('.pm__body')
             if (body && !body.querySelector('.cc-logo')) {
               const logo = document.createElement('img')
