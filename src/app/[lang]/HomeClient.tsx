@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 import Link from "next/link";
 import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
@@ -16,6 +17,20 @@ import Icon from "@/components/ui/Icon";
 export default function HomeClient() {
   const { t, lang } = useMessages();
   const h = t.home;
+
+  // Handle anchor scroll after hydration
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        const timeout = setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 100);
+        return () => clearTimeout(timeout);
+      }
+    }
+  }, []);
 
   return (
     <PageShell hidePreFooterCTA>

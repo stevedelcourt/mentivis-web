@@ -381,7 +381,7 @@ export default function SkillpathClient() {
       <section
         style={{
           padding: "120px 0 100px",
-          background: "var(--m-ink)",
+          background: "var(--m-purple)",
           color: "white",
           textAlign: "center",
         }}

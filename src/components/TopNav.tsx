@@ -285,7 +285,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                     href={`/${lang}/solutions`}
                     className="m-dropdown-link"
                   >
-                    {lang === "fr" ? "Solutions numériques" : "Digital solutions"}
+                    {lang === "fr" ? "Solutions ingénierie" : "Engineering solutions"}
                   </Link>
                   <Link
                     href={`/mentivis-solutions`}
@@ -561,7 +561,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 onClick={() => setMobileOpen(false)}
                 className="m-mobile-subitem"
               >
-                {lang === "fr" ? "Solutions numériques" : "Digital solutions"}
+                {lang === "fr" ? "Solutions ingénierie" : "Engineering solutions"}
               </Link>
               <Link
                 href={`/mentivis-solutions`}

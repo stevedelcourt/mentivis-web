@@ -1,10 +1,12 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 import PageShell from "@/components/layout/PageShell";
 import ImageHero from "@/components/ImageHero";
 import Reveal from "@/components/Reveal";
 import FinalCTA from "@/components/FinalCTA";
 import { useMessages } from "@/lib/messages";
+import Icon from "@/components/ui/Icon";
 
 /* ── sub-components ─────────────────────────────────────── */
 
@@ -59,51 +61,47 @@ function TeamCard({ member }: { member: any }) {
 
 function AboutForcesDiagram() {
   const forces = [
-    { label: "Pénurie de talents", shape: "circle" },
-    { label: "Transformation des métiers", shape: "square" },
-    { label: "Pression économique", shape: "triangle" },
-    { label: "Accélération technologique", shape: "diamond" },
+    { label: "Pénurie de talents", icon: "people" },
+    { label: "Transformation des métiers", icon: "refresh" },
+    { label: "Pression économique", icon: "trending_down" },
+    { label: "Accélération technologique", icon: "bolt" },
   ];
 
-  const shapeStyle = (shape: string): React.CSSProperties => {
-    const base: React.CSSProperties = {
-      width: 48,
-      height: 48,
-      background: "var(--m-purple)",
-    };
-    switch (shape) {
-      case "circle":
-        return { ...base, borderRadius: "50%" };
-      case "square":
-        return { ...base, borderRadius: 8 };
-      case "triangle":
-        return {
-          width: 0,
-          height: 0,
-          borderLeft: "24px solid transparent",
-          borderRight: "24px solid transparent",
-          borderBottom: "42px solid var(--m-purple)",
-          background: "transparent",
-        };
-      case "diamond":
-        return {
-          ...base,
-          borderRadius: 6,
-          transform: "rotate(45deg)",
-          width: 38,
-          height: 38,
-        };
-      default:
-        return base;
-    }
+  const iconPaths: Record<string, React.ReactNode> = {
+    people: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+      </svg>
+    ),
+    refresh: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="23 4 23 10 17 10"/>
+        <polyline points="1 20 1 14 7 14"/>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+      </svg>
+    ),
+    trending_down: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/>
+        <polyline points="17 18 23 18 23 12"/>
+      </svg>
+    ),
+    bolt: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+      </svg>
+    ),
   };
 
   return (
     <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, marginTop: "3rem" }} className="m-forces-grid">
       {forces.map((f, i) => (
         <div key={i} style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", width: 48, height: 48 }}>
-            <div style={shapeStyle(f.shape)} />
+          <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", width: 48, height: 48, borderRadius: 12, background: "var(--m-purple)" }}>
+            {iconPaths[f.icon]}
           </div>
           <span style={{ fontSize: 15, fontWeight: 500, color: "var(--m-ink)" }}>{f.label}</span>
         </div>
@@ -134,7 +132,26 @@ export default function AboutClient() {
         eyebrow={a.heroEyebrow}
         title={heroTitleNode}
         lead={a.heroSub}
-      />
+      >
+        <a
+          href={`/${lang}/#services`}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 8,
+            padding: "10px 20px",
+            fontSize: 14,
+            fontWeight: 600,
+            color: "white",
+            background: "var(--m-purple)",
+            borderRadius: 12,
+            textDecoration: "none",
+          }}
+        >
+          {lang === "fr" ? "Les services" : "Services"}
+          <Icon name="chevron_right" size={18} />
+        </a>
+      </ImageHero>
 
       {/* 2. Story ────────────────────────────────────────── */}
       <section className="section" style={{ borderBottom: "0.5px solid var(--m-line)" }}>
@@ -262,13 +279,24 @@ export default function AboutClient() {
               </Reveal>
               <Reveal delay={160}>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 0, borderTop: "0.5px solid rgba(255,255,255,0.15)" }} className="m-approach-dark-grid">
-                  {a.approachBlocks.map((b: any, i: number) => (
-                    <div key={i} style={{ padding: "2.5rem", borderBottom: "0.5px solid rgba(255,255,255,0.15)", borderRight: i % 2 === 0 ? "0.5px solid rgba(255,255,255,0.15)" : "none" }}>
-                      <span className="t-mono" style={{ color: "rgba(255,255,255,0.45)", display: "block", marginBottom: "0.75rem" }}>{b.marker}</span>
-                      <h3 style={{ fontSize: 20, fontWeight: 500, color: "white", marginBottom: "0.5rem" }}>{b.title}</h3>
-                      <p style={{ fontSize: 16, lineHeight: 1.6, color: "rgba(255,255,255,0.75)" }}>{b.desc}</p>
-                    </div>
-                  ))}
+                  {a.approachBlocks.map((b: any, i: number) => {
+                    const icons = [
+                      <svg key="0" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>,
+                      <svg key="1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>,
+                      <svg key="2" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>,
+                      <svg key="3" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>,
+                    ];
+                    return (
+                      <div key={i} style={{ padding: "2.5rem", borderBottom: "0.5px solid rgba(255,255,255,0.15)", borderRight: i % 2 === 0 ? "0.5px solid rgba(255,255,255,0.15)" : "none" }}>
+                        <span className="t-mono" style={{ color: "rgba(255,255,255,0.45)", display: "block", marginBottom: "0.75rem" }}>{b.marker}</span>
+                        <h3 style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 20, fontWeight: 500, color: "white", marginBottom: "0.5rem" }}>
+                          {icons[i]}
+                          {b.title}
+                        </h3>
+                        <p style={{ fontSize: 16, lineHeight: 1.6, color: "rgba(255,255,255,0.75)" }}>{b.desc}</p>
+                      </div>
+                    );
+                  })}
                 </div>
               </Reveal>
             </div>

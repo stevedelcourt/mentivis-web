@@ -149,7 +149,7 @@ export default function ScrollCardsSection({
   }));
 
   return (
-    <section style={{ padding: "100px 0 80px", position: "relative" }}>
+    <section id="services" style={{ padding: "100px 0 80px", position: "relative" }}>
       <div ref={wrapperRef} style={{ position: "relative" }}>
         {/* Background: starts around ALL cards (3% gap), expands left/right only */}
         {/* Background: starts around ALL cards (5% gap), expands left/right only */}
