@@ -77,11 +77,15 @@ ui/
 - Images: use `next/image` with proper width/height
 - Static export: `images.unoptimized: true` in `next.config.ts`
 - Lazy load heavy components (calculators, CookieConsent) via `next/dynamic`
-- **Never** set a hardcoded `lang` attribute on `<html>` in `layout.tsx` — the `LANG_SCRIPT` sets it client-side; use `suppressHydrationWarning` to prevent React hydration errors
+- `lang="fr"` is hardcoded on `<html>` in `layout.tsx` with `suppressHydrationWarning` — this is an acceptable compromise to avoid a FOUC flash. EN pages have `hreflang` tags for Google. Do NOT add a `LANG_SCRIPT`; it causes hydration mismatches.
 - **Always** use `dynamic()` for `CookieConsent` in `app/[lang]/layout.tsx` — it splits the bundle and prevents `vanilla-cookieconsent` from bloating the main chunk
 - **Never** split message catalogs by language — fr.json + en.json = ~120KB total. Async loading would require async `useMessages()` changes across the entire codebase for negligible gain
-- **Always** add new external domains to `scripts/inject-preconnect.js` AND `docs/process.md` Section 19 — the post-build script injects `<link rel="preconnect">` into all HTML files
+- **Always** add new external domains to `scripts/inject-preconnect.js` AND `docs/process.md` Section 19 — the post-build script injects `<link rel="preconnect">` + cache-busting `<meta http-equiv>` tags into all HTML files
 - `.visually-hidden` utility class exists in `globals.css` for SEO-only elements (screen-reader accessible, visually hidden)
+- **o2switch CDN / FTP deploy rules**:
+  - **Never** delete the `_next/` directory during FTP deploy. The CDN caches HTML referencing old chunks; deleting them causes 404s and React hydration error #418. Old chunks must remain on disk.
+  - The post-build script injects `<meta http-equiv="Cache-Control" content="no-cache...">` into every HTML file as a fallback for CDNs that ignore Apache headers.
+  - `layout.tsx` contains a client-side hydration recovery script: if React error #418 is detected, it hard-reloads the page with `?__nc=<timestamp>` to bypass stale CDN cache.
 
 ### 8. Mobile
 - Breakpoint: 950px (mobile menu)

@@ -270,9 +270,9 @@ export default function SkillpathClient() {
                 textTransform: "uppercase",
                 color: "var(--m-purple)",
                 background: "var(--m-purple-soft)",
-                padding: "6px 14px",
-                borderRadius: 999,
-                marginBottom: 20,
+              padding: "6px 14px",
+              borderRadius: 12,
+              marginBottom: 20,
               }}
             >
               {s.corporateBadge}
@@ -298,7 +298,7 @@ export default function SkillpathClient() {
                 fontWeight: 600,
                 color: "white",
                 background: "var(--m-purple)",
-                borderRadius: 999,
+                borderRadius: 12,
                 textDecoration: "none",
               }}
             >
@@ -407,15 +407,73 @@ export default function SkillpathClient() {
               padding: "14px 28px",
               fontSize: 15,
               fontWeight: 600,
-              color: "var(--m-ink)",
-              background: "white",
-              borderRadius: 999,
-              textDecoration: "none",
-            }}
-          >
-            {s.finalCtaBtn}
+                color: "var(--m-ink)",
+                background: "white",
+                borderRadius: 12,
+                textDecoration: "none",
+              }}
+            >
+              {s.finalCtaBtn}
             <Icon name="chevron_right" size={18} />
           </Link>
+        </div>
+      </section>
+
+      {/* ── DASHBOARD PREVIEW ── */}
+      <section style={{ padding: "100px 0", background: "white" }}>
+        <div className="container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(2, 1fr)",
+              gap: 48,
+              alignItems: "center",
+            }}
+            className="m-grid-2"
+          >
+            <div style={{ borderRadius: 16, overflow: "hidden", background: "white" }}>
+              <img
+                src="/images/heroes/skill-screen.avif"
+                alt="Skillpath Dashboard"
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+              <p
+                style={{
+                  fontSize: "clamp(16px, 1.6vw, 20px)",
+                  lineHeight: 1.6,
+                  color: "var(--m-ink-2)",
+                  margin: 0,
+                }}
+              >
+                Ici votre espace de travail. Vous centralisez vos parcours de formation, vos modules actifs et le suivi de vos progrès en temps réel. Tout est structuré pour vous permettre d'accéder rapidement à vos contenus, d'évaluer vos acquis et de piloter votre activité de formation de manière fluide et continue.
+              </p>
+              <a
+                href="https://skillpath.mentivis.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 8,
+                  padding: "12px 24px",
+                  fontSize: 14,
+                  fontWeight: 600,
+                  color: "white",
+                  background: "var(--m-purple)",
+                  borderRadius: 12,
+                  textDecoration: "none",
+                  width: "fit-content",
+                }}
+              >
+                Skillpath Dashboard
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none" style={{ flexShrink: 0 }}>
+                  <path d="M5.60002 0.899994C5.82094 0.899994 6.00002 1.07908 6.00002 1.29999C6.00002 1.52091 5.82094 1.69999 5.60002 1.69999H1.60002C1.37911 1.69999 1.20002 1.87908 1.20002 2.09999V10.9C1.20002 11.1209 1.37911 11.3 1.60002 11.3H10.4C10.6209 11.3 10.8 11.1209 10.8 10.9V6.89999C10.8 6.67908 10.9791 6.49999 11.2 6.49999C11.4209 6.49999 11.6 6.67908 11.6 6.89999V10.9C11.6 11.5627 11.0628 12.1 10.4 12.1H1.60002C0.937283 12.1 0.400024 11.5627 0.400024 10.9V2.09999C0.400024 1.43725 0.937283 0.899994 1.60002 0.899994H5.60002ZM11.2 0.899994C11.2299 0.899994 11.2598 0.903486 11.2891 0.91015C11.3078 0.91442 11.3259 0.920467 11.3438 0.927338C11.3496 0.9296 11.3552 0.932601 11.361 0.93515C11.3771 0.942258 11.3927 0.950169 11.4078 0.959369C11.414 0.963129 11.4206 0.966183 11.4266 0.970306C11.4466 0.984054 11.4654 0.999763 11.4828 1.01718L11.5344 1.07968C11.5431 1.09292 11.5485 1.1079 11.5555 1.12187C11.56 1.13085 11.5657 1.13915 11.5696 1.14843C11.5832 1.18169 11.5911 1.21637 11.5953 1.25156C11.5973 1.26761 11.6 1.28365 11.6 1.29999V4.49999C11.6 4.72091 11.4209 4.89999 11.2 4.89999C10.9791 4.89999 10.8 4.72091 10.8 4.49999V2.26562L7.48284 5.58281C7.32663 5.73902 7.07342 5.73902 6.91721 5.58281C6.761 5.4266 6.761 5.17339 6.91721 5.01718L10.2344 1.69999H8.00003C7.77911 1.69999 7.60003 1.52091 7.60003 1.29999C7.60003 1.07908 7.77911 0.899994 8.00003 0.899994H11.2Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 

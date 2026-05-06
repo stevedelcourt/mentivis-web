@@ -15,9 +15,11 @@ REMOTE_ROOT = os.environ.get("FTP_ROOT", "public_html")
 LOCAL_ROOT = os.environ.get("LOCAL_ROOT", "out")
 
 # Directories to DELETE from server (old build artifacts)
+# NOTE: Never delete "_next" — o2switch CDN caches HTML referencing old chunks.
+# Removing _next causes 404s on stale cached pages → React hydration error #418.
 DELETE_DIRS = [
     "fr", "en", "404", "about", "admin", "_not-found",
-    "_next", "site-images",
+    "site-images",
 ]
 
 # Files to DELETE from server root

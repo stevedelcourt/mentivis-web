@@ -63,8 +63,7 @@
     <div class="loader-spinner"></div>
   </div>
 
-  <iframe 
-    src="https://mentivis-solutions.vercel.app/" 
+  <iframe
     title="Mentivis Solutions"
     allow="fullscreen"
     loading="eager"
@@ -73,9 +72,18 @@
 
   <script>
     (function() {
-      const loader = document.getElementById('loader');
-      const frame = document.getElementById('content-frame');
+      var origin = window.location.origin;
+      var lang = location.pathname.startsWith('/en/') ? 'en' : 'fr';
+      var referrer = document.referrer;
+      var returnUrl = encodeURIComponent(
+        (referrer && referrer.includes(origin))
+          ? referrer
+          : (origin + '/' + lang + '/')
+      );
+      var frame = document.getElementById('content-frame');
+      frame.src = 'https://mentivis-solutions.vercel.app/?returnUrl=' + returnUrl;
 
+      var loader = document.getElementById('loader');
       frame.addEventListener('load', function() {
         loader.classList.add('hidden');
       });
