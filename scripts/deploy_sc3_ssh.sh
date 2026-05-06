@@ -29,6 +29,7 @@ if [ -f "$ENV_FILE" ]; then
 fi
 
 HOST="${FTP_HOST_PROD:-sc3bovu7233.universe.wf}"
+SSH_HOST="${SSH_HOST_PROD:-ftp.$HOST}"
 USER="${FTP_USER_PROD:-sc3bovu7233}"
 PASS="${FTP_PASSWORD_PROD:-}"
 REMOTE_DIR="/home/$USER/public_html"
@@ -36,9 +37,9 @@ REMOTE_DIR="/home/$USER/public_html"
 # --- Auth helper ---
 ssh_cmd() {
   if command -v sshpass &> /dev/null && [ -n "$PASS" ]; then
-    sshpass -p "$PASS" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 "$USER@$HOST" "$@"
+    sshpass -p "$PASS" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 "$USER@$SSH_HOST" "$@"
   else
-    ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 "$USER@$HOST" "$@"
+    ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 "$USER@$SSH_HOST" "$@"
   fi
 }
 
@@ -56,8 +57,8 @@ rsync_cmd() {
       --exclude='guide-images/' \
       --exclude='guide-pdf/' \
       --exclude='.DS_Store' \
-      -e "sshpass -p $PASS ssh -o StrictHostKeyChecking=no" \
-      "$PROJECT_DIR/out/" "$USER@$HOST:$REMOTE_DIR/"
+      -e "sshpass -p '$PASS' ssh -o StrictHostKeyChecking=no" \
+      "$PROJECT_DIR/out/" "$USER@$SSH_HOST:$REMOTE_DIR/"
   else
     rsync -avz --delete $extra_args \
       --exclude='_next/' \
@@ -67,7 +68,7 @@ rsync_cmd() {
       --exclude='guide-pdf/' \
       --exclude='.DS_Store' \
       -e "ssh -o StrictHostKeyChecking=no" \
-      "$PROJECT_DIR/out/" "$USER@$HOST:$REMOTE_DIR/"
+      "$PROJECT_DIR/out/" "$USER@$SSH_HOST:$REMOTE_DIR/"
   fi
 }
 
@@ -92,9 +93,9 @@ if [ -d "out/admin" ]; then
 fi
 
 # --- Step 4: Test SSH connection ---
-echo "🔌 Testing SSH connection to $HOST..."
+echo "🔌 Testing SSH connection to $SSH_HOST..."
 if ! ssh_cmd "echo 'SSH OK'" > /dev/null 2>&1; then
-  echo "❌ Cannot connect to $HOST via SSH"
+  echo "❌ Cannot connect to $SSH_HOST via SSH"
   echo "   Check credentials in .env.local or SSH access on o2switch"
   exit 1
 fi
@@ -115,7 +116,7 @@ fi
 # --- Step 6: Confirmation ---
 echo ""
 echo "⚠️  Deploying to PRODUCTION (sc3):"
-echo "   Host: $HOST"
+echo "   SSH Host: $SSH_HOST"
 echo "   Remote: $REMOTE_DIR/"
 echo ""
 read -p "   Continue? [y/N] " confirm
