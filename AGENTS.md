@@ -81,6 +81,7 @@ ui/
 - **Always** use `dynamic()` for `CookieConsent` in `app/[lang]/layout.tsx` — it splits the bundle and prevents `vanilla-cookieconsent` from bloating the main chunk
 - **Never** split message catalogs by language — fr.json + en.json = ~120KB total. Async loading would require async `useMessages()` changes across the entire codebase for negligible gain
 - **Always** add new external domains to `scripts/inject-preconnect.js` AND `docs/process.md` Section 19 — the post-build script injects `<link rel="preconnect">` + cache-busting `<meta http-equiv>` tags into all HTML files
+- **Inline critical CSS**: `scripts/inline-css.js` embeds all CSS files into HTML `<head>`, eliminating render-blocking requests on mobile. Runs automatically in `build:ftp`.
 - `.visually-hidden` utility class exists in `globals.css` for SEO-only elements (screen-reader accessible, visually hidden)
 - **o2switch CDN / FTP deploy rules**:
   - **Never** delete the `_next/` directory during FTP deploy. The CDN caches HTML referencing old chunks; deleting them causes 404s and React hydration error #418. Old chunks must remain on disk.

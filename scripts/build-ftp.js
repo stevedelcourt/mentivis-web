@@ -57,6 +57,10 @@ try {
     stdio: "inherit",
     cwd: rootDir,
   });
+  execSync("node scripts/inline-css.js", {
+    stdio: "inherit",
+    cwd: rootDir,
+  });
 } finally {
   // Always restore API routes
   if (fs.existsSync(apiBackupDir)) {
