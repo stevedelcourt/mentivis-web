@@ -23,6 +23,11 @@ DirectoryIndex index.html
   # Root serves fr/index.html directly (no redirect needed)
   # RewriteRule ^$ /fr/ [R=301,L] — REMOVED, index.html is served by DirectoryIndex
 
+  # Redirect old /expertises → /about (SEO)
+  RewriteRule ^expertises$ /about/ [R=301,L]
+  RewriteRule ^fr/expertises$ /fr/about/ [R=301,L]
+  RewriteRule ^en/expertises$ /en/about/ [R=301,L]
+
   # Redirect old /resources → /guides (SEO)
   RewriteRule ^resources$ /guides/ [R=301,L]
   RewriteRule ^fr/resources$ /fr/guides/ [R=301,L]
