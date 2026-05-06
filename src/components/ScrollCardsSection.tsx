@@ -22,54 +22,66 @@ export default function ScrollCardsSection({
   const wrapperRef = useRef<HTMLDivElement>(null);
   const [rect, setRect] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
 
-  // Measure ALL cards bounding box
+  // Measure ALL cards bounding box — batched via ResizeObserver + rAF
   useEffect(() => {
     if (!wrapperRef.current) return;
     const cards = wrapperRef.current.querySelectorAll('.m-dual-card');
     if (cards.length === 0) return;
     
-const update = () => {
-      const first = (cards[0] as HTMLElement).getBoundingClientRect();
-      const last = (cards[cards.length - 1] as HTMLElement).getBoundingClientRect();
-      const wrapperRect = wrapperRef.current!.getBoundingClientRect();
-      const gap = wrapperRect.width * 0.03; // 3% gap
-      
-      const container = wrapperRef.current!.querySelector('.container') as HTMLElement;
-      const containerRect = container.getBoundingClientRect();
-      const style = getComputedStyle(container);
-      const pl = parseFloat(style.paddingLeft) || 0;
-      const pr = parseFloat(style.paddingRight) || 0;
-      
-      // Container content bounds relative to wrapper
-      const contentLeft = containerRect.left - wrapperRect.left + pl;
-      const contentRight = containerRect.right - wrapperRect.left - pr;
-      
-      // Calculate purple bg position (around all cards with 3% gap)
-      let left = first.left - wrapperRect.left - gap;
-      let width = (last.right - first.left) + (2 * gap);
-      
-      // Mobile: match container content bounds exactly (aligns with hero text)
-      const isMobile = window.innerWidth <= 720;
-      if (isMobile) {
-        left = contentLeft;
-        width = contentRight - contentLeft;
-      } else {
-        // Desktop: constrain to container bounds
-        left = Math.max(left, contentLeft);
-        width = Math.min(width, contentRight - left);
-      }
-      
-      setRect({
-        left,
-        top: first.top - wrapperRect.top - gap,
-        width,
-        height: (last.bottom - first.top) + (2 * gap),
+    let rafId: number | null = null;
+    
+    const update = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        const first = (cards[0] as HTMLElement).getBoundingClientRect();
+        const last = (cards[cards.length - 1] as HTMLElement).getBoundingClientRect();
+        const wrapperRect = wrapperRef.current!.getBoundingClientRect();
+        const gap = wrapperRect.width * 0.03; // 3% gap
+        
+        const container = wrapperRef.current!.querySelector('.container') as HTMLElement;
+        const containerRect = container.getBoundingClientRect();
+        const style = getComputedStyle(container);
+        const pl = parseFloat(style.paddingLeft) || 0;
+        const pr = parseFloat(style.paddingRight) || 0;
+        
+        // Container content bounds relative to wrapper
+        const contentLeft = containerRect.left - wrapperRect.left + pl;
+        const contentRight = containerRect.right - wrapperRect.left - pr;
+        
+        // Calculate purple bg position (around all cards with 3% gap)
+        let left = first.left - wrapperRect.left - gap;
+        let width = (last.right - first.left) + (2 * gap);
+        
+        // Mobile: match container content bounds exactly (aligns with hero text)
+        const isMobile = window.innerWidth <= 720;
+        if (isMobile) {
+          left = contentLeft;
+          width = contentRight - contentLeft;
+        } else {
+          // Desktop: constrain to container bounds
+          left = Math.max(left, contentLeft);
+          width = Math.min(width, contentRight - left);
+        }
+        
+        setRect({
+          left,
+          top: first.top - wrapperRect.top - gap,
+          width,
+          height: (last.bottom - first.top) + (2 * gap),
+        });
       });
     };
 
     update();
-    window.addEventListener('resize', update);
-    return () => window.removeEventListener('resize', update);
+    
+    // ResizeObserver fires after layout is settled (no forced reflow)
+    const observer = new ResizeObserver(update);
+    observer.observe(wrapperRef.current);
+    
+    return () => {
+      observer.disconnect();
+      if (rafId) cancelAnimationFrame(rafId);
+    };
   }, []);
 
   // Set initial position + scroll animation (ONLY left/width)
