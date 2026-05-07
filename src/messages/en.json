@@ -1165,13 +1165,13 @@
     "finalCtaLead": "First exchange with no commitment, analysis of your needs and clear positioning on our ability to support you."
   },
   "skillpath": {
-    "heroTitle": "Skillpath",
+    "heroTitle": "MentivisOS",
     "heroLead": "The AI-native LearningOS that builds the exact learning path each person needs.",
     "heroSub": "Not a catalogue. Not an LMS. A pedagogical engine.",
     "ctaDemo": "Request a demo",
     "ctaHow": "See how it works",
     "problemTitle": "The problem",
-    "problemText": "LMS platforms distribute content. No one knows if it fills the right gap. Skillpath produces the exact diagnosis, the matching program, and the support to go all the way.",
+    "problemText": "LMS platforms distribute content. No one knows if it fills the right gap. MentivisOS produces the exact diagnosis, the matching program, and the support to go all the way.",
     "steps": [
       {
         "title": "You declare your objective",
@@ -1200,7 +1200,7 @@
       "ESNs and competency management consulting firms."
     ],
     "corporateBadge": "Available today for corporate clients",
-    "corporateText": "Skillpath goes further for organizations. End of one-size-fits-all curricula. Fine-grained gap visibility. Attention retention. Operational frameworks in days.",
+    "corporateText": "MentivisOS goes further for organizations. End of one-size-fits-all curricula. Fine-grained gap visibility. Attention retention. Operational frameworks in days.",
     "corporateCta": "Learn more about the corporate offer",
     "modesTitle": "Integrate in three modes",
     "modes": [
@@ -1227,7 +1227,7 @@
       }
     ],
     "finalCtaText": "No standard demo. A real case, from your organization, handled live.",
-    "finalCtaBtn": "Yes, I want to test Skillpath",
-    "footerNote": "Skillpath is developed by Mentivis, a specialized education consultancy."
+    "finalCtaBtn": "Yes, I want to test MentivisOS",
+    "footerNote": "MentivisOS is developed by Mentivis, a specialized education consultancy."
   }
 }

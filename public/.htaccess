@@ -37,6 +37,14 @@ DirectoryIndex index.html
   RewriteRule ^fr/mentivissolutions$ /fr/ [R=301,L]
   RewriteRule ^en/mentivissolutions$ /en/ [R=301,L]
 
+  # Redirect /skillpath → /mentivisos (rebranding)
+  RewriteRule ^fr/skillpath/?$ /fr/mentivisos/ [R=301,L]
+  RewriteRule ^en/skillpath/?$ /en/mentivisos/ [R=301,L]
+
+  # Redirect old insight slug → new slug (skillpath → mentivos rebranding)
+  RewriteRule ^fr/insights/mentivis-devoile-skillpath-os-formation-native-ia/?$ /fr/insights/mentivis-devoile-mentivos-os-formation-native-ia/ [R=301,L]
+  RewriteRule ^en/insights/mentivis-devoile-skillpath-os-formation-native-ia/?$ /en/insights/mentivis-devoile-mentivos-os-formation-native-ia/ [R=301,L]
+
   # Old WordPress URLs → new Next.js routes (SEO preservation)
   RewriteRule ^creation-decole-et-centre-de-formation-en-france/?$ /fr/of/ [R=301,L]
   RewriteRule ^offres-mentivis-conseil-et-transformation-educative/?$ /fr/of/ [R=301,L]

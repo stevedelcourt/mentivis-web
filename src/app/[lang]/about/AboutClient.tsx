@@ -367,8 +367,10 @@ export default function AboutClient() {
         </div>
       </section>
 
-      {/* 8. FinalCTA ─────────────────────────────────────── */}
-      <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="ink" centered />
+      {/* 8. FinalCTA ────────────────────────────────────── */}
+      <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="purple" centered />
+      {/* White spacer between CTA and footer */}
+      <div style={{ height: 60, background: "white" }} />
     </PageShell>
   );
 }

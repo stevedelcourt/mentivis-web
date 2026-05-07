@@ -12,10 +12,23 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Skillpath — Plateforme native IA" : "Skillpath — AI-Native Learning Platform",
+    title: isFr ? "MentivisOS — Plateforme native IA" : "MentivisOS — AI-Native Learning Platform",
     description: isFr
       ? "La plateforme native IA qui construit le parcours de formation exact dont chaque personne a besoin."
       : "The AI-native platform that builds the exact learning path each person needs.",
+    openGraph: {
+      images: [
+        {
+          url: "https://www.mentivis.com/opengraph-image-mentivisOS.jpg",
+          width: 1200,
+          height: 630,
+          alt: "MentivisOS",
+        },
+      ],
+    },
+    twitter: {
+      images: ["https://www.mentivis.com/opengraph-image-mentivisOS.jpg"],
+    },
   };
 }
 
@@ -27,17 +40,17 @@ export default async function SkillpathPage({ params }: { params: Promise<{ lang
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Skillpath",
+        name: "MentivisOS",
         description: isFr
           ? "La plateforme native IA qui construit le parcours de formation exact dont chaque personne a besoin."
           : "The AI-native platform that builds the exact learning path each person needs.",
-        url: `${SITE.baseUrl}/${lang}/skillpath`,
+        url: `${SITE.baseUrl}/${lang}/mentivisos`,
         brand: { "@id": `${SITE.baseUrl}/#organization` },
         inLanguage: isFr ? "fr-FR" : "en-US",
       }} />
       <BreadcrumbJsonLd items={[
         { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
-        { name: "Skillpath" }
+        { name: "MentivisOS" }
       ]} />
       <SkillpathClient />
     </>

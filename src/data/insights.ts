@@ -22,7 +22,7 @@ import article16 from "../content/insights/leducation-merite-mieux-que-les-effet
 import article17 from "../content/insights/conseil-boutique-vs-big-four.json";
 import article18 from "../content/insights/morin-contre-les-machines.json";
 import article19 from "../content/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros.json";
-import article20 from "../content/insights/skillpath-os-formation-native-ia.json";
+import article20 from "../content/insights/mentivos-os-formation-native-ia.json";
 
 // Re-export types from meta so detail pages can import from either module
 export type { InsightCategory } from "./insights-meta";

@@ -201,7 +201,7 @@ export default function CookieConsentBanner({ lang }: Props) {
           }
         },
       })
-    }, 1500)
+    }, 500)
 
     ;(window as unknown as { CookieConsent: typeof CookieConsent }).CookieConsent = CookieConsent
 

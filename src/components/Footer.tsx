@@ -157,7 +157,7 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/solutions`, label: lang === "fr" ? "Solutions ingénierie" : "Engineering solutions" },
               { href: `/mentivis-solutions`, label: "Mentivis Solutions" },
               { href: `https://www.mariusia.com/`, label: "Marius IA", external: true },
-              { href: `/${lang}/skillpath`, label: "Skillpath LearningOS" },
+              { href: `/${lang}/mentivisos`, label: "Mentivis OS" },
             ]} />
             <FooterCol title={t.nav.resources} links={[
               { href: `/${lang}/insights`, label: t.nav.insights },

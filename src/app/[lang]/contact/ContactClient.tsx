@@ -42,9 +42,9 @@ function getSubjectPrefill(subject: string | null, lang: string): string {
   if (!subject) return "";
   const isFr = lang === "fr";
   const map: Record<string, { fr: string; en: string }> = {
-    Skillpath: {
-      fr: "Je souhaite en savoir plus sur Skillpath.",
-      en: "I would like to learn more about Skillpath.",
+    MentivisOS: {
+      fr: "Je souhaite en savoir plus sur MentivisOS.",
+      en: "I would like to learn more about MentivisOS.",
     },
     Solutions: {
       fr: "Demande concernant les solutions digitales Mentivis.",

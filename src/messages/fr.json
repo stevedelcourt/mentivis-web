@@ -1165,13 +1165,13 @@
     "finalCtaLead": "Premier échange sans engagement, analyse de votre besoin et positionnement clair sur notre capacité à vous accompagner."
   },
   "skillpath": {
-    "heroTitle": "Skillpath",
+    "heroTitle": "MentivisOS",
     "heroLead": "Le LearningOS natif IA, qui construit le parcours de formation exact dont chaque personne a besoin.",
     "heroSub": "Pas un catalogue. Pas un LMS. Un moteur pédagogique.",
     "ctaDemo": "Demander une démonstration",
     "ctaHow": "Voir comment ça marche",
     "problemTitle": "Le problème",
-    "problemText": "Les LMS diffusent du contenu. Personne ne sait si ça comble le bon écart. Skillpath produit le diagnostic exact, le programme correspondant, et l'accompagnement pour aller au bout.",
+    "problemText": "Les LMS diffusent du contenu. Personne ne sait si ça comble le bon écart. MentivisOS produit le diagnostic exact, le programme correspondant, et l'accompagnement pour aller au bout.",
     "steps": [
       {
         "title": "Vous déclarez votre objectif",
@@ -1200,7 +1200,7 @@
       "ESN et cabinets de conseil en gestion de compétences."
     ],
     "corporateBadge": "Disponible dès aujourd'hui pour les clients corporate",
-    "corporateText": "Skillpath va plus loin pour les organisations. Fin du curriculum unique. Lisibilité des écarts à la maille fine. Rétention de l'attention. Référentiels opérationnels en quelques jours.",
+    "corporateText": "MentivisOS va plus loin pour les organisations. Fin du curriculum unique. Lisibilité des écarts à la maille fine. Rétention de l'attention. Référentiels opérationnels en quelques jours.",
     "corporateCta": "En savoir plus sur l'offre corporate",
     "modesTitle": "S'intégrer en trois modes",
     "modes": [
@@ -1227,7 +1227,7 @@
       }
     ],
     "finalCtaText": "Pas de démo standard. Un cas réel, issu de votre organisation, traité en direct.",
-    "finalCtaBtn": "Oui, je veux tester Skillpath",
-    "footerNote": "Skillpath est développé par Mentivis, cabinet de conseil en éducation spécialisé."
+    "finalCtaBtn": "Oui, je veux tester MentivisOS",
+    "footerNote": "MentivisOS est développé par Mentivis, cabinet de conseil en éducation spécialisé."
   }
 }

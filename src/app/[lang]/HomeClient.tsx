@@ -1,11 +1,9 @@
 "use client";
 import { useEffect } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
-import FinalCTA from "@/components/FinalCTA";
-import FeaturedInsights from "@/components/FeaturedInsights";
-import FaqSection from "@/components/FaqSection";
 import SectionHeader from "@/components/SectionHeader";
 import ScrollCardsSection from "@/components/ScrollCardsSection";
 import PageShell from "@/components/layout/PageShell";
@@ -13,6 +11,10 @@ import JsonLd from "@/components/JsonLd";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import Icon from "@/components/ui/Icon";
+
+const FaqSection = dynamic(() => import("@/components/FaqSection"), { ssr: false });
+const FinalCTA = dynamic(() => import("@/components/FinalCTA"), { ssr: false });
+const FeaturedInsights = dynamic(() => import("@/components/FeaturedInsights"), { ssr: false });
 
 export default function HomeClient() {
   const { t, lang } = useMessages();

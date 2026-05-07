@@ -312,10 +312,10 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                     </svg>
                   </a>
                   <Link
-                    href={`/${lang}/skillpath`}
+                    href={`/${lang}/mentivisos`}
                     className="m-dropdown-link"
                   >
-                    Skillpath LearningOS
+                    Mentivis OS
                   </Link>
                 </div>
               </div>
@@ -602,11 +602,11 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 </svg>
               </a>
               <Link
-                href={`/${lang}/skillpath`}
+                href={`/${lang}/mentivisos`}
                 onClick={() => setMobileOpen(false)}
                 className="m-mobile-subitem"
               >
-                Skillpath LearningOS
+                Mentivis OS
               </Link>
              </div>
  

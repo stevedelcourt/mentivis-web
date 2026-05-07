@@ -1,5 +1,7 @@
 import { MetadataRoute } from "next";
 import { INSIGHTS } from "@/data/insights";
+import videosFr from "@/content/videos/videos-fr.json";
+import videosEn from "@/content/videos/videos-en.json";
 
 export const dynamic = "force-static";
 
@@ -12,7 +14,7 @@ const STATIC_PAGES = [
   { path: "enterprise", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "of", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "solutions", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "skillpath", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "mentivisos", priority: 0.8, changeFrequency: "monthly" as const },
 
   { path: "insights", priority: 0.8, changeFrequency: "weekly" as const },
   { path: "guides", priority: 0.7, changeFrequency: "monthly" as const },
@@ -34,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const lang of ["fr", "en"]) {
     for (const page of STATIC_PAGES) {
       entries.push({
-        url: `${BASE_URL}/${lang}/${page.path}`,
+        url: `${BASE_URL}/${lang}/${page.path}${page.path ? "/" : ""}`,
         lastModified: new Date(),
         changeFrequency: page.changeFrequency,
         priority: page.priority,
@@ -46,12 +48,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const lang of ["fr", "en"]) {
     for (const article of INSIGHTS) {
       entries.push({
-        url: `${BASE_URL}/${lang}/insights/${article.slug}`,
+        url: `${BASE_URL}/${lang}/insights/${article.slug}/`,
         lastModified: new Date(article.date),
         changeFrequency: "monthly",
         priority: 0.6,
       });
     }
+  }
+
+  // Video pages with video metadata
+  const videoData = { fr: videosFr, en: videosEn };
+  for (const lang of ["fr", "en"]) {
+    const { videos } = videoData[lang as keyof typeof videoData];
+    entries.push({
+      url: `${BASE_URL}/${lang}/videos/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.5,
+      videos: videos
+        .filter((v) => v.filepath)
+        .map((v) => ({
+          title: v.title,
+          thumbnail_loc: `${BASE_URL}/${v.poster}`,
+          content_loc: `${BASE_URL}/${v.filepath}`,
+          description: v.description,
+        })),
+    });
   }
 
   return entries;

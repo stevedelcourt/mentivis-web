@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import CookieConsentBanner from "@/components/CookieConsent";
+import CookieConsentDeferred from "@/components/CookieConsentDeferred";
 import GTMClient from "@/components/GTMClient";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
   const isFr = lang === "fr";
 
   const title = isFr
-    ? "Mentivis - Opérateur en formation et développement des compétences"
-    : "Mentivis - Operator in training & skills development";
+    ? "Mentivis - Tous les métiers de la formation. De bout en bout."
+    : "Mentivis - Every training discipline. End to end.";
   const description = isFr
     ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."
     : "Mentivis designs, structures and deploys training programs. Compensation aligned with results.";
@@ -93,7 +93,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <>
       {children}
-      <CookieConsentBanner lang={lang} />
+      <CookieConsentDeferred lang={lang} />
       {process.env.NEXT_PUBLIC_GTM_ID && (
         <GTMClient gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
       )}

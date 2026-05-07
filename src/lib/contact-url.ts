@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation";
 
 const PATH_TO_SUBJECT: Record<string, string> = {
-  "/skillpath": "Skillpath",
+  "/mentivisos": "MentivisOS",
   "/solutions": "Solutions",
   "/enterprise": "Enterprise",
   "/of": "OF",

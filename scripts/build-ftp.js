@@ -99,3 +99,22 @@ if (fs.existsSync(frIndex)) {
   fs.copyFileSync(frIndex, rootIndex);
   console.log("Copied fr/index.html → out/index.html (eliminates root redirect)");
 }
+
+// ── Preload hero image on home pages ──
+// The hero image is the LCP element; preloading it reduces load time.
+const homePages = [
+  path.join(outDir, "fr", "index.html"),
+  path.join(outDir, "en", "index.html"),
+  rootIndex,
+];
+const HERO_PRELOAD = '<link rel="preload" as="image" href="/images/heroes/two-women.avif" />';
+let preloadCount = 0;
+for (const file of homePages) {
+  if (!fs.existsSync(file)) continue;
+  let html = fs.readFileSync(file, "utf8");
+  if (html.includes('as="image"')) continue;
+  html = html.replace("<head>", "<head>" + HERO_PRELOAD);
+  fs.writeFileSync(file, html, "utf8");
+  preloadCount++;
+}
+console.log(`✓ Preloaded hero image in ${preloadCount} home page(s)`);
