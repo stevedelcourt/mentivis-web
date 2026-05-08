@@ -39,7 +39,7 @@ export default async function SkillpathPage({ params }: { params: Promise<{ lang
     <>
       <JsonLd data={{
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "SoftwareApplication",
         name: "MentivisOS",
         description: isFr
           ? "La plateforme native IA qui construit le parcours de formation exact dont chaque personne a besoin."
