@@ -8,7 +8,10 @@ import { SITE } from "@/lib/config";
 
 export function generateStaticParams() {
   const slugs = getJobSlugs();
-  if (slugs.length === 0) return [{ lang: "fr", slug: "_placeholder" }];
+  if (slugs.length === 0) return [
+    { lang: "fr", slug: "_placeholder" },
+    { lang: "en", slug: "_placeholder" },
+  ];
   return slugs.flatMap((slug) => [
     { lang: "fr", slug },
     { lang: "en", slug },
