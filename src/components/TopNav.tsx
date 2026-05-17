@@ -742,38 +742,6 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               ))}
             </div>
 
-            {/* Corporate accordion */}
-            <button
-              onClick={() => {
-                setCorporateOpen(v => !v);
-                setResourcesOpen(false);
-                setAboutOpen(false);
-              }}
-              className="m-mobile-nav-item m-mobile-nav-accordion"
-            >
-              <span>{t.nav.corporate}</span>
-              <span
-                style={{
-                  color: "var(--m-ink-3)",
-                  transition: "transform 0.2s",
-                  transform: corporateOpen ? "rotate(90deg)" : "rotate(0deg)",
-                }}
-              >
-                <Icon name="chevron_right" size={24} />
-              </span>
-            </button>
-            <div className={`m-mobile-submenu ${corporateOpen ? "open" : ""}`}>
-              {corporateLinks.map((l) => (
-                <Link
-                  key={l.href + l.label}
-                  href={l.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="m-mobile-subitem"
-                >
-                  {l.label}
-                </Link>
-              ))}
-            </div>
           </div>
 
           {/* CTA bottom */}
