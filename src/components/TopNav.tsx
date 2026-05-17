@@ -472,7 +472,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               </div>
             </nav>
 
-          {/* Right side: FR/EN + Contact button + Burger */}
+          {/* Right side: FR/EN + Contact button */}
           <div className="m-nav-item m-nav-item-delay-2" style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
             <div className="m-nav-item m-nav-item-delay-3">
               <LangToggle lang={lang} />
@@ -499,29 +499,36 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               {t.nav.ctaShort}
               <Icon name="chevron_right" size={16} />
             </Link>
-
-            {/* Burger button */}
-            <button
-              className="m-nav-burger m-nav-item m-nav-item-delay-3"
-              aria-label="Menu"
-              onClick={() => setMobileOpen((v) => !v)}
-              style={{
-                display: "none",
-                background: "var(--m-bg-soft)",
-                border: "1px solid var(--m-line-2)",
-                borderRadius: 8,
-                padding: 8,
-                cursor: "pointer",
-              }}
-            >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <line x1="2" y1="5" x2="16" y2="5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
-                <line x1="2" y1="9" x2="16" y2="9" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
-                <line x1="2" y1="13" x2="16" y2="13" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
-              </svg>
-            </button>
           </div>
         </div>
+
+        {/* Burger button — outside pill, floating right */}
+        <button
+          className={`m-nav-burger ${mobileOpen ? "m-burger-open" : ""}`}
+          aria-label="Menu"
+          aria-expanded={mobileOpen}
+          onClick={() => setMobileOpen((v) => !v)}
+          style={{
+            display: "none",
+            position: "fixed",
+            top: 18,
+            right: 16,
+            zIndex: 51,
+            background: "rgba(255,255,255,0.92)",
+            border: "1px solid var(--m-line-2)",
+            borderRadius: 12,
+            padding: 10,
+            cursor: "pointer",
+            color: "var(--m-ink-2)",
+            backdropFilter: "blur(8px)",
+          }}
+        >
+          <svg width="22" height="22" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <line className="m-burger-line m-burger-line-top" x1="18" y1="34" x2="82" y2="34"/>
+            <line className="m-burger-line m-burger-line-mid" x1="18" y1="50" x2="82" y2="50"/>
+            <line className="m-burger-line m-burger-line-bot" x1="18" y1="66" x2="82" y2="66"/>
+          </svg>
+        </button>
       </header>
 
 {/* Mobile Fullscreen Menu */}

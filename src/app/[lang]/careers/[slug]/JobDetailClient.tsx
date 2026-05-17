@@ -152,8 +152,8 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
 
           {activeTab === "description" && (
             <Reveal>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 260px", gap: 48, alignItems: "start" }} className="m-split-grid">
-                <div className="insight-body" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)" }}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 260px", gap: 48, alignItems: "start" }} className="m-split-grid m-job-detail">
+                <div className="insight-body m-job-sidebar" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)" }}
                   dangerouslySetInnerHTML={{ __html: descHtml || (isFr ? "<p>Description à venir.</p>" : "<p>Description coming soon.</p>") }}
                 />
                 <InfoSidebar job={job} lang={lang} />
@@ -163,7 +163,7 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
 
           {activeTab === "apply" && (
             <Reveal>
-              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid">
+              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid m-job-detail">
                 <div>
                   <h2 style={{ fontSize: 22, fontWeight: 500, marginBottom: 12, color: "var(--m-ink)" }}>
                     {c.formTitle}
@@ -180,6 +180,9 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
                     #job-hubspot-form .hs-form-field ~ .hs-richtext:last-of-type,
                     #job-hubspot-form > div:last-child:not(.hs-form) {
                       display: none !important;
+                    }
+                    @media (max-width: 1000px) {
+                      .m-job-detail > :last-child { order: -1; margin-bottom: 32px; }
                     }
                   `}</style>
                 </div>

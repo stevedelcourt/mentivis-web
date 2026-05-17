@@ -43,7 +43,7 @@ export default function CareersClient() {
         backgroundSize: "cover", backgroundPosition: "center",
         display: "flex", alignItems: "center", textAlign: "left", color: "white", overflow: "hidden",
       }}>
-        <div className="container" style={{ position: "relative", zIndex: 2, paddingTop: 80 }}>
+        <div className="container" style={{ position: "relative", zIndex: 2, width: "100%", paddingTop: 80, textAlign: "left" }}>
           <Reveal>
             <span style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: "0.14em", fontWeight: 600, opacity: 0.8 }}>
               {c.eyebrow}
