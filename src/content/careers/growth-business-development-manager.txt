@@ -1,0 +1,105 @@
+# metadata
+titleFr: Growth & Business Development Manager
+titleEn: B2B Marketing Growth Lead
+
+# descriptionFr
+## Le contexte
+///
+MentivisOS est un système opérationnel complet conçu pour les organismes de formation, les écoles et les universités. Il couvre l'ensemble du cycle de vie d'un établissement, de l'acquisition à la performance pédagogique, dans un environnement unique et intégré. Mentivis structure son développement commercial en France et recrute la personne qui en prendra la responsabilité opérationnelle.
+///
+Ce poste est une fonction de croissance à spectre large. Vous êtes responsable du développement commercial de MentivisOS sur le marché français, de la génération des premiers leads jusqu'à la construction de partenariats stratégiques durables.
+///
+## Vos responsabilités
+///
+### Croissance B2B et développement marché
+///
+Vous pilotez la stratégie de croissance de MentivisOS en France. Vous prenez en charge le funnel complet : génération de leads, nurturing, conversion et développement des comptes. Vous construisez les bases commerciales du marché, ce qui implique autant de décisions stratégiques que d'exécution directe.
+///
+### Acquisition et outbound
+///
+Vous concevez, lancez et optimisez des séquences outbound complexes à destination des décideurs institutionnels : directions d'écoles, d'universités, de centres de formation et de départements RH et formation en entreprise. Vous structurez les workflows de prospection et d'automatisation adaptés aux spécificités du marché français. Vous collaborez avec les équipes performance et opérations sur les stratégies ABM, retargeting et acquisition payante.
+///
+### Événements et présence écosystème
+///
+Vous organisez et pilotez des événements, webinars, rencontres sectorielles et participations à des salons professionnels. Vous développez activement la présence de MentivisOS dans l'écosystème français de l'IA, de l'edtech et de la formation professionnelle, en identifiant les bons relais, les bons formats et les bons interlocuteurs.
+///
+### Contenu et positionnement
+///
+Vous produisez les supports commerciaux, contenus stratégiques et messages adaptés aux enjeux du marché français. Vous participez à la construction du positionnement de MentivisOS en remontant les signaux du terrain vers les équipes produit et stratégie.
+///
+### Partenariats et écosystème
+///
+Vous identifiez et développez des partenariats stratégiques avec les acteurs des secteurs IA, éducation, formation et transformation des compétences. Vous construisez des relations solides avec les relais locaux, sponsors et organisations susceptibles d'accélérer la pénétration du marché.
+///
+## Profil recherché
+///
+**Langues.** Vous travaillez professionnellement en anglais. La capacité à lire, produire et communiquer en anglais dans un environnement professionnel international est indispensable.
+///
+**Mentalité d'owner.** Vous prenez la responsabilité complète de vos sujets et les menez jusqu'au résultat. Vous n'attendez pas qu'on vous définisse le chemin.
+///
+**Esprit entrepreneurial.** Vous avez idéalement évolué en startup, dans un environnement à forte croissance, ou avez déjà construit des projets de manière autonome. Vous êtes à l'aise dans les situations où les règles ne sont pas encore écrites.
+///
+**Culture growth.** Vous avez une compréhension large et opérationnelle du marketing de croissance : acquisition, outbound, performance, automatisation, analyse de données, événements, campagnes. Vous n'êtes pas spécialiste d'une seule de ces dimensions, vous savez les articuler.
+///
+**Orientation exécution.** Vous êtes autonome, proactif et orienté expérimentation. Vous gérez plusieurs sujets simultanément sans perdre en qualité d'exécution.
+///
+## Atouts supplémentaires
+///
+Expertise SEO et stratégie de contenu, compétences design (Figma, Adobe Suite), expérience avec des outils et workflows AI-native, connaissance de l'écosystème edtech et formation professionnelle en France.
+///
+## Localisation
+///
+Le poste est remote-first. Vous travaillez au sein d'un environnement international à l'intersection de l'IA, de l'éducation et de la transformation des compétences.
+///
+**[mentivisos.com](https://mentivisos.com/)**
+
+# descriptionEn
+## Context
+///
+MentivisOS is a full-stack operational system built for training organisations, schools and universities. It covers the entire lifecycle of an institution, from acquisition to pedagogical performance, within a single integrated environment. Mentivis is now structuring its commercial development in France and is looking for the person who will take operational ownership of it.
+///
+This is a broad-spectrum growth role. You are responsible for the commercial development of MentivisOS in the French market, from generating the first leads to building lasting strategic partnerships.
+///
+## Your responsibilities
+///
+### B2B growth and market development
+///
+You drive the growth strategy for MentivisOS in France. You own the full funnel: lead generation, nurturing, conversion and account development. You build the commercial foundations of the market, which requires both strategic decisions and direct execution.
+///
+### Acquisition and outbound
+///
+You design, launch and optimise complex outbound sequences targeting institutional decision-makers: school directors, university leadership, training centre management and corporate L&D departments. You structure prospecting workflows and automation adapted to the specificities of the French market. You collaborate with performance and operations teams on ABM strategies, retargeting and paid acquisition.
+///
+### Events and ecosystem presence
+///
+You organise and lead events, webinars, sector meetups and trade show participations. You actively develop MentivisOS's presence within the French AI, edtech and professional training ecosystem, identifying the right relays, the right formats and the right contacts.
+///
+### Content and positioning
+///
+You produce sales materials, strategic content and messaging adapted to the demands of the French market. You contribute to the positioning of MentivisOS by feeding field signals back to the product and strategy teams.
+///
+### Partnerships and ecosystem
+///
+You identify and develop strategic partnerships with players in the AI, education, training and skills transformation sectors. You build strong relationships with local relays, sponsors and organisations that can accelerate market penetration.
+///
+## Profile
+///
+**Languages.** You work professionally in English. The ability to read, produce and communicate in English within an international professional environment is essential.
+///
+**Owner mindset.** You take full responsibility for your projects and see them through to results. You do not wait for the path to be defined for you.
+///
+**Entrepreneurial spirit.** You have ideally worked in a startup or high-growth environment, or built projects independently. You are comfortable in situations where the rules are not yet written.
+///
+**Growth culture.** You have a broad and operational understanding of growth marketing: acquisition, outbound, performance, automation, data analysis, events and campaigns. You are not a specialist in just one of these areas. You know how to connect them.
+///
+**Execution orientation.** You are autonomous, proactive and experiment-driven. You manage multiple subjects simultaneously without sacrificing execution quality.
+///
+## Bonus skills
+///
+SEO expertise and content strategy, design skills (Figma, Adobe Suite), experience with AI-native tools and workflows, knowledge of the French edtech and professional training ecosystem.
+///
+## Location
+///
+The role is remote-first. You work within an international environment at the intersection of AI, education and skills transformation.
+///
+**[mentivisos.com](https://mentivisos.com/)**

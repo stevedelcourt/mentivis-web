@@ -4,6 +4,7 @@ import path from "path";
 
 const CONTENT_DIR = path.join(process.cwd(), "src", "content", "careers");
 const TS_FILE = path.join(process.cwd(), "src", "data", "careers.ts");
+const META_FILE = path.join(process.cwd(), "src", "data", "careers-meta.json");
 
 const TECH_FIELDS = ["slug", "titleFr", "titleEn", "department", "location", "type", "remote", "date"];
 
@@ -84,6 +85,18 @@ function syncJobToTxt(slug: string) {
   fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.txt`), text.join("\n"), "utf-8");
 }
 
+function syncJobMeta() {
+  const all = readAllJobs();
+  const meta = all
+    .map((j: any) => {
+      const entry: any = {};
+      TECH_FIELDS.forEach((f) => { if (f in j) entry[f] = j[f]; });
+      return entry;
+    })
+    .sort((a: any, b: any) => (b.date || "").localeCompare(a.date || ""));
+  fs.writeFileSync(META_FILE, JSON.stringify(meta, null, 2), "utf-8");
+}
+
 function updateTsImports(jobs: any[]) {
   const tsContent = fs.readFileSync(TS_FILE, "utf-8");
 
@@ -144,6 +157,7 @@ export async function POST(req: NextRequest) {
       const all = readAllJobs();
       updateTsImports(all);
     }
+    syncJobMeta();
 
     return NextResponse.json({ ok: true });
   } catch (e: any) {
@@ -159,6 +173,7 @@ export async function DELETE(req: NextRequest) {
     deleteJob(slug);
     const all = readAllJobs();
     updateTsImports(all);
+    syncJobMeta();
     return NextResponse.json({ ok: true });
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
