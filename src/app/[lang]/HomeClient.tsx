@@ -84,25 +84,6 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {h.summary && (
-        <section style={{ padding: "60px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
-          <div className="container">
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(4, 1fr)",
-              gap: 32,
-            }} className="m-grid-4">
-              {h.summary.map((s: string, i: number) => (
-                <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-                  <span style={{ fontFamily: "var(--f-display)", color: "var(--m-purple)", fontSize: 14, fontWeight: 500, flexShrink: 0, marginTop: 2 }}>0{i + 1}</span>
-                  <p style={{ fontSize: 14, color: "var(--m-ink-2)", margin: 0, lineHeight: 1.55 }}>{s}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       <ScrollCardsSection
         lang={lang}
         entries={{
