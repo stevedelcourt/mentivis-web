@@ -510,9 +510,10 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 display: "none",
                 background: "none",
                 border: "none",
-                padding: 6,
+                padding: 8,
                 cursor: "pointer",
                 color: "var(--m-ink)",
+                lineHeight: 1,
               }}
             >
               <svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
