@@ -80,7 +80,7 @@ export default function AmbassadorsClient() {
             </div>
             <Reveal delay={80}>
               <Image
-                src="/ambassador.avif"
+                src="/images/ambassador.avif"
                 alt=""
                 width={600}
                 height={600}
