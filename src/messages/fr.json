@@ -10,7 +10,8 @@
     "corporate": "Corporate",
     "contact": "Contact",
     "cta": "Contactez-nous",
-    "ctaShort": "Contact"
+    "ctaShort": "Contact",
+    "ambassadors": "Ambassadeurs"
   },
   "common": {
     "learnMore": "En savoir plus",
@@ -1053,6 +1054,42 @@
     "eyebrow": "Rejoindre l'équipe",
     "title": "Carrières",
     "lead": "Vous partagez notre conviction que la formation est un levier stratégique ? Envoyez-nous votre candidature. Nous recrutons des profils passionnés, curieux et animés par l'impact.",
+    "program": {
+      "features": [
+        "Projets à impact réel sur les organisations et leurs talents",
+        "Expertise pointue : formation, IA, edtech, automatisation",
+        "Autonomie, confiance et culture d'excellence",
+        "Environnement bienveillant et transparent"
+      ],
+      "cta": "Voir les postes"
+    },
+    "whyJoin": {
+      "title": "Pourquoi nous rejoindre ?",
+      "cards": [
+        {
+          "title": "Impact réel",
+          "body": "Chaque mission que nous menons transforme directement la manière dont les organisations forment et développent leurs talents."
+        },
+        {
+          "title": "Expertise et diversité",
+          "body": "Formation, conseil, digital, IA. Nous rassemblons des profils variés pour attaquer les sujets les plus complexes."
+        },
+        {
+          "title": "Autonomie et confiance",
+          "body": "Nous recrutons des adultes responsables. Pas de micro-management, des objectifs clairs et la liberté de les atteindre."
+        },
+        {
+          "title": "Culture et valeurs",
+          "body": "Bienveillance, exigence, transparence. Nous construisons un environnement où chacun peut donner le meilleur de lui-même."
+        }
+      ]
+    },
+    "list": {
+      "title": "Postes ouverts",
+      "empty": "Aucune offre ouverte pour le moment. Revenez bientôt ou envoyez-nous une candidature spontanée.",
+      "allDepartments": "Tous",
+      "readMore": "Voir l'offre"
+    },
     "aboutTitle": "Pourquoi rejoindre Mentivis ?",
     "aboutBody": "Chez Mentivis, nous croyons que la diversité des parcours est notre plus grande force. Nous recrutons des talents issus de l'enseignement, du conseil, du digital, de la finance et de l'entrepreneuriat. Chaque profil apporte une perspective unique qui enrichit notre capacité à innover pour nos clients.",
     "equityTitle": "Nos engagements",
@@ -1287,5 +1324,111 @@
     "finalCtaText": "Pas de démo standard. Un cas réel, issu de votre organisation, traité en direct.",
     "finalCtaBtn": "Oui, je veux tester MentivisOS",
     "footerNote": "MentivisOS est développé par Mentivis, cabinet de conseil en éducation spécialisé."
+  },
+  "ambassadors": {
+    "hero": {
+      "eyebrow": "Ambassadeurs",
+      "headline": "Recommandez. Connectez. Développez.",
+      "body": "Le programme Ambassadeurs Mentivis rassemble un cercle restreint de professionnels capables d'ouvrir les bonnes portes dans les secteurs de la formation, des RH, des campus, des CFA et de la transformation des compétences.",
+      "commission": "Chaque mise en relation qualifiée pouvant déboucher sur un projet signé donne lieu à une commission sur les contrats générés.",
+      "rate": "Jusqu'à 10% de rémunération selon le type de mission et le niveau d'implication.",
+      "ctaJoin": "Rejoindre le programme"
+    },
+    "who": {
+      "title": "Un programme pensé pour les profils à fort réseau",
+      "subtitle": "Le programme Ambassadeurs s'adresse aux professionnels qui évoluent déjà au contact des décideurs des secteurs formation, RH et transformation.",
+      "profilesTitle": "Profils concernés",
+      "profiles": [
+        "Dirigeants et anciens dirigeants",
+        "Consultants indépendants",
+        "Experts RH et formation",
+        "Réseaux école / EdTech / OPCO",
+        "Apporteurs d'affaires spécialisés",
+        "Cabinets de conseil",
+        "Écosystèmes innovation et IA",
+        "Responsables transformation digitale",
+        "Alumni influents et réseaux sectoriels"
+      ],
+      "notSellerTitle": "Vous n'avez pas besoin de vendre",
+      "notSellerBody": "Votre rôle n'est pas de pitcher nos offres. Mentivis prend en charge : les rendez-vous stratégiques, les propositions commerciales, le cadrage projet, le delivery. Vous ouvrez une relation pertinente. Nous opérons le reste.",
+      "whyTitle": "Pourquoi le programme fonctionne",
+      "whyBody": "Mentivis répond à des besoins immédiats : structuration d'organismes de formation, création d'académies internes, stratégie de financement OPCO, conformité Qualiopi, transformation IA, recrutement par la formation. Les organisations cherchent des solutions opérationnelles, pas des recommandations PowerPoint."
+    },
+    "how": {
+      "title": "Comment ça fonctionne ?",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Validation du profil",
+          "body": "Chaque candidature est étudiée individuellement afin de garantir la cohérence du réseau et la qualité des mises en relation. Le programme privilégie : la qualité du réseau, la compréhension des enjeux entreprise, la crédibilité sectorielle, la capacité à identifier des besoins réels."
+        },
+        {
+          "num": "02",
+          "title": "Accès aux ressources Ambassadeurs",
+          "body": "Une fois intégré au programme, vous obtenez : un accès de présentation Mentivis, des supports privés, des cas d'usage, des argumentaires, un point de contact dédié, une visibilité claire sur les offres."
+        },
+        {
+          "num": "03",
+          "title": "Mise en relation",
+          "body": "Vous identifiez : une entreprise, un campus, un organisme de formation, un réseau, ou une institution ayant un besoin compatible avec les services Mentivis. Vous effectuez ensuite une introduction qualifiée avec l'équipe Mentivis."
+        },
+        {
+          "num": "04",
+          "title": "Qualification et closing",
+          "body": "Mentivis prend le relais : analyse du besoin, cadrage, stratégie, chiffrage, contractualisation, déploiement. Vous restez informé des avancées du dossier."
+        },
+        {
+          "num": "05",
+          "title": "Commissionnement",
+          "body": "Lorsqu'un contrat est signé et encaissé, une commission est versée selon les modalités prévues dans le partenariat. Jusqu'à 10% sur les contrats générés."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "subtitle": "Le fonctionnement du programme, les conditions d'accès, le modèle de collaboration et les modalités de rémunération expliqués de manière claire et directe.",
+      "items": [
+        {
+          "question": "Qui peut rejoindre le programme ?",
+          "answer": "Le programme est ouvert aux professionnels disposant d'un réseau qualifié dans les secteurs entreprise, RH, formation, enseignement supérieur, innovation ou transformation numérique."
+        },
+        {
+          "question": "Est-ce un programme d'affiliation public ?",
+          "answer": "Non. Les candidatures sont étudiées individuellement et les intégrations se font progressivement."
+        },
+        {
+          "question": "Dois-je vendre les prestations Mentivis moi-même ?",
+          "answer": "Non. Mentivis gère l'ensemble du cycle commercial et opérationnel."
+        },
+        {
+          "question": "Quel type de structures peut être recommandé ?",
+          "answer": "Entreprises, groupes multi-sites, CFA, écoles, universités, campus d'entreprise, réseaux de formation, institutions publiques, organisations en transformation."
+        },
+        {
+          "question": "Comment fonctionne la rémunération ?",
+          "answer": "Une commission est versée sur les contrats effectivement signés et encaissés. Le niveau dépend du type de contrat, du périmètre, du rôle joué dans l'introduction, et du cadre du partenariat."
+        },
+        {
+          "question": "Puis-je suivre mes introductions ?",
+          "answer": "Oui. Un suivi transparent des opportunités et de leur avancement est prévu."
+        },
+        {
+          "question": "Est-ce compatible avec une autre activité ?",
+          "answer": "Oui. Le programme est conçu pour fonctionner en complément d'une activité principale, d'un cabinet ou d'un réseau existant."
+        },
+        {
+          "question": "Pourquoi rejoindre Mentivis maintenant ?",
+          "answer": "Les sujets formation, compétences, structuration et transformation des organisations deviennent prioritaires dans la plupart des secteurs. Mentivis se positionne comme un opérateur capable d'intervenir de bout en bout, de la stratégie au déploiement."
+        },
+        {
+          "question": "Un cadre contractuel simple",
+          "answer": "Chaque Ambassador signe un contrat d'apporteur d'affaires définissant : le périmètre des introductions, les modalités de collaboration, les conditions de commissionnement, les règles de confidentialité, et les conditions de versement."
+        },
+        {
+          "question": "Facturation et versement des commissions",
+          "answer": "Les commissions sont versées après signature et encaissement des contrats concernés. Selon le statut du partenaire : facturation directe via société, statut indépendant, ou autre structure compatible."
+        }
+      ]
+    }
   }
 }

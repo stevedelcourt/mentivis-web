@@ -19,6 +19,7 @@ export type NavMessages = {
     contact: string;
     cta: string;
     ctaShort: string;
+    ambassadors: string;
   };
 };
 
@@ -65,12 +66,15 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
   const [corporateOpen, setCorporateOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const [desktopResourcesOpen, setDesktopResourcesOpen] = useState(false);
   const [desktopSolutionsOpen, setDesktopSolutionsOpen] = useState(false);
+  const [desktopAboutOpen, setDesktopAboutOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const solutionsDropdownRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const solutionsTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const aboutTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   useEffect(() => {
     let last = false;
@@ -137,8 +141,13 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
 
   const corporateLinks = [
     { href: `/${lang}/contact`, label: t.nav.contact },
-    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
     { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
+  ];
+
+  const aboutLinks = [
+    { href: `/${lang}/about`, label: t.nav.about },
+    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
+    { href: `/${lang}/ambassadors`, label: t.nav.ambassadors },
   ];
 
   const isActive = (href: string) => route && href === `/${lang}` + route.replace(/^\/[a-z]{2}/, "");
@@ -162,6 +171,17 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   const handleSolutionsMouseLeave = () => {
     solutionsTimeoutRef.current = setTimeout(() => {
       setDesktopSolutionsOpen(false);
+    }, 150);
+  };
+
+  const handleAboutMouseEnter = () => {
+    if (aboutTimeoutRef.current) clearTimeout(aboutTimeoutRef.current);
+    setDesktopAboutOpen(true);
+  };
+
+  const handleAboutMouseLeave = () => {
+    aboutTimeoutRef.current = setTimeout(() => {
+      setDesktopAboutOpen(false);
     }, 150);
   };
 
@@ -394,23 +414,62 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 </div>
               </div>
 
-              {/* About link - after Resources */}
-              <Link
-                href={`/${lang}/about`}
-                className="m-nav-link"
-                style={{
-                  padding: "8px 14px",
-                  fontSize: 14,
-                  fontWeight: 500,
-                  color: isActive(`/${lang}/about`) ? "var(--m-ink)" : "var(--m-ink-2)",
-                  letterSpacing: "-0.005em",
-                  borderRadius: 8,
-                  background: isActive(`/${lang}/about`) ? "rgba(0,0,0,0.05)" : "transparent",
-                  transition: "background 0.15s, color 0.15s",
-                }}
+              {/* Desktop About Dropdown */}
+              <div
+                className="m-desktop-dropdown"
+                onMouseEnter={handleAboutMouseEnter}
+                onMouseLeave={handleAboutMouseLeave}
+                style={{ position: "relative" }}
               >
-                {t.nav.about}
-              </Link>
+                <Link
+                  href={`/${lang}/about`}
+                  className="m-nav-link"
+                  style={{
+                    padding: "8px 14px",
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: "var(--m-ink-2)",
+                    letterSpacing: "-0.005em",
+                    borderRadius: 8,
+                    background: "transparent",
+                    textDecoration: "none",
+                    fontFamily: "inherit",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 4,
+                  }}
+                >
+                  {t.nav.about}
+                  <span style={{
+                    display: "inline-block",
+                    transition: "transform 0.2s",
+                    transform: desktopAboutOpen ? "rotate(180deg)" : "rotate(0deg)",
+                  }}>
+                    <Icon name="expand_more" size={16} />
+                  </span>
+                </Link>
+
+                <div className={`m-dropdown-panel ${desktopAboutOpen ? "open" : ""}`}
+                  style={{
+                    position: "absolute",
+                    top: "calc(100% + 4px)",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    background: "#f7f7f4",
+                    borderRadius: 12,
+                    padding: "20px 24px",
+                    minWidth: 180,
+                    boxShadow: "0 16px 56px rgba(0,0,0,0.12)",
+                    border: "1px solid rgba(0,0,0,0.04)",
+                    zIndex: 60,
+                  }}>
+                  {aboutLinks.map((l) => (
+                    <Link key={l.href} href={l.href} className="m-dropdown-link">
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </nav>
 
           {/* Right side: FR/EN + Phone + Contact button + Burger */}
@@ -561,6 +620,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 setSolutionsOpen(v => !v);
                 setResourcesOpen(false);
                 setCorporateOpen(false);
+                setAboutOpen(false);
               }}
               className="m-mobile-nav-item m-mobile-nav-accordion"
             >
@@ -633,6 +693,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 setResourcesOpen(v => !v);
                 setSolutionsOpen(false);
                 setCorporateOpen(false);
+                setAboutOpen(false);
               }}
               className="m-mobile-nav-item m-mobile-nav-accordion"
             >
@@ -660,20 +721,46 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               ))}
             </div>
 
-            {/* About link - after Resources */}
-            <Link
-              href={`/${lang}/about`}
-              onClick={() => setMobileOpen(false)}
-              className="m-mobile-nav-item"
+            {/* About accordion */}
+            <button
+              onClick={() => {
+                setAboutOpen(v => !v);
+                setResourcesOpen(false);
+                setSolutionsOpen(false);
+                setCorporateOpen(false);
+              }}
+              className="m-mobile-nav-item m-mobile-nav-accordion"
             >
-              {t.nav.about}
-            </Link>
+              <span>{t.nav.about}</span>
+              <span
+                style={{
+                  color: "var(--m-ink-3)",
+                  transition: "transform 0.2s",
+                  transform: aboutOpen ? "rotate(90deg)" : "rotate(0deg)",
+                }}
+              >
+                <Icon name="chevron_right" size={24} />
+              </span>
+            </button>
+            <div className={`m-mobile-submenu ${aboutOpen ? "open" : ""}`}>
+              {aboutLinks.map((l) => (
+                <Link
+                  key={l.href + l.label}
+                  href={l.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="m-mobile-subitem"
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </div>
 
             {/* Corporate accordion */}
             <button
               onClick={() => {
                 setCorporateOpen(v => !v);
                 setResourcesOpen(false);
+                setAboutOpen(false);
               }}
               className="m-mobile-nav-item m-mobile-nav-accordion"
             >

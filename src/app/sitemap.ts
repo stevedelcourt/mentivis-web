@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { INSIGHTS } from "@/data/insights";
+import { CAREERS } from "@/data/careers";
 import videosFr from "@/content/videos/videos-fr.json";
 import videosEn from "@/content/videos/videos-en.json";
 
@@ -20,6 +21,7 @@ const STATIC_PAGES = [
   { path: "guides", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "score-formation", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "careers", priority: 0.6, changeFrequency: "monthly" as const },
+  { path: "ambassadors", priority: 0.6, changeFrequency: "monthly" as const },
   { path: "meeting", priority: 0.6, changeFrequency: "monthly" as const },
   { path: "contact", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "videos", priority: 0.5, changeFrequency: "monthly" as const },
@@ -52,6 +54,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(article.date),
         changeFrequency: "monthly",
         priority: 0.6,
+      });
+    }
+  }
+
+  // Job listings × 2 languages
+  for (const lang of ["fr", "en"]) {
+    for (const job of CAREERS) {
+      entries.push({
+        url: `${BASE_URL}/${lang}/careers/${job.slug}/`,
+        lastModified: new Date(job.date),
+        changeFrequency: "monthly",
+        priority: 0.5,
       });
     }
   }

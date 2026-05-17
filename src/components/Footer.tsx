@@ -8,7 +8,7 @@ import { encodeEntities } from "@/lib/utils";
 import { useContactUrl } from "@/lib/contact-url";
 
 type FooterMessages = {
-  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; contact: string; };
+  nav: { cta: string; home: string; about: string; enterprise: string; of: string; solutions: string; resources: string; insights: string; corporate: string; contact: string; ambassadors: string; };
   footer: {
     tagline: string;
     ctaTitle: string;
@@ -175,6 +175,7 @@ export default function Footer({ t, lang }: FooterProps) {
               { href: `/${lang}/contact`, label: t.nav.contact },
               { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
               { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
+              { href: `/${lang}/ambassadors`, label: t.nav.ambassadors },
             ]} />
           </div>
 

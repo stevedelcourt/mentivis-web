@@ -80,6 +80,7 @@ export default function NotFound() {
       contact: "Contact",
       cta: "Contactez-nous",
       ctaShort: "Contact",
+      ambassadors: "Ambassadeurs",
     },
   }), []);
 

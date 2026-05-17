@@ -10,7 +10,8 @@
     "corporate": "Corporate",
     "contact": "Contact",
     "cta": "Contact us",
-    "ctaShort": "Contact"
+    "ctaShort": "Contact",
+    "ambassadors": "Ambassadors"
   },
   "common": {
     "learnMore": "Learn more",
@@ -1053,6 +1054,42 @@
     "eyebrow": "Join the team",
     "title": "Careers",
     "lead": "You share our belief that training is a strategic lever? Send us your application. We recruit passionate, curious profiles driven by impact.",
+    "program": {
+      "features": [
+        "Projects with real impact on organizations and their talent",
+        "Deep expertise: training, AI, edtech, automation",
+        "Autonomy, trust and culture of excellence",
+        "Supportive and transparent environment"
+      ],
+      "cta": "See open positions"
+    },
+    "whyJoin": {
+      "title": "Why join us?",
+      "cards": [
+        {
+          "title": "Real impact",
+          "body": "Every mission we take on directly transforms how organizations train and develop their talent."
+        },
+        {
+          "title": "Expertise & diversity",
+          "body": "Training, consulting, digital, AI. We bring together varied profiles to tackle the most complex challenges."
+        },
+        {
+          "title": "Autonomy & trust",
+          "body": "We hire responsible adults. No micromanagement, clear objectives and the freedom to achieve them."
+        },
+        {
+          "title": "Culture & values",
+          "body": "Kindness, excellence, transparency. We build an environment where everyone can give their best."
+        }
+      ]
+    },
+    "list": {
+      "title": "Open positions",
+      "empty": "No open positions at the moment. Check back later or send us a spontaneous application.",
+      "allDepartments": "All",
+      "readMore": "View position"
+    },
     "aboutTitle": "Why join Mentivis?",
     "aboutBody": "At Mentivis, we believe that diversity of backgrounds is our greatest strength. We recruit talent from education, consulting, digital, finance, and entrepreneurship. Each profile brings a unique perspective that enriches our ability to innovate for our clients.",
     "equityTitle": "Our commitments",
@@ -1287,5 +1324,111 @@
     "finalCtaText": "No standard demo. A real case, from your organization, handled live.",
     "finalCtaBtn": "Yes, I want to test MentivisOS",
     "footerNote": "MentivisOS is developed by Mentivis, a specialized education consultancy."
+  },
+  "ambassadors": {
+    "hero": {
+      "eyebrow": "Ambassadors",
+      "headline": "Recommend. Connect. Grow.",
+      "body": "The Mentivis Ambassadors program brings together a select circle of professionals capable of opening the right doors in training, HR, campus, CFA and skills transformation sectors.",
+      "commission": "Each qualified introduction that can lead to a signed project earns a commission on generated contracts.",
+      "rate": "Up to 10% remuneration depending on the type of mission and level of involvement.",
+      "ctaJoin": "Join the program"
+    },
+    "who": {
+      "title": "A program designed for well-connected profiles",
+      "subtitle": "The Ambassadors program is for professionals who already operate among decision-makers in training, HR and transformation.",
+      "profilesTitle": "Relevant profiles",
+      "profiles": [
+        "Executives and former executives",
+        "Independent consultants",
+        "HR and training experts",
+        "School / EdTech / OPCO networks",
+        "Specialized business introducers",
+        "Consulting firms",
+        "Innovation and AI ecosystems",
+        "Digital transformation leaders",
+        "Influential alumni and sector networks"
+      ],
+      "notSellerTitle": "You don't need to sell",
+      "notSellerBody": "Your role is not to pitch our services. Mentivis handles: strategic meetings, commercial proposals, project scoping, delivery. You open a relevant relationship. We operate the rest.",
+      "whyTitle": "Why the program works",
+      "whyBody": "Mentivis addresses immediate needs: structuring training organizations, building internal academies, OPCO funding strategy, Qualiopi compliance, AI transformation, training-based recruitment. Organizations seek operational solutions, not PowerPoint recommendations."
+    },
+    "how": {
+      "title": "How it works",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Profile validation",
+          "body": "Each application is reviewed individually to ensure network consistency and quality of introductions. The program prioritizes: network quality, understanding of business challenges, sector credibility, ability to identify real needs."
+        },
+        {
+          "num": "02",
+          "title": "Ambassador resources access",
+          "body": "Once accepted, you receive: Mentivis presentation access, private materials, use cases, talking points, a dedicated contact, clear visibility on offers."
+        },
+        {
+          "num": "03",
+          "title": "Introduction",
+          "body": "You identify: a company, a campus, a training organization, a network, or an institution with a need compatible with Mentivis services. You then make a qualified introduction to the Mentivis team."
+        },
+        {
+          "num": "04",
+          "title": "Qualification and closing",
+          "body": "Mentivis takes over: needs analysis, scoping, strategy, pricing, contracting, deployment. You stay informed of progress."
+        },
+        {
+          "num": "05",
+          "title": "Commissioning",
+          "body": "When a contract is signed and collected, a commission is paid according to the partnership terms. Up to 10% on generated contracts."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "How the program works, access conditions, collaboration model and remuneration terms explained clearly and directly.",
+      "items": [
+        {
+          "question": "Who can join the program?",
+          "answer": "The program is open to professionals with a qualified network in enterprise, HR, training, higher education, innovation or digital transformation sectors."
+        },
+        {
+          "question": "Is this a public affiliation program?",
+          "answer": "No. Applications are reviewed individually and integrations happen progressively."
+        },
+        {
+          "question": "Do I need to sell Mentivis services myself?",
+          "answer": "No. Mentivis manages the entire commercial and operational cycle."
+        },
+        {
+          "question": "What type of organizations can be recommended?",
+          "answer": "Companies, multi-site groups, CFA, schools, universities, corporate campuses, training networks, public institutions, organizations undergoing transformation."
+        },
+        {
+          "question": "How does remuneration work?",
+          "answer": "A commission is paid on contracts actually signed and collected. The level depends on contract type, scope, role played in the introduction, and partnership framework."
+        },
+        {
+          "question": "Can I track my introductions?",
+          "answer": "Yes. Transparent tracking of opportunities and their progress is provided."
+        },
+        {
+          "question": "Is it compatible with another activity?",
+          "answer": "Yes. The program is designed to work alongside a main activity, existing firm or network."
+        },
+        {
+          "question": "Why join Mentivis now?",
+          "answer": "Training, skills, structuring and organizational transformation are becoming priorities in most sectors. Mentivis positions itself as an operator capable of end-to-end intervention, from strategy to deployment."
+        },
+        {
+          "question": "A simple contractual framework",
+          "answer": "Each Ambassador signs a business introducer contract defining: the scope of introductions, collaboration terms, commission conditions, confidentiality rules, and payment terms."
+        },
+        {
+          "question": "Commission billing and payment",
+          "answer": "Commissions are paid after signature and collection of the relevant contracts. Depending on the partner's status: direct billing via company, independent status, or other compatible structure."
+        }
+      ]
+    }
   }
 }

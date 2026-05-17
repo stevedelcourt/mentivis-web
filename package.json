@@ -11,6 +11,7 @@
     "favicon": "node scripts/sync-favicon.js",
     "analyze": "ANALYZE=true npm run build",
     "generate:meta": "node scripts/generate-insights-meta.js",
+    "generate:careers-meta": "node scripts/generate-careers-meta.js",
     "start": "next start",
     "lint": "eslint",
     "deploy": "./scripts/deploy.sh"
