@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { marked } from "marked";
 import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import { useMessages } from "@/lib/messages";
@@ -27,6 +28,47 @@ function loadHubSpotScript(): Promise<void> {
     script.onerror = () => reject();
     document.head.appendChild(script);
   });
+}
+
+const ICON_DOC = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/><line x1="8" y1="15" x2="12" y2="15"/></svg>;
+const ICON_PIN = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>;
+const ICON_BRIEF = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>;
+const ICON_GLOBE = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>;
+
+function InfoSidebar({ job, lang }: { job: Job; lang: string }) {
+  const isFr = lang === "fr";
+  const typeLabel = JOB_TYPE_LABELS[job.type];
+  const typeStr = typeLabel ? (lang === "fr" ? typeLabel.fr : typeLabel.en) : job.type;
+
+  const rows = [
+    { icon: ICON_DOC, eyebrow: isFr ? "Département" : "Department", value: job.department },
+    { icon: ICON_PIN, eyebrow: isFr ? "Lieu" : "Location", value: job.location },
+    { icon: ICON_BRIEF, eyebrow: isFr ? "Contrat" : "Contract", value: typeStr },
+    { icon: ICON_GLOBE, eyebrow: "Remote", value: job.remote ? (isFr ? "Oui" : "Yes") : (isFr ? "Non" : "No") },
+  ];
+
+  return (
+    <div style={{ background: "var(--m-bg-soft)", borderRadius: 16, padding: 28, border: "1px solid var(--m-line-2)" }}>
+      <h3 style={{ fontSize: 13, fontWeight: 600, marginBottom: 20, color: "var(--m-ink-3)", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+        {isFr ? "Informations" : "Information"}
+      </h3>
+      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        {rows.map((row, i) => (
+          <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
+            <span style={{ color: "var(--m-ink-4)", flexShrink: 0, marginTop: 1 }}>{row.icon}</span>
+            <div>
+              <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--m-ink-4)", marginBottom: 2 }}>
+                {row.eyebrow}
+              </div>
+              <div style={{ fontSize: 14, fontWeight: 500, color: "var(--m-ink)" }}>
+                {row.value}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default function JobDetailClient({ job, lang }: { job: Job; lang: string }) {
@@ -60,11 +102,9 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
       });
   }, [activeTab, lang, c.fallback]);
 
-  const typeLabel = JOB_TYPE_LABELS[job.type];
   const title = isFr ? job.titleFr : job.titleEn;
   const desc = isFr ? job.descriptionFr : job.descriptionEn;
-  const typeStr = typeLabel ? (lang === "fr" ? typeLabel.fr : typeLabel.en) : job.type;
-  const remoteStr = isFr ? "Remote" : "Remote";
+  const descHtml = desc ? marked.parse(desc) as string : "";
 
   return (
     <PageShell>
@@ -81,19 +121,9 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
             </Link>
           </Reveal>
           <Reveal delay={50}>
-            <h1 className="t-display" style={{ fontSize: "clamp(28px, 4vw, 48px)", marginBottom: 16, fontWeight: 400 }}>
+            <h1 className="t-display" style={{ fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 400 }}>
               {title}
             </h1>
-          </Reveal>
-          <Reveal delay={100}>
-            <div style={{ display: "flex", gap: 20, flexWrap: "wrap", fontSize: 14, color: "var(--m-ink-3)", marginBottom: 24 }}>
-              <span>{job.department}</span>
-              <span>·</span>
-              <span>{job.location}</span>
-              <span>·</span>
-              <span>{typeStr}</span>
-              {job.remote && <><span>·</span><span>{remoteStr}</span></>}
-            </div>
           </Reveal>
         </div>
       </section>
@@ -122,19 +152,18 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
 
           {activeTab === "description" && (
             <Reveal>
-              <div className="insight-body" style={{ maxWidth: 720 }}>
-                {desc ? desc.split("\n\n").map((p: string, i: number) => (
-                  <p key={i} style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)", marginBottom: 16 }}>{p}</p>
-                )) : (
-                  <p style={{ color: "var(--m-ink-3)" }}>{isFr ? "Description à venir." : "Description coming soon."}</p>
-                )}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 260px", gap: 48, alignItems: "start" }} className="m-split-grid">
+                <div className="insight-body" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)" }}
+                  dangerouslySetInnerHTML={{ __html: descHtml || (isFr ? "<p>Description à venir.</p>" : "<p>Description coming soon.</p>") }}
+                />
+                <InfoSidebar job={job} lang={lang} />
               </div>
             </Reveal>
           )}
 
           {activeTab === "apply" && (
             <Reveal>
-              <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid">
+              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid">
                 <div>
                   <h2 style={{ fontSize: 22, fontWeight: 500, marginBottom: 12, color: "var(--m-ink)" }}>
                     {c.formTitle}
@@ -142,44 +171,9 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
                   <p style={{ fontSize: 14, color: "var(--m-ink-3)", lineHeight: 1.5, marginBottom: 24 }}>
                     {c.formSub}
                   </p>
-                  <div id="job-hubspot-form" ref={formRef} style={{ minHeight: 200 }} />
+                  <div id="job-hubspot-form" ref={formRef} style={{ minHeight: 300 }} />
                 </div>
-                <div style={{
-                  background: "var(--m-bg-soft)", borderRadius: 16, padding: 28,
-                  border: "1px solid var(--m-line-2)",
-                }}>
-                  <h3 style={{ fontSize: 16, fontWeight: 600, marginBottom: 16, color: "var(--m-ink)" }}>
-                    {isFr ? "Informations" : "Information"}
-                  </h3>
-                  <div style={{ display: "flex", flexDirection: "column", gap: 12, fontSize: 14 }}>
-                    <div>
-                      <div style={{ color: "var(--m-ink-3)", marginBottom: 2, fontSize: 12, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                        {isFr ? "Département" : "Department"}
-                      </div>
-                      <div style={{ color: "var(--m-ink)", fontWeight: 500 }}>{job.department}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: "var(--m-ink-3)", marginBottom: 2, fontSize: 12, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                        {isFr ? "Type" : "Type"}
-                      </div>
-                      <div style={{ color: "var(--m-ink)", fontWeight: 500 }}>{typeStr}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: "var(--m-ink-3)", marginBottom: 2, fontSize: 12, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                        {isFr ? "Lieu" : "Location"}
-                      </div>
-                      <div style={{ color: "var(--m-ink)", fontWeight: 500 }}>{job.location}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: "var(--m-ink-3)", marginBottom: 2, fontSize: 12, textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                        Remote
-                      </div>
-                      <div style={{ color: "var(--m-ink)", fontWeight: 500 }}>
-                        {job.remote ? (isFr ? "Oui" : "Yes") : (isFr ? "Non" : "No")}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <InfoSidebar job={job} lang={lang} />
               </div>
             </Reveal>
           )}
