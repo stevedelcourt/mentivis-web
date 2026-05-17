@@ -30,12 +30,19 @@
       "Un opérateur spécialisé,",
       "multi compétences."
     ],
+    "definition": "Mentivis est un opérateur spécialisé qui conçoit, structure et déploie des dispositifs de formation — de la stratégie à l'exécution opérationnelle, avec une rémunération alignée sur les résultats obtenus.",
     "lead": "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.",
-    "missionTitle": "Identité & mission",
+    "missionTitle": "Qu'est-ce que Mentivis ?",
     "mission": [
       "Opérateur spécialisé en formation et développement des compétences",
       "Intervention de bout en bout : stratégie, conception, déploiement, pilotage",
       "Rémunération aligné sur les résultats: des success fees garantie de nos intérêts"
+    ],
+    "summary": [
+      "Opérateur spécialisé formation — pas un cabinet de conseil généraliste.",
+      "Intervention de bout en bout : stratégie, conception, déploiement, pilotage.",
+      "Rémunération variable alignée sur vos résultats mesurés.",
+      "Équipe de 4 partners, basée à Paris, intervenant en France et à l'international."
     ],
     "expertiseTitle": "Nos expertises",
     "expertiseLead": "Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.",
@@ -48,7 +55,7 @@
       {
         "n": "02",
         "title": "Opérationnel",
-        "body": "Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques."
+        "body": "Acquisition, gestion administrative, gestion et développement de l'alternance, création de contenus pédagogiques."
       },
       {
         "n": "03",
@@ -81,7 +88,7 @@
         "body": "Chaque mission est mesurée. Notre rémunération en dépend."
       }
     ],
-    "costTitle": "Combien ça coûte ?",
+    "costTitle": "Comment fonctionne notre modèle de rémunération ?",
     "costLead": "Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.",
     "cost": [
       {
@@ -322,6 +329,57 @@
         "photo": "/images/team/steven-delcourt.avif"
       }
     ],
+    "comparison": {
+      "eyebrow": "Mentivis vs conseil traditionnel",
+      "title": "Une différence structurelle",
+      "headers": [
+        "",
+        "Cabinet de conseil traditionnel",
+        "Mentivis"
+      ],
+      "rows": [
+        {
+          "label": "Modèle de rémunération",
+          "cols": [
+            {},
+            "Facturation au livrable ou à l'heure",
+            "Part variable alignée sur les KPIs de résultat"
+          ]
+        },
+        {
+          "label": "Périmètre d'intervention",
+          "cols": [
+            {},
+            "Recommandations stratégiques",
+            "Stratégie + exécution opérationnelle"
+          ]
+        },
+        {
+          "label": "Responsabilité",
+          "cols": [
+            {},
+            "S'arrête à la remise des livrables",
+            "Va jusqu'au déploiement effectif"
+          ]
+        },
+        {
+          "label": "Spécialisation",
+          "cols": [
+            {},
+            "Généraliste (tous secteurs)",
+            "Expert formation et éducation uniquement"
+          ]
+        },
+        {
+          "label": "Alignement d'intérêts",
+          "cols": [
+            {},
+            "Intérêt à facturer plus de jours",
+            "Intérêt aligné sur votre performance"
+          ]
+        }
+      ]
+    },
     "closingEyebrow": "Ce que nous construisons.",
     "closingTitle": [
       "Pas des structures.",

@@ -75,6 +75,6 @@ Allow: /
 User-agent: Diffbot
 Allow: /
 
-# Default — block everything else
+# Default — allow everything else
 User-agent: *
-Disallow: /
+Allow: /

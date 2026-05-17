@@ -30,12 +30,19 @@
       "A specialized operator.",
       "Not a consulting firm."
     ],
+    "definition": "Mentivis is a specialized operator that designs, structures and deploys training programs — from strategy to operational execution, with compensation aligned to measurable results.",
     "lead": "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
-    "missionTitle": "Identity & mission",
+    "missionTitle": "What is Mentivis?",
     "mission": [
       "Specialized operator in training and skills development",
       "End-to-end intervention: strategy, design, deployment, steering",
       "Compensation aligned with results - not deliverables"
+    ],
+    "summary": [
+      "Specialized training operator — not a generalist consulting firm.",
+      "End-to-end intervention: strategy, design, deployment, steering.",
+      "Variable compensation aligned to your measurable results.",
+      "Team of 4 partners, based in Paris, operating in France and internationally."
     ],
     "expertiseTitle": "Our expertise",
     "expertiseLead": "Four pillars covering the full training spectrum, from strategy to operational execution.",
@@ -81,7 +88,7 @@
         "body": "Every mission is measured. Our compensation depends on it."
       }
     ],
-    "costTitle": "What does it cost?",
+    "costTitle": "How does our compensation model work?",
     "costLead": "A transparent pricing approach designed to remove the client's risk and align both parties' interests.",
     "cost": [
       {
@@ -322,6 +329,57 @@
         "photo": "/images/team/steven-delcourt.avif"
       }
     ],
+    "comparison": {
+      "eyebrow": "Mentivis vs traditional consulting",
+      "title": "A structural difference",
+      "headers": [
+        "",
+        "Traditional consulting firm",
+        "Mentivis"
+      ],
+      "rows": [
+        {
+          "label": "Compensation model",
+          "cols": [
+            {},
+            "Billed by deliverable or by the hour",
+            "Variable share tied to result KPIs"
+          ]
+        },
+        {
+          "label": "Scope of intervention",
+          "cols": [
+            {},
+            "Strategic recommendations",
+            "Strategy + operational execution"
+          ]
+        },
+        {
+          "label": "Responsibility",
+          "cols": [
+            {},
+            "Ends at deliverable hand-off",
+            "Goes all the way to effective deployment"
+          ]
+        },
+        {
+          "label": "Specialization",
+          "cols": [
+            {},
+            "Generalist (all sectors)",
+            "Training and education expert only"
+          ]
+        },
+        {
+          "label": "Alignment of interests",
+          "cols": [
+            {},
+            "Incentive to bill more days",
+            "Incentive aligned with your performance"
+          ]
+        }
+      ]
+    },
     "closingEyebrow": "What we build.",
     "closingTitle": [
       "Not structures.",

@@ -367,6 +367,44 @@ export default function AboutClient() {
         </div>
       </section>
 
+      {/* Comparison table — Mentivis vs traditional consulting */}
+      {a.comparison && (
+        <section className="section">
+          <div className="container">
+            <div style={{ display: "grid", gridTemplateColumns: "2fr 10fr", gap: "2rem", alignItems: "baseline", marginBottom: "2.5rem" }} className="m-split-grid">
+              <Reveal>
+                <div className="t-eyebrow">{a.comparison.eyebrow}</div>
+              </Reveal>
+              <Reveal delay={80}>
+                <h2 className="t-display" style={{ fontSize: "clamp(28px, 3.2vw, 40px)", lineHeight: 1.1, letterSpacing: "-0.015em", margin: 0, fontWeight: 400, color: "var(--m-ink)" }}>
+                  {a.comparison.title}
+                </h2>
+              </Reveal>
+            </div>
+            <Reveal delay={120}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "var(--f-sans)", fontSize: 15 }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid var(--m-ink)" }}>
+                    <th style={{ textAlign: "left", padding: "14px 16px", fontWeight: 600, color: "var(--m-ink-2)", fontSize: 13, textTransform: "uppercase", letterSpacing: "0.06em" }}>{a.comparison.headers[0]}</th>
+                    <th style={{ textAlign: "left", padding: "14px 16px", fontWeight: 600, color: "var(--m-ink-2)", fontSize: 13, textTransform: "uppercase", letterSpacing: "0.06em" }}>{a.comparison.headers[1]}</th>
+                    <th style={{ textAlign: "left", padding: "14px 16px", fontWeight: 600, color: "var(--m-purple)", fontSize: 13, textTransform: "uppercase", letterSpacing: "0.06em" }}>{a.comparison.headers[2]}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {a.comparison.rows.map((row: any, i: number) => (
+                    <tr key={i} style={{ borderBottom: "1px solid var(--m-line)" }}>
+                      <td style={{ padding: "16px", fontWeight: 600, color: "var(--m-ink)", fontSize: 14 }}>{row.label}</td>
+                      <td style={{ padding: "16px", color: "var(--m-ink-3)" }}>{row.cols[1]}</td>
+                      <td style={{ padding: "16px", color: "var(--m-purple)", fontWeight: 500 }}>{row.cols[2]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </Reveal>
+          </div>
+        </section>
+      )}
+
       {/* 8. FinalCTA ────────────────────────────────────── */}
       <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="purple" centered />
       {/* White spacer between CTA and footer */}

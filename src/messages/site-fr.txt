@@ -26,11 +26,19 @@ subtitle: des dispositifs de formation qui fonctionnent
 eyebrow: Qui sommes-nous
 title[0]: Un opérateur spécialisé,
 title[1]: multi compétences.
+definition: Mentivis est un opérateur spécialisé qui conçoit, structure et déploie des dispositifs de formation — de la stratégie à l'exécution opérationnelle, avec une rémunération alignée sur les résultats obtenus.
 lead: Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.
-missionTitle: Identité & mission
+missionTitle: Qu'est-ce que Mentivis ?
 mission[0]: Opérateur spécialisé en formation et développement des compétences
 mission[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage
 mission[2]: Rémunération aligné sur les résultats: des success fees garantie de nos intérêts
+
+# home
+summary[0]: Opérateur spécialisé formation — pas un cabinet de conseil généraliste.
+summary[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage.
+summary[2]: Rémunération variable alignée sur vos résultats mesurés.
+summary[3]: Équipe de 4 partners, basée à Paris, intervenant en France et à l'international.
+
 expertiseTitle: Nos expertises
 expertiseLead: Quatre piliers couvrant l'intégralité du spectre formation, de la réflexion stratégique à l'exécution opérationnelle.
 
@@ -42,7 +50,7 @@ body: Recherche de financements, Positionnement, audit de maturité, développem
 # home.expertise[1]
 n: 02
 title: Opérationnel
-body: Acquisition, gestion administrative, gestion et développement de l’alternance, création de contenus pédagogiques.
+body: Acquisition, gestion administrative, gestion et développement de l'alternance, création de contenus pédagogiques.
 
 # home.expertise[2]
 n: 03
@@ -75,7 +83,7 @@ title: Pilotage par les KPIs
 body: Chaque mission est mesurée. Notre rémunération en dépend.
 
 # home
-costTitle: Combien ça coûte ?
+costTitle: Comment fonctionne notre modèle de rémunération ?
 costLead: Une approche tarifaire transparente, conçue pour éliminer le risque côté client et aligner les intérêts des deux parties.
 
 # home.cost[0]
@@ -304,6 +312,28 @@ name: Steven Delcourt
 role: Partner, Strategy
 detail: Brand et marketing
 photo: /images/team/steven-delcourt.avif
+
+# about.comparison
+eyebrow: Mentivis vs conseil traditionnel
+title: Une différence structurelle
+headers[0]: 
+headers[1]: Cabinet de conseil traditionnel
+headers[2]: Mentivis
+rows[0].label: Modèle de rémunération
+rows[0].cols[1]: Facturation au livrable ou à l'heure
+rows[0].cols[2]: Part variable alignée sur les KPIs de résultat
+rows[1].label: Périmètre d'intervention
+rows[1].cols[1]: Recommandations stratégiques
+rows[1].cols[2]: Stratégie + exécution opérationnelle
+rows[2].label: Responsabilité
+rows[2].cols[1]: S'arrête à la remise des livrables
+rows[2].cols[2]: Va jusqu'au déploiement effectif
+rows[3].label: Spécialisation
+rows[3].cols[1]: Généraliste (tous secteurs)
+rows[3].cols[2]: Expert formation et éducation uniquement
+rows[4].label: Alignement d'intérêts
+rows[4].cols[1]: Intérêt à facturer plus de jours
+rows[4].cols[2]: Intérêt aligné sur votre performance
 
 # about
 closingEyebrow: Ce que nous construisons.

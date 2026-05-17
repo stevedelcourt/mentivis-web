@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Icon from "./ui/Icon";
+import { SITE } from "@/lib/config";
 import { useContactUrl } from "@/lib/contact-url";
 
 export type NavMessages = {
@@ -412,11 +413,27 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               </Link>
             </nav>
 
-          {/* Right side: FR/EN + Contact button + Burger */}
+          {/* Right side: FR/EN + Phone + Contact button + Burger */}
           <div className="m-nav-item m-nav-item-delay-2" style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
             <div className="m-nav-item m-nav-item-delay-3">
               <LangToggle lang={lang} />
             </div>
+
+            {/* Phone number - desktop only */}
+            <a
+              href={`tel:${SITE.phone.replace(/\s/g, "")}`}
+              className="m-nav-phone"
+              style={{
+                fontSize: 13,
+                fontWeight: 500,
+                color: "var(--m-ink-2)",
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+                letterSpacing: "-0.005em",
+              }}
+            >
+              {SITE.phoneDisplay}
+            </a>
 
             {/* Contact button - desktop only */}
             <Link

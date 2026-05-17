@@ -143,7 +143,14 @@ export default function FaqSection({ t }: { t: FaqData }) {
                     >
                       {String(index + 1).padStart(2, "0")}
                     </span>
-                    <span>{item.question}</span>
+                    <h3 style={{
+                      margin: 0,
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      letterSpacing: "inherit",
+                      lineHeight: "inherit",
+                      color: "inherit",
+                    }}>{item.question}</h3>
                     <span
                       style={{
                         position: "relative",

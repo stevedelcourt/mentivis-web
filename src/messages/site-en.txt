@@ -26,11 +26,19 @@ subtitle: training programs that actually work
 eyebrow: About
 title[0]: A specialized operator.
 title[1]: Not a consulting firm.
+definition: Mentivis is a specialized operator that designs, structures and deploys training programs — from strategy to operational execution, with compensation aligned to measurable results.
 lead: Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.
-missionTitle: Identity & mission
+missionTitle: What is Mentivis?
 mission[0]: Specialized operator in training and skills development
 mission[1]: End-to-end intervention: strategy, design, deployment, steering
 mission[2]: Compensation aligned with results - not deliverables
+
+# home
+summary[0]: Specialized training operator — not a generalist consulting firm.
+summary[1]: End-to-end intervention: strategy, design, deployment, steering.
+summary[2]: Variable compensation aligned to your measurable results.
+summary[3]: Team of 4 partners, based in Paris, operating in France and internationally.
+
 expertiseTitle: Our expertise
 expertiseLead: Four pillars covering the full training spectrum, from strategy to operational execution.
 
@@ -75,7 +83,7 @@ title: KPI-driven steering
 body: Every mission is measured. Our compensation depends on it.
 
 # home
-costTitle: What does it cost?
+costTitle: How does our compensation model work?
 costLead: A transparent pricing approach designed to remove the client's risk and align both parties' interests.
 
 # home.cost[0]
@@ -304,6 +312,28 @@ name: Steven Delcourt
 role: Partner, Strategy
 detail: Brand and marketing
 photo: /images/team/steven-delcourt.avif
+
+# about.comparison
+eyebrow: Mentivis vs traditional consulting
+title: A structural difference
+headers[0]: 
+headers[1]: Traditional consulting firm
+headers[2]: Mentivis
+rows[0].label: Compensation model
+rows[0].cols[1]: Billed by deliverable or by the hour
+rows[0].cols[2]: Variable share tied to result KPIs
+rows[1].label: Scope of intervention
+rows[1].cols[1]: Strategic recommendations
+rows[1].cols[2]: Strategy + operational execution
+rows[2].label: Responsibility
+rows[2].cols[1]: Ends at deliverable hand-off
+rows[2].cols[2]: Goes all the way to effective deployment
+rows[3].label: Specialization
+rows[3].cols[1]: Generalist (all sectors)
+rows[3].cols[2]: Training and education expert only
+rows[4].label: Alignment of interests
+rows[4].cols[1]: Incentive to bill more days
+rows[4].cols[2]: Incentive aligned with your performance
 
 # about
 closingEyebrow: What we build.

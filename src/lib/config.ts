@@ -7,6 +7,8 @@ export const SITE = {
   mapsUrl: "https://maps.app.goo.gl/MbLN5V5JHMpLtqWz8",
   linkedin: "https://www.linkedin.com/company/mentivis/",
   instagram: "https://www.instagram.com/menti.vis/",
+  gbpUrl: "https://maps.app.goo.gl/MbLN5V5JHMpLtqWz8",
+  phoneDisplay: "01 89 48 10 02",
 } as const;
 
 export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-PM93CCQL";
