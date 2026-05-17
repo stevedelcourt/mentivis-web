@@ -172,6 +172,16 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
                     {c.formSub}
                   </p>
                   <div id="job-hubspot-form" ref={formRef} style={{ minHeight: 300 }} />
+                  <style>{`
+                    #job-hubspot-form .submitted-message,
+                    #job-hubspot-form a[href*="hs-sites"],
+                    #job-hubspot-form a[href*="hubspot"],
+                    #job-hubspot-form .hs-richtext:has(+ .hs-richtext),
+                    #job-hubspot-form .hs-form-field ~ .hs-richtext:last-of-type,
+                    #job-hubspot-form > div:last-child:not(.hs-form) {
+                      display: none !important;
+                    }
+                  `}</style>
                 </div>
                 <InfoSidebar job={job} lang={lang} />
               </div>

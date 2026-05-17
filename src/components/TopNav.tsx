@@ -245,27 +245,46 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 className="m-desktop-dropdown"
                 onMouseEnter={handleSolutionsMouseEnter}
                 onMouseLeave={handleSolutionsMouseLeave}
-                style={{ position: "relative" }}
+                style={{ position: "relative", display: "flex", alignItems: "center", gap: 0 }}
               >
-                <button
+                <Link
+                  href={`/${lang}/solutions`}
                   className="m-nav-link"
                   style={{
-                    padding: "8px 14px",
+                    padding: "8px 2px 8px 14px",
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: isActive(`/${lang}/solutions`) ? "var(--m-ink)" : "var(--m-ink-2)",
+                    letterSpacing: "-0.005em",
+                    borderRadius: "8px 0 0 8px",
+                    background: isActive(`/${lang}/solutions`) ? "rgba(0,0,0,0.05)" : "transparent",
+                    textDecoration: "none",
+                    fontFamily: "inherit",
+                  }}
+                >
+                  {t.nav.solutions}
+                </Link>
+                <button
+                  className="m-nav-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setDesktopSolutionsOpen(v => !v);
+                  }}
+                  style={{
+                    padding: "8px 14px 8px 2px",
                     fontSize: 14,
                     fontWeight: 500,
                     color: "var(--m-ink-2)",
                     letterSpacing: "-0.005em",
-                    borderRadius: 8,
+                    borderRadius: "0 8px 8px 0",
                     background: "transparent",
                     border: "none",
                     cursor: "pointer",
                     fontFamily: "inherit",
                     display: "flex",
                     alignItems: "center",
-                    gap: 4,
                   }}
                 >
-                  {t.nav.solutions}
                   <span style={{
                     display: "inline-block",
                     transition: "transform 0.2s",
@@ -289,23 +308,6 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                     border: "1px solid rgba(0,0,0,0.04)",
                     zIndex: 60,
                   }}>
-                  <span style={{
-                    fontSize: 12,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.08em",
-                    color: "var(--m-ink-3)",
-                    marginBottom: 12,
-                    display: "block",
-                    fontWeight: 600,
-                  }}>
-                {lang === "fr" ? "ingénierie" : "engineering"}
-                  </span>
-                  <Link
-                    href={`/${lang}/solutions`}
-                    className="m-dropdown-link"
-                  >
-                    {lang === "fr" ? "Solutions ingénierie" : "Engineering solutions"}
-                  </Link>
                   <a
                     href="/mentivis-solutions"
                     target="_blank"
@@ -597,45 +599,34 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             ))}
 
             {/* Solutions accordion */}
-            <button
-              onClick={() => {
-                setSolutionsOpen(v => !v);
-                setResourcesOpen(false);
-                setCorporateOpen(false);
-                setAboutOpen(false);
-              }}
-              className="m-mobile-nav-item m-mobile-nav-accordion"
-            >
-              <span>{t.nav.solutions}</span>
-              <span
+            <div className="m-mobile-nav-item m-mobile-nav-accordion" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+              <Link
+                href={`/${lang}/solutions`}
+                onClick={() => setMobileOpen(false)}
+                style={{ flex: 1, textDecoration: "none", color: "inherit", fontWeight: 500 }}
+              >
+                {t.nav.solutions}
+              </Link>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setSolutionsOpen(v => !v);
+                  setResourcesOpen(false);
+                  setCorporateOpen(false);
+                  setAboutOpen(false);
+                }}
                 style={{
-                  color: "var(--m-ink-3)",
+                  background: "none", border: "none", cursor: "pointer", padding: "8px",
+                  color: "var(--m-ink-3)", display: "flex", alignItems: "center",
                   transition: "transform 0.2s",
                   transform: solutionsOpen ? "rotate(90deg)" : "rotate(0deg)",
                 }}
               >
                 <Icon name="chevron_right" size={24} />
-              </span>
-            </button>
+              </button>
+            </div>
             <div className={`m-mobile-submenu ${solutionsOpen ? "open" : ""}`}>
-              <span style={{
-                fontSize: 12,
-                textTransform: "uppercase",
-                letterSpacing: "0.08em",
-                color: "var(--m-ink-3)",
-                margin: "12px 0 8px",
-                display: "block",
-                fontWeight: 600,
-              }}>
-                {lang === "fr" ? "ingénierie" : "engineering"}
-              </span>
-              <Link
-                href={`/${lang}/solutions`}
-                onClick={() => setMobileOpen(false)}
-                className="m-mobile-subitem"
-              >
-                {lang === "fr" ? "Solutions ingénierie" : "Engineering solutions"}
-              </Link>
               <a
                 href="/mentivis-solutions"
                 target="_blank"
@@ -704,26 +695,33 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             </div>
 
             {/* About accordion */}
-            <button
-              onClick={() => {
-                setAboutOpen(v => !v);
-                setResourcesOpen(false);
-                setSolutionsOpen(false);
-                setCorporateOpen(false);
-              }}
-              className="m-mobile-nav-item m-mobile-nav-accordion"
-            >
-              <span>{t.nav.about}</span>
-              <span
+            <div className="m-mobile-nav-item m-mobile-nav-accordion" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+              <Link
+                href={`/${lang}/about`}
+                onClick={() => setMobileOpen(false)}
+                style={{ flex: 1, textDecoration: "none", color: "inherit", fontWeight: 500 }}
+              >
+                {t.nav.about}
+              </Link>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setAboutOpen(v => !v);
+                  setResourcesOpen(false);
+                  setSolutionsOpen(false);
+                  setCorporateOpen(false);
+                }}
                 style={{
-                  color: "var(--m-ink-3)",
+                  background: "none", border: "none", cursor: "pointer", padding: "8px",
+                  color: "var(--m-ink-3)", display: "flex", alignItems: "center",
                   transition: "transform 0.2s",
                   transform: aboutOpen ? "rotate(90deg)" : "rotate(0deg)",
                 }}
               >
                 <Icon name="chevron_right" size={24} />
-              </span>
-            </button>
+              </button>
+            </div>
             <div className={`m-mobile-submenu ${aboutOpen ? "open" : ""}`}>
               {aboutLinks.map((l) => (
                 <Link
