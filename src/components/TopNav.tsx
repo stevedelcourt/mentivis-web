@@ -472,7 +472,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               </div>
             </nav>
 
-          {/* Right side: FR/EN + Contact button */}
+          {/* Right side: FR/EN + Contact button + Burger */}
           <div className="m-nav-item m-nav-item-delay-2" style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
             <div className="m-nav-item m-nav-item-delay-3">
               <LangToggle lang={lang} />
@@ -499,33 +499,30 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               {t.nav.ctaShort}
               <Icon name="chevron_right" size={16} />
             </Link>
+
+            {/* Burger button — morph SVG, invisible pill */}
+            <button
+              className={`m-nav-burger m-nav-item m-nav-item-delay-3 ${mobileOpen ? "m-burger-open" : ""}`}
+              aria-label="Menu"
+              aria-expanded={mobileOpen}
+              onClick={() => setMobileOpen((v) => !v)}
+              style={{
+                display: "none",
+                background: "none",
+                border: "none",
+                padding: 6,
+                cursor: "pointer",
+                color: "var(--m-ink)",
+              }}
+            >
+              <svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <line className="m-burger-line m-burger-line-top" x1="18" y1="34" x2="82" y2="34"/>
+                <line className="m-burger-line m-burger-line-mid" x1="18" y1="50" x2="82" y2="50"/>
+                <line className="m-burger-line m-burger-line-bot" x1="18" y1="66" x2="82" y2="66"/>
+              </svg>
+            </button>
           </div>
         </div>
-
-        {/* Burger button — outside pill, floating right */}
-        <button
-          className={`m-nav-burger ${mobileOpen ? "m-burger-open" : ""}`}
-          aria-label="Menu"
-          aria-expanded={mobileOpen}
-          onClick={() => setMobileOpen((v) => !v)}
-          style={{
-            position: "fixed",
-            top: 20,
-            right: 18,
-            zIndex: 51,
-            background: "none",
-            border: "none",
-            padding: 8,
-            cursor: "pointer",
-            color: "var(--m-ink)",
-          }}
-        >
-          <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-            <line className="m-burger-line m-burger-line-top" x1="18" y1="34" x2="82" y2="34"/>
-            <line className="m-burger-line m-burger-line-mid" x1="18" y1="50" x2="82" y2="50"/>
-            <line className="m-burger-line m-burger-line-bot" x1="18" y1="66" x2="82" y2="66"/>
-          </svg>
-        </button>
       </header>
 
 {/* Mobile Fullscreen Menu */}
