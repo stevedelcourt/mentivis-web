@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "slug": "growth-business-development-manager",
+    "titleFr": "Growth & Business Development Manager",
+    "titleEn": "B2B Marketing Growth Lead",
+    "department": "Growth",
+    "location": "Paris",
+    "type": "cdi",
+    "remote": true,
+    "date": "2026-05-17"
+  },
+  {
+    "slug": "responsable-relations-institutionnelles-developpement-territorial",
+    "titleFr": "Responsable relations institutionnelles & développement territorial",
+    "titleEn": "Institutional Relations & Territorial Development Manager",
+    "department": "Growth",
+    "location": "Paris",
+    "type": "cdi",
+    "remote": true,
+    "date": "2026-04-08"
+  }
+]
