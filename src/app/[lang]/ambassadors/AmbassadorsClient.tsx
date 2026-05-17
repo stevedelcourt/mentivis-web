@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import PageShell from "@/components/layout/PageShell";
 import Reveal from "@/components/Reveal";
 import JsonLd from "@/components/JsonLd";
@@ -23,7 +24,7 @@ export default function AmbassadorsClient() {
   const a = t.ambassadors;
 
   return (
-    <PageShell>
+    <PageShell hidePreFooterCTA>
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -37,43 +38,56 @@ export default function AmbassadorsClient() {
       {/* Hero */}
       <section className="section" style={{ paddingTop: 120, paddingBottom: 80 }}>
         <div className="container">
-          <Reveal>
-            <div className="t-eyebrow" style={{ marginBottom: 20, color: "var(--m-ink-3)" }}>
-              {a.hero.eyebrow}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60, alignItems: "center" }} className="m-split-grid">
+            <div>
+              <Reveal>
+                <div className="t-eyebrow" style={{ marginBottom: 20, color: "var(--m-ink-3)" }}>
+                  {a.hero.eyebrow}
+                </div>
+              </Reveal>
+              <Reveal delay={50}>
+                <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 60px)", marginBottom: 24 }}>
+                  {a.hero.headline}
+                </h1>
+              </Reveal>
+              <Reveal delay={100}>
+                <p className="t-lead" style={{ maxWidth: 600, marginBottom: 16 }}>
+                  {a.hero.body}
+                </p>
+              </Reveal>
+              <Reveal delay={150}>
+                <p style={{ fontSize: 15, color: "var(--m-ink-2)", lineHeight: 1.6, marginBottom: 8, maxWidth: 560 }}>
+                  {a.hero.commission}
+                </p>
+                <p style={{ fontSize: 14, fontWeight: 600, color: "var(--m-purple)", marginBottom: 36 }}>
+                  {a.hero.rate}
+                </p>
+              </Reveal>
+              <Reveal delay={200}>
+                <Link
+                  href={`/${lang}/contact?subject=Programme+Ambassadeurs`}
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: 8,
+                    padding: "14px 24px", fontSize: 14, fontWeight: 600,
+                    color: "white", background: "var(--m-purple)",
+                    borderRadius: 999, textDecoration: "none",
+                  }}
+                >
+                  {a.hero.ctaJoin}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </Link>
+              </Reveal>
             </div>
-          </Reveal>
-          <Reveal delay={50}>
-            <h1 className="t-display" style={{ fontSize: "clamp(32px, 5vw, 60px)", marginBottom: 24, maxWidth: 720 }}>
-              {a.hero.headline}
-            </h1>
-          </Reveal>
-          <Reveal delay={100}>
-            <p className="t-lead" style={{ maxWidth: 600, marginBottom: 16 }}>
-              {a.hero.body}
-            </p>
-          </Reveal>
-          <Reveal delay={150}>
-            <p style={{ fontSize: 15, color: "var(--m-ink-2)", lineHeight: 1.6, marginBottom: 8, maxWidth: 560 }}>
-              {a.hero.commission}
-            </p>
-            <p style={{ fontSize: 14, fontWeight: 600, color: "var(--m-purple)", marginBottom: 36 }}>
-              {a.hero.rate}
-            </p>
-          </Reveal>
-          <Reveal delay={200}>
-            <Link
-              href={`/${lang}/contact?subject=Programme+Ambassadeurs`}
-              style={{
-                display: "inline-flex", alignItems: "center", gap: 8,
-                padding: "14px 24px", fontSize: 14, fontWeight: 600,
-                color: "white", background: "var(--m-purple)",
-                borderRadius: 999, textDecoration: "none",
-              }}
-            >
-              {a.hero.ctaJoin}
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </Link>
-          </Reveal>
+            <Reveal delay={80}>
+              <Image
+                src="/ambassador.avif"
+                alt=""
+                width={600}
+                height={600}
+                style={{ width: "100%", height: "auto", borderRadius: 16, display: "block" }}
+              />
+            </Reveal>
+          </div>
         </div>
       </section>
 

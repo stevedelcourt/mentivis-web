@@ -145,7 +145,6 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   ];
 
   const aboutLinks = [
-    { href: `/${lang}/about`, label: t.nav.about },
     { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
     { href: `/${lang}/ambassadors`, label: t.nav.ambassadors },
   ];
