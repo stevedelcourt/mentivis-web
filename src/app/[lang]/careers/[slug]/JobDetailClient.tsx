@@ -152,18 +152,23 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
 
           {activeTab === "description" && (
             <Reveal>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 260px", gap: 48, alignItems: "start" }} className="m-split-grid m-job-detail">
-                <div className="insight-body m-job-sidebar" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)" }}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 260px", gap: 48, alignItems: "start" }} className="m-split-grid">
+                <div className="m-job-sidebar-first" style={{ marginBottom: 32 }}>
+                  <InfoSidebar job={job} lang={lang} />
+                </div>
+                <div className="insight-body" style={{ fontSize: 15, lineHeight: 1.7, color: "var(--m-ink-2)" }}
                   dangerouslySetInnerHTML={{ __html: descHtml || (isFr ? "<p>Description à venir.</p>" : "<p>Description coming soon.</p>") }}
                 />
-                <InfoSidebar job={job} lang={lang} />
               </div>
             </Reveal>
           )}
 
           {activeTab === "apply" && (
             <Reveal>
-              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid m-job-detail">
+              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: 48, alignItems: "start" }} className="m-split-grid">
+                <div className="m-job-sidebar-first" style={{ marginBottom: 32 }}>
+                  <InfoSidebar job={job} lang={lang} />
+                </div>
                 <div>
                   <h2 style={{ fontSize: 22, fontWeight: 500, marginBottom: 12, color: "var(--m-ink)" }}>
                     {c.formTitle}
@@ -172,21 +177,7 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
                     {c.formSub}
                   </p>
                   <div id="job-hubspot-form" ref={formRef} style={{ minHeight: 300 }} />
-                  <style>{`
-                    #job-hubspot-form .submitted-message,
-                    #job-hubspot-form a[href*="hs-sites"],
-                    #job-hubspot-form a[href*="hubspot"],
-                    #job-hubspot-form .hs-richtext:has(+ .hs-richtext),
-                    #job-hubspot-form .hs-form-field ~ .hs-richtext:last-of-type,
-                    #job-hubspot-form > div:last-child:not(.hs-form) {
-                      display: none !important;
-                    }
-                    @media (max-width: 1000px) {
-                      .m-job-detail > :last-child { order: -1; margin-bottom: 32px; }
-                    }
-                  `}</style>
                 </div>
-                <InfoSidebar job={job} lang={lang} />
               </div>
             </Reveal>
           )}

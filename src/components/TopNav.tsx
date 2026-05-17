@@ -509,21 +509,18 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((v) => !v)}
           style={{
-            display: "none",
             position: "fixed",
-            top: 18,
-            right: 16,
+            top: 20,
+            right: 18,
             zIndex: 51,
-            background: "rgba(255,255,255,0.92)",
-            border: "1px solid var(--m-line-2)",
-            borderRadius: 12,
-            padding: 10,
+            background: "none",
+            border: "none",
+            padding: 8,
             cursor: "pointer",
-            color: "var(--m-ink-2)",
-            backdropFilter: "blur(8px)",
+            color: "var(--m-ink)",
           }}
         >
-          <svg width="22" height="22" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
             <line className="m-burger-line m-burger-line-top" x1="18" y1="34" x2="82" y2="34"/>
             <line className="m-burger-line m-burger-line-mid" x1="18" y1="50" x2="82" y2="50"/>
             <line className="m-burger-line m-burger-line-bot" x1="18" y1="66" x2="82" y2="66"/>
