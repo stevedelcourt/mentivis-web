@@ -5,7 +5,6 @@ const PATH_TO_SUBJECT: Record<string, string> = {
   "/solutions": "Solutions",
   "/enterprise": "Enterprise",
   "/of": "OF",
-  "/mentivissolutions": "MentivisSolutions",
   "/about": "About",
   "/insights": "Insights",
   "/guides": "Guides",

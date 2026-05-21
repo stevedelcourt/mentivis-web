@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import EnterpriseClient from "./EnterpriseClient";
@@ -16,6 +17,7 @@ export async function generateMetadata({
     description: isFr
       ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
       : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+    ...localeAlternates(lang, "/enterprise"),
   };
 }
 

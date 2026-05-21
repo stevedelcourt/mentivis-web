@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import { notFound } from "next/navigation";
 import { getJobBySlug, getJobSlugs } from "@/data/careers";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
@@ -30,6 +31,7 @@ export async function generateMetadata({
   return {
     title: isFr ? job.titleFr : job.titleEn,
     description: `${job.department} - ${job.location}`,
+    ...localeAlternates(lang, `/careers/${slug}`),
   };
 }
 

@@ -73,13 +73,6 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
       description,
       images: [`${baseUrl}/opengraph-image.jpg`],
     },
-    alternates: {
-      canonical: `${baseUrl}/${lang}/`,
-      languages: {
-        "fr-FR": `${baseUrl}/fr/`,
-        "en-US": `${baseUrl}/en/`,
-      },
-    },
     robots: {
       index: true,
       follow: true,

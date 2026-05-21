@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import SkillpathClient from "./SkillpathClient";
@@ -29,6 +30,7 @@ export async function generateMetadata({
     twitter: {
       images: ["https://www.mentivis.com/opengraph-image-mentivisOS.jpg"],
     },
+    ...localeAlternates(lang, "/mentivisos"),
   };
 }
 

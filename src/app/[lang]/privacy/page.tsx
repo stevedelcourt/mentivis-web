@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import PrivacyClient from "./PrivacyClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Politique de confidentialité de Mentivis."
       : "Privacy policy of Mentivis.",
+    ...localeAlternates(lang, "/privacy"),
   };
 }
 

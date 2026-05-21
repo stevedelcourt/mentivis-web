@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import AboutClient from "./AboutClient";
@@ -16,6 +17,7 @@ export async function generateMetadata({
     description: isFr
       ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
       : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
+    ...localeAlternates(lang, "/about"),
   };
 }
 

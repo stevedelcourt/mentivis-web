@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import GuidesClient from "./GuidesClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Six guides pratiques pour maîtriser les mécanismes de financement, la conformité et la structuration de vos dispositifs de formation."
       : "Six practical guides to master funding mechanisms, compliance, and the structuring of your training programs.",
+    ...localeAlternates(lang, "/guides"),
   };
 }
 

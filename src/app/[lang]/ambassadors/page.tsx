@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import AmbassadorsClient from "./AmbassadorsClient";
@@ -16,6 +17,7 @@ export async function generateMetadata({
     description: isFr
       ? "Recommandez Mentivis et développez votre activité. Un programme pour les professionnels de la formation, du recrutement et du conseil."
       : "Recommend Mentivis and grow your business. A program for training, recruitment and consulting professionals.",
+    ...localeAlternates(lang, "/ambassadors"),
   };
 }
 

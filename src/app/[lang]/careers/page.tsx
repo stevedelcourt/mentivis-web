@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import CareersClient from "./CareersClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Vous partagez notre conviction que la formation est un levier stratégique ? Envoyez-nous votre candidature. Nous recrutons des profils passionnés, curieux et animés par l'impact."
       : "You share our belief that training is a strategic lever? Send us your application. We recruit passionate, curious profiles driven by impact.",
+    ...localeAlternates(lang, "/careers"),
   };
 }
 

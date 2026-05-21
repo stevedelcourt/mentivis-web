@@ -20,6 +20,11 @@ DirectoryIndex index.html
   RewriteEngine On
   RewriteBase /
 
+  # Canonical redirects: HTTP→HTTPS + non-WWW→WWW
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^(.*)$ https://www.mentivis.com/$1 [R=301,L]
+
   # Root serves fr/index.html directly (no redirect needed)
   # RewriteRule ^$ /fr/ [R=301,L] — REMOVED, index.html is served by DirectoryIndex
 

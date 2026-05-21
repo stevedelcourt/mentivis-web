@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import TermsClient from "./TermsClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Conditions générales d'utilisation du site Mentivis."
       : "Terms of use of the Mentivis website.",
+    ...localeAlternates(lang, "/terms"),
   };
 }
 

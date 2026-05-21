@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import { Suspense } from "react";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import ContactClient from "./ContactClient";
@@ -15,6 +16,7 @@ export async function generateMetadata({
     description: isFr
       ? "Une page sans friction. Pas de long formulaire, pas de promesse marketing - juste une invitation à la conversation."
       : "A page without friction. No long form, no marketing promise - just an invitation to a conversation.",
+    ...localeAlternates(lang, "/contact"),
   };
 }
 

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import VideosClient from "./VideosClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Découvrez nos vidéos sur la formation, l'ingénierie pédagogique et les solutions digitales."
       : "Discover our videos on training, instructional design and digital solutions.",
+    ...localeAlternates(lang, "/videos"),
   };
 }
 

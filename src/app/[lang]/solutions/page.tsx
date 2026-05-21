@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import SolutionsClient from "./SolutionsClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Au-delà de l'accompagnement humain, Mentivis développe des solutions technologiques sur mesure pour outiller durablement vos pratiques formation."
       : "Beyond human support, Mentivis develops custom technology solutions to durably equip your training practices.",
+    ...localeAlternates(lang, "/solutions"),
   };
 }
 

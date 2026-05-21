@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import MeetingClient from "./MeetingClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Premier rendez-vous gratuit et sans engagement."
       : "First meeting free and without commitment.",
+    ...localeAlternates(lang, "/meeting"),
   };
 }
 

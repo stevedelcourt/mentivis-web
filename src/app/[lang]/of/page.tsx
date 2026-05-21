@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import OfClient from "./OfClient";
@@ -16,6 +17,7 @@ export async function generateMetadata({
     description: isFr
       ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
       : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
+    ...localeAlternates(lang, "/of"),
   };
 }
 

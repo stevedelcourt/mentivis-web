@@ -9,11 +9,11 @@ Training consulting and digital solutions for enterprises and training organizat
 
 - /fr/ — Accueil Mentivis
 - /fr/about — À propos de Mentivis
+- /fr/ambassadors — Programme Ambassadeurs Mentivis
 - /fr/enterprise — Conseil en formation pour entreprises
 - /fr/of — Conseil pour organismes de formation
 - /fr/solutions — Solutions digitales (conception d'outils sur mesure, développement spécifique, IA)
-- /fr/skillpath — MentivisOS, le LearningOS natif IA
-- /fr/mentivissolutions — Mentivis Solutions (iframe externe)
+- /fr/mentivisos — MentivisOS, le LearningOS natif IA
 - /fr/contact — Contact et demande de diagnostic
 - /fr/insights — Publications et perspectives
 - /fr/guides — Guides pratiques BPF, CPF, POEI
@@ -26,11 +26,11 @@ Training consulting and digital solutions for enterprises and training organizat
 
 - /en/ — Mentivis Home
 - /en/about — About Mentivis
+- /en/ambassadors — Mentivis Ambassador Program
 - /en/enterprise — Enterprise training consulting
 - /en/of — Training organization consulting
 - /en/solutions — Digital solutions (custom tool design, specific development, AI)
-- /en/skillpath — MentivisOS, the AI-native LearningOS
-- /en/mentivissolutions — Mentivis Solutions (external iframe)
+- /en/mentivisos — MentivisOS, the AI-native LearningOS
 - /en/contact — Contact and diagnostic request
 - /en/insights — Insights and perspectives
 - /en/guides — Reference guides BPF, CPF, POEI

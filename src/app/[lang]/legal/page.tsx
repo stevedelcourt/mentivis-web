@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import LegalClient from "./LegalClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Mentions légales du site Mentivis."
       : "Legal notice of the Mentivis website.",
+    ...localeAlternates(lang, "/legal"),
   };
 }
 

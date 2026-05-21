@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import {
   INSIGHTS,
   getInsightBySlug,
@@ -42,6 +43,7 @@ export async function generateMetadata({
       type: "article",
       locale: lang === "fr" ? "fr_FR" : "en_US",
     },
+    ...localeAlternates(lang, `/insights/${slug}`),
   };
 }
 

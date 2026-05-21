@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import CgvClient from "./CgvClient";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
     description: isFr
       ? "Conditions générales de vente de Mentivis."
       : "Terms of sale of Mentivis.",
+    ...localeAlternates(lang, "/cgv"),
   };
 }
 
