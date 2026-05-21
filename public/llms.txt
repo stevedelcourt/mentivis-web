@@ -53,6 +53,11 @@ Training consulting and digital solutions for enterprises and training organizat
 
 ## Insights récents / Recent Insights
 
+- Comment les entreprises étrangères peuvent utiliser le système de formation français pour délivrer des diplômes et ouvrir une école en France (2026-05-21) — https://www.mentivis.com/fr/insights/french-training-system-foreign-companies-rncp-qualiopi
+  Guide complet pour les organisations internationales souhaitant entrer sur le marché de la formation professionnelle française, délivrer des certifications RNCP reconnues par l'État, obtenir la certification Qualiopi ou créer un établissement accrédité en France.
+- The French Training System Is Open to Foreign Companies. Here Is How to Enter It Correctly. (2026-05-21) — https://www.mentivis.com/en/insights/french-training-system-foreign-companies-rncp-qualiopi
+  Every year, thousands of organizations look toward France to expand their educational offer, gain state recognition, and access public training funding. Few succeed on their first attempt. This guide explains the regulatory sequence, the four entry pathways, and how Mentivis manages the entire process from strategy to operational delivery.
+
 - Mentivis dévoile MentivisOS, l'OS de la formation native IA (2026-05-05) — https://www.mentivis.com/fr/insights/mentivis-devoile-mentivos-os-formation-native-ia
   Mentivis dévoile une plateforme native IA qui calcule en temps réel le parcours optimal de chaque apprenant à partir de son profil et de son objectif. Une rupture revendiquée avec le LMS classique.
 - Mentivis Unveils MentivisOS, the AI-Native Learning OS (2026-05-05) — https://www.mentivis.com/en/insights/mentivis-devoile-mentivos-os-formation-native-ia
@@ -97,11 +102,6 @@ Training consulting and digital solutions for enterprises and training organizat
   L'Education-as-a-Service (EaaS), un modèle de formation continue pour lutter contre l'obsolescence des compétences techniques.
 - Education-as-a-Service: Reinventing Professional Training in the Age of Accelerated Obsolescence (2026-01-19) — https://www.mentivis.com/en/insights/leducation-as-a-service-eaas-pour-une-transformation-durable
   Education-as-a-Service (EaaS), a continuing education model to combat the obsolescence of technical skills.
-
-- La France forme-t-elle assez d’ingénieurs pour sa défense ? (2026-01-14) — https://www.mentivis.com/fr/insights/rearmement-france-penurie-competences-industrielles-defense
-  Réarmement, pénurie d'ingénieurs, apprentissage en déclin : pourquoi la défense française manque de compétences ?
-- Is France Training Enough Engineers for Its Defense? (2026-01-14) — https://www.mentivis.com/en/insights/rearmement-france-penurie-competences-industrielles-defense
-  Rearmament, engineer shortage, declining apprenticeships: why is French defense short of skills?
 
 ## Contact
 

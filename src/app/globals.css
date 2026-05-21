@@ -952,6 +952,27 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--m-ink);
   font-weight: 600;
 }
+.insight-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 15px;
+}
+.insight-body th,
+.insight-body td {
+  border: 1px solid var(--m-line-2);
+  padding: 10px 14px;
+  text-align: left;
+}
+.insight-body th {
+  background: var(--m-bg-soft);
+  font-weight: 600;
+  color: var(--m-ink);
+  font-size: 14px;
+}
+.insight-body tr:nth-child(even) td {
+  background: rgba(0,0,0,0.015);
+}
 
 .insight-card:hover .insight-read-btn {
   color: var(--m-purple) !important;
