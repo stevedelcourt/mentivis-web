@@ -246,7 +246,7 @@ export default function InsightDetailClient({
               transition: "opacity 0.25s ease",
             }}
           >
-            {lang === "fr" ? "Contact et demande de démo" : "Contact and demo request"}
+            {lang === "fr" ? "Contact" : "Contact"}
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
