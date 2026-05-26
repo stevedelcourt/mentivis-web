@@ -3,7 +3,7 @@
 // For listings and cards, use @/data/insights-meta (much lighter, no body content).
 
 import type { InsightArticleMeta, InsightCategory } from "./insights-meta";
-import article1 from "../content/insights/MentivisOS fait ses débuts à SXSW Edu 2026.json";
+import article1 from "../content/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026.json";
 import article2 from "../content/insights/conseil-boutique-vs-big-four.json";
 import article3 from "../content/insights/crise-competences-metallurgie-france-solutions.json";
 import article4 from "../content/insights/crise-enseignement-superieur-entreprises-formation.json";
