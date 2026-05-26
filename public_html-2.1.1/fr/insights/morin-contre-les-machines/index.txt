@@ -1,0 +1,270 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","fr","insights","morin-contre-les-machines",""],"q":"","i":false,"f":[[["",{"children":[["lang","fr","d",null],{"children":["insights",{"children":[["slug","morin-contre-les-machines","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"lkLQ2MhCtBK08O40iEZyh"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+14:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"fr"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+15:T428d,##### « Il faut imaginer Sisyphe heureux », écrivait Camus. Il faut imaginer le professeur heureux, pourrions-nous ajouter, ce qui relève aujourd’hui de la pure fiction.
+
+## Le grand mensonge éducatif
+
+Nous vivons une époque fascinante. Une époque où l’on prétend former les citoyens de demain dans des établissements conçus comme des casernes du XIXe siècle, où l’on enseigne l’esprit critique en interdisant toute remise en cause du système, où l’on proclame l’égalité des chances tout en reproduisant méticuleusement les hiérarchies sociales. L’hypocrisie a atteint un tel degré de raffinement qu’elle en devient presque artistique.
+
+Edgar Morin, ce vieux sage de 102 ans qui a eu l’indécence de survivre à tous ses contemporaires, nous propose depuis des décennies une grille de lecture dérangeante de cette comédie éducative. Sa « pensée complexe » – expression qui fait immédiatement fuir les gestionnaires de l’Éducation nationale, allergiques à tout ce qui ne se résume pas en trois bullet points PowerPoint – révèle l’ampleur du désastre.
+
+Car c’est bien d’un désastre qu’il s’agit. Nous avons réussi ce tour de force : créer un système éducatif qui décourage l’apprentissage, une institution de savoir qui cultive l’ignorance, une école républicaine qui fabrique de l’inégalité avec la régularité d’une chaîne de montage. Chapeau.
+
+## L’usine à conformes
+
+Observons froidement cette machine éducative. Dès 8h30, des millions d’enfants sont parqués dans des salles de classe, répartis par tranches d’âge comme des yaourts dans un supermarché. Pendant six heures, ils vont ingurgiter des « savoirs » découpés en tranches de 55 minutes, passant du théorème de Pythagore à la guerre de Cent Ans, des transformations chimiques à l’analyse grammaticale, dans une succession hallucinante de micro-séquences sans aucun rapport les unes avec les autres.
+
+Cette fragmentation du savoir n’est pas accidentelle. Elle est programmée. Elle produit des esprits fragmentés, incapables de saisir la complexité du réel, parfaitement adaptés à un monde du travail lui-même fragmenté où chacun devra exécuter sa petite tâche sans jamais comprendre l’ensemble. Le fordisme intellectuel, en quelque sorte.
+
+Morin appelle cela la « pathologie du savoir ». Moi, j’appelle cela de l’intelligence en kit Ikea : des éléments préfabriqués qu’on assemble selon un mode d’emploi, sans jamais comprendre la logique d’ensemble, et qui finissent invariablement par s’effondrer au premier coup de vent.
+
+## Les sept péchés capitaux de l’école moderne
+
+Quand Morin énumère ses « sept savoirs nécessaires à l’éducation du futur », il dresse en creux un réquisitoire implacable contre l’école actuelle. Chacun de ces savoirs révèle par contraste une défaillance majeure de notre système.
+
+**Premier savoir : reconnaître ses erreurs et illusions.** L’école enseigne exactement l’inverse : elle cultive l’illusion de l’objectivité, la prétention à la vérité absolue. Les manuels scolaires sont rédigés dans cette prose administrative qui présente comme des faits établis les interprétations les plus discutables. L’Histoire devient une succession de dates et de « grands hommes », la littérature un catalogue de « beautés » qu’il faut admirer sans discussion, les sciences une collection de lois éternelles. Résultat : des générations d’étudiants incapables de douter, proies idéales pour tous les marchands d’illusions.
+
+**Deuxième savoir : développer une connaissance pertinente.** Pertinente, vraiment ? Quand on enseigne la photosynthèse sans jamais évoquer le réchauffement climatique, la Révolution française sans expliquer les inégalités contemporaines, l’économie sans mentionner les paradis fiscaux ? Cette école enseigne tout et n’importe quoi, sauf l’essentiel : comprendre le monde dans lequel nous vivons.
+
+**Troisième savoir : enseigner la condition humaine.** Là, c’est le chef-d’œuvre. On découpe l’être humain en rondelles : la biologie d’un côté, la psychologie de l’autre, la sociologie ailleurs, l’histoire dans un autre tiroir. Comme si l’homme n’était pas précisément cette créature complexe où tout s’entremêle, où le biologique influence le social, où l’individuel détermine le collectif et réciproquement. Résultat : des individus qui se comprennent eux-mêmes comme des machines décomposables, parfaits consommateurs de psychothérapies et de développement personnel.
+
+## La fabrique des robots, une stratégie parfaite pour l’obsolescence
+
+Le plus pervers dans cette machine éducative, c’est qu’elle fonctionne sur le mensonge de l’épanouissement personnel. « Révélez vos talents », « Exprimez votre créativité », « Construisez votre projet professionnel » : la novlangue pédagogique rivalise avec celle du marketing pour vider les mots de leur sens.
+
+Car enfin, de quelle créativité parle-t-on quand chaque geste est réglementé, quand les programmes sont fixés au millimètre, quand l’évaluation standardisée mesure la conformité des réponses ? De quel épanouissement quand l’école sélectionne dès le plus jeune âge, trie, oriente, exclut avec la froideur d’un algorithme ?
+
+L’école prétend former des citoyens. Elle fabrique des consommateurs. Elle prétend développer l’esprit critique. Elle produit de la docilité. Elle proclame l’égalité des chances. Elle perpétue les privilèges avec une efficacité que n’égalent pas les systèmes de castes les plus rigides.
+
+Mais le plus ironique, c’est que cette école-usine à robots humains se révèle être une préparation parfaite… à l’inutilité. Car ces robots de chair que nous formatons si minutieusement, ces exécutants dociles programmés pour appliquer des procédures, suivre des consignes et reproduire des modèles, l’intelligence artificielle les remplace déjà à une vitesse sidérante.
+
+ChatGPT rédige mieux que nos bacheliers. Les algorithmes calculent plus vite que nos ingénieurs. Les IA analysent les données avec plus de rigueur que nos analystes. Et bientôt, elles diagnostiqueront mieux que nos médecins, plaideront mieux que nos avocats, enseigneront mieux que nos professeurs.
+
+Nous avons passé un siècle à transformer les humains en machines. Les machines nous rendent la pareille en nous montrant à quel point nous sommes devenus… remplaçables. L’école a tellement bien réussi son travail de standardisation qu’elle a rendu ses propres produits obsolètes. Chapeau, vraiment.
+
+Et le plus beau, c’est que tout le monde le sait. Les enseignants le savent, qui voient défiler dans leurs classes des cohortes d’élèves démotivés, déconnectés, résignés. Les parents le savent, qui cherchent désespérément l’école privée ou la filière d’excellence qui permettra à leur progéniture d’échapper au massacre. Les politiques le savent, qui multiplient les réformes cosmétiques pour masquer leur impuissance.
+
+## L’antidote à l’obsolescence programmée
+
+Face à ce constat, Morin propose une révolution copernicienne : passer de l’enseignement de la complication à l’éducation à la complexité. Remplacer la transmission de savoirs morts par la formation à la pensée vivante. Substituer à la logique de la performance celle de la pertinence.
+
+Et soudain, cette proposition prend une dimension dramatique. Car ce que Morin décrit, c’est précisément ce que l’intelligence artificielle ne peut pas faire : penser la complexité, naviguer dans l’ambiguïté, créer du sens à partir du chaos, faire preuve d’empathie, d’intuition, d’imagination.
+
+L’IA excelle dans la logique binaire, la résolution de problèmes définis, l’optimisation de processus connus. Mais face à l’imprévu, l’inédit, l’irrationnel ? Face aux dilemmes éthiques, aux paradoxes existentiels, aux créations artistiques ? Face à cette capacité spécifiquement humaine de relier ce qui semble impossible à relier ?
+
+Morin nous offre involontairement la stratégie de survie de l’espèce : former des humains qui restent irremplaçables parce qu’ils pensent comme des humains, pas comme des machines perfectionnées.
+
+Concrètement ? Enseigner l’histoire en montrant comment le passé éclaire le présent – et comment chaque interprétation révèle autant sur l’interprète que sur les faits. Faire de la géographie en révélant les interdépendances planétaires – et les choix politiques qu’elles impliquent. Pratiquer les sciences en questionnant leurs implications éthiques et sociales – et leur inscription dans des rapports de pouvoir. Apprendre les langues pour découvrir d’autres façons de penser le monde – et relativiser la nôtre.
+
+Bref, redonner du sens aux apprentissages en les reliant à la vie, aux enjeux contemporains, à l’expérience des élèves. Développer cette intelligence spécifiquement humaine : l’intelligence du lien, du contexte, du sens.
+
+Une révolution ? Non, une question de survie. Car dans un monde où les machines pensent de mieux en mieux, ceux qui pensent comme des machines deviennent superflus. Seuls survivront ceux qui auront appris à penser… en humains.
+
+## Les gardiens du temple
+
+Naturellement, cette perspective dérange. Elle dérange les bureaucrates de l’Éducation nationale, qui ont bâti leur carrière sur la gestion de la complication et n’ont aucune envie de se reconvertir dans la pensée. Elle dérange les éditeurs de manuels scolaires, qui vivent grassement de la fragmentation du savoir. Elle dérange les parents bourgeois, qui ont compris depuis longtemps que l’école était un jeu dont il fallait maîtriser les codes plutôt qu’un lieu d’apprentissage.
+
+Elle dérange surtout une société qui a besoin de citoyens prévisibles, dociles, facilement manipulables. Car des esprits formés à la complexité, capables de relier les phénomènes, de penser par eux-mêmes, de résister aux simplifications, constituent un danger mortel pour tous les pouvoirs établis.
+
+D’où cette résistance sourde, cette inertie massive qui accueille toute tentative de réforme véritable. On changera les programmes, on réorganisera les filières, on modifiera les modalités d’évaluation, on multipliera les dispositifs d’accompagnement. Mais on ne touchera jamais à l’essentiel : cette conception de l’éducation comme dressage, cette vision de l’élève comme réceptacle passif, cette organisation taylorienne du savoir.
+
+## L’urgence absolue
+
+Pourtant, l’urgence est là. Et elle ne vient plus seulement du changement climatique, de l’explosion des inégalités ou de la montée des autoritarismes. Elle vient de cette révélation brutale : l’intelligence artificielle nous montre en temps réel à quel point notre système éducatif a échoué.
+
+Car que fait exactement un étudiant moyen sortant de nos universités ? Il compile des informations, les organise selon des schémas prédéfinis, applique des méthodes standardisées, produit des analyses formatées. Exactement ce que fait ChatGPT, en mieux et plus vite.
+
+Nos diplômés en management suivent des protocoles de décision ? L’IA les applique sans fatigue ni états d’âme. Nos ingénieurs résolvent des équations complexes ? Les algorithmes les calculent sans erreur. Nos journalistes rédigent des articles selon des formats convenus ? L’IA les génère en quelques secondes.
+
+L’école continue de formater des individus pour un monde qui n’existe plus : le monde industriel du XXe siècle, avec ses certitudes, ses hiérarchies stables, ses carrières linéaires. Elle prépare nos enfants à des emplois qui disparaîtront, avec des compétences qui s’obsolètent, dans un esprit de compétition qui devient contre-productif face aux machines.
+
+Cette inadéquation n’est pas un accident. Elle révèle la fonction réelle de l’école dans nos sociétés : non pas préparer l’avenir, mais perpétuer le présent. Non pas émanciper les consciences, mais les formater. Non pas développer l’intelligence collective, mais maintenir les privilèges individuels.
+
+Sauf que maintenant, les machines formatent mieux que nous. Elles perpétuent le présent avec plus d’efficacité. Elles maintiennent les privilèges avec plus de discrétion. Nous voilà battus sur notre propre terrain : celui de la standardisation.
+
+## L’histoire n’est pas écrite
+
+Heureusement, Morin nous rappelle une vérité essentielle : l’histoire n’est pas écrite. L’école d’aujourd’hui n’est pas une fatalité, mais un choix. Et comme tout choix humain, il peut être remis en question, contesté, transformé.
+
+Partout dans le monde émergent des expériences éducatives alternatives : écoles démocratiques, pédagogies coopératives, enseignement par projets, classes inversées. Ces innovations restent marginales, mais elles prouvent qu’autre chose est possible.
+
+Elles prouvent surtout que les enfants, quand on leur en donne l’occasion, se révèlent infiniment plus intelligents, créatifs et responsables que ne le supposent nos institutions. Ils sont capables d’apprendre par eux-mêmes, de coopérer spontanément, de s’enthousiasmer pour la connaissance quand elle fait sens.
+
+Le problème n’est pas l’élève. Le problème n’est même pas l’enseignant, souvent aussi prisonnier du système que ses élèves. Le problème est le système lui-même : cette machinerie bureaucratique qui broie les bonnes volontés, décourage les initiatives, punit l’innovation.
+
+## Une autre éducation ou l’obsolescence
+
+Dans quelques décennies, nos descendants porteront sur notre époque le même regard que nous portons sur les siècles d’obscurantisme. Ils s’étonneront qu’une civilisation capable d’envoyer des sondes sur Mars ait pu tolérer un système éducatif aussi archaïque, aussi inefficace, aussi destructeur.
+
+Ils s’étonneront surtout que nous ayons eu entre les mains tous les outils intellectuels nécessaires à cette transformation – la pensée complexe de Morin n’en étant qu’un exemple parmi d’autres – et que nous ayons préféré maintenir le statu quo par pure paresse intellectuelle.
+
+Mais peut-être s’étonneront-ils davantage encore de ceci : nous avons créé des machines si intelligentes qu’elles nous ont révélé notre propre bêtise. L’intelligence artificielle a été notre miroir impitoyable, nous montrant ce que nous étions devenus : des exécutants prévisibles, des reproducteurs de schémas, des machines biologiques moins performantes que leurs équivalents électroniques.
+
+Car c’est bien de cela qu’il s’agit : de paresse. La paresse de penser autrement, la paresse de remettre en cause nos habitudes, la paresse de faire confiance à l’intelligence collective plutôt qu’aux recettes toutes faites. La paresse de rester humains.
+
+Edgar Morin nous tend une perche : la possibilité de former des esprits libres, critiques, créatifs, coopératifs. Des citoyens du monde capables d’affronter l’incertitude sans sombrer dans le fanatisme, de naviguer dans la complexité sans se réfugier dans la simplification. Des humains irremplaçables parce qu’authentiquement humains.
+
+Cette perche, nous pouvons la saisir. Ou continuer à nous noyer dans notre médiocrité éducative en nous persuadant que nous préparons l’avenir, pendant que les machines préparent déjà le nôtre.
+
+Le choix nous appartient. Pour l’instant. Car même ce privilège-là, celui de choisir notre destin, nous risquons de le déléguer bientôt à des algorithmes plus efficaces que nous.
+
+##### _Edgar Morin a 102 ans. Il nous survivra probablement tous. Ce qui, quand on y pense, est assez rassurant : au moins quelqu’un sera là pour témoigner de notre aveuglement. À condition qu’il ne soit pas remplacé par une IA plus performante dans l’art de la lucidité désabusée._
+
+## Comment Mentivis peut vous guider dans cette nouvelle ère IA
+
+Naviguer dans la révolution de l’IA appliquée à la formation n’est pas qu’une question de technologie. C’est un enjeu stratégique : identifier les compétences à prioriser, bâtir des parcours adaptés et maximiser les financements disponibles.
+
+**Notre approche :**
+
+-   **Diagnostic stratégique** : cartographie des impacts IA sur vos métiers et formations.
+-   **Feuille de route opérationnelle** : priorisation des compétences critiques et des investissements.
+-   **Accélération** : conception de dispositifs IA-ready, intégrant CPF et financements publics.
+
+**Faites le premier pas vers une formation plus agile et compétitive.**
+
+[Contactez Mentivis dès aujourd’hui pour un diagnostic personnalisé et des solutions concrètes adaptées à vos enjeux.](https://mentivis.com/contact-general/)16:T3980,##### "One must imagine Sisyphus happy," wrote Camus. One must imagine the teacher happy, we might add, which today belongs to pure fiction.
+
+## The Great Educational Lie
+
+We live in a fascinating era. An era where we claim to form the citizens of tomorrow in establishments designed as 19th-century barracks, where we teach critical thinking by prohibiting any questioning of the system, where we proclaim equality of opportunity while meticulously reproducing social hierarchies. Hypocrisy has reached such a degree of refinement that it becomes almost artistic.
+
+Edgar Morin, this old sage of 102 years who had the indecency to outlive all his contemporaries, has been offering us for decades a disturbing reading grid of this educational comedy. His "complex thought" — an expression that immediately makes Education national managers flee, allergic to anything that cannot be summed up in three PowerPoint bullet points — reveals the extent of the disaster.
+
+For it is indeed a disaster. We have accomplished this feat: creating an education system that discourages learning, an institution of knowledge that cultivates ignorance, a republican school that manufactures inequality with the regularity of an assembly line. Hats off.
+
+## The Factory of Conformists
+
+Let us observe this educational machine coldly. From 8:30 a.m., millions of children are corralled into classrooms, distributed by age brackets like yogurts in a supermarket. For six hours, they will ingest "knowledge" cut into 55-minute slices, moving from the Pythagorean theorem to the Hundred Years' War, from chemical transformations to grammatical analysis, in a hallucinating succession of micro-sequences with no relation to one another.
+
+This fragmentation of knowledge is not accidental. It is programmed. It produces fragmented minds, incapable of grasping the complexity of reality, perfectly adapted to a working world itself fragmented where each person must execute their small task without ever understanding the whole. Intellectual Fordism, in a way.
+
+Morin calls this the "pathology of knowledge." I call it Ikea-kit intelligence: prefabricated elements assembled according to an instruction manual, without ever understanding the overall logic, and which invariably end up collapsing at the first gust of wind.
+
+## The Seven Deadly Sins of the Modern School
+
+When Morin enumerates his "seven knowledges necessary for the education of the future," he implicitly draws up an implacable indictment of today's school. Each of these knowledges reveals by contrast a major failing of our system.
+
+**First knowledge: recognizing one's errors and illusions.** School teaches exactly the opposite: it cultivates the illusion of objectivity, the pretension to absolute truth. School textbooks are written in that administrative prose that presents the most debatable interpretations as established facts. History becomes a succession of dates and "great men," literature a catalogue of "beauties" to be admired without discussion, science a collection of eternal laws. Result: generations of students incapable of doubting, ideal prey for all purveyors of illusions.
+
+**Second knowledge: developing relevant knowledge.** Relevant, really? When we teach photosynthesis without ever mentioning global warming, the French Revolution without explaining contemporary inequalities, economics without mentioning tax havens? This school teaches everything and anything, except the essential: understanding the world in which we live.
+
+**Third knowledge: teaching the human condition.** There, it is the masterpiece. We slice the human being into rounds: biology on one side, psychology on the other, sociology elsewhere, history in another drawer. As if man were not precisely this complex creature where everything intertwines, where the biological influences the social, where the individual determines the collective and vice versa. Result: individuals who understand themselves as decomposable machines, perfect consumers of psychotherapy and personal development.
+
+## The Robot Factory: A Perfect Strategy for Obsolescence
+
+The most perverse thing about this educational machine is that it operates on the lie of personal fulfillment. "Reveal your talents," "Express your creativity," "Build your professional project": pedagogical newspeak rivals that of marketing in emptying words of their meaning.
+
+For after all, what creativity are we talking about when every gesture is regulated, when programs are fixed to the millimeter, when standardized evaluation measures the conformity of answers? What fulfillment when school selects from the youngest age, sorts, guides, excludes with the coldness of an algorithm?
+
+School claims to form citizens. It manufactures consumers. It claims to develop critical thinking. It produces docility. It proclaims equality of opportunity. It perpetuates privileges with an efficiency unmatched by the most rigid caste systems.
+
+But the most ironic thing is that this school-factory of human robots turns out to be perfect preparation... for uselessness. For these flesh robots that we so meticulously format, these docile executors programmed to apply procedures, follow instructions and reproduce models, artificial intelligence is already replacing them at a staggering speed.
+
+ChatGPT writes better than our high school graduates. Algorithms calculate faster than our engineers. AIs analyze data with more rigor than our analysts. And soon, they will diagnose better than our doctors, plead better than our lawyers, teach better than our teachers.
+
+We spent a century transforming humans into machines. Machines are returning the favor by showing us how much we have become... replaceable. School succeeded so well in its standardization work that it rendered its own products obsolete. Hats off, really.
+
+And the best part is that everyone knows it. Teachers know it, who see cohorts of demotivated, disconnected, resigned students file through their classrooms. Parents know it, who desperately seek the private school or the excellence stream that will allow their offspring to escape the massacre. Politicians know it, who multiply cosmetic reforms to mask their impotence.
+
+## The Antidote to Programmed Obsolescence
+
+Faced with this observation, Morin proposes a Copernican revolution: moving from teaching complication to educating for complexity. Replacing the transmission of dead knowledge with training in living thought. Substituting the logic of performance with that of relevance.
+
+And suddenly, this proposal takes on a dramatic dimension. For what Morin describes is precisely what artificial intelligence cannot do: think complexity, navigate ambiguity, create meaning from chaos, demonstrate empathy, intuition, imagination.
+
+AI excels in binary logic, resolution of defined problems, optimization of known processes. But faced with the unexpected, the unprecedented, the irrational? Faced with ethical dilemmas, existential paradoxes, artistic creations? Faced with this specifically human capacity to link what seems impossible to link?
+
+Morin involuntarily offers us the survival strategy of the species: form humans who remain irreplaceable because they think like humans, not like perfected machines.
+
+Concretely? Teach history by showing how the past illuminates the present — and how each interpretation reveals as much about the interpreter as about the facts. Do geography by revealing planetary interdependencies — and the political choices they imply. Practice science by questioning their ethical and social implications — and their inscription in power relations. Learn languages to discover other ways of thinking the world — and relativize our own.
+
+In short, give meaning back to learning by linking them to life, to contemporary issues, to students' experience. Develop this specifically human intelligence: the intelligence of connection, of context, of meaning.
+
+A revolution? No, a matter of survival. For in a world where machines think increasingly well, those who think like machines become superfluous. Only those who will have learned to think... as humans will survive.
+
+## The Guardians of the Temple
+
+Naturally, this perspective disturbs. It disturbs the bureaucrats of the Education nationale, who have built their careers on managing complication and have no desire to reconvert into thought. It disturbs school textbook publishers, who live comfortably off the fragmentation of knowledge. It disturbs bourgeois parents, who have long understood that school was a game whose codes had to be mastered rather than a place of learning.
+
+It disturbs above all a society that needs predictable, docile, easily manipulable citizens. For minds trained in complexity, capable of linking phenomena, thinking for themselves, resisting simplifications, constitute a deadly danger for all established powers.
+
+Hence this muted resistance, this massive inertia that greets any attempt at genuine reform. We will change programs, reorganize streams, modify evaluation modalities, multiply support devices. But we will never touch the essential: this conception of education as training, this vision of the student as passive receptacle, this Taylorist organization of knowledge.
+
+## The Absolute Urgency
+
+Yet the urgency is here. And it no longer comes only from climate change, the explosion of inequalities or the rise of authoritarianisms. It comes from this brutal revelation: artificial intelligence shows us in real time how much our education system has failed.
+
+For what does an average student leaving our universities do exactly? They compile information, organize it according to predefined schemes, apply standardized methods, produce formatted analyses. Exactly what ChatGPT does, better and faster.
+
+Our management graduates follow decision protocols? AI applies them without fatigue or qualms. Our engineers solve complex equations? Algorithms calculate them without error. Our journalists write articles according to agreed formats? AI generates them in a few seconds.
+
+School continues to format individuals for a world that no longer exists: the industrial world of the 20th century, with its certainties, its stable hierarchies, its linear careers. It prepares our children for jobs that will disappear, with skills that become obsolete, in a competitive spirit that becomes counterproductive in the face of machines.
+
+This inadequacy is not an accident. It reveals the real function of school in our societies: not to prepare the future, but to perpetuate the present. Not to emancipate consciousnesses, but to format them. Not to develop collective intelligence, but to maintain individual privileges.
+
+Except that now, machines format better than we do. They perpetuate the present with more efficiency. They maintain privileges with more discretion. Here we are beaten on our own terrain: that of standardization.
+
+## History Is Not Written
+
+Fortunately, Morin reminds us of an essential truth: history is not written. Today's school is not a fatality, but a choice. And like every human choice, it can be questioned, contested, transformed.
+
+All over the world, alternative educational experiences are emerging: democratic schools, cooperative pedagogies, project-based teaching, flipped classrooms. These innovations remain marginal, but they prove that something else is possible.
+
+They prove above all that children, when given the opportunity, reveal themselves infinitely more intelligent, creative and responsible than our institutions suppose. They are capable of learning by themselves, cooperating spontaneously, getting enthusiastic about knowledge when it makes sense.
+
+The problem is not the pupil. The problem is not even the teacher, often as much a prisoner of the system as his pupils. The problem is the system itself: this bureaucratic machinery that crushes good wills, discourages initiatives, punishes innovation.
+
+## Another Education or Obsolescence
+
+In a few decades, our descendants will look upon our era with the same gaze we cast upon centuries of obscurantism. They will be amazed that a civilization capable of sending probes to Mars could have tolerated such an archaic, ineffective, destructive education system.
+
+They will be amazed above all that we had in our hands all the intellectual tools necessary for this transformation — Morin's complex thought being only one example among others — and that we preferred to maintain the status quo out of pure intellectual laziness.
+
+But perhaps they will be amazed even more by this: we created machines so intelligent that they revealed our own stupidity. Artificial intelligence was our pitiless mirror, showing us what we had become: predictable executors, reproducers of schemes, biological machines less performant than their electronic equivalents.
+
+For that is what it is about: laziness. The laziness of thinking otherwise, the laziness of questioning our habits, the laziness of trusting collective intelligence rather than ready-made recipes. The laziness of remaining human.
+
+Edgar Morin holds out a lifeline: the possibility of forming free, critical, creative, cooperative minds. Citizens of the world capable of facing uncertainty without sinking into fanaticism, navigating complexity without taking refuge in simplification. Irreplaceable humans because authentically human.
+
+We can seize this lifeline. Or continue to drown in our educational mediocrity by persuading ourselves that we are preparing the future, while machines are already preparing ours.
+
+The choice is ours. For now. For even this privilege — that of choosing our destiny — we risk soon delegating to algorithms more efficient than ourselves.
+
+##### _Edgar Morin is 102 years old. He will probably outlive us all. Which, when you think about it, is rather reassuring: at least someone will be there to testify to our blindness. Provided he is not replaced by an AI more performant in the art of disabused lucidity._
+
+## How Mentivis Can Guide You in This New AI Era
+
+Navigating the AI revolution applied to training is not just a question of technology. It is a strategic issue: identifying the skills to prioritize, building adapted pathways and maximizing available financing.
+
+**Our approach:**
+
+-   **Strategic diagnosis**: mapping of AI impacts on your jobs and training programs.
+-   **Operational roadmap**: prioritization of critical skills and investments.
+-   **Acceleration**: design of AI-ready programs, integrating CPF and public funding.
+
+**Take the first step toward more agile and competitive training.**
+
+[Contact Mentivis today for a personalized diagnosis and concrete solutions adapted to your challenges.](https://mentivis.com/contact-general/)6:[["$","$L13",null,{"items":[{"name":"Accueil","url":"https://www.mentivis.com/fr/"},{"name":"Insights","url":"https://www.mentivis.com/fr/insights/"},{"name":"Morin contre les machines"}]}],["$","$L14",null,{"article":{"slug":"morin-contre-les-machines","date":"2025-07-31","category":"perspectives","author":"Steven Delcourt","readTime":"","heroImage":"/images/insights/emorin-bw.avif","keywords":"Actualités, Digital Data IA, Éducation","titleFr":"Morin contre les machines","titleEn":"Morin Against the Machines","excerptFr":"À l'heure où l'intelligence artificielle bouscule l'école, Edgar Morin inspire une réflexion sur les limites du modèle éducatif français.","excerptEn":"At a time when artificial intelligence is shaking up school, Edgar Morin inspires reflection on the limits of the French educational model.","bodyFr":"$15","bodyEn":"$16"}}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Morin contre les machines | Insights — Mentivis | Mentivis"}],["$","meta","1",{"name":"description","content":"À l'heure où l'intelligence artificielle bouscule l'école, Edgar Morin inspire une réflexion sur les limites du modèle éducatif français."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"Actualités, Digital Data IA, Éducation"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://www.mentivis.com/fr/insights/morin-contre-les-machines/"}],["$","link","6",{"rel":"alternate","hrefLang":"fr-FR","href":"https://www.mentivis.com/fr/insights/morin-contre-les-machines/"}],["$","link","7",{"rel":"alternate","hrefLang":"en-US","href":"https://www.mentivis.com/en/insights/morin-contre-les-machines/"}],["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://www.mentivis.com/fr/insights/morin-contre-les-machines/"}],["$","meta","9",{"property":"og:title","content":"Morin contre les machines"}],["$","meta","10",{"property":"og:description","content":"À l'heure où l'intelligence artificielle bouscule l'école, Edgar Morin inspire une réflexion sur les limites du modèle éducatif français."}],["$","meta","11",{"property":"og:locale","content":"fr_FR"}],["$","meta","12",{"property":"og:image","content":"https://www.mentivis.com/images/insights/emorin-bw.avif"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","16",{"name":"twitter:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","17",{"name":"twitter:image","content":"https://www.mentivis.com/opengraph-image.jpg"}],["$","link","18",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","19",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","20",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","23",{}]]

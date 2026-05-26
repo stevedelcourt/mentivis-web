@@ -1,0 +1,143 @@
+1:"$Sreact.fragment"
+2:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9849","static/chunks/app/lang/careers/slug/page-195a0e7c5221e23d.js"],"default"]
+7:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9849","static/chunks/app/lang/careers/slug/page-195a0e7c5221e23d.js"],"default"]
+8:I[7895,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9849","static/chunks/app/lang/careers/slug/page-195a0e7c5221e23d.js"],"default"]
+b:I[90484,[],"OutletBoundary"]
+c:"$Sreact.suspense"
+3:T102e,## Context
+
+MentivisOS structures the full operational cycle of training organisations, schools and universities within a single integrated environment. Territorial authorities, and regional councils in particular, are central actors in the French professional training ecosystem. They fund, shape, contract and transform. They are also complex decision-makers, operating within their own political logics, administrative processes and institutional timelines.
+
+Mentivis is recruiting the person capable of building a lasting and credible presence for MentivisOS within these institutions, developing trusted relationships with elected officials and senior administrators, and translating those relationships into concrete partnerships.
+
+## Your responsibilities
+
+### Institutional development
+
+You map priority territorial authorities: regional councils, departmental councils, metropolitan authorities and intermunicipal groupings, identifying key contacts at the level of elected officials, political advisors and senior civil servants. You build a regular and legitimate presence with these actors beyond the sole moments of tender response. You position MentivisOS as a natural partner on issues of training, skills transformation and territorial economic development.
+
+### Public affairs and institutional intelligence
+
+You monitor legislative, regulatory and political developments that shape the competencies of territorial authorities in education and training. You anticipate calls for projects, regional plans, strategic frameworks and public consultations likely to create opportunities for MentivisOS. You feed internal teams with a precise reading of the institutional calendar and local political dynamics.
+
+### Negotiation and contracting
+
+You lead public procurement processes and direct award procedures. You understand the specific contracting mechanisms of public actors and know how to adapt commercial positioning to the requirements of public purchasing. You coordinate internal teams to produce strong, differentiated and compliant submission files.
+
+### Strategic partnerships and ecosystem
+
+You identify and develop alliances with actors gravitating around territorial authorities: economic development agencies, territorial engineering structures, elected officials networks, professional associations and specialised think tanks. You represent Mentivis at relevant forums, conferences and institutional events.
+
+## Profile
+
+**Education.** Master's degree or equivalent from a leading institution: Sciences Po, IEP, top business school, or equivalent. A background in public law, public administration or territorial policy is a significant asset.
+
+**Institutional experience.** You have worked in close contact with territorial authorities: ministerial or local government cabinet, local authority directorate, public agency, elected officials association, or in a public affairs function on the private side. You understand how these institutions actually work, their political constraints and their decision-making cycles.
+
+**Network.** You hold an active personal network among territorial decision-makers. This network is not a contact list. It is a relational asset that you maintain and deploy with judgement.
+
+**Ability to navigate institutional complexity.** You know how to distinguish the political level from the administrative level, adapt your approach to each, and move a file forward in an environment where decisions are collective, timelines are long and interests are multiple.
+
+**Rigour and autonomy.** You produce analyses, positioning notes and submission files to a high standard. You manage your subjects independently and report with precision.
+
+## Bonus skills
+
+Deep knowledge of French professional training funding mechanisms, experience in complex public procurement responses, practice of regulatory and institutional monitoring tools, professional French.
+
+## Location
+
+The role is remote-first with regular travel across France. You work within a fast-growing environment at the intersection of AI, education and public training policy.
+
+**[mentivisos.com](https://mentivisos.com/)**0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"data":{"@context":"https://schema.org","@type":"JobPosting","title":"Institutional Relations & Territorial Development Manager","description":"$3","datePosted":"2026-04-08","employmentType":"CDI","hiringOrganization":{"@type":"Organization","name":"Mentivis","sameAs":"https://www.mentivis.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"60 Rue François 1er","addressLocality":"Paris","postalCode":"75008","addressCountry":"FR"}}}}],"$L4","$L5"],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lkLQ2MhCtBK08O40iEZyh"}
+4:["$","$L7",null,{"items":[{"name":"Home","url":"https://www.mentivis.com/en/"},{"name":"Careers","url":"https://www.mentivis.com/en/careers/"},{"name":"Institutional Relations & Territorial Development Manager"}]}]
+9:T126d,## Le contexte
+
+MentivisOS structure l'ensemble du cycle opérationnel des organismes de formation, des écoles et des universités dans un environnement intégré. Les collectivités territoriales, et en particulier les Régions, sont des acteurs centraux de l'écosystème de la formation professionnelle en France. Elles financent, orientent, contractualisent et transforment. Elles sont aussi des décideurs complexes, avec des temporalités, des logiques politiques et des processus administratifs qui leur sont propres.
+
+Mentivis recrute la personne capable de construire une présence durable et crédible de MentivisOS auprès de ces institutions, en développant des relations de confiance avec les décideurs élus et administratifs, et en traduisant ces relations en partenariats concrets.
+
+## Vos responsabilités
+
+### Développement institutionnel
+
+Vous cartographiez les collectivités territoriales prioritaires : Régions, Départements, métropoles et intercommunalités, en identifiant les interlocuteurs clés côté élus, cabinets et directions générales. Vous construisez une présence régulière et légitime auprès de ces acteurs, en dehors des seuls moments de réponse à appel d'offres. Vous positionnez MentivisOS comme un partenaire naturel sur les enjeux de formation, de transformation des compétences et de développement économique territorial.
+
+### Affaires publiques et intelligence institutionnelle
+
+Vous suivez les évolutions législatives, réglementaires et politiques qui structurent les compétences des collectivités en matière de formation et d'éducation. Vous anticipez les appels à projets, les plans régionaux, les schémas directeurs et les consultations susceptibles d'ouvrir des opportunités pour MentivisOS. Vous alimentez les équipes internes avec une lecture précise du calendrier institutionnel et des dynamiques politiques locales.
+
+### Négociation et contractualisation
+
+Vous pilotez les processus de réponse aux appels d'offres publics et aux marchés en gré à gré. Vous maîtrisez les modes de contractualisation spécifiques aux acteurs publics et savez adapter le discours commercial aux exigences de l'achat public. Vous coordonnez les équipes internes pour produire des dossiers de candidature solides, différenciants et conformes.
+
+### Partenariats stratégiques et écosystème
+
+Vous identifiez et développez des alliances avec les acteurs qui gravitent autour des collectivités : agences de développement économique, structures d'ingénierie territoriale, associations d'élus, réseaux professionnels et think tanks spécialisés. Vous représentez Mentivis dans les forums, colloques et événements institutionnels pertinents.
+
+## Profil recherché
+
+**Formation.** Bac+5, idéalement issu d'une grande école : Sciences Po, IEP, école de management de premier rang, ou équivalent. Une formation en droit public, administration publique ou politiques territoriales est un atout significatif.
+
+**Expérience institutionnelle.** Vous avez évolué dans un environnement en lien direct avec les collectivités territoriales : cabinet ministériel ou territorial, direction d'une collectivité, agence publique, association d'élus, ou dans une fonction d'affaires publiques côté privé. Vous connaissez le fonctionnement réel de ces institutions, leurs contraintes politiques et leurs cycles de décision.
+
+**Réseau.** Vous disposez d'un réseau personnel actif auprès des décideurs territoriaux. Ce réseau n'est pas une liste de contacts : c'est un capital relationnel que vous entretenez et que vous savez mobiliser avec discernement.
+
+**Capacité à naviguer la complexité institutionnelle.** Vous savez distinguer le niveau politique du niveau administratif, adapter votre discours à chacun, et faire avancer un dossier dans un environnement où les décisions sont collectives, les temporalités longues et les logiques d'intérêt multiples.
+
+**Rigueur et autonomie.** Vous produisez des analyses, des notes de positionnement et des dossiers de qualité. Vous gérez vos sujets de manière indépendante et rendez compte avec précision.
+
+## Atouts supplémentaires
+
+Connaissance approfondie des mécanismes de financement de la formation professionnelle en France, expérience en réponse à des marchés publics complexes, pratique des outils de veille réglementaire et institutionnelle, anglais professionnel.
+
+## Localisation
+
+Le poste est remote-first avec des déplacements réguliers sur le territoire français. Vous travaillez dans un environnement en croissance rapide à l'intersection de l'IA, de l'éducation et de la politique publique de formation.
+
+**[mentivisos.com](https://mentivisos.com/)**a:T102e,## Context
+
+MentivisOS structures the full operational cycle of training organisations, schools and universities within a single integrated environment. Territorial authorities, and regional councils in particular, are central actors in the French professional training ecosystem. They fund, shape, contract and transform. They are also complex decision-makers, operating within their own political logics, administrative processes and institutional timelines.
+
+Mentivis is recruiting the person capable of building a lasting and credible presence for MentivisOS within these institutions, developing trusted relationships with elected officials and senior administrators, and translating those relationships into concrete partnerships.
+
+## Your responsibilities
+
+### Institutional development
+
+You map priority territorial authorities: regional councils, departmental councils, metropolitan authorities and intermunicipal groupings, identifying key contacts at the level of elected officials, political advisors and senior civil servants. You build a regular and legitimate presence with these actors beyond the sole moments of tender response. You position MentivisOS as a natural partner on issues of training, skills transformation and territorial economic development.
+
+### Public affairs and institutional intelligence
+
+You monitor legislative, regulatory and political developments that shape the competencies of territorial authorities in education and training. You anticipate calls for projects, regional plans, strategic frameworks and public consultations likely to create opportunities for MentivisOS. You feed internal teams with a precise reading of the institutional calendar and local political dynamics.
+
+### Negotiation and contracting
+
+You lead public procurement processes and direct award procedures. You understand the specific contracting mechanisms of public actors and know how to adapt commercial positioning to the requirements of public purchasing. You coordinate internal teams to produce strong, differentiated and compliant submission files.
+
+### Strategic partnerships and ecosystem
+
+You identify and develop alliances with actors gravitating around territorial authorities: economic development agencies, territorial engineering structures, elected officials networks, professional associations and specialised think tanks. You represent Mentivis at relevant forums, conferences and institutional events.
+
+## Profile
+
+**Education.** Master's degree or equivalent from a leading institution: Sciences Po, IEP, top business school, or equivalent. A background in public law, public administration or territorial policy is a significant asset.
+
+**Institutional experience.** You have worked in close contact with territorial authorities: ministerial or local government cabinet, local authority directorate, public agency, elected officials association, or in a public affairs function on the private side. You understand how these institutions actually work, their political constraints and their decision-making cycles.
+
+**Network.** You hold an active personal network among territorial decision-makers. This network is not a contact list. It is a relational asset that you maintain and deploy with judgement.
+
+**Ability to navigate institutional complexity.** You know how to distinguish the political level from the administrative level, adapt your approach to each, and move a file forward in an environment where decisions are collective, timelines are long and interests are multiple.
+
+**Rigour and autonomy.** You produce analyses, positioning notes and submission files to a high standard. You manage your subjects independently and report with precision.
+
+## Bonus skills
+
+Deep knowledge of French professional training funding mechanisms, experience in complex public procurement responses, practice of regulatory and institutional monitoring tools, professional French.
+
+## Location
+
+The role is remote-first with regular travel across France. You work within a fast-growing environment at the intersection of AI, education and public training policy.
+
+**[mentivisos.com](https://mentivisos.com/)**5:["$","$L8",null,{"job":{"slug":"responsable-relations-institutionnelles-developpement-territorial","titleFr":"Responsable relations institutionnelles & développement territorial","titleEn":"Institutional Relations & Territorial Development Manager","department":"Growth","location":"Paris","type":"cdi","remote":true,"date":"2026-04-08","descriptionFr":"$9","descriptionEn":"$a"},"lang":"en"}]
+6:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

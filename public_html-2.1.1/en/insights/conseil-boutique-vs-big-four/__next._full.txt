@@ -1,0 +1,270 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","en","insights","conseil-boutique-vs-big-four",""],"q":"","i":false,"f":[[["",{"children":[["lang","en","d",null],{"children":["insights",{"children":[["slug","conseil-boutique-vs-big-four","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"lkLQ2MhCtBK08O40iEZyh"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+14:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"en"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+15:T2a2d,## Les cabinets boutiques dévorent les parts de marché des géants du conseil en management
+
+L'industrie du conseil en management, longtemps dominée par des noms vénérables comme McKinsey, Bain et Boston Consulting Group, traverse sa plus profonde disruption depuis des décennies. Alors que l'intelligence artificielle démocratise les capacités d'analyse et que les clients se lassent des présentations coûteuses, une nouvelle génération de cabinets boutiques s'empare discrètement des parts de marché en faisant ce que les « Big Three » ont longtemps évité : se salir les mains avec la véritable implémentation.
+
+Les preuves de ce changement sismique s'accumulent. McKinsey a supprimé plus de 5 000 emplois—soit plus de 10% de ses effectifs—en seulement 18 mois. Les cabinets de conseil britanniques ont connu leur première contraction de revenus depuis la pandémie, chutant de 3,4% alors que les clients serraient la vis budgétaire. Pendant ce temps, 82% des cabinets boutiques ont affiché une croissance de leurs revenus en 2022, près de la moitié enregistrant des hausses supérieures à 25%.
+
+Il ne s'agit pas simplement d'un ralentissement cyclique. Cela reflète un recalibrage fondamental de ce que les clients valorisent dans un monde de plus en plus alimenté par l'IA.
+
+### L'assaut algorithmique
+
+Le modèle traditionnel du conseil reposait sur l'asymétrie d'information. Les grandes firmes commandaient des honoraires premium en partie parce qu'elles possédaient des capacités d'analyse et une intelligence de marché qui manquaient aux clients. Ce monopole s'effrite. Les propres recherches de McKinsey montrent que l'adoption de l'IA par les entreprises a bondi de 55% à 72% en une seule année. Les entreprises peuvent désormais générer des analyses de marché sophistiquées, des évaluations SWOT et des modèles financiers en quelques minutes plutôt qu'en semaines.
+
+« Quand les clients savent qu'il ne faut que cinq minutes pour construire une analyse SWOT, la donne a changé », observe un vétéran de l'industrie. Le travail de base qui justifiait autrefois des armées de consultants juniors—collecte de données, benchmarking, synthèse de documents—est de plus en plus automatisé. Les postes d'entrée en conseil technique ont chuté de 60% en deux ans.
+
+### Chiffres clés de l'impact de l'IA sur le consulting traditionnel
+
+##### Indicateur
+
+##### Chiffres
+
+**Réduction d'effectifs (McKinsey)**
+
+– de 10 % en 18 mois (de 45 000 à 40 000 employés)
+
+**Adoption de l'IA par les entreprises**
+
+72 % des organisations utilisent l'IA
+
+**Tâches de conseil automatisables**
+
+Jusqu'à 30 % des tâches d'ici 2030
+
+**Contraction des revenus (cabinets britanniques)**
+
+-3,4 % de revenus (première fois depuis la pandémie)
+
+**Diminution des embauches juniors (tech)**
+
+-73 % des embauches de profils juniors
+
+**Clients américains prévoyant une réduction des dépenses**
+
+86 % des clients américains
+
+Cette marchandisation de l'analyse a exposé une faiblesse criante du modèle traditionnel : le fossé béant entre recommandation et implémentation. Les études montrent de manière constante que seule la moitié des recommandations de conseil sont jamais mises en œuvre, et 67% des stratégies bien conçues échouent à cause d'une mauvaise exécution.
+
+### L'essor des praticiens
+
+Entrent en scène des cabinets comme Mentivis et d'autres spécialistes boutiques qui ont bâti leur réputation non pas sur des présentations brillantes mais sur des résultats mesurables. Ces cabinets « hands-on » offrent un contraste saisissant avec leurs rivaux établis. Là où McKinsey pourrait déployer une équipe de MBA pour créer un deck stratégique élégant, les cabinets boutiques intègrent des praticiens expérimentés qui restent engagés tout au long de l'implémentation.
+
+Les métriques de performance sont convaincantes. Les cabinets boutiques démontrent des taux de succès d'implémentation supérieurs de 27% et des scores de satisfaction client 31% meilleurs pour l'adaptabilité. Leurs structures organisationnelles plates—typiquement 2-3 niveaux hiérarchiques contre 5-7 dans les grandes firmes—permettent des temps de réponse 43% plus rapides.
+
+Le plus révélateur peut-être : les cabinets boutiques ont 42% plus de chances de livrer des retours positifs pendant les ralentissements économiques, quand l'exécution parfaite devient primordiale.
+
+### La structure suit la stratégie
+
+Les avantages opérationnels des cabinets boutiques reflètent des choix stratégiques délibérés. Plutôt que de poursuivre la mentalité « grandir partout » des géants globaux, les boutiques à succès se concentrent obsessionnellement sur des secteurs ou des capacités spécifiques. Cette spécialisation génère des bénéfices profonds : des praticiens qui parlent le langage opérationnel des clients, comprennent les contraintes sectorielles spécifiques, et peuvent anticiper les obstacles d'implémentation.
+
+Prenez l'optimisation de la chaîne logistique, les transitions de durabilité, ou les transformations digitales—des domaines où les cadres théoriques comptent moins que l'expérience pratique. Un consultant qui a réellement dirigé des opérations manufacturières ou implémenté des programmes ESG apporte une crédibilité qu'aucun diplôme MBA ne peut conférer.
+
+Les modèles de rémunération renforcent cette focalisation sur les résultats. Alors que les cabinets traditionnels facturent à l'heure et mesurent le succès par les taux d'utilisation des consultants, beaucoup de boutiques lient leurs honoraires aux résultats. Cet alignement d'incitations attire naturellement les clients frustrés par l'approche « PowerPoint et disparaître ».
+
+### Forces du marché à l'œuvre
+
+Les 150 milliards de dollars de revenus globaux du marché du conseil se redistribuent de manières qui auraient semblé impossibles il y a une décennie. Le segment du conseil opérationnel devrait croître de 28,9 milliards de dollars en 2024 à 52,6 milliards en 2033—une expansion annuelle de 6,9% qui dépasse le travail stratégique traditionnel.
+
+Les clients gouvernementaux, historiquement fidèles aux noms établis, mènent la charge. Le gouvernement fédéral américain a drastiquement réduit les contrats de conseil, favorisant les capacités internes augmentées par un soutien spécialisé. Les clients corporatifs suivent : 86% des entreprises américaines prévoient de réduire les dépenses de conseil, mais beaucoup réallouent les budgets vers des fournisseurs axés sur l'implémentation.
+
+Cette tendance s'étend au-delà des marchés matures. Dans les économies émergentes, où les défis opérationnels dépassent souvent les défis stratégiques, l'orientation pratique des cabinets boutiques résonne particulièrement fort.
+
+### Le dilemme des géants
+
+Les « Big Three » font face à un dilemme classique de l'innovateur. Leurs modèles d'affaires, optimisés pour l'échelle et la standardisation, peinent à concurrencer sur l'expertise intime et sectorielle spécifique que les clients demandent de plus en plus. Les tentatives d'acquérir des capacités boutiques échouent souvent car les talents entrepreneuriaux s'irritent contre les structures bureaucratiques.
+
+Certains expérimentent avec des modèles hybrides—les bras d'implémentation de McKinsey, les partenariats private equity de Bain, les ventures technologiques de BCG. Pourtant ces efforts ressemblent souvent à des ajouts plutôt qu'à des capacités fondamentales, manquant de la crédibilité qui vient d'une focalisation opérationnelle de base.
+
+### Chiffres clés des avantages des cabinets « hands-on »
+
+##### Indicateur
+
+##### Chiffres
+
+Taux d'implémentation réussie
+
+50 % des recommandations implémentées (modèle traditionnel)
+
+27 % de taux de succès supérieur pour les cabinets spécialisés
+
+Taux de satisfaction client
+
+31 % de satisfaction plus élevée pour les cabinets spécialisés
+
+Croissance du marché du conseil opérationnel
+
+Croissance annuelle de 6,9 %
+
+Prévision de marché à 52,6 milliards USD en 2033
+
+Croissance des revenus (cabinets boutiques)
+
+82 % des cabinets ont connu une croissance en 2022
+
+48 % d'entre eux ont connu une croissance supérieure à 25 %
+
+Réduction des coûts opérationnels
+
+Jusqu'à 20 % grâce à l'expertise pratique
+
+### L'avenir de l'expertise
+
+Cette transformation reflète des changements plus larges dans la façon dont les organisations créent et capturent la valeur. Alors que le travail analytique routinier devient marchandisé, la tarification premium va vers ceux qui peuvent traduire les insights en action. Les consultants qui prospéreront seront ceux qui combinent une connaissance sectorielle profonde avec des compétences d'implémentation pratiques—précisément la formule que les cabinets boutiques ont perfectionnée.
+
+La pandémie de COVID-19 a accéléré cette évolution en forçant les entreprises à prioriser la résilience opérationnelle plutôt que l'élégance stratégique. Les clients ont appris à distinguer entre les consultants qui comprennent les tableurs et ceux qui comprennent les opérations.
+
+Pour les géants de l'industrie, le chemin à suivre requiert une réflexion fondamentale. Ils doivent décider s'ils veulent doubler la mise sur leurs avantages analytiques—peut-être à travers des partenariats IA et des données propriétaires—ou tenter la transition plus difficile vers les capacités d'implémentation.
+
+Les boutiques, pendant ce temps, font face à leurs propres défis d'échelle. Le succès nécessitera de résister à la tentation d'imiter les stratégies de croissance de leurs rivaux plus grands. La clé est de maintenir l'intimité opérationnelle et la spécialisation qui créent leur avantage concurrentiel tout en construisant des plateformes durables pour la croissance.
+
+Comme le dit un fondateur de boutique à succès : « Nous ne vendons pas des PowerPoints. Nous vendons des résultats. » Dans une industrie bâtie sur les promesses, cette distinction s'avère de plus en plus précieuse. L'âge du colosse du conseil en management n'est peut-être pas terminé, mais l'ère de l'ascension boutique a clairement commencé.
+
+_La grande disruption de l'industrie du conseil reflète un changement plus large de la supériorité analytique vers l'excellence d'implémentation. Ceux qui s'adaptent prospéreront ; ceux qui s'accrochent au modèle d'hier risquent de devenir les victimes de demain._
+
+#### L'ère des « PowerPoints en costard » touche à sa fin. Les clients d'aujourd'hui ne paient plus pour des analyses qu'ils peuvent produire eux-mêmes, mais pour une expertise qui transforme réellement leurs organisations.16:T2208,## Boutique Firms Are Devouring the Market Share of Management Consulting Giants
+
+The management consulting industry, long dominated by venerable names like McKinsey, Bain, and Boston Consulting Group, is experiencing its deepest disruption in decades. As artificial intelligence democratizes analytical capabilities and clients tire of expensive presentations, a new generation of boutique firms is quietly seizing market share by doing what the "Big Three" have long avoided: getting their hands dirty with real implementation.
+
+The evidence of this seismic shift is mounting. McKinsey has cut more than 5,000 jobs—over 10% of its workforce—in just 18 months. UK consulting firms experienced their first revenue contraction since the pandemic, falling 3.4% as clients tightened budgets. Meanwhile, 82% of boutique firms reported revenue growth in 2022, with nearly half recording increases above 25%.
+
+This is not merely a cyclical slowdown. It reflects a fundamental recalibration of what clients value in an increasingly AI-driven world.
+
+### The Algorithmic Assault
+
+The traditional consulting model relied on information asymmetry. Large firms commanded premium fees partly because they possessed analytical capabilities and market intelligence that clients lacked. This monopoly is crumbling. McKinsey's own research shows that enterprise AI adoption has leaped from 55% to 72% in a single year. Companies can now generate sophisticated market analyses, SWOT evaluations, and financial models in minutes rather than weeks.
+
+"When clients know it takes five minutes to build a SWOT analysis, the game has changed," observes an industry veteran. The grunt work that once justified armies of junior consultants—data collection, benchmarking, document synthesis—is increasingly automated. Entry-level technical consulting positions have dropped 60% in two years.
+
+### Key Figures: AI's Impact on Traditional Consulting
+
+##### Indicator
+
+##### Figures
+
+**Headcount Reduction (McKinsey)**
+
+– 10% in 18 months (from 45,000 to 40,000 employees)
+
+**Enterprise AI Adoption**
+
+72% of organizations use AI
+
+**Automatable Consulting Tasks**
+
+Up to 30% of tasks by 2030
+
+**Revenue Contraction (UK Firms)**
+
+-3.4% revenue (first time since the pandemic)
+
+**Junior Hiring Decline (Tech)**
+
+-73% junior profile hires
+
+**US Clients Planning Spending Cuts**
+
+86% of US clients
+
+This commoditization of analysis has exposed a glaring weakness in the traditional model: the vast chasm between recommendation and implementation. Studies consistently show that only half of consulting recommendations are ever implemented, and 67% of well-designed strategies fail due to poor execution.
+
+### The Rise of Practitioners
+
+Enter firms like Mentivis and other boutique specialists who have built their reputation not on brilliant presentations but on measurable results. These "hands-on" firms offer a striking contrast to their established rivals. Where McKinsey might deploy a team of MBAs to create an elegant strategic deck, boutique firms integrate experienced practitioners who remain engaged throughout implementation.
+
+The performance metrics are compelling. Boutique firms demonstrate 27% higher implementation success rates and 31% better client satisfaction scores for adaptability. Their flat organizational structures—typically 2-3 hierarchical levels versus 5-7 at large firms—enable 43% faster response times.
+
+Perhaps most tellingly: boutique firms are 42% more likely to deliver positive returns during economic slowdowns, when flawless execution becomes paramount.
+
+### Structure Follows Strategy
+
+The operational advantages of boutique firms reflect deliberate strategic choices. Rather than pursuing the "grow everywhere" mentality of global giants, successful boutiques obsessively focus on specific sectors or capabilities. This specialization yields profound benefits: practitioners who speak the client's operational language, understand sector-specific constraints, and can anticipate implementation obstacles.
+
+Take supply chain optimization, sustainability transitions, or digital transformations—domains where theoretical frameworks matter less than practical experience. A consultant who has actually run manufacturing operations or implemented ESG programs brings credibility that no MBA degree can confer.
+
+Compensation models reinforce this results focus. While traditional firms bill by the hour and measure success by consultant utilization rates, many boutiques tie their fees to outcomes. This incentive alignment naturally attracts clients frustrated by the "PowerPoint and disappear" approach.
+
+### Market Forces at Work
+
+The $150 billion in global consulting revenues is redistributing in ways that would have seemed impossible a decade ago. The operational consulting segment is projected to grow from $28.9 billion in 2024 to $52.6 billion in 2033—a 6.9% annual expansion that outpaces traditional strategy work.
+
+Government clients, historically loyal to established names, are leading the charge. The US federal government has drastically reduced consulting contracts, favoring augmented internal capabilities with specialized support. Corporate clients follow: 86% of US companies plan to cut consulting spending, but many reallocate budgets toward implementation-focused providers.
+
+This trend extends beyond mature markets. In emerging economies, where operational challenges often exceed strategic ones, the practical orientation of boutique firms resonates particularly strongly.
+
+### The Giants' Dilemma
+
+The "Big Three" face a classic innovator's dilemma. Their business models, optimized for scale and standardization, struggle to compete on the intimate, sector-specific expertise that clients increasingly demand. Attempts to acquire boutique capabilities often fail because entrepreneurial talent chafes against bureaucratic structures.
+
+Some experiment with hybrid models—McKinsey's implementation arms, Bain's private equity partnerships, BCG's technology ventures. Yet these efforts often resemble add-ons rather than core capabilities, lacking the credibility that comes from operational focus at the foundation.
+
+### Key Figures: The "Hands-On" Firm Advantage
+
+##### Indicator
+
+##### Figures
+
+Successful Implementation Rate
+
+50% of recommendations implemented (traditional model)
+
+27% higher success rate for specialized firms
+
+Client Satisfaction Rate
+
+31% higher satisfaction for specialized firms
+
+Operational Consulting Market Growth
+
+6.9% annual growth
+
+Market forecast of $52.6 billion USD by 2033
+
+Revenue Growth (Boutique Firms)
+
+82% of firms achieved growth in 2022
+
+48% of them achieved growth above 25%
+
+Operational Cost Reduction
+
+Up to 20% through practical expertise
+
+### The Future of Expertise
+
+This transformation reflects broader shifts in how organizations create and capture value. As routine analytical work becomes commoditized, premium pricing goes to those who can translate insights into action. The consultants who will thrive are those who combine deep sector knowledge with practical implementation skills—precisely the formula that boutique firms have perfected.
+
+The COVID-19 pandemic accelerated this evolution by forcing companies to prioritize operational resilience over strategic elegance. Clients learned to distinguish between consultants who understand spreadsheets and those who understand operations.
+
+For the industry's giants, the path forward requires fundamental reflection. They must decide whether to double down on their analytical advantages—perhaps through AI partnerships and proprietary data—or attempt the more difficult transition toward implementation capabilities.
+
+Boutiques, meanwhile, face their own scaling challenges. Success will require resisting the temptation to imitate the growth strategies of their larger rivals. The key is to maintain the operational intimacy and specialization that create their competitive advantage while building sustainable platforms for growth.
+
+As one successful boutique founder puts it: "We don't sell PowerPoints. We sell results." In an industry built on promises, this distinction proves increasingly valuable. The age of the management consulting colossus may not be over, but the era of boutique ascendance has clearly begun.
+
+_The great disruption of the consulting industry reflects a broader shift from analytical superiority to implementation excellence. Those who adapt will thrive; those who cling to yesterday's model risk becoming tomorrow's casualties._
+
+#### The age of "suits with PowerPoints" is ending. Today's clients no longer pay for analyses they can produce themselves, but for expertise that truly transforms their organizations.6:[["$","$L13",null,{"items":[{"name":"Home","url":"https://www.mentivis.com/en/"},{"name":"Insights","url":"https://www.mentivis.com/en/insights/"},{"name":"Beyond PowerPoint: The Culture of Doing"}]}],["$","$L14",null,{"article":{"slug":"conseil-boutique-vs-big-four","date":"2025-08-03","category":"perspectives","author":"Roxan Roumégas","readTime":"","heroImage":"/images/insights/consultantbox.avif","keywords":"Actualités, Insights, Marché","titleFr":"Au-delà du PowerPoint, la culture du faire","titleEn":"Beyond PowerPoint: The Culture of Doing","excerptFr":"L'implémentation supplante les slides : les cabinets boutiques redéfinissent le conseil face à McKinsey et consorts, dans un monde piloté par l'IA.","excerptEn":"Implementation trumps slides: boutique firms redefine consulting in the face of McKinsey and others, in an AI-driven world.","bodyFr":"$15","bodyEn":"$16"}}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Beyond PowerPoint: The Culture of Doing | Insights — Mentivis | Mentivis"}],["$","meta","1",{"name":"description","content":"Implementation trumps slides: boutique firms redefine consulting in the face of McKinsey and others, in an AI-driven world."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"Actualités, Insights, Marché"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://www.mentivis.com/en/insights/conseil-boutique-vs-big-four/"}],["$","link","6",{"rel":"alternate","hrefLang":"fr-FR","href":"https://www.mentivis.com/fr/insights/conseil-boutique-vs-big-four/"}],["$","link","7",{"rel":"alternate","hrefLang":"en-US","href":"https://www.mentivis.com/en/insights/conseil-boutique-vs-big-four/"}],["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://www.mentivis.com/fr/insights/conseil-boutique-vs-big-four/"}],["$","meta","9",{"property":"og:title","content":"Beyond PowerPoint: The Culture of Doing"}],["$","meta","10",{"property":"og:description","content":"Implementation trumps slides: boutique firms redefine consulting in the face of McKinsey and others, in an AI-driven world."}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://www.mentivis.com/images/insights/consultantbox.avif"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Mentivis - Every training discipline. End to end."}],["$","meta","16",{"name":"twitter:description","content":"Mentivis designs, structures and deploys training programs. Compensation aligned with results."}],["$","meta","17",{"name":"twitter:image","content":"https://www.mentivis.com/opengraph-image.jpg"}],["$","link","18",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","19",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","20",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","23",{}]]

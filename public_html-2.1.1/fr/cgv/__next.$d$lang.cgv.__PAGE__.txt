@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","3956","static/chunks/app/lang/cgv/page-4e42c9ef8d1fe772.js"],"default"]
+3:I[96098,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","3956","static/chunks/app/lang/cgv/page-4e42c9ef8d1fe772.js"],"default"]
+4:I[90484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://www.mentivis.com/fr/"},{"name":"CGV"}]}],["$","$L3",null,{}]],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lkLQ2MhCtBK08O40iEZyh"}
+6:null

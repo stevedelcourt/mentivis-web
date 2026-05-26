@@ -26,8 +26,8 @@ DirectoryIndex index.html
   RewriteCond %{HTTP_HOST} !^www\. [NC]
   RewriteRule ^(.*)$ https://www.mentivis.com/$1 [R=301,L]
 
-  # Root serves fr/index.html directly (no redirect needed)
-  # RewriteRule ^$ /fr/ [R=301,L] — REMOVED, index.html is served by DirectoryIndex
+  # Root → /fr/ 301 (bilingual site: fr is default)
+  RewriteRule ^$ /fr/ [R=301,L]
 
   # Redirect old /expertises → /about (SEO)
   RewriteRule ^expertises$ /about/ [R=301,L]

@@ -1,0 +1,182 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","fr","insights","le-poste-est-mort-vive-la-competence",""],"q":"","i":false,"f":[[["",{"children":[["lang","fr","d",null],{"children":["insights",{"children":[["slug","le-poste-est-mort-vive-la-competence","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"lkLQ2MhCtBK08O40iEZyh"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+14:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"fr"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+15:T3961,#### La « skills-based organisation » promet de refonder la manière dont les entreprises pilotent leurs talents. Entre révolution réelle et effet de mode managérial, le verdict reste ouvert.
+
+Il existe une question que beaucoup de directeurs des ressources humaines n’osent pas poser tout haut : leur entreprise sait-elle vraiment qui sait faire quoi ? Dans la plupart des grandes organisations, la réponse est non. On connaît les intitulés de poste. On connaît les organigrammes. Mais les compétences réelles, granulaires, actualisées, des personnes qui composent la force de travail restent largement dans l’ombre. C’est précisément ce vide que la « skills-based organisation » prétend combler.
+
+Le concept est apparu dans les discours anglo-saxons il y a une dizaine d’années, avant de s’imposer comme l’une des idées dominantes de la gestion des ressources humaines au milieu des années 2020. Son principe est d’une logique sévère : plutôt que d’organiser le travail autour des postes, des titres et des descriptions de fonction, l’entreprise place la compétence au centre de toutes ses décisions, du recrutement à la rémunération, en passant par la mobilité interne et l’affectation aux projets. L’unité de mesure n’est plus le « responsable de zone » ou le « chef de projet senior », mais l’ensemble des capacités mobilisables par une personne à un moment donné.
+
+#### Le passage aux compétences comme monnaie du travail est un changement fondamental qui bouleverse l'orientation du siècle dernier, où le travail a été principalement organisé autour des emplois.
+
+La thèse est radicale. Ravin Jesuthasan, associé principal chez Mercer et l’une des voix les plus écoutées sur le sujet, la formule sans détour : « Le passage aux compétences comme monnaie du travail est un changement fondamental qui bouleverse l’orientation du siècle dernier, où le travail a été principalement organisé autour des emplois. » Son ouvrage « The Skills-Powered Organization », publié au MIT Press en 2024 avec la co-auteure Tanuj Kapilashrami, est devenu une référence pour les directions générales et les cabinets de conseil qui cherchent à donner une architecture intellectuelle à cette transformation.
+
+### Un diagnostic, pas encore une solution
+
+La popularité du modèle tient d’abord à l’acuité du diagnostic qu’il pose. Selon Deloitte, 63 % du travail actuellement accompli se situe en dehors des descriptions de poste officielles des personnes concernées. Plus encore, 81 % des travailleurs interrogés indiquent que le travail est de plus en plus réalisé en dehors des frontières fonctionnelles. L’écart entre la réalité du travail et sa représentation formelle est donc massif. Les organigrammes décrivent une organisation qui n’existe plus tout à fait.
+
+Jesuthasan résume l’impasse dans laquelle se trouvent de nombreuses entreprises : « Nous avons beaucoup parlé d’agilité depuis de nombreuses années, mais l’agilité a toujours été entravée par le fait que le travail s’effectue dans des emplois, ce qui crée en permanence une friction dans le déploiement des compétences vers le travail. » Lorsqu’un processus est automatisé, il faut décider ce que feront les personnes qui s’en occupaient. Cette décision ne peut pas se prendre en regardant un organigramme ; elle exige de savoir ce que ces personnes savent faire au-delà de leurs attributions formelles.
+
+Le marché a entendu ce signal. Selon une étude Deloitte, 77 % des dirigeants d’entreprise et responsables RH estiment que la capacité à déplacer les compétences de façon fluide vers les besoins du travail est essentielle pour naviguer les disruptions à venir. Ce chiffre, qui aurait semblé excessif il y a une décennie, illustre l’urgence ressentie dans les états-majors.
+
+### La promesse et ses limites
+
+Le modèle présente une logique circulaire convaincante. Mieux connaître les compétences disponibles permet de mieux affecter les personnes aux projets, de réduire les recrutements externes coûteux, d’accélérer la mobilité interne et de concevoir des formations vraiment utiles plutôt que des catalogues de sessions imposées. La recherche de Deloitte indique que les organisations fondées sur les compétences sont 79 % plus susceptibles de fournir une expérience positive à leur personnel, et 63 % plus susceptibles d’atteindre leurs objectifs de performance que celles qui n’ont pas adopté cette approche.
+
+Des analyses de performance boursière avancent des chiffres encore plus frappants : les entreprises ayant réalisé la transition vers ce modèle auraient augmenté de 147 % leurs bénéfices par action entre avril 2020 et juin 2024, contre 24,7 % pour les entreprises dites « traditionnelles ». Ces chiffres, qui émanent d’acteurs commerciaux du secteur, méritent d’être lus avec précaution : l’auto-sélection des entreprises pionnières biaise inévitablement ce type de comparaison. Celles qui adoptent des modèles organisationnels innovants sont souvent déjà plus agiles et mieux gouvernées que la moyenne.
+
+Mais la réalité est moins fluide qu’il n’y paraît. Cartographier les compétences d’une organisation de quelques milliers de personnes est un exercice d’une complexité redoutable : les référentiels vieillissent vite, les données sont dispersées dans des systèmes incompatibles, et les managers rechignent souvent à partager leurs meilleurs éléments avec d’autres équipes. Jesuthasan est lucide sur cet obstacle : « La capacité et l’échelle du changement signifient que vous devez avoir la capacité de vous réinventer en permanence. Mais qui construit cette capacité ? Qui en est responsable ? C’est là que les RH ont cette opportunité massive de porter le changement. »
+
+### Ce que cela change pour la formation
+
+C’est dans le domaine de l’apprentissage que les effets sont les plus immédiats et les plus concrets. La logique classique de la formation en entreprise est celle d’un catalogue : on propose des sessions en fonction des métiers ou des niveaux hiérarchiques, on mesure le taux de suivi, et l’on en tire des conclusions sur l’engagement de la main-d’oeuvre. Ce modèle est profondément inefficace dans une organisation fondée sur les compétences.
+
+Dans une telle organisation, la formation doit répondre à un écart identifié entre les compétences actuelles et les compétences requises par un projet, un poste ou une évolution stratégique. Les parcours deviennent plus courts, plus personnalisés, plus ancrés dans le travail réel. Le mentorat, les missions apprenantes et les rotations internes reprennent de l’importance face aux formations en salle. Un sondage Deloitte révèle que 57 % des salariés souhaitent davantage d’opportunités d’observation et d’apprentissage sur le tas, et que 61 % citent les programmes de mentorat comme l’un des vecteurs les plus efficaces de développement des compétences.
+
+Comme le souligne LinkedIn, les compétences requises pour les emplois ont évolué d’environ 25 % au cours des huit dernières années, et ce chiffre devrait doubler d’ici 2027. Le Forum économique mondial estime que 39 % des compétences actuelles des travailleurs seront transformées ou obsolètes entre 2025 et 2030. Dans ce contexte, une formation utile n’est plus seulement une formation suivie : c’est une compétence qui devient mobilisable dans le travail réel.
+
+Pour les équipes de formation, les départements « Learning and Development », cela implique un changement de métier. Elles ne sont plus organisatrices de sessions, mais architectes de compétences, capables de relier la stratégie de l’entreprise, la cartographie des talents et les parcours d’apprentissage en un système cohérent.
+
+### Le risque du langage sans substance
+
+Il serait naïf d’ignorer les risques de dérive. Le monde des ressources humaines est fertile en concepts qui promettent une révolution et finissent en séminaires de deux jours. La « skills-based organisation » n’échappe pas entièrement à ce soupçon. L’écueil principal est de traiter la démarche comme un projet technologique. Les éditeurs de logiciels RH ont investi massivement dans des plateformes de « skills intelligence » qui promettent de cartographier automatiquement les compétences d’une organisation à partir de l’historique des projets, des formations suivies et des descriptions de poste. Ces outils sont utiles. Mais ils ne remplacent pas le travail culturel et politique qu’implique un tel changement.
+
+Bill Winters, directeur général de Standard Chartered, résume l’exigence avec précision : « Les compétences sont de plus en plus au coeur de notre modèle opérationnel afin de conduire la transformation organisationnelle requise. Cela oriente les décisions stratégiques que nous prenons sur la façon dont nous alignons l’évolution des signaux de demande de nos clients avec l’intégration, le développement et le déploiement des talents. » Le mot clé est « décisions stratégiques » : la SBO n’a de sens que si elle informe réellement la manière dont l’entreprise alloue ses ressources et planifie son avenir.
+
+Simon Roberts, directeur général de Sainsbury’s, exprime la même conviction : « Alors que beaucoup misent sur la technologie et l’intelligence artificielle pour bâtir l’entreprise de distribution de demain, pour nous il s’agit de savoir comment réunir les personnes, la technologie et l’IA. Les compétences de notre main-d’oeuvre définiront le succès à venir. »
+
+En France, la réception du modèle reste encore prudente. Les grandes entreprises du CAC 40 ont pour la plupart amorcé des projets de cartographie des compétences, portés par des outils numériques RH et par les obligations légales issues des accords de gestion prévisionnelle des emplois et des compétences. Mais peu ont franchi le pas d’une véritable reconfiguration de leur modèle opérationnel autour des compétences. L’Association nationale des directeurs des ressources humaines note que le talent management s’ouvre désormais à tous les collaborateurs et s’inscrit résolument dans le développement des compétences, marquant une transformation profonde des pratiques, même si le chemin vers une SBO pleinement intégrée reste long.
+
+La vraie question, au fond, n’est pas technique. C’est une question de pouvoir et de priorités. Dans une organisation fondée sur les compétences, qui décide quelles compétences comptent ? Qui fixe les niveaux de maîtrise requis ? Qui évalue les progrès ? Si ces décisions restent entre les mains d’un département RH isolé, le modèle restera un exercice de classification plutôt qu’une véritable transformation du travail. Si elles impliquent les métiers, les managers et les employés eux-mêmes, quelque chose de plus substantiel devient possible.
+
+La « skills-based organisation » n’est pas une mode. C’est une réponse, imparfaite, exigeante, encore largement inachevée, à un problème réel : celui d’entreprises dont les structures formelles ne correspondent plus à la réalité de ce que font leurs employés, ni à la vitesse à laquelle le travail change. La question n’est pas de savoir si ce modèle va s’imposer. Elle est de savoir combien d’organisations auront la patience et la discipline de le mettre vraiment en oeuvre.
+
+## Concepts clés
+
+**Skills-Based Organisation (SBO).** Modèle organisationnel dans lequel les compétences individuelles, et non les intitulés de poste, constituent l’unité centrale de pilotage des décisions RH : recrutement, mobilité, formation, affectation aux projets. La compétence y remplace le poste comme brique de base de l’organisation.
+
+**Cartographie des compétences.** Processus d’identification, de description et de mesure des compétences disponibles au sein d’une organisation. Prérequis technique de toute démarche SBO. Souvent sous-estimé dans sa complexité et sa nécessité de mise à jour continue, il constitue pourtant la condition sine qua non de toute décision fondée sur les compétences réelles.
+
+**Skills marketplace.** Marché interne des compétences : dispositif permettant de mettre en relation les besoins de l’organisation, projets, missions, postes vacants, avec les compétences disponibles en interne. Instrument central de la mobilité interne dans une SBO mature, souvent appuyé sur des plateformes algorithmiques de mise en correspondance.
+
+**Upskilling et reskilling.** L’upskilling désigne le renforcement de compétences existantes en vue d’une évolution dans le même domaine ; le reskilling, l’acquisition de compétences nouvelles en vue d’un changement de fonction ou de métier. Deux impératifs distincts que la SBO est censée rendre plus systématiques et plus précis que dans un modèle de formation par catalogue.
+
+**Learning and Development (L&D).** Fonction en charge de la formation et du développement des compétences en entreprise. Dans une SBO, son rôle bascule d’organisateur de catalogues vers architecte de parcours de développement ciblés sur des écarts de compétences identifiés. Ce changement de posture est l’un des défis les plus concrets de la transformation.
+
+**Skills ontology.** Référentiel structuré et hiérarchisé des compétences, permettant de classer, comparer et faire évoluer les définitions de compétences au sein d’une organisation. La qualité de l’ontologie, sa précision, sa cohérence et sa capacité à être mise à jour, conditionne celle de toute la démarche SBO.
+
+**Mobilité interne.** Capacité d’une organisation à redéployer ses talents d’un poste, d’une équipe ou d’une fonction vers une autre, sans recrutement externe. La SBO est censée en accélérer la fluidité en rendant visibles les compétences transversales que les intitulés de poste dissimulent.
+
+### Ce que fait réellement Mentivis
+
+**Mentivis n’est pas un cabinet qui applique des solutions toutes faites.**
+
+C’est un opérateur de transformation éducative qui agit sur les mécanismes réels du changement: comportements, incitations, règles implicites.
+
+**En une phrase**
+
+-   Mentivis transforme des intentions stratégiques en capacités effectives de transformation sur le terrain.
+-   Nous n’intervenons pas sur ce que les organisations voudraient changer.
+-   Nous intervenons sur ce qu’elles sont réellement capables de changer, durablement.
+
+[Contactez-nous !](/meeting/)16:T2f78,#### The "skills-based organization" promises to redefine how companies manage their talent. Between real revolution and managerial fad, the verdict remains open.
+
+There is a question that many human resources directors dare not ask out loud: does their company really know who can do what? In most large organizations, the answer is no. We know job titles. We know org charts. But the real, granular, up-to-date skills of the people who make up the workforce remain largely in the shadows. It is precisely this void that the "skills-based organization" claims to fill.
+
+The concept appeared in Anglo-Saxon discourse about ten years ago, before establishing itself as one of the dominant ideas in human resources management by the mid-2020s. Its principle is of severe logic: rather than organizing work around jobs, titles and job descriptions, the company places skills at the center of all its decisions, from recruitment to compensation, through internal mobility and project assignment. The unit of measurement is no longer the "area manager" or the "senior project manager," but the set of mobilizable capabilities of a person at a given moment.
+
+#### The shift to skills as the currency of work is a fundamental change that overturns the orientation of the last century, where work was primarily organized around jobs.
+
+The thesis is radical. Ravin Jesuthasan, principal at Mercer and one of the most listened-to voices on the subject, puts it bluntly: "The shift to skills as the currency of work is a fundamental change that overturns the orientation of the last century, where work was primarily organized around jobs." His book "The Skills-Powered Organization," published by MIT Press in 2024 with co-author Tanuj Kapilashrami, has become a reference for general management and consulting firms seeking to give an intellectual architecture to this transformation.
+
+### A Diagnosis, Not Yet a Solution
+
+The popularity of the model stems first from the acuity of the diagnosis it poses. According to Deloitte, 63% of work currently accomplished falls outside the official job descriptions of the people concerned. Even more, 81% of surveyed workers indicate that work is increasingly performed outside functional boundaries. The gap between the reality of work and its formal representation is therefore massive. Org charts describe an organization that no longer quite exists.
+
+Jesuthasan summarizes the impasse in which many companies find themselves: "We have talked a lot about agility for many years, but agility has always been hindered by the fact that work is performed in jobs, which constantly creates friction in deploying skills to work." When a process is automated, a decision must be made about what the people who handled it will do. This decision cannot be made by looking at an org chart; it requires knowing what these people can do beyond their formal attributions.
+
+The market has heard this signal. According to a Deloitte study, 77% of business leaders and HR managers believe that the ability to move skills fluidly toward work needs is essential to navigate upcoming disruptions. This figure, which would have seemed excessive a decade ago, illustrates the urgency felt in headquarters.
+
+### The Promise and Its Limits
+
+The model presents a convincing circular logic. Better knowing available skills makes it possible to better assign people to projects, reduce costly external recruitments, accelerate internal mobility and design truly useful training rather than catalogs of imposed sessions. Deloitte research indicates that skills-based organizations are 79% more likely to provide a positive experience for their staff, and 63% more likely to achieve their performance objectives than those that have not adopted this approach.
+
+Stock performance analyses advance even more striking figures: companies that have made the transition to this model would have increased their earnings per share by 147% between April 2020 and June 2024, versus 24.7% for so-called "traditional" companies. These figures, which come from commercial actors in the sector, deserve to be read with caution: the self-selection of pioneering companies inevitably biases this type of comparison. Those that adopt innovative organizational models are often already more agile and better governed than average.
+
+But reality is less fluid than it appears. Mapping the skills of an organization of a few thousand people is an exercise of formidable complexity: frameworks age quickly, data is dispersed in incompatible systems, and managers often balk at sharing their best elements with other teams. Jesuthasan is lucid about this obstacle: "The capacity and scale of change mean that you must have the ability to reinvent yourself continuously. But who builds that capacity? Who is responsible for it? That is where HR has this massive opportunity to drive change."
+
+### What It Changes for Training
+
+It is in the domain of learning that the effects are most immediate and concrete. The classic logic of corporate training is that of a catalog: sessions are offered based on jobs or hierarchical levels, completion rates are measured, and conclusions are drawn about workforce engagement. This model is deeply inefficient in a skills-based organization.
+
+In such an organization, training must respond to an identified gap between current skills and those required by a project, a position or a strategic evolution. Pathways become shorter, more personalized, more anchored in real work. Mentoring, learning missions and internal rotations regain importance over classroom training. A Deloitte survey reveals that 57% of employees want more opportunities for observation and on-the-job learning, and that 61% cite mentoring programs as one of the most effective vectors of skills development.
+
+As LinkedIn points out, the skills required for jobs have evolved by about 25% over the past eight years, and this figure should double by 2027. The World Economic Forum estimates that 39% of workers' current skills will be transformed or obsolete between 2025 and 2030. In this context, useful training is no longer simply training completed: it is a skill that becomes mobilizable in real work.
+
+For training teams, the "Learning and Development" departments, this implies a change of profession. They are no longer session organizers, but skills architects, capable of linking company strategy, talent mapping and learning pathways into a coherent system.
+
+### The Risk of Language Without Substance
+
+It would be naive to ignore the risks of drift. The world of human resources is fertile ground for concepts that promise revolution and end up as two-day seminars. The "skills-based organization" does not entirely escape this suspicion. The main pitfall is to treat the approach as a technological project. HR software editors have invested massively in "skills intelligence" platforms that promise to automatically map an organization's skills from project history, completed training and job descriptions. These tools are useful. But they do not replace the cultural and political work that such a change implies.
+
+Bill Winters, CEO of Standard Chartered, summarizes the requirement with precision: "Skills are increasingly at the heart of our operating model in order to drive the required organizational transformation. This guides the strategic decisions we make on how we align the evolution of our customers' demand signals with the integration, development and deployment of talent." The key word is "strategic decisions": the SBO only makes sense if it genuinely informs how the company allocates its resources and plans its future.
+
+Simon Roberts, CEO of Sainsbury's, expresses the same conviction: "While many are betting on technology and artificial intelligence to build the retail business of tomorrow, for us it is about knowing how to bring together people, technology and AI. The skills of our workforce will define future success."
+
+In France, reception of the model remains cautious. Most CAC 40 companies have initiated skills mapping projects, driven by digital HR tools and legal obligations stemming from forward-looking employment and skills management agreements. But few have taken the step of a genuine reconfiguration of their operational model around skills. The National Association of HR Directors notes that talent management is now opening up to all employees and is resolutely committed to skills development, marking a profound transformation of practices, even if the path toward a fully integrated SBO remains long.
+
+The real question, at bottom, is not technical. It is a question of power and priorities. In a skills-based organization, who decides which skills count? Who sets the required mastery levels? Who evaluates progress? If these decisions remain in the hands of an isolated HR department, the model will remain a classification exercise rather than a genuine transformation of work. If they involve the business lines, managers and employees themselves, something more substantial becomes possible.
+
+The "skills-based organization" is not a fad. It is an imperfect, demanding, still largely unfinished response to a real problem: that of companies whose formal structures no longer correspond to the reality of what their employees do, nor to the speed at which work is changing. The question is not whether this model will prevail. It is how many organizations will have the patience and discipline to truly implement it.
+
+## Key Concepts
+
+**Skills-Based Organization (SBO).** Organizational model in which individual skills, rather than job titles, constitute the central unit for steering HR decisions: recruitment, mobility, training, project assignment. Skill replaces the job as the basic building block of the organization.
+
+**Skills mapping.** Process of identifying, describing and measuring available skills within an organization. Technical prerequisite of any SBO approach. Often underestimated in its complexity and need for continuous updating, it nevertheless constitutes the sine qua non condition of any decision based on real skills.
+
+**Skills marketplace.** Internal skills market: a device enabling the connection of organizational needs — projects, missions, vacant positions — with available internal skills. Central instrument of internal mobility in a mature SBO, often supported by algorithmic matching platforms.
+
+**Upskilling and reskilling.** Upskilling refers to strengthening existing skills in view of evolution in the same domain; reskilling, the acquisition of new skills in view of a change of function or job. Two distinct imperatives that the SBO is supposed to make more systematic and more precise than in a catalog-based training model.
+
+**Learning and Development (L&D).** Function in charge of training and skills development in the company. In an SBO, its role shifts from catalog organizer to architect of targeted development pathways focused on identified skills gaps. This change of posture is one of the most concrete challenges of the transformation.
+
+**Skills ontology.** Structured and hierarchical framework of skills, enabling the classification, comparison and evolution of skill definitions within an organization. The quality of the ontology — its precision, coherence and ability to be updated — conditions that of the entire SBO approach.
+
+**Internal mobility.** An organization's capacity to redeploy its talent from one position, team or function to another, without external recruitment. The SBO is supposed to accelerate its fluidity by making visible the transversal skills that job titles conceal.
+
+### What Mentivis Actually Does
+
+**Mentivis is not a firm that applies off-the-shelf solutions.**
+
+It is an educational transformation operator that acts on the real mechanisms of change: behaviors, incentives, implicit rules.
+
+**In one sentence**
+
+-   Mentivis transforms strategic intentions into effective transformation capabilities on the ground.
+-   We do not intervene on what organizations would like to change.
+-   We intervene on what they are actually capable of changing, sustainably.
+
+[Contact us!](/meeting/)6:[["$","$L13",null,{"items":[{"name":"Accueil","url":"https://www.mentivis.com/fr/"},{"name":"Insights","url":"https://www.mentivis.com/fr/insights/"},{"name":"Le poste est mort, vive la compétence"}]}],["$","$L14",null,{"article":{"slug":"le-poste-est-mort-vive-la-competence","date":"2026-03-28","category":"strategy-papers","author":"Marie Castelli","readTime":"","heroImage":"/images/insights/collage-surreal-1.avif","keywords":"Actualités, Digital Data IA, Éducation, Insights","titleFr":"Le poste est mort, vive la compétence","titleEn":"The Job Is Dead, Long Live the Skill","excerptFr":"Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises.","excerptEn":"Why is the traditional job model dying in favor of skills? The Skills-Based Organization is revolutionizing business agility.","bodyFr":"$15","bodyEn":"$16"}}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Le poste est mort, vive la compétence | Insights — Mentivis | Mentivis"}],["$","meta","1",{"name":"description","content":"Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"Actualités, Digital Data IA, Éducation, Insights"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence/"}],["$","link","6",{"rel":"alternate","hrefLang":"fr-FR","href":"https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence/"}],["$","link","7",{"rel":"alternate","hrefLang":"en-US","href":"https://www.mentivis.com/en/insights/le-poste-est-mort-vive-la-competence/"}],["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence/"}],["$","meta","9",{"property":"og:title","content":"Le poste est mort, vive la compétence"}],["$","meta","10",{"property":"og:description","content":"Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises."}],["$","meta","11",{"property":"og:locale","content":"fr_FR"}],["$","meta","12",{"property":"og:image","content":"https://www.mentivis.com/images/insights/collage-surreal-1.avif"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","16",{"name":"twitter:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","17",{"name":"twitter:image","content":"https://www.mentivis.com/opengraph-image.jpg"}],["$","link","18",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","19",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","20",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","23",{}]]

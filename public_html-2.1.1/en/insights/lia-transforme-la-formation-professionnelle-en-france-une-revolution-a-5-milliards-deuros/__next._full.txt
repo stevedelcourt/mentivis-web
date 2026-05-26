@@ -1,0 +1,170 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","en","insights","lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros",""],"q":"","i":false,"f":[[["",{"children":[["lang","en","d",null],{"children":["insights",{"children":[["slug","lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"lkLQ2MhCtBK08O40iEZyh"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+14:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","1568","static/chunks/1568-2bc7ea8b444d26fe.js","9427","static/chunks/app/lang/insights/slug/page-7d221e21aa8bde22.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"en"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+15:T2266,##### L’intelligence artificielle n’est plus une promesse d’avenir : elle transforme déjà en profondeur le marché du travail français. Comparable à l’émergence d’Internet, cette révolution technologique impose une refonte complète de nos approches de la formation professionnelle. Les chiffres parlent d’eux-mêmes : 27% des tâches réalisées par les salariés français pourraient être confiées à l’IA d’ici 2030, contraignant potentiellement 1,7 million de personnes à changer de métier.
+
+Face à cette disruption, la France déploie une stratégie ambitieuse, portée par un investissement public de 5 milliards d’euros annuels sur cinq ans. Mais au-delà des montants, c’est toute l’architecture de la formation qui se réinvente.
+
+## Une explosion de la demande qui redéfinit les métiers
+
+Le marché de l’emploi français vit une transformation sans précédent. Les offres d’emploi liées à l’IA ont bondi de 273% entre 2019 et 2024, passant de 21 000 à 166 000 postes. Cette croissance place la France en tête du classement européen pour le volume d’offres exigeant des compétences en IA.
+
+Contrairement aux craintes initiales, l’IA complète plus qu’elle ne remplace : les métiers fortement exposés à l’IA ont progressé de 273%, contre 251% pour les métiers moins exposés. Cette dynamique s’accompagne d’une revalorisation significative : les salaires pour les emplois exigeant des compétences en IA sont 56% plus élevés en moyenne.
+
+**L’accélération des compétences devient critique.** Alors que l’obsolescence des compétences est passée de 30 ans dans les années 1980 à seulement 2 ans aujourd’hui, les compétences recherchées dans les métiers liés à l’IA évoluent 66% plus vite qu’en 2023. Les secteurs du numérique, de l’ingénierie, du conseil et de l’événementiel devront former 287 000 salariés à l’usage de l’IA d’ici 2030 et recruter plus de 45 000 nouveaux spécialistes d’ici 2028.
+
+## L’IA au service de la personnalisation pédagogique
+
+L’intelligence artificielle ne se contente pas de transformer les emplois : elle révolutionne les modalités d’apprentissage elles-mêmes. 62% des organismes de formation prévoient d’intégrer des solutions d’IA dans leurs dispositifs d’ici 2025, ouvrant un champ des possibles inédit.
+
+**La personnalisation devient la norme.** L’IA permet d’adapter en continu les parcours d’apprentissage, offrant une individualisation des formations jusqu’alors impossible à grande échelle. Les outils génératifs réduisent le temps de conception pédagogique de 40% tout en augmentant la variété des exercices de 25%.
+
+Les applications se multiplient : génération de scénarios d’apprentissage personnalisés, création d’évaluations adaptatives, assistance pédagogique en temps réel, ou encore optimisation des tâches administratives. L’IA agit désormais comme un véritable assistant pour apprenants et formateurs, libérant du temps pour des missions à plus forte valeur ajoutée.
+
+Cette transformation s’accompagne de nouveaux défis. Si 30% des contenus produits par l’IA nécessitent encore une révision experte, l’objectif n’est pas de remplacer l’humain mais de l’augmenter, en maintenant le contrôle pédagogique au cœur du processus.
+
+## Des défis structurels qui appellent une réponse coordonnée
+
+Malgré ces avancées, l’intégration de l’IA dans la formation française fait face à des obstacles majeurs. La pénurie de talents techniques touche 34% des entreprises françaises, tandis que seulement 8% d’entre elles ont généralisé l’IA à l’ensemble de leur organisation, bien que 80% l’aient déployée dans au moins une fonction.
+
+**Les enjeux éthiques et juridiques émergent comme priorités.** La protection des données personnelles sous le RGPD, les questions de propriété intellectuelle liées à l’entraînement des IA génératives, et la nécessité d’assurer la traçabilité des contenus générés constituent autant de défis réglementaires à résoudre.
+
+La souveraineté technologique représente un autre enjeu crucial. La France et l’Europe accusent un retard face aux États-Unis et à la Chine, créant une dépendance aux outils étrangers qui pourrait entraîner une fuite de valeur économique et des risques en matière de protection des données.
+
+## Une stratégie nationale ambitieuse
+
+Face à ces défis, la Commission de l’IA a formulé 25 recommandations pour faire de la France un acteur majeur de l’intelligence artificielle. L’investissement proposé de 5 milliards d’euros annuels se répartit entre 1,2 milliard pour la formation initiale et la sensibilisation, et 200 millions pour la formation continue.
+
+**La création d’un fonds « France & IA » de 10 milliards d’euros** (7 milliards de capital-investissement et 3 milliards de soutien public) vise à soutenir l’écosystème IA et accompagner la transformation des PME et ETI.
+
+L’approche privilégie une montée en compétences structurée en trois niveaux : acculturation pour tous, usage pour les utilisateurs, et développement pour les spécialistes. Cette offre de formation continue sera éligible au Compte Personnel de Formation (CPF), démocratisant l’accès aux compétences IA.
+
+**Le dialogue social devient un pilier de la transformation.** La stratégie mise sur la co-construction des usages avec les partenaires sociaux et le développement de « Cafés IA » pour informer et sensibiliser l’ensemble des publics, y compris les parents d’élèves.
+
+## Un écosystème d’acteurs en mouvement
+
+La dynamique française s’appuie sur un écosystème diversifié d’acteurs publics et privés. L’OPCO Atlas mène une étude approfondie sur l’impact de l’IA générative, tandis que France Travail propose des formations aux fondamentaux et aux outils génératifs comme ChatGPT.
+
+**Le secteur privé se structure rapidement.** Le groupe Cegos développe des formations spécialisées, Mister IA propose des parcours éligibles au CPF, et des écoles comme Télécom Paris créent des Mastères Spécialisés dédiés. Cette effervescence témoigne d’un marché en pleine structuration.
+
+Les dispositifs de financement se multiplient : au-delà des fonds publics, les OPCO, le CPF, le Fonds National de l’Emploi, et le programme IA Booster France 2030 offrent un panel d’outils pour accompagner la montée en compétences.
+
+## Vers une nouvelle donne de la formation
+
+La transformation en cours dépasse la simple adoption d’outils technologiques. Elle redéfinit le rapport au savoir, à l’apprentissage et à l’évaluation des compétences. L’enjeu n’est plus seulement de former à l’IA, mais de former avec l’IA, en tirant parti de ses capacités pour créer des expériences d’apprentissage plus efficaces et personnalisées.
+
+**Cette révolution impose un changement de paradigme :** passer d’une logique de formation ponctuelle à un apprentissage continu, d’une approche standardisée à une personnalisation de masse, d’une évaluation statique à une adaptation dynamique des parcours.
+
+Pour réussir cette transformation, la France mise sur une approche collaborative associant investissements publics massifs, innovation pédagogique et dialogue social. L’objectif : faire de l’IA un levier de progrès économique et social, tout en préservant la dimension humaine de la formation.
+
+La course est lancée, et les prochaines années détermineront si la France saura saisir cette opportunité historique de redéfinir son avantage concurrentiel par l’intelligence artificielle.
+
+_Cet article s’appuie sur les travaux de la Commission de l’IA, les études de l’Institut de l’Entreprise, l’OPIIEC, ainsi que les rapports de l’OPCO Atlas et du ministère du Travail._
+
+## Comment Mentivis peut vous guider dans cette nouvelle ère IA
+
+Naviguer dans la révolution de l’IA appliquée à la formation n’est pas qu’une question de technologie. C’est un enjeu stratégique : identifier les compétences à prioriser, bâtir des parcours adaptés et maximiser les financements disponibles.
+
+**Notre approche :**
+
+-   **Diagnostic stratégique** : cartographie des impacts IA sur vos métiers et formations.
+-   **Feuille de route opérationnelle** : priorisation des compétences critiques et des investissements.
+-   **Accélération** : conception de dispositifs IA-ready, intégrant CPF et financements publics.
+
+**Faites le premier pas vers une formation plus agile et compétitive.**
+
+[Contactez Mentivis dès aujourd’hui pour un diagnostic personnalisé et des solutions concrètes adaptées à vos enjeux.](https://mentivis.com/contact-general/)16:T1ce2,##### Artificial intelligence is no longer a promise for the future: it is already transforming the French labor market in depth. Comparable to the emergence of the Internet, this technological revolution requires a complete overhaul of our approaches to professional training. The figures speak for themselves: 27% of tasks performed by French employees could be entrusted to AI by 2030, potentially forcing 1.7 million people to change jobs.
+
+Faced with this disruption, France is deploying an ambitious strategy, driven by a public investment of €5 billion annually over five years. But beyond the amounts, it is the entire architecture of training that is reinventing itself.
+
+## An Explosion of Demand That Redefines Jobs
+
+The French labor market is undergoing an unprecedented transformation. Job postings related to AI have jumped 273% between 2019 and 2024, from 21,000 to 166,000 positions. This growth places France at the top of the European ranking for the volume of postings requiring AI skills.
+
+Contrary to initial fears, AI complements more than it replaces: jobs heavily exposed to AI have grown 273%, versus 251% for less exposed jobs. This dynamic is accompanied by significant revaluation: salaries for jobs requiring AI skills are 56% higher on average.
+
+**The acceleration of skills is becoming critical.** While skill obsolescence has gone from 30 years in the 1980s to just 2 years today, skills sought in AI-related jobs are evolving 66% faster than in 2023. The digital, engineering, consulting and events sectors will need to train 287,000 employees in AI usage by 2030 and recruit more than 45,000 new specialists by 2028.
+
+## AI at the Service of Pedagogical Personalization
+
+Artificial intelligence does not merely transform jobs: it revolutionizes the very modalities of learning. 62% of training organizations plan to integrate AI solutions into their programs by 2025, opening an unprecedented field of possibilities.
+
+**Personalization is becoming the norm.** AI makes it possible to continuously adapt learning pathways, offering an individualization of training hitherto impossible at scale. Generative tools reduce pedagogical design time by 40% while increasing exercise variety by 25%.
+
+Applications are multiplying: generation of personalized learning scenarios, creation of adaptive assessments, real-time pedagogical assistance, and optimization of administrative tasks. AI now acts as a genuine assistant for learners and trainers, freeing up time for higher value-added missions.
+
+This transformation comes with new challenges. If 30% of AI-produced content still requires expert revision, the goal is not to replace humans but to augment them, maintaining pedagogical control at the heart of the process.
+
+## Structural Challenges Calling for a Coordinated Response
+
+Despite these advances, the integration of AI into French training faces major obstacles. The talent shortage affects 34% of French companies, while only 8% of them have generalized AI across their entire organization, although 80% have deployed it in at least one function.
+
+**Ethical and legal issues are emerging as priorities.** The protection of personal data under the GDPR, intellectual property questions linked to the training of generative AIs, and the need to ensure traceability of generated content constitute as many regulatory challenges to resolve.
+
+Technological sovereignty represents another crucial issue. France and Europe are lagging behind the United States and China, creating a dependence on foreign tools that could lead to an economic value leak and risks in terms of data protection.
+
+## An Ambitious National Strategy
+
+Faced with these challenges, the AI Commission has formulated 25 recommendations to make France a major actor in artificial intelligence. The proposed investment of €5 billion annually is split between €1.2 billion for initial training and awareness-raising, and €200 million for continuing training.
+
+**The creation of a "France & AI" fund of €10 billion** (€7 billion in venture capital and €3 billion in public support) aims to support the AI ecosystem and accompany the transformation of SMEs and mid-caps.
+
+The approach favors a structured skills upgrade in three levels: acculturation for all, usage for users, and development for specialists. This continuing training offering will be eligible for the Personal Training Account (CPF), democratizing access to AI skills.
+
+**Social dialogue becomes a pillar of the transformation.** The strategy bets on co-constructing uses with social partners and developing "AI Cafés" to inform and raise awareness among all audiences, including parents of students.
+
+## An Ecosystem of Actors in Motion
+
+The French dynamic relies on a diversified ecosystem of public and private actors. OPCO Atlas is conducting an in-depth study on the impact of generative AI, while France Travail offers training on fundamentals and generative tools such as ChatGPT.
+
+**The private sector is structuring rapidly.** The Cegos group develops specialized training, Mister IA offers CPF-eligible pathways, and schools such as Télécom Paris create dedicated Specialized Masters. This effervescence testifies to a market in full structuring.
+
+Financing mechanisms are multiplying: beyond public funds, OPCOs, the CPF, the National Employment Fund, and the France 2030 AI Booster program offer a range of tools to support skills development.
+
+## Toward a New Deal in Training
+
+The ongoing transformation goes beyond the simple adoption of technological tools. It redefines the relationship with knowledge, learning and skills assessment. The challenge is no longer only to train in AI, but to train with AI, leveraging its capabilities to create more effective and personalized learning experiences.
+
+**This revolution requires a paradigm shift:** moving from a logic of one-off training to continuous learning, from a standardized approach to mass personalization, from static assessment to dynamic adaptation of pathways.
+
+To succeed in this transformation, France is betting on a collaborative approach combining massive public investment, pedagogical innovation and social dialogue. The objective: to make AI a lever for economic and social progress, while preserving the human dimension of training.
+
+The race is on, and the coming years will determine whether France can seize this historic opportunity to redefine its competitive advantage through artificial intelligence.
+
+_This article draws on the work of the AI Commission, studies by the Institut de l'Entreprise, OPIIEC, as well as reports by OPCO Atlas and the Ministry of Labor._
+
+## How Mentivis Can Guide You in This New AI Era
+
+Navigating the AI revolution applied to training is not just a question of technology. It is a strategic issue: identifying the skills to prioritize, building adapted pathways and maximizing available financing.
+
+**Our approach:**
+
+-   **Strategic diagnosis**: mapping of AI impacts on your jobs and training programs.
+-   **Operational roadmap**: prioritization of critical skills and investments.
+-   **Acceleration**: design of AI-ready programs, integrating CPF and public funding.
+
+**Take the first step toward more agile and competitive training.**
+
+[Contact Mentivis today for a personalized diagnosis and concrete solutions adapted to your challenges.](https://mentivis.com/contact-general/)6:[["$","$L13",null,{"items":[{"name":"Home","url":"https://www.mentivis.com/en/"},{"name":"Insights","url":"https://www.mentivis.com/en/insights/"},{"name":"AI Is Transforming Professional Training in France: A €5 Billion Revolution"}]}],["$","$L14",null,{"article":{"slug":"lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros","date":"2025-07-26","category":"news","author":"Jean-Marc Benetti","readTime":"","heroImage":"/images/insights/brazil.avif","keywords":"Actualités, Digital Data IA, Formation, Insights, Règlementations","titleFr":"L’IA transforme la formation professionnelle en France : une révolution à 5 milliards d’euros","titleEn":"AI Is Transforming Professional Training in France: A €5 Billion Revolution","excerptFr":"L'intelligence artificielle redéfinit la formation professionnelle en France, portée par 5 milliards d'euros d'investissements et une transformation rapide des compétences.","excerptEn":"Artificial intelligence is redefining professional training in France, driven by €5 billion in investments and a rapid transformation of skills.","bodyFr":"$15","bodyEn":"$16"}}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"AI Is Transforming Professional Training in France: A €5 Billion Revolution | Insights — Mentivis | Mentivis"}],["$","meta","1",{"name":"description","content":"Artificial intelligence is redefining professional training in France, driven by €5 billion in investments and a rapid transformation of skills."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"Actualités, Digital Data IA, Formation, Insights, Règlementations"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://www.mentivis.com/en/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros/"}],["$","link","6",{"rel":"alternate","hrefLang":"fr-FR","href":"https://www.mentivis.com/fr/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros/"}],["$","link","7",{"rel":"alternate","hrefLang":"en-US","href":"https://www.mentivis.com/en/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros/"}],["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://www.mentivis.com/fr/insights/lia-transforme-la-formation-professionnelle-en-france-une-revolution-a-5-milliards-deuros/"}],["$","meta","9",{"property":"og:title","content":"AI Is Transforming Professional Training in France: A €5 Billion Revolution"}],["$","meta","10",{"property":"og:description","content":"Artificial intelligence is redefining professional training in France, driven by €5 billion in investments and a rapid transformation of skills."}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://www.mentivis.com/images/insights/brazil.avif"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Mentivis - Every training discipline. End to end."}],["$","meta","16",{"name":"twitter:description","content":"Mentivis designs, structures and deploys training programs. Compensation aligned with results."}],["$","meta","17",{"name":"twitter:image","content":"https://www.mentivis.com/opengraph-image.jpg"}],["$","link","18",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","19",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","20",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","23",{}]]
