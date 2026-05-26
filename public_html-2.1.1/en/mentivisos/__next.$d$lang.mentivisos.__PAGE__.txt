@@ -1,8 +1,0 @@
-1:"$Sreact.fragment"
-2:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","4557","static/chunks/app/lang/mentivisos/page-bffe355183b87184.js"],"default"]
-3:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","4557","static/chunks/app/lang/mentivisos/page-bffe355183b87184.js"],"default"]
-4:I[84647,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","4557","static/chunks/app/lang/mentivisos/page-bffe355183b87184.js"],"default"]
-5:I[90484,[],"OutletBoundary"]
-6:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"data":{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MentivisOS","description":"The AI-native platform that builds the exact learning path each person needs.","url":"https://www.mentivis.com/en/mentivisos","brand":{"@id":"https://www.mentivis.com/#organization"},"inLanguage":"en-US"}}],["$","$L3",null,{"items":[{"name":"Home","url":"https://www.mentivis.com/en/"},{"name":"MentivisOS"}]}],["$","$L4",null,{}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lkLQ2MhCtBK08O40iEZyh"}
-7:null

@@ -1430,5 +1430,90 @@
         }
       ]
     }
+  },
+  "mentivisos": {
+    "hero": {
+      "eyebrow": "LearningOS",
+      "headline": "Former autrement.|Performer durablement.",
+      "subheadline": "Générez des parcours personnalisés, adaptez les contenus automatiquement et pilotez la progression de vos équipes dans un seul système natif IA.",
+      "ctaPrimary": "Démarrer gratuitement",
+      "ctaSecondary": "Contacter l'équipe",
+      "ctaSecondaryLink": "/contact/",
+      "proof": "Utilisé par les directions de la formation, les CFA, les campus d'entreprise."
+    },
+    "sectors": {
+      "headline": "Quelles organisations peuvent former, recruter et piloter les compétences depuis un seul système ?",
+      "baseline": "Le système opérationnel des compétences, du recrutement à l'impact",
+      "cta": "Demander une démo"
+    },
+    "pipeline": {
+      "eyebrow": "PARCOURS COMPLET",
+      "title": "Du référentiel à la certification, un seul flux.",
+      "steps": [
+        {
+          "label": "Définir",
+          "desc": "Compétences visées, métiers, référentiels internes."
+        },
+        {
+          "label": "Générer",
+          "desc": "Parcours personnalisés avec objectifs et modules."
+        },
+        {
+          "label": "Former",
+          "desc": "Agents IA accompagnent chaque apprenant."
+        },
+        {
+          "label": "Évaluer",
+          "desc": "Quiz, mises en situation, validation des acquis."
+        },
+        {
+          "label": "Certifier",
+          "desc": "Certifications et badges de compétences."
+        },
+        {
+          "label": "Analyser",
+          "desc": "Dashboard, reporting, conformité OPCO."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "title": "Tout ce qu'il faut savoir avant de commencer",
+      "lead": "Réponses concises aux questions les plus posées par les directions formation et les opérateurs.",
+      "items": [
+        {
+          "question": "MentivisOS est-il un LMS ?",
+          "answer": "Non. Un LMS diffuse des contenus et enregistre des completions. MentivisOS construit, déploie, adapte et mesure la transformation réelle des compétences dans une organisation. C'est un système d'exploitation pédagogique, pas une bibliothèque de modules."
+        },
+        {
+          "question": "Qu'est-ce qui distingue MentivisOS des outils IA de formation ?",
+          "answer": "La plupart des outils IA génèrent des contenus. MentivisOS orchestre l'ensemble du cycle : diagnostic de faisabilité, génération de parcours personnalisés, mesure compétence par compétence, recalcul dynamique à chaque étape, et analyse de risque avant déploiement. L'IA n'est pas la fonctionnalité. C'est l'infrastructure."
+        },
+        {
+          "question": "Comment MentivisOS mesure-t-il la performance ?",
+          "answer": "Pas par la consommation. Pas par le taux de completion. MentivisOS mesure l'acquisition réelle, compétence par compétence, et ajuste les parcours en fonction des écarts détectés. Ce que vous pilotez, c'est la capacité effective de vos équipes, pas leur présence dans un module."
+        },
+        {
+          "question": "À quels types d'organisations MentivisOS s'adresse-t-il ?",
+          "answer": "Entreprises engagées dans une transformation IA, universités et grandes écoles, groupes hospitaliers, organismes de formation, OPCOs, administrations publiques. MentivisOS est conçu pour les organisations qui ont besoin d'opérationnaliser la montée en compétences à grande échelle, avec des contraintes de conformité, de gouvernance et d'intégration."
+        },
+        {
+          "question": "MentivisOS et la souveraineté des données ?",
+          "answer": "MentivisOS est conçu pour un hébergement souverain européen, conforme aux exigences RGPD et aux politiques de données des institutions publiques et parapubliques. Vos données de compétences, vos contenus et vos parcours restent sous votre contrôle, sur l'infrastructure de votre choix."
+        },
+        {
+          "question": "Comment se déroule un déploiement ?",
+          "answer": "Tout déploiement commence par un diagnostic de transformation : cartographie des compétences, analyse des infrastructures existantes, évaluation de la maturité IA, scoring de faisabilité. MentivisOS est ensuite déployé par unité, par département ou par campus sur un cycle pilote de 90 jours avant toute généralisation. Mentivis assure l'implémentation de bout en bout."
+        },
+        {
+          "question": "Quel est le rôle de Mentivis ?",
+          "answer": "Mentivis est l'opérateur derrière MentivisOS. Ce n'est pas un éditeur qui livre un logiciel et vous laisse seul. Mentivis conçoit, développe et opère les projets de transformation pédagogique de bout en bout, avec une expertise accumulée auprès d'institutions, d'entreprises et de ministères en France et à l'international."
+        },
+        {
+          "question": "Par où commencer ?",
+          "answer": "Par un diagnostic. Nous auditons votre système de compétences actuel, identifions les écarts, évaluons votre maturité IA et produisons un plan de déploiement avec scoring de faisabilité. C'est le point d'entrée naturel avant toute décision d'investissement."
+        }
+      ]
+    }
   }
 }

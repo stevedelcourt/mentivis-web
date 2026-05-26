@@ -1,8 +1,0 @@
-1:"$Sreact.fragment"
-2:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9241","static/chunks/app/lang/about/page-c9724f2ac3d03b5b.js"],"default"]
-3:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9241","static/chunks/app/lang/about/page-c9724f2ac3d03b5b.js"],"default"]
-4:I[23018,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-9158b12997ed8ee7.js","8320","static/chunks/8320-d9c8f1f403a07d02.js","9241","static/chunks/app/lang/about/page-c9724f2ac3d03b5b.js"],"default"]
-5:I[90484,[],"OutletBoundary"]
-6:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"data":{"@context":"https://schema.org","@type":"AboutPage","name":"À propos de Mentivis","url":"https://www.mentivis.com/fr/about","description":"Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.","publisher":{"@id":"https://www.mentivis.com/#organization"}}}],["$","$L3",null,{"items":[{"name":"Accueil","url":"https://www.mentivis.com/fr/"},{"name":"À propos"}]}],["$","$L4",null,{}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lkLQ2MhCtBK08O40iEZyh"}
-7:null

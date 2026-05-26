@@ -1295,3 +1295,82 @@ answer: Each Ambassador signs a business introducer contract defining: the scope
 # ambassadors.faq.items[9]
 question: Commission billing and payment
 answer: Commissions are paid after signature and collection of the relevant contracts. Depending on the partner's status: direct billing via company, independent status, or other compatible structure.
+
+# mentivisos.hero
+eyebrow: LearningOS
+headline: Train differently.|Perform sustainably.
+subheadline: Generate tailored learning paths, adapt content automatically, and track your teams' progress in a single AI-native system.
+ctaPrimary: Start for free
+ctaSecondary: Contact the team
+ctaSecondaryLink: /contact/
+proof: Used by training departments, CFAs, corporate campuses.
+
+# mentivisos.sectors
+headline: Which organizations can train, recruit, and manage skills from a single system?
+baseline: The operational system for skills, from recruitment to impact
+cta: Request a demo
+
+# mentivisos.pipeline
+eyebrow: FULL WORKFLOW
+title: From competency framework to certification, in one flow.
+
+# mentivisos.pipeline.steps[0]
+label: Define
+desc: Target skills, professions, internal frameworks.
+
+# mentivisos.pipeline.steps[1]
+label: Generate
+desc: Personalized paths with objectives and modules.
+
+# mentivisos.pipeline.steps[2]
+label: Train
+desc: AI agents guide each learner.
+
+# mentivisos.pipeline.steps[3]
+label: Assess
+desc: Quizzes, simulations, skills validation.
+
+# mentivisos.pipeline.steps[4]
+label: Certify
+desc: Certifications and skill badges.
+
+# mentivisos.pipeline.steps[5]
+label: Analyze
+desc: Dashboard, reporting, OPCO compliance.
+
+# mentivisos.faq
+eyebrow: FAQ
+title: Everything you need to know before starting
+lead: Concise answers to the questions most asked by training directors and operators.
+
+# mentivisos.faq.items[0]
+question: Is MentivisOS an LMS?
+answer: No. An LMS distributes content and tracks completion. MentivisOS builds, deploys, adapts, and measures real skills transformation within an organization. It's a pedagogical operating system, not a module library.
+
+# mentivisos.faq.items[1]
+question: What sets MentivisOS apart from AI training tools?
+answer: Most AI tools generate content. MentivisOS orchestrates the entire cycle: feasibility diagnostic, personalized path generation, skill-by-skill measurement, dynamic recalculation at each step, and risk analysis before deployment. AI isn't the feature. It's the infrastructure.
+
+# mentivisos.faq.items[2]
+question: How does MentivisOS measure performance?
+answer: Not by consumption. Not by completion rate. MentivisOS measures real acquisition, skill by skill, and adjusts paths based on detected gaps. What you manage is your teams' actual capability, not their presence in a module.
+
+# mentivisos.faq.items[3]
+question: What types of organizations is MentivisOS for?
+answer: Companies engaged in AI transformation, universities and grandes écoles, hospital groups, training organizations, OPCOs, public administrations. MentivisOS is designed for organizations that need to operationalize large-scale skills development with compliance, governance, and integration constraints.
+
+# mentivisos.faq.items[4]
+question: MentivisOS and data sovereignty?
+answer: MentivisOS is designed for European sovereign hosting, compliant with GDPR requirements and data policies of public and semi-public institutions. Your skills data, content, and paths remain under your control on the infrastructure of your choice.
+
+# mentivisos.faq.items[5]
+question: How does a deployment work?
+answer: Every deployment begins with a transformation diagnostic: skills mapping, existing infrastructure analysis, AI maturity assessment, feasibility scoring. MentivisOS is then deployed by unit, department, or campus on a 90-day pilot cycle before any generalization. Mentivis handles implementation end to end.
+
+# mentivisos.faq.items[6]
+question: What is Mentivis's role?
+answer: Mentivis is the operator behind MentivisOS. It's not a publisher that delivers software and leaves you alone. Mentivis designs, deploys, and operates pedagogical transformation projects end to end, with expertise accumulated with institutions, companies, and ministries in France and internationally.
+
+# mentivisos.faq.items[7]
+question: Where to start?
+answer: With a diagnostic. We audit your current skills system, identify gaps, assess your AI maturity, and produce a deployment plan with feasibility scoring. It's the natural entry point before any investment decision.
