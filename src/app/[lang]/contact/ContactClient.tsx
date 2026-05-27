@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import Reveal from "@/components/Reveal";
@@ -92,9 +92,7 @@ function getSubjectPrefill(subject: string | null, lang: string): string {
   return isFr ? `Demande concernant : ${subject}` : `Inquiry about: ${subject}`;
 }
 
-export default function ContactClient() {
-  const { t, lang } = useMessages();
-  const c = t.contact;
+function ContactForm({ lang, c }: { lang: string; c: any }) {
   const searchParams = useSearchParams();
   const subject = searchParams.get("subject");
   const prefill = getSubjectPrefill(subject, lang);
@@ -137,6 +135,72 @@ export default function ContactClient() {
     }
   };
 
+  if (sent) {
+    return <ContactSuccess title={c.successTitle} body={c.successBody} back={c.successBack} />;
+  }
+
+  return (
+    <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
+      <input
+        type="text"
+        name="website"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        tabIndex={-1}
+        autoComplete="off"
+        style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+      />
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
+        <Field label={c.labels.firstname}>
+          <input className="input" required value={form.firstname} onChange={(e) => update("firstname", e.target.value)} />
+        </Field>
+        <Field label={c.labels.lastname}>
+          <input className="input" required value={form.lastname} onChange={(e) => update("lastname", e.target.value)} />
+        </Field>
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
+        <Field label={c.labels.email}>
+          <input type="email" className="input" required value={form.email} onChange={(e) => update("email", e.target.value)} />
+        </Field>
+        <Field label={c.labels.phone}>
+          <input type="tel" className="input" value={form.phone} onChange={(e) => update("phone", e.target.value)} />
+        </Field>
+      </div>
+      <Field label={c.labels.project}>
+        <textarea className="textarea" required value={form.project} onChange={(e) => update("project", e.target.value)} />
+      </Field>
+      <label style={{ display: "flex", alignItems: "flex-start", gap: 10, cursor: "pointer", fontSize: 13, color: "var(--m-ink-3)", lineHeight: 1.5 }}>
+        <input
+          type="checkbox"
+          required
+          checked={consent}
+          onChange={(e) => setConsent(e.target.checked)}
+          style={{ marginTop: 2, flexShrink: 0 }}
+        />
+        <span>
+          {c.labels.consent}{" "}
+          <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{c.labels.consentLink}</Link>.
+        </span>
+      </label>
+      {error && (
+        <p style={{ color: "#dc2626", fontSize: 14, margin: 0 }}>
+          {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
+        </p>
+      )}
+      <div>
+        <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 12, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
+          {loading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : c.labels.submit}
+          <Icon name="chevron_right" size={18} />
+        </button>
+      </div>
+    </form>
+  );
+}
+
+export default function ContactClient() {
+  const { t, lang } = useMessages();
+  const c = t.contact;
+
   return (
     <PageShell hidePreFooterCTA>
       <JsonLd data={{
@@ -171,64 +235,9 @@ export default function ContactClient() {
       <section style={{ padding: "40px 0 100px" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 80, alignItems: "start" }} className="m-split-grid">
-            {sent ? (
-              <ContactSuccess title={c.successTitle} body={c.successBody} back={c.successBack} />
-            ) : (
-              <form onSubmit={submit} style={{ display: "flex", flexDirection: "column" as const, gap: 24 }}>
-                <input
-                  type="text"
-                  name="website"
-                  value={honeypot}
-                  onChange={(e) => setHoneypot(e.target.value)}
-                  tabIndex={-1}
-                  autoComplete="off"
-                  style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
-                />
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
-                  <Field label={c.labels.firstname}>
-                    <input className="input" required value={form.firstname} onChange={(e) => update("firstname", e.target.value)} />
-                  </Field>
-                  <Field label={c.labels.lastname}>
-                    <input className="input" required value={form.lastname} onChange={(e) => update("lastname", e.target.value)} />
-                  </Field>
-                </div>
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }} className="m-grid-2">
-                  <Field label={c.labels.email}>
-                    <input type="email" className="input" required value={form.email} onChange={(e) => update("email", e.target.value)} />
-                  </Field>
-                  <Field label={c.labels.phone}>
-                    <input type="tel" className="input" value={form.phone} onChange={(e) => update("phone", e.target.value)} />
-                  </Field>
-                </div>
-                <Field label={c.labels.project}>
-                  <textarea className="textarea" required value={form.project} onChange={(e) => update("project", e.target.value)} />
-                </Field>
-                <label style={{ display: "flex", alignItems: "flex-start", gap: 10, cursor: "pointer", fontSize: 13, color: "var(--m-ink-3)", lineHeight: 1.5 }}>
-                  <input
-                    type="checkbox"
-                    required
-                    checked={consent}
-                    onChange={(e) => setConsent(e.target.checked)}
-                    style={{ marginTop: 2, flexShrink: 0 }}
-                  />
-                  <span>
-                    {c.labels.consent}{" "}
-                    <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{c.labels.consentLink}</Link>.
-                  </span>
-                </label>
-                {error && (
-                  <p style={{ color: "#dc2626", fontSize: 14, margin: 0 }}>
-                    {lang === "fr" ? "Une erreur est survenue. Veuillez réessayer." : "An error occurred. Please try again."}
-                  </p>
-                )}
-                <div>
-                  <button type="submit" disabled={loading} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: loading ? "var(--m-ink-4)" : "var(--m-purple)", border: "none", borderRadius: 12, cursor: loading ? "not-allowed" : "pointer", marginTop: 8 }}>
-                    {loading ? (lang === "fr" ? "Envoi en cours..." : "Sending...") : c.labels.submit}
-                    <Icon name="chevron_right" size={18} />
-                  </button>
-                </div>
-              </form>
-            )}
+            <Suspense fallback={<div style={{ height: 400 }} />}>
+              <ContactForm lang={lang} c={c} />
+            </Suspense>
 
             <aside style={{ borderLeft: "1px solid var(--m-line)", paddingLeft: 40 }} className="m-aside">
               <ContactSidebar lang={lang} eyebrow="Un échange, sans détour" showImage />

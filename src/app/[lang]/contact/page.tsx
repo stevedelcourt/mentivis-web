@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { localeAlternates } from "@/lib/metadata";
-import { Suspense } from "react";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import ContactClient from "./ContactClient";
 
@@ -29,9 +28,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
         { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
         { name: isFr ? "Contact" : "Contact" }
       ]} />
-      <Suspense fallback={<div style={{ minHeight: "80vh" }} />}>
-        <ContactClient />
-      </Suspense>
+      <ContactClient />
     </>
   );
 }
