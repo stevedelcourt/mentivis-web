@@ -1,5 +1,15 @@
 [
   {
+    "slug": "architecte-systemes-ia-lead-mlops",
+    "titleFr": "Architecte Systemes IA / Lead MLOps",
+    "titleEn": "AI Systems Architect / Lead MLOps",
+    "department": "Engineering & Product",
+    "location": "Marseille",
+    "type": "cdi",
+    "remote": false,
+    "date": "2026-05-27"
+  },
+  {
     "slug": "campaign-manager-google-ads",
     "titleFr": "Campaign Manager Google Ads",
     "titleEn": "Campaign Manager Google Ads",
