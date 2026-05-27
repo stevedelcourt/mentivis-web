@@ -1,8 +1,9 @@
 "use client";
 
-import { useRef, useEffect, useCallback } from "react";
+import { useRef, useEffect, useCallback, useState } from "react";
 import { useMessages } from "@/lib/messages";
 import ButtonLink from "@/components/ui/ButtonLink";
+import { buildContactUrl } from "@/lib/contact-url";
 
 const GAP = 30;
 const BASE_SPEED = 0.25;
@@ -12,9 +13,10 @@ const FRONT_Y_OFFSET_DESKTOP = -300;
 const FRONT_Y_OFFSET_MOBILE = -136;
 
 export default function ParallaxHero() {
-  const { t } = useMessages();
+  const { t, lang } = useMessages();
   const h = t.mentivisos.hero;
 
+  const sectionRef = useRef<HTMLElement>(null);
   const backTrackRef = useRef<HTMLDivElement>(null);
   const frontTrackRef = useRef<HTMLDivElement>(null);
   const imgWRef = useRef(0);
@@ -23,6 +25,7 @@ export default function ParallaxHero() {
   const rafRef = useRef(0);
   const fallbackTimer = useRef(0);
   const isMobileRef = useRef(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 768px)");
@@ -32,6 +35,17 @@ export default function ParallaxHero() {
     isMobileRef.current = mq.matches;
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
+  }, []);
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setVisible(entry.isIntersecting),
+      { threshold: 0 }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
   }, []);
 
   const measure = useCallback(() => {
@@ -70,6 +84,10 @@ export default function ParallaxHero() {
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     const tick = () => {
+      if (!visible) {
+        rafRef.current = requestAnimationFrame(tick);
+        return;
+      }
       const speedMul = 1 + scrollYRef.current * 0.0003;
       offsetRef.current += BASE_SPEED * speedMul;
 
@@ -118,6 +136,7 @@ export default function ParallaxHero() {
     <>
       {/* Text hero */}
       <section
+        ref={sectionRef}
         style={{
           padding: "clamp(80px, 11vw, 140px) 0 clamp(32px, 5vw, 56px)",
           background: "var(--m-bg)",
@@ -169,7 +188,7 @@ export default function ParallaxHero() {
             <ButtonLink href="https://app.mentivisos.com/" variant="primary">
               {h.ctaPrimary}
             </ButtonLink>
-            <ButtonLink href={h.ctaSecondaryLink} variant="outline">
+            <ButtonLink href={buildContactUrl(lang, "/mentivisos")} variant="outline">
               {h.ctaSecondary}
             </ButtonLink>
           </div>

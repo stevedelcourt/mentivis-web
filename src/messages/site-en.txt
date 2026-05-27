@@ -1302,7 +1302,6 @@ headline: Train differently.|Perform sustainably.
 subheadline: Generate tailored learning paths, adapt content automatically, and track your teams' progress in a single AI-native system.
 ctaPrimary: Start for free
 ctaSecondary: Contact the team
-ctaSecondaryLink: /contact/
 proof: Used by training departments, CFAs, corporate campuses.
 
 # mentivisos.sectors
