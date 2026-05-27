@@ -8,6 +8,12 @@ import FinalCTA from "@/components/FinalCTA";
 import { useMessages } from "@/lib/messages";
 import Icon from "@/components/ui/Icon";
 
+const PARTNER_LOGOS = [
+  { src: "/images/partner/MariusIA-logo.svg", href: "https://mariusia.com/", alt: "Marius IA" },
+  { src: "/images/partner/icia-logo.svg", href: "https://iciafrance.com/", alt: "ICIA" },
+  { src: "/images/partner/entrepise-engage-logo.webp", href: "https://lesentreprises-sengagent.gouv.fr/", alt: "Les entreprises s'engagent" },
+];
+
 /* ── sub-components ─────────────────────────────────────── */
 
 function PlaceholderAvatar({ initials, color }: { initials: string; color: string }) {
@@ -394,7 +400,18 @@ export default function AboutClient() {
                   {a.comparison.rows.map((row: any, i: number) => (
                     <tr key={i} style={{ borderBottom: "1px solid var(--m-line)" }}>
                       <td style={{ padding: "16px", fontWeight: 600, color: "var(--m-ink)", fontSize: 14 }}>{row.label}</td>
-                      <td style={{ padding: "16px", color: "var(--m-ink-3)" }}>{row.cols[1]}</td>
+                      <td style={{ padding: "16px", color: "var(--m-ink-3)" }}>
+                        {row.cols[1]}
+                        {i === 3 && (
+                          <div style={{ display: "flex", gap: 12, marginTop: 12, alignItems: "center", flexWrap: "wrap" }}>
+                            {PARTNER_LOGOS.map((logo) => (
+                              <a key={logo.src} href={logo.href} target="_blank" rel="noopener">
+                                <Image src={logo.src} alt={logo.alt} width={0} height={140} style={{ height: 140, width: "auto" }} />
+                              </a>
+                            ))}
+                          </div>
+                        )}
+                      </td>
                       <td style={{ padding: "16px", color: "var(--m-purple)", fontWeight: 500 }}>{row.cols[2]}</td>
                     </tr>
                   ))}
