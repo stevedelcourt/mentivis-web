@@ -414,10 +414,13 @@ export default function AboutClient() {
       {/* Partner logos ────────────────────────────────── */}
       <section style={{ padding: "60px 0 40px", textAlign: "center" }}>
         <div className="container">
+          <div className="t-eyebrow" style={{ marginBottom: 20, color: "var(--m-ink-2)" }}>
+            {lang === "fr" ? "PARTENAIRES" : "PARTNERS"}
+          </div>
           <div style={{ display: "flex", gap: 24, justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
             {PARTNER_LOGOS.map((logo) => (
               <a key={logo.src} href={logo.href} target="_blank" rel="noopener" style={{ display: "inline-block" }}>
-                <Image src={logo.src} alt={logo.alt} width={0} height={36} style={{ height: 36, width: "auto", opacity: 0.7 }} />
+                <Image src={logo.src} alt={logo.alt} width={0} height={72} style={{ height: 72, width: "auto", opacity: 0.7 }} />
               </a>
             ))}
           </div>
