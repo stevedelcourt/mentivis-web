@@ -9,9 +9,9 @@ import { useMessages } from "@/lib/messages";
 import Icon from "@/components/ui/Icon";
 
 const PARTNER_LOGOS = [
-  { src: "/images/partner/MariusIA-logo.svg", href: "https://mariusia.com/", alt: "Marius IA" },
-  { src: "/images/partner/icia-logo.svg", href: "https://iciafrance.com/", alt: "ICIA" },
-  { src: "/images/partner/entrepise-engage-logo.webp", href: "https://lesentreprises-sengagent.gouv.fr/", alt: "Les entreprises s'engagent" },
+  { src: "/images/partner/MariusIA-logo.svg", href: "https://mariusia.com/", alt: "Marius IA", h: 72 },
+  { src: "/images/partner/icia-logo.svg", href: "https://iciafrance.com/", alt: "ICIA", h: 36 },
+  { src: "/images/partner/entrepise-engage-logo.webp", href: "https://lesentreprises-sengagent.gouv.fr/", alt: "Les entreprises s'engagent", h: 72 },
 ];
 
 /* ── sub-components ─────────────────────────────────────── */
@@ -420,7 +420,7 @@ export default function AboutClient() {
           <div style={{ display: "flex", gap: 24, justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
             {PARTNER_LOGOS.map((logo) => (
               <a key={logo.src} href={logo.href} target="_blank" rel="noopener" style={{ display: "inline-block" }}>
-                <Image src={logo.src} alt={logo.alt} width={0} height={72} style={{ height: 72, width: "auto", opacity: 0.7 }} />
+                <Image src={logo.src} alt={logo.alt} width={0} height={logo.h} style={{ height: logo.h, width: "auto", opacity: 0.7 }} />
               </a>
             ))}
           </div>
