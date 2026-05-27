@@ -400,18 +400,7 @@ export default function AboutClient() {
                   {a.comparison.rows.map((row: any, i: number) => (
                     <tr key={i} style={{ borderBottom: "1px solid var(--m-line)" }}>
                       <td style={{ padding: "16px", fontWeight: 600, color: "var(--m-ink)", fontSize: 14 }}>{row.label}</td>
-                      <td style={{ padding: "16px", color: "var(--m-ink-3)" }}>
-                        {row.cols[1]}
-                        {i === 3 && (
-                          <div style={{ display: "flex", gap: 12, marginTop: 12, alignItems: "center", flexWrap: "wrap" }}>
-                            {PARTNER_LOGOS.map((logo) => (
-                              <a key={logo.src} href={logo.href} target="_blank" rel="noopener">
-                                <Image src={logo.src} alt={logo.alt} width={0} height={140} style={{ height: 140, width: "auto" }} />
-                              </a>
-                            ))}
-                          </div>
-                        )}
-                      </td>
+                      <td style={{ padding: "16px", color: "var(--m-ink-3)" }}>{row.cols[1]}</td>
                       <td style={{ padding: "16px", color: "var(--m-purple)", fontWeight: 500 }}>{row.cols[2]}</td>
                     </tr>
                   ))}
@@ -421,6 +410,19 @@ export default function AboutClient() {
           </div>
         </section>
       )}
+
+      {/* Partner logos ────────────────────────────────── */}
+      <section style={{ padding: "60px 0 40px", textAlign: "center" }}>
+        <div className="container">
+          <div style={{ display: "flex", gap: 24, justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
+            {PARTNER_LOGOS.map((logo) => (
+              <a key={logo.src} href={logo.href} target="_blank" rel="noopener" style={{ display: "inline-block" }}>
+                <Image src={logo.src} alt={logo.alt} width={0} height={36} style={{ height: 36, width: "auto", opacity: 0.7 }} />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* 8. FinalCTA ────────────────────────────────────── */}
       <FinalCTA title={a.finalCtaTitle} lead={a.finalCtaLead} t={t} lang={lang} accent="purple" centered />
