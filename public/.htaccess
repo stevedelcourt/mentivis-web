@@ -61,6 +61,10 @@ DirectoryIndex index.html
   RewriteRule ^mentivis-solutions-conseil-ingenierie-transformation-digitale/?$ /fr/solutions/ [R=301,L]
   RewriteRule ^blog/insights/?$ /fr/insights/ [R=301,L]
 
+  # Redirect path-only URLs → /fr/ (e.g. /careers → /fr/careers/)
+  RewriteCond %{REQUEST_URI} !^/(fr|en|_next|images|api|favicon|admin|sitemap\.xml|robots\.txt|llms\.txt)(/.*)?$
+  RewriteRule ^([a-z][a-z0-9-]*)/?$ /fr/$1/ [R=301,L]
+
   # If request is a directory, serve its index.html
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*)$ $1/index.html [L]
