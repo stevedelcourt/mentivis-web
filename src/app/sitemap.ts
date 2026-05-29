@@ -70,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Video pages with video metadata
+  // Video pages with video metadata (YouTube hosted)
   const videoData = { fr: videosFr, en: videosEn };
   for (const lang of ["fr", "en"]) {
     const { videos } = videoData[lang as keyof typeof videoData];
@@ -80,12 +80,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
       videos: videos
-        .filter((v) => v.filepath)
-        .map((v) => ({
+        .filter((v: any) => v.youtube)
+        .map((v: any) => ({
           title: v.title,
-          thumbnail_loc: `${BASE_URL}/${v.poster}`,
-          content_loc: `${BASE_URL}/${v.filepath}`,
+          thumbnail_loc: `https://img.youtube.com/vi/${v.youtube}/hqdefault.jpg`,
           description: v.description,
+          player_loc: `${BASE_URL}/${lang}/videos/`,
         })),
     });
   }

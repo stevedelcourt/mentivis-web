@@ -1,98 +1,84 @@
 {
   "videos": [
     {
-      "filepath": "videos/media/1-cyber-text.mp4",
-      "poster": "videos/media/1-cyber-text.jpg",
+      "youtube": "Bd9yWtD9z6A",
       "title": "Cyber Mamie",
       "description": "La cybersécurité, ce n’est pas qu’une affaire d’experts. C’est déjà votre affaire."
     },
     {
-      "filepath": "videos/media/2-Mentivis-Strategy-Rap.mp4",
-      "poster": "videos/media/2-Mentivis-Strategy-Rap.jpg",
+      "youtube": "T7pEZT7W7Ns",
       "title": "Mentivis Strategy Rap",
       "description": "Un rappeur parle de consultants. Pas ceux qui font des slides, ceux qui livrent."
     },
     {
-      "filepath": "videos/media/3Mentivis-reality.mp4",
-      "poster": "videos/media/3Mentivis-reality.jpg",
+      "youtube": "N-HdMWsXV5k",
       "title": "Mentivis Reality",
       "description": "Tout est artificiel. Sauf ce qu’on construit avec vous."
     },
     {
-      "filepath": "videos/media/4-Mentivis-Tout-est-possible.mp4",
-      "poster": "videos/media/4-Mentivis-Tout-est-possible.jpg",
+      "youtube": "wRli3iKvhFs",
       "title": "Tout est possible",
       "description": "Tout est possible. À condition de le faire. Film campagne Mentivis"
     },
     {
-      "filepath": "videos/media/4-birds-rock.mp4",
-      "poster": "videos/media/4-birds-rock.jpg",
+      "youtube": "8jdbK4zeOhw",
       "title": "Birds on the Rock",
       "description": "Tout est possible. Le monde change. Pas vous ? Film campagne Mentivis"
     },
     {
-      "filepath": "videos/media/4a-waterfall.mp4",
-      "poster": "videos/media/4a-waterfall.jpg",
+      "youtube": "j0Wf0AQrNVQ",
       "title": "Waterfall",
       "description": "Tout est possible. Le monde change. Pas vous ? Film campagne Mentivis"
     },
     {
-      "filepath": "videos/media/4b-opera.mp4",
-      "poster": "videos/media/4b-opera.jpg",
+      "youtube": "dvvkQpCZSoU",
       "title": "Opéra",
       "description": "Séquence culturelle et élégante — l'art au service du conseil."
     },
     {
-      "filepath": "videos/media/5-RH Woman AD.mp4",
-      "poster": "videos/media/5-RH Woman AD.jpg",
+      "youtube": "7wYnu-ckdmM",
       "title": "Solutions RH pour entrepises",
       "description": "Vidéo corporate RH — recrutement et développement des talents."
     },
     {
-      "filepath": "videos/media/7-Appel-a-Manifestation-first.mp4",
-      "poster": "videos/media/7-Appel-a-Manifestation-first.jpg",
+      "youtube": "WalLjbfsGKM",
       "title": "Appel à Manifestation d'Intérêt Clip 1",
       "description": "Présentation de l'appel à manifestation d'intérêt pour les associations marseillaises. Une campagne locale pour l'école Perrin Sainte Trinité"
     },
     {
-      "filepath": "videos/media/8-Appel-a-Manifestation-second.mp4",
-      "poster": "videos/media/8-Appel-a-Manifestation-second.jpg",
+      "youtube": "EyZEi0d_tSs",
       "title": "Appel à Manifestation d'Intérêt Clip 2",
       "description": "Présentation de l'appel à manifestation d'intérêt pour les associations marseillaises. Une campagne locale pour l'école Perrin Sainte Trinité à Marseille"
     },
     {
-      "filepath": "videos/media/9-Santa-School.mp4",
-      "poster": "videos/media/9-Santa-School.jpg",
+      "youtube": "LISErVd2CTA",
       "title": "Santa School",
       "description": "On n’a pas créé une école pour le Père Noël. Mais peut-être pour vous ?"
     },
     {
-      "filepath": "videos/media/10-vacances16.mp4",
-      "poster": "videos/media/10-vacances16.jpg",
+      "youtube": "IKty6iWz750",
       "title": "Enfin les Vacances !",
       "description": "Même pendant les vacances, nous sommes là. Parce que la transformation ne s’arrête pas."
     },
     {
-      "filepath": "videos/media/15-flag.mp4",
-      "poster": "videos/media/15-flag.jpg",
+      "youtube": "lGFRf8tSHx4",
       "title": "Flag",
       "description": "Un clip social qui fait danser. Tellement années 80 !"
     },
     {
-      "filepath": "videos/media/16-train.mp4",
-      "poster": "videos/media/16-train.jpg",
+      "youtube": "XnrtWqw9Z6Q",
       "title": "Le Train",
       "description": "Si vous vous formez à l’IA avec Mentivis, vous ne restez pas sur le quai, vous prenez le train en marche."
     },
     {
-      "filepath": "videos/media/11-EcoSQ-alligator.mp4",
-      "poster": "videos/media/11-EcoSQ-alligator.jpg",
+      "youtube": "iph_EzniX2s",
+      "aspectRatio": "1/1",
       "title": "Ecolearn Alligator",
       "description": "Une campagne pour notre client Ecolearn, spécialiste des formations RSE."
     },
     {
-      "filepath": "videos/media/20-EcoSQ-toolate.mp4",
-      "poster": "videos/media/20-EcoSQ-toolate.jpg",
+      "youtube": "wKyU_7XMaVk",
+      "aspectRatio": "1/1",
       "title": "Ecolearn Too Late",
       "description": "Deuxième vidéo de la campagne pour notre client Ecolearn, spécialiste des formations RSE."
     },
