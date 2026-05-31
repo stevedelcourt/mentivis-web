@@ -3,7 +3,6 @@
 import { useRef, useEffect, useCallback, useState } from "react";
 import { useMessages } from "@/lib/messages";
 import ButtonLink from "@/components/ui/ButtonLink";
-import { buildContactUrl } from "@/lib/contact-url";
 
 const GAP = 30;
 const BASE_SPEED = 0.25;
@@ -188,8 +187,8 @@ export default function ParallaxHero() {
             <ButtonLink href="https://app.mentivisos.com/" variant="primary">
               {h.ctaPrimary}
             </ButtonLink>
-            <ButtonLink href={buildContactUrl(lang, "/mentivisos")} variant="outline">
-              {h.ctaSecondary}
+            <ButtonLink href={`/${lang}/mentivos-website/`} variant="outline" target="_blank" rel="noopener">
+              {lang === "fr" ? "Site MentivisOS" : "MentivisOS Website"}
             </ButtonLink>
           </div>
           {h.proof && (
