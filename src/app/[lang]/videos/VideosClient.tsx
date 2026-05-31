@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
 import ImageHero from "@/components/ImageHero";
@@ -20,9 +20,8 @@ function YouTubeEmbed({ video, title, isPlaying, onPlay }: {
   video: any; title: string; isPlaying: boolean; onPlay: () => void;
 }) {
   const [loaded, setLoaded] = useState(false);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
 
-  const baseSrc = `https://www.youtube-nocookie.com/embed/${video.youtube}?modestbranding=1&rel=0&iv_load_policy=3`;
+  const src = `https://www.youtube-nocookie.com/embed/${video.youtube}?autoplay=1&modestbranding=1&rel=0&iv_load_policy=3`;
   const ratio = getRatio(video);
   const showCover = !loaded || !isPlaying;
 
@@ -30,13 +29,6 @@ function YouTubeEmbed({ video, title, isPlaying, onPlay }: {
     if (!loaded) setLoaded(true);
     onPlay();
   }, [loaded, onPlay]);
-
-  useEffect(() => {
-    if (!loaded) return;
-    iframeRef.current?.contentWindow?.postMessage(
-      JSON.stringify({ event: "command", func: isPlaying ? "playVideo" : "pauseVideo", args: "" }), "*"
-    );
-  }, [isPlaying, loaded]);
 
   return (
     <div
@@ -49,10 +41,9 @@ function YouTubeEmbed({ video, title, isPlaying, onPlay }: {
         background: "#000",
       }}
     >
-      {loaded && (
+      {loaded && isPlaying && (
         <iframe
-          ref={iframeRef}
-          src={`${baseSrc}&autoplay=1`}
+          src={src}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen

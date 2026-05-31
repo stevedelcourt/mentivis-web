@@ -1,5 +1,18 @@
 [
   {
+    "slug": "ce-que-les-enfants-savent",
+    "date": "2026-06-01",
+    "category": "announcements",
+    "author": "Mentivis",
+    "readTime": "8 minutes",
+    "titleFr": "Ce que les enfants savent de la formation que les adultes ont oublié",
+    "titleEn": "What Children Know About Training That Adults Have Forgotten",
+    "excerptFr": "La campagne display MentivisOS part de là, avec une franchise désarmante. Elle confie ses visuels à des dessins d'enfants. Quatre affiches. Quatre déclarations brutes, tracées au crayon ou à la gouache sur du papier blanc.",
+    "excerptEn": "The MentivisOS display campaign starts there, with disarming candor. It entrusts its visuals to children's drawings. Four posters. Four raw declarations, traced in pencil or gouache on white paper.",
+    "heroImage": "/images/insights/robot-wide.webp",
+    "keywords": "MentivisOS, campagne display, formation professionnelle, dessins d'enfants, pédagogie"
+  },
+  {
     "slug": "mentivisos-fait-ses-debuts-a-sxsw-edu-2026",
     "date": "2026-05-26",
     "category": "news",
