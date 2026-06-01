@@ -49,6 +49,13 @@ export default async function SkillpathPage({ params }: { params: Promise<{ lang
         url: `${SITE.baseUrl}/${lang}/mentivisos`,
         brand: { "@id": `${SITE.baseUrl}/#organization` },
         inLanguage: isFr ? "fr-FR" : "en-US",
+        applicationCategory: "EducationApplication",
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: "EUR",
+          lowPrice: "990",
+          highPrice: "2900",
+        },
       }} />
       <BreadcrumbJsonLd items={[
         { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
