@@ -53,8 +53,9 @@ export default async function SkillpathPage({ params }: { params: Promise<{ lang
         offers: {
           "@type": "AggregateOffer",
           priceCurrency: "EUR",
-          lowPrice: "990",
-          highPrice: "2900",
+          lowPrice: "0",
+          highPrice: "0",
+          description: isFr ? "Sur devis" : "Custom quote",
         },
       }} />
       <BreadcrumbJsonLd items={[

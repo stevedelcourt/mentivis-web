@@ -55,11 +55,20 @@ jobs:
       - name: Build
         run: npm run build:ftp
 
-      - name: Upload to FTP
-        run: python3 scripts/ftp_sync.py
+      - name: Install sshpass
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq sshpass
+
+      - name: Deploy via rsync over SSH
+        run: |
+          sshpass -p "$FTP_PASSWORD" rsync -avz --delete \
+            --exclude='_next/' \
+            --exclude='admin/' \
+            --exclude='mentivis-solutions/' \
+            --exclude='guide-images/' \
+            --exclude='guide-pdf/' \
+            -e "ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10" \
+            out/ "$FTP_USER@ftp.$FTP_HOST:/home/$FTP_USER/public_html/"
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_ROOT: public_html
-          LOCAL_ROOT: out
