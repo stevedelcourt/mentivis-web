@@ -49,7 +49,7 @@ export default async function EnterprisePage({ params }: { params: Promise<{ lan
         },
       }} />
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Conseil entreprise" : "Enterprise consulting" }
       ]} />
       <EnterpriseClient />

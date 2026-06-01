@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const baseUrl = "https://www.mentivis.com";
+const baseUrl = "https://mentivis.com";
 
 export function localeAlternates(lang: string, path: string): Pick<Metadata, "alternates"> {
   return {

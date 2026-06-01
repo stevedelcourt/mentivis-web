@@ -33,7 +33,7 @@ export default function AboutPage({ params }: { params: Promise<{ lang: string }
         publisher: { "@id": `${SITE.baseUrl}/#organization` },
       }} />
       <BreadcrumbJsonLd items={[
-        { name: "Accueil", url: "https://www.mentivis.com/fr/" },
+        { name: "Accueil", url: "https://mentivis.com/fr/" },
         { name: "À propos" }
       ]} />
       <AboutClient />

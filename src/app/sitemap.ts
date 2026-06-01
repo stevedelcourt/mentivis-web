@@ -6,7 +6,7 @@ import videosEn from "@/content/videos/videos-en.json";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://www.mentivis.com";
+const BASE_URL = "https://mentivis.com";
 
 /** Static pages referenced by navigation (no orphans). */
 const STATIC_PAGES = [

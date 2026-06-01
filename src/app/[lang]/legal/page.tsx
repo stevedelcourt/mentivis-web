@@ -25,7 +25,7 @@ export default async function LegalPage({ params }: { params: Promise<{ lang: st
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Mentions légales" : "Legal Notice" }
       ]} />
       <LegalClient />

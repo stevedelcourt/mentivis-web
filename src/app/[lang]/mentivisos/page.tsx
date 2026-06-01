@@ -20,7 +20,7 @@ export async function generateMetadata({
     openGraph: {
       images: [
         {
-          url: "https://www.mentivis.com/opengraph-image-mentivisOS.jpg",
+          url: "https://mentivis.com/opengraph-image-mentivisOS.jpg",
           width: 1200,
           height: 630,
           alt: "MentivisOS",
@@ -28,7 +28,7 @@ export async function generateMetadata({
       ],
     },
     twitter: {
-      images: ["https://www.mentivis.com/opengraph-image-mentivisOS.jpg"],
+      images: ["https://mentivis.com/opengraph-image-mentivisOS.jpg"],
     },
     ...localeAlternates(lang, "/mentivisos"),
   };
@@ -51,7 +51,7 @@ export default async function SkillpathPage({ params }: { params: Promise<{ lang
         inLanguage: isFr ? "fr-FR" : "en-US",
       }} />
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: "MentivisOS" }
       ]} />
       <SkillpathClient />

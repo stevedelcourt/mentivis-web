@@ -49,7 +49,7 @@ export default async function OfPage({ params }: { params: Promise<{ lang: strin
         },
       }} />
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Organismes de formation" : "Training organizations" }
       ]} />
       <OfClient />

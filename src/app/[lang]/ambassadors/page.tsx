@@ -32,7 +32,7 @@ export default function AmbassadorsPage({ params }: { params: Promise<{ lang: st
         publisher: { "@id": `${SITE.baseUrl}/#organization` },
       }} />
       <BreadcrumbJsonLd items={[
-        { name: "Accueil", url: "https://www.mentivis.com/fr/" },
+        { name: "Accueil", url: "https://mentivis.com/fr/" },
         { name: "Ambassadeurs" }
       ]} />
       <AmbassadorsClient />

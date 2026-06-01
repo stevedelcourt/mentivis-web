@@ -25,7 +25,7 @@ export default async function CareersPage({ params }: { params: Promise<{ lang: 
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Carrières" : "Careers" }
       ]} />
       <CareersClient />

@@ -7,7 +7,7 @@ const ALLOWED_ORIGINS = [
   "https://sc3bovu7233.universe.wf",
   "http://mentivis.com",
   "https://mentivis.com",
-  "http://www.mentivis.com",
+   "http://www.mentivis.com",
   "https://www.mentivis.com",
 ];
 

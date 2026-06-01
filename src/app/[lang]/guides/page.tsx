@@ -25,7 +25,7 @@ export default async function GuidesPage({ params }: { params: Promise<{ lang: s
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Guides pratiques" : "Reference guides" }
       ]} />
       <GuidesClient />

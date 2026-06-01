@@ -25,7 +25,7 @@ export default async function CgvPage({ params }: { params: Promise<{ lang: stri
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "CGV" : "Terms of Sale" }
       ]} />
       <CgvClient />

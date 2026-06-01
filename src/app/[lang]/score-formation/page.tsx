@@ -25,7 +25,7 @@ export default async function ScoreFormationPage({ params }: { params: Promise<{
   return (
     <>
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
         { name: isFr ? "Score Formation" : "Score Formation" }
       ]} />
       <ScoreFormationClient />

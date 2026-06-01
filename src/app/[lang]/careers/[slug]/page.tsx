@@ -57,8 +57,8 @@ export default async function JobDetailPage({
         jobLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "60 Rue François 1er", addressLocality: "Paris", postalCode: "75008", addressCountry: "FR" } },
       }} />
       <BreadcrumbJsonLd items={[
-        { name: isFr ? "Accueil" : "Home", url: `https://www.mentivis.com/${lang}/` },
-        { name: isFr ? "Carrières" : "Careers", url: `https://www.mentivis.com/${lang}/careers/` },
+        { name: isFr ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
+        { name: isFr ? "Carrières" : "Careers", url: `https://mentivis.com/${lang}/careers/` },
         { name: isFr ? job.titleFr : job.titleEn },
       ]} />
       <JobDetailClient job={job} lang={lang} />

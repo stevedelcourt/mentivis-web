@@ -25,7 +25,7 @@ type LocaleLayoutProps = {
 
 export async function generateMetadata({ params }: LocaleLayoutProps): Promise<Metadata> {
   const { lang } = await params;
-  const baseUrl = "https://www.mentivis.com";
+  const baseUrl = "https://mentivis.com";
   const isFr = lang === "fr";
 
   const title = isFr

@@ -147,18 +147,18 @@ export default function VideosClient() {
         ]}
       />
 
-       {/* Hero using ImageHero like /enterprise */}
-       <ImageHero
-         image="/images/heroes/video-open.avif"
-         eyebrow={v.eyebrow}
-         title={v.title}
-         lead={v.lead}
-       >
-         <Link href={`/${lang}/contact?subject=Videos`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
-           {v.contactCta}
-           <Icon name="chevron_right" size={18} />
-         </Link>
-       </ImageHero>
+        {/* Hero using ImageHero like /enterprise */}
+        <ImageHero
+          image="/images/heroes/video-open.avif"
+          eyebrow={v.eyebrow}
+          title={v.title}
+          lead={v.lead}
+        >
+          <Link href={`/${lang}/contact?subject=Videos`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
+            {v.contactCta}
+            <Icon name="chevron_right" size={18} />
+          </Link>
+        </ImageHero>
 
       {/* Video Grid */}
       <section style={{ padding: "80px 0" }}>

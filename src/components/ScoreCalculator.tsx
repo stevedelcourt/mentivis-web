@@ -465,7 +465,7 @@ export default function ScoreCalculator() {
     const ok = await hsSubmit(
       { firstname: contactName.trim(), email: contactEmail.trim() },
       {
-        pageUri: typeof window !== "undefined" ? window.location.href : "https://www.mentivis.com/fr/score-formation",
+        pageUri: typeof window !== "undefined" ? window.location.href : "https://mentivis.com/fr/score-formation",
         pageName: "Score Formation",
       }
     );

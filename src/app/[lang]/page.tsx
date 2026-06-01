@@ -87,7 +87,7 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
         },
       ]} />
       <BreadcrumbJsonLd items={[
-        { name: "Accueil", url: "https://www.mentivis.com/fr/" }
+        { name: "Accueil", url: "https://mentivis.com/fr/" }
       ]} />
       <HomeClient />
     </>
