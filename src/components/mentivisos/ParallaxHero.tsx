@@ -6,8 +6,6 @@ import ButtonLink from "@/components/ui/ButtonLink";
 
 const GAP = 30;
 const BASE_SPEED = 0.25;
-const BACK_VR = 0.08;
-const FRONT_VR = 0.15;
 const FRONT_Y_OFFSET_DESKTOP = -300;
 const FRONT_Y_OFFSET_MOBILE = -136;
 
@@ -99,8 +97,8 @@ export default function ParallaxHero() {
         const frontOffset = isMobileRef.current
           ? FRONT_Y_OFFSET_MOBILE
           : FRONT_Y_OFFSET_DESKTOP;
-        const backY = isMobileRef.current ? 0 : scrollYRef.current * BACK_VR;
-        const frontY = isMobileRef.current ? frontOffset : frontOffset + scrollYRef.current * FRONT_VR;
+        const backY = 0;
+        const frontY = frontOffset;
 
         if (backTrackRef.current) {
           backTrackRef.current.style.transform = `translateX(${-offsetRef.current}px) translateY(${backY}px)`;
