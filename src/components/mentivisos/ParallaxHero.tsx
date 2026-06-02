@@ -99,8 +99,8 @@ export default function ParallaxHero() {
         const frontOffset = isMobileRef.current
           ? FRONT_Y_OFFSET_MOBILE
           : FRONT_Y_OFFSET_DESKTOP;
-        const backY = scrollYRef.current * BACK_VR;
-        const frontY = frontOffset + scrollYRef.current * FRONT_VR;
+        const backY = isMobileRef.current ? 0 : scrollYRef.current * BACK_VR;
+        const frontY = isMobileRef.current ? frontOffset : frontOffset + scrollYRef.current * FRONT_VR;
 
         if (backTrackRef.current) {
           backTrackRef.current.style.transform = `translateX(${-offsetRef.current}px) translateY(${backY}px)`;
