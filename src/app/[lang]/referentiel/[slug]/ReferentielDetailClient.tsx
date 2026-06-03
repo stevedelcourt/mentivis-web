@@ -11,6 +11,7 @@ import {
 import { ReferentielArticle } from "@/data/referentiel";
 import ReferentielSidebar from "../ReferentielSidebar";
 import ReferentielFilters from "../ReferentielFilters";
+import ReferentielRelated from "../ReferentielRelated";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
 import { useSearchParamsClient } from "@/lib/use-search-params";
@@ -197,11 +198,21 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                   </svg>
                 </button>
               </div>
+              <ReferentielRelated
+                currentSlug={article.slug}
+                cible={article.cible}
+                tags={article.tags}
+                activeCible={activeCible}
+                activeThematique={activeThematique}
+                activeTag={activeTag}
+                query={query}
+              />
             </div>
           </div>
         </div>
       </section>
       <style>{`
+        .referentiel-content a { text-decoration: underline; }
         @media (max-width: 768px) {
           .referentiel-layout { grid-template-columns: 1fr !important; }
           .referentiel-sidebar { display: none; }
