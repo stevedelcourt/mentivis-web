@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "comment-obtenir-la-certification-qualiopi",
+    "title": "Comment obtenir la certification Qualiopi",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "Qualiopi",
+      "audit",
+      "RNQ",
+      "certification",
+      "preuves"
+    ],
+    "shortDescription": "La certification Qualiopi s'obtient à l'issue d'un audit mené par un organisme certificateur accrédité par le Cofrac, qui vérifie la conformité de l'organisme aux 7 critères et 32 indicateurs du Référentiel National Qualité.",
+    "metaDescription": "La certification Qualiopi s'obtient à l'issue d'un audit mené par un organisme certificateur accrédité par le Cofrac. Découvrez les étapes, les preuves attendues et le cycle de certification.",
+    "order": 1
+  },
+  {
+    "slug": "comment-creer-un-cfa-en-france-en-2026",
+    "title": "Comment créer un CFA en France en 2026",
+    "cible": "Organismes de formation",
+    "thematique": "Apprentissage",
+    "tags": [
+      "CFA",
+      "apprentissage",
+      "DREETS",
+      "OPCO",
+      "Qualiopi"
+    ],
+    "shortDescription": "Créer un centre de formation d'apprentis suppose de définir un statut juridique, de déposer une déclaration d'activité auprès de la DREETS, d'obtenir un code UAI, de se mettre en conformité Qualiopi et d'organiser la délivrance de formations certifiantes.",
+    "metaDescription": "Créer un CFA en France en 2026 : statut juridique, déclaration d'activité, code UAI, certification Qualiopi et modèle économique. Toutes les étapes pour ouvrir un centre de formation d'apprentis.",
+    "order": 2
+  },
+  {
+    "slug": "comment-financer-une-formation-professionnelle-sans-reste-a-charge",
+    "title": "Comment financer une formation professionnelle sans reste à charge",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "OPCO",
+      "financement",
+      "Pro-A",
+      "France Travail"
+    ],
+    "shortDescription": "Financer une formation sans reste à charge suppose de mobiliser le bon dispositif selon le profil du bénéficiaire : CPF, plan de développement des compétences, Pro-A, France Travail. L'enjeu est d'identifier le financeur adapté avant l'entrée en formation.",
+    "metaDescription": "Comment financer une formation sans reste à charge ? CPF, OPCO, Pro-A, France Travail : tous les dispositifs de financement expliqués pour les organismes de formation.",
+    "order": 3
+  },
+  {
+    "slug": "comment-creer-un-programme-de-formation-conforme-qualiopi",
+    "title": "Comment créer un programme de formation conforme Qualiopi",
+    "cible": "Organismes de formation",
+    "thematique": "Qualiopi",
+    "tags": [
+      "Qualiopi",
+      "RNQ",
+      "programme",
+      "pédagogie",
+      "déroulé"
+    ],
+    "shortDescription": "Un programme conforme Qualiopi repose sur le critère 2 du RNQ : il doit relier une analyse des besoins, des objectifs formulés en compétences mesurables, un contenu structuré en séquences et des modalités d'évaluation cohérentes.",
+    "metaDescription": "Créer un programme de formation conforme Qualiopi : les 4 éléments structurants, le document clé attendu en audit et les preuves à fournir pour le critère 2 du RNQ.",
+    "order": 4
+  },
+  {
+    "slug": "comment-declarer-son-activite-de-formation-professionnelle",
+    "title": "Comment déclarer son activité de formation professionnelle",
+    "cible": "Organismes de formation",
+    "thematique": "Réglementation",
+    "tags": [
+      "DREETS",
+      "déclaration",
+      "réglementation",
+      "BPF"
+    ],
+    "shortDescription": "La déclaration d'activité s'effectue auprès de la DREETS du lieu du siège social, dans les trois mois suivant la première convention de formation. Elle ouvre droit au numéro de déclaration d'activité, obligatoire sur les contrats dès le second.",
+    "metaDescription": "Comment déclarer son activité de formation professionnelle : procédure DREETS, obligations continues, bilan pédagogique et financier. Toutes les étapes pour être en règle.",
+    "order": 5
+  },
+  {
+    "slug": "comment-concevoir-un-bilan-de-competences-conforme",
+    "title": "Comment concevoir un bilan de compétences conforme",
+    "cible": "Organismes de formation",
+    "thematique": "Bilan de compétences",
+    "tags": [
+      "bilan de compétences",
+      "Qualiopi",
+      "CPF",
+      "VAE"
+    ],
+    "shortDescription": "Un bilan de compétences conforme se déroule en trois phases obligatoires : préliminaire, investigation et conclusion. Il est réalisé par un prestataire certifié Qualiopi sur la catégorie correspondante et aboutit à un document de synthèse remis au seul bénéficiaire.",
+    "metaDescription": "Concevoir un bilan de compétences conforme : cadre légal, trois phases obligatoires, certification Qualiopi et différences avec un coaching. Guide complet pour les organismes de formation.",
+    "order": 6
+  },
+  {
+    "slug": "comment-monter-un-dossier-de-certification-rncp",
+    "title": "Comment monter un dossier de certification RNCP",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "RNCP",
+      "France Compétences",
+      "certification",
+      "référentiel"
+    ],
+    "shortDescription": "Monter un dossier d'enregistrement au RNCP suppose de déposer auprès de France Compétences un dossier articulé autour d'une étude d'opportunité et de trois référentiels : activités, compétences, évaluation. Le délai d'instruction est d'environ six mois.",
+    "metaDescription": "Monter un dossier de certification RNCP : structure du dossier, étude d'opportunité, trois référentiels, délais et taux d'acceptation. Guide complet pour les organismes certificateurs.",
+    "order": 7
+  },
+  {
+    "slug": "comment-calculer-le-cout-pedagogique-dune-formation",
+    "title": "Comment calculer le coût pédagogique d'une formation",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "coût",
+      "tarification",
+      "rentabilité",
+      "OPCO"
+    ],
+    "shortDescription": "Établir le coût pédagogique consiste à additionner les charges directes et une quote-part de charges indirectes, puis à rapporter ce total au nombre d'heures et d'apprenants pour obtenir un coût horaire et un coût par apprenant.",
+    "metaDescription": "Calculer le coût pédagogique d'une formation : charges directes et indirectes, coût de revient, tarification et pilotage de la rentabilité par module. Guide pratique pour les OF.",
+    "order": 8
+  },
+  {
+    "slug": "comment-gerer-les-alternants-droits-obligations-encadrement",
+    "title": "Comment gérer les alternants : droits, obligations, encadrement",
+    "cible": "Organismes de formation",
+    "thematique": "Apprentissage",
+    "tags": [
+      "alternance",
+      "apprentissage",
+      "CFA",
+      "OPCO",
+      "tuteur"
+    ],
+    "shortDescription": "La gestion des alternants repose sur la distinction entre contrat d'apprentissage et contrat de professionnalisation, sur la désignation d'un maître d'apprentissage ou tuteur, et sur le respect de l'alternance entre temps en centre et temps en entreprise.",
+    "metaDescription": "Gérer les alternants : droits, obligations, encadrement. Contrat d'apprentissage vs professionnalisation, maître d'apprentissage, coordination et gestion des aléas du parcours.",
+    "order": 9
+  },
+  {
+    "slug": "comment-evaluer-les-acquis-des-apprenants-de-facon-valide",
+    "title": "Comment évaluer les acquis des apprenants de façon valide",
+    "cible": "Organismes de formation",
+    "thematique": "Pédagogie",
+    "tags": [
+      "évaluation",
+      "Qualiopi",
+      "certification",
+      "pédagogie"
+    ],
+    "shortDescription": "Évaluer les acquis de façon valide suppose de distinguer trois fonctions de l'évaluation : formative, sommative et certificative, et d'aligner chaque modalité sur les objectifs de compétences annoncés. Les preuves doivent être documentées, traçables et conformes aux attentes du certificateur.",
+    "metaDescription": "Évaluer les acquis des apprenants : les trois fonctions de l'évaluation (formative, sommative, certificative), comment aligner les modalités sur les objectifs et les preuves attendues en audit Qualiopi.",
+    "order": 10
+  }
+]

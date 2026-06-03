@@ -3,9 +3,10 @@
 import { useState } from "react";
 import InsightsAdmin from "./insights/page";
 import CareersAdmin from "./careers/page";
+import ReferentielAdmin from "./referentiel/page";
 
 export default function AdminDashboard() {
-  const [tab, setTab] = useState<"insights" | "careers">("insights");
+  const [tab, setTab] = useState<"insights" | "careers" | "referentiel">("insights");
 
   return (
     <main style={{ minHeight: "100vh", background: "#f8f8f8" }}>
@@ -36,6 +37,14 @@ export default function AdminDashboard() {
             }}>
               Postes
             </button>
+            <button onClick={() => setTab("referentiel")} style={{
+              padding: "8px 16px", fontSize: 13, fontWeight: 600, borderRadius: 8, border: "none", cursor: "pointer",
+              fontFamily: "system-ui",
+              background: tab === "referentiel" ? "#000776" : "transparent",
+              color: tab === "referentiel" ? "#fff" : "#666",
+            }}>
+              Référentiel
+            </button>
           </div>
         </div>
       </div>
@@ -44,6 +53,7 @@ export default function AdminDashboard() {
       <div>
         {tab === "insights" && <InsightsAdmin />}
         {tab === "careers" && <CareersAdmin />}
+        {tab === "referentiel" && <ReferentielAdmin />}
       </div>
     </main>
   );

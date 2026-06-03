@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { INSIGHTS } from "@/data/insights";
 import { CAREERS } from "@/data/careers";
+import { REFERENTIEL_META } from "@/data/referentiel-meta";
 import videosFr from "@/content/videos/videos-fr.json";
 import videosEn from "@/content/videos/videos-en.json";
 
@@ -18,6 +19,7 @@ const STATIC_PAGES = [
   { path: "mentivisos", priority: 0.8, changeFrequency: "monthly" as const },
 
   { path: "insights", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "referentiel", priority: 0.8, changeFrequency: "weekly" as const },
   { path: "guides", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "score-formation", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "careers", priority: 0.6, changeFrequency: "monthly" as const },
@@ -56,6 +58,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       });
     }
+  }
+
+  // Referentiel articles × 1 language (FR only)
+  for (const article of REFERENTIEL_META) {
+    entries.push({
+      url: `${BASE_URL}/fr/referentiel/${article.slug}/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
   }
 
   // Job listings × 2 languages

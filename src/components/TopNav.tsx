@@ -133,6 +133,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
 
   const allResourceLinks = [
     { href: `/${lang}/insights`, label: t.nav.insights },
+    { href: `/${lang}/referentiel`, label: lang === "fr" ? "Le Référentiel" : "The Reference" },
     { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
     { href: `/${lang}/score-formation`, label: "Score Formation" },
     { href: `/${lang}/videos`, label: lang === "fr" ? "Vidéos" : "Videos" },
