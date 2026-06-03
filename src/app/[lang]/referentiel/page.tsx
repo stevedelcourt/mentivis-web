@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Suspense } from "react";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import ReferentielClient from "./ReferentielClient";
 import { localeAlternates } from "@/lib/metadata";
@@ -39,9 +38,7 @@ export default function Page({ params }: { params: Promise<{ lang: string }> }) 
           { name: "Le Référentiel" },
         ]}
       />
-      <Suspense fallback={<main style={{ padding: "80px 0", textAlign: "center" }}>Chargement...</main>}>
-        <ReferentielClient />
-      </Suspense>
+      <ReferentielClient />
     </>
   );
 }

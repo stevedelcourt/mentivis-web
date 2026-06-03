@@ -1,7 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useMemo, useState, useEffect } from "react";
 import { marked } from "marked";
 import {
   REFERENTIEL_META,
@@ -14,6 +13,7 @@ import ReferentielSidebar from "../ReferentielSidebar";
 import ReferentielFilters from "../ReferentielFilters";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
+import { useSearchParamsClient } from "@/lib/use-search-params";
 
 interface Props {
   article: ReferentielArticle;
@@ -21,11 +21,19 @@ interface Props {
 }
 
 export default function ReferentielDetailClient({ article, lang }: Props) {
-  const searchParams = useSearchParams();
-  const activeCible = searchParams.get("cible") || "";
-  const activeThematique = searchParams.get("thematique") || "";
-  const activeTag = searchParams.get("tag") || "";
+  const { get } = useSearchParamsClient();
+
+  const [activeCible, setActiveCible] = useState("");
+  const [activeThematique, setActiveThematique] = useState("");
+  const [activeTag, setActiveTag] = useState("");
   const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    setActiveCible(get("cible"));
+    setActiveThematique(get("thematique"));
+    setActiveTag(get("tag"));
+    setQuery(get("q"));
+  }, [get]);
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -57,7 +65,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
   }, [article.content]);
 
   const updateFilter = (key: string, value: string) => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(window.location.search);
     if (value) params.set(key, value);
     else params.delete(key);
     if (key !== "tag") params.delete("tag");
@@ -66,7 +74,8 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
   };
 
   const buildListUrl = () => {
-    const params = new URLSearchParams(searchParams.toString());
+    if (typeof window === "undefined") return "/fr/referentiel/";
+    const params = new URLSearchParams(window.location.search);
     params.delete("tag");
     const qs = params.toString();
     return `/fr/referentiel/${qs ? `?${qs}` : ""}`;

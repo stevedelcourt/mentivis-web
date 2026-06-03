@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useMemo, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import {
   REFERENTIEL_META,
   getCibles,
@@ -11,15 +11,23 @@ import {
 import PageShell from "@/components/layout/PageShell";
 import ReferentielSidebar from "./ReferentielSidebar";
 import ReferentielFilters from "./ReferentielFilters";
+import { useSearchParamsClient } from "@/lib/use-search-params";
 
 export default function ReferentielClient() {
   const router = useRouter();
-  const searchParams = useSearchParams();
+  const { get } = useSearchParamsClient();
 
-  const activeCible = searchParams.get("cible") || "";
-  const activeThematique = searchParams.get("thematique") || "";
-  const activeTag = searchParams.get("tag") || "";
-  const [query, setQuery] = useState(searchParams.get("q") || "");
+  const [activeCible, setActiveCible] = useState("");
+  const [activeThematique, setActiveThematique] = useState("");
+  const [activeTag, setActiveTag] = useState("");
+  const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    setActiveCible(get("cible"));
+    setActiveThematique(get("thematique"));
+    setActiveTag(get("tag"));
+    setQuery(get("q"));
+  }, [get]);
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -43,7 +51,8 @@ export default function ReferentielClient() {
   }, [activeCible, activeThematique, activeTag, query]);
 
   const updateFilter = (key: string, value: string) => {
-    const params = new URLSearchParams(searchParams.toString());
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
     if (value) {
       params.set(key, value);
     } else {
