@@ -16,12 +16,12 @@ import { useSearchParamsClient } from "@/lib/use-search-params";
 export default function ReferentielClient() {
   const router = useRouter();
   const [navKey, setNavKey] = useState(0);
-  const { get, ready } = useSearchParamsClient();
+  const { get } = useSearchParamsClient();
 
-  const activeCible = ready ? get("cible") : "";
-  const activeThematique = ready ? get("thematique") : "";
-  const activeTag = ready ? get("tag") : "";
-  const [query, setQuery] = useState("");
+  const activeCible = get("cible");
+  const activeThematique = get("thematique");
+  const activeTag = get("tag");
+  const [query, setQuery] = useState(get("q"));
 
   const cibles = getCibles();
   const thematiques = getThematiques();

@@ -1,23 +1,23 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 export function useSearchParamsClient() {
-  const [ready, setReady] = useState(false);
-  const [params, setParams] = useState<URLSearchParams>(new URLSearchParams());
+  const [tick, setTick] = useState(0);
 
   useEffect(() => {
-    setParams(new URLSearchParams(window.location.search));
-    setReady(true);
-
-    const handler = () => {
-      setParams(new URLSearchParams(window.location.search));
-    };
+    setTick(1);
+    const handler = () => setTick((n) => n + 1);
     window.addEventListener("popstate", handler);
     return () => window.removeEventListener("popstate", handler);
   }, []);
 
-  return {
-    ready,
-    get: (key: string) => params.get(key) || "",
-  };
+  const ready = tick > 0;
+
+  const params = ready && typeof window !== "undefined"
+    ? new URLSearchParams(window.location.search)
+    : new URLSearchParams();
+
+  const get = useCallback((key: string) => params.get(key) || "", [params]);
+
+  return { get };
 }
