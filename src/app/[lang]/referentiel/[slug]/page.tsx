@@ -36,6 +36,16 @@ export async function generateMetadata({
       description: article.metaDescription || article.shortDescription,
       type: "article",
       locale: "fr_FR",
+      images: [{
+        url: "https://mentivis.com/images/referentiel-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Le Référentiel — Mentivis",
+      }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: ["https://mentivis.com/images/referentiel-og.jpg"],
     },
   };
 }
