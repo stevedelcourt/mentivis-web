@@ -97,7 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           title: v.title,
           thumbnail_loc: `https://img.youtube.com/vi/${v.youtube}/hqdefault.jpg`,
           description: v.description,
-          player_loc: `${BASE_URL}/${lang}/videos/`,
+          player_loc: `https://www.youtube-nocookie.com/embed/${v.youtube}`,
         })),
     });
   }
