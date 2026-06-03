@@ -34,8 +34,11 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
   const thematiques = getThematiques();
   const allTags = getAllTags();
 
+  const isFr = lang === "fr";
+
   const filtered = useMemo(() => {
-    let result = REFERENTIEL_META;
+    let result = REFERENTIEL_META.filter((a) => a.lang === lang);
+    void navKey;
     void navKey;
     if (activeCible) result = result.filter((a) => a.cible === activeCible);
     if (activeThematique) result = result.filter((a) => a.thematique === activeThematique);
@@ -66,17 +69,19 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
     else params.delete(key);
     if (key !== "tag") params.delete("tag");
     const qs = params.toString();
-    window.history.replaceState(null, "", `/fr/referentiel/${article.slug}/${qs ? `?${qs}` : ""}`);
+    const l = window.location.pathname.split("/")[1] || "fr";
+    window.history.replaceState(null, "", `/${l}/referentiel/${article.slug}/${qs ? `?${qs}` : ""}`);
     setNavKey((n) => n + 1);
   }, [article.slug]);
 
   const buildListUrl = useCallback(() => {
-    if (typeof window === "undefined") return "/fr/referentiel/";
+    if (typeof window === "undefined") return `/${lang}/referentiel/`;
+    const l = window.location.pathname.split("/")[1] || lang;
     const params = new URLSearchParams(window.location.search);
     params.delete("tag");
     const qs = params.toString();
-    return `/fr/referentiel/${qs ? `?${qs}` : ""}`;
-  }, []);
+    return `/${l}/referentiel/${qs ? `?${qs}` : ""}`;
+  }, [lang]);
 
   const handleCopy = () => {
     if (typeof window !== "undefined") {
@@ -112,6 +117,12 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
             activeCible={activeCible} activeThematique={activeThematique}
             activeTag={activeTag} query={query}
             onUpdateFilter={updateFilter} onSetQuery={setQuery}
+            lang={lang}
+            cibleEn={{
+              "Organismes de formation": "Training Organizations",
+              "Entreprises": "Companies",
+              "EdTech, plateformes et outils numériques": "EdTech, Platforms and Digital Tools",
+            }}
           />
 
           <div className="referentiel-layout" style={{
@@ -127,6 +138,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                 activeThematique={activeThematique}
                 activeTag={activeTag}
                 query={query}
+                lang={lang}
               />
             </div>
             <div>
@@ -206,6 +218,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                 activeThematique={activeThematique}
                 activeTag={activeTag}
                 query={query}
+                lang={lang}
               />
             </div>
           </div>

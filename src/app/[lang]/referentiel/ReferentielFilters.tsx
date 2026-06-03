@@ -10,7 +10,20 @@ interface Props {
   query: string;
   onUpdateFilter: (key: string, value: string) => void;
   onSetQuery: (q: string) => void;
+  lang?: string;
+  cibleEn?: Record<string, string>;
 }
+
+const THEMATIQUE_EN: Record<string, string> = {
+  "Certification": "Certification",
+  "Financement": "Funding",
+  "Apprentissage": "Apprenticeship",
+  "Pédagogie": "Pedagogy",
+  "Réglementation": "Regulation",
+  "Développement": "Development",
+  "Qualiopi": "Qualiopi",
+  "Bilan de compétences": "Skills Assessment",
+};
 
 const topBarStyle: React.CSSProperties = {
   display: "flex", flexWrap: "wrap", gap: 12, marginBottom: 16, alignItems: "center",
@@ -32,7 +45,11 @@ export default function ReferentielFilters({
   cibles, thematiques, allTags,
   activeCible, activeThematique, activeTag, query,
   onUpdateFilter, onSetQuery,
+  lang = "fr", cibleEn = {},
 }: Props) {
+  const isFr = lang === "fr";
+
+  const label = (fr: string, en: string) => isFr ? fr : en;
   const tagStyle = (active: boolean): React.CSSProperties => ({
     padding: "4px 12px", fontSize: 12, fontWeight: 500,
     fontFamily: "var(--font-sans, 'IBM Plex Sans')",
@@ -45,17 +62,17 @@ export default function ReferentielFilters({
   return (
     <>
       <div style={topBarStyle}>
-        <input type="text" placeholder="Rechercher un article..." value={query}
+          <input type="text" placeholder={label("Rechercher un article...", "Search...")} value={query}
           onChange={(e) => onSetQuery(e.target.value)} style={searchStyle} />
         <select value={activeCible}
           onChange={(e) => onUpdateFilter("cible", e.target.value)} style={selectStyle}>
-          <option value="">Toutes les cibles</option>
-          {cibles.map((c) => <option key={c} value={c}>{c}</option>)}
+          <option value="">{label("Toutes les cibles", "All targets")}</option>
+          {cibles.map((c) => <option key={c} value={c}>{cibleEn[c] || c}</option>)}
         </select>
         <select value={activeThematique}
           onChange={(e) => onUpdateFilter("thematique", e.target.value)} style={selectStyle}>
-          <option value="">Toutes les thématiques</option>
-          {thematiques.map((t) => <option key={t} value={t}>{t}</option>)}
+          <option value="">{label("Toutes les thématiques", "All themes")}</option>
+          {thematiques.map((t) => <option key={t} value={t}>{THEMATIQUE_EN[t] || t}</option>)}
         </select>
       </div>
 

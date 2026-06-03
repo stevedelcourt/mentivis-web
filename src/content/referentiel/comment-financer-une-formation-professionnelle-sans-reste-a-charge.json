@@ -3,9 +3,16 @@
   "title": "Comment financer une formation professionnelle sans reste à charge",
   "cible": "Organismes de formation",
   "thematique": "Financement",
-  "tags": ["CPF", "OPCO", "financement", "Pro-A", "France Travail"],
+  "tags": [
+    "CPF",
+    "OPCO",
+    "financement",
+    "Pro-A",
+    "France Travail"
+  ],
   "shortDescription": "Financer une formation sans reste à charge suppose de mobiliser le bon dispositif selon le profil du bénéficiaire : CPF, plan de développement des compétences, Pro-A, France Travail. L'enjeu est d'identifier le financeur adapté avant l'entrée en formation.",
   "metaDescription": "Comment financer une formation sans reste à charge ? CPF, OPCO, Pro-A, France Travail : tous les dispositifs de financement expliqués pour les organismes de formation.",
   "content": "## Identifier le bon dispositif\n\nLe dispositif dépend du statut et de l'initiateur. Pour un salarié dont la formation est décidée par l'employeur, le plan de développement des compétences mobilise les fonds de l'OPCO de branche. Pour un actif qui forme sur sa propre initiative, le CPF finance les formations certifiantes éligibles. Pour une reconversion ou une promotion en restant dans l'entreprise, la Pro-A combine alternance et maintien du contrat. Pour un demandeur d'emploi, France Travail et les régions interviennent.\n\n## Les circuits de prise en charge\n\nLe CPF se mobilise via Mon Compte Formation. Depuis l'instauration d'un reste à charge de 100 euros par dossier, le titulaire participe au financement sauf abondement par un tiers, employeur ou France Travail.\n\nL'OPCO finance sur la base d'une convention de formation et d'un dossier de prise en charge déposé avant le démarrage. Les niveaux de prise en charge sont fixés par branche.\n\nLes dispositifs complémentaires, comme le FNE-formation en cas de difficultés économiques ou les aides régionales, peuvent s'ajouter selon les situations.\n\n## Sécuriser le dossier en amont\n\nLa prise en charge se prépare avant l'entrée en formation. Un dossier déposé en retard, une convention non conforme ou un défaut d'éligibilité de la formation ferment l'accès au financement. L'organisme a intérêt à vérifier l'éligibilité de chaque action, à anticiper les délais d'instruction des OPCO et à conserver les justificatifs.\n\n## Ce qu'il faut retenir\n\n- Le dispositif de financement dépend du statut du bénéficiaire et de l'initiateur de la formation.\n- Le CPF passe par Mon Compte Formation avec un reste à charge de 100 euros, sauf abondement.\n- L'OPCO finance sur convention et dossier déposé avant le démarrage.\n- Les niveaux de prise en charge sont fixés par branche.\n- La prise en charge se prépare en amont et ne se rattrape pas.\n\n---\n\nL'ingénierie de financement, CPF, OPCO, région, FSE, fait partie des pôles d'intervention de Mentivis pour structurer et sécuriser les ressources d'un organisme. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)\n\nMentivisOS produit des programmes éligibles aux circuits de financement en alignant chaque action sur un référentiel certifiant. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)\n\n**À lire aussi :** Comment créer une formation éligible au CPF · Comment gérer la relation avec les OPCO au quotidien · Comment obtenir et utiliser les fonds de la taxe d'apprentissage.",
-  "order": 3
+  "order": 3,
+  "lang": "fr"
 }

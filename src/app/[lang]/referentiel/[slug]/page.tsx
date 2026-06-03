@@ -8,7 +8,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import ReferentielDetailClient from "./ReferentielDetailClient";
 
 export function generateStaticParams() {
-  const locales = ["fr"];
+  const locales = ["fr", "en"];
   const params: { lang: string; slug: string }[] = [];
   for (const lang of locales) {
     for (const slug of REFERENTIEL.map((a) => a.slug)) {
@@ -23,23 +23,23 @@ export async function generateMetadata({
 }: {
   params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const article = getReferentielBySlug(slug);
+  const { slug, lang } = await params;
+  const article = getReferentielBySlug(slug, lang);
   if (!article) return {};
 
   return {
-    title: `${article.title} | Le Référentiel — Mentivis`,
+    title: `${article.title} | ${lang === "fr" ? "Le Référentiel — Mentivis" : "The Reference — Mentivis"}`,
     description: article.metaDescription || article.shortDescription,
     openGraph: {
       title: article.title,
       description: article.metaDescription || article.shortDescription,
       type: "article",
-      locale: "fr_FR",
+      locale: lang === "fr" ? "fr_FR" : "en_US",
       images: [{
         url: "/images/referentiel-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Le Référentiel — Mentivis",
+        alt: lang === "fr" ? "Le Référentiel — Mentivis" : "The Reference — Mentivis",
       }],
     },
     twitter: {
@@ -55,7 +55,7 @@ export default async function ReferentielDetailPage({
   params: Promise<{ lang: string; slug: string }>;
 }) {
   const { lang, slug } = await params;
-  const article = getReferentielBySlug(slug);
+  const article = getReferentielBySlug(slug, lang);
   if (!article) notFound();
 
   return (

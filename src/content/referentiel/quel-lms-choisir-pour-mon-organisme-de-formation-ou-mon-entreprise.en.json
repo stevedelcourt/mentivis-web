@@ -1,0 +1,20 @@
+{
+  "slug": "quel-lms-choisir-pour-mon-organisme-de-formation-ou-mon-entreprise",
+  "lang": "en",
+  "title": "Which LMS should I choose for my training organization or company",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Certification",
+  "thematiqueEn": "Certification",
+  "tags": [
+    "IA",
+    "LMS",
+    "audit",
+    "formation",
+    "management"
+  ],
+  "shortDescription": "Choosing an LMS, or learning management system, requires starting from actual needs before comparing tools: the nature of training programs, learner volume, reporting requirements, compliance const...",
+  "metaDescription": "Choosing an LMS, or learning management system, requires starting from actual needs before comparing tools: the nature of training programs, learner volume, reporting requirements, compliance constraints and integration with the information system.",
+  "content": "Choosing an LMS, or learning management system, requires starting from actual needs before comparing tools: the nature of training programs, learner volume, reporting requirements, compliance constraints and integration with the information system. An LMS distributes and tracks existing content; it does not produce it. This distinction is central, because many organizations expect an LMS to solve a content production problem, when it only addresses distribution and tracking.\n\n## Starting from needs, not feature lists\n\nLMS selection begins with needs definition, not feature sheet comparison. The structuring questions: how many learners, what types of training, what level of pathway personalization, what reporting and evidence needs, what compliance obligations. A requirements document grounded in these needs avoids paying for useless features or discovering a blocking gap too late.\n\n## Checking integration and compliance\n\nAn LMS fits into an information system. Its ability to integrate with existing tools, HR management systems, content production tools, matters as much as its own features. Compatibility with technical standards such as SCORM or xAPI conditions content portability. For a certified organization, the LMS's ability to track attendance and progress in a way that is usable at audit is a determining criterion.\n\n## Distinguishing distribution from production\n\nAn LMS manages distribution, enrolment, tracking and reporting. It does not design content, which must be produced separately, either in-house or by a dedicated tool. This distinction is essential: a high-performing LMS with an empty catalogue is useless. The question of content, its production and updating, is often the real bottleneck, distinct from the choice of distribution platform.\n\n## Key takeaways\n\n- LMS selection starts from actual needs, not a feature list.\n- Volume, training types, reporting and compliance are the structuring criteria.\n- Integration with the information system matters as much as the platform's own features.\n- Compatibility with technical standards conditions content portability.\n- An LMS distributes and tracks content; it does not produce it.",
+  "order": 61
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics",
+  "lang": "en",
+  "title": "How to measure training impact through learning analytics",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Pedagogy",
+  "thematiqueEn": "Pedagogy",
+  "tags": [
+    "management"
+  ],
+  "shortDescription": "Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.",
+  "metaDescription": "Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.",
+  "content": "Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement. It makes it possible to go beyond surface indicators, completion rates, satisfaction, to connect learning activity to acquisition and, ideally, to impact on work. Its value does not come from data accumulation but from translation into decisions: identifying dropout points, finding effective content, and directing pedagogical adjustments.\n\n## From surface indicators to analysis\n\nMany organizations settle for surface indicators: how many enrolled, how many completions, what satisfaction score. These data describe activity but not learning. Learning analytics goes further by analyzing pathways: where learners slow down or drop out, which content is revisited, which exercises pose difficulty. This analysis reveals the actual functioning of the program, beyond attendance figures.\n\n## Connecting activity to acquisition\n\nAnalysis gains value when it connects activity to acquisition and impact. Crossing pathway data with evaluation results shows which learning paths produce competencies. Crossing, where possible, with operational indicators brings learning analytics closer to impact measurement. This chain, from activity to acquisition to impact, gives management a solid factual foundation.\n\n## Translating data into decisions\n\nData only has value when translated into action. Learning analytics must lead to decisions: rework a module with high dropout, reinforce poorly acquired content, remove what serves no purpose. This requires readable dashboards and a continuous improvement approach that actually exploits the analysis. Accumulating data without exploiting it is worthless. Personal data protection also frames this collection.\n\n## Key takeaways\n\n- Learning analytics goes beyond surface indicators to analyze pathways.\n- It reveals where learners drop out and which content works.\n- Connecting activity, acquisition and impact provides a factual management foundation.\n- Value comes from translating data into decisions, not from accumulation.\n- Personal data protection frames the collection.",
+  "order": 75
+}

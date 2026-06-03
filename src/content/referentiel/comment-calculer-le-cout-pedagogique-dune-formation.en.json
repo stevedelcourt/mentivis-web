@@ -1,0 +1,18 @@
+{
+  "slug": "comment-calculer-le-cout-pedagogique-dune-formation",
+  "lang": "en",
+  "title": "How to calculate the pedagogical cost of a training program",
+  "cible": "Organismes de formation",
+  "cibleEn": "Training Organizations",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "IA",
+    "OPCO",
+    "management"
+  ],
+  "shortDescription": "Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sa...",
+  "metaDescription": "Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sales, overhead), then dividing this total by the number of hours and learners to obtain an hourly cost and a per-learner cost.",
+  "content": "Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sales, overhead), then dividing this total by the number of hours and learners to obtain an hourly cost and a per-learner cost. Pricing is then built by adding a margin to this cost price, taking into account the coverage levels of funders.\n\n## Distinguishing direct and indirect costs\n\nDirect costs are traceable to a specific action: trainer fees or loaded salary, materials design, room rental, platform licenses, travel expenses. Indirect costs cover general operations: administration, sales, pedagogical oversight, permanent premises. An allocation key, often based on hour volume, distributes a share of indirect costs to each action.\n\n## From cost price to pricing\n\nThe total cost price divided by hour volume gives the hourly cost. Divided by the number of learners, it gives the per-learner cost, a key indicator for group training where pooling reduces the unit cost.\n\nPricing adds an operational margin to the cost price. It is also assessed against the market and OPCO coverage levels, which effectively cap the acceptable price for certain actions.\n\n## Managing profitability by module\n\nTracking cost by module makes it possible to identify profitable actions and those that weigh on the organization. A module with low enrolment may be loss-making despite a high listed price, if direct costs are not covered. Management consists in arbitrating between volume, price and pooling, and deciding whether to maintain, adjust or discontinue an action.\n\n## Key takeaways\n\n- Pedagogical cost adds direct costs and a share of indirect costs.\n- Hourly cost and per-learner cost are the two key indicators.\n- Pricing adds a margin to the cost price, within the limits of the market and coverage levels.\n- Pooling reduces the unit cost of group training.\n- Module-level management reveals which actions are genuinely profitable.",
+  "order": 8
+}

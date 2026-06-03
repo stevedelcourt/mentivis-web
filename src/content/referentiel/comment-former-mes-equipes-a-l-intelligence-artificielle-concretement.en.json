@@ -1,0 +1,17 @@
+{
+  "slug": "comment-former-mes-equipes-a-l-intelligence-artificielle-concretement",
+  "lang": "en",
+  "title": "How to train my teams on artificial intelligence in practice",
+  "cible": "Entreprises",
+  "cibleEn": "Companies",
+  "thematique": "Development",
+  "thematiqueEn": "Development",
+  "tags": [
+    "IA",
+    "formation"
+  ],
+  "shortDescription": "Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually u...",
+  "metaDescription": "Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually use, and supporting managers on supervision and integration of AI into processes.",
+  "content": "Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually use, and supporting managers on supervision and integration of AI into processes. Generic AI training leaves little trace. Impact comes from anchoring in the daily tasks of each function and from a practice transformation plan that goes beyond simple tool discovery.\n\n## Starting from job function use cases\n\nAI is not trained in the abstract. Each function has its relevant use cases: writing and synthesis for support functions, analysis for data functions, client relations for commercial teams. Identifying these use cases by job function directs training toward what actually changes work. A concrete case-study approach produces more adoption than a general AI course.\n\n## Training on tools actually used\n\nCompetency is built on the tools teams will effectively use. Training on the assistants and tools deployed in the company, with their use cases and limitations, anchors lasting practices. Prompt mastery, result verification and awareness of limitations are base competencies to transmit, regardless of the tool.\n\n## Supporting practice transformation\n\nBeyond the tool, it is the integration of AI into processes that creates value. Managers must be trained to supervise AI-assisted work, to arbitrate between automation and human control, and to evolve their teams' practices. A transformation plan, phased and supported, goes beyond one-off training and embeds AI in the real functioning of the organization.\n\n## Key takeaways\n\n- AI training starts from real use cases by job function, not from general concepts.\n- It is anchored on the tools teams will actually use.\n- Prompt mastery, verification and awareness of limitations are base competencies.\n- Managers must be trained to supervise AI-assisted work.\n- A practice transformation plan goes beyond one-off training.",
+  "order": 39
+}

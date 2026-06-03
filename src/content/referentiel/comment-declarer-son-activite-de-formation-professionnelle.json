@@ -3,9 +3,15 @@
   "title": "Comment déclarer son activité de formation professionnelle",
   "cible": "Organismes de formation",
   "thematique": "Réglementation",
-  "tags": ["DREETS", "déclaration", "réglementation", "BPF"],
+  "tags": [
+    "DREETS",
+    "déclaration",
+    "réglementation",
+    "BPF"
+  ],
   "shortDescription": "La déclaration d'activité s'effectue auprès de la DREETS du lieu du siège social, dans les trois mois suivant la première convention de formation. Elle ouvre droit au numéro de déclaration d'activité, obligatoire sur les contrats dès le second.",
   "metaDescription": "Comment déclarer son activité de formation professionnelle : procédure DREETS, obligations continues, bilan pédagogique et financier. Toutes les étapes pour être en règle.",
   "content": "## Le principe de la déclaration\n\nTout prestataire d'actions concourant au développement des compétences doit se déclarer. La première convention ou le premier contrat se conclut sans numéro, puisque la déclaration intervient ensuite. À compter du deuxième, le numéro de déclaration d'activité devient obligatoire sur les documents contractuels.\n\nLes structures dispensant de la formation exclusivement à leurs propres salariés en interne sont dispensées de déclaration, sauf s'il s'agit de CFA d'entreprise.\n\n## La procédure auprès de la DREETS\n\nLa DREETS compétente est celle du lieu du siège social, du principal établissement ou de la direction effective. Le dossier comprend les éléments d'identification de l'organisme, la nature des prestations et, selon les cas, les justificatifs de la première action réalisée. L'administration peut demander un justificatif relatif à la première prestation, au public bénéficiaire ou à la nature de la formation.\n\n## Les obligations qui suivent la déclaration\n\nLa déclaration ouvre des obligations continues. Le bilan pédagogique et financier doit être transmis chaque année ; sa non-transmission peut entraîner la caducité du numéro de déclaration d'activité. Les documents contractuels doivent respecter les mentions obligatoires, dont le numéro de déclaration et les modalités d'évaluation. La déclaration ne vaut pas agrément ni caution qualitative de l'État, ce qui doit être précisé dans la communication.\n\n## Ce qu'il faut retenir\n\n- La déclaration se dépose à la DREETS dans les trois mois suivant le premier contrat.\n- Elle ouvre droit au numéro de déclaration d'activité, obligatoire dès le second contrat.\n- La formation interne aux seuls salariés est dispensée, sauf CFA d'entreprise.\n- Le bilan pédagogique et financier annuel est obligatoire.\n- Le défaut de BPF peut entraîner la caducité du numéro.\n\n---\n\nLa déclaration d'activité et la mise en conformité initiale font partie du pôle administratif de Mentivis, qui sécurise le démarrage réglementaire d'un organisme. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)\n\nUne fois la structure déclarée, MentivisOS génère les programmes et déroulés conformes nécessaires à l'activité. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)\n\n**À lire aussi :** Comment créer un CFA en France en 2026 · Comment rédiger une convention de formation conforme à la loi · Comment obtenir la certification Qualiopi.",
-  "order": 5
+  "order": 5,
+  "lang": "fr"
 }

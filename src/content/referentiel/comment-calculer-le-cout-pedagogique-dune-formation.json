@@ -3,9 +3,15 @@
   "title": "Comment calculer le coût pédagogique d'une formation",
   "cible": "Organismes de formation",
   "thematique": "Financement",
-  "tags": ["coût", "tarification", "rentabilité", "OPCO"],
+  "tags": [
+    "coût",
+    "tarification",
+    "rentabilité",
+    "OPCO"
+  ],
   "shortDescription": "Établir le coût pédagogique consiste à additionner les charges directes et une quote-part de charges indirectes, puis à rapporter ce total au nombre d'heures et d'apprenants pour obtenir un coût horaire et un coût par apprenant.",
   "metaDescription": "Calculer le coût pédagogique d'une formation : charges directes et indirectes, coût de revient, tarification et pilotage de la rentabilité par module. Guide pratique pour les OF.",
   "content": "## Distinguer charges directes et indirectes\n\nLes charges directes sont rattachables à une action précise : honoraires ou salaire chargé du formateur, conception des supports, location éventuelle de salle, licences de plateforme, frais de déplacement. Les charges indirectes couvrent le fonctionnement général de l'organisme : administration, commercialisation, encadrement pédagogique, locaux permanents. Une clé de répartition, souvent fondée sur le volume d'heures, permet d'affecter une quote-part d'indirect à chaque action.\n\n## Du coût de revient à la tarification\n\nLe coût de revient total rapporté au volume horaire donne le coût horaire. Rapporté au nombre d'apprenants, il donne le coût par apprenant, indicateur clé pour les formations collectives où la mutualisation fait baisser le coût unitaire.\n\nLa tarification ajoute une marge opérationnelle au coût de revient. Elle s'apprécie aussi au regard du marché et des niveaux de prise en charge des OPCO, qui plafonnent de fait le prix acceptable sur certaines actions.\n\n## Piloter la rentabilité par action\n\nLe suivi du coût par module permet d'identifier les actions rentables et celles qui pèsent sur la structure. Un module à faible effectif peut être déficitaire malgré un tarif affiché élevé, si les charges directes ne sont pas couvertes. Le pilotage consiste à arbitrer entre volume, tarif et mutualisation, et à décider du maintien, de l'ajustement ou de l'abandon d'une action.\n\n## Ce qu'il faut retenir\n\n- Le coût pédagogique additionne charges directes et quote-part de charges indirectes.\n- Le coût horaire et le coût par apprenant sont les deux indicateurs clés.\n- La tarification ajoute une marge au coût de revient, dans la limite du marché et des prises en charge.\n- La mutualisation fait baisser le coût unitaire des formations collectives.\n- Le pilotage par module révèle les actions réellement rentables.\n\n---\n\nStructurer un modèle économique solide fait partie du pôle stratégie de Mentivis, qui aligne offre, tarification et financements. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)\n\nEn réduisant le temps de conception des programmes, MentivisOS agit directement sur la part la plus lourde des charges de production pédagogique. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)\n\n**À lire aussi :** Comment mesurer le retour sur investissement d'une formation · Comment développer une activité de formation en entreprise · Comment financer une formation professionnelle sans reste à charge.",
-  "order": 8
+  "order": 8,
+  "lang": "fr"
 }

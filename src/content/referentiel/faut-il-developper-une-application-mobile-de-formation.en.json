@@ -1,0 +1,17 @@
+{
+  "slug": "faut-il-developper-une-application-mobile-de-formation",
+  "lang": "en",
+  "title": "Should I develop a mobile training application",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "IA",
+    "microlearning"
+  ],
+  "shortDescription": "Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.",
+  "metaDescription": "Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.",
+  "content": "Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application. In many cases, a responsive website or a progressive web app is sufficient, at lower cost. A native application is only justified by specific needs: offline use, push notifications, hardware integration, high usage frequency. The question is not following a trend, but determining whether mobile responds to a real learning need and which one.\n\n## Mobile, yes, but in what form\n\nMobile training covers several realities. Content accessible from a mobile device through a browser, via a responsive site, already covers many use cases without specific development. An installable web application provides additional convenience at moderate cost. A native application, developed for each operating system, offers the most possibilities but at the highest cost. Confusing the need for mobility with the need for a native application leads to over-investment.\n\n## When a native application is justified\n\nA native application is justified by needs that the web does not cover well: offline use, for learners in the field for example, push notifications that sustain engagement and regularity, access to device hardware features, or very frequent use that justifies a place on the home screen. In the absence of these needs, the additional cost of a native application is not justified.\n\n## Thinking usage before tool\n\nThe right approach starts from usage. What will learners do on mobile, how frequently, under what conditions, with what benefit for learning. Mobile suits microlearning, spaced reinforcement and quick reference well, less so deep learning. Defining the target usage makes it possible to choose the right form and avoid developing a costly application for a need the web would have covered.\n\n## Key takeaways\n\n- A responsive site or web application suffices in many cases.\n- A native application is only justified by specific needs.\n- Offline use, notifications, hardware features and high frequency justify the native.\n- Confusing the need for mobility with a native application leads to over-investment.\n- The approach starts from the actual learning usage, not from a trend.",
+  "order": 77
+}

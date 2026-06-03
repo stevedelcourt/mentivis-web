@@ -1,0 +1,17 @@
+{
+  "slug": "comment-personnaliser-les-parcours-de-formation-grace-aux-donnees",
+  "lang": "en",
+  "title": "How to personalize learning pathways using data",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Pedagogy",
+  "thematiqueEn": "Pedagogy",
+  "tags": [
+    "IA",
+    "formation"
+  ],
+  "shortDescription": "Personalizing learning pathways through data means exploiting information on each learner's profile, prior acquisition and learning behavior to adapt what is offered: level, pace, content, modalities.",
+  "metaDescription": "Personalizing learning pathways through data means exploiting information on each learner's profile, prior acquisition and learning behavior to adapt what is offered: level, pace, content, modalities.",
+  "content": "Personalizing learning pathways through data means exploiting information on each learner's profile, prior acquisition and learning behavior to adapt what is offered: level, pace, content, modalities. This personalization, not achievable manually at scale, rests on initial positioning, continuous tracking and dynamic adaptation. Its value is twofold: improving effectiveness, by directing each person toward what they need, and engagement, by avoiding both the boredom of the too easy and the discouragement of the too difficult.\n\n## The data that grounds personalization\n\nPersonalization draws on three types of data. Profile, prerequisites, objectives, context, situates the learner at the start. Prior acquisition, measured by positioning and evaluations, reveals what is mastered and what is lacking. Behavior, progression, time spent, difficulties encountered, informs continuously on how the pathway is unfolding. It is the crossing of these data that makes adaptation relevant.\n\n## From positioning to dynamic adaptation\n\nPersonalization begins with an initial positioning, which avoids making everyone start from the same point. It continues with dynamic adaptation: the pathway adjusts as the learner progresses or struggles. A learner who already masters a concept skips it; one in difficulty receives reinforcement. This adaptive logic directs each person's effort toward their actual competency gap.\n\n## Conditions for success\n\nData-driven personalization requires prerequisites: sufficiently modular content to be recombined, a clear competency framework serving as a compass, and compliance with the protection of learner personal data. Without modular content, there is nothing to recombine; without a framework, adaptation has no direction. Personalization is therefore as much a question of content architecture as it is of algorithm.\n\n## Key takeaways\n\n- Personalization crosses profile, prior acquisition and behavioral data.\n- Initial positioning avoids a uniform starting point.\n- Dynamic adaptation adjusts the pathway to actual progression.\n- It directs each person's effort toward their actual competency gap.\n- It requires modular content, a clear framework and data protection compliance.",
+  "order": 71
+}

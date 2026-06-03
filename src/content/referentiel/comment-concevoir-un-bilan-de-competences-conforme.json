@@ -3,9 +3,15 @@
   "title": "Comment concevoir un bilan de compétences conforme",
   "cible": "Organismes de formation",
   "thematique": "Bilan de compétences",
-  "tags": ["bilan de compétences", "Qualiopi", "CPF", "VAE"],
+  "tags": [
+    "bilan de compétences",
+    "Qualiopi",
+    "CPF",
+    "VAE"
+  ],
   "shortDescription": "Un bilan de compétences conforme se déroule en trois phases obligatoires : préliminaire, investigation et conclusion. Il est réalisé par un prestataire certifié Qualiopi sur la catégorie correspondante et aboutit à un document de synthèse remis au seul bénéficiaire.",
   "metaDescription": "Concevoir un bilan de compétences conforme : cadre légal, trois phases obligatoires, certification Qualiopi et différences avec un coaching. Guide complet pour les organismes de formation.",
   "content": "## Le cadre légal du bilan de compétences\n\nLe bilan de compétences est une action concourant au développement des compétences, soumise au Référentiel National Qualité. Le prestataire doit être certifié Qualiopi sur la catégorie correspondante pour rendre la prestation finançable via le CPF ou un autre circuit. La confidentialité est une obligation : les résultats détaillés et le document de synthèse appartiennent au seul bénéficiaire.\n\n## Les trois phases obligatoires\n\nLa phase préliminaire analyse la demande, définit les besoins et informe le bénéficiaire sur les conditions de déroulement et les méthodes.\n\nLa phase d'investigation explore les motivations, les compétences, les aptitudes et le potentiel d'évolution, à l'aide d'outils d'évaluation et d'analyse.\n\nLa phase de conclusion permet au bénéficiaire de s'approprier les résultats, d'identifier les facteurs de réussite de son projet et d'en définir les étapes. Elle se matérialise par le document de synthèse.\n\n## Ce qui distingue un bilan d'un coaching\n\nLe bilan de compétences est encadré par le code du travail, ce qui n'est pas le cas d'un coaching ou d'une prestation d'orientation. Cet encadrement fonde son éligibilité au CPF et impose la structure en trois phases, la durée plafonnée et la confidentialité. Un prestataire qui propose un bilan sans respecter ce cadre ne peut le faire financer comme tel.\n\n## Ce qu'il faut retenir\n\n- Le bilan de compétences se déroule en trois phases : préliminaire, investigation, conclusion.\n- Le prestataire doit être certifié Qualiopi sur la catégorie bilan de compétences.\n- La durée n'excède pas vingt-quatre heures.\n- Le document de synthèse est remis au seul bénéficiaire.\n- La confidentialité est une obligation légale, pas une option commerciale.\n\n---\n\nStructurer une offre de bilan de compétences conforme suppose des process documentés et une certification adaptée. Mentivis accompagne les organismes dans la structuration et la mise en conformité de leurs offres. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)\n\nPour les supports et trames méthodologiques associés, MentivisOS génère des contenus structurés alignés sur le cadre attendu. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)\n\n**À lire aussi :** Comment construire une offre de VAE · Comment obtenir la certification Qualiopi · Comment créer une formation éligible au CPF.",
-  "order": 6
+  "order": 6,
+  "lang": "fr"
 }

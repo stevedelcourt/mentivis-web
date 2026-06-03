@@ -1,0 +1,18 @@
+{
+  "slug": "comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise",
+  "lang": "en",
+  "title": "How to integrate a third-party catalogue like LinkedIn Learning in a company",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "IA",
+    "LMS",
+    "management"
+  ],
+  "shortDescription": "Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and mana...",
+  "metaDescription": "Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and managing adoption so that it does not become an underused subscription.",
+  "content": "Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and managing adoption so that it does not become an underused subscription. These catalogues provide broad access to content on transversal and digital competencies. Their main risk is low usage: a paid access that no one trains with. Value depends on accompanying usage, not on access alone.\n\n## Defining the intended use\n\nA third-party catalogue in a company can serve several purposes: open access for self-directed learning, recommended pathways on targeted competencies, complement to the skills development plan. Defining the intended use guides deployment. Open access without clear intent generally produces little effect; framed use, connected to development objectives, produces more. The subscription is only a means, not an end.\n\n## Connecting to the existing program\n\nThe third-party catalogue connects to the rest of the program: skills development plan, custom training, internal pathways. It covers the generic and transversal, where in-house custom content handles the specific. Technically integrating the catalogue with the LMS or HR system, where possible, consolidates tracking and avoids siloed usage, disconnected from the overall training management.\n\n## Steering adoption\n\nThe main pitfall of third-party catalogues in companies is under-utilization. Paid unlimited access that no one uses represents cost without return. Steering adoption requires communication, recommending pathways, manager involvement, and tracking actual usage. Usage data reveals whether the investment is producing effect and guides re-engagement actions. Without this steering, the catalogue becomes a recurring expense with uncertain value.\n\n## Key takeaways\n\n- A third-party catalogue in a company covers transversal and digital competencies.\n- Defining the intended use guides deployment and conditions effect.\n- It connects to the skills development plan and in-house custom content.\n- Its main risk is under-utilization: paid access used by few.\n- Steering adoption through communication, managers and usage tracking is essential.",
+  "order": 88
+}

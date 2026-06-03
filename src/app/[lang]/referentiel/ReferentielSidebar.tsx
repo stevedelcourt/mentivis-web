@@ -10,6 +10,7 @@ interface Props {
   activeThematique: string;
   activeTag: string;
   query: string;
+  lang: string;
 }
 
 export default function ReferentielSidebar({
@@ -19,6 +20,7 @@ export default function ReferentielSidebar({
   activeThematique,
   activeTag,
   query,
+  lang,
 }: Props) {
   if (articles.length === 0) {
     return (
@@ -35,7 +37,7 @@ export default function ReferentielSidebar({
     if (activeTag) params.set("tag", activeTag);
     if (query) params.set("q", query);
     const qs = params.toString();
-    return `/fr/referentiel/${slug}/${qs ? `?${qs}` : ""}`;
+    return `/${lang}/referentiel/${slug}/${qs ? `?${qs}` : ""}`;
   };
 
   const itemStyle = (isActive: boolean): React.CSSProperties => ({

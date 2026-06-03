@@ -1,0 +1,17 @@
+{
+  "slug": "comment-l-intelligence-artificielle-transforme-la-formation-professionnelle",
+  "lang": "en",
+  "title": "How artificial intelligence is transforming professional training",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "IA",
+    "management"
+  ],
+  "shortDescription": "Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts conten...",
+  "metaDescription": "Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts content to each learner's profile; and analysis, where it exploits learning data for management purposes.",
+  "content": "Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts content to each learner's profile; and analysis, where it exploits learning data for management purposes. The most structurally significant shift concerns production: moving from a logic of distributing pre-existing content to a logic of on-demand generation changes the very economics of training.\n\n## Producing at scale\n\nThe first effect of AI concerns production. Designing a program, materials and assessments was a lengthy and costly task. A generation engine produces these elements from a need and a reference framework in a fraction of the time. This shift moves the bottleneck: scarcity is no longer the capacity to produce content, but the quality of needs diagnosis.\n\n## Personalizing pathways\n\nAI makes it possible to adapt the pathway to each learner: adjusting pace, level and proposed content according to acquisition and detected difficulties. This personalization, not achievable manually at scale, improves engagement and effectiveness. Adaptive learning directs each person toward what they need, rather than unrolling a uniform pathway.\n\n## Analyzing and managing\n\nAI exploits learning data to reveal what works: where learners disengage, which content produces acquisition, which pathways lead to the outcome. This analysis, called learning analytics, transforms training management from intuition-based to data-driven. It feeds the continuous improvement of programs. The challenge is not the tool but the ability to translate analysis into decisions.\n\n## Key takeaways\n\n- AI acts on content production, personalization and analysis.\n- The most structurally significant effect is large-scale production.\n- The bottleneck shifts toward the quality of needs diagnosis.\n- Adaptive learning personalizes each learner's pathway.\n- Learning analytics grounds management on data rather than intuition.",
+  "order": 63
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices",
+  "lang": "en",
+  "title": "How to use generative AI to create quizzes and exercises",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Pedagogy",
+  "thematiqueEn": "Pedagogy",
+  "tags": [
+    "IA"
+  ],
+  "shortDescription": "Using generative AI to create quizzes and exercises allows rapid, large-scale production of varied assessments from content or pedagogical objectives.",
+  "metaDescription": "Using generative AI to create quizzes and exercises allows rapid, large-scale production of varied assessments from content or pedagogical objectives.",
+  "content": "Using generative AI to create quizzes and exercises allows rapid, large-scale production of varied assessments from content or pedagogical objectives. The value is time savings and the ability to generate many variants, useful against cheating and for personalization. The quality condition is framing: a generated assessment must be aligned with objectives, verified, and designed to actually measure a competency, not just to exist. Generation accelerates; it does not replace pedagogical engineering.\n\n## The value of generation\n\nManually designing quality quizzes and exercises is time-consuming. Generative AI produces, from content or objectives, questions, cases and variants in large numbers and in little time. This capacity makes it possible to equip each module with assessments without disproportionate effort, to vary questions to limit cheating, and to generate versions adapted to different levels.\n\n## Aligning and verifying\n\nSpeed does not guarantee pedagogical quality. A good assessment measures a precise competency at an adapted cognitive level: a quiz that only tests memorization does not measure analytical ability. Generated questions must therefore be aligned with objectives, calibrated in difficulty, and verified for accuracy. AI can produce ambiguous questions or incorrect answers: human review remains necessary.\n\n## Integrating into an assessment logic\n\nGenerated quizzes and exercises take their meaning within a coherent assessment program: initial positioning, formative evaluation during the pathway, acquisition assessment. Generation facilitates production at each stage, but it is the assessment architecture, thought through in advance and aligned with targeted competencies, that creates the value. Generative AI is an accelerator in service of this architecture, not a substitute for designing it.\n\n## Key takeaways\n\n- Generative AI rapidly produces quizzes, exercises and variants at scale.\n- Multiple variants limit cheating and facilitate personalization.\n- A good assessment measures a precise competency at an adapted level.\n- Generated questions must be aligned with objectives and verified.\n- Generation accelerates but does not replace assessment architecture.",
+  "order": 80
+}

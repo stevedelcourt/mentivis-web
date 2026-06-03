@@ -5,9 +5,12 @@ import referentielMetaJson from "./referentiel-meta.json";
 
 export type ReferentielArticleMeta = {
   slug: string;
+  lang: string;
   title: string;
   cible: string;
+  cibleEn?: string;
   thematique: string;
+  thematiqueEn?: string;
   tags: string[];
   shortDescription: string;
   metaDescription: string;

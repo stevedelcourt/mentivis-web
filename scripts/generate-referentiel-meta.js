@@ -33,9 +33,12 @@ function main() {
     const data = JSON.parse(fs.readFileSync(path.join(REFERENTIEL_DIR, file), "utf8"));
     meta.push({
       slug: data.slug,
+      lang: data.lang || "fr",
       title: data.title,
       cible: data.cible,
+      cibleEn: data.cibleEn || "",
       thematique: data.thematique,
+      thematiqueEn: data.thematiqueEn || "",
       tags: data.tags,
       shortDescription: data.shortDescription,
       metaDescription: data.metaDescription,

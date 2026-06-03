@@ -1,0 +1,21 @@
+{
+  "slug": "quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation",
+  "lang": "en",
+  "title": "Which training management tool should I choose (TMS, HR system training module)",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "CPF",
+    "IA",
+    "LMS",
+    "OPCO",
+    "formation",
+    "management"
+  ],
+  "shortDescription": "Choosing a training management tool, sometimes called a TMS or the training module of an HR system, requires distinguishing administrative and logistical training management from the pedagogical di...",
+  "metaDescription": "Choosing a training management tool, sometimes called a TMS or the training module of an HR system, requires distinguishing administrative and logistical training management from the pedagogical distribution handled by an LMS.",
+  "content": "Choosing a training management tool, sometimes called a TMS or the training module of an HR system, requires distinguishing administrative and logistical training management from the pedagogical distribution handled by an LMS. A management tool steers enrolments, schedules, budgets, financing and regulatory reporting. The choice depends on the volume to be managed, the complexity of financing, and the need for integration with the HR system and LMS. Confusing the two types of tools leads to misplaced expectations.\n\n## Administrative management and pedagogical distribution\n\nA training management tool handles the administrative side: enrolments, convocation letters, schedules, rooms, budgets, financing tracking, reporting. An LMS handles distribution and pedagogical tracking of online content. The two functions are distinct, even if some tools combine them. Clarifying what you want to manage, the administrative or the pedagogical, is the prerequisite for the choice.\n\n## Selection criteria\n\nThe choice depends on the volume of training programs and learners to manage, the complexity of financing circuits to track, OPCO, CPF, plan, regulatory reporting needs, and the desired level of integration with the HR system. For an organization managing many financing streams, the ability to track coverage files and produce supporting documents is determining.\n\n## Integration with the information system\n\nA training management tool delivers its value through integration: connection with the HR system for employee data, with the LMS for pedagogical tracking, with financial tools for budget. Siloed management, disconnected from the broader system, generates duplicate data entry and inconsistencies. Integration capacity, through interfaces or standard connectors, is therefore a major criterion, often underestimated at the point of selection.\n\n## Key takeaways\n\n- A management tool handles the administrative side; an LMS handles the pedagogical side.\n- Clarifying what you want to manage is the prerequisite for the choice.\n- Volume, financing complexity and regulatory reporting are the key criteria.\n- Tracking coverage files is determining in a multi-financing context.\n- Integration capacity with the HR system and LMS is a major criterion.",
+  "order": 69
+}

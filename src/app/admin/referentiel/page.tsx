@@ -22,6 +22,7 @@ const EMPTY_ARTICLE: ReferentielArticle = {
   shortDescription: "",
   metaDescription: "",
   content: "",
+  lang: "fr",
   order: 0,
 };
 

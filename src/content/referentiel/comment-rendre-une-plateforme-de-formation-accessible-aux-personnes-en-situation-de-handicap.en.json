@@ -1,0 +1,19 @@
+{
+  "slug": "comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap",
+  "lang": "en",
+  "title": "How to make a training platform accessible to people with disabilities",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Certification",
+  "thematiqueEn": "Certification",
+  "tags": [
+    "IA",
+    "RGAA",
+    "WCAG",
+    "audit"
+  ],
+  "shortDescription": "Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed ...",
+  "metaDescription": "Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed from the outset.",
+  "content": "Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed from the outset. Since the European Accessibility Act entered into application on June 28, 2025, accessibility obligations extend broadly to the private sector, including training organizations, with a compliance deadline for existing content of June 2030. Accessibility is now a regulatory obligation, beyond its inclusion value.\n\n## The strengthened regulatory framework\n\nDigital accessibility rested historically on the 2005 act and the RGAA, which translates the WCAG into technical criteria, and primarily concerned the public sector and large companies. The European Accessibility Act, applicable since June 28, 2025, extends these obligations to private digital services, including training. New content must be accessible; existing content benefits from a deadline until June 2030. Certain very small structures may be exempt depending on thresholds.\n\n## The four principles of accessibility\n\nThe WCAG standards rest on four principles. Content must be perceivable: text alternatives for images, video subtitles, sufficient contrast ratios. It must be operable: keyboard navigation, sufficient time. It must be understandable: clear language, predictable functioning. It must be robust: compatible with assistive technologies such as screen readers. These principles guide both the platform and the pedagogical content.\n\n## Building in accessibility from the design stage\n\nAccessibility costs far less when designed from the outset than when retrofitted. Integrating an accessibility checklist into each creation, testing with a screen reader, choosing tools that allow compliant content production, and training teams in best practices embed accessibility into the process. A pedagogical audit identifies existing content to be adapted and plans its compliance. Accessibility also benefits all learners, not only those with disabilities.\n\n## Key takeaways\n\n- Reference frameworks are the RGAA in France and the international WCAG standards.\n- The European Accessibility Act, applicable since June 28, 2025, extends the obligation to the private sector.\n- New content must be accessible; existing content has a deadline until June 2030.\n- The four WCAG principles: perceivable, operable, understandable, robust.\n- Accessibility designed from the outset costs less and benefits all learners.",
+  "order": 73
+}

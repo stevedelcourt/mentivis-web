@@ -1,0 +1,16 @@
+{
+  "slug": "comment-decider-entre-developper-ma-propre-plateforme-ou-en-acheter-une",
+  "lang": "en",
+  "title": "How to decide between building my own platform or buying one",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Funding",
+  "thematiqueEn": "Funding",
+  "tags": [
+    "IA"
+  ],
+  "shortDescription": "Deciding between building your own platform and buying an existing solution rests on the classic build-versus-buy tradeoff: custom development offers full control and perfect fit to the need, but a...",
+  "metaDescription": "Deciding between building your own platform and buying an existing solution rests on the classic build-versus-buy tradeoff: custom development offers full control and perfect fit to the need, but at high cost and risk; purchasing offers speed and controlled cost, at the price of adapting to the tool's constraints.",
+  "content": "Deciding between building your own platform and buying an existing solution rests on the classic build-versus-buy tradeoff: custom development offers full control and perfect fit to the need, but at high cost and risk; purchasing offers speed and controlled cost, at the price of adapting to the tool's constraints. For the large majority of organizations, purchasing a proven solution is preferable. Custom development is only justified by a very specific strategic need that no market solution covers.\n\n## The true cost of custom development\n\nBuilding your own platform does not stop at the initial construction cost. Ongoing maintenance, evolutions, security, regulatory compliance and support must be counted over the full lifetime of the tool. This total cost, often underestimated, is considerable. Custom development also mobilizes rare technical competencies and diverts the organization from its core business, which is rarely software publishing.\n\n## The advantages of purchasing\n\nBuying an existing solution brings speed to deployment, controlled entry cost, and the benefit of evolutions, security and compliance assured by the publisher. The counterpart is adaptation to the tool's constraints and dependence on the publisher. For most needs, these constraints are acceptable against the savings achieved. The market offers mature solutions covering the large majority of use cases.\n\n## When custom development is justified\n\nCustom development is only justified by a differentiating strategic need that no solution addresses, and when the organization has the capacity to carry a development and its maintenance over time. An intermediate path often exists: assembling existing building blocks, or relying on a production tool that covers the specific need without rebuilding everything. The decision is made by measuring total cost and risk, not just the appeal of custom.\n\n## Key takeaways\n\n- The tradeoff opposes full control of custom development and speed of purchasing.\n- Custom development cost includes maintenance, evolutions, security and compliance.\n- Custom development diverts from the core business and mobilizes rare competencies.\n- Purchasing a proven solution suits the large majority of organizations.\n- Custom development is only justified by a very specific strategic need.",
+  "order": 86
+}

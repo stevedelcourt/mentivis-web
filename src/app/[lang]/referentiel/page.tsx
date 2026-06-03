@@ -9,16 +9,18 @@ export async function generateMetadata({
   params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   const { lang } = await params;
+  const isFr = lang === "fr";
   return {
-    title: "Le Référentiel — Guides de référence",
-    description:
-      "Le Référentiel : articles pratiques et conformes pour les organismes de formation. Qualiopi, financement, apprentissage, certification, pédagogie.",
+    title: isFr ? "Le Référentiel — Guides de référence" : "The Reference — Practical guides",
+    description: isFr
+      ? "Le Référentiel : articles pratiques et conformes pour les organismes de formation. Qualiopi, financement, apprentissage, certification, pédagogie."
+      : "The Reference: practical compliance guides for training organizations. Qualiopi, funding, apprenticeship, certification, pedagogy.",
     openGraph: {
       images: [{
         url: "/images/referentiel-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Le Référentiel — Mentivis",
+        alt: isFr ? "Le Référentiel — Mentivis" : "The Reference — Mentivis",
       }],
     },
     twitter: {

@@ -1,9 +1,35 @@
 [
   {
     "slug": "comment-obtenir-la-certification-qualiopi",
+    "lang": "en",
+    "title": "How to obtain the Qualiopi certification",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "France Travail",
+      "IA",
+      "LMS",
+      "OPCO",
+      "Qualiopi",
+      "RNQ",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "The Qualiopi certification is awarded following an audit conducted by a certification body accredited by Cofrac, which verifies compliance with the 7 criteria and 32 indicators of the National Qual...",
+    "metaDescription": "The Qualiopi certification is awarded following an audit conducted by a certification body accredited by Cofrac, which verifies compliance with the 7 criteria and 32 indicators of the National Quality Reference Framework.",
+    "order": 1
+  },
+  {
+    "slug": "comment-obtenir-la-certification-qualiopi",
+    "lang": "fr",
     "title": "Comment obtenir la certification Qualiopi",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "Qualiopi",
       "audit",
@@ -17,9 +43,34 @@
   },
   {
     "slug": "comment-creer-un-cfa-en-france-en-2026",
+    "lang": "en",
+    "title": "How to create a CFA in France in 2026",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CFA",
+      "DREETS",
+      "France Compétences",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Creating an apprenticeship training center requires defining a legal structure, filing a declaration of activity with the DREETS of your region, obtaining a UAI code from the academic services, ach...",
+    "metaDescription": "Creating an apprenticeship training center requires defining a legal structure, filing a declaration of activity with the DREETS of your region, obtaining a UAI code from the academic services, achieving Qualiopi compliance and organizing the delivery of certified training.",
+    "order": 2
+  },
+  {
+    "slug": "comment-creer-un-cfa-en-france-en-2026",
+    "lang": "fr",
     "title": "Comment créer un CFA en France en 2026",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "CFA",
       "apprentissage",
@@ -33,9 +84,32 @@
   },
   {
     "slug": "comment-financer-une-formation-professionnelle-sans-reste-a-charge",
+    "lang": "en",
+    "title": "How to finance professional training with no out-of-pocket cost",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "France Travail",
+      "IA",
+      "OPCO",
+      "Pro-A",
+      "formation"
+    ],
+    "shortDescription": "Financing training with no out-of-pocket cost requires mobilizing the right mechanism according to the beneficiary's profile: CPF for an active employee on their own initiative, training plan and O...",
+    "metaDescription": "Financing training with no out-of-pocket cost requires mobilizing the right mechanism according to the beneficiary's profile: CPF for an active employee on their own initiative, training plan and OPCO for an employee on the employer's decision, Pro-A for internal retraining, France Travail for a job seeker.",
+    "order": 3
+  },
+  {
+    "slug": "comment-financer-une-formation-professionnelle-sans-reste-a-charge",
+    "lang": "fr",
     "title": "Comment financer une formation professionnelle sans reste à charge",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "OPCO",
@@ -49,9 +123,31 @@
   },
   {
     "slug": "comment-creer-un-programme-de-formation-conforme-qualiopi",
+    "lang": "en",
+    "title": "How to create a training program compliant with Qualiopi",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "RNQ",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "A Qualiopi-compliant training program rests on criterion 2 of the National Quality Reference Framework: it must connect a needs analysis, objectives formulated as measurable competencies, structure...",
+    "metaDescription": "A Qualiopi-compliant training program rests on criterion 2 of the National Quality Reference Framework: it must connect a needs analysis, objectives formulated as measurable competencies, structured content organized into sequences, and coherent assessment modalities.",
+    "order": 4
+  },
+  {
+    "slug": "comment-creer-un-programme-de-formation-conforme-qualiopi",
+    "lang": "fr",
     "title": "Comment créer un programme de formation conforme Qualiopi",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Qualiopi",
+    "thematiqueEn": "",
     "tags": [
       "Qualiopi",
       "RNQ",
@@ -65,9 +161,30 @@
   },
   {
     "slug": "comment-declarer-son-activite-de-formation-professionnelle",
+    "lang": "en",
+    "title": "How to register your professional training activity",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CFA",
+      "DREETS",
+      "IA",
+      "management"
+    ],
+    "shortDescription": "The declaration of activity is filed with the DREETS of the registered office address, within three months of the conclusion of the first training agreement or the first training contract.",
+    "metaDescription": "The declaration of activity is filed with the DREETS of the registered office address, within three months of the conclusion of the first training agreement or the first training contract.",
+    "order": 5
+  },
+  {
+    "slug": "comment-declarer-son-activite-de-formation-professionnelle",
+    "lang": "fr",
     "title": "Comment déclarer son activité de formation professionnelle",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Réglementation",
+    "thematiqueEn": "",
     "tags": [
       "DREETS",
       "déclaration",
@@ -80,9 +197,29 @@
   },
   {
     "slug": "comment-concevoir-un-bilan-de-competences-conforme",
+    "lang": "en",
+    "title": "How to design a compliant competency assessment (bilan de compétences)",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "Qualiopi"
+    ],
+    "shortDescription": "A compliant competency assessment adheres to a precise regulatory framework: it runs in three mandatory phases, preliminary, investigation and conclusion, it is delivered by a Qualiopi-certified pr...",
+    "metaDescription": "A compliant competency assessment adheres to a precise regulatory framework: it runs in three mandatory phases, preliminary, investigation and conclusion, it is delivered by a Qualiopi-certified provider for the competency assessment category, and it results in a synthesis document given exclusively to the beneficiary.",
+    "order": 6
+  },
+  {
+    "slug": "comment-concevoir-un-bilan-de-competences-conforme",
+    "lang": "fr",
     "title": "Comment concevoir un bilan de compétences conforme",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Bilan de compétences",
+    "thematiqueEn": "",
     "tags": [
       "bilan de compétences",
       "Qualiopi",
@@ -95,9 +232,32 @@
   },
   {
     "slug": "comment-monter-un-dossier-de-certification-rncp",
+    "lang": "en",
+    "title": "How to build a RNCP certification file",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "France Compétences",
+      "IA",
+      "RNCP",
+      "VAE",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Building a RNCP registration file requires submitting to France Compétences, through its online procedure, a file structured around a feasibility study and three reference frameworks: activities, c...",
+    "metaDescription": "Building a RNCP registration file requires submitting to France Compétences, through its online procedure, a file structured around a feasibility study and three reference frameworks: activities, competencies, and assessment.",
+    "order": 7
+  },
+  {
+    "slug": "comment-monter-un-dossier-de-certification-rncp",
+    "lang": "fr",
     "title": "Comment monter un dossier de certification RNCP",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "RNCP",
       "France Compétences",
@@ -110,9 +270,29 @@
   },
   {
     "slug": "comment-calculer-le-cout-pedagogique-dune-formation",
+    "lang": "en",
+    "title": "How to calculate the pedagogical cost of a training program",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "OPCO",
+      "management"
+    ],
+    "shortDescription": "Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sa...",
+    "metaDescription": "Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sales, overhead), then dividing this total by the number of hours and learners to obtain an hourly cost and a per-learner cost.",
+    "order": 8
+  },
+  {
+    "slug": "comment-calculer-le-cout-pedagogique-dune-formation",
+    "lang": "fr",
     "title": "Comment calculer le coût pédagogique d'une formation",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "coût",
       "tarification",
@@ -125,9 +305,32 @@
   },
   {
     "slug": "comment-gerer-les-alternants-droits-obligations-encadrement",
+    "lang": "en",
+    "title": "How to manage apprentices: rights, obligations and supervision",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CFA",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "RNCP",
+      "management"
+    ],
+    "shortDescription": "Managing apprentices rests on the distinction between the apprenticeship contract and the professionalization contract, on the designation of a master apprentice or tutor, and on compliance with al...",
+    "metaDescription": "Managing apprentices rests on the distinction between the apprenticeship contract and the professionalization contract, on the designation of a master apprentice or tutor, and on compliance with alternation between time at the training center and time at the company.",
+    "order": 9
+  },
+  {
+    "slug": "comment-gerer-les-alternants-droits-obligations-encadrement",
+    "lang": "fr",
     "title": "Comment gérer les alternants : droits, obligations, encadrement",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "alternance",
       "apprentissage",
@@ -141,9 +344,30 @@
   },
   {
     "slug": "comment-evaluer-les-acquis-des-apprenants-de-facon-valide",
+    "lang": "en",
+    "title": "How to assess learner outcomes in a valid and defensible way",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "Assessing learner outcomes in a valid way requires distinguishing three assessment functions, formative to adjust during the course, summative to measure a level achieved, and certifying to validat...",
+    "metaDescription": "Assessing learner outcomes in a valid way requires distinguishing three assessment functions, formative to adjust during the course, summative to measure a level achieved, and certifying to validate a certification, and aligning each modality with the announced competency objectives.",
+    "order": 10
+  },
+  {
+    "slug": "comment-evaluer-les-acquis-des-apprenants-de-facon-valide",
+    "lang": "fr",
     "title": "Comment évaluer les acquis des apprenants de façon valide",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "évaluation",
       "Qualiopi",
@@ -156,9 +380,31 @@
   },
   {
     "slug": "comment-construire-un-referentiel-de-formation-de-a-a-z",
+    "lang": "en",
+    "title": "How to build a training curriculum from scratch",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "RNCP",
+      "VAE",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "Building a training curriculum from scratch means starting from needs analysis and an analysis of professional situations to arrive at a breakdown into competency blocks, sequenced and associated w...",
+    "metaDescription": "Building a training curriculum from scratch means starting from needs analysis and an analysis of professional situations to arrive at a breakdown into competency blocks, sequenced and associated with assessment modalities.",
+    "order": 11
+  },
+  {
+    "slug": "comment-construire-un-referentiel-de-formation-de-a-a-z",
+    "lang": "fr",
     "title": "Comment construire un référentiel de formation de A à Z",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "RNCP",
@@ -175,9 +421,28 @@
   },
   {
     "slug": "comment-attirer-des-apprentis-et-des-stagiaires-en-2026",
+    "lang": "en",
+    "title": "How to attract apprentices and trainees in 2026",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi"
+    ],
+    "shortDescription": "Attracting apprentices and trainees rests on an acquisition strategy combining targeted digital visibility, presence on orientation platforms, partnerships with prescribing institutions and social ...",
+    "metaDescription": "Attracting apprentices and trainees rests on an acquisition strategy combining targeted digital visibility, presence on orientation platforms, partnerships with prescribing institutions and social proof through former participant testimonials.",
+    "order": 12
+  },
+  {
+    "slug": "comment-attirer-des-apprentis-et-des-stagiaires-en-2026",
+    "lang": "fr",
     "title": "Comment attirer des apprentis et des stagiaires en 2026",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -190,9 +455,28 @@
   },
   {
     "slug": "comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage",
+    "lang": "en",
+    "title": "How to obtain and use apprenticeship tax funds",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "OPCO"
+    ],
+    "shortDescription": "Eligible institutions receive the apprenticeship tax balance, set at 0.",
+    "metaDescription": "Eligible institutions receive the apprenticeship tax balance, set at 0.",
+    "order": 13
+  },
+  {
+    "slug": "comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage",
+    "lang": "fr",
     "title": "Comment obtenir et utiliser les fonds de la taxe d'apprentissage",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "OPCO",
@@ -207,9 +491,30 @@
   },
   {
     "slug": "comment-digitaliser-ses-formations-sans-perdre-la-qualite-pedagogique",
+    "lang": "en",
+    "title": "How to digitize training without losing pedagogical quality",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "OPCO",
+      "audit",
+      "e-learning"
+    ],
+    "shortDescription": "Digitizing training without degrading quality requires rethinking the pedagogy for remote delivery rather than transposing face-to-face content unchanged.",
+    "metaDescription": "Digitizing training without degrading quality requires rethinking the pedagogy for remote delivery rather than transposing face-to-face content unchanged.",
+    "order": 14
+  },
+  {
+    "slug": "comment-digitaliser-ses-formations-sans-perdre-la-qualite-pedagogique",
+    "lang": "fr",
     "title": "Comment digitaliser ses formations sans perdre la qualité pédagogique",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "OPCO",
@@ -225,9 +530,29 @@
   },
   {
     "slug": "comment-gerer-la-relation-avec-les-opco-au-quotidien",
+    "lang": "en",
+    "title": "How to manage the relationship with OPCOs day to day",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "France Compétences",
+      "IA",
+      "OPCO"
+    ],
+    "shortDescription": "Managing the OPCO relationship rests on mastery of three elements: knowing your contact and the branch concerned, submitting compliant coverage files before training begins, and rigorously tracking...",
+    "metaDescription": "Managing the OPCO relationship rests on mastery of three elements: knowing your contact and the branch concerned, submitting compliant coverage files before training begins, and rigorously tracking invoicing and reimbursements.",
+    "order": 15
+  },
+  {
+    "slug": "comment-gerer-la-relation-avec-les-opco-au-quotidien",
+    "lang": "fr",
     "title": "Comment gérer la relation avec les OPCO au quotidien",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "France Compétences",
       "OPCO",
@@ -242,9 +567,29 @@
   },
   {
     "slug": "comment-rediger-une-convention-de-formation-conforme-a-la-loi",
+    "lang": "en",
+    "title": "How to draft a legally compliant training agreement",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "formation"
+    ],
+    "shortDescription": "A compliant training agreement respects the mandatory mentions set out in article L6353-1 of the labor code: title, objectives, content, means, duration, dates, modalities for delivery and assessme...",
+    "metaDescription": "A compliant training agreement respects the mandatory mentions set out in article L6353-1 of the labor code: title, objectives, content, means, duration, dates, modalities for delivery and assessment, price and payment terms.",
+    "order": 16
+  },
+  {
+    "slug": "comment-rediger-une-convention-de-formation-conforme-a-la-loi",
+    "lang": "fr",
     "title": "Comment rédiger une convention de formation conforme à la loi",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "Qualiopi",
       "conformité",
@@ -256,9 +601,29 @@
   },
   {
     "slug": "comment-construire-un-plan-de-developpement-des-competences-pour-une-entreprise-cliente",
+    "lang": "en",
+    "title": "How to build a skills development plan for a corporate client",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO"
+    ],
+    "shortDescription": "Building a skills development plan for a corporate client consists in gathering needs, prioritizing them against the company's strategy, arbitrating budget and financing, then formalizing a multi-y...",
+    "metaDescription": "Building a skills development plan for a corporate client consists in gathering needs, prioritizing them against the company's strategy, arbitrating budget and financing, then formalizing a multi-year action plan steered by indicators.",
+    "order": 17
+  },
+  {
+    "slug": "comment-construire-un-plan-de-developpement-des-competences-pour-une-entreprise-cliente",
+    "lang": "fr",
     "title": "Comment construire un plan de développement des compétences pour une entreprise cliente",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -272,9 +637,32 @@
   },
   {
     "slug": "comment-creer-une-formation-eligible-au-cpf",
+    "lang": "en",
+    "title": "How to create a CPF-eligible training program",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "Qualiopi",
+      "RNCP",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Making a training program eligible for the CPF requires that it prepares for an active certification registered in the RNCP or the Répertoire Spécifique, that the organization is Qualiopi-certified...",
+    "metaDescription": "Making a training program eligible for the CPF requires that it prepares for an active certification registered in the RNCP or the Répertoire Spécifique, that the organization is Qualiopi-certified, and that it lists the offering on Mon Compte Formation as a certifier or as a partner authorized by a certifier.",
+    "order": 18
+  },
+  {
+    "slug": "comment-creer-une-formation-eligible-au-cpf",
+    "lang": "fr",
     "title": "Comment créer une formation éligible au CPF",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "Qualiopi",
@@ -290,9 +678,29 @@
   },
   {
     "slug": "comment-piloter-la-qualite-pedagogique-de-ses-formateurs",
+    "lang": "en",
+    "title": "How to manage the pedagogical quality of your trainers",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "Qualiopi",
+      "audit",
+      "management"
+    ],
+    "shortDescription": "Managing the pedagogical quality of trainers rests on a complete cycle: recruitment and authorization based on competencies, supervision and support, evaluation through learner feedback at close an...",
+    "metaDescription": "Managing the pedagogical quality of trainers rests on a complete cycle: recruitment and authorization based on competencies, supervision and support, evaluation through learner feedback at close and at distance, and a trainer development plan.",
+    "order": 19
+  },
+  {
+    "slug": "comment-piloter-la-qualite-pedagogique-de-ses-formateurs",
+    "lang": "fr",
     "title": "Comment piloter la qualité pédagogique de ses formateurs",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "Qualiopi",
       "audit",
@@ -305,9 +713,30 @@
   },
   {
     "slug": "comment-gerer-la-sous-traitance-de-formation-legalement",
+    "lang": "en",
+    "title": "How to manage training subcontracting legally",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "Managing subcontracting legally requires formalizing a subcontracting agreement that specifies the missions assigned, and understanding that the contracting organization remains responsible for Qua...",
+    "metaDescription": "Managing subcontracting legally requires formalizing a subcontracting agreement that specifies the missions assigned, and understanding that the contracting organization remains responsible for Qualiopi compliance on subcontracted actions.",
+    "order": 20
+  },
+  {
+    "slug": "comment-gerer-la-sous-traitance-de-formation-legalement",
+    "lang": "fr",
     "title": "Comment gérer la sous-traitance de formation légalement",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -321,9 +750,30 @@
   },
   {
     "slug": "comment-obtenir-des-certifications-de-qualite-au-dela-de-qualiopi",
+    "lang": "en",
+    "title": "How to obtain quality certifications beyond Qualiopi",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "certification",
+      "management"
+    ],
+    "shortDescription": "Beyond Qualiopi, which is mandatory for access to funding, an organization can pursue complementary labels and certifications to strengthen its credibility: sector or branch certifications, interna...",
+    "metaDescription": "Beyond Qualiopi, which is mandatory for access to funding, an organization can pursue complementary labels and certifications to strengthen its credibility: sector or branch certifications, international quality management standards, regional labels.",
+    "order": 21
+  },
+  {
+    "slug": "comment-obtenir-des-certifications-de-qualite-au-dela-de-qualiopi",
+    "lang": "fr",
     "title": "Comment obtenir des certifications de qualité au-delà de Qualiopi",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -340,9 +790,27 @@
   },
   {
     "slug": "comment-developper-une-activite-de-formation-en-entreprise-intra",
+    "lang": "en",
+    "title": "How to develop an in-company (intra) training activity",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Developing an in-company training activity means offering tailored training delivered within a single organization for its own employees, as opposed to open inter-company sessions welcoming partici...",
+    "metaDescription": "Developing an in-company training activity means offering tailored training delivered within a single organization for its own employees, as opposed to open inter-company sessions welcoming participants from different organizations.",
+    "order": 22
+  },
+  {
+    "slug": "comment-developper-une-activite-de-formation-en-entreprise-intra",
+    "lang": "fr",
     "title": "Comment développer une activité de formation en entreprise (intra)",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -355,9 +823,30 @@
   },
   {
     "slug": "comment-accompagner-les-apprenants-en-situation-de-handicap-psh",
+    "lang": "en",
+    "title": "How to support learners with disabilities",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "audit",
+      "formation"
+    ],
+    "shortDescription": "Supporting learners with disabilities imposes legal obligations and constitutes a Qualiopi expectation: appointment of a disability coordinator, information on accessibility conditions, pedagogical...",
+    "metaDescription": "Supporting learners with disabilities imposes legal obligations and constitutes a Qualiopi expectation: appointment of a disability coordinator, information on accessibility conditions, pedagogical and material adaptation, and mobilization of specialist stakeholders.",
+    "order": 23
+  },
+  {
+    "slug": "comment-accompagner-les-apprenants-en-situation-de-handicap-psh",
+    "lang": "fr",
     "title": "Comment accompagner les apprenants en situation de handicap (PSH)",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -373,9 +862,32 @@
   },
   {
     "slug": "comment-faire-une-veille-reglementaire-efficace-sur-la-formation-professionnelle",
+    "lang": "en",
+    "title": "How to run effective regulatory monitoring in professional training",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "France Compétences",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Effective regulatory monitoring combines reliable official sources, a regular review schedule and filtering by relevance to your activity.",
+    "metaDescription": "Effective regulatory monitoring combines reliable official sources, a regular review schedule and filtering by relevance to your activity.",
+    "order": 24
+  },
+  {
+    "slug": "comment-faire-une-veille-reglementaire-efficace-sur-la-formation-professionnelle",
+    "lang": "fr",
     "title": "Comment faire une veille réglementaire efficace sur la formation professionnelle",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "France Compétences",
       "IA",
@@ -394,9 +906,28 @@
   },
   {
     "slug": "comment-mesurer-le-retour-sur-investissement-d-une-formation",
+    "lang": "en",
+    "title": "How to measure the return on investment of a training program",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi"
+    ],
+    "shortDescription": "Measuring the return on investment of a training program requires going beyond satisfaction to evaluate the transfer of competencies in work situations and the effect on organizational indicators.",
+    "metaDescription": "Measuring the return on investment of a training program requires going beyond satisfaction to evaluate the transfer of competencies in work situations and the effect on organizational indicators.",
+    "order": 25
+  },
+  {
+    "slug": "comment-mesurer-le-retour-sur-investissement-d-une-formation",
+    "lang": "fr",
     "title": "Comment mesurer le retour sur investissement d'une formation",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -409,9 +940,27 @@
   },
   {
     "slug": "comment-acceder-aux-appels-d-offres-publics-pour-la-formation",
+    "lang": "en",
+    "title": "How to access public tenders for training",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Accessing public training contracts requires monitoring the publication platforms for calls for tender, mastering the response to tender documents and understanding buyer selection criteria.",
+    "metaDescription": "Accessing public training contracts requires monitoring the publication platforms for calls for tender, mastering the response to tender documents and understanding buyer selection criteria.",
+    "order": 26
+  },
+  {
+    "slug": "comment-acceder-aux-appels-d-offres-publics-pour-la-formation",
+    "lang": "fr",
     "title": "Comment accéder aux appels d'offres publics pour la formation",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "conformité",
@@ -423,9 +972,31 @@
   },
   {
     "slug": "comment-construire-une-offre-de-vae",
+    "lang": "en",
+    "title": "How to build a VAE offering",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "VAE",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Building a VAE offering means positioning as a pathway support provider on targeted certifications, within the framework reformed by the act of December 21, 2022 and the public service it created, ...",
+    "metaDescription": "Building a VAE offering means positioning as a pathway support provider on targeted certifications, within the framework reformed by the act of December 21, 2022 and the public service it created, carried by the France VAE portal.",
+    "order": 27
+  },
+  {
+    "slug": "comment-construire-une-offre-de-vae",
+    "lang": "fr",
     "title": "Comment construire une offre de VAE",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -440,9 +1011,29 @@
   },
   {
     "slug": "comment-gerer-les-evaluations-a-froid-et-prouver-l-impact-pedagogique",
+    "lang": "en",
+    "title": "How to manage distance evaluations and prove pedagogical impact",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "audit"
+    ],
+    "shortDescription": "Managing distance evaluations means gathering, at a remove from the training, feedback from beneficiaries on the actual transfer of learning in work situations, then using this data to improve prog...",
+    "metaDescription": "Managing distance evaluations means gathering, at a remove from the training, feedback from beneficiaries on the actual transfer of learning in work situations, then using this data to improve programs and prove impact.",
+    "order": 28
+  },
+  {
+    "slug": "comment-gerer-les-evaluations-a-froid-et-prouver-l-impact-pedagogique",
+    "lang": "fr",
     "title": "Comment gérer les évaluations à froid et prouver l'impact pédagogique",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -456,9 +1047,31 @@
   },
   {
     "slug": "comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi",
+    "lang": "en",
+    "title": "How to prepare and pass a Qualiopi renewal audit",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CFA",
+      "IA",
+      "Qualiopi",
+      "audit",
+      "certification"
+    ],
+    "shortDescription": "Passing a Qualiopi renewal audit requires having maintained your quality system throughout the certification cycle, not only assembling the file as the deadline approaches.",
+    "metaDescription": "Passing a Qualiopi renewal audit requires having maintained your quality system throughout the certification cycle, not only assembling the file as the deadline approaches.",
+    "order": 29
+  },
+  {
+    "slug": "comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi",
+    "lang": "fr",
     "title": "Comment préparer et réussir un audit de renouvellement Qualiopi",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "CFA",
       "IA",
@@ -474,9 +1087,28 @@
   },
   {
     "slug": "comment-developper-une-offre-de-formation-a-l-international",
+    "lang": "en",
+    "title": "How to develop a training offering internationally",
+    "cible": "Organismes de formation",
+    "cibleEn": "Training Organizations",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "certification"
+    ],
+    "shortDescription": "Developing a training offering internationally requires addressing three questions: the recognition of French certifications abroad, the intercultural adaptation of content, and the deployment mode...",
+    "metaDescription": "Developing a training offering internationally requires addressing three questions: the recognition of French certifications abroad, the intercultural adaptation of content, and the deployment model, direct or through local partnership.",
+    "order": 30
+  },
+  {
+    "slug": "comment-developper-une-offre-de-formation-a-l-international",
+    "lang": "fr",
     "title": "Comment développer une offre de formation à l'international",
     "cible": "Organismes de formation",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "certification",
@@ -491,9 +1123,30 @@
   },
   {
     "slug": "comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme",
+    "lang": "en",
+    "title": "How to fund employee training without bearing the full cost myself",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "OPCO",
+      "Pro-A",
+      "formation"
+    ],
+    "shortDescription": "Funding employee training without bearing the full cost requires mobilizing pooled funds and the mechanisms suited to each situation: the branch OPCO for the skills development plan, employer-toppe...",
+    "metaDescription": "Funding employee training without bearing the full cost requires mobilizing pooled funds and the mechanisms suited to each situation: the branch OPCO for the skills development plan, employer-topped CPF, FNE-formation in cases of economic difficulty, Pro-A for internal retraining, and regional subsidies.",
+    "order": 31
+  },
+  {
+    "slug": "comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme",
+    "lang": "fr",
     "title": "Comment financer la formation de mes salariés sans tout payer moi-même",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "OPCO",
@@ -510,9 +1163,28 @@
   },
   {
     "slug": "comment-construire-un-plan-de-developpement-des-competences-efficace",
+    "lang": "en",
+    "title": "How to build an effective skills development plan",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "OPCO"
+    ],
+    "shortDescription": "An effective skills development plan connects the company's strategy to the competencies to develop, through four steps: gathering individual and collective needs, prioritization, budget and financ...",
+    "metaDescription": "An effective skills development plan connects the company's strategy to the competencies to develop, through four steps: gathering individual and collective needs, prioritization, budget and financing arbitration, then steering by indicators.",
+    "order": 32
+  },
+  {
+    "slug": "comment-construire-un-plan-de-developpement-des-competences-efficace",
+    "lang": "fr",
     "title": "Comment construire un plan de développement des compétences efficace",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -526,9 +1198,29 @@
   },
   {
     "slug": "comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise",
+    "lang": "en",
+    "title": "How to choose a reliable training organization for my company",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "certification"
+    ],
+    "shortDescription": "Choosing a reliable training organization rests on a few verifiable criteria: Qualiopi certification, client references in comparable contexts, pedagogical quality and trainer expertise, the abilit...",
+    "metaDescription": "Choosing a reliable training organization rests on a few verifiable criteria: Qualiopi certification, client references in comparable contexts, pedagogical quality and trainer expertise, the ability to customize the offering, and a commitment to results beyond simple delivery.",
+    "order": 33
+  },
+  {
+    "slug": "comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise",
+    "lang": "fr",
     "title": "Comment choisir un organisme de formation sérieux pour mon entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "Qualiopi",
@@ -544,9 +1236,28 @@
   },
   {
     "slug": "comment-mettre-en-place-une-politique-de-formation-dans-ma-pme",
+    "lang": "en",
+    "title": "How to put in place a training policy in my SME",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "OPCO"
+    ],
+    "shortDescription": "Putting in place a training policy in an SME without a dedicated HR function means starting from strategic priorities, defining a realistic budget backed by OPCO financing, and establishing a few s...",
+    "metaDescription": "Putting in place a training policy in an SME without a dedicated HR function means starting from strategic priorities, defining a realistic budget backed by OPCO financing, and establishing a few simple routines: professional interviews, needs gathering, action tracking.",
+    "order": 34
+  },
+  {
+    "slug": "comment-mettre-en-place-une-politique-de-formation-dans-ma-pme",
+    "lang": "fr",
     "title": "Comment mettre en place une politique de formation dans ma PME",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "OPCO",
       "VR",
@@ -561,9 +1272,28 @@
   },
   {
     "slug": "comment-gerer-les-entretiens-professionnels-obligatoires-tous-les-2-ans",
+    "lang": "en",
+    "title": "How to manage the mandatory professional interviews every 2 years",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA"
+    ],
+    "shortDescription": "The professional interview is a legal obligation stemming from the 2014 act, codified in article L6315-1 of the labor code: the employer must hold it at least every two years with each employee, ac...",
+    "metaDescription": "The professional interview is a legal obligation stemming from the 2014 act, codified in article L6315-1 of the labor code: the employer must hold it at least every two years with each employee, across all contract types, and conduct a comprehensive review every six years.",
+    "order": 35
+  },
+  {
+    "slug": "comment-gerer-les-entretiens-professionnels-obligatoires-tous-les-2-ans",
+    "lang": "fr",
     "title": "Comment gérer les entretiens professionnels obligatoires tous les 2 ans",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -576,9 +1306,28 @@
   },
   {
     "slug": "comment-utiliser-le-cpf-de-mes-salaries-pour-financer-des-formations-utiles-a-l-entreprise",
+    "lang": "en",
+    "title": "How to use my employees' CPF to fund useful training",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA"
+    ],
+    "shortDescription": "Mobilizing employees' CPF in the company's interest passes through top-up funding: the employer complements the employee's CPF rights to finance training of shared value.",
+    "metaDescription": "Mobilizing employees' CPF in the company's interest passes through top-up funding: the employer complements the employee's CPF rights to finance training of shared value.",
+    "order": 36
+  },
+  {
+    "slug": "comment-utiliser-le-cpf-de-mes-salaries-pour-financer-des-formations-utiles-a-l-entreprise",
+    "lang": "fr",
     "title": "Comment utiliser le CPF de mes salariés pour financer des formations utiles à l'entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -591,9 +1340,28 @@
   },
   {
     "slug": "comment-former-mes-managers-rapidement-et-avec-impact",
+    "lang": "en",
+    "title": "How to train my managers quickly and with impact",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Training managers quickly and effectively means favoring short, actionable formats anchored in real work situations, and extending training with accompaniment that sustains transfer.",
+    "metaDescription": "Training managers quickly and effectively means favoring short, actionable formats anchored in real work situations, and extending training with accompaniment that sustains transfer.",
+    "order": 37
+  },
+  {
+    "slug": "comment-former-mes-managers-rapidement-et-avec-impact",
+    "lang": "fr",
     "title": "Comment former mes managers rapidement et avec impact",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -606,9 +1374,27 @@
   },
   {
     "slug": "comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe",
+    "lang": "en",
+    "title": "How to measure the effectiveness of training purchased from an external provider",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Measuring the effectiveness of external training requires defining expected results at the point of ordering, then evaluating at three levels: close satisfaction, transfer of competencies in work s...",
+    "metaDescription": "Measuring the effectiveness of external training requires defining expected results at the point of ordering, then evaluating at three levels: close satisfaction, transfer of competencies in work situations, and effect on operational or HR indicators.",
+    "order": 38
+  },
+  {
+    "slug": "comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe",
+    "lang": "fr",
     "title": "Comment mesurer l'efficacité d'une formation achetée à un prestataire externe",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -620,9 +1406,28 @@
   },
   {
     "slug": "comment-former-mes-equipes-a-l-intelligence-artificielle-concretement",
+    "lang": "en",
+    "title": "How to train my teams on artificial intelligence in practice",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Development",
+    "thematiqueEn": "Development",
+    "tags": [
+      "IA",
+      "formation"
+    ],
+    "shortDescription": "Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually u...",
+    "metaDescription": "Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually use, and supporting managers on supervision and integration of AI into processes.",
+    "order": 39
+  },
+  {
+    "slug": "comment-former-mes-equipes-a-l-intelligence-artificielle-concretement",
+    "lang": "fr",
     "title": "Comment former mes équipes à l'intelligence artificielle concrètement",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -634,9 +1439,29 @@
   },
   {
     "slug": "comment-financer-une-reconversion-professionnelle-pour-un-salarie",
+    "lang": "en",
+    "title": "How to fund the professional retraining of an employee",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "Pro-A",
+      "reconversion"
+    ],
+    "shortDescription": "Funding the retraining of an employee rests on specific mechanisms depending on whether retraining takes place outside or within the company: the Professional Transition Project, through Transition...",
+    "metaDescription": "Funding the retraining of an employee rests on specific mechanisms depending on whether retraining takes place outside or within the company: the Professional Transition Project, through Transitions Pro, for external retraining with salary maintenance, and Pro-A for retraining or promotion while staying with the company.",
+    "order": 40
+  },
+  {
+    "slug": "comment-financer-une-reconversion-professionnelle-pour-un-salarie",
+    "lang": "fr",
     "title": "Comment financer une reconversion professionnelle pour un salarié",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -652,9 +1477,27 @@
   },
   {
     "slug": "comment-identifier-les-competences-manquantes-dans-mon-entreprise",
+    "lang": "en",
+    "title": "How to identify the skills gaps in my company",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Identifying skills gaps means confronting available competencies with the competencies needed to reach current and future objectives, through a competency mapping, occupational reference frameworks...",
+    "metaDescription": "Identifying skills gaps means confronting available competencies with the competencies needed to reach current and future objectives, through a competency mapping, occupational reference frameworks and analysis of sector trends.",
+    "order": 41
+  },
+  {
+    "slug": "comment-identifier-les-competences-manquantes-dans-mon-entreprise",
+    "lang": "fr",
     "title": "Comment identifier les compétences manquantes dans mon entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "formation"
@@ -665,9 +1508,27 @@
   },
   {
     "slug": "comment-mettre-en-place-le-tutorat-interne-comme-outil-de-formation",
+    "lang": "en",
+    "title": "How to put in place internal mentoring as a training tool",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "certification"
+    ],
+    "shortDescription": "Putting internal mentoring in place means organizing the transmission of competencies between experienced employees and those who are developing, by recognizing the mentor role, training them to tr...",
+    "metaDescription": "Putting internal mentoring in place means organizing the transmission of competencies between experienced employees and those who are developing, by recognizing the mentor role, training them to transmit, and freeing up their time.",
+    "order": 42
+  },
+  {
+    "slug": "comment-mettre-en-place-le-tutorat-interne-comme-outil-de-formation",
+    "lang": "fr",
     "title": "Comment mettre en place le tutorat interne comme outil de formation",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "apprentissage",
@@ -680,9 +1541,28 @@
   },
   {
     "slug": "comment-former-mes-commerciaux-de-facon-continue-et-mesurable",
+    "lang": "en",
+    "title": "How to train my sales teams continuously and measurably",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "e-learning"
+    ],
+    "shortDescription": "Training sales teams continuously and measurably means moving beyond one-off training to install a permanent program: pathways by profile, regular practice, field coaching, and dashboards connectin...",
+    "metaDescription": "Training sales teams continuously and measurably means moving beyond one-off training to install a permanent program: pathways by profile, regular practice, field coaching, and dashboards connecting training to performance.",
+    "order": 43
+  },
+  {
+    "slug": "comment-former-mes-commerciaux-de-facon-continue-et-mesurable",
+    "lang": "fr",
     "title": "Comment former mes commerciaux de façon continue et mesurable",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "apprentissage",
@@ -695,9 +1575,29 @@
   },
   {
     "slug": "comment-accompagner-un-salarie-vers-une-vae",
+    "lang": "en",
+    "title": "How to support an employee through a VAE process",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "VAE",
+      "certification",
+      "management"
+    ],
+    "shortDescription": "Supporting an employee through a VAE process means, for the employer, recognizing the mutual value of the process, facilitating its progression through time and possible financing, and framing it w...",
+    "metaDescription": "Supporting an employee through a VAE process means, for the employer, recognizing the mutual value of the process, facilitating its progression through time and possible financing, and framing it within a competency management logic.",
+    "order": 44
+  },
+  {
+    "slug": "comment-accompagner-un-salarie-vers-une-vae",
+    "lang": "fr",
     "title": "Comment accompagner un salarié vers une VAE",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "VAE",
       "VR",
@@ -711,9 +1611,28 @@
   },
   {
     "slug": "comment-organiser-une-action-de-formation-en-interne-formateur-interne",
+    "lang": "en",
+    "title": "How to organize an in-house training session (internal trainer)",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi"
+    ],
+    "shortDescription": "Organizing in-house training with a trainer from within the company means clarifying the internal trainer's status, freeing their time and recognizing their contribution, and structuring their inte...",
+    "metaDescription": "Organizing in-house training with a trainer from within the company means clarifying the internal trainer's status, freeing their time and recognizing their contribution, and structuring their intervention with the same quality expectations as external training.",
+    "order": 45
+  },
+  {
+    "slug": "comment-organiser-une-action-de-formation-en-interne-formateur-interne",
+    "lang": "fr",
     "title": "Comment organiser une action de formation en interne (formateur interne)",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "Qualiopi",
       "conformité",
@@ -725,9 +1644,29 @@
   },
   {
     "slug": "comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration",
+    "lang": "en",
+    "title": "How to address training during a GPEC agreement or restructuring",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "formation",
+      "management"
+    ],
+    "shortDescription": "Addressing training in the context of workforce planning or restructuring means positioning it as a lever for competency adaptation, and potentially as an alternative to redundancy.",
+    "metaDescription": "Addressing training in the context of workforce planning or restructuring means positioning it as a lever for competency adaptation, and potentially as an alternative to redundancy.",
+    "order": 46
+  },
+  {
+    "slug": "comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration",
+    "lang": "fr",
     "title": "Comment aborder la formation lors d'un accord GPEC ou d'une restructuration",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "financement",
@@ -740,9 +1679,30 @@
   },
   {
     "slug": "comment-calculer-le-budget-formation-optimal-pour-mon-entreprise",
+    "lang": "en",
+    "title": "How to calculate the optimal training budget for my company",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "management"
+    ],
+    "shortDescription": "Determining the optimal training budget means starting from priority needs rather than an arbitrary percentage of payroll, integrating mobilizable financing that reduces the net cost, and arbitrati...",
+    "metaDescription": "Determining the optimal training budget means starting from priority needs rather than an arbitrary percentage of payroll, integrating mobilizable financing that reduces the net cost, and arbitrating between volume and quality.",
+    "order": 47
+  },
+  {
+    "slug": "comment-calculer-le-budget-formation-optimal-pour-mon-entreprise",
+    "lang": "fr",
     "title": "Comment calculer le budget formation optimal pour mon entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -758,9 +1718,27 @@
   },
   {
     "slug": "comment-former-des-salaries-en-teletravail-de-facon-engageante",
+    "lang": "en",
+    "title": "How to train remote employees in an engaging way",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "microlearning"
+    ],
+    "shortDescription": "Training remote employees in an engaging way requires adapting formats to the distance, combining synchronous and asynchronous modes according to objectives, and actively sustaining engagement thro...",
+    "metaDescription": "Training remote employees in an engaging way requires adapting formats to the distance, combining synchronous and asynchronous modes according to objectives, and actively sustaining engagement through accompaniment and rhythm.",
+    "order": 48
+  },
+  {
+    "slug": "comment-former-des-salaries-en-teletravail-de-facon-engageante",
+    "lang": "fr",
     "title": "Comment former des salariés en télétravail de façon engageante",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "formation",
       "microlearning"
@@ -771,9 +1749,27 @@
   },
   {
     "slug": "comment-gerer-les-refus-de-formation-d-un-salarie",
+    "lang": "en",
+    "title": "How to handle an employee's refusal of training",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Handling an employee's refusal of training requires distinguishing mandatory training, where refusal may be a disciplinary matter, from optional training, where refusal is in principle legitimate, ...",
+    "metaDescription": "Handling an employee's refusal of training requires distinguishing mandatory training, where refusal may be a disciplinary matter, from optional training, where refusal is in principle legitimate, then favoring dialogue to understand and resolve the reluctance.",
+    "order": 49
+  },
+  {
+    "slug": "comment-gerer-les-refus-de-formation-d-un-salarie",
+    "lang": "fr",
     "title": "Comment gérer les refus de formation d'un salarié",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -786,9 +1782,29 @@
   },
   {
     "slug": "comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation",
+    "lang": "en",
+    "title": "How to prove that my company meets its training obligations",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "audit"
+    ],
+    "shortDescription": "Proving compliance with training obligations rests on traceability: retaining evidence of professional interviews, training actions completed, employee progression, and keeping payroll filings and ...",
+    "metaDescription": "Proving compliance with training obligations rests on traceability: retaining evidence of professional interviews, training actions completed, employee progression, and keeping payroll filings and fiscal declarations relating to the training contribution up to date.",
+    "order": 50
+  },
+  {
+    "slug": "comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation",
+    "lang": "fr",
     "title": "Comment prouver que mon entreprise respecte ses obligations en matière de formation",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -802,9 +1818,28 @@
   },
   {
     "slug": "comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs",
+    "lang": "en",
+    "title": "How to integrate training into the onboarding of new employees",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "onboarding"
+    ],
+    "shortDescription": "Integrating training into onboarding means structuring an integration pathway that combines learning the job, the company and its culture, marked by evaluation milestones and supported by a dedicat...",
+    "metaDescription": "Integrating training into onboarding means structuring an integration pathway that combines learning the job, the company and its culture, marked by evaluation milestones and supported by a dedicated mentor.",
+    "order": 51
+  },
+  {
+    "slug": "comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs",
+    "lang": "fr",
     "title": "Comment intégrer la formation dans l'onboarding de nouveaux collaborateurs",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -820,9 +1855,28 @@
   },
   {
     "slug": "comment-developper-une-culture-de-l-apprentissage-continu-dans-mon-entreprise",
+    "lang": "en",
+    "title": "How to develop a continuous learning culture in my company",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Regulation",
+    "thematiqueEn": "Regulation",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Developing a continuous learning culture requires more than a training catalogue: exemplary leadership, recognized time to learn, valuation of acquired competencies and spaces for peer exchange.",
+    "metaDescription": "Developing a continuous learning culture requires more than a training catalogue: exemplary leadership, recognized time to learn, valuation of acquired competencies and spaces for peer exchange.",
+    "order": 52
+  },
+  {
+    "slug": "comment-developper-une-culture-de-l-apprentissage-continu-dans-mon-entreprise",
+    "lang": "fr",
     "title": "Comment développer une culture de l'apprentissage continu dans mon entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "apprentissage",
@@ -834,9 +1888,28 @@
   },
   {
     "slug": "comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride",
+    "lang": "en",
+    "title": "How to choose between face-to-face, remote or blended training",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "blended"
+    ],
+    "shortDescription": "Choosing between face-to-face, remote and blended training depends on pedagogical objectives, the target audience, logistical constraints and budget, not on a default preference.",
+    "metaDescription": "Choosing between face-to-face, remote and blended training depends on pedagogical objectives, the target audience, logistical constraints and budget, not on a default preference.",
+    "order": 53
+  },
+  {
+    "slug": "comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride",
+    "lang": "fr",
     "title": "Comment choisir entre une formation présentielle, distancielle ou hybride",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "apprentissage",
@@ -849,9 +1922,29 @@
   },
   {
     "slug": "comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation",
+    "lang": "en",
+    "title": "How to train my teams on compliance and regulation",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "audit",
+      "e-learning"
+    ],
+    "shortDescription": "Training teams on compliance and regulation means identifying the mandatory training applicable to the company, deploying it in a traceable way, and retaining the certificates that prove completion.",
+    "metaDescription": "Training teams on compliance and regulation means identifying the mandatory training applicable to the company, deploying it in a traceable way, and retaining the certificates that prove completion.",
+    "order": 54
+  },
+  {
+    "slug": "comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation",
+    "lang": "fr",
     "title": "Comment former mes équipes sur les sujets de compliance et de réglementation",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "conformité",
@@ -864,9 +1957,32 @@
   },
   {
     "slug": "comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise",
+    "lang": "en",
+    "title": "How to fund the training of an employee who wants to change roles while staying",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "OPCO",
+      "Pro-A",
+      "certification",
+      "management",
+      "reconversion"
+    ],
+    "shortDescription": "Funding an internal role change, meaning a change of occupation within the same company, rests primarily on Pro-A, the reconversion or promotion by alternation mechanism, supplemented by the skills...",
+    "metaDescription": "Funding an internal role change, meaning a change of occupation within the same company, rests primarily on Pro-A, the reconversion or promotion by alternation mechanism, supplemented by the skills development plan and employer-topped CPF.",
+    "order": 55
+  },
+  {
+    "slug": "comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise",
+    "lang": "fr",
     "title": "Comment financer la formation d'un salarié qui veut changer de métier en restant dans l'entreprise",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -886,9 +2002,28 @@
   },
   {
     "slug": "comment-choisir-entre-former-en-interne-ou-externaliser-la-formation",
+    "lang": "en",
+    "title": "How to choose between in-house and outsourced training",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "formation"
+    ],
+    "shortDescription": "Choosing between in-house and outsourced training rests on an analysis crossing several criteria: availability of the competency in-house, actual cost of development, confidentiality requirements, ...",
+    "metaDescription": "Choosing between in-house and outsourced training rests on an analysis crossing several criteria: availability of the competency in-house, actual cost of development, confidentiality requirements, frequency of the need, lead time and expected quality level.",
+    "order": 56
+  },
+  {
+    "slug": "comment-choisir-entre-former-en-interne-ou-externaliser-la-formation",
+    "lang": "fr",
     "title": "Comment choisir entre former en interne ou externaliser la formation",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "coût",
@@ -900,9 +2035,28 @@
   },
   {
     "slug": "comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international",
+    "lang": "en",
+    "title": "How to manage training across a multi-site or international group",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Managing training across a multi-site or international group requires arbitrating between centralization and local adaptation: a shared platform and policy for coherence and economies of scale, loc...",
+    "metaDescription": "Managing training across a multi-site or international group requires arbitrating between centralization and local adaptation: a shared platform and policy for coherence and economies of scale, local adaptations for relevance and regulatory compliance in each country.",
+    "order": 57
+  },
+  {
+    "slug": "comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international",
+    "lang": "fr",
     "title": "Comment piloter la formation dans un groupe multi-sites ou international",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "conformité",
@@ -915,9 +2069,28 @@
   },
   {
     "slug": "comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover",
+    "lang": "en",
+    "title": "How to use training to retain talent and reduce turnover",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Development",
+    "thematiqueEn": "Development",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Using training as a retention lever rests on a demonstrable fact: employees stay longer in organizations that invest in their development and offer them prospects.",
+    "metaDescription": "Using training as a retention lever rests on a demonstrable fact: employees stay longer in organizations that invest in their development and offer them prospects.",
+    "order": 58
+  },
+  {
+    "slug": "comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover",
+    "lang": "fr",
     "title": "Comment utiliser la formation pour fidéliser les talents et réduire le turnover",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -929,9 +2102,29 @@
   },
   {
     "slug": "comment-repondre-a-une-obligation-de-formation-sectorielle-specifique",
+    "lang": "en",
+    "title": "How to respond to a sector-specific training obligation",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "OPCO",
+      "audit"
+    ],
+    "shortDescription": "Responding to a sector-specific training obligation means identifying the training made mandatory by the collective agreement or regulation specific to your sector, deploying it among the concerned...",
+    "metaDescription": "Responding to a sector-specific training obligation means identifying the training made mandatory by the collective agreement or regulation specific to your sector, deploying it among the concerned employees, and retaining evidence of completion.",
+    "order": 59
+  },
+  {
+    "slug": "comment-repondre-a-une-obligation-de-formation-sectorielle-specifique",
+    "lang": "fr",
     "title": "Comment répondre à une obligation de formation sectorielle spécifique",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "OPCO",
@@ -944,9 +2137,29 @@
   },
   {
     "slug": "comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel",
+    "lang": "en",
+    "title": "How to negotiate a training agreement with employee representatives",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA",
+      "formation"
+    ],
+    "shortDescription": "Negotiating a training agreement with employee representatives requires knowing the works council's role on training matters, preparing a consultation and negotiation based on objective data, and b...",
+    "metaDescription": "Negotiating a training agreement with employee representatives requires knowing the works council's role on training matters, preparing a consultation and negotiation based on objective data, and building a balanced agreement between the company's development ambitions and employee access to training.",
+    "order": 60
+  },
+  {
+    "slug": "comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel",
+    "lang": "fr",
     "title": "Comment négocier un accord de formation avec les représentants du personnel",
     "cible": "Entreprises",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -959,9 +2172,31 @@
   },
   {
     "slug": "quel-lms-choisir-pour-mon-organisme-de-formation-ou-mon-entreprise",
+    "lang": "en",
+    "title": "Which LMS should I choose for my training organization or company",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "LMS",
+      "audit",
+      "formation",
+      "management"
+    ],
+    "shortDescription": "Choosing an LMS, or learning management system, requires starting from actual needs before comparing tools: the nature of training programs, learner volume, reporting requirements, compliance const...",
+    "metaDescription": "Choosing an LMS, or learning management system, requires starting from actual needs before comparing tools: the nature of training programs, learner volume, reporting requirements, compliance constraints and integration with the information system.",
+    "order": 61
+  },
+  {
+    "slug": "quel-lms-choisir-pour-mon-organisme-de-formation-ou-mon-entreprise",
+    "lang": "fr",
     "title": "Quel LMS choisir pour mon organisme de formation ou mon entreprise",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "LMS",
       "VR",
@@ -976,9 +2211,29 @@
   },
   {
     "slug": "comment-creer-des-contenus-e-learning-rapidement-et-a-moindre-cout",
+    "lang": "en",
+    "title": "How to create e-learning content quickly and cost-effectively",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "LMS",
+      "e-learning"
+    ],
+    "shortDescription": "Creating e-learning content quickly and cost-effectively rests on three levers: starting from reusable templates and structures rather than designing each module from scratch, using effective autho...",
+    "metaDescription": "Creating e-learning content quickly and cost-effectively rests on three levers: starting from reusable templates and structures rather than designing each module from scratch, using effective authoring tools, and industrializing production through assisted generation.",
+    "order": 62
+  },
+  {
+    "slug": "comment-creer-des-contenus-e-learning-rapidement-et-a-moindre-cout",
+    "lang": "fr",
     "title": "Comment créer des contenus e-learning rapidement et à moindre coût",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "LMS",
@@ -991,9 +2246,28 @@
   },
   {
     "slug": "comment-l-intelligence-artificielle-transforme-la-formation-professionnelle",
+    "lang": "en",
+    "title": "How artificial intelligence is transforming professional training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts conten...",
+    "metaDescription": "Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts content to each learner's profile; and analysis, where it exploits learning data for management purposes.",
+    "order": 63
+  },
+  {
+    "slug": "comment-l-intelligence-artificielle-transforme-la-formation-professionnelle",
+    "lang": "fr",
     "title": "Comment l'intelligence artificielle transforme la formation professionnelle",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "apprentissage",
@@ -1006,9 +2280,29 @@
   },
   {
     "slug": "quelles-sont-les-meilleures-plateformes-e-learning-et-comment-les-comparer",
+    "lang": "en",
+    "title": "What are the best e-learning platforms and how to compare them",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "LMS",
+      "e-learning"
+    ],
+    "shortDescription": "Comparing e-learning platforms requires first clarifying which type of tool is actually being discussed, as the market mixes distinct objects: distribution LMSs, content creation authoring tools, c...",
+    "metaDescription": "Comparing e-learning platforms requires first clarifying which type of tool is actually being discussed, as the market mixes distinct objects: distribution LMSs, content creation authoring tools, content marketplaces, and generation engines.",
+    "order": 64
+  },
+  {
+    "slug": "quelles-sont-les-meilleures-plateformes-e-learning-et-comment-les-comparer",
+    "lang": "fr",
     "title": "Quelles sont les meilleures plateformes e-learning et comment les comparer",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "LMS",
@@ -1023,9 +2317,28 @@
   },
   {
     "slug": "quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone",
+    "lang": "en",
+    "title": "Which virtual classroom tool should I choose for synchronous training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Choosing a virtual classroom tool requires distinguishing a generic video conferencing tool from one designed for synchronous pedagogy, equipped with interaction features, breakout groups, sharing ...",
+    "metaDescription": "Choosing a virtual classroom tool requires distinguishing a generic video conferencing tool from one designed for synchronous pedagogy, equipped with interaction features, breakout groups, sharing capabilities and attendance tracking.",
+    "order": 65
+  },
+  {
+    "slug": "quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone",
+    "lang": "fr",
     "title": "Quel outil de classe virtuelle choisir pour la formation synchrone",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "formation"
@@ -1036,9 +2349,30 @@
   },
   {
     "slug": "comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne",
+    "lang": "en",
+    "title": "How to improve completion rates in online training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "e-learning",
+      "gamification",
+      "microlearning"
+    ],
+    "shortDescription": "Improving completion rates in online training requires combined action on pedagogical design, engagement and human accompaniment.",
+    "metaDescription": "Improving completion rates in online training requires combined action on pedagogical design, engagement and human accompaniment.",
+    "order": 66
+  },
+  {
+    "slug": "comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne",
+    "lang": "fr",
     "title": "Comment améliorer le taux de complétion de mes formations en ligne",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "apprentissage",
@@ -1053,9 +2387,28 @@
   },
   {
     "slug": "qu-est-ce-que-le-microlearning-et-quand-l-utiliser",
+    "lang": "en",
+    "title": "What is microlearning and when should I use it",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "microlearning"
+    ],
+    "shortDescription": "Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.",
+    "metaDescription": "Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.",
+    "order": 67
+  },
+  {
+    "slug": "qu-est-ce-que-le-microlearning-et-quand-l-utiliser",
+    "lang": "fr",
     "title": "Qu'est-ce que le microlearning et quand l'utiliser",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "apprentissage",
@@ -1068,9 +2421,28 @@
   },
   {
     "slug": "comment-utiliser-la-gamification-pour-rendre-la-formation-plus-efficace",
+    "lang": "en",
+    "title": "How to use gamification to make training more effective",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "gamification"
+    ],
+    "shortDescription": "Gamification consists in applying game mechanics, points, levels, challenges, badges, leaderboards, to a learning context to sustain engagement and motivation.",
+    "metaDescription": "Gamification consists in applying game mechanics, points, levels, challenges, badges, leaderboards, to a learning context to sustain engagement and motivation.",
+    "order": 68
+  },
+  {
+    "slug": "comment-utiliser-la-gamification-pour-rendre-la-formation-plus-efficace",
+    "lang": "fr",
     "title": "Comment utiliser la gamification pour rendre la formation plus efficace",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "apprentissage",
       "formation",
@@ -1082,9 +2454,32 @@
   },
   {
     "slug": "quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation",
+    "lang": "en",
+    "title": "Which training management tool should I choose (TMS, HR system training module)",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "CPF",
+      "IA",
+      "LMS",
+      "OPCO",
+      "formation",
+      "management"
+    ],
+    "shortDescription": "Choosing a training management tool, sometimes called a TMS or the training module of an HR system, requires distinguishing administrative and logistical training management from the pedagogical di...",
+    "metaDescription": "Choosing a training management tool, sometimes called a TMS or the training module of an HR system, requires distinguishing administrative and logistical training management from the pedagogical distribution handled by an LMS.",
+    "order": 69
+  },
+  {
+    "slug": "quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation",
+    "lang": "fr",
     "title": "Quel outil de gestion de la formation choisir (TMS, SIRH formation)",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "LMS",
@@ -1099,9 +2494,28 @@
   },
   {
     "slug": "comment-produire-des-videos-pedagogiques-sans-gros-budget",
+    "lang": "en",
+    "title": "How to produce instructional videos without a large budget",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "e-learning"
+    ],
+    "shortDescription": "Producing instructional videos on a limited budget rests on one principle: the pedagogical value of a video comes from its design and script, not from cinematic production quality.",
+    "metaDescription": "Producing instructional videos on a limited budget rests on one principle: the pedagogical value of a video comes from its design and script, not from cinematic production quality.",
+    "order": 70
+  },
+  {
+    "slug": "comment-produire-des-videos-pedagogiques-sans-gros-budget",
+    "lang": "fr",
     "title": "Comment produire des vidéos pédagogiques sans gros budget",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "coût",
@@ -1113,9 +2527,28 @@
   },
   {
     "slug": "comment-personnaliser-les-parcours-de-formation-grace-aux-donnees",
+    "lang": "en",
+    "title": "How to personalize learning pathways using data",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "formation"
+    ],
+    "shortDescription": "Personalizing learning pathways through data means exploiting information on each learner's profile, prior acquisition and learning behavior to adapt what is offered: level, pace, content, modalities.",
+    "metaDescription": "Personalizing learning pathways through data means exploiting information on each learner's profile, prior acquisition and learning behavior to adapt what is offered: level, pace, content, modalities.",
+    "order": 71
+  },
+  {
+    "slug": "comment-personnaliser-les-parcours-de-formation-grace-aux-donnees",
+    "lang": "fr",
     "title": "Comment personnaliser les parcours de formation grâce aux données",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -1128,9 +2561,28 @@
   },
   {
     "slug": "comment-utiliser-un-chatbot-ou-un-assistant-ia-en-formation",
+    "lang": "en",
+    "title": "How to use a chatbot or AI assistant in training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "chatbot"
+    ],
+    "shortDescription": "Using a chatbot or AI assistant in training serves several purposes: supporting learners by answering their questions at any time, sustaining practice through conversational simulations, and reliev...",
+    "metaDescription": "Using a chatbot or AI assistant in training serves several purposes: supporting learners by answering their questions at any time, sustaining practice through conversational simulations, and relieving trainers of repetitive queries.",
+    "order": 72
+  },
+  {
+    "slug": "comment-utiliser-un-chatbot-ou-un-assistant-ia-en-formation",
+    "lang": "fr",
     "title": "Comment utiliser un chatbot ou un assistant IA en formation",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "chatbot",
@@ -1142,9 +2594,30 @@
   },
   {
     "slug": "comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap",
+    "lang": "en",
+    "title": "How to make a training platform accessible to people with disabilities",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "RGAA",
+      "WCAG",
+      "audit"
+    ],
+    "shortDescription": "Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed ...",
+    "metaDescription": "Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed from the outset.",
+    "order": 73
+  },
+  {
+    "slug": "comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap",
+    "lang": "fr",
     "title": "Comment rendre une plateforme de formation accessible aux personnes en situation de handicap",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "RGAA",
@@ -1163,9 +2636,29 @@
   },
   {
     "slug": "quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5",
+    "lang": "en",
+    "title": "What are the technical standards for e-learning (SCORM, xAPI, cmi5)",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "e-learning",
+      "formation"
+    ],
+    "shortDescription": "E-learning technical standards define how content communicates with platforms to ensure portability and tracking of learning.",
+    "metaDescription": "E-learning technical standards define how content communicates with platforms to ensure portability and tracking of learning.",
+    "order": 74
+  },
+  {
+    "slug": "quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5",
+    "lang": "fr",
     "title": "Quelles sont les normes techniques de l'e-learning (SCORM, xAPI, cmi5)",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -1179,9 +2672,27 @@
   },
   {
     "slug": "comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics",
+    "lang": "en",
+    "title": "How to measure training impact through learning analytics",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "management"
+    ],
+    "shortDescription": "Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.",
+    "metaDescription": "Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.",
+    "order": 75
+  },
+  {
+    "slug": "comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics",
+    "lang": "fr",
     "title": "Comment mesurer l'impact de la formation grâce au learning analytics",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Apprentissage",
+    "thematiqueEn": "",
     "tags": [
       "apprentissage"
     ],
@@ -1191,9 +2702,31 @@
   },
   {
     "slug": "comment-vendre-des-formations-en-ligne",
+    "lang": "en",
+    "title": "How to sell training programs online",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "certification"
+    ],
+    "shortDescription": "Selling training programs online requires addressing three distinct questions: the sales and distribution platform, customer acquisition, and regulatory compliance if the training claims eligibilit...",
+    "metaDescription": "Selling training programs online requires addressing three distinct questions: the sales and distribution platform, customer acquisition, and regulatory compliance if the training claims eligibility for funding.",
+    "order": 76
+  },
+  {
+    "slug": "comment-vendre-des-formations-en-ligne",
+    "lang": "fr",
     "title": "Comment vendre des formations en ligne",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "CPF",
       "IA",
@@ -1210,9 +2743,28 @@
   },
   {
     "slug": "faut-il-developper-une-application-mobile-de-formation",
+    "lang": "en",
+    "title": "Should I develop a mobile training application",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "microlearning"
+    ],
+    "shortDescription": "Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.",
+    "metaDescription": "Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.",
+    "order": 77
+  },
+  {
+    "slug": "faut-il-developper-une-application-mobile-de-formation",
+    "lang": "fr",
     "title": "Faut-il développer une application mobile de formation",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -1227,9 +2779,29 @@
   },
   {
     "slug": "comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant",
+    "lang": "en",
+    "title": "How to integrate a training platform with my existing HRIS",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "formation",
+      "management"
+    ],
+    "shortDescription": "Integrating a training platform with the human resources information system aims to eliminate duplicate data entry and allow data to flow between HR management and training: employee synchronizatio...",
+    "metaDescription": "Integrating a training platform with the human resources information system aims to eliminate duplicate data entry and allow data to flow between HR management and training: employee synchronization, training completion records, consolidated reporting.",
+    "order": 78
+  },
+  {
+    "slug": "comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant",
+    "lang": "fr",
     "title": "Comment intégrer une plateforme de formation à mon SIRH existant",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "coût",
@@ -1241,9 +2813,28 @@
   },
   {
     "slug": "comment-proteger-et-monetiser-mes-contenus-de-formation-contre-le-piratage",
+    "lang": "en",
+    "title": "How to protect and monetize my training content against piracy",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "certification"
+    ],
+    "shortDescription": "Protecting and monetizing training content requires combining technical measures, access control and restrictions, legal measures, copyright and terms of use, and an economic model that reduces the...",
+    "metaDescription": "Protecting and monetizing training content requires combining technical measures, access control and restrictions, legal measures, copyright and terms of use, and an economic model that reduces the incentive to pirate.",
+    "order": 79
+  },
+  {
+    "slug": "comment-proteger-et-monetiser-mes-contenus-de-formation-contre-le-piratage",
+    "lang": "fr",
     "title": "Comment protéger et monétiser mes contenus de formation contre le piratage",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "certification",
       "formation"
@@ -1254,9 +2845,27 @@
   },
   {
     "slug": "comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices",
+    "lang": "en",
+    "title": "How to use generative AI to create quizzes and exercises",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Using generative AI to create quizzes and exercises allows rapid, large-scale production of varied assessments from content or pedagogical objectives.",
+    "metaDescription": "Using generative AI to create quizzes and exercises allows rapid, large-scale production of varied assessments from content or pedagogical objectives.",
+    "order": 80
+  },
+  {
+    "slug": "comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices",
+    "lang": "fr",
     "title": "Comment utiliser l'IA générative pour créer des quiz et des exercices",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA"
     ],
@@ -1266,9 +2875,30 @@
   },
   {
     "slug": "quelles-sont-les-edtech-francaises-prometteuses-et-comment-les-evaluer",
+    "lang": "en",
+    "title": "Which French EdTech companies are worth watching and how to evaluate them",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "EdTech",
+      "IA",
+      "certification",
+      "management"
+    ],
+    "shortDescription": "Rather than a list of actors that quickly becomes outdated, evaluating promising French EdTech companies requires a stable evaluation framework: the actual nature of the product, distribution, crea...",
+    "metaDescription": "Rather than a list of actors that quickly becomes outdated, evaluating promising French EdTech companies requires a stable evaluation framework: the actual nature of the product, distribution, creation, management or generation, the problem it solves, its economic model, its compliance with the French training framework, and its durability.",
+    "order": 81
+  },
+  {
+    "slug": "quelles-sont-les-edtech-francaises-prometteuses-et-comment-les-evaluer",
+    "lang": "fr",
     "title": "Quelles sont les EdTech françaises prometteuses et comment les évaluer",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "EdTech",
       "IA",
@@ -1284,9 +2914,27 @@
   },
   {
     "slug": "comment-mettre-en-place-une-strategie-de-blended-learning-reussie",
+    "lang": "en",
+    "title": "How to implement a successful blended learning strategy",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "blended"
+    ],
+    "shortDescription": "Blended learning combines face-to-face and remote delivery to draw on the strengths of each modality.",
+    "metaDescription": "Blended learning combines face-to-face and remote delivery to draw on the strengths of each modality.",
+    "order": 82
+  },
+  {
+    "slug": "comment-mettre-en-place-une-strategie-de-blended-learning-reussie",
+    "lang": "fr",
     "title": "Comment mettre en place une stratégie de blended learning réussie",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "blended",
       "formation"
@@ -1297,9 +2945,28 @@
   },
   {
     "slug": "quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation",
+    "lang": "en",
+    "title": "When is virtual reality relevant in training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "VR"
+    ],
+    "shortDescription": "Virtual reality is relevant in training when it delivers what no other modality can: immersion in a difficult, dangerous, costly or otherwise irreproducible situation.",
+    "metaDescription": "Virtual reality is relevant in training when it delivers what no other modality can: immersion in a difficult, dangerous, costly or otherwise irreproducible situation.",
+    "order": 83
+  },
+  {
+    "slug": "quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation",
+    "lang": "fr",
     "title": "Quand la réalité virtuelle (VR) est-elle pertinente en formation",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "apprentissage",
@@ -1312,9 +2979,29 @@
   },
   {
     "slug": "comment-exploiter-les-donnees-de-mon-lms-pour-ameliorer-mes-formations",
+    "lang": "en",
+    "title": "How to exploit my LMS data to improve training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "LMS",
+      "Qualiopi",
+      "formation"
+    ],
+    "shortDescription": "Exploiting LMS data to improve training means transforming tracking information, enrolments, progression, results, dropout points, into concrete decisions to improve content and pathways.",
+    "metaDescription": "Exploiting LMS data to improve training means transforming tracking information, enrolments, progression, results, dropout points, into concrete decisions to improve content and pathways.",
+    "order": 84
+  },
+  {
+    "slug": "comment-exploiter-les-donnees-de-mon-lms-pour-ameliorer-mes-formations",
+    "lang": "fr",
     "title": "Comment exploiter les données de mon LMS pour améliorer mes formations",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "LMS",
       "Qualiopi",
@@ -1327,9 +3014,29 @@
   },
   {
     "slug": "comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre",
+    "lang": "en",
+    "title": "How to migrate from one LMS to another without losing everything",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Certification",
+    "thematiqueEn": "Certification",
+    "tags": [
+      "IA",
+      "LMS",
+      "audit"
+    ],
+    "shortDescription": "Migrating from one LMS to another without data loss requires methodically preparing the transfer of content, learner data and history, drawing on technical standards to preserve portability.",
+    "metaDescription": "Migrating from one LMS to another without data loss requires methodically preparing the transfer of content, learner data and history, drawing on technical standards to preserve portability.",
+    "order": 85
+  },
+  {
+    "slug": "comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre",
+    "lang": "fr",
     "title": "Comment migrer d'un LMS vers un autre sans tout perdre",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Certification",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "LMS",
@@ -1343,9 +3050,27 @@
   },
   {
     "slug": "comment-decider-entre-developper-ma-propre-plateforme-ou-en-acheter-une",
+    "lang": "en",
+    "title": "How to decide between building my own platform or buying one",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Deciding between building your own platform and buying an existing solution rests on the classic build-versus-buy tradeoff: custom development offers full control and perfect fit to the need, but a...",
+    "metaDescription": "Deciding between building your own platform and buying an existing solution rests on the classic build-versus-buy tradeoff: custom development offers full control and perfect fit to the need, but at high cost and risk; purchasing offers speed and controlled cost, at the price of adapting to the tool's constraints.",
+    "order": 86
+  },
+  {
+    "slug": "comment-decider-entre-developper-ma-propre-plateforme-ou-en-acheter-une",
+    "lang": "fr",
     "title": "Comment décider entre développer ma propre plateforme ou en acheter une",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -1358,9 +3083,27 @@
   },
   {
     "slug": "comment-integrer-un-catalogue-de-contenus-tiers-dans-mon-dispositif-de-formation",
+    "lang": "en",
+    "title": "How to integrate a third-party content catalogue into my training program",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Integrating a third-party content catalogue, such as a course library from an external publisher, means complementing your offering with content produced by others, on generic or transversal subjects.",
+    "metaDescription": "Integrating a third-party content catalogue, such as a course library from an external publisher, means complementing your offering with content produced by others, on generic or transversal subjects.",
+    "order": 87
+  },
+  {
+    "slug": "comment-integrer-un-catalogue-de-contenus-tiers-dans-mon-dispositif-de-formation",
+    "lang": "fr",
     "title": "Comment intégrer un catalogue de contenus tiers dans mon dispositif de formation",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "VR",
@@ -1373,9 +3116,29 @@
   },
   {
     "slug": "comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise",
+    "lang": "en",
+    "title": "How to integrate a third-party catalogue like LinkedIn Learning in a company",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "IA",
+      "LMS",
+      "management"
+    ],
+    "shortDescription": "Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and mana...",
+    "metaDescription": "Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and managing adoption so that it does not become an underused subscription.",
+    "order": 88
+  },
+  {
+    "slug": "comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise",
+    "lang": "fr",
     "title": "Comment intégrer un catalogue tiers comme LinkedIn Learning en entreprise",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "LMS",
       "VR",
@@ -1389,9 +3152,27 @@
   },
   {
     "slug": "quand-utiliser-des-outils-no-code-pour-creer-ses-formations",
+    "lang": "en",
+    "title": "When to use no-code tools for creating training",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Funding",
+    "thematiqueEn": "Funding",
+    "tags": [
+      "no-code"
+    ],
+    "shortDescription": "No-code tools allow training content and programs to be created without development technical expertise, through visual interfaces.",
+    "metaDescription": "No-code tools allow training content and programs to be created without development technical expertise, through visual interfaces.",
+    "order": 89
+  },
+  {
+    "slug": "quand-utiliser-des-outils-no-code-pour-creer-ses-formations",
+    "lang": "fr",
     "title": "Quand utiliser des outils no-code pour créer ses formations",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Financement",
+    "thematiqueEn": "",
     "tags": [
       "VR",
       "apprentissage",
@@ -1405,9 +3186,28 @@
   },
   {
     "slug": "comment-preparer-son-organisation-a-l-arrivee-de-l-ia-dans-les-outils-de-formation",
+    "lang": "en",
+    "title": "How to prepare your organization for AI in training tools",
+    "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "EdTech, Platforms and Digital Tools",
+    "thematique": "Pedagogy",
+    "thematiqueEn": "Pedagogy",
+    "tags": [
+      "IA",
+      "management"
+    ],
+    "shortDescription": "Preparing an organization for AI in training tools requires anticipating three dimensions: upskilling training teams on these tools, revising production and management processes, and establishing g...",
+    "metaDescription": "Preparing an organization for AI in training tools requires anticipating three dimensions: upskilling training teams on these tools, revising production and management processes, and establishing governance covering quality, data and compliance.",
+    "order": 90
+  },
+  {
+    "slug": "comment-preparer-son-organisation-a-l-arrivee-de-l-ia-dans-les-outils-de-formation",
+    "lang": "fr",
     "title": "Comment préparer son organisation à l'arrivée de l'IA dans les outils de formation",
     "cible": "EdTech, plateformes et outils numériques",
+    "cibleEn": "",
     "thematique": "Pédagogie",
+    "thematiqueEn": "",
     "tags": [
       "IA",
       "accessibilité",

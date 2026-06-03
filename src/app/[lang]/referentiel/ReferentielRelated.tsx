@@ -9,6 +9,7 @@ interface Props {
   activeThematique: string;
   activeTag: string;
   query: string;
+  lang: string;
 }
 
 export default function ReferentielRelated({
@@ -19,6 +20,7 @@ export default function ReferentielRelated({
   activeThematique,
   activeTag,
   query,
+  lang,
 }: Props) {
   const buildHref = (slug: string) => {
     const params = new URLSearchParams();
@@ -27,11 +29,11 @@ export default function ReferentielRelated({
     if (activeTag) params.set("tag", activeTag);
     if (query) params.set("q", query);
     const qs = params.toString();
-    return `/fr/referentiel/${slug}/${qs ? `?${qs}` : ""}`;
+    return `/${lang}/referentiel/${slug}/${qs ? `?${qs}` : ""}`;
   };
 
   const related = REFERENTIEL_META
-    .filter((a) => a.slug !== currentSlug && a.cible === cible)
+    .filter((a) => a.slug !== currentSlug && a.cible === cible && a.lang === lang)
     .map((a) => ({
       ...a,
       sharedTags: a.tags.filter((t) => tags.includes(t)).length,

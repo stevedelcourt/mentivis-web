@@ -3,9 +3,15 @@
   "title": "Comment monter un dossier de certification RNCP",
   "cible": "Organismes de formation",
   "thematique": "Certification",
-  "tags": ["RNCP", "France Compétences", "certification", "référentiel"],
+  "tags": [
+    "RNCP",
+    "France Compétences",
+    "certification",
+    "référentiel"
+  ],
   "shortDescription": "Monter un dossier d'enregistrement au RNCP suppose de déposer auprès de France Compétences un dossier articulé autour d'une étude d'opportunité et de trois référentiels : activités, compétences, évaluation. Le délai d'instruction est d'environ six mois.",
   "metaDescription": "Monter un dossier de certification RNCP : structure du dossier, étude d'opportunité, trois référentiels, délais et taux d'acceptation. Guide complet pour les organismes certificateurs.",
   "content": "## Le cadre et les répertoires\n\nFrance Compétences gère deux répertoires : le RNCP, pour les certifications attestant d'un métier, et le Répertoire Spécifique, pour des compétences complémentaires. L'enregistrement au RNCP conditionne notamment l'accès à certains financements et au référencement sur Mon Compte Formation pour les formations certifiantes.\n\n## La structure du dossier\n\nL'étude d'opportunité ouvre le dossier. Elle démontre la valeur d'usage de la certification et son adéquation aux besoins du marché de l'emploi, par l'analyse des situations de travail.\n\nLe référentiel d'activités décrit les situations professionnelles visées. Le référentiel de compétences les traduit en compétences évaluables, organisées en blocs cohérents. Le référentiel d'évaluation définit les modalités de vérification de chaque bloc.\n\nLa cohérence d'ensemble entre ces référentiels et la qualité des procédures de contrôle des épreuves sont des critères centraux d'examen. L'accès par la VAE doit également être prévu.\n\n## Délais, taux et points de vigilance\n\nLe délai d'instruction est d'environ six mois ; un dépôt anticipé de sept à neuf mois sécurise les échéances. Le taux d'acceptation au RNCP se situe historiquement autour des deux tiers, nettement plus élevé qu'au Répertoire Spécifique. La reproduction littérale d'un référentiel existant entraîne un refus sans examen des critères. Une version actualisée du vademecum de France Compétences encadre les attendus et les procédures.\n\n## Ce qu'il faut retenir\n\n- Le dépôt se fait auprès de France Compétences via sa téléprocédure.\n- Le dossier comprend une étude d'opportunité et trois référentiels : activités, compétences, évaluation.\n- Le délai d'instruction est d'environ six mois.\n- Il est recommandé de déposer sept à neuf mois avant l'échéance.\n- La reproduction littérale d'un référentiel existant entraîne un refus.\n\n---\n\nLa construction des référentiels et l'ingénierie de certification mobilisent une compétence rare. Mentivis accompagne les organismes dans la structuration de leur offre certifiante. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)\n\nMentivisOS génère les référentiels d'activités, de compétences et d'évaluation alignés, ce qui structure la matière du dossier. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)\n\n**À lire aussi :** Comment construire un référentiel de formation de A à Z · Comment créer un programme de formation conforme Qualiopi · Comment construire une offre de VAE.",
-  "order": 7
+  "order": 7,
+  "lang": "fr"
 }

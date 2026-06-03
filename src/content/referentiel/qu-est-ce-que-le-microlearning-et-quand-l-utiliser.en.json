@@ -1,0 +1,17 @@
+{
+  "slug": "qu-est-ce-que-le-microlearning-et-quand-l-utiliser",
+  "lang": "en",
+  "title": "What is microlearning and when should I use it",
+  "cible": "EdTech, plateformes et outils numériques",
+  "cibleEn": "EdTech, Platforms and Digital Tools",
+  "thematique": "Pedagogy",
+  "thematiqueEn": "Pedagogy",
+  "tags": [
+    "IA",
+    "microlearning"
+  ],
+  "shortDescription": "Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.",
+  "metaDescription": "Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.",
+  "content": "Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes. It is particularly suited to knowledge anchoring, continuous training for time-constrained audiences, and spaced reinforcement. It is not suited, however, to the acquisition of complex competencies requiring sustained practice and accompaniment. Microlearning is a format, not a universal method: its relevance depends on the pedagogical objective.\n\n## The principle of microlearning\n\nMicrolearning fragments learning into brief modules, each addressing one precise point, quickly consumable. This granularity responds to the difficulty of mobilizing long attention spans, particularly in self-directed or mobile settings. It draws on the principle of spaced repetition, which promotes durable retention better than massed learning in a single session.\n\n## When microlearning is relevant\n\nMicrolearning excels for anchoring and recalling knowledge, point-in-time upskilling, and continuous training for audiences that cannot free up much time. It serves well as post-training reinforcement, consolidating learning through spaced reminders. It also suits large-scale distribution of short messages, for example in compliance or awareness contexts.\n\n## When it is not enough\n\nMicrolearning shows its limits for the acquisition of complex competencies, which require sustained practice, simulation and accompaniment. Over-fragmenting learning that requires an overall picture undermines comprehension. Microlearning then fits as a component of a broader program, as reinforcement or as a prerequisite, rather than as the core of the training. Confusing short format with easy learning is a frequent mistake.\n\n## Key takeaways\n\n- Microlearning breaks learning into short units centered on one objective.\n- It draws on spaced repetition, which promotes durable retention.\n- It excels for anchoring, upskilling and training time-constrained audiences.\n- It is not suited alone to the acquisition of complex competencies.\n- It is a format to integrate according to the objective, not a universal method.",
+  "order": 67
+}
