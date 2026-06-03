@@ -67,12 +67,12 @@ export default function ReferentielFilters({
         <select value={activeCible}
           onChange={(e) => onUpdateFilter("cible", e.target.value)} style={selectStyle}>
           <option value="">{label("Toutes les cibles", "All targets")}</option>
-          {cibles.map((c) => <option key={c} value={c}>{cibleEn[c] || c}</option>)}
+          {cibles.map((c) => <option key={c} value={c}>{label(c, cibleEn[c] || c)}</option>)}
         </select>
         <select value={activeThematique}
           onChange={(e) => onUpdateFilter("thematique", e.target.value)} style={selectStyle}>
           <option value="">{label("Toutes les thématiques", "All themes")}</option>
-          {thematiques.map((t) => <option key={t} value={t}>{THEMATIQUE_EN[t] || t}</option>)}
+          {thematiques.map((t) => <option key={t} value={t}>{label(t, THEMATIQUE_EN[t] || t)}</option>)}
         </select>
       </div>
 
