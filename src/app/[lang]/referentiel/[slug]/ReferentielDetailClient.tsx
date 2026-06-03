@@ -124,6 +124,16 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
               />
             </div>
             <div>
+              {/* Mobile back to list (top) */}
+              <div className="referentiel-mobile-back" style={{ marginBottom: 16 }}>
+                <a href={buildListUrl()}
+                  style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 13, fontWeight: 500, color: "var(--m-purple)", textDecoration: "none" }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M15 18l-6-6 6-6" />
+                  </svg>
+                  Retour à la liste
+                </a>
+              </div>
               <h1 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 300, lineHeight: 1.15, color: "var(--m-ink)", marginBottom: 16, fontFamily: "var(--font-sans, 'IBM Plex Sans')" }}>
                 {article.title}
               </h1>
@@ -168,18 +178,18 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                   Copier le lien
                 </button>
                 <button onClick={() => handleShare("twitter")}
-                  style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "6px 12px", fontSize: 12, fontWeight: 500, fontFamily: "var(--font-sans, 'IBM Plex Sans')", border: "1px solid var(--m-line)", borderRadius: 6, background: "transparent", color: "var(--m-ink-2)", cursor: "pointer" }}>
+                  style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 32, height: 32, border: "1px solid var(--m-line)", borderRadius: 6, background: "transparent", color: "var(--m-ink-2)", cursor: "pointer" }}
+                  aria-label="X (Twitter)">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                   </svg>
-                  X (Twitter)
                 </button>
                 <button onClick={() => handleShare("linkedin")}
-                  style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "6px 12px", fontSize: 12, fontWeight: 500, fontFamily: "var(--font-sans, 'IBM Plex Sans')", border: "1px solid var(--m-line)", borderRadius: 6, background: "transparent", color: "var(--m-ink-2)", cursor: "pointer" }}>
+                  style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 32, height: 32, border: "1px solid var(--m-line)", borderRadius: 6, background: "transparent", color: "var(--m-ink-2)", cursor: "pointer" }}
+                  aria-label="LinkedIn">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                   </svg>
-                  LinkedIn
                 </button>
               </div>
             </div>
