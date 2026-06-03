@@ -14,6 +14,7 @@ Training consulting and digital solutions for enterprises and training organizat
 - /fr/of — Conseil pour organismes de formation
 - /fr/solutions — Solutions digitales (conception d'outils sur mesure, développement spécifique, IA)
 - /fr/mentivisos — MentivisOS, le LearningOS natif IA
+- /fr/referentiel/ — Le Référentiel : 90 articles sur la réglementation, le financement, la pédagogie et l'EdTech
 - /fr/contact — Contact et demande de diagnostic
 - /fr/insights — Publications et perspectives
 - /fr/guides — Guides pratiques BPF, CPF, POEI
@@ -31,6 +32,7 @@ Training consulting and digital solutions for enterprises and training organizat
 - /en/of — Training organization consulting
 - /en/solutions — Digital solutions (custom tool design, specific development, AI)
 - /en/mentivisos — MentivisOS, the AI-native LearningOS
+- /en/referentiel/ — The Reference: 90 articles on regulation, funding, pedagogy and EdTech
 - /en/contact — Contact and diagnostic request
 - /en/insights — Insights and perspectives
 - /en/guides — Reference guides BPF, CPF, POEI
