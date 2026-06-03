@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import {
   REFERENTIEL_META,
@@ -15,19 +15,13 @@ import { useSearchParamsClient } from "@/lib/use-search-params";
 
 export default function ReferentielClient() {
   const router = useRouter();
+  const [navKey, setNavKey] = useState(0);
   const { get } = useSearchParamsClient();
 
-  const [activeCible, setActiveCible] = useState("");
-  const [activeThematique, setActiveThematique] = useState("");
-  const [activeTag, setActiveTag] = useState("");
-  const [query, setQuery] = useState("");
-
-  useEffect(() => {
-    setActiveCible(get("cible"));
-    setActiveThematique(get("thematique"));
-    setActiveTag(get("tag"));
-    setQuery(get("q"));
-  }, [get]);
+  const activeCible = get("cible");
+  const activeThematique = get("thematique");
+  const activeTag = get("tag");
+  const [query, setQuery] = useState(get("q"));
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -35,6 +29,8 @@ export default function ReferentielClient() {
 
   const filtered = useMemo(() => {
     let result = REFERENTIEL_META;
+    // navKey forces recomputation on URL change
+    void navKey;
     if (activeCible) result = result.filter((a) => a.cible === activeCible);
     if (activeThematique) result = result.filter((a) => a.thematique === activeThematique);
     if (activeTag) result = result.filter((a) => a.tags.includes(activeTag));
@@ -48,9 +44,9 @@ export default function ReferentielClient() {
       );
     }
     return result;
-  }, [activeCible, activeThematique, activeTag, query]);
+  }, [activeCible, activeThematique, activeTag, query, navKey]);
 
-  const updateFilter = (key: string, value: string) => {
+  const updateFilter = useCallback((key: string, value: string) => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
     if (value) {
@@ -60,7 +56,8 @@ export default function ReferentielClient() {
     }
     if (key !== "tag") params.delete("tag");
     router.push(`/fr/referentiel/?${params.toString()}`, { scroll: false });
-  };
+    setNavKey((n) => n + 1);
+  }, [router]);
 
   return (
     <PageShell hidePreFooterCTA>

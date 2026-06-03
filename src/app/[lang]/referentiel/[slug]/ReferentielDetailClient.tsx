@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useCallback } from "react";
 import { marked } from "marked";
 import {
   REFERENTIEL_META,
@@ -22,18 +22,12 @@ interface Props {
 
 export default function ReferentielDetailClient({ article, lang }: Props) {
   const { get } = useSearchParamsClient();
+  const [navKey, setNavKey] = useState(0);
 
-  const [activeCible, setActiveCible] = useState("");
-  const [activeThematique, setActiveThematique] = useState("");
-  const [activeTag, setActiveTag] = useState("");
-  const [query, setQuery] = useState("");
-
-  useEffect(() => {
-    setActiveCible(get("cible"));
-    setActiveThematique(get("thematique"));
-    setActiveTag(get("tag"));
-    setQuery(get("q"));
-  }, [get]);
+  const activeCible = get("cible");
+  const activeThematique = get("thematique");
+  const activeTag = get("tag");
+  const [query, setQuery] = useState(get("q"));
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -41,6 +35,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
 
   const filtered = useMemo(() => {
     let result = REFERENTIEL_META;
+    void navKey;
     if (activeCible) result = result.filter((a) => a.cible === activeCible);
     if (activeThematique) result = result.filter((a) => a.thematique === activeThematique);
     if (activeTag) result = result.filter((a) => a.tags.includes(activeTag));
@@ -54,7 +49,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
       );
     }
     return result;
-  }, [activeCible, activeThematique, activeTag, query]);
+  }, [activeCible, activeThematique, activeTag, query, navKey]);
 
   const htmlContent = useMemo(() => {
     try {
@@ -64,22 +59,23 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
     }
   }, [article.content]);
 
-  const updateFilter = (key: string, value: string) => {
+  const updateFilter = useCallback((key: string, value: string) => {
     const params = new URLSearchParams(window.location.search);
     if (value) params.set(key, value);
     else params.delete(key);
     if (key !== "tag") params.delete("tag");
     const qs = params.toString();
     window.history.replaceState(null, "", `/fr/referentiel/${article.slug}/${qs ? `?${qs}` : ""}`);
-  };
+    setNavKey((n) => n + 1);
+  }, [article.slug]);
 
-  const buildListUrl = () => {
+  const buildListUrl = useCallback(() => {
     if (typeof window === "undefined") return "/fr/referentiel/";
     const params = new URLSearchParams(window.location.search);
     params.delete("tag");
     const qs = params.toString();
     return `/fr/referentiel/${qs ? `?${qs}` : ""}`;
-  };
+  }, []);
 
   const handleCopy = () => {
     if (typeof window !== "undefined") {
