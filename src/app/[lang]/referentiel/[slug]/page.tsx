@@ -36,7 +36,7 @@ export async function generateMetadata({
       type: "article",
       locale: "fr_FR",
       images: [{
-        url: "https://mentivis.com/images/referentiel-og.jpg",
+        url: "/images/referentiel-og.jpg",
         width: 1200,
         height: 630,
         alt: "Le Référentiel — Mentivis",
@@ -44,7 +44,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      images: ["https://mentivis.com/images/referentiel-og.jpg"],
+      images: ["/images/referentiel-og.jpg"],
     },
   };
 }
