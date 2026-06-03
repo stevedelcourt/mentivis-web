@@ -60,14 +60,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Referentiel articles × 1 language (FR only)
-  for (const article of REFERENTIEL_META) {
-    entries.push({
-      url: `${BASE_URL}/fr/referentiel/${article.slug}/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.6,
-    });
+  // Referentiel articles × 2 languages
+  for (const lang of ["fr", "en"]) {
+    for (const article of REFERENTIEL_META) {
+      if (article.lang !== lang) continue;
+      entries.push({
+        url: `${BASE_URL}/${lang}/referentiel/${article.slug}/`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
+    }
   }
 
   // Job listings × 2 languages
