@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { marked } from "marked";
 import {
@@ -25,7 +25,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
   const activeCible = searchParams.get("cible") || "";
   const activeThematique = searchParams.get("thematique") || "";
   const activeTag = searchParams.get("tag") || "";
-  const query = searchParams.get("q") || "";
+  const [query, setQuery] = useState("");
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -105,7 +105,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
             cibles={cibles} thematiques={thematiques} allTags={allTags}
             activeCible={activeCible} activeThematique={activeThematique}
             activeTag={activeTag} query={query}
-            onUpdateFilter={updateFilter} onSetQuery={(q) => updateFilter("q", q)}
+            onUpdateFilter={updateFilter} onSetQuery={setQuery}
           />
 
           <div className="referentiel-layout" style={{
