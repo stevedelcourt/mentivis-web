@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
-import { useRouter } from "next/navigation";
 import {
   REFERENTIEL_META,
   getCibles,
@@ -14,7 +13,6 @@ import ReferentielFilters from "./ReferentielFilters";
 import { useSearchParamsClient } from "@/lib/use-search-params";
 
 export default function ReferentielClient() {
-  const router = useRouter();
   const [navKey, setNavKey] = useState(0);
   const { get } = useSearchParamsClient();
 
@@ -55,9 +53,9 @@ export default function ReferentielClient() {
       params.delete(key);
     }
     if (key !== "tag") params.delete("tag");
-    router.push(`/fr/referentiel/?${params.toString()}`, { scroll: false });
+    window.history.pushState(null, "", `/fr/referentiel/?${params.toString()}`);
     setNavKey((n) => n + 1);
-  }, [router]);
+  }, []);
 
   return (
     <PageShell hidePreFooterCTA>
