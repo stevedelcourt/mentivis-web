@@ -50,10 +50,10 @@ export default function ReferentielSidebar({
   });
 
   const titleStyle = (isActive: boolean): React.CSSProperties => ({
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: isActive ? 600 : 400,
     lineHeight: 1.35,
-    color: isActive ? "var(--m-ink)" : "var(--m-ink-2)",
+    color: "var(--m-ink)",
     fontFamily: "var(--font-sans, 'IBM Plex Sans')",
     marginBottom: 4,
   });
