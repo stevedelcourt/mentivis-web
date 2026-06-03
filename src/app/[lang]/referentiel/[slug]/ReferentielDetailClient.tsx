@@ -65,6 +65,13 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
     window.history.replaceState(null, "", `/fr/referentiel/${article.slug}/${qs ? `?${qs}` : ""}`);
   };
 
+  const buildListUrl = () => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete("tag");
+    const qs = params.toString();
+    return `/fr/referentiel/${qs ? `?${qs}` : ""}`;
+  };
+
   const handleCopy = () => {
     if (typeof window !== "undefined") {
       navigator.clipboard.writeText(window.location.href);
@@ -139,6 +146,16 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                 className="referentiel-content"
                 dangerouslySetInnerHTML={{ __html: htmlContent }}
               />
+              {/* Mobile back to list */}
+              <div className="referentiel-mobile-back" style={{ marginTop: 32 }}>
+                <a href={buildListUrl()}
+                  style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: 13, fontWeight: 500, color: "var(--m-purple)", textDecoration: "none" }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M15 18l-6-6 6-6" />
+                  </svg>
+                  Retour à la liste
+                </a>
+              </div>
               {/* Share bar */}
               <div style={{ marginTop: 48, paddingTop: 24, borderTop: "1px solid var(--m-line)", display: "flex", alignItems: "center", gap: 12 }}>
                 <span style={{ fontSize: 13, color: "var(--m-ink-3)", fontFamily: "var(--font-sans, 'IBM Plex Sans')" }}>Partager :</span>
@@ -172,6 +189,11 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
       <style>{`
         @media (max-width: 768px) {
           .referentiel-layout { grid-template-columns: 1fr !important; }
+          .referentiel-sidebar { display: none; }
+          .referentiel-mobile-back { display: block; }
+        }
+        @media (min-width: 769px) {
+          .referentiel-mobile-back { display: none; }
         }
       `}</style>
     </PageShell>
