@@ -1,0 +1,17 @@
+{
+  "slug": "comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre",
+  "title": "Comment migrer d'un LMS vers un autre sans tout perdre",
+  "cible": "EdTech, plateformes et outils numériques",
+  "thematique": "Certification",
+  "tags": [
+    "IA",
+    "LMS",
+    "VR",
+    "audit",
+    "formation"
+  ],
+  "shortDescription": "Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour prés...",
+  "metaDescription": "Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour préserver la portabilité.",
+  "content": "Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour préserver la portabilité. Une migration mal préparée fait perdre des contenus, des historiques de formation et de l'adhésion des utilisateurs. La réussite tient à un audit préalable de l'existant, à un plan de migration par étapes, et à une phase de test avant bascule. La portabilité des contenus, garantie par les normes, est un enjeu central.\n\n## Auditer l'existant avant de migrer\n\nUne migration commence par un inventaire : quels contenus, sous quels formats, quelles données d'apprenants, quel historique de formation, quelles intégrations avec d'autres systèmes. Cet audit révèle ce qui est portable, ce qui devra être reconstruit, et les risques. Migrer sans cet inventaire expose à découvrir des pertes une fois la bascule faite, quand il est trop tard pour les éviter.\n\n## Préserver la portabilité par les normes\n\nLes contenus conformes à des normes comme SCORM ou xAPI sont en principe portables d'une plateforme à l'autre. Les contenus créés dans un format propriétaire d'un LMS peuvent être difficiles à exporter, ce qui crée un enfermement. La migration est l'occasion de mesurer cet enfermement et, pour l'avenir, de privilégier des contenus aux formats standards. Les données d'apprenants et l'historique demandent un soin particulier, leur format d'export variant selon les plateformes.\n\n## Migrer par étapes et tester\n\nUne migration réussie procède par étapes plutôt que par bascule brutale. Un plan définit l'ordre de transfert, une phase de test vérifie l'intégrité des contenus et des données sur la nouvelle plateforme, et une période de transition limite les risques. L'accompagnement des utilisateurs, formateurs et apprenants, vers le nouvel outil conditionne l'adhésion : une migration techniquement réussie mais mal accompagnée échoue par rejet des utilisateurs.\n\n## Ce qu'il faut retenir\n\n- La migration commence par un audit de l'existant : contenus, données, intégrations.\n- Les contenus aux formats normés sont portables ; les formats propriétaires enferment.\n- Données d'apprenants et historique demandent un soin particulier d'export.\n- Migrer par étapes avec une phase de test limite les risques.\n- L'accompagnement des utilisateurs conditionne l'adhésion au nouvel outil.",
+  "order": 85
+}

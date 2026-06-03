@@ -153,5 +153,1269 @@
     "shortDescription": "Évaluer les acquis de façon valide suppose de distinguer trois fonctions de l'évaluation : formative, sommative et certificative, et d'aligner chaque modalité sur les objectifs de compétences annoncés. Les preuves doivent être documentées, traçables et conformes aux attentes du certificateur.",
     "metaDescription": "Évaluer les acquis des apprenants : les trois fonctions de l'évaluation (formative, sommative, certificative), comment aligner les modalités sur les objectifs et les preuves attendues en audit Qualiopi.",
     "order": 10
+  },
+  {
+    "slug": "comment-construire-un-referentiel-de-formation-de-a-a-z",
+    "title": "Comment construire un référentiel de formation de A à Z",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "RNCP",
+      "VAE",
+      "VR",
+      "apprentissage",
+      "audit",
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Construire un référentiel de formation consiste à partir de l'analyse des besoins et des situations de travail pour aboutir à un découpage en blocs de compétences, séquencés et associés à des modal...",
+    "metaDescription": "Construire un référentiel de formation consiste à partir de l'analyse des besoins et des situations de travail pour aboutir à un découpage en blocs de compétences, séquencés et associés à des modalités d'évaluation.",
+    "order": 11
+  },
+  {
+    "slug": "comment-attirer-des-apprentis-et-des-stagiaires-en-2026",
+    "title": "Comment attirer des apprentis et des stagiaires en 2026",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "alternance",
+      "formation"
+    ],
+    "shortDescription": "Attirer des apprentis et des stagiaires repose sur une stratégie d'acquisition combinant visibilité digitale ciblée, présence sur les plateformes d'orientation, partenariats avec les établissements...",
+    "metaDescription": "Attirer des apprentis et des stagiaires repose sur une stratégie d'acquisition combinant visibilité digitale ciblée, présence sur les plateformes d'orientation, partenariats avec les établissements prescripteurs et preuve sociale par les témoignages d'anciens.",
+    "order": 12
+  },
+  {
+    "slug": "comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage",
+    "title": "Comment obtenir et utiliser les fonds de la taxe d'apprentissage",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "OPCO",
+      "VR",
+      "apprentissage",
+      "formation",
+      "taxe d'apprentissage"
+    ],
+    "shortDescription": "Les établissements habilités perçoivent le solde de la taxe d'apprentissage, fixé à 0,09 pour cent de la masse salariale des entreprises, via la plateforme SOLTéA gérée par la Caisse des dépôts.",
+    "metaDescription": "Les établissements habilités perçoivent le solde de la taxe d'apprentissage, fixé à 0,09 pour cent de la masse salariale des entreprises, via la plateforme SOLTéA gérée par la Caisse des dépôts.",
+    "order": 13
+  },
+  {
+    "slug": "comment-digitaliser-ses-formations-sans-perdre-la-qualite-pedagogique",
+    "title": "Comment digitaliser ses formations sans perdre la qualité pédagogique",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "OPCO",
+      "alternance",
+      "audit",
+      "e-learning",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Digitaliser ses formations sans dégrader la qualité suppose de repenser la pédagogie pour le distanciel plutôt que de transposer du présentiel à l'identique.",
+    "metaDescription": "Digitaliser ses formations sans dégrader la qualité suppose de repenser la pédagogie pour le distanciel plutôt que de transposer du présentiel à l'identique.",
+    "order": 14
+  },
+  {
+    "slug": "comment-gerer-la-relation-avec-les-opco-au-quotidien",
+    "title": "Comment gérer la relation avec les OPCO au quotidien",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "France Compétences",
+      "OPCO",
+      "VR",
+      "conformité",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Gérer la relation avec les OPCO repose sur la maîtrise de trois éléments : connaître son interlocuteur et la branche concernée, déposer des dossiers de prise en charge conformes avant le démarrage ...",
+    "metaDescription": "Gérer la relation avec les OPCO repose sur la maîtrise de trois éléments : connaître son interlocuteur et la branche concernée, déposer des dossiers de prise en charge conformes avant le démarrage des actions, et suivre rigoureusement la facturation et les remboursements.",
+    "order": 15
+  },
+  {
+    "slug": "comment-rediger-une-convention-de-formation-conforme-a-la-loi",
+    "title": "Comment rédiger une convention de formation conforme à la loi",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "Qualiopi",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Une convention de formation conforme respecte les mentions obligatoires fixées par l'article L6353-1 du code du travail : intitulé, objectifs, contenu, moyens, durée, dates, modalités de déroulemen...",
+    "metaDescription": "Une convention de formation conforme respecte les mentions obligatoires fixées par l'article L6353-1 du code du travail : intitulé, objectifs, contenu, moyens, durée, dates, modalités de déroulement et d'évaluation, prix et modalités de règlement.",
+    "order": 16
+  },
+  {
+    "slug": "comment-construire-un-plan-de-developpement-des-competences-pour-une-entreprise-cliente",
+    "title": "Comment construire un plan de développement des compétences pour une entreprise cliente",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Construire un plan de développement des compétences pour une entreprise cliente consiste à recueillir les besoins, à les prioriser au regard de la stratégie de l'entreprise, à arbitrer le budget et...",
+    "metaDescription": "Construire un plan de développement des compétences pour une entreprise cliente consiste à recueillir les besoins, à les prioriser au regard de la stratégie de l'entreprise, à arbitrer le budget et les financements, puis à formaliser un plan d'actions pluriannuel piloté par des indicateurs.",
+    "order": 17
+  },
+  {
+    "slug": "comment-creer-une-formation-eligible-au-cpf",
+    "title": "Comment créer une formation éligible au CPF",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "CPF",
+      "Qualiopi",
+      "RNCP",
+      "VR",
+      "certification",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Rendre une formation éligible au CPF suppose qu'elle prépare à une certification active inscrite au RNCP ou au Répertoire Spécifique, que l'organisme soit certifié Qualiopi, et qu'il référence l'of...",
+    "metaDescription": "Rendre une formation éligible au CPF suppose qu'elle prépare à une certification active inscrite au RNCP ou au Répertoire Spécifique, que l'organisme soit certifié Qualiopi, et qu'il référence l'offre sur Mon Compte Formation en tant que certificateur ou partenaire habilité par un certificateur.",
+    "order": 18
+  },
+  {
+    "slug": "comment-piloter-la-qualite-pedagogique-de-ses-formateurs",
+    "title": "Comment piloter la qualité pédagogique de ses formateurs",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "Qualiopi",
+      "audit",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Piloter la qualité pédagogique des formateurs repose sur un cycle complet : recrutement et habilitation sur la base des compétences, supervision et accompagnement, évaluation par les retours des ap...",
+    "metaDescription": "Piloter la qualité pédagogique des formateurs repose sur un cycle complet : recrutement et habilitation sur la base des compétences, supervision et accompagnement, évaluation par les retours des apprenants à chaud et à froid, et plan de développement des formateurs.",
+    "order": 19
+  },
+  {
+    "slug": "comment-gerer-la-sous-traitance-de-formation-legalement",
+    "title": "Comment gérer la sous-traitance de formation légalement",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "audit",
+      "certification",
+      "conformité"
+    ],
+    "shortDescription": "Gérer la sous-traitance légalement suppose de formaliser une convention de sous-traitance précisant les missions confiées, et de comprendre que l'organisme donneur d'ordre reste responsable de la c...",
+    "metaDescription": "Gérer la sous-traitance légalement suppose de formaliser une convention de sous-traitance précisant les missions confiées, et de comprendre que l'organisme donneur d'ordre reste responsable de la conformité Qualiopi des actions sous-traitées.",
+    "order": 20
+  },
+  {
+    "slug": "comment-obtenir-des-certifications-de-qualite-au-dela-de-qualiopi",
+    "title": "Comment obtenir des certifications de qualité au-delà de Qualiopi",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "VR",
+      "certification",
+      "coût",
+      "financement",
+      "formation",
+      "management"
+    ],
+    "shortDescription": "Au-delà de Qualiopi, qui est obligatoire pour accéder aux financements, un organisme peut viser des labels et certifications complémentaires pour renforcer sa crédibilité : certifications sectoriel...",
+    "metaDescription": "Au-delà de Qualiopi, qui est obligatoire pour accéder aux financements, un organisme peut viser des labels et certifications complémentaires pour renforcer sa crédibilité : certifications sectorielles ou de branche, normes internationales de management de la qualité, labellisations régionales.",
+    "order": 21
+  },
+  {
+    "slug": "comment-developper-une-activite-de-formation-en-entreprise-intra",
+    "title": "Comment développer une activité de formation en entreprise (intra)",
+    "cible": "Organismes de formation",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "VR",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Développer une activité de formation intra-entreprise consiste à proposer des formations sur mesure dispensées au sein d'une organisation pour ses propres salariés, par opposition aux sessions inte...",
+    "metaDescription": "Développer une activité de formation intra-entreprise consiste à proposer des formations sur mesure dispensées au sein d'une organisation pour ses propres salariés, par opposition aux sessions inter-entreprises ouvertes à des participants de structures différentes.",
+    "order": 22
+  },
+  {
+    "slug": "comment-accompagner-les-apprenants-en-situation-de-handicap-psh",
+    "title": "Comment accompagner les apprenants en situation de handicap (PSH)",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "accessibilité",
+      "audit",
+      "financement",
+      "formation",
+      "handicap"
+    ],
+    "shortDescription": "Accompagner les apprenants en situation de handicap impose des obligations légales et constitue un attendu Qualiopi : désignation d'un référent handicap, information sur les conditions d'accessibil...",
+    "metaDescription": "Accompagner les apprenants en situation de handicap impose des obligations légales et constitue un attendu Qualiopi : désignation d'un référent handicap, information sur les conditions d'accessibilité, adaptation pédagogique et matérielle, et mobilisation des acteurs spécialisés.",
+    "order": 23
+  },
+  {
+    "slug": "comment-faire-une-veille-reglementaire-efficace-sur-la-formation-professionnelle",
+    "title": "Comment faire une veille réglementaire efficace sur la formation professionnelle",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "France Compétences",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "apprentissage",
+      "certification",
+      "conformité",
+      "déclaration",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Une veille réglementaire efficace combine des sources officielles fiables, un rythme de consultation régulier et un tri par pertinence pour son activité.",
+    "metaDescription": "Une veille réglementaire efficace combine des sources officielles fiables, un rythme de consultation régulier et un tri par pertinence pour son activité.",
+    "order": 24
+  },
+  {
+    "slug": "comment-mesurer-le-retour-sur-investissement-d-une-formation",
+    "title": "Comment mesurer le retour sur investissement d'une formation",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "apprentissage",
+      "formation"
+    ],
+    "shortDescription": "Mesurer le retour sur investissement d'une formation suppose de dépasser la seule satisfaction pour évaluer le transfert des compétences en situation de travail et l'effet sur les indicateurs de l'...",
+    "metaDescription": "Mesurer le retour sur investissement d'une formation suppose de dépasser la seule satisfaction pour évaluer le transfert des compétences en situation de travail et l'effet sur les indicateurs de l'organisation.",
+    "order": 25
+  },
+  {
+    "slug": "comment-acceder-aux-appels-d-offres-publics-pour-la-formation",
+    "title": "Comment accéder aux appels d'offres publics pour la formation",
+    "cible": "Organismes de formation",
+    "thematique": "Pédagogie",
+    "tags": [
+      "VR",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Accéder aux marchés publics de formation suppose de surveiller les plateformes de publication des consultations, de maîtriser la réponse aux dossiers de consultation et de comprendre les critères d...",
+    "metaDescription": "Accéder aux marchés publics de formation suppose de surveiller les plateformes de publication des consultations, de maîtriser la réponse aux dossiers de consultation et de comprendre les critères de sélection des acheteurs publics.",
+    "order": 26
+  },
+  {
+    "slug": "comment-construire-une-offre-de-vae",
+    "title": "Comment construire une offre de VAE",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "VAE",
+      "certification",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Construire une offre de VAE suppose de se positionner comme accompagnateur de parcours sur des certifications visées, dans le cadre réformé par la loi du 21 décembre 2022 et son service public port...",
+    "metaDescription": "Construire une offre de VAE suppose de se positionner comme accompagnateur de parcours sur des certifications visées, dans le cadre réformé par la loi du 21 décembre 2022 et son service public porté par le portail France VAE.",
+    "order": 27
+  },
+  {
+    "slug": "comment-gerer-les-evaluations-a-froid-et-prouver-l-impact-pedagogique",
+    "title": "Comment gérer les évaluations à froid et prouver l'impact pédagogique",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "VR",
+      "audit",
+      "formation"
+    ],
+    "shortDescription": "Gérer les évaluations à froid consiste à recueillir, à distance de la formation, le retour des bénéficiaires sur le transfert effectif des acquis en situation de travail, puis à exploiter ces donné...",
+    "metaDescription": "Gérer les évaluations à froid consiste à recueillir, à distance de la formation, le retour des bénéficiaires sur le transfert effectif des acquis en situation de travail, puis à exploiter ces données pour améliorer les programmes et prouver l'impact.",
+    "order": 28
+  },
+  {
+    "slug": "comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi",
+    "title": "Comment préparer et réussir un audit de renouvellement Qualiopi",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "CFA",
+      "IA",
+      "Qualiopi",
+      "VR",
+      "audit",
+      "certification",
+      "conformité"
+    ],
+    "shortDescription": "Réussir un audit de renouvellement Qualiopi suppose d'avoir entretenu son système qualité tout au long du cycle de certification, pas seulement de préparer le dossier à l'approche de l'échéance.",
+    "metaDescription": "Réussir un audit de renouvellement Qualiopi suppose d'avoir entretenu son système qualité tout au long du cycle de certification, pas seulement de préparer le dossier à l'approche de l'échéance.",
+    "order": 29
+  },
+  {
+    "slug": "comment-developper-une-offre-de-formation-a-l-international",
+    "title": "Comment développer une offre de formation à l'international",
+    "cible": "Organismes de formation",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "certification",
+      "conformité",
+      "coût",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Développer une offre de formation à l'international suppose de traiter trois questions : la reconnaissance des certifications françaises à l'étranger, l'adaptation interculturelle des contenus, et ...",
+    "metaDescription": "Développer une offre de formation à l'international suppose de traiter trois questions : la reconnaissance des certifications françaises à l'étranger, l'adaptation interculturelle des contenus, et le modèle de déploiement, direct ou en partenariat local.",
+    "order": 30
+  },
+  {
+    "slug": "comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme",
+    "title": "Comment financer la formation de mes salariés sans tout payer moi-même",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "OPCO",
+      "Pro-A",
+      "alternance",
+      "coût",
+      "financement",
+      "formation",
+      "reconversion"
+    ],
+    "shortDescription": "Financer la formation de ses salariés sans en supporter seul le coût passe par la mobilisation des fonds mutualisés et des dispositifs adaptés à chaque situation : l'OPCO de branche pour le plan de...",
+    "metaDescription": "Financer la formation de ses salariés sans en supporter seul le coût passe par la mobilisation des fonds mutualisés et des dispositifs adaptés à chaque situation : l'OPCO de branche pour le plan de développement des compétences, le CPF abondé par l'employeur, le FNE-formation en cas de difficultés économiques, la Pro-A pour les reconversions internes, et les aides régionales.",
+    "order": 31
+  },
+  {
+    "slug": "comment-construire-un-plan-de-developpement-des-competences-efficace",
+    "title": "Comment construire un plan de développement des compétences efficace",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Un plan de développement des compétences efficace relie la stratégie de l'entreprise aux compétences à développer, à travers quatre étapes : recueil des besoins individuels et collectifs, priorisat...",
+    "metaDescription": "Un plan de développement des compétences efficace relie la stratégie de l'entreprise aux compétences à développer, à travers quatre étapes : recueil des besoins individuels et collectifs, priorisation, arbitrage budgétaire et financier, puis pilotage par des indicateurs.",
+    "order": 32
+  },
+  {
+    "slug": "comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise",
+    "title": "Comment choisir un organisme de formation sérieux pour mon entreprise",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "Qualiopi",
+      "VR",
+      "certification",
+      "coût",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Choisir un organisme de formation sérieux repose sur quelques critères vérifiables : la certification Qualiopi, des références clients dans des contextes comparables, la qualité pédagogique et l'ex...",
+    "metaDescription": "Choisir un organisme de formation sérieux repose sur quelques critères vérifiables : la certification Qualiopi, des références clients dans des contextes comparables, la qualité pédagogique et l'expertise des formateurs, la capacité à personnaliser l'offre, et un engagement sur les résultats au-delà de la simple animation.",
+    "order": 33
+  },
+  {
+    "slug": "comment-mettre-en-place-une-politique-de-formation-dans-ma-pme",
+    "title": "Comment mettre en place une politique de formation dans ma PME",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "OPCO",
+      "VR",
+      "conformité",
+      "coût",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Mettre en place une politique de formation dans une PME sans direction des ressources humaines dédiée consiste à partir des priorités stratégiques, à définir un budget réaliste appuyé sur les finan...",
+    "metaDescription": "Mettre en place une politique de formation dans une PME sans direction des ressources humaines dédiée consiste à partir des priorités stratégiques, à définir un budget réaliste appuyé sur les financements OPCO, et à instaurer quelques routines simples : entretiens professionnels, recueil des besoins, suivi des actions.",
+    "order": 34
+  },
+  {
+    "slug": "comment-gerer-les-entretiens-professionnels-obligatoires-tous-les-2-ans",
+    "title": "Comment gérer les entretiens professionnels obligatoires tous les 2 ans",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "entretien professionnel",
+      "formation"
+    ],
+    "shortDescription": "L'entretien professionnel est une obligation légale issue de la loi de 2014, codifiée à l'article L6315-1 du code du travail : l'employeur doit l'organiser au moins tous les deux ans avec chaque sa...",
+    "metaDescription": "L'entretien professionnel est une obligation légale issue de la loi de 2014, codifiée à l'article L6315-1 du code du travail : l'employeur doit l'organiser au moins tous les deux ans avec chaque salarié, tous contrats confondus, et réaliser un état des lieux récapitulatif tous les six ans.",
+    "order": 35
+  },
+  {
+    "slug": "comment-utiliser-le-cpf-de-mes-salaries-pour-financer-des-formations-utiles-a-l-entreprise",
+    "title": "Comment utiliser le CPF de mes salariés pour financer des formations utiles à l'entreprise",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Mobiliser le CPF des salariés au service de l'entreprise passe par l'abondement : l'employeur complète les droits CPF du salarié pour financer une formation d'intérêt partagé.",
+    "metaDescription": "Mobiliser le CPF des salariés au service de l'entreprise passe par l'abondement : l'employeur complète les droits CPF du salarié pour financer une formation d'intérêt partagé.",
+    "order": 36
+  },
+  {
+    "slug": "comment-former-mes-managers-rapidement-et-avec-impact",
+    "title": "Comment former mes managers rapidement et avec impact",
+    "cible": "Entreprises",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "VR",
+      "apprentissage",
+      "formation"
+    ],
+    "shortDescription": "Former ses managers rapidement et efficacement suppose de privilégier des formats courts et actionnables, ancrés dans des situations de travail réelles, et de prolonger la formation par un accompag...",
+    "metaDescription": "Former ses managers rapidement et efficacement suppose de privilégier des formats courts et actionnables, ancrés dans des situations de travail réelles, et de prolonger la formation par un accompagnement qui soutient le transfert.",
+    "order": 37
+  },
+  {
+    "slug": "comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe",
+    "title": "Comment mesurer l'efficacité d'une formation achetée à un prestataire externe",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Mesurer l'efficacité d'une formation externe suppose de définir les résultats attendus dès la commande, puis d'évaluer à trois niveaux : la satisfaction à chaud, le transfert des compétences en sit...",
+    "metaDescription": "Mesurer l'efficacité d'une formation externe suppose de définir les résultats attendus dès la commande, puis d'évaluer à trois niveaux : la satisfaction à chaud, le transfert des compétences en situation de travail, et l'effet sur les indicateurs métier ou RH.",
+    "order": 38
+  },
+  {
+    "slug": "comment-former-mes-equipes-a-l-intelligence-artificielle-concretement",
+    "title": "Comment former mes équipes à l'intelligence artificielle concrètement",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Former ses équipes à l'intelligence artificielle de façon concrète suppose de partir des usages réels par métier plutôt que des concepts généraux, de former d'abord aux outils que les collaborateur...",
+    "metaDescription": "Former ses équipes à l'intelligence artificielle de façon concrète suppose de partir des usages réels par métier plutôt que des concepts généraux, de former d'abord aux outils que les collaborateurs utiliseront vraiment, et d'accompagner les managers sur la supervision et l'intégration de l'IA dans les processus.",
+    "order": 39
+  },
+  {
+    "slug": "comment-financer-une-reconversion-professionnelle-pour-un-salarie",
+    "title": "Comment financer une reconversion professionnelle pour un salarié",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "Pro-A",
+      "VR",
+      "alternance",
+      "formation",
+      "reconversion"
+    ],
+    "shortDescription": "Financer la reconversion d'un salarié repose sur des dispositifs spécifiques selon que la reconversion s'opère en dehors ou au sein de l'entreprise : le Projet de Transition Professionnelle, via Tr...",
+    "metaDescription": "Financer la reconversion d'un salarié repose sur des dispositifs spécifiques selon que la reconversion s'opère en dehors ou au sein de l'entreprise : le Projet de Transition Professionnelle, via Transitions Pro, pour une reconversion externe avec maintien de rémunération, et la Pro-A pour une reconversion ou une promotion en restant dans l'entreprise.",
+    "order": 40
+  },
+  {
+    "slug": "comment-identifier-les-competences-manquantes-dans-mon-entreprise",
+    "title": "Comment identifier les compétences manquantes dans mon entreprise",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "formation"
+    ],
+    "shortDescription": "Identifier les compétences manquantes consiste à confronter les compétences disponibles aux compétences nécessaires pour atteindre les objectifs présents et futurs, à travers une cartographie des c...",
+    "metaDescription": "Identifier les compétences manquantes consiste à confronter les compétences disponibles aux compétences nécessaires pour atteindre les objectifs présents et futurs, à travers une cartographie des compétences, des référentiels métier et l'analyse des évolutions sectorielles.",
+    "order": 41
+  },
+  {
+    "slug": "comment-mettre-en-place-le-tutorat-interne-comme-outil-de-formation",
+    "title": "Comment mettre en place le tutorat interne comme outil de formation",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "VR",
+      "apprentissage",
+      "certification",
+      "tutorat"
+    ],
+    "shortDescription": "Mettre en place le tutorat interne consiste à organiser la transmission des compétences entre collaborateurs expérimentés et collaborateurs en montée en compétences, en reconnaissant le rôle de tut...",
+    "metaDescription": "Mettre en place le tutorat interne consiste à organiser la transmission des compétences entre collaborateurs expérimentés et collaborateurs en montée en compétences, en reconnaissant le rôle de tuteur, en le formant à transmettre, et en lui dégageant du temps.",
+    "order": 42
+  },
+  {
+    "slug": "comment-former-mes-commerciaux-de-facon-continue-et-mesurable",
+    "title": "Comment former mes commerciaux de façon continue et mesurable",
+    "cible": "Entreprises",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "apprentissage",
+      "e-learning",
+      "formation"
+    ],
+    "shortDescription": "Former des commerciaux de façon continue et mesurable suppose de sortir de la formation ponctuelle pour installer un dispositif permanent : parcours par profil, entraînement régulier, coaching terr...",
+    "metaDescription": "Former des commerciaux de façon continue et mesurable suppose de sortir de la formation ponctuelle pour installer un dispositif permanent : parcours par profil, entraînement régulier, coaching terrain, et tableaux de bord reliant la formation à la performance.",
+    "order": 43
+  },
+  {
+    "slug": "comment-accompagner-un-salarie-vers-une-vae",
+    "title": "Comment accompagner un salarié vers une VAE",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "VAE",
+      "VR",
+      "certification",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Accompagner un salarié vers une Validation des Acquis de l'Expérience consiste, pour l'employeur, à reconnaître l'intérêt mutuel de la démarche, à faciliter son déroulement par du temps et un évent...",
+    "metaDescription": "Accompagner un salarié vers une Validation des Acquis de l'Expérience consiste, pour l'employeur, à reconnaître l'intérêt mutuel de la démarche, à faciliter son déroulement par du temps et un éventuel financement, et à l'inscrire dans une logique de gestion des compétences.",
+    "order": 44
+  },
+  {
+    "slug": "comment-organiser-une-action-de-formation-en-interne-formateur-interne",
+    "title": "Comment organiser une action de formation en interne (formateur interne)",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "Qualiopi",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Organiser une formation en interne avec un formateur issu de l'entreprise suppose de clarifier le statut du formateur interne, de lui dégager du temps et de le reconnaître, et de structurer son int...",
+    "metaDescription": "Organiser une formation en interne avec un formateur issu de l'entreprise suppose de clarifier le statut du formateur interne, de lui dégager du temps et de le reconnaître, et de structurer son intervention avec les mêmes exigences de qualité qu'une formation externe.",
+    "order": 45
+  },
+  {
+    "slug": "comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration",
+    "title": "Comment aborder la formation lors d'un accord GPEC ou d'une restructuration",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "financement",
+      "formation",
+      "reconversion"
+    ],
+    "shortDescription": "Aborder la formation dans le cadre d'une gestion des emplois et des parcours professionnels ou d'une restructuration consiste à la positionner comme un levier d'adaptation des compétences, voire co...",
+    "metaDescription": "Aborder la formation dans le cadre d'une gestion des emplois et des parcours professionnels ou d'une restructuration consiste à la positionner comme un levier d'adaptation des compétences, voire comme une alternative au licenciement.",
+    "order": 46
+  },
+  {
+    "slug": "comment-calculer-le-budget-formation-optimal-pour-mon-entreprise",
+    "title": "Comment calculer le budget formation optimal pour mon entreprise",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "VR",
+      "coût",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Déterminer le budget formation optimal consiste à partir des besoins prioritaires plutôt que d'un pourcentage arbitraire de la masse salariale, à intégrer les financements mobilisables qui réduisen...",
+    "metaDescription": "Déterminer le budget formation optimal consiste à partir des besoins prioritaires plutôt que d'un pourcentage arbitraire de la masse salariale, à intégrer les financements mobilisables qui réduisent le coût net, et à arbitrer entre volume et qualité.",
+    "order": 47
+  },
+  {
+    "slug": "comment-former-des-salaries-en-teletravail-de-facon-engageante",
+    "title": "Comment former des salariés en télétravail de façon engageante",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "formation",
+      "microlearning"
+    ],
+    "shortDescription": "Former des salariés en télétravail de façon engageante suppose d'adapter les formats à la distance, de combiner synchrone et asynchrone selon les objectifs, et de soutenir activement l'engagement p...",
+    "metaDescription": "Former des salariés en télétravail de façon engageante suppose d'adapter les formats à la distance, de combiner synchrone et asynchrone selon les objectifs, et de soutenir activement l'engagement par l'accompagnement et le rythme.",
+    "order": 48
+  },
+  {
+    "slug": "comment-gerer-les-refus-de-formation-d-un-salarie",
+    "title": "Comment gérer les refus de formation d'un salarié",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "VR",
+      "entretien professionnel",
+      "formation"
+    ],
+    "shortDescription": "Gérer le refus de formation d'un salarié suppose de distinguer les formations obligatoires, dont le refus peut être fautif, des formations facultatives, où le refus est en principe légitime, puis d...",
+    "metaDescription": "Gérer le refus de formation d'un salarié suppose de distinguer les formations obligatoires, dont le refus peut être fautif, des formations facultatives, où le refus est en principe légitime, puis de privilégier le dialogue pour comprendre et lever les freins.",
+    "order": 49
+  },
+  {
+    "slug": "comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation",
+    "title": "Comment prouver que mon entreprise respecte ses obligations en matière de formation",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "VR",
+      "conformité",
+      "déclaration",
+      "formation"
+    ],
+    "shortDescription": "Prouver le respect des obligations de formation repose sur la traçabilité : conserver les preuves des entretiens professionnels, des actions de formation suivies, des évolutions des salariés, et te...",
+    "metaDescription": "Prouver le respect des obligations de formation repose sur la traçabilité : conserver les preuves des entretiens professionnels, des actions de formation suivies, des évolutions des salariés, et tenir à jour les déclarations sociales et fiscales liées à la contribution formation.",
+    "order": 50
+  },
+  {
+    "slug": "comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs",
+    "title": "Comment intégrer la formation dans l'onboarding de nouveaux collaborateurs",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation",
+      "onboarding",
+      "tutorat"
+    ],
+    "shortDescription": "Intégrer la formation dans l'onboarding consiste à structurer un parcours d'intégration qui combine apprentissage du métier, de l'entreprise et de sa culture, jalonné d'étapes d'évaluation et soute...",
+    "metaDescription": "Intégrer la formation dans l'onboarding consiste à structurer un parcours d'intégration qui combine apprentissage du métier, de l'entreprise et de sa culture, jalonné d'étapes d'évaluation et soutenu par un tuteur dédié.",
+    "order": 51
+  },
+  {
+    "slug": "comment-developper-une-culture-de-l-apprentissage-continu-dans-mon-entreprise",
+    "title": "Comment développer une culture de l'apprentissage continu dans mon entreprise",
+    "cible": "Entreprises",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "apprentissage",
+      "formation"
+    ],
+    "shortDescription": "Développer une culture de l'apprentissage continu suppose plus qu'un catalogue de formations : un leadership exemplaire, du temps reconnu pour apprendre, la valorisation des compétences acquises et...",
+    "metaDescription": "Développer une culture de l'apprentissage continu suppose plus qu'un catalogue de formations : un leadership exemplaire, du temps reconnu pour apprendre, la valorisation des compétences acquises et des espaces d'échange entre pairs.",
+    "order": 52
+  },
+  {
+    "slug": "comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride",
+    "title": "Comment choisir entre une formation présentielle, distancielle ou hybride",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Choisir entre présentiel, distanciel et hybride dépend des objectifs pédagogiques, du public, des contraintes logistiques et du budget, pas d'une préférence de principe.",
+    "metaDescription": "Choisir entre présentiel, distanciel et hybride dépend des objectifs pédagogiques, du public, des contraintes logistiques et du budget, pas d'une préférence de principe.",
+    "order": 53
+  },
+  {
+    "slug": "comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation",
+    "title": "Comment former mes équipes sur les sujets de compliance et de réglementation",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "conformité",
+      "e-learning",
+      "formation"
+    ],
+    "shortDescription": "Former ses équipes sur la compliance et la réglementation suppose d'identifier les formations obligatoires applicables à l'entreprise, de les déployer de façon traçable, et de conserver les attesta...",
+    "metaDescription": "Former ses équipes sur la compliance et la réglementation suppose d'identifier les formations obligatoires applicables à l'entreprise, de les déployer de façon traçable, et de conserver les attestations qui prouvent leur réalisation.",
+    "order": 54
+  },
+  {
+    "slug": "comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise",
+    "title": "Comment financer la formation d'un salarié qui veut changer de métier en restant dans l'entreprise",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "Pro-A",
+      "VR",
+      "alternance",
+      "certification",
+      "coût",
+      "financement",
+      "formation",
+      "reconversion"
+    ],
+    "shortDescription": "Financer une reconversion interne, c'est-à-dire un changement de métier au sein de la même entreprise, repose principalement sur la Pro-A, la reconversion ou promotion par alternance, complétée par...",
+    "metaDescription": "Financer une reconversion interne, c'est-à-dire un changement de métier au sein de la même entreprise, repose principalement sur la Pro-A, la reconversion ou promotion par alternance, complétée par le plan de développement des compétences et l'abondement du CPF.",
+    "order": 55
+  },
+  {
+    "slug": "comment-choisir-entre-former-en-interne-ou-externaliser-la-formation",
+    "title": "Comment choisir entre former en interne ou externaliser la formation",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Choisir entre formation interne et externalisation repose sur une analyse croisant plusieurs critères : disponibilité de la compétence en interne, coût réel de développement, enjeu de confidentiali...",
+    "metaDescription": "Choisir entre formation interne et externalisation repose sur une analyse croisant plusieurs critères : disponibilité de la compétence en interne, coût réel de développement, enjeu de confidentialité, fréquence du besoin, délai et niveau de qualité attendu.",
+    "order": 56
+  },
+  {
+    "slug": "comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international",
+    "title": "Comment piloter la formation dans un groupe multi-sites ou international",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "conformité",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Piloter la formation dans un groupe multi-sites ou international suppose d'arbitrer entre centralisation et adaptation locale : une plateforme et une politique communes pour la cohérence et l'écono...",
+    "metaDescription": "Piloter la formation dans un groupe multi-sites ou international suppose d'arbitrer entre centralisation et adaptation locale : une plateforme et une politique communes pour la cohérence et l'économie d'échelle, des adaptations locales pour la pertinence et la conformité réglementaire de chaque pays.",
+    "order": 57
+  },
+  {
+    "slug": "comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover",
+    "title": "Comment utiliser la formation pour fidéliser les talents et réduire le turnover",
+    "cible": "Entreprises",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Utiliser la formation comme levier de fidélisation repose sur un constat : les collaborateurs restent davantage dans une organisation qui investit dans leur développement et leur offre des perspect...",
+    "metaDescription": "Utiliser la formation comme levier de fidélisation repose sur un constat : les collaborateurs restent davantage dans une organisation qui investit dans leur développement et leur offre des perspectives.",
+    "order": 58
+  },
+  {
+    "slug": "comment-repondre-a-une-obligation-de-formation-sectorielle-specifique",
+    "title": "Comment répondre à une obligation de formation sectorielle spécifique",
+    "cible": "Entreprises",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "OPCO",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Répondre à une obligation de formation sectorielle consiste à identifier les formations rendues obligatoires par la convention collective ou la réglementation propre à son secteur, à les déployer a...",
+    "metaDescription": "Répondre à une obligation de formation sectorielle consiste à identifier les formations rendues obligatoires par la convention collective ou la réglementation propre à son secteur, à les déployer auprès des salariés concernés, et à conserver les preuves de leur réalisation.",
+    "order": 59
+  },
+  {
+    "slug": "comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel",
+    "title": "Comment négocier un accord de formation avec les représentants du personnel",
+    "cible": "Entreprises",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "IA",
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Négocier un accord de formation avec les représentants du personnel suppose de connaître le rôle du CSE en matière de formation, de préparer une consultation et une négociation fondées sur des donn...",
+    "metaDescription": "Négocier un accord de formation avec les représentants du personnel suppose de connaître le rôle du CSE en matière de formation, de préparer une consultation et une négociation fondées sur des données objectives, et de construire un accord équilibré entre les ambitions de l'entreprise et l'accès des salariés à la formation.",
+    "order": 60
+  },
+  {
+    "slug": "quel-lms-choisir-pour-mon-organisme-de-formation-ou-mon-entreprise",
+    "title": "Quel LMS choisir pour mon organisme de formation ou mon entreprise",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "LMS",
+      "VR",
+      "apprentissage",
+      "audit",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Choisir un LMS, ou système de gestion de l'apprentissage, suppose de partir de ses besoins réels avant de comparer les outils : nature des formations, volume d'apprenants, besoins de reporting, con...",
+    "metaDescription": "Choisir un LMS, ou système de gestion de l'apprentissage, suppose de partir de ses besoins réels avant de comparer les outils : nature des formations, volume d'apprenants, besoins de reporting, contraintes de conformité et d'intégration au système d'information.",
+    "order": 61
+  },
+  {
+    "slug": "comment-creer-des-contenus-e-learning-rapidement-et-a-moindre-cout",
+    "title": "Comment créer des contenus e-learning rapidement et à moindre coût",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "LMS",
+      "coût",
+      "e-learning"
+    ],
+    "shortDescription": "Créer des contenus e-learning rapidement et à moindre coût repose sur trois leviers : partir de gabarits et de structures réutilisables plutôt que de concevoir chaque module de zéro, mobiliser des ...",
+    "metaDescription": "Créer des contenus e-learning rapidement et à moindre coût repose sur trois leviers : partir de gabarits et de structures réutilisables plutôt que de concevoir chaque module de zéro, mobiliser des outils auteurs efficaces, et industrialiser la production grâce à la génération assistée.",
+    "order": 62
+  },
+  {
+    "slug": "comment-l-intelligence-artificielle-transforme-la-formation-professionnelle",
+    "title": "Comment l'intelligence artificielle transforme la formation professionnelle",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "apprentissage",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "L'intelligence artificielle agit sur la formation à trois niveaux : la production de contenu, où elle permet de générer programmes et supports à grande échelle, la personnalisation des parcours, où...",
+    "metaDescription": "L'intelligence artificielle agit sur la formation à trois niveaux : la production de contenu, où elle permet de générer programmes et supports à grande échelle, la personnalisation des parcours, où elle adapte le contenu au profil de chaque apprenant, et l'analyse, où elle exploite les données d'apprentissage pour piloter.",
+    "order": 63
+  },
+  {
+    "slug": "quelles-sont-les-meilleures-plateformes-e-learning-et-comment-les-comparer",
+    "title": "Quelles sont les meilleures plateformes e-learning et comment les comparer",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "LMS",
+      "VR",
+      "conformité",
+      "e-learning",
+      "formation"
+    ],
+    "shortDescription": "Comparer des plateformes e-learning suppose d'abord de clarifier de quel type d'outil on parle, car le marché mélange des objets différents : LMS de diffusion, outils auteurs de création, places de...",
+    "metaDescription": "Comparer des plateformes e-learning suppose d'abord de clarifier de quel type d'outil on parle, car le marché mélange des objets différents : LMS de diffusion, outils auteurs de création, places de marché de contenus, et moteurs de génération.",
+    "order": 64
+  },
+  {
+    "slug": "quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone",
+    "title": "Quel outil de classe virtuelle choisir pour la formation synchrone",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Choisir un outil de classe virtuelle suppose de distinguer un outil de visioconférence générique d'un outil pensé pour la pédagogie synchrone, doté de fonctions d'interaction, de sous-groupes, de p...",
+    "metaDescription": "Choisir un outil de classe virtuelle suppose de distinguer un outil de visioconférence générique d'un outil pensé pour la pédagogie synchrone, doté de fonctions d'interaction, de sous-groupes, de partage et de suivi de participation.",
+    "order": 65
+  },
+  {
+    "slug": "comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne",
+    "title": "Comment améliorer le taux de complétion de mes formations en ligne",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "apprentissage",
+      "e-learning",
+      "formation",
+      "gamification",
+      "microlearning"
+    ],
+    "shortDescription": "Améliorer le taux de complétion des formations en ligne repose sur l'action combinée sur le design pédagogique, l'engagement et l'accompagnement humain.",
+    "metaDescription": "Améliorer le taux de complétion des formations en ligne repose sur l'action combinée sur le design pédagogique, l'engagement et l'accompagnement humain.",
+    "order": 66
+  },
+  {
+    "slug": "qu-est-ce-que-le-microlearning-et-quand-l-utiliser",
+    "title": "Qu'est-ce que le microlearning et quand l'utiliser",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "apprentissage",
+      "formation",
+      "microlearning"
+    ],
+    "shortDescription": "Le microlearning consiste à découper l'apprentissage en unités courtes et ciblées, chacune centrée sur un objectif précis et consommable en quelques minutes.",
+    "metaDescription": "Le microlearning consiste à découper l'apprentissage en unités courtes et ciblées, chacune centrée sur un objectif précis et consommable en quelques minutes.",
+    "order": 67
+  },
+  {
+    "slug": "comment-utiliser-la-gamification-pour-rendre-la-formation-plus-efficace",
+    "title": "Comment utiliser la gamification pour rendre la formation plus efficace",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "apprentissage",
+      "formation",
+      "gamification"
+    ],
+    "shortDescription": "La gamification consiste à appliquer des mécaniques issues du jeu, points, niveaux, défis, badges, classements, à un contexte d'apprentissage pour soutenir l'engagement et la motivation.",
+    "metaDescription": "La gamification consiste à appliquer des mécaniques issues du jeu, points, niveaux, défis, badges, classements, à un contexte d'apprentissage pour soutenir l'engagement et la motivation.",
+    "order": 68
+  },
+  {
+    "slug": "quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation",
+    "title": "Quel outil de gestion de la formation choisir (TMS, SIRH formation)",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "CPF",
+      "LMS",
+      "OPCO",
+      "VR",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Choisir un outil de gestion de la formation, parfois appelé TMS ou module formation du système RH, suppose de distinguer la gestion administrative et logistique de la formation de la diffusion péda...",
+    "metaDescription": "Choisir un outil de gestion de la formation, parfois appelé TMS ou module formation du système RH, suppose de distinguer la gestion administrative et logistique de la formation de la diffusion pédagogique assurée par un LMS.",
+    "order": 69
+  },
+  {
+    "slug": "comment-produire-des-videos-pedagogiques-sans-gros-budget",
+    "title": "Comment produire des vidéos pédagogiques sans gros budget",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "coût",
+      "e-learning"
+    ],
+    "shortDescription": "Produire des vidéos pédagogiques sans gros budget repose sur un principe : la valeur pédagogique d'une vidéo tient à sa conception et à son scénario, pas à sa qualité de production cinématographique.",
+    "metaDescription": "Produire des vidéos pédagogiques sans gros budget repose sur un principe : la valeur pédagogique d'une vidéo tient à sa conception et à son scénario, pas à sa qualité de production cinématographique.",
+    "order": 70
+  },
+  {
+    "slug": "comment-personnaliser-les-parcours-de-formation-grace-aux-donnees",
+    "title": "Comment personnaliser les parcours de formation grâce aux données",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "VR",
+      "apprentissage",
+      "formation"
+    ],
+    "shortDescription": "Personnaliser les parcours grâce aux données consiste à exploiter les informations sur le profil, les acquis et le comportement d'apprentissage de chaque apprenant pour adapter ce qui lui est propo...",
+    "metaDescription": "Personnaliser les parcours grâce aux données consiste à exploiter les informations sur le profil, les acquis et le comportement d'apprentissage de chaque apprenant pour adapter ce qui lui est proposé : niveau, rythme, contenus, modalités.",
+    "order": 71
+  },
+  {
+    "slug": "comment-utiliser-un-chatbot-ou-un-assistant-ia-en-formation",
+    "title": "Comment utiliser un chatbot ou un assistant IA en formation",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "chatbot",
+      "formation"
+    ],
+    "shortDescription": "Utiliser un chatbot ou un assistant IA en formation répond à plusieurs usages : accompagner l'apprenant en répondant à ses questions à tout moment, soutenir la pratique par des mises en situation c...",
+    "metaDescription": "Utiliser un chatbot ou un assistant IA en formation répond à plusieurs usages : accompagner l'apprenant en répondant à ses questions à tout moment, soutenir la pratique par des mises en situation conversationnelles, et décharger les formateurs des sollicitations répétitives.",
+    "order": 72
+  },
+  {
+    "slug": "comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap",
+    "title": "Comment rendre une plateforme de formation accessible aux personnes en situation de handicap",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "RGAA",
+      "VR",
+      "WCAG",
+      "accessibilité",
+      "audit",
+      "conformité",
+      "coût",
+      "formation",
+      "handicap"
+    ],
+    "shortDescription": "Rendre une plateforme et des contenus de formation accessibles repose sur l'application des référentiels d'accessibilité numérique, le RGAA en France et les normes internationales WCAG, dans une dé...",
+    "metaDescription": "Rendre une plateforme et des contenus de formation accessibles repose sur l'application des référentiels d'accessibilité numérique, le RGAA en France et les normes internationales WCAG, dans une démarche pensée dès la conception.",
+    "order": 73
+  },
+  {
+    "slug": "quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5",
+    "title": "Quelles sont les normes techniques de l'e-learning (SCORM, xAPI, cmi5)",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "IA",
+      "VR",
+      "apprentissage",
+      "e-learning",
+      "formation"
+    ],
+    "shortDescription": "Les normes techniques de l'e-learning définissent comment les contenus communiquent avec les plateformes pour assurer leur portabilité et le suivi des apprentissages.",
+    "metaDescription": "Les normes techniques de l'e-learning définissent comment les contenus communiquent avec les plateformes pour assurer leur portabilité et le suivi des apprentissages.",
+    "order": 74
+  },
+  {
+    "slug": "comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics",
+    "title": "Comment mesurer l'impact de la formation grâce au learning analytics",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Apprentissage",
+    "tags": [
+      "apprentissage"
+    ],
+    "shortDescription": "Le learning analytics consiste à collecter et analyser les données d'apprentissage pour comprendre ce qui fonctionne et piloter l'amélioration des dispositifs.",
+    "metaDescription": "Le learning analytics consiste à collecter et analyser les données d'apprentissage pour comprendre ce qui fonctionne et piloter l'amélioration des dispositifs.",
+    "order": 75
+  },
+  {
+    "slug": "comment-vendre-des-formations-en-ligne",
+    "title": "Comment vendre des formations en ligne",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "CPF",
+      "IA",
+      "OPCO",
+      "Qualiopi",
+      "certification",
+      "conformité",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Vendre des formations en ligne suppose de traiter trois questions distinctes : la plateforme de vente et de diffusion, l'acquisition de clients, et la conformité réglementaire si la formation préte...",
+    "metaDescription": "Vendre des formations en ligne suppose de traiter trois questions distinctes : la plateforme de vente et de diffusion, l'acquisition de clients, et la conformité réglementaire si la formation prétend à un financement.",
+    "order": 76
+  },
+  {
+    "slug": "faut-il-developper-une-application-mobile-de-formation",
+    "title": "Faut-il développer une application mobile de formation",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation",
+      "microlearning"
+    ],
+    "shortDescription": "Décider de développer une application mobile de formation suppose de peser l'usage réel attendu contre le coût et la complexité d'une application native.",
+    "metaDescription": "Décider de développer une application mobile de formation suppose de peser l'usage réel attendu contre le coût et la complexité d'une application native.",
+    "order": 77
+  },
+  {
+    "slug": "comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant",
+    "title": "Comment intégrer une plateforme de formation à mon SIRH existant",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Intégrer une plateforme de formation au système d'information des ressources humaines vise à éviter les doubles saisies et à faire circuler les données entre la gestion RH et la formation : synchro...",
+    "metaDescription": "Intégrer une plateforme de formation au système d'information des ressources humaines vise à éviter les doubles saisies et à faire circuler les données entre la gestion RH et la formation : synchronisation des collaborateurs, remontée des formations suivies, consolidation du reporting.",
+    "order": 78
+  },
+  {
+    "slug": "comment-proteger-et-monetiser-mes-contenus-de-formation-contre-le-piratage",
+    "title": "Comment protéger et monétiser mes contenus de formation contre le piratage",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "certification",
+      "formation"
+    ],
+    "shortDescription": "Protéger et monétiser ses contenus de formation suppose de combiner des mesures techniques, contrôle d'accès et restrictions, des mesures juridiques, droit d'auteur et conditions d'utilisation, et ...",
+    "metaDescription": "Protéger et monétiser ses contenus de formation suppose de combiner des mesures techniques, contrôle d'accès et restrictions, des mesures juridiques, droit d'auteur et conditions d'utilisation, et un modèle économique qui réduit l'intérêt du piratage.",
+    "order": 79
+  },
+  {
+    "slug": "comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices",
+    "title": "Comment utiliser l'IA générative pour créer des quiz et des exercices",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA"
+    ],
+    "shortDescription": "Utiliser l'IA générative pour créer des quiz et des exercices permet de produire rapidement et à grande échelle des évaluations variées à partir d'un contenu ou d'objectifs pédagogiques.",
+    "metaDescription": "Utiliser l'IA générative pour créer des quiz et des exercices permet de produire rapidement et à grande échelle des évaluations variées à partir d'un contenu ou d'objectifs pédagogiques.",
+    "order": 80
+  },
+  {
+    "slug": "quelles-sont-les-edtech-francaises-prometteuses-et-comment-les-evaluer",
+    "title": "Quelles sont les EdTech françaises prometteuses et comment les évaluer",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "EdTech",
+      "IA",
+      "VR",
+      "certification",
+      "conformité",
+      "financement",
+      "formation"
+    ],
+    "shortDescription": "Plutôt qu'une liste figée d'acteurs, qui vieillit vite, évaluer les EdTech françaises suppose une grille de lecture stable : la nature réelle du produit, diffusion, création, gestion ou génération,...",
+    "metaDescription": "Plutôt qu'une liste figée d'acteurs, qui vieillit vite, évaluer les EdTech françaises suppose une grille de lecture stable : la nature réelle du produit, diffusion, création, gestion ou génération, le problème qu'il résout, son modèle économique, sa conformité au cadre français de la formation, et sa pérennité.",
+    "order": 81
+  },
+  {
+    "slug": "comment-mettre-en-place-une-strategie-de-blended-learning-reussie",
+    "title": "Comment mettre en place une stratégie de blended learning réussie",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "blended",
+      "formation"
+    ],
+    "shortDescription": "Le blended learning, ou formation mixte, combine présentiel et distanciel pour tirer parti des forces de chaque modalité.",
+    "metaDescription": "Le blended learning, ou formation mixte, combine présentiel et distanciel pour tirer parti des forces de chaque modalité.",
+    "order": 82
+  },
+  {
+    "slug": "quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation",
+    "title": "Quand la réalité virtuelle (VR) est-elle pertinente en formation",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "La réalité virtuelle est pertinente en formation lorsqu'elle apporte ce qu'aucune autre modalité ne permet : l'immersion dans une situation difficile, dangereuse, coûteuse ou impossible à reproduir...",
+    "metaDescription": "La réalité virtuelle est pertinente en formation lorsqu'elle apporte ce qu'aucune autre modalité ne permet : l'immersion dans une situation difficile, dangereuse, coûteuse ou impossible à reproduire en réel.",
+    "order": 83
+  },
+  {
+    "slug": "comment-exploiter-les-donnees-de-mon-lms-pour-ameliorer-mes-formations",
+    "title": "Comment exploiter les données de mon LMS pour améliorer mes formations",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "LMS",
+      "Qualiopi",
+      "VR",
+      "formation"
+    ],
+    "shortDescription": "Exploiter les données d'un LMS pour améliorer les formations consiste à transformer les informations de suivi, inscriptions, progression, résultats, points de décrochage, en décisions concrètes d'a...",
+    "metaDescription": "Exploiter les données d'un LMS pour améliorer les formations consiste à transformer les informations de suivi, inscriptions, progression, résultats, points de décrochage, en décisions concrètes d'amélioration des contenus et des parcours.",
+    "order": 84
+  },
+  {
+    "slug": "comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre",
+    "title": "Comment migrer d'un LMS vers un autre sans tout perdre",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Certification",
+    "tags": [
+      "IA",
+      "LMS",
+      "VR",
+      "audit",
+      "formation"
+    ],
+    "shortDescription": "Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour prés...",
+    "metaDescription": "Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour préserver la portabilité.",
+    "order": 85
+  },
+  {
+    "slug": "comment-decider-entre-developper-ma-propre-plateforme-ou-en-acheter-une",
+    "title": "Comment décider entre développer ma propre plateforme ou en acheter une",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "VR",
+      "conformité",
+      "coût"
+    ],
+    "shortDescription": "Décider entre développer sa propre plateforme et acheter une solution existante repose sur l'arbitrage classique entre construire et acquérir : le sur-mesure offre un contrôle total et une adaptati...",
+    "metaDescription": "Décider entre développer sa propre plateforme et acheter une solution existante repose sur l'arbitrage classique entre construire et acquérir : le sur-mesure offre un contrôle total et une adaptation parfaite au besoin, mais à un coût et un risque élevés ; l'achat offre rapidité et coût maîtrisé, au prix d'une adaptation aux contraintes de l'outil.",
+    "order": 86
+  },
+  {
+    "slug": "comment-integrer-un-catalogue-de-contenus-tiers-dans-mon-dispositif-de-formation",
+    "title": "Comment intégrer un catalogue de contenus tiers dans mon dispositif de formation",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "IA",
+      "VR",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Intégrer un catalogue de contenus tiers, comme une bibliothèque de cours en ligne d'un éditeur, consiste à compléter son offre par des contenus produits par d'autres, sur des sujets génériques ou t...",
+    "metaDescription": "Intégrer un catalogue de contenus tiers, comme une bibliothèque de cours en ligne d'un éditeur, consiste à compléter son offre par des contenus produits par d'autres, sur des sujets génériques ou transverses.",
+    "order": 87
+  },
+  {
+    "slug": "comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise",
+    "title": "Comment intégrer un catalogue tiers comme LinkedIn Learning en entreprise",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "LMS",
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation"
+    ],
+    "shortDescription": "Intégrer un catalogue d'apprentissage tiers en entreprise, du type de ceux proposés par les grands éditeurs de cours en ligne, suppose de définir son usage, de l'articuler avec le dispositif exista...",
+    "metaDescription": "Intégrer un catalogue d'apprentissage tiers en entreprise, du type de ceux proposés par les grands éditeurs de cours en ligne, suppose de définir son usage, de l'articuler avec le dispositif existant, et de piloter son adoption pour qu'il ne reste pas un abonnement sous-utilisé.",
+    "order": 88
+  },
+  {
+    "slug": "quand-utiliser-des-outils-no-code-pour-creer-ses-formations",
+    "title": "Quand utiliser des outils no-code pour créer ses formations",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Financement",
+    "tags": [
+      "VR",
+      "apprentissage",
+      "coût",
+      "formation",
+      "no-code"
+    ],
+    "shortDescription": "Les outils no-code permettent de créer des contenus et des dispositifs de formation sans compétence technique de développement, par des interfaces visuelles.",
+    "metaDescription": "Les outils no-code permettent de créer des contenus et des dispositifs de formation sans compétence technique de développement, par des interfaces visuelles.",
+    "order": 89
+  },
+  {
+    "slug": "comment-preparer-son-organisation-a-l-arrivee-de-l-ia-dans-les-outils-de-formation",
+    "title": "Comment préparer son organisation à l'arrivée de l'IA dans les outils de formation",
+    "cible": "EdTech, plateformes et outils numériques",
+    "thematique": "Pédagogie",
+    "tags": [
+      "IA",
+      "accessibilité",
+      "conformité",
+      "formation"
+    ],
+    "shortDescription": "Préparer son organisation à l'arrivée de l'IA dans les outils de formation suppose d'anticiper trois dimensions : la montée en compétences des équipes formation sur ces outils, la révision des proc...",
+    "metaDescription": "Préparer son organisation à l'arrivée de l'IA dans les outils de formation suppose d'anticiper trois dimensions : la montée en compétences des équipes formation sur ces outils, la révision des processus de production et de pilotage, et la gouvernance, qualité, données, conformité.",
+    "order": 90
   }
 ]
