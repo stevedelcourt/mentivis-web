@@ -92,7 +92,7 @@ export default function ParallaxHero() {
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
         </div>
-        <div style={{ display: "flex", gap: `${GAP}px`, width: "max-content", marginTop: `-${GAP}px` }}>
+        <div className="m-front-track" style={{ display: "flex", gap: `${GAP}px`, width: "max-content" }}>
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
@@ -103,8 +103,10 @@ export default function ParallaxHero() {
         dangerouslySetInnerHTML={{
           __html: `
             :root { --parallax-img-h: 25vh; }
+            .m-front-track { transform: translateY(-300px); }
             @media (max-width: 768px) {
               :root { --parallax-img-h: 18vh; }
+              .m-front-track { transform: translateY(-136px); }
             }
           `,
         }}
