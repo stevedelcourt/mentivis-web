@@ -21,13 +21,13 @@ interface Props {
 }
 
 export default function ReferentielDetailClient({ article, lang }: Props) {
-  const { get } = useSearchParamsClient();
+  const { get, ready } = useSearchParamsClient();
   const [navKey, setNavKey] = useState(0);
 
-  const activeCible = get("cible");
-  const activeThematique = get("thematique");
-  const activeTag = get("tag");
-  const [query, setQuery] = useState(get("q"));
+  const activeCible = ready ? get("cible") : "";
+  const activeThematique = ready ? get("thematique") : "";
+  const activeTag = ready ? get("tag") : "";
+  const [query, setQuery] = useState("");
 
   const cibles = getCibles();
   const thematiques = getThematiques();
