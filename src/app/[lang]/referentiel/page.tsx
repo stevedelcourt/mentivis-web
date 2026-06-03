@@ -27,7 +27,7 @@ export default function Page({ params }: { params: Promise<{ lang: string }> }) 
           { name: "Le Référentiel" },
         ]}
       />
-      <Suspense fallback={<div style={{ padding: "80px 0", textAlign: "center" }}>Chargement...</div>}>
+      <Suspense fallback={<main style={{ padding: "80px 0", textAlign: "center" }}>Chargement...</main>}>
         <ReferentielClient />
       </Suspense>
     </>

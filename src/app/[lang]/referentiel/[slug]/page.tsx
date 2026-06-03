@@ -58,7 +58,7 @@ export default async function ReferentielDetailPage({
           { name: article.title },
         ]}
       />
-      <Suspense fallback={<div style={{ padding: "80px 0", textAlign: "center" }}>Chargement...</div>}>
+      <Suspense fallback={<main style={{ padding: "80px 0", textAlign: "center" }}>Chargement...</main>}>
         <ReferentielDetailClient article={article} lang={lang} />
       </Suspense>
     </>
