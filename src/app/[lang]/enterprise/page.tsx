@@ -17,6 +17,22 @@ export async function generateMetadata({
     description: isFr
       ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
       : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+    openGraph: {
+      title: isFr ? "Conseil en formation entreprise" : "Enterprise training consulting",
+      description: isFr
+        ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
+        : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+      url: `${SITE.baseUrl}/${lang}/enterprise/`,
+      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: isFr ? "Conseil en formation entreprise" : "Enterprise training consulting",
+      description: isFr
+        ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
+        : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+      images: [`${SITE.baseUrl}/opengraph-image.jpg`],
+    },
     ...localeAlternates(lang, "/enterprise"),
   };
 }

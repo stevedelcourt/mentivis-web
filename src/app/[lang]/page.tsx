@@ -4,6 +4,10 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import HomeClient from "./HomeClient";
 import { SITE } from "@/lib/config";
+import fr from "@/messages/fr.json";
+import en from "@/messages/en.json";
+
+const ALL_MESSAGES = { fr, en } as const;
 
 export async function generateMetadata({
   params,
@@ -85,6 +89,18 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
           },
           sameAs: [SITE.linkedin, SITE.instagram],
         },
+        (() => {
+          const m = ALL_MESSAGES.fr;
+          return {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: m.home.faq.items.map((item: { question: string; answer: string }) => ({
+              "@type": "Question",
+              name: item.question,
+              acceptedAnswer: { "@type": "Answer", text: item.answer },
+            })),
+          };
+        })(),
       ]} />
       <BreadcrumbJsonLd items={[
         { name: "Accueil", url: "https://mentivis.com/fr/" }

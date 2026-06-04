@@ -33,7 +33,7 @@ export async function generateMetadata({
   const desc = lang === "fr" ? article.excerptFr : article.excerptEn || article.excerptFr;
 
   return {
-    title: `${title} | Insights — Mentivis`,
+    title: `${title} — Mentivis`,
     description: desc,
     keywords: article.keywords,
     openGraph: {
@@ -42,6 +42,12 @@ export async function generateMetadata({
       images: article.heroImage,
       type: "article",
       locale: lang === "fr" ? "fr_FR" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: desc,
+      images: [article.heroImage],
     },
     ...localeAlternates(lang, `/insights/${slug}`),
   };

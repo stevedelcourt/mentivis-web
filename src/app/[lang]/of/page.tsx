@@ -17,6 +17,22 @@ export async function generateMetadata({
     description: isFr
       ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
       : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
+    openGraph: {
+      title: isFr ? "Conseil organismes de formation" : "Training organization consulting",
+      description: isFr
+        ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
+        : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
+      url: `${SITE.baseUrl}/${lang}/of/`,
+      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: isFr ? "Conseil organismes de formation" : "Training organization consulting",
+      description: isFr
+        ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
+        : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
+      images: [`${SITE.baseUrl}/opengraph-image.jpg`],
+    },
     ...localeAlternates(lang, "/of"),
   };
 }
