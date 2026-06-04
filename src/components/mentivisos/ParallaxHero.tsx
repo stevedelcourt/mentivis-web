@@ -111,8 +111,8 @@ export default function ParallaxHero() {
         dangerouslySetInnerHTML={{
           __html: `
             :root { --parallax-img-h: 25vh; }
-            .parallax-back { animation: scrollBack 40s linear infinite; will-change: transform; }
-            .parallax-front { animation: scrollFront 25s linear infinite; will-change: transform; }
+            .parallax-back { animation: scrollBack 80s linear infinite; will-change: transform; }
+            .parallax-front { animation: scrollFront 50s linear infinite; will-change: transform; }
             @keyframes scrollBack {
               0% { transform: translateX(0); }
               100% { transform: translateX(-50%); }
@@ -123,7 +123,7 @@ export default function ParallaxHero() {
             }
             @media (max-width: 768px) {
               :root { --parallax-img-h: 18vh; }
-              .parallax-front { animation: scrollFrontMobile 25s linear infinite; }
+              .parallax-front { animation: scrollFrontMobile 50s linear infinite; }
               @keyframes scrollFrontMobile {
                 0% { transform: translateY(-136px) translateX(0); }
                 100% { transform: translateY(-136px) translateX(-50%); }
