@@ -84,15 +84,23 @@ export default function ParallaxHero() {
         </div>
       </section>
 
-      {/* Static image strip (no parallax animation) */}
+      {/* Animated image strip (CSS parallax, no RAF loop) */}
       <div style={{ width: "100%", overflow: "hidden" }}>
-        <div style={{ display: "flex", gap: `${GAP}px`, width: "max-content" }}>
+        <div className="parallax-back" style={{ display: "flex", gap: `${GAP}px`, width: "max-content" }}>
+          <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-back.webp" alt="" draggable={false} style={sharedImg} />
         </div>
-        <div className="m-front-track" style={{ display: "flex", gap: `${GAP}px`, width: "max-content" }}>
+        <div className="parallax-front" style={{ display: "flex", gap: `${GAP}px`, width: "max-content" }}>
+          <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
+          <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
           <img src="/images/mentivisos/proportions-front.webp" alt="" draggable={false} style={sharedImg} />
@@ -103,10 +111,23 @@ export default function ParallaxHero() {
         dangerouslySetInnerHTML={{
           __html: `
             :root { --parallax-img-h: 25vh; }
-            .m-front-track { transform: translateY(-300px); }
+            .parallax-back { animation: scrollBack 40s linear infinite; will-change: transform; }
+            .parallax-front { animation: scrollFront 25s linear infinite; will-change: transform; }
+            @keyframes scrollBack {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+            @keyframes scrollFront {
+              0% { transform: translateY(-300px) translateX(0); }
+              100% { transform: translateY(-300px) translateX(-50%); }
+            }
             @media (max-width: 768px) {
               :root { --parallax-img-h: 18vh; }
-              .m-front-track { transform: translateY(-136px); }
+              .parallax-front { animation: scrollFrontMobile 25s linear infinite; }
+              @keyframes scrollFrontMobile {
+                0% { transform: translateY(-136px) translateX(0); }
+                100% { transform: translateY(-136px) translateX(-50%); }
+              }
             }
           `,
         }}
