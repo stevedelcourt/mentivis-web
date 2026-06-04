@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb50,Utiliser l'IA générative pour créer des quiz et des exercices permet de produire rapidement et à grande échelle des évaluations variées à partir d'un contenu ou d'objectifs pédagogiques. L'intérêt est le gain de temps et la capacité à générer de nombreuses variantes, utiles contre la triche et pour la personnalisation. La condition de qualité est l'encadrement : une évaluation générée doit être alignée sur des objectifs, vérifiée, et conçue pour mesurer réellement une compétence, pas seulement pour exister. La génération accélère, elle ne dispense pas de l'ingénierie pédagogique.
+
+## Le gain de la génération
+
+Concevoir manuellement des quiz et exercices de qualité est long. L'IA générative produit, à partir d'un contenu ou d'objectifs, des questions, des cas et des variantes en grand nombre et en peu de temps. Cette capacité permet de doter chaque module d'évaluations sans y consacrer un effort disproportionné, de varier les questions pour limiter la triche, et de générer des versions adaptées à différents niveaux.
+
+## Aligner et vérifier
+
+La rapidité ne garantit pas la qualité pédagogique. Une bonne évaluation mesure une compétence précise, à un niveau cognitif adapté : un quiz qui ne teste que la mémorisation ne mesure pas une capacité d'analyse. Les questions générées doivent donc être alignées sur les objectifs, calibrées en difficulté, et vérifiées pour leur exactitude. L'IA peut produire des questions ambiguës ou des réponses erronées : la relecture humaine reste nécessaire.
+
+## Intégrer dans une logique d'évaluation
+
+Les quiz et exercices générés prennent leur sens dans un dispositif d'évaluation cohérent : positionnement initial, évaluation formative en cours de parcours, évaluation des acquis. La génération facilite la production à chaque étape, mais c'est l'architecture d'évaluation, pensée en amont et alignée sur les compétences visées, qui fait la valeur. L'IA générative est un accélérateur au service de cette architecture, pas un substitut à sa conception.
+
+## Ce qu'il faut retenir
+
+- L'IA générative produit rapidement quiz, exercices et variantes à grande échelle.
+- Les variantes multiples limitent la triche et facilitent la personnalisation.
+- Une bonne évaluation mesure une compétence précise à un niveau adapté.
+- Les questions générées doivent être alignées sur les objectifs et vérifiées.
+- La génération accélère mais ne remplace pas l'architecture d'évaluation.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment utiliser l'IA générative pour créer des quiz et des exercices"}]}],["$","$L3",null,{"article":{"slug":"comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices","title":"Comment utiliser l'IA générative pour créer des quiz et des exercices","cible":"EdTech, plateformes et outils numériques","thematique":"Pédagogie","tags":["IA"],"shortDescription":"Utiliser l'IA générative pour créer des quiz et des exercices permet de produire rapidement et à grande échelle des évaluations variées à partir d'un contenu ou d'objectifs pédagogiques.","metaDescription":"Utiliser l'IA générative pour créer des quiz et des exercices permet de produire rapidement et à grande échelle des évaluations variées à partir d'un contenu ou d'objectifs pédagogiques.","content":"$4","order":80,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

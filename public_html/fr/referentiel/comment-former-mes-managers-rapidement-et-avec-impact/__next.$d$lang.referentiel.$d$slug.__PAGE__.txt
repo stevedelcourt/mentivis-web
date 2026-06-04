@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta37,Former ses managers rapidement et efficacement suppose de privilégier des formats courts et actionnables, ancrés dans des situations de travail réelles, et de prolonger la formation par un accompagnement qui soutient le transfert. Le développement managérial échoue souvent parce qu'il reste théorique et ponctuel. L'impact vient de la combinaison entre un référentiel de compétences managériales clair, des modules ciblés sur des situations concrètes, et une pratique accompagnée dans la durée.
+
+## Cibler les compétences managériales clés
+
+Former des managers sans référentiel revient à disperser l'effort. Un référentiel de compétences managériales, adapté au contexte de l'entreprise, identifie ce qui compte vraiment : conduite d'entretiens, gestion des priorités, feedback, décision, accompagnement du changement. Cibler ces compétences concentre la formation sur l'utile et permet de mesurer la progression.
+
+## Privilégier les formats courts et actionnables
+
+Les managers disposent de peu de temps. Des modules courts, centrés sur une compétence et immédiatement applicables, produisent plus d'effet qu'un séminaire long et générique. Les mises en situation, les jeux de rôle et les cas issus du quotidien de l'entreprise ancrent l'apprentissage. Le format compte autant que le contenu pour des publics contraints en temps.
+
+## Accompagner le transfert dans la durée
+
+Une formation managériale sans suivi se dissout dans le retour au quotidien. Le coaching, les communautés de pairs et un accompagnement post-formation soutiennent le transfert des acquis en pratique réelle. Cet accompagnement, même léger, fait souvent la différence entre une formation oubliée et un changement durable de pratique. C'est là que se joue l'impact mesurable.
+
+## Ce qu'il faut retenir
+
+- Un référentiel de compétences managériales concentre l'effort sur l'utile.
+- Les formats courts et actionnables conviennent à des publics contraints en temps.
+- Les mises en situation et cas concrets ancrent l'apprentissage.
+- L'accompagnement post-formation soutient le transfert dans la durée.
+- L'impact vient de la combinaison référentiel, modules ciblés, pratique accompagnée.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment former mes managers rapidement et avec impact"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-managers-rapidement-et-avec-impact","title":"Comment former mes managers rapidement et avec impact","cible":"Entreprises","thematique":"Apprentissage","tags":["IA","VR","apprentissage","formation"],"shortDescription":"Former ses managers rapidement et efficacement suppose de privilégier des formats courts et actionnables, ancrés dans des situations de travail réelles, et de prolonger la formation par un accompag...","metaDescription":"Former ses managers rapidement et efficacement suppose de privilégier des formats courts et actionnables, ancrés dans des situations de travail réelles, et de prolonger la formation par un accompagnement qui soutient le transfert.","content":"$4","order":37,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

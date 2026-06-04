@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tbb3,Négocier un accord de formation avec les représentants du personnel suppose de connaître le rôle du CSE en matière de formation, de préparer une consultation et une négociation fondées sur des données objectives, et de construire un accord équilibré entre les ambitions de l'entreprise et l'accès des salariés à la formation. Le CSE est consulté sur le plan de développement des compétences, et des accords peuvent organiser l'accès à la formation, l'abondement du CPF ou la mise en oeuvre de dispositifs. La qualité du dialogue social conditionne l'adhésion.
+
+## Le rôle du CSE en matière de formation
+
+Dans les entreprises dotées d'un comité social et économique, celui-ci est consulté sur les orientations stratégiques, dont la formation, et sur le plan de développement des compétences. Cette consultation est une obligation, pas une simple information. Préparer une consultation utile suppose de présenter des données claires : besoins identifiés, plan envisagé, indicateurs de suivi. Un CSE bien informé est un partenaire, pas un obstacle.
+
+## Préparer la négociation sur des données objectives
+
+Une négociation d'accord de formation gagne à s'appuyer sur des faits : état des lieux des compétences, écarts identifiés, indicateurs d'accès à la formation par catégorie de salariés. Ces données objectivent les enjeux et déplacent la discussion du registre des positions vers celui des besoins. Elles permettent aussi de mettre en évidence d'éventuelles inégalités d'accès à corriger, sujet souvent sensible.
+
+## Construire un accord équilibré
+
+Un accord de formation peut organiser de nombreux aspects : politique d'abondement du CPF, accès à la formation des différentes catégories, modalités de mise en oeuvre des dispositifs, engagements de l'entreprise et indicateurs de suivi. Un accord équilibré sert à la fois les ambitions de développement de l'entreprise et l'équité d'accès des salariés. Des indicateurs de suivi partagés permettent d'objectiver l'application de l'accord et de maintenir un dialogue constructif dans la durée.
+
+## Ce qu'il faut retenir
+
+- Le CSE est consulté sur le plan de développement des compétences, ce n'est pas une simple information.
+- Une consultation utile s'appuie sur des données claires : besoins, plan, indicateurs.
+- La négociation gagne à s'appuyer sur un état des lieux objectif des compétences et de l'accès.
+- Un accord peut organiser abondement CPF, accès, dispositifs et engagements.
+- Des indicateurs de suivi partagés maintiennent un dialogue constructif.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment négocier un accord de formation avec les représentants du personnel"}]}],["$","$L3",null,{"article":{"slug":"comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel","title":"Comment négocier un accord de formation avec les représentants du personnel","cible":"Entreprises","thematique":"Financement","tags":["CPF","IA","VR","formation"],"shortDescription":"Négocier un accord de formation avec les représentants du personnel suppose de connaître le rôle du CSE en matière de formation, de préparer une consultation et une négociation fondées sur des donn...","metaDescription":"Négocier un accord de formation avec les représentants du personnel suppose de connaître le rôle du CSE en matière de formation, de préparer une consultation et une négociation fondées sur des données objectives, et de construire un accord équilibré entre les ambitions de l'entreprise et l'accès des salariés à la formation.","content":"$4","order":60,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

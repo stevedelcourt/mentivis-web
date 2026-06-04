@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta3a,## Le cadre et les répertoires
+
+France Compétences gère deux répertoires : le RNCP, pour les certifications attestant d'un métier, et le Répertoire Spécifique, pour des compétences complémentaires. L'enregistrement au RNCP conditionne notamment l'accès à certains financements et au référencement sur Mon Compte Formation pour les formations certifiantes.
+
+## La structure du dossier
+
+L'étude d'opportunité ouvre le dossier. Elle démontre la valeur d'usage de la certification et son adéquation aux besoins du marché de l'emploi, par l'analyse des situations de travail.
+
+Le référentiel d'activités décrit les situations professionnelles visées. Le référentiel de compétences les traduit en compétences évaluables, organisées en blocs cohérents. Le référentiel d'évaluation définit les modalités de vérification de chaque bloc.
+
+La cohérence d'ensemble entre ces référentiels et la qualité des procédures de contrôle des épreuves sont des critères centraux d'examen. L'accès par la VAE doit également être prévu.
+
+## Délais, taux et points de vigilance
+
+Le délai d'instruction est d'environ six mois ; un dépôt anticipé de sept à neuf mois sécurise les échéances. Le taux d'acceptation au RNCP se situe historiquement autour des deux tiers, nettement plus élevé qu'au Répertoire Spécifique. La reproduction littérale d'un référentiel existant entraîne un refus sans examen des critères. Une version actualisée du vademecum de France Compétences encadre les attendus et les procédures.
+
+## Ce qu'il faut retenir
+
+- Le dépôt se fait auprès de France Compétences via sa téléprocédure.
+- Le dossier comprend une étude d'opportunité et trois référentiels : activités, compétences, évaluation.
+- Le délai d'instruction est d'environ six mois.
+- Il est recommandé de déposer sept à neuf mois avant l'échéance.
+- La reproduction littérale d'un référentiel existant entraîne un refus.
+
+---
+
+La construction des référentiels et l'ingénierie de certification mobilisent une compétence rare. Mentivis accompagne les organismes dans la structuration de leur offre certifiante. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+MentivisOS génère les référentiels d'activités, de compétences et d'évaluation alignés, ce qui structure la matière du dossier. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+**À lire aussi :** Comment construire un référentiel de formation de A à Z · Comment créer un programme de formation conforme Qualiopi · Comment construire une offre de VAE.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment monter un dossier de certification RNCP"}]}],["$","$L3",null,{"article":{"slug":"comment-monter-un-dossier-de-certification-rncp","title":"Comment monter un dossier de certification RNCP","cible":"Organismes de formation","thematique":"Certification","tags":["RNCP","France Compétences","certification","référentiel"],"shortDescription":"Monter un dossier d'enregistrement au RNCP suppose de déposer auprès de France Compétences un dossier articulé autour d'une étude d'opportunité et de trois référentiels : activités, compétences, évaluation. Le délai d'instruction est d'environ six mois.","metaDescription":"Monter un dossier de certification RNCP : structure du dossier, étude d'opportunité, trois référentiels, délais et taux d'acceptation. Guide complet pour les organismes certificateurs.","content":"$4","order":7,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

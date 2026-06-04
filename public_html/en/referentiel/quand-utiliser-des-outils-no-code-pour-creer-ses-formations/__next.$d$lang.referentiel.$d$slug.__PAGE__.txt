@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T85b,No-code tools allow training content and programs to be created without development technical expertise, through visual interfaces. They are relevant for empowering pedagogical teams, producing rapidly at lower cost, and prototyping. Their limitations appear for very specific needs, deep integration and very large-scale deployment. No-code is an autonomy accelerator, as long as ease of technical implementation is not confused with quality of pedagogical design, which remains the core of value.
+
+## What no-code delivers
+
+No-code removes the technical barrier. A pedagogical team can create modules, pathways and programs without depending on developers, through visual interfaces. This accelerates production, reduces costs and gives autonomy. No-code also enables rapid prototyping: testing a pedagogical idea before a larger investment. This autonomy is its main benefit.
+
+## The limitations of no-code
+
+No-code shows its limits on certain needs. Very specific features outside the tool's scope remain inaccessible. Deep integration with other systems may be constrained. Very large-scale deployment or particular performance requirements may exceed what the tool allows. No-code covers a wide range of common needs, but not the most demanding or singular cases.
+
+## Not confusing technical with pedagogical
+
+The trap of no-code is believing that technical ease resolves pedagogical difficulty. Creating a module without technical expertise does not dispense with designing quality learning: objectives, progression, aligned assessment. No-code accelerates formatting, not design. The value of training still rests on its pedagogical engineering. No-code is therefore a tool in service of design, not a substitute for pedagogical competency.
+
+## Key takeaways
+
+- No-code allows training to be created without development technical expertise.
+- It empowers teams, accelerates production and facilitates prototyping.
+- Its limitations: very specific needs, deep integration, very large scale.
+- It covers common needs but not the most demanding or singular cases.
+- It accelerates formatting without replacing pedagogical engineering.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"When to use no-code tools for creating training"}]}],["$","$L3",null,{"article":{"slug":"quand-utiliser-des-outils-no-code-pour-creer-ses-formations","lang":"en","title":"When to use no-code tools for creating training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["no-code"],"shortDescription":"No-code tools allow training content and programs to be created without development technical expertise, through visual interfaces.","metaDescription":"No-code tools allow training content and programs to be created without development technical expertise, through visual interfaces.","content":"$4","order":89},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

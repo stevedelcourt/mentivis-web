@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T915,Choosing a reliable training organization rests on a few verifiable criteria: Qualiopi certification, client references in comparable contexts, pedagogical quality and trainer expertise, the ability to customize the offering, and a commitment to results beyond simple delivery. Price is only one criterion among others: a cheap organization that transfers no competency costs more than effective training. Transparency on results indicators is a signal of seriousness.
+
+## Verifying the fundamentals
+
+Qualiopi certification is a prerequisite for funding training through public and pooled circuits, but it attests to a process, not to pedagogical excellence. Beyond that, client references in comparable sectors or problems, and the genuine expertise of trainers, CV, experience, are concrete indicators. Asking to speak with a trainer before contracting is entirely legitimate.
+
+## Evaluating the capacity to customize
+
+A serious organization adapts its offering to the company's context rather than rolling out a standard catalogue. The ability to understand the need, integrate concrete case studies and adjust content distinguishes a partner from a simple supplier. This customization often justifies a higher fee, which pays off through stronger competency transfer.
+
+## Requiring a commitment on results
+
+The strongest signal of seriousness is willingness to commit to measurable results, not just to a service delivered. Transparency on indicators, satisfaction, transfer, impact, and the disposition to measure training effect reflect a results logic. A remuneration model partially aligned with results achieved pushes this logic to its conclusion.
+
+## Key takeaways
+
+- Qualiopi is a financing prerequisite, not a guarantee of pedagogical excellence.
+- References in comparable contexts and trainer expertise matter.
+- The ability to customize distinguishes a partner from a simple supplier.
+- Price alone is a poor criterion: effectiveness matters.
+- Commitment to measurable results is the strongest signal of seriousness.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to choose a reliable training organization for my company"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise","lang":"en","title":"How to choose a reliable training organization for my company","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","Qualiopi","certification"],"shortDescription":"Choosing a reliable training organization rests on a few verifiable criteria: Qualiopi certification, client references in comparable contexts, pedagogical quality and trainer expertise, the abilit...","metaDescription":"Choosing a reliable training organization rests on a few verifiable criteria: Qualiopi certification, client references in comparable contexts, pedagogical quality and trainer expertise, the ability to customize the offering, and a commitment to results beyond simple delivery.","content":"$4","order":33},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

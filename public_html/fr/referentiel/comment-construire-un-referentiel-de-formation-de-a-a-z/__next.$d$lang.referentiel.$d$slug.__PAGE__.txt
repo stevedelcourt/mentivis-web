@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta83,Construire un référentiel de formation consiste à partir de l'analyse des besoins et des situations de travail pour aboutir à un découpage en blocs de compétences, séquencés et associés à des modalités d'évaluation. La démarche enchaîne cinq étapes : analyse du besoin, définition des compétences cibles, structuration en blocs, séquençage pédagogique, alignement sur un référentiel métier ou une certification RNCP. La cohérence entre compétences visées, contenus et évaluations est le critère central de qualité.
+
+## Partir du besoin et des situations de travail
+
+Un référentiel solide ne part pas du contenu disponible mais du besoin réel. L'analyse des situations de travail identifie ce qu'un professionnel doit savoir faire. Cette analyse fonde le référentiel d'activités, qui décrit les situations professionnelles, puis le référentiel de compétences, qui les traduit en capacités évaluables.
+
+## Structurer en blocs de compétences
+
+Le découpage en blocs de compétences est devenu la norme. Chaque bloc regroupe un ensemble cohérent de compétences, évaluable de façon autonome. Cette structuration facilite l'alignement sur le RNCP, la modularisation de l'offre et la VAE partielle. Les blocs doivent être cohérents entre eux et couvrir l'ensemble des activités visées sans redondance ni lacune.
+
+## Séquencer et aligner sur l'évaluation
+
+Le séquençage pédagogique ordonne les apprentissages selon une progression logique, du prérequis à la maîtrise. À chaque compétence correspond une modalité d'évaluation adaptée, définie dans le référentiel d'évaluation. C'est l'alignement entre compétences, contenus et évaluations qui fait la validité du référentiel : une compétence visée mais non évaluée, ou une évaluation sans objectif correspondant, signale une incohérence que repère immédiatement un certificateur ou un auditeur.
+
+## Ce qu'il faut retenir
+
+- Un référentiel part du besoin et des situations de travail, pas du contenu existant.
+- Il enchaîne référentiel d'activités, de compétences puis d'évaluation.
+- Le découpage en blocs de compétences est la norme et facilite RNCP et VAE.
+- Le séquençage ordonne les apprentissages selon une progression logique.
+- La cohérence compétences, contenus, évaluations fonde la validité.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment construire un référentiel de formation de A à Z"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-un-referentiel-de-formation-de-a-a-z","title":"Comment construire un référentiel de formation de A à Z","cible":"Organismes de formation","thematique":"Certification","tags":["IA","RNCP","VAE","VR","apprentissage","audit","certification","formation"],"shortDescription":"Construire un référentiel de formation consiste à partir de l'analyse des besoins et des situations de travail pour aboutir à un découpage en blocs de compétences, séquencés et associés à des modal...","metaDescription":"Construire un référentiel de formation consiste à partir de l'analyse des besoins et des situations de travail pour aboutir à un découpage en blocs de compétences, séquencés et associés à des modalités d'évaluation.","content":"$4","order":11,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

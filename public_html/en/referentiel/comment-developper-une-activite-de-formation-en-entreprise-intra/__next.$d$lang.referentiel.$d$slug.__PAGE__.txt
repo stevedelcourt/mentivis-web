@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T83b,Developing an in-company training activity means offering tailored training delivered within a single organization for its own employees, as opposed to open inter-company sessions welcoming participants from different organizations. Intra training rests on a distinct economic model, built on customization, a negotiated flat-fee rather than per-participant pricing, and an account relationship that favors recurrence. Its success depends on the ability to industrialize customization without destroying profitability.
+
+## Intra and inter: two distinct models
+
+Inter-company training brings together participants from several organizations in a catalogue session at a per-person rate. Intra dedicates a session to a single company, tailored, invoiced at a flat fee. Intra offers more predictable margins and a deeper relationship, but requires customization effort and an account-oriented sales force.
+
+## Building the tailored offer
+
+Intra delivers on customization: adaptation to the company's context, its concrete cases, its vocabulary. This adaptation justifies the fee and differentiates from a standard catalogue. The operational challenge is to industrialize this customization, starting from reusable building blocks that are adapted, rather than reconceiving each intervention from scratch, which would destroy profitability.
+
+## Building loyalty through the account relationship
+
+Intra is sold to accounts, not to individuals. A framework agreement, a single point of contact and results tracking nurture a lasting relationship. Satisfaction on a first intervention opens subsequent intra sessions, making the cost of acquisition far lower than for inter training. Loyalty becomes the principal lever of profitable growth.
+
+## Key takeaways
+
+- Intra is dedicated to one company at a flat fee; inter is open and per-participant.
+- Intra offers more predictable margins but requires customization.
+- Industrializing customization from reusable building blocks protects profitability.
+- Intra is sold to accounts through a lasting relationship.
+- Loyalty is the principal lever of profitable growth.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to develop an in-company (intra) training activity"}]}],["$","$L3",null,{"article":{"slug":"comment-developper-une-activite-de-formation-en-entreprise-intra","lang":"en","title":"How to develop an in-company (intra) training activity","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["IA"],"shortDescription":"Developing an in-company training activity means offering tailored training delivered within a single organization for its own employees, as opposed to open inter-company sessions welcoming partici...","metaDescription":"Developing an in-company training activity means offering tailored training delivered within a single organization for its own employees, as opposed to open inter-company sessions welcoming participants from different organizations.","content":"$4","order":22},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

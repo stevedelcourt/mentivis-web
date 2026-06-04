@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb40,Les normes techniques de l'e-learning définissent comment les contenus communiquent avec les plateformes pour assurer leur portabilité et le suivi des apprentissages. Les trois principales sont SCORM, le standard historique le plus répandu, xAPI, qui élargit le suivi au-delà de la plateforme, et cmi5, qui combine la structure de SCORM et la richesse de xAPI. Comprendre leurs différences évite l'enfermement dans un format et garantit que les contenus produits resteront exploitables sur les plateformes cibles, présentes et futures.
+
+## SCORM, le standard historique
+
+SCORM, apparu à la fin des années 1990, est le standard le plus largement adopté. Il permet de suivre, au sein d'une plateforme, la progression d'un apprenant, son score et son temps passé. Sa force est son universalité : un contenu SCORM fonctionne sur toute plateforme compatible. Sa limite est qu'il ne suit que ce qui se passe à l'intérieur de la plateforme, sans capter les apprentissages informels ou hors plateforme.
+
+## xAPI, le suivi étendu
+
+xAPI, parfois appelé Tin Can, dépasse cette limite en permettant d'enregistrer des expériences d'apprentissage de toute nature, y compris hors plateforme : applications mobiles, simulations, situations de travail, apprentissage social. Il offre une vision plus complète de l'activité d'apprentissage. Sa contrepartie est une grande liberté qui complique l'interopérabilité, faute de cadre structurant commun, et qui nécessite un entrepôt de données d'apprentissage dédié pour exploiter les informations.
+
+## cmi5, la synthèse
+
+cmi5 est un profil de xAPI conçu pour les plateformes traditionnelles. Il combine la structure et le séquençage de SCORM avec la richesse de suivi de xAPI, tout en rétablissant l'interopérabilité que xAPI seul ne garantit pas. Il représente une voie de transition vers des standards modernes sans rupture brutale. Son adoption progresse mais reste plus limitée que celle de SCORM. Le choix dépend du besoin : SCORM pour du classique sur plateforme, xAPI pour le suivi étendu, cmi5 pour combiner structure et richesse.
+
+## Ce qu'il faut retenir
+
+- Les normes assurent la portabilité des contenus et le suivi des apprentissages.
+- SCORM est le standard historique, universel mais limité à la plateforme.
+- xAPI étend le suivi hors plateforme, au prix d'une interopérabilité moins garantie.
+- cmi5 combine la structure de SCORM et la richesse de xAPI.
+- Le choix de la norme dépend du besoin de suivi et des plateformes cibles.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Quelles sont les normes techniques de l'e-learning (SCORM, xAPI, cmi5)"}]}],["$","$L3",null,{"article":{"slug":"quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5","title":"Quelles sont les normes techniques de l'e-learning (SCORM, xAPI, cmi5)","cible":"EdTech, plateformes et outils numériques","thematique":"Apprentissage","tags":["IA","VR","apprentissage","e-learning","formation"],"shortDescription":"Les normes techniques de l'e-learning définissent comment les contenus communiquent avec les plateformes pour assurer leur portabilité et le suivi des apprentissages.","metaDescription":"Les normes techniques de l'e-learning définissent comment les contenus communiquent avec les plateformes pour assurer leur portabilité et le suivi des apprentissages.","content":"$4","order":74,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

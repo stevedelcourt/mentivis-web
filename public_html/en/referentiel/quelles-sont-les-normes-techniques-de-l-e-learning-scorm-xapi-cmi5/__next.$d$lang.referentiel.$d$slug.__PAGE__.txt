@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta43,E-learning technical standards define how content communicates with platforms to ensure portability and tracking of learning. The three main ones are SCORM, the most widely adopted historical standard, xAPI, which extends tracking beyond the platform, and cmi5, which combines the structure of SCORM with the richness of xAPI. Understanding their differences prevents lock-in to a format and ensures that produced content will remain usable on current and future target platforms.
+
+## SCORM, the historical standard
+
+SCORM, which appeared in the late 1990s, is the most widely adopted standard. It tracks, within a platform, a learner's progression, their score and time spent. Its strength is its universality: SCORM content works on any compatible platform. Its limitation is that it only tracks what happens inside the platform, without capturing informal learning or learning outside the platform.
+
+## xAPI, extended tracking
+
+xAPI, sometimes called Tin Can, overcomes this limitation by making it possible to record learning experiences of any kind, including outside the platform: mobile applications, simulations, work situations, social learning. It offers a more complete view of learning activity. Its counterpart is a degree of freedom that complicates interoperability without a structuring common framework, and which requires a dedicated learning data store to exploit the information.
+
+## cmi5, the synthesis
+
+cmi5 is an xAPI profile designed for traditional platforms. It combines the structure and sequencing of SCORM with the tracking richness of xAPI, while restoring the interoperability that xAPI alone does not guarantee. It represents a path toward modern standards without a disruptive break. Its adoption is growing but remains more limited than SCORM's. The choice depends on the need: SCORM for classical platform-based tracking, xAPI for extended tracking, cmi5 to combine structure and richness.
+
+## Key takeaways
+
+- Standards ensure content portability and learning tracking.
+- SCORM is the historical standard, universal but limited to the platform.
+- xAPI extends tracking outside the platform at the cost of less guaranteed interoperability.
+- cmi5 combines SCORM structure and xAPI richness.
+- The standard choice depends on tracking needs and target platforms.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"What are the technical standards for e-learning (SCORM, xAPI, cmi5)"}]}],["$","$L3",null,{"article":{"slug":"quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5","lang":"en","title":"What are the technical standards for e-learning (SCORM, xAPI, cmi5)","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","e-learning","formation"],"shortDescription":"E-learning technical standards define how content communicates with platforms to ensure portability and tracking of learning.","metaDescription":"E-learning technical standards define how content communicates with platforms to ensure portability and tracking of learning.","content":"$4","order":74},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

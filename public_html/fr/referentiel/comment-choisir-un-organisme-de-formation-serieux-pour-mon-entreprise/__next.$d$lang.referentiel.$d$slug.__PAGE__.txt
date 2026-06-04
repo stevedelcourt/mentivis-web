@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta92,Choisir un organisme de formation sérieux repose sur quelques critères vérifiables : la certification Qualiopi, des références clients dans des contextes comparables, la qualité pédagogique et l'expertise des formateurs, la capacité à personnaliser l'offre, et un engagement sur les résultats au-delà de la simple animation. Le tarif n'est qu'un critère parmi d'autres : un organisme bon marché qui ne transfère aucune compétence coûte plus cher qu'une formation efficace. La transparence sur les indicateurs de résultats est un signal de sérieux.
+
+## Vérifier les fondamentaux
+
+La certification Qualiopi est un prérequis pour financer la formation via les circuits publics et mutualisés, mais elle atteste d'un processus, pas d'une excellence pédagogique. Au-delà, les références clients dans des secteurs ou des problématiques proches, et l'expertise réelle des formateurs, CV, expérience, sont des indicateurs concrets. Demander à échanger avec un formateur avant de contractualiser est légitime.
+
+## Évaluer la capacité de personnalisation
+
+Un organisme sérieux adapte son offre au contexte de l'entreprise plutôt que de dérouler un catalogue standard. La capacité à comprendre le besoin, à intégrer des cas concrets et à ajuster le contenu distingue un partenaire d'un simple prestataire. Cette personnalisation justifie souvent un tarif supérieur, qui se rentabilise par un transfert de compétences plus fort.
+
+## Exiger un engagement sur les résultats
+
+Le signal de sérieux le plus fort est l'acceptation de s'engager sur des résultats mesurables, et pas seulement sur une prestation livrée. La transparence sur les indicateurs, satisfaction, transfert, impact, et la disposition à mesurer l'effet de la formation traduisent une logique de résultat. Un modèle de rémunération partiellement aligné sur les résultats obtenus pousse cette logique à son terme.
+
+## Ce qu'il faut retenir
+
+- Qualiopi est un prérequis de financement, pas une garantie d'excellence pédagogique.
+- Les références dans des contextes comparables et l'expertise des formateurs comptent.
+- La capacité à personnaliser distingue un partenaire d'un simple prestataire.
+- Le tarif seul est un mauvais critère : l'efficacité prime.
+- L'engagement sur des résultats mesurables est le signal de sérieux le plus fort.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment choisir un organisme de formation sérieux pour mon entreprise"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise","title":"Comment choisir un organisme de formation sérieux pour mon entreprise","cible":"Entreprises","thematique":"Certification","tags":["IA","Qualiopi","VR","certification","coût","financement","formation"],"shortDescription":"Choisir un organisme de formation sérieux repose sur quelques critères vérifiables : la certification Qualiopi, des références clients dans des contextes comparables, la qualité pédagogique et l'ex...","metaDescription":"Choisir un organisme de formation sérieux repose sur quelques critères vérifiables : la certification Qualiopi, des références clients dans des contextes comparables, la qualité pédagogique et l'expertise des formateurs, la capacité à personnaliser l'offre, et un engagement sur les résultats au-delà de la simple animation.","content":"$4","order":33,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

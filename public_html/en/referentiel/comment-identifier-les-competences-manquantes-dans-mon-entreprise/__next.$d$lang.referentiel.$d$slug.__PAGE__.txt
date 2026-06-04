@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7cf,Identifying skills gaps means confronting available competencies with the competencies needed to reach current and future objectives, through a competency mapping, occupational reference frameworks and analysis of sector trends. The gap between what exists and what is required defines the training need. This approach, often called gap analysis, is the starting point for a relevant skills development plan: without a diagnosis, training responds to requests rather than to real needs.
+
+## Mapping available competencies
+
+The first step is knowing which competencies the company actually holds. Even a simple mapping lists key competencies by function and by person. Professional interviews, evaluations and observation feed this picture. It often reveals competencies that were unknown and critical dependencies on a few individuals.
+
+## Defining required competencies
+
+In parallel, the company defines the competencies needed to achieve its objectives. Occupational reference frameworks, job descriptions and analysis of upcoming projects specify what is required. Anticipating sector trends, technological, regulatory, competitive, adds the competencies that will be lacking tomorrow and that are better prepared today.
+
+## Measuring and prioritizing gaps
+
+The gap between available and required competencies constitutes the need. Not all gaps are equal: some are critical for strategy, others secondary. Prioritization distinguishes what must be addressed without delay from what can wait. This gap diagnosis directs the skills development plan toward the essential and grounds a need-based rather than request-based logic.
+
+## Key takeaways
+
+- The need arises from the gap between available and required competencies.
+- Mapping lists existing competencies by function and by person.
+- Occupational frameworks and sector anticipation define what is required.
+- Prioritization distinguishes critical gaps from secondary ones.
+- Gap diagnosis grounds a need-based rather than request-based logic.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to identify the skills gaps in my company"}]}],["$","$L3",null,{"article":{"slug":"comment-identifier-les-competences-manquantes-dans-mon-entreprise","lang":"en","title":"How to identify the skills gaps in my company","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA"],"shortDescription":"Identifying skills gaps means confronting available competencies with the competencies needed to reach current and future objectives, through a competency mapping, occupational reference frameworks...","metaDescription":"Identifying skills gaps means confronting available competencies with the competencies needed to reach current and future objectives, through a competency mapping, occupational reference frameworks and analysis of sector trends.","content":"$4","order":41},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

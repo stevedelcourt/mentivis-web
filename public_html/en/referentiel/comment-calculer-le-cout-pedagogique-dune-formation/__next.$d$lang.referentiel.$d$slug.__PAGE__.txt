@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7eb,Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sales, overhead), then dividing this total by the number of hours and learners to obtain an hourly cost and a per-learner cost. Pricing is then built by adding a margin to this cost price, taking into account the coverage levels of funders.
+
+## Distinguishing direct and indirect costs
+
+Direct costs are traceable to a specific action: trainer fees or loaded salary, materials design, room rental, platform licenses, travel expenses. Indirect costs cover general operations: administration, sales, pedagogical oversight, permanent premises. An allocation key, often based on hour volume, distributes a share of indirect costs to each action.
+
+## From cost price to pricing
+
+The total cost price divided by hour volume gives the hourly cost. Divided by the number of learners, it gives the per-learner cost, a key indicator for group training where pooling reduces the unit cost.
+
+Pricing adds an operational margin to the cost price. It is also assessed against the market and OPCO coverage levels, which effectively cap the acceptable price for certain actions.
+
+## Managing profitability by module
+
+Tracking cost by module makes it possible to identify profitable actions and those that weigh on the organization. A module with low enrolment may be loss-making despite a high listed price, if direct costs are not covered. Management consists in arbitrating between volume, price and pooling, and deciding whether to maintain, adjust or discontinue an action.
+
+## Key takeaways
+
+- Pedagogical cost adds direct costs and a share of indirect costs.
+- Hourly cost and per-learner cost are the two key indicators.
+- Pricing adds a margin to the cost price, within the limits of the market and coverage levels.
+- Pooling reduces the unit cost of group training.
+- Module-level management reveals which actions are genuinely profitable.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to calculate the pedagogical cost of a training program"}]}],["$","$L3",null,{"article":{"slug":"comment-calculer-le-cout-pedagogique-dune-formation","lang":"en","title":"How to calculate the pedagogical cost of a training program","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","OPCO","management"],"shortDescription":"Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sa...","metaDescription":"Establishing the pedagogical cost of a training program consists in adding up direct costs (trainer remuneration, materials, room rental, platform) and a share of indirect costs (administration, sales, overhead), then dividing this total by the number of hours and learners to obtain an hourly cost and a per-learner cost.","content":"$4","order":8},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9cd,Developing a training offering internationally requires addressing three questions: the recognition of French certifications abroad, the intercultural adaptation of content, and the deployment model, direct or through local partnership. The international market is a growth opportunity, but it cannot be conquered by exporting a France-centric offering unchanged. Success rests on the ability to adapt without distorting, to rely on local intermediaries, and to mobilize dedicated export financing.
+
+## Addressing certification recognition
+
+A certification recognized in France does not automatically carry value elsewhere. Depending on the country and target market, the status of the certification must be clarified: recognition through agreements, equivalences, or positioning as an organization certification with brand value. This question conditions the attractiveness of the offering and must be resolved before deployment, not after.
+
+## Adapting without distorting
+
+Intercultural adaptation goes beyond translation. It touches examples, case studies, references, interaction modalities, sometimes the pedagogy itself. An offering transposed without adaptation loses relevance and credibility. The challenge is to adapt the context while preserving pedagogical coherence and content value. This adaptation work is costly if done manually, which argues for industrialized production from a shared foundation.
+
+## Choosing a deployment model
+
+Direct deployment gives control but requires presence and market knowledge. A partnership with a local organization brings anchorage, network and local regulatory compliance, in exchange for a share of value. Export and international mobility support programs can provide financial backing. The choice depends on ambition, resources and acceptable risk level.
+
+## Key takeaways
+
+- Recognition of French certifications abroad is not automatic and must be clarified upfront.
+- Intercultural adaptation goes beyond translation and touches content and pedagogy.
+- Industrialized adaptation from a shared foundation protects profitability.
+- Direct deployment gives control; local partnership provides anchorage.
+- Export support programs can back the approach financially.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to develop a training offering internationally"}]}],["$","$L3",null,{"article":{"slug":"comment-developper-une-offre-de-formation-a-l-international","lang":"en","title":"How to develop a training offering internationally","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","certification"],"shortDescription":"Developing a training offering internationally requires addressing three questions: the recognition of French certifications abroad, the intercultural adaptation of content, and the deployment mode...","metaDescription":"Developing a training offering internationally requires addressing three questions: the recognition of French certifications abroad, the intercultural adaptation of content, and the deployment model, direct or through local partnership.","content":"$4","order":30},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8ab,Virtual reality is relevant in training when it delivers what no other modality can: immersion in a difficult, dangerous, costly or otherwise irreproducible situation. It excels for the practice of technical actions, simulation of risk situations, and learning through repeated practice without real-world consequences. Outside these use cases, its cost and complexity do not justify it against simpler modalities. VR is a high-impact niche tool for its specific use cases, not a universal modality.
+
+## What VR specifically delivers
+
+The unique value of virtual reality is immersion. It places the learner in a reconstructed situation where they act as in reality, with a physical and emotional engagement that other modalities do not reach. This immersion promotes anchoring of learning, particularly for actions and behaviors, and allows repetition without risk or material cost.
+
+## Relevant use cases
+
+VR is fully justified for practice in dangerous situations, safety, intervention in hazardous environments, where training in reality would expose the learner. It suits costly technical actions to reproduce, manipulation of expensive or rare equipment. It serves the simulation of difficult interpersonal situations, where repetition is possible without real consequences. In these cases, the pedagogical impact and the reduction in risk or cost justify the investment.
+
+## Limitations to acknowledge
+
+Outside its use cases, VR is rarely the right choice. Its production and equipment cost, deployment complexity and logistics make it disproportionate for transmitting knowledge that a standard module would cover. The temptation to adopt VR for its novelty effect leads to costly and poorly useful programs. The right approach starts from the need: if immersion adds nothing decisive, a simpler modality is preferable.
+
+## Key takeaways
+
+- VR delivers an immersion that no other modality achieves.
+- It excels for dangerous situations, costly technical actions and interpersonal simulations.
+- In these cases, impact and risk reduction justify the investment.
+- Outside these cases, its cost and complexity are disproportionate.
+- The approach starts from the need: without value from immersion, prefer simpler.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"When is virtual reality relevant in training"}]}],["$","$L3",null,{"article":{"slug":"quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation","lang":"en","title":"When is virtual reality relevant in training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","VR"],"shortDescription":"Virtual reality is relevant in training when it delivers what no other modality can: immersion in a difficult, dangerous, costly or otherwise irreproducible situation.","metaDescription":"Virtual reality is relevant in training when it delivers what no other modality can: immersion in a difficult, dangerous, costly or otherwise irreproducible situation.","content":"$4","order":83},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

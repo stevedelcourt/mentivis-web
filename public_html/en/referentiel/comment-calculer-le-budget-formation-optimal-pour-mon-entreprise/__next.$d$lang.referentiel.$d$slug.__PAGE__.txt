@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T82b,Determining the optimal training budget means starting from priority needs rather than an arbitrary percentage of payroll, integrating mobilizable financing that reduces the net cost, and arbitrating between volume and quality. There is no universal ratio: the right budget is the one that covers the competencies critical for strategy, optimized by co-financing. Sector benchmarks provide a reference, but the actual need and available financing take precedence.
+
+## Starting from need, not a ratio
+
+Setting a training budget as a fixed percentage of payroll leads either to underinvestment or to spending without impact. The correct starting point is the need: which competencies to develop to achieve objectives. The budget flows from this prioritized need, not the other way around. Sector ratios serve as a coherence reference, not as a rule.
+
+## Integrating financing into the calculation
+
+The net cost of a training plan is often far below its gross cost, thanks to mobilizable financing: OPCO coverage, employer-topped CPF, specific mechanisms. Calculating the budget without integrating these levers leads to overestimating the cost and underinvesting. Financing optimization increases the volume of achievable actions at a constant direct effort, which changes the budget equation.
+
+## Arbitrating between volume and quality
+
+The same budget can finance many superficial training sessions or a few high-impact ones. The arbitration between volume and quality depends on the priorities: some critical competencies justify deep investment, others can be covered by lighter formats. Average cost per trained employee is a management indicator, to be interpreted against the impact sought, not as an end in itself.
+
+## Key takeaways
+
+- The optimal budget starts from the prioritized need, not an arbitrary ratio.
+- Sector benchmarks serve as a reference, not as a rule.
+- The net cost integrates financing and is often far below the gross cost.
+- Financing optimization increases volume at a constant direct effort.
+- The volume versus quality arbitration depends on the impact sought.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to calculate the optimal training budget for my company"}]}],["$","$L3",null,{"article":{"slug":"comment-calculer-le-budget-formation-optimal-pour-mon-entreprise","lang":"en","title":"How to calculate the optimal training budget for my company","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","IA","OPCO","management"],"shortDescription":"Determining the optimal training budget means starting from priority needs rather than an arbitrary percentage of payroll, integrating mobilizable financing that reduces the net cost, and arbitrati...","metaDescription":"Determining the optimal training budget means starting from priority needs rather than an arbitrary percentage of payroll, integrating mobilizable financing that reduces the net cost, and arbitrating between volume and quality.","content":"$4","order":47},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb21,La réalité virtuelle est pertinente en formation lorsqu'elle apporte ce qu'aucune autre modalité ne permet : l'immersion dans une situation difficile, dangereuse, coûteuse ou impossible à reproduire en réel. Elle excelle pour l'entraînement à des gestes techniques, la simulation de situations à risque, et l'apprentissage par la pratique répétée sans conséquence. Hors de ces cas, son coût et sa complexité ne se justifient pas face à des modalités plus simples. La VR est un outil de niche à fort impact sur ses cas d'usage, pas une modalité universelle.
+
+## Ce que la VR apporte de spécifique
+
+La valeur propre de la réalité virtuelle est l'immersion. Elle place l'apprenant dans une situation reconstituée où il agit comme dans le réel, avec un engagement corporel et émotionnel que les autres modalités n'atteignent pas. Cette immersion favorise l'ancrage des apprentissages, en particulier pour des gestes et des comportements, et permet de répéter sans risque ni coût de matière.
+
+## Les cas d'usage pertinents
+
+La VR se justifie pleinement pour l'entraînement à des situations dangereuses, sécurité, intervention en milieu à risque, où s'exercer en réel exposerait. Elle convient aux gestes techniques coûteux à reproduire, manipulation d'équipements onéreux ou rares. Elle sert la simulation de situations relationnelles difficiles, où l'on peut répéter sans conséquence. Dans ces cas, l'impact pédagogique et la réduction des risques ou des coûts justifient l'investissement.
+
+## Les limites à reconnaître
+
+Hors de ses cas d'usage, la VR est rarement le bon choix. Son coût de production et d'équipement, sa complexité de déploiement et sa logistique la rendent disproportionnée pour transmettre des connaissances qu'un module classique couvrirait. La tentation d'adopter la VR pour son effet de nouveauté conduit à des dispositifs coûteux et peu utiles. La bonne démarche part du besoin : si l'immersion n'apporte rien de décisif, une modalité plus simple est préférable.
+
+## Ce qu'il faut retenir
+
+- La VR apporte une immersion qu'aucune autre modalité n'atteint.
+- Elle excelle pour les situations dangereuses, les gestes coûteux et les simulations relationnelles.
+- Sur ces cas, l'impact et la réduction des risques justifient l'investissement.
+- Hors de ces cas, son coût et sa complexité sont disproportionnés.
+- La démarche part du besoin : sans valeur ajoutée de l'immersion, préférer plus simple.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Quand la réalité virtuelle (VR) est-elle pertinente en formation"}]}],["$","$L3",null,{"article":{"slug":"quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation","title":"Quand la réalité virtuelle (VR) est-elle pertinente en formation","cible":"EdTech, plateformes et outils numériques","thematique":"Financement","tags":["VR","apprentissage","coût","formation"],"shortDescription":"La réalité virtuelle est pertinente en formation lorsqu'elle apporte ce qu'aucune autre modalité ne permet : l'immersion dans une situation difficile, dangereuse, coûteuse ou impossible à reproduir...","metaDescription":"La réalité virtuelle est pertinente en formation lorsqu'elle apporte ce qu'aucune autre modalité ne permet : l'immersion dans une situation difficile, dangereuse, coûteuse ou impossible à reproduire en réel.","content":"$4","order":83,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T938,Handling an employee's refusal of training requires distinguishing mandatory training, where refusal may be a disciplinary matter, from optional training, where refusal is in principle legitimate, then favoring dialogue to understand and resolve the reluctance. The legal framework governs what the employer can require. Before any disciplinary consideration, understanding the reason for the refusal, a personal constraint, apprehension, disagreement on relevance, often allows a more effective solution than confrontation.
+
+## Distinguishing mandatory from optional training
+
+Training made mandatory by regulation or necessary for carrying out the job is binding on the employee, and unjustified refusal may constitute a disciplinary matter. Conversely, training falling under skills development without a mandatory character cannot in principle be imposed against the employee's will, especially if it takes place outside working hours. This distinction defines the employer's margin.
+
+## Understanding the reason for the refusal
+
+A refusal almost always has a cause: a personal scheduling constraint, apprehension about the content, a sense of irrelevance, a poor past experience, or disagreement on relevance. Dialogue identifies this cause. Often, addressing the obstacle, adjusting the schedule, reassuring, explaining the benefit, resolves the refusal more effectively than an instruction. The professional interview is a suitable framework for this exchange.
+
+## Connecting to the employer's obligations
+
+The employee's refusal does not extinguish the employer's obligations, in particular the adaptation obligation and the potential triggering of the corrective top-up in cases of failure. The employer therefore has an interest in documenting training offers made and any refusals received, which demonstrates compliance with obligations. This traceability protects the company while keeping the dialogue open.
+
+## Key takeaways
+
+- Refusal of mandatory training may be a disciplinary matter; refusal of optional training is in principle legitimate.
+- Optional training outside working hours cannot be imposed.
+- Understanding the cause of the refusal often resolves it through dialogue.
+- The professional interview is a suitable framework for this exchange.
+- Documenting offers and refusals demonstrates compliance with the employer's obligations.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to handle an employee's refusal of training"}]}],["$","$L3",null,{"article":{"slug":"comment-gerer-les-refus-de-formation-d-un-salarie","lang":"en","title":"How to handle an employee's refusal of training","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA"],"shortDescription":"Handling an employee's refusal of training requires distinguishing mandatory training, where refusal may be a disciplinary matter, from optional training, where refusal is in principle legitimate, ...","metaDescription":"Handling an employee's refusal of training requires distinguishing mandatory training, where refusal may be a disciplinary matter, from optional training, where refusal is in principle legitimate, then favoring dialogue to understand and resolve the reluctance.","content":"$4","order":49},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

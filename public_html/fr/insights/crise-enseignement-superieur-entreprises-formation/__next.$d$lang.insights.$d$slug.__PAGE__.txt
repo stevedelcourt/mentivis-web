@@ -1,0 +1,76 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+3:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T132d,##### Pris à la gorge par la fin de l'eldorado de l'alternance, des milliers d'écoles privées vacillent. Pendant ce temps, des grands groupes créent leurs propres centres de formation. Enquête sur un système éducatif à bout de souffle.
+
+Le constat est sans appel. Dans les couloirs des écoles de commerce et d'ingénieurs privées, la rentrée 2024 a des allures de gueule de bois. « On a perdu 30 % de nos contrats d'alternance en un an », confie sous couvert d'anonymat le directeur d'une école francilienne. « Les entreprises nous disent cash : vos étudiants ne sont pas prêts, on ne paie plus. »
+
+Derrière cette défection, une réalité chiffrée : le système d'apprentissage subventionné, dopé aux aides publiques depuis 2018, est en train de s'effondrer. France Compétences affiche un déficit abyssal de 4,5 milliards d'euros. Les niveaux de prise en charge ont fondu. Et des milliers d'étudiants se retrouvent sans entreprise d'accueil, parfois à quelques semaines de la rentrée.
+
+« C'était écrit », lâche une responsable RH d'un groupe du CAC 40. « Pendant cinq ans, on a vu débarquer des profils totalement déconnectés de nos besoins réels. Des écoles montées en quelques mois par des fonds d'investissement, sans pédagogie, juste pour capter la manne publique. »
+
+## Un business model fondé sur le volume, pas sur la qualité
+
+Le modèle était simple : multiplier les promotions, maximiser les effectifs, toucher les subventions. Les LBO ont afflué dans le secteur. Résultat : une inflation du nombre d'établissements privés, souvent adossés à des groupes d'investissement plus intéressés par les rendements que par l'insertion professionnelle.
+
+« On a créé une bulle », résume un ancien cadre dirigeant d'une école de management. « Le jour où l'État a décidé de couper les robinets, tout s'est grippé. »
+
+Les écoles les plus fragiles sont aujourd'hui au bord du dépôt de bilan. Certaines ferment des campus entiers, d'autres licencient massivement. « La qualité pédagogique devient la variable d'ajustement », regrette un syndicat étudiant.
+
+## « Elles veulent des profils plug-and-play »
+
+Mais dans ce marasme, une autre dynamique émerge, plus discrète. Lassées d'attendre que les écoles s'adaptent, certaines grandes entreprises ont décidé de reprendre la main. Elles créent leurs propres structures de formation, adossées à des diplômes certifiés, mais entièrement contrôlées.
+
+« On ne veut plus dépendre d'un système chaotique », explique un DRH d'une multinationale française. « On a besoin de jeunes formés sur nos outils, nos process, notre culture. Pas de profils généralistes qui mettent six mois à être opérationnels. »
+
+Ces dispositifs hybrides, à mi-chemin entre l'école d'entreprise et le recrutement sur-mesure, se multiplient en silence. Pour les accompagner, des cabinets spécialisés en ingénierie de formation émergent. « Les entreprises cherchent aujourd'hui des solutions efficaces pour former leurs futurs employés. Devant le manque d'adaptation des acteurs de la formation, quoi de plus naturel que d'internaliser leurs propres solutions, adaptées à leurs besoins », analyse un consultant du secteur.
+
+« On ne vend pas de formation, on construit des pipelines de talents », explique Roxan Roumégas, président du directoire du cabinet de conseil Mentivis. « Les apprenants sont immédiatement productifs. Les managers ne jouent plus à la loterie du recrutement. »
+
+Un constat partagé par plusieurs acteurs de l'écosystème RH. « On assiste à une recomposition profonde du marché », observe le directeur d'un organisme de certification. « Les grands groupes ne veulent plus externaliser leur stratégie de formation. Ils la considèrent désormais comme un actif stratégique, au même titre que leur R&D ou leur supply chain. »
+
+## « Ce n'est plus un prestataire qu'ils cherchent, c'est un allié »
+
+Le procédé interpelle. Certains y voient une forme de privatisation rampante de la formation professionnelle. D'autres, une réponse pragmatique à un système défaillant. « Les directeurs des ressources humaines que je croise ne veulent plus un catalogue de formations », résume une consultante en stratégie RH. « Ils veulent un dispositif clé en main qui recrute, forme et fidélise. »
+
+Pour les écoles traditionnelles, le message est brutal : le temps où elles étaient incontournables est révolu. « L'après-crise ne sera pas fait d'établissements hors-sol », prédit un expert du secteur. « Mais de campus intégrés, portés par des entreprises qui ont compris qu'elles devaient devenir leur propre école. »
+
+Pendant ce temps, dans les allées du Salon de l'Étudiant, des milliers de jeunes cherchent encore une alternance. Sans savoir que le système auquel ils se préparent est peut-être déjà en train de disparaître.5:T10d9,##### Choked by the end of the apprenticeship gold rush, thousands of private schools are faltering. Meanwhile, large corporations are creating their own training centers. An investigation into an educational system on its last legs.
+
+The verdict is clear. In the corridors of private business and engineering schools, the 2024 academic year had the look of a hangover. "We've lost 30% of our apprenticeship contracts in a year," confides the director of a Paris-region school, speaking anonymously. "Companies tell us straight up: your students aren't ready, we're not paying anymore."
+
+Behind this defection lies a stark reality: the subsidized apprenticeship system, pumped up by public aid since 2018, is collapsing. France Compétences shows a staggering deficit of 4.5 billion euros. Reimbursement levels have melted away. And thousands of students find themselves without a host company, sometimes just weeks before the start of the school year.
+
+"It was written," says an HR manager at a CAC 40 company. "For five years, we've seen profiles arrive that are completely disconnected from our real needs. Schools set up in a few months by investment funds, with no pedagogy, just to capture public money."
+
+## A Business Model Built on Volume, Not Quality
+
+The model was simple: multiply class sizes, maximize headcount, collect subsidies. LBOs flooded the sector. Result: an inflation in the number of private institutions, often backed by investment groups more interested in returns than in professional integration.
+
+"We've created a bubble," summarizes a former senior executive at a management school. "The day the State decided to turn off the taps, everything seized up."
+
+The most fragile schools are now on the brink of bankruptcy. Some are closing entire campuses, others are laying off staff en masse. "Pedagogical quality is becoming the adjustment variable," laments a student union.
+
+## "They Want Plug-and-Play Profiles"
+
+But amid this chaos, another dynamic is emerging, more quietly. Tired of waiting for schools to adapt, some large companies have decided to take matters into their own hands. They are creating their own training structures, backed by certified diplomas but entirely controlled.
+
+"We no longer want to depend on a chaotic system," explains an HR director at a French multinational. "We need young people trained on our tools, our processes, our culture. Not generalist profiles who take six months to become operational."
+
+These hybrid devices, halfway between corporate academies and bespoke recruitment, are multiplying in silence. To accompany them, specialized training engineering firms are emerging. "Companies are looking for effective solutions to train their future employees. Given the lack of adaptation from training actors, what could be more natural than internalizing their own solutions, tailored to their needs," analyzes a sector consultant.
+
+"We don't sell training, we build talent pipelines," explains Roxan Roumégas, Chairman of the Board at Mentivis consulting firm. "Learners are immediately productive. Managers no longer play the recruitment lottery."
+
+An observation shared by several HR ecosystem players. "We are witnessing a profound recomposition of the market," notes the director of a certification body. "Large groups no longer want to outsource their training strategy. They now consider it a strategic asset, on par with their R&D or supply chain."
+
+## "They're Not Looking for a Provider, They're Looking for an Ally"
+
+The approach raises questions. Some see it as a creeping privatization of vocational training. Others, a pragmatic response to a failing system. "The HR directors I meet no longer want a training catalog," summarizes an HR strategy consultant. "They want a turnkey device that recruits, trains, and retains."
+
+For traditional schools, the message is brutal: the time when they were indispensable is over. "The post-crisis era will not be made of establishments disconnected from reality," predicts a sector expert. "But of integrated campuses, driven by companies that have understood they must become their own school."
+
+Meanwhile, in the aisles of the Student Fair, thousands of young people are still looking for an apprenticeship. Unaware that the system they are preparing for is perhaps already disappearing.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Insights","url":"https://mentivis.com/fr/insights/"},{"name":"Crise de l'enseignement supérieur, la riposte des entreprises"}]}],["$","$L3",null,{"article":{"slug":"crise-enseignement-superieur-entreprises-formation","date":"2025-10-20","category":"news","author":"Jean-Marc Benetti","readTime":"","heroImage":"/images/insights/rh.avif","keywords":"Actualités, Formation, Recrutement, Règlementations","titleFr":"Crise de l'enseignement supérieur, la riposte des entreprises","titleEn":"Higher Education Crisis: The Corporate Response","excerptFr":"Face à la crise de l'enseignement supérieur privé, des entreprises reprennent la main sur la formation et créent leurs propres écoles.","excerptEn":"Faced with the crisis in private higher education, companies are taking back control of training and creating their own schools.","bodyFr":"$4","bodyEn":"$5"}}]],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

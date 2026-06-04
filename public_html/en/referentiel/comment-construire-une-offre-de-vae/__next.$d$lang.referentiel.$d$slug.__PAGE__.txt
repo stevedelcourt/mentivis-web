@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9ef,Building a VAE offering means positioning as a pathway support provider on targeted certifications, within the framework reformed by the act of December 21, 2022 and the public service it created, carried by the France VAE portal. The support provider, now named the pathway support architect, guides the candidate from admissibility to the jury. Financing for support rests primarily on the CPF, under the eligibility rules set by decree, the scope of certifications and modalities having recently evolved.
+
+## The reformed VAE framework
+
+The act of December 21, 2022 created a public VAE service, with the objectives of simplifying the process, securing pathways and modernizing access through a single digital portal, France VAE. The full legal framework for VAE is now concentrated in the labor code. The scope of certifications accessible through France VAE has seen significant adjustments, which makes it essential to verify which certifications are actually open when building the offering.
+
+## The pathway support architect role
+
+The pathway support architect is the key stakeholder in the reform. They accompany the candidate throughout: experience analysis, validation file assembly, jury preparation, and identification of any complementary training actions needed to bridge a competency gap. This structured support secures the pathway and increases the chances of validation.
+
+## Financing and positioning the offering
+
+Financing of support rests primarily on the CPF, whose eligibility for VAE actions is governed by decree. Organizations offering support on Mon Compte Formation must provide specific information, including the targeted certification. Building an offering therefore means linking an open certification, structured support and a clear financing circuit, taking into account ongoing regulatory changes.
+
+## Key takeaways
+
+- VAE is reformed by the act of December 21, 2022 and carried by the France VAE portal.
+- The pathway support architect guides the candidate from admissibility to the jury.
+- The scope of accessible certifications evolves and must be verified.
+- Financing for support rests primarily on the CPF, governed by decree.
+- An offering links an open certification, structured support and clear financing.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to build a VAE offering"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-une-offre-de-vae","lang":"en","title":"How to build a VAE offering","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","IA","VAE","certification","formation"],"shortDescription":"Building a VAE offering means positioning as a pathway support provider on targeted certifications, within the framework reformed by the act of December 21, 2022 and the public service it created, ...","metaDescription":"Building a VAE offering means positioning as a pathway support provider on targeted certifications, within the framework reformed by the act of December 21, 2022 and the public service it created, carried by the France VAE portal.","content":"$4","order":27},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

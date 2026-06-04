@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta40,Organiser une formation en interne avec un formateur issu de l'entreprise suppose de clarifier le statut du formateur interne, de lui dégager du temps et de le reconnaître, et de structurer son intervention avec les mêmes exigences de qualité qu'une formation externe. La formation interne mobilise un savoir propre à l'entreprise, souvent introuvable sur le marché. Sa réussite tient à un cadre clair : un formateur préparé, des supports structurés, et une intégration dans le plan de développement des compétences.
+
+## Clarifier le statut et la reconnaissance
+
+Le formateur interne reste un salarié à qui l'on confie une mission de formation. Clarifier ce statut, le temps qui y est consacré et sa reconnaissance évite que la formation soit perçue comme une charge supplémentaire non valorisée. Cette reconnaissance, symbolique et parfois matérielle, soutient l'engagement et la qualité de l'intervention.
+
+## Préparer et outiller le formateur
+
+Un expert métier n'est pas spontanément formateur. Le préparer à concevoir une séquence, à structurer un déroulé et à animer améliore nettement la qualité. Des supports structurés, objectifs, contenu, modalités d'évaluation, donnent de la consistance à la formation interne et la rapprochent des standards attendus, y compris en termes de preuve si l'entreprise est un organisme certifié.
+
+## Intégrer dans le dispositif global
+
+La formation interne s'inscrit dans le plan de développement des compétences au même titre que les actions externes. Elle se planifie, se trace et s'évalue. Lorsque l'entreprise est elle-même un organisme de formation certifié, la formation interne sous-traitée ou dispensée par ses salariés relève des exigences Qualiopi correspondantes. Cette intégration assure cohérence et conformité.
+
+## Ce qu'il faut retenir
+
+- Le formateur interne reste un salarié à qui l'on confie une mission, à clarifier et reconnaître.
+- Un expert métier doit être préparé à concevoir et animer une formation.
+- Des supports structurés rapprochent la formation interne des standards attendus.
+- La formation interne s'intègre au plan de développement des compétences.
+- Les exigences Qualiopi s'appliquent si l'entreprise est un organisme certifié.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment organiser une action de formation en interne (formateur interne)"}]}],["$","$L3",null,{"article":{"slug":"comment-organiser-une-action-de-formation-en-interne-formateur-interne","title":"Comment organiser une action de formation en interne (formateur interne)","cible":"Entreprises","thematique":"Certification","tags":["Qualiopi","conformité","formation"],"shortDescription":"Organiser une formation en interne avec un formateur issu de l'entreprise suppose de clarifier le statut du formateur interne, de lui dégager du temps et de le reconnaître, et de structurer son int...","metaDescription":"Organiser une formation en interne avec un formateur issu de l'entreprise suppose de clarifier le statut du formateur interne, de lui dégager du temps et de le reconnaître, et de structurer son intervention avec les mêmes exigences de qualité qu'une formation externe.","content":"$4","order":45,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

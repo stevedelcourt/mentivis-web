@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb00,Vendre des formations en ligne suppose de traiter trois questions distinctes : la plateforme de vente et de diffusion, l'acquisition de clients, et la conformité réglementaire si la formation prétend à un financement. Vendre une formation grand public en autonomie n'a pas les mêmes exigences que vendre une formation professionnelle finançable. La réussite tient à l'alignement entre le positionnement, le tunnel de vente et la promesse de valeur, et à ne pas confondre la facilité de mise en ligne avec la facilité de vente.
+
+## Choisir le bon dispositif de vente
+
+Plusieurs modèles existent pour vendre en ligne. Les plateformes de cours en autonomie conviennent à la vente directe à des particuliers. Les places de marché de formation apportent de l'audience contre une commission. Un site propre avec tunnel de vente donne le contrôle mais exige de générer son trafic. Le choix dépend de la cible, du volume visé et de la capacité à acquérir des clients par soi-même.
+
+## Construire l'acquisition
+
+La mise en ligne ne suffit pas à vendre. L'acquisition repose sur la visibilité, référencement, contenu, publicité ciblée, et sur un tunnel de conversion qui transforme l'intérêt en achat. La preuve sociale, témoignages, résultats, et la clarté de la promesse de valeur soutiennent la décision. Vendre une formation en ligne relève d'une démarche marketing complète, pas de la simple publication d'un catalogue.
+
+## Intégrer la dimension réglementaire
+
+Si la formation prétend à un financement, CPF, OPCO, la dimension réglementaire devient centrale. L'éligibilité au CPF suppose le rattachement à une certification active et le référencement sur la plateforme dédiée, avec la certification Qualiopi en prérequis. La politique tarifaire des formations finançables est encadrée et contrôlée. Vendre une formation finançable est donc autant un sujet de conformité que de marketing, ce qui distingue ce marché de la vente de formation grand public.
+
+## Ce qu'il faut retenir
+
+- Vendre en ligne pose trois questions : plateforme, acquisition, conformité.
+- Le choix du dispositif dépend de la cible, du volume et de la capacité d'acquisition.
+- La mise en ligne ne suffit pas : l'acquisition est une démarche marketing complète.
+- La preuve sociale et la clarté de la promesse soutiennent la décision d'achat.
+- Pour une formation finançable, la conformité réglementaire devient centrale.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment vendre des formations en ligne"}]}],["$","$L3",null,{"article":{"slug":"comment-vendre-des-formations-en-ligne","title":"Comment vendre des formations en ligne","cible":"EdTech, plateformes et outils numériques","thematique":"Certification","tags":["CPF","IA","OPCO","Qualiopi","certification","conformité","financement","formation"],"shortDescription":"Vendre des formations en ligne suppose de traiter trois questions distinctes : la plateforme de vente et de diffusion, l'acquisition de clients, et la conformité réglementaire si la formation préte...","metaDescription":"Vendre des formations en ligne suppose de traiter trois questions distinctes : la plateforme de vente et de diffusion, l'acquisition de clients, et la conformité réglementaire si la formation prétend à un financement.","content":"$4","order":76,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

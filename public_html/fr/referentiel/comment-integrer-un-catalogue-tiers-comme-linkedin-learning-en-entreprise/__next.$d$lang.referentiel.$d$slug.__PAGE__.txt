@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tafc,Intégrer un catalogue d'apprentissage tiers en entreprise, du type de ceux proposés par les grands éditeurs de cours en ligne, suppose de définir son usage, de l'articuler avec le dispositif existant, et de piloter son adoption pour qu'il ne reste pas un abonnement sous-utilisé. Ces catalogues offrent un large accès à des contenus sur des compétences transverses et numériques. Leur principal risque est le faible taux d'usage : un accès illimité dans lequel personne ne se forme. La valeur dépend de l'accompagnement de l'usage, pas du seul accès.
+
+## Définir l'usage visé
+
+Un catalogue tiers en entreprise peut servir plusieurs usages : libre accès pour l'auto-formation, parcours recommandés sur des compétences ciblées, complément au plan de développement des compétences. Définir l'usage visé oriente le déploiement. Un accès ouvert sans intention claire produit généralement peu d'effet ; un usage cadré, relié à des objectifs de développement, en produit davantage. L'abonnement n'est qu'un moyen, pas une fin.
+
+## Articuler avec le dispositif existant
+
+Le catalogue tiers s'articule avec le reste du dispositif : plan de développement des compétences, formations sur mesure, parcours internes. Il couvre le générique et le transverse, là où le sur-mesure interne traite le spécifique. Intégrer techniquement le catalogue au LMS ou au système RH, lorsque c'est possible, consolide le suivi et évite un usage en silo, déconnecté du pilotage global de la formation.
+
+## Piloter l'adoption
+
+Le principal écueil des catalogues tiers en entreprise est la sous-utilisation. Un accès illimité dont personne ne se sert représente un coût sans retour. Piloter l'adoption suppose de communiquer, de recommander des parcours, d'impliquer les managers, et de suivre l'usage réel. Les données d'utilisation révèlent si l'investissement produit de l'effet et orientent les actions de relance. Sans ce pilotage, le catalogue devient une dépense récurrente à la valeur incertaine.
+
+## Ce qu'il faut retenir
+
+- Un catalogue tiers en entreprise couvre les compétences transverses et numériques.
+- Définir l'usage visé oriente le déploiement et conditionne l'effet.
+- Il s'articule avec le plan de développement et le sur-mesure interne.
+- Son principal risque est la sous-utilisation, un accès payé mais peu utilisé.
+- Piloter l'adoption par la communication, les managers et le suivi d'usage est essentiel.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus, MentivisOS va bien plus loin :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment intégrer un catalogue tiers comme LinkedIn Learning en entreprise"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise","title":"Comment intégrer un catalogue tiers comme LinkedIn Learning en entreprise","cible":"EdTech, plateformes et outils numériques","thematique":"Financement","tags":["LMS","VR","apprentissage","coût","formation"],"shortDescription":"Intégrer un catalogue d'apprentissage tiers en entreprise, du type de ceux proposés par les grands éditeurs de cours en ligne, suppose de définir son usage, de l'articuler avec le dispositif exista...","metaDescription":"Intégrer un catalogue d'apprentissage tiers en entreprise, du type de ceux proposés par les grands éditeurs de cours en ligne, suppose de définir son usage, de l'articuler avec le dispositif existant, et de piloter son adoption pour qu'il ne reste pas un abonnement sous-utilisé.","content":"$4","order":88,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7ee,Putting in place a training policy in an SME without a dedicated HR function means starting from strategic priorities, defining a realistic budget backed by OPCO financing, and establishing a few simple routines: professional interviews, needs gathering, action tracking. The challenge is not to copy a large group's apparatus, but to put the minimum structuring elements in place that secure compliance and support company development.
+
+## Starting from priorities, not mechanisms
+
+A small business does not have the resources of a training department. The starting point is therefore not tooling but priorities: which competencies are needed to meet the company's objectives over the next twelve to twenty-four months. This question directs effort toward the essential and avoids dispersal into training without impact.
+
+## Defining a budget backed by financing
+
+The training budget of an SME is built by integrating mobilizable financing. The branch OPCO finances a substantial share of actions, often with enhanced conditions for smaller structures. Knowing your OPCO and its coverage rules turns a constrained budget into real training capacity. The net cost to the company is often far below the listed price.
+
+## Establishing simple routines
+
+A few routines are enough to structure the policy: holding mandatory professional interviews, gathering needs once a year, formalizing a lightweight plan, tracking completed actions. These routines ensure legal compliance and provide visibility. External support can carry this structuring without burdening the organization, which is often more efficient than hiring a dedicated function prematurely.
+
+## Key takeaways
+
+- The starting point is identifying the competency gaps relative to objectives.
+- The budget integrates OPCO financing, often enhanced for SMEs.
+- A few simple routines are enough to structure the policy and compliance.
+- Copying a large group's apparatus is counterproductive for an SME.
+- External support can carry the structuring without premature hiring.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to put in place a training policy in my SME"}]}],["$","$L3",null,{"article":{"slug":"comment-mettre-en-place-une-politique-de-formation-dans-ma-pme","lang":"en","title":"How to put in place a training policy in my SME","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","OPCO"],"shortDescription":"Putting in place a training policy in an SME without a dedicated HR function means starting from strategic priorities, defining a realistic budget backed by OPCO financing, and establishing a few s...","metaDescription":"Putting in place a training policy in an SME without a dedicated HR function means starting from strategic priorities, defining a realistic budget backed by OPCO financing, and establishing a few simple routines: professional interviews, needs gathering, action tracking.","content":"$4","order":34},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

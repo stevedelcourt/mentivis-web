@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta89,Choisir entre formation interne et externalisation repose sur une analyse croisant plusieurs critères : disponibilité de la compétence en interne, coût réel de développement, enjeu de confidentialité, fréquence du besoin, délai et niveau de qualité attendu. Ni l'interne ni l'externe ne sont supérieurs en soi : la bonne réponse dépend de la situation. Une compétence stratégique, fréquente et confidentielle plaide pour l'interne ; un besoin ponctuel, pointu ou hors du coeur de métier plaide pour l'externe.
+
+## Évaluer la disponibilité et le coût interne
+
+La première question est de savoir si l'entreprise dispose en interne de la compétence à transmettre et de la capacité à concevoir et animer une formation. Le coût interne, souvent sous-estimé, inclut le temps de conception, le temps d'animation et le temps de l'expert mobilisé. Ce coût réel se compare au prix d'une prestation externe, qui peut s'avérer plus économique pour un besoin ponctuel.
+
+## Peser confidentialité, fréquence et coeur de métier
+
+Une formation portant sur un savoir-faire propriétaire ou des informations sensibles plaide pour l'interne, qui protège la confidentialité. Un besoin récurrent justifie l'investissement de développement interne, amorti sur de nombreuses sessions ; un besoin ponctuel non. Les formations sur le coeur de métier gagnent souvent à rester internes ; les sujets transverses ou pointus, à être externalisés vers des spécialistes.
+
+## Décider par une matrice claire
+
+Le choix gagne à être posé comme une matrice de décision plutôt que par habitude. Délai, qualité attendue, coût comparé, confidentialité et fréquence se pondèrent selon les enjeux. Une troisième voie existe souvent : externaliser la conception tout en internalisant l'animation, ou s'appuyer sur un outil de production qui réduit le coût de conception interne. La décision n'est pas binaire.
+
+## Ce qu'il faut retenir
+
+- Le choix croise disponibilité interne, coût réel, confidentialité, fréquence, délai et qualité.
+- Le coût interne, souvent sous-estimé, inclut conception, animation et temps d'expert.
+- La confidentialité et le coeur de métier plaident pour l'interne.
+- Un besoin ponctuel ou pointu plaide pour l'externe.
+- Des voies intermédiaires existent : la décision n'est pas binaire.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment choisir entre former en interne ou externaliser la formation"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-entre-former-en-interne-ou-externaliser-la-formation","title":"Comment choisir entre former en interne ou externaliser la formation","cible":"Entreprises","thematique":"Financement","tags":["IA","coût","formation"],"shortDescription":"Choisir entre formation interne et externalisation repose sur une analyse croisant plusieurs critères : disponibilité de la compétence en interne, coût réel de développement, enjeu de confidentiali...","metaDescription":"Choisir entre formation interne et externalisation repose sur une analyse croisant plusieurs critères : disponibilité de la compétence en interne, coût réel de développement, enjeu de confidentialité, fréquence du besoin, délai et niveau de qualité attendu.","content":"$4","order":56,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

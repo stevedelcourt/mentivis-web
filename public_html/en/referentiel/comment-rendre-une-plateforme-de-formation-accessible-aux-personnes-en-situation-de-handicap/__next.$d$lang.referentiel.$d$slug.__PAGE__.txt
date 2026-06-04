@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9bf,Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed from the outset. Since the European Accessibility Act entered into application on June 28, 2025, accessibility obligations extend broadly to the private sector, including training organizations, with a compliance deadline for existing content of June 2030. Accessibility is now a regulatory obligation, beyond its inclusion value.
+
+## The strengthened regulatory framework
+
+Digital accessibility rested historically on the 2005 act and the RGAA, which translates the WCAG into technical criteria, and primarily concerned the public sector and large companies. The European Accessibility Act, applicable since June 28, 2025, extends these obligations to private digital services, including training. New content must be accessible; existing content benefits from a deadline until June 2030. Certain very small structures may be exempt depending on thresholds.
+
+## The four principles of accessibility
+
+The WCAG standards rest on four principles. Content must be perceivable: text alternatives for images, video subtitles, sufficient contrast ratios. It must be operable: keyboard navigation, sufficient time. It must be understandable: clear language, predictable functioning. It must be robust: compatible with assistive technologies such as screen readers. These principles guide both the platform and the pedagogical content.
+
+## Building in accessibility from the design stage
+
+Accessibility costs far less when designed from the outset than when retrofitted. Integrating an accessibility checklist into each creation, testing with a screen reader, choosing tools that allow compliant content production, and training teams in best practices embed accessibility into the process. A pedagogical audit identifies existing content to be adapted and plans its compliance. Accessibility also benefits all learners, not only those with disabilities.
+
+## Key takeaways
+
+- Reference frameworks are the RGAA in France and the international WCAG standards.
+- The European Accessibility Act, applicable since June 28, 2025, extends the obligation to the private sector.
+- New content must be accessible; existing content has a deadline until June 2030.
+- The four WCAG principles: perceivable, operable, understandable, robust.
+- Accessibility designed from the outset costs less and benefits all learners.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to make a training platform accessible to people with disabilities"}]}],["$","$L3",null,{"article":{"slug":"comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap","lang":"en","title":"How to make a training platform accessible to people with disabilities","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","RGAA","WCAG","audit"],"shortDescription":"Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed ...","metaDescription":"Making a training platform and its content accessible rests on applying digital accessibility reference frameworks, the RGAA in France and the international WCAG standards, in an approach designed from the outset.","content":"$4","order":73},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

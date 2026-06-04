@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8a5,Blended learning combines face-to-face and remote delivery to draw on the strengths of each modality. A successful strategy does not juxtapose the two at random: it assigns to each modality what it does best, remote for content delivery and flexibility, face-to-face for practice, exchange and anchoring. Success rests on articulation, on the coherence of the overall pathway, and on the accompaniment that connects the sequences. A poorly articulated blended program cumulates the disadvantages of both modes rather than combining their strengths.
+
+## The complementarity principle
+
+Blended learning rests on a simple idea: each modality has its strengths. Asynchronous remote offers flexibility and autonomy for acquiring knowledge at one's own pace. Face-to-face or synchronous delivery brings interaction, supervised practice and group dynamics. Blended assigns to each what it does best, rather than doing everything in one default mode.
+
+## Articulating sequences
+
+The value of blended rests on articulation. The flipped classroom is the example: content delivery happens remotely in advance, face-to-face time is devoted to practice and exchange, of higher value. This articulation requires overall design: each sequence prepares or extends another. A pathway where remote and face-to-face coexist without connection loses the benefit of the combination.
+
+## Accompanying and connecting
+
+Blended requires accompaniment that connects sequences and sustains engagement between face-to-face moments. Tracking of remote phases, reminders, and a clear guiding thread prevent dropout in autonomous phases. Human accompaniment, trainer or tutor, ensures pathway continuity. The coherence perceived by the learner, who must understand how sequences connect, conditions success.
+
+## Key takeaways
+
+- Blended combines face-to-face and remote according to the strengths of each.
+- Remote serves content delivery and flexibility; face-to-face serves practice and exchange.
+- The flipped classroom illustrates the articulation: content remotely, practice face-to-face.
+- Articulation requires overall design, not mere juxtaposition.
+- Accompaniment connects sequences and sustains engagement between face-to-face times.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to implement a successful blended learning strategy"}]}],["$","$L3",null,{"article":{"slug":"comment-mettre-en-place-une-strategie-de-blended-learning-reussie","lang":"en","title":"How to implement a successful blended learning strategy","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["blended"],"shortDescription":"Blended learning combines face-to-face and remote delivery to draw on the strengths of each modality.","metaDescription":"Blended learning combines face-to-face and remote delivery to draw on the strengths of each modality.","content":"$4","order":82},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

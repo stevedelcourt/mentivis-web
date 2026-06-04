@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","fr","careers","growth-business-development-manager",""],"q":"","i":false,"f":[[["",{"children":[["lang","fr","d",null],{"children":["careers",{"children":[["slug","growth-business-development-manager","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"n4UbzMPi9zZwSxycaFaVu"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"fr"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+14:T1032,## Le contexte
+
+MentivisOS est un système opérationnel complet conçu pour les organismes de formation, les écoles et les universités. Il couvre l'ensemble du cycle de vie d'un établissement, de l'acquisition à la performance pédagogique, dans un environnement unique et intégré. Mentivis structure son développement commercial en France et recrute la personne qui en prendra la responsabilité opérationnelle.
+
+Ce poste est une fonction de croissance à spectre large. Vous êtes responsable du développement commercial de MentivisOS sur le marché français, de la génération des premiers leads jusqu'à la construction de partenariats stratégiques durables.
+
+## Vos responsabilités
+
+### Croissance B2B et développement marché
+
+Vous pilotez la stratégie de croissance de MentivisOS en France. Vous prenez en charge le funnel complet : génération de leads, nurturing, conversion et développement des comptes. Vous construisez les bases commerciales du marché, ce qui implique autant de décisions stratégiques que d'exécution directe.
+
+### Acquisition et outbound
+
+Vous concevez, lancez et optimisez des séquences outbound complexes à destination des décideurs institutionnels : directions d'écoles, d'universités, de centres de formation et de départements RH et formation en entreprise. Vous structurez les workflows de prospection et d'automatisation adaptés aux spécificités du marché français. Vous collaborez avec les équipes performance et opérations sur les stratégies ABM, retargeting et acquisition payante.
+
+### Événements et présence écosystème
+
+Vous organisez et pilotez des événements, webinars, rencontres sectorielles et participations à des salons professionnels. Vous développez activement la présence de MentivisOS dans l'écosystème français de l'IA, de l'edtech et de la formation professionnelle, en identifiant les bons relais, les bons formats et les bons interlocuteurs.
+
+### Contenu et positionnement
+
+Vous produisez les supports commerciaux, contenus stratégiques et messages adaptés aux enjeux du marché français. Vous participez à la construction du positionnement de MentivisOS en remontant les signaux du terrain vers les équipes produit et stratégie.
+
+### Partenariats et écosystème
+
+Vous identifiez et développez des partenariats stratégiques avec les acteurs des secteurs IA, éducation, formation et transformation des compétences. Vous construisez des relations solides avec les relais locaux, sponsors et organisations susceptibles d'accélérer la pénétration du marché.
+
+## Profil recherché
+
+**Langues.** Vous travaillez professionnellement en anglais. La capacité à lire, produire et communiquer en anglais dans un environnement professionnel international est indispensable.
+
+**Mentalité d'owner.** Vous prenez la responsabilité complète de vos sujets et les menez jusqu'au résultat. Vous n'attendez pas qu'on vous définisse le chemin.
+
+**Esprit entrepreneurial.** Vous avez idéalement évolué en startup, dans un environnement à forte croissance, ou avez déjà construit des projets de manière autonome. Vous êtes à l'aise dans les situations où les règles ne sont pas encore écrites.
+
+**Culture growth.** Vous avez une compréhension large et opérationnelle du marketing de croissance : acquisition, outbound, performance, automatisation, analyse de données, événements, campagnes. Vous n'êtes pas spécialiste d'une seule de ces dimensions, vous savez les articuler.
+
+**Orientation exécution.** Vous êtes autonome, proactif et orienté expérimentation. Vous gérez plusieurs sujets simultanément sans perdre en qualité d'exécution.
+
+## Atouts supplémentaires
+
+Expertise SEO et stratégie de contenu, compétences design (Figma, Adobe Suite), expérience avec des outils et workflows AI-native, connaissance de l'écosystème edtech et formation professionnelle en France.
+
+## Localisation
+
+Le poste est remote-first. Vous travaillez au sein d'un environnement international à l'intersection de l'IA, de l'éducation et de la transformation des compétences.
+
+**[mentivisos.com](https://mentivisos.com/)**6:[["$","$L13",null,{"data":{"@context":"https://schema.org","@type":"JobPosting","title":"Growth & Business Development Manager","description":"$14","datePosted":"2026-05-17","employmentType":"CDI","hiringOrganization":{"@type":"Organization","name":"Mentivis","sameAs":"https://mentivis.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"60 Rue François 1er","addressLocality":"Paris","postalCode":"75008","addressCountry":"FR"}}}}],"$L15","$L16"]
+17:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+18:I[7895,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+15:["$","$L17",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Carrières","url":"https://mentivis.com/fr/careers/"},{"name":"Growth & Business Development Manager"}]}]
+19:T1032,## Le contexte
+
+MentivisOS est un système opérationnel complet conçu pour les organismes de formation, les écoles et les universités. Il couvre l'ensemble du cycle de vie d'un établissement, de l'acquisition à la performance pédagogique, dans un environnement unique et intégré. Mentivis structure son développement commercial en France et recrute la personne qui en prendra la responsabilité opérationnelle.
+
+Ce poste est une fonction de croissance à spectre large. Vous êtes responsable du développement commercial de MentivisOS sur le marché français, de la génération des premiers leads jusqu'à la construction de partenariats stratégiques durables.
+
+## Vos responsabilités
+
+### Croissance B2B et développement marché
+
+Vous pilotez la stratégie de croissance de MentivisOS en France. Vous prenez en charge le funnel complet : génération de leads, nurturing, conversion et développement des comptes. Vous construisez les bases commerciales du marché, ce qui implique autant de décisions stratégiques que d'exécution directe.
+
+### Acquisition et outbound
+
+Vous concevez, lancez et optimisez des séquences outbound complexes à destination des décideurs institutionnels : directions d'écoles, d'universités, de centres de formation et de départements RH et formation en entreprise. Vous structurez les workflows de prospection et d'automatisation adaptés aux spécificités du marché français. Vous collaborez avec les équipes performance et opérations sur les stratégies ABM, retargeting et acquisition payante.
+
+### Événements et présence écosystème
+
+Vous organisez et pilotez des événements, webinars, rencontres sectorielles et participations à des salons professionnels. Vous développez activement la présence de MentivisOS dans l'écosystème français de l'IA, de l'edtech et de la formation professionnelle, en identifiant les bons relais, les bons formats et les bons interlocuteurs.
+
+### Contenu et positionnement
+
+Vous produisez les supports commerciaux, contenus stratégiques et messages adaptés aux enjeux du marché français. Vous participez à la construction du positionnement de MentivisOS en remontant les signaux du terrain vers les équipes produit et stratégie.
+
+### Partenariats et écosystème
+
+Vous identifiez et développez des partenariats stratégiques avec les acteurs des secteurs IA, éducation, formation et transformation des compétences. Vous construisez des relations solides avec les relais locaux, sponsors et organisations susceptibles d'accélérer la pénétration du marché.
+
+## Profil recherché
+
+**Langues.** Vous travaillez professionnellement en anglais. La capacité à lire, produire et communiquer en anglais dans un environnement professionnel international est indispensable.
+
+**Mentalité d'owner.** Vous prenez la responsabilité complète de vos sujets et les menez jusqu'au résultat. Vous n'attendez pas qu'on vous définisse le chemin.
+
+**Esprit entrepreneurial.** Vous avez idéalement évolué en startup, dans un environnement à forte croissance, ou avez déjà construit des projets de manière autonome. Vous êtes à l'aise dans les situations où les règles ne sont pas encore écrites.
+
+**Culture growth.** Vous avez une compréhension large et opérationnelle du marketing de croissance : acquisition, outbound, performance, automatisation, analyse de données, événements, campagnes. Vous n'êtes pas spécialiste d'une seule de ces dimensions, vous savez les articuler.
+
+**Orientation exécution.** Vous êtes autonome, proactif et orienté expérimentation. Vous gérez plusieurs sujets simultanément sans perdre en qualité d'exécution.
+
+## Atouts supplémentaires
+
+Expertise SEO et stratégie de contenu, compétences design (Figma, Adobe Suite), expérience avec des outils et workflows AI-native, connaissance de l'écosystème edtech et formation professionnelle en France.
+
+## Localisation
+
+Le poste est remote-first. Vous travaillez au sein d'un environnement international à l'intersection de l'IA, de l'éducation et de la transformation des compétences.
+
+**[mentivisos.com](https://mentivisos.com/)**1a:Tdd4,## Context
+
+MentivisOS is a full-stack operational system built for training organisations, schools and universities. It covers the entire lifecycle of an institution, from acquisition to pedagogical performance, within a single integrated environment. Mentivis is now structuring its commercial development in France and is looking for the person who will take operational ownership of it.
+
+This is a broad-spectrum growth role. You are responsible for the commercial development of MentivisOS in the French market, from generating the first leads to building lasting strategic partnerships.
+
+## Your responsibilities
+
+### B2B growth and market development
+
+You drive the growth strategy for MentivisOS in France. You own the full funnel: lead generation, nurturing, conversion and account development. You build the commercial foundations of the market, which requires both strategic decisions and direct execution.
+
+### Acquisition and outbound
+
+You design, launch and optimise complex outbound sequences targeting institutional decision-makers: school directors, university leadership, training centre management and corporate L&D departments. You structure prospecting workflows and automation adapted to the specificities of the French market. You collaborate with performance and operations teams on ABM strategies, retargeting and paid acquisition.
+
+### Events and ecosystem presence
+
+You organise and lead events, webinars, sector meetups and trade show participations. You actively develop MentivisOS's presence within the French AI, edtech and professional training ecosystem, identifying the right relays, the right formats and the right contacts.
+
+### Content and positioning
+
+You produce sales materials, strategic content and messaging adapted to the demands of the French market. You contribute to the positioning of MentivisOS by feeding field signals back to the product and strategy teams.
+
+### Partnerships and ecosystem
+
+You identify and develop strategic partnerships with players in the AI, education, training and skills transformation sectors. You build strong relationships with local relays, sponsors and organisations that can accelerate market penetration.
+
+## Profile
+
+**Languages.** You work professionally in English. The ability to read, produce and communicate in English within an international professional environment is essential.
+
+**Owner mindset.** You take full responsibility for your projects and see them through to results. You do not wait for the path to be defined for you.
+
+**Entrepreneurial spirit.** You have ideally worked in a startup or high-growth environment, or built projects independently. You are comfortable in situations where the rules are not yet written.
+
+**Growth culture.** You have a broad and operational understanding of growth marketing: acquisition, outbound, performance, automation, data analysis, events and campaigns. You are not a specialist in just one of these areas. You know how to connect them.
+
+**Execution orientation.** You are autonomous, proactive and experiment-driven. You manage multiple subjects simultaneously without sacrificing execution quality.
+
+## Bonus skills
+
+SEO expertise and content strategy, design skills (Figma, Adobe Suite), experience with AI-native tools and workflows, knowledge of the French edtech and professional training ecosystem.
+
+## Location
+
+The role is remote-first. You work within an international environment at the intersection of AI, education and skills transformation.
+
+**[mentivisos.com](https://mentivisos.com/)**16:["$","$L18",null,{"job":{"slug":"growth-business-development-manager","titleFr":"Growth & Business Development Manager","titleEn":"B2B Marketing Growth Lead","department":"Growth","location":"Paris","type":"cdi","remote":true,"date":"2026-05-17","descriptionFr":"$19","descriptionEn":"$1a"},"lang":"fr"}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Growth & Business Development Manager | Mentivis"}],["$","meta","1",{"name":"description","content":"Growth - Paris"}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"https://mentivis.com/fr/careers/growth-business-development-manager/"}],["$","link","5",{"rel":"alternate","hrefLang":"fr-FR","href":"https://mentivis.com/fr/careers/growth-business-development-manager/"}],["$","link","6",{"rel":"alternate","hrefLang":"en-US","href":"https://mentivis.com/en/careers/growth-business-development-manager/"}],["$","link","7",{"rel":"alternate","hrefLang":"x-default","href":"https://mentivis.com/fr/careers/growth-business-development-manager/"}],["$","meta","8",{"property":"og:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","9",{"property":"og:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","10",{"property":"og:url","content":"https://mentivis.com/fr/"}],["$","meta","11",{"property":"og:site_name","content":"Mentivis"}],["$","meta","12",{"property":"og:locale","content":"fr_FR"}],["$","meta","13",{"property":"og:image","content":"https://mentivis.com/opengraph-image.jpg"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"Mentivis"}],["$","meta","17",{"property":"og:type","content":"website"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","20",{"name":"twitter:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","21",{"name":"twitter:image","content":"https://mentivis.com/opengraph-image.jpg"}],["$","link","22",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","23",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","24",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","25",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","26",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L1b","27",{}]]

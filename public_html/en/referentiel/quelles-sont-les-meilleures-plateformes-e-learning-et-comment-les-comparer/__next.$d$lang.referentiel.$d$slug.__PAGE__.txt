@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T998,Comparing e-learning platforms requires first clarifying which type of tool is actually being discussed, as the market mixes distinct objects: distribution LMSs, content creation authoring tools, content marketplaces, and generation engines. Rather than looking for a universally valid list of best platforms, the right approach is to compare according to your own needs and according to the relevant tool category. An excellent platform for one use case is unsuited for another.
+
+## Distinguishing tool categories
+
+The word platform covers distinct realities. The LMS manages distribution and tracking. The authoring tool serves to create modules. The content marketplace gives access to third-party content catalogues. The generation engine produces custom content on demand. Comparing an LMS and an authoring tool means comparing objects with no common function. The first step of a useful comparison is therefore identifying which category you need.
+
+## Defining criteria according to your need
+
+Once the category is identified, comparison criteria flow from the need: learner volume, level of pathway personalization, reporting and compliance needs, integration capacity, economic model. Generic platform rankings ignore these specificities. A relevant comparison is one you build from your own requirements, not one you read ready-made.
+
+## Being wary of generic rankings
+
+Platform lists circulating online are often biased, through commercial SEO or partnerships. They aggregate incomparable tools and ignore the reader's context. At best they serve to identify candidates, never to decide. The decision is made after a needs analysis, ideally a demonstration on your own use cases, and a check of integration with the existing system.
+
+## Key takeaways
+
+- Platform covers LMSs, authoring tools, content marketplaces and generation engines.
+- Comparison requires identifying the relevant tool category first.
+- Comparison criteria flow from your own need, not from a ranking.
+- Generic lists aggregate incomparable tools and are often biased.
+- The decision is made after needs analysis and demonstration on your own use cases.
+
+---
+
+_Unlike an LMS that merely distributes content, MentivisOS goes much further:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"What are the best e-learning platforms and how to compare them"}]}],["$","$L3",null,{"article":{"slug":"quelles-sont-les-meilleures-plateformes-e-learning-et-comment-les-comparer","lang":"en","title":"What are the best e-learning platforms and how to compare them","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","LMS","e-learning"],"shortDescription":"Comparing e-learning platforms requires first clarifying which type of tool is actually being discussed, as the market mixes distinct objects: distribution LMSs, content creation authoring tools, c...","metaDescription":"Comparing e-learning platforms requires first clarifying which type of tool is actually being discussed, as the market mixes distinct objects: distribution LMSs, content creation authoring tools, content marketplaces, and generation engines.","content":"$4","order":64},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

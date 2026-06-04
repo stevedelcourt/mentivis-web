@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9218","static/chunks/app/lang/ambassadors/page-7f5e20e95c5d0455.js"],"default"]
+3:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9218","static/chunks/app/lang/ambassadors/page-7f5e20e95c5d0455.js"],"default"]
+4:I[65462,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9218","static/chunks/app/lang/ambassadors/page-7f5e20e95c5d0455.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"data":{"@context":"https://schema.org","@type":"WebPage","name":"Ambassadeurs — Mentivis","url":"https://mentivis.com/fr/ambassadors","publisher":{"@id":"https://mentivis.com/#organization"}}}],["$","$L3",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Ambassadeurs"}]}],["$","$L4",null,{}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

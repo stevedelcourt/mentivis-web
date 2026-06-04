@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T991,Creating e-learning content quickly and cost-effectively rests on three levers: starting from reusable templates and structures rather than designing each module from scratch, using effective authoring tools, and industrializing production through assisted generation. The cost of producing a quality e-learning module by hand remains high. Reducing cost and lead time requires a production engine logic, which generates and adapts from a foundation, rather than individual manual work.
+
+## Reusing rather than recreating
+
+A large part of e-learning cost comes from designing each module individually. Starting from templates, standard pedagogical structures and reusable building blocks drastically reduces this cost. A library of pedagogical objects, adaptable from one module to another, transforms manual production into assembly. This reuse logic is the first lever of economy and speed.
+
+## Choosing the right authoring tools
+
+Authoring tools make it possible to produce modules without advanced technical competency. Their selection depends on the type of content targeted and compatibility with target standards and LMS. A good tool accelerates formatting, but does not resolve pedagogical design, which remains the core of value and the main cost driver.
+
+## Industrializing through generation
+
+The most significant leap comes from industrializing production. A generation engine produces programs, sequences, materials and assessments from a need and a reference framework, then adapts them across contexts. This approach reduces design lead time by a significant factor compared to manual method, and allows content to be updated as needs evolve, without redesigning everything. This is the difference between producing and distributing.
+
+## Key takeaways
+
+- The cost of manual e-learning comes from individual design of each module.
+- Templates and reusable building blocks transform production into assembly.
+- Authoring tools accelerate formatting without resolving design.
+- A generation engine industrializes production and updating.
+- Production logic is structurally distinct from distribution through an LMS.
+
+---
+
+_Unlike an LMS that merely distributes content, MentivisOS goes much further:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to create e-learning content quickly and cost-effectively"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-des-contenus-e-learning-rapidement-et-a-moindre-cout","lang":"en","title":"How to create e-learning content quickly and cost-effectively","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","LMS","e-learning"],"shortDescription":"Creating e-learning content quickly and cost-effectively rests on three levers: starting from reusable templates and structures rather than designing each module from scratch, using effective autho...","metaDescription":"Creating e-learning content quickly and cost-effectively rests on three levers: starting from reusable templates and structures rather than designing each module from scratch, using effective authoring tools, and industrializing production through assisted generation.","content":"$4","order":62},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

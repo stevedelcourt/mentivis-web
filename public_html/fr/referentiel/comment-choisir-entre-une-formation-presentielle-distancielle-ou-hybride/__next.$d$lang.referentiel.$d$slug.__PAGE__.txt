@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta55,Choisir entre présentiel, distanciel et hybride dépend des objectifs pédagogiques, du public, des contraintes logistiques et du budget, pas d'une préférence de principe. Le présentiel excelle pour le relationnel et la pratique encadrée, le distanciel pour la flexibilité et le passage à l'échelle, l'hybride pour combiner les deux. La bonne modalité est celle qui sert l'objectif au meilleur coût d'engagement. Depuis la généralisation du distanciel, le choix se fait au cas par cas plutôt que par défaut.
+
+## Décider selon l'objectif pédagogique
+
+L'objectif oriente la modalité. Une compétence relationnelle, une pratique manuelle ou une dynamique de groupe appellent du présentiel ou du synchrone interactif. Un savoir procédural, une mise à niveau de connaissances ou une formation à suivre à son rythme se prêtent au distanciel asynchrone. Choisir d'abord par confort logistique plutôt que par objectif dégrade l'efficacité.
+
+## Tenir compte du public et des contraintes
+
+Le public compte : autonomie, aisance numérique, dispersion géographique, disponibilité. Des équipes dispersées ou aux emplois du temps serrés tirent parti du distanciel ; des publics peu autonomes en ligne décrochent davantage. Les contraintes logistiques, déplacements, salles, immobilisation, et le budget pèsent aussi. Le distanciel réduit les coûts logistiques mais exige un investissement de conception.
+
+## Combiner en hybride quand c'est pertinent
+
+L'hybride combine les forces des deux modes : distanciel pour les apports et la flexibilité, présentiel ou synchrone pour la pratique, l'échange et l'ancrage. La classe inversée en est un exemple : apprentissage en autonomie en amont, temps collectif consacré à la pratique. L'hybride n'est pas toujours supérieur, mais il offre un compromis souvent pertinent lorsque les objectifs sont mixtes.
+
+## Ce qu'il faut retenir
+
+- La modalité se choisit selon l'objectif, le public, les contraintes et le budget.
+- Le présentiel excelle pour le relationnel et la pratique encadrée.
+- Le distanciel offre flexibilité et passage à l'échelle, au prix d'un effort de conception.
+- L'hybride combine apports flexibles et temps collectif de pratique.
+- La bonne modalité sert l'objectif au meilleur coût d'engagement.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment choisir entre une formation présentielle, distancielle ou hybride"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride","title":"Comment choisir entre une formation présentielle, distancielle ou hybride","cible":"Entreprises","thematique":"Financement","tags":["VR","apprentissage","coût","formation"],"shortDescription":"Choisir entre présentiel, distanciel et hybride dépend des objectifs pédagogiques, du public, des contraintes logistiques et du budget, pas d'une préférence de principe.","metaDescription":"Choisir entre présentiel, distanciel et hybride dépend des objectifs pédagogiques, du public, des contraintes logistiques et du budget, pas d'une préférence de principe.","content":"$4","order":53,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

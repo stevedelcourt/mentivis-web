@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8bf,Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application. In many cases, a responsive website or a progressive web app is sufficient, at lower cost. A native application is only justified by specific needs: offline use, push notifications, hardware integration, high usage frequency. The question is not following a trend, but determining whether mobile responds to a real learning need and which one.
+
+## Mobile, yes, but in what form
+
+Mobile training covers several realities. Content accessible from a mobile device through a browser, via a responsive site, already covers many use cases without specific development. An installable web application provides additional convenience at moderate cost. A native application, developed for each operating system, offers the most possibilities but at the highest cost. Confusing the need for mobility with the need for a native application leads to over-investment.
+
+## When a native application is justified
+
+A native application is justified by needs that the web does not cover well: offline use, for learners in the field for example, push notifications that sustain engagement and regularity, access to device hardware features, or very frequent use that justifies a place on the home screen. In the absence of these needs, the additional cost of a native application is not justified.
+
+## Thinking usage before tool
+
+The right approach starts from usage. What will learners do on mobile, how frequently, under what conditions, with what benefit for learning. Mobile suits microlearning, spaced reinforcement and quick reference well, less so deep learning. Defining the target usage makes it possible to choose the right form and avoid developing a costly application for a need the web would have covered.
+
+## Key takeaways
+
+- A responsive site or web application suffices in many cases.
+- A native application is only justified by specific needs.
+- Offline use, notifications, hardware features and high frequency justify the native.
+- Confusing the need for mobility with a native application leads to over-investment.
+- The approach starts from the actual learning usage, not from a trend.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Should I develop a mobile training application"}]}],["$","$L3",null,{"article":{"slug":"faut-il-developper-une-application-mobile-de-formation","lang":"en","title":"Should I develop a mobile training application","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","microlearning"],"shortDescription":"Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.","metaDescription":"Deciding to develop a mobile training application requires weighing the actual expected usage against the cost and complexity of a native application.","content":"$4","order":77},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taf5,Piloter la formation dans un groupe multi-sites ou international suppose d'arbitrer entre centralisation et adaptation locale : une plateforme et une politique communes pour la cohérence et l'économie d'échelle, des adaptations locales pour la pertinence et la conformité réglementaire de chaque pays. L'enjeu est de standardiser ce qui peut l'être sans perdre la pertinence locale, et de consolider le reporting pour piloter l'ensemble. La gestion linguistique et culturelle des contenus est une difficulté centrale à anticiper.
+
+## Centraliser ce qui peut l'être
+
+Une plateforme commune, un catalogue partagé et une politique formation de groupe assurent cohérence et économies d'échelle. Les contenus transverses, valeurs, compliance, compétences communes, gagnent à être conçus une fois et déployés partout. Cette centralisation évite la duplication des efforts et garantit un socle commun à l'ensemble du groupe, quel que soit le site.
+
+## Adapter localement ce qui le nécessite
+
+Tout ne se centralise pas. Les obligations réglementaires varient d'un pays à l'autre, les contextes métier et culturels aussi. Les contenus doivent être adaptés, traduits et parfois reconçus pour rester pertinents et conformes localement. L'adaptation interculturelle dépasse la traduction et touche les exemples, les références et parfois la pédagogie. Cette adaptation, coûteuse si artisanale, plaide pour une production industrialisée à partir d'un socle commun.
+
+## Consolider le pilotage
+
+Piloter un dispositif multi-sites suppose un reporting consolidé : indicateurs de déploiement, de complétion, de conformité, agrégés au niveau du groupe tout en restant lisibles par site. Cette consolidation permet d'identifier les écarts, de comparer les sites et d'orienter les ressources. Sans pilotage consolidé, un dispositif international se fragmente en initiatives locales non coordonnées, ce qui annule l'intérêt de l'appartenance à un groupe.
+
+## Ce qu'il faut retenir
+
+- Le pilotage arbitre entre centralisation pour la cohérence et adaptation locale pour la pertinence.
+- Les contenus transverses se conçoivent une fois et se déploient partout.
+- Les obligations réglementaires et les contextes culturels imposent des adaptations locales.
+- L'adaptation industrialisée à partir d'un socle commun protège la rentabilité.
+- Un reporting consolidé est nécessaire pour piloter l'ensemble.
+
+---
+
+_Dans un paysage où cohabitent LMS, outils auteurs et plateformes de diffusion, MentivisOS occupe une place à part :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment piloter la formation dans un groupe multi-sites ou international"}]}],["$","$L3",null,{"article":{"slug":"comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international","title":"Comment piloter la formation dans un groupe multi-sites ou international","cible":"Entreprises","thematique":"Financement","tags":["IA","conformité","coût","formation"],"shortDescription":"Piloter la formation dans un groupe multi-sites ou international suppose d'arbitrer entre centralisation et adaptation locale : une plateforme et une politique communes pour la cohérence et l'écono...","metaDescription":"Piloter la formation dans un groupe multi-sites ou international suppose d'arbitrer entre centralisation et adaptation locale : une plateforme et une politique communes pour la cohérence et l'économie d'échelle, des adaptations locales pour la pertinence et la conformité réglementaire de chaque pays.","content":"$4","order":57,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

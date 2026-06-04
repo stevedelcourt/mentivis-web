@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta26,Accompagner les apprenants en situation de handicap impose des obligations légales et constitue un attendu Qualiopi : désignation d'un référent handicap, information sur les conditions d'accessibilité, adaptation pédagogique et matérielle, et mobilisation des acteurs spécialisés. Il ne suffit pas de désigner un référent, l'auditeur attend des actions concrètes d'accessibilité et des partenariats avec les acteurs du handicap. L'accompagnement se prépare en amont de l'accueil et se documente.
+
+## Le cadre et l'obligation Qualiopi
+
+Le Référentiel National Qualité comporte des exigences sur la prise en compte du handicap. L'information sur l'accessibilité et les adaptations possibles relève du critère sur l'information du public. La désignation d'un référent handicap est attendue, de même que la démonstration d'actions concrètes : sans preuve d'actions effectives, la seule désignation ne suffit pas.
+
+## Les adaptations à prévoir
+
+L'adaptation peut être pédagogique, supports accessibles, rythme aménagé, méthodes alternatives, ou matérielle et technique, accessibilité des locaux, outils adaptés. L'organisme démontre qu'il prend en compte les situations de handicap et les besoins de compensation. Ces adaptations se pensent en amont, dans la conception, pas dans l'urgence à l'arrivée d'un apprenant concerné.
+
+## Mobiliser les acteurs spécialisés
+
+L'organisme ne porte pas seul l'accompagnement. Des partenariats avec les acteurs du handicap, comme l'Agefiph pour le secteur privé ou les structures relais territoriales, permettent de mobiliser expertise et financements de compensation. Un annuaire de partenaires et des conventions formalisées constituent à la fois une ressource opérationnelle et une preuve en audit. Le référent handicap anime cette mobilisation.
+
+## Ce qu'il faut retenir
+
+- L'accompagnement PSH est une obligation légale et un attendu Qualiopi.
+- La désignation d'un référent handicap doit s'accompagner d'actions concrètes.
+- Les adaptations sont pédagogiques, matérielles et techniques, pensées en amont.
+- Des partenariats avec les acteurs du handicap apportent expertise et financements.
+- Les preuves d'actions effectives sont attendues en audit.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment accompagner les apprenants en situation de handicap (PSH)"}]}],["$","$L3",null,{"article":{"slug":"comment-accompagner-les-apprenants-en-situation-de-handicap-psh","title":"Comment accompagner les apprenants en situation de handicap (PSH)","cible":"Organismes de formation","thematique":"Certification","tags":["IA","Qualiopi","accessibilité","audit","financement","formation","handicap"],"shortDescription":"Accompagner les apprenants en situation de handicap impose des obligations légales et constitue un attendu Qualiopi : désignation d'un référent handicap, information sur les conditions d'accessibil...","metaDescription":"Accompagner les apprenants en situation de handicap impose des obligations légales et constitue un attendu Qualiopi : désignation d'un référent handicap, information sur les conditions d'accessibilité, adaptation pédagogique et matérielle, et mobilisation des acteurs spécialisés.","content":"$4","order":23,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

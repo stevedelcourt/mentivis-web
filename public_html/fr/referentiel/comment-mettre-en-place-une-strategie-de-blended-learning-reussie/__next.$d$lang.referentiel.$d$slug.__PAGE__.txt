@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tad9,Le blended learning, ou formation mixte, combine présentiel et distanciel pour tirer parti des forces de chaque modalité. Une stratégie réussie ne juxtapose pas les deux au hasard : elle attribue à chaque modalité ce qu'elle fait le mieux, le distanciel pour les apports et la flexibilité, le présentiel pour la pratique, l'échange et l'ancrage. La réussite tient à l'articulation, à la cohérence du parcours global, et à l'accompagnement qui relie les séquences. Un blended mal articulé cumule les inconvénients des deux modes au lieu d'en combiner les forces.
+
+## Le principe de la complémentarité
+
+Le blended learning repose sur une idée simple : chaque modalité a ses forces. Le distanciel asynchrone offre flexibilité et autonomie pour acquérir des connaissances à son rythme. Le présentiel ou le synchrone apporte interaction, pratique encadrée et dynamique de groupe. Le blended attribue à chacune ce qu'elle fait le mieux, plutôt que de tout faire dans un seul mode par défaut.
+
+## Articuler les séquences
+
+La valeur du blended tient à l'articulation. La classe inversée en est l'exemple : les apports se font en amont à distance, le temps présentiel est consacré à la pratique et à l'échange, à plus forte valeur. Cette articulation suppose une conception d'ensemble : chaque séquence prépare ou prolonge une autre. Un parcours où distanciel et présentiel coexistent sans lien perd l'intérêt de la combinaison.
+
+## Accompagner et relier
+
+Le blended exige un accompagnement qui relie les séquences et soutient l'engagement entre les moments présentiels. Un suivi des phases distancielles, des relances, et un fil conducteur clair évitent le décrochage dans les phases autonomes. L'accompagnement humain, le formateur ou le tuteur, assure la continuité du parcours. La cohérence perçue par l'apprenant, qui doit comprendre comment les séquences s'enchaînent, conditionne la réussite du dispositif.
+
+## Ce qu'il faut retenir
+
+- Le blended combine présentiel et distanciel selon les forces de chacun.
+- Le distanciel sert les apports et la flexibilité, le présentiel la pratique et l'échange.
+- La classe inversée illustre l'articulation : apports en amont, pratique en présentiel.
+- L'articulation suppose une conception d'ensemble, pas une juxtaposition.
+- L'accompagnement relie les séquences et soutient l'engagement entre les temps présentiels.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment mettre en place une stratégie de blended learning réussie"}]}],["$","$L3",null,{"article":{"slug":"comment-mettre-en-place-une-strategie-de-blended-learning-reussie","title":"Comment mettre en place une stratégie de blended learning réussie","cible":"EdTech, plateformes et outils numériques","thematique":"Pédagogie","tags":["blended","formation"],"shortDescription":"Le blended learning, ou formation mixte, combine présentiel et distanciel pour tirer parti des forces de chaque modalité.","metaDescription":"Le blended learning, ou formation mixte, combine présentiel et distanciel pour tirer parti des forces de chaque modalité.","content":"$4","order":82,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

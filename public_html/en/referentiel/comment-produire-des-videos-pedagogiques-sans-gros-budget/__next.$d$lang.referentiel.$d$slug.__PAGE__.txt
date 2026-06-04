@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9ee,Producing instructional videos on a limited budget rests on one principle: the pedagogical value of a video comes from its design and script, not from cinematic production quality. Simple formats, screencasts, face-to-camera, light animation, are enough to train effectively. The economy levers are choosing the right format for the objective, reusing templates, and industrializing production. Over-investing in production while neglecting the script is the most costly mistake.
+
+## Value comes from the script, not the production
+
+An effective instructional video rests on a clear script: one objective, structured messaging, adapted pacing. Technical sophistication, elaborate editing, studio, adds no proportional pedagogical value at its cost. Many expensive videos teach poorly because the script was neglected in favor of production. Investing first in design is the best cost-effectiveness ratio.
+
+## Choosing economical formats
+
+Several formats make it possible to train at low cost. Screencasting, narrated screen capture, suits showing software or a process. Face-to-camera video transmits an explanation with human presence without heavy apparatus. Light animation, from templates, illustrates concepts. The format choice depends on the objective: demonstrating a technical action, explaining a concept, embodying a message. The right format is often the simplest.
+
+## Reusing and industrializing
+
+As with e-learning generally, economy comes from reuse and industrialization. Visual templates, standard script structures and reusable elements reduce unit cost. Assisted generation of scripts and materials accelerates production further and allows videos to be updated without rebuilding everything. A library of short videos produced to a common model costs far less than a series of bespoke productions.
+
+## Key takeaways
+
+- The value of an instructional video comes from the script, not production quality.
+- Over-investing in production while neglecting the script is the most costly mistake.
+- Screencasting, face-to-camera and light animation train effectively at low cost.
+- The right format for the objective is usually the simplest.
+- Template reuse and industrialization reduce unit cost.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to produce instructional videos without a large budget"}]}],["$","$L3",null,{"article":{"slug":"comment-produire-des-videos-pedagogiques-sans-gros-budget","lang":"en","title":"How to produce instructional videos without a large budget","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","e-learning"],"shortDescription":"Producing instructional videos on a limited budget rests on one principle: the pedagogical value of a video comes from its design and script, not from cinematic production quality.","metaDescription":"Producing instructional videos on a limited budget rests on one principle: the pedagogical value of a video comes from its design and script, not from cinematic production quality.","content":"$4","order":70},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta6d,Déterminer le budget formation optimal consiste à partir des besoins prioritaires plutôt que d'un pourcentage arbitraire de la masse salariale, à intégrer les financements mobilisables qui réduisent le coût net, et à arbitrer entre volume et qualité. Il n'existe pas de ratio universel : le bon budget est celui qui couvre les compétences critiques pour la stratégie, optimisé par les cofinancements. Les benchmarks sectoriels donnent un repère, mais le besoin réel et les financements disponibles priment.
+
+## Partir du besoin, pas d'un ratio
+
+Fixer un budget formation comme un pourcentage figé de la masse salariale conduit soit au sous-investissement, soit à la dépense sans impact. Le point de départ correct est le besoin : quelles compétences développer pour atteindre les objectifs. Le budget découle de ce besoin priorisé, pas l'inverse. Les ratios sectoriels servent de repère de cohérence, pas de règle.
+
+## Intégrer les financements dans le calcul
+
+Le coût net d'un plan de formation est souvent très inférieur à son coût brut, grâce aux financements mobilisables : prise en charge OPCO, CPF abondé, dispositifs spécifiques. Calculer le budget sans intégrer ces leviers conduit à surestimer le coût et à sous-investir. L'optimisation du financement augmente le volume d'actions réalisables à effort propre constant, ce qui change l'équation budgétaire.
+
+## Arbitrer volume et qualité
+
+Un même budget peut financer beaucoup de formations superficielles ou quelques formations à fort impact. L'arbitrage entre volume et qualité dépend des enjeux : certaines compétences critiques justifient un investissement profond, d'autres besoins se couvrent par des formats légers. Le coût moyen par salarié formé est un indicateur de pilotage, à interpréter au regard de l'impact recherché, pas comme une fin en soi.
+
+## Ce qu'il faut retenir
+
+- Le budget optimal part du besoin priorisé, pas d'un ratio arbitraire.
+- Les benchmarks sectoriels servent de repère, pas de règle.
+- Le coût net intègre les financements et est souvent très inférieur au coût brut.
+- L'optimisation du financement augmente le volume à effort propre constant.
+- L'arbitrage volume contre qualité dépend de l'impact recherché.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment calculer le budget formation optimal pour mon entreprise"}]}],["$","$L3",null,{"article":{"slug":"comment-calculer-le-budget-formation-optimal-pour-mon-entreprise","title":"Comment calculer le budget formation optimal pour mon entreprise","cible":"Entreprises","thematique":"Financement","tags":["CPF","IA","OPCO","VR","coût","financement","formation"],"shortDescription":"Déterminer le budget formation optimal consiste à partir des besoins prioritaires plutôt que d'un pourcentage arbitraire de la masse salariale, à intégrer les financements mobilisables qui réduisen...","metaDescription":"Déterminer le budget formation optimal consiste à partir des besoins prioritaires plutôt que d'un pourcentage arbitraire de la masse salariale, à intégrer les financements mobilisables qui réduisent le coût net, et à arbitrer entre volume et qualité.","content":"$4","order":47,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

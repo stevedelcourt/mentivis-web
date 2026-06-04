@@ -1,0 +1,40 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb5c,A Qualiopi-compliant training program rests on criterion 2 of the National Quality Reference Framework: it must connect a needs analysis, objectives formulated as measurable competencies, structured content organized into sequences, and coherent assessment modalities. The document the auditor expects is the pedagogical session plan, which covers several indicators on its own. Without this documented logical chain, the organization risks a major non-conformity, sufficient to block certification.
+
+## The regulatory framework to respect
+
+The National Quality Reference Framework was created by decree n°2019-565 of June 6, 2019, under the Avenir Professionnel act. It has been mandatory since January 1, 2022 for any organization seeking access to public or pooled funding.
+
+The reference framework contains 7 criteria and 32 indicators. The design of a program falls mainly under criterion 2, which concerns the precise identification of objectives and the adaptation of the service to the target audience. The reading guide in force, version 9 of January 8, 2024, specifies for each indicator the expected level and examples of acceptable evidence.
+
+## The four structuring elements
+
+Needs analysis opens the chain. Before designing, the organization gathers the expectations of the beneficiary and, where applicable, the funder. Expected evidence: positioning questionnaire, pre-training interview, intake form.
+
+Objectives come next. They must be formulated in terms of verifiable competencies. Vague formulations such as "raise awareness of" are not sufficient. The auditor expects action verbs that can be evaluated: design, manage, write, diagnose.
+
+Content and modalities structure the pathway: breakdown into sequences, methods, materials, duration and time sequencing aligned with objectives.
+
+Entry-level positioning closes the loop, through an assessment of each learner's level before the program begins.
+
+## The document that makes the difference at audit
+
+The pedagogical session plan links the greatest number of indicators. It brings together objectives, content, methods, materials, assessments and sequencing in a single roadmap, which serves both as a guide for the trainer and as evidence for the auditor. Evidence must be dated, versioned and traceable.
+
+## Key takeaways
+
+- Compliance of a program is decided on criterion 2 of the RNQ.
+- Objectives must be formulated as verifiable competencies.
+- The pedagogical session plan is the central document expected at audit.
+- The reference reading guide is version 9 of January 8, 2024.
+- A single major non-conformity can block certification.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to create a training program compliant with Qualiopi"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-un-programme-de-formation-conforme-qualiopi","lang":"en","title":"How to create a training program compliant with Qualiopi","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","Qualiopi","RNQ","audit","certification"],"shortDescription":"A Qualiopi-compliant training program rests on criterion 2 of the National Quality Reference Framework: it must connect a needs analysis, objectives formulated as measurable competencies, structure...","metaDescription":"A Qualiopi-compliant training program rests on criterion 2 of the National Quality Reference Framework: it must connect a needs analysis, objectives formulated as measurable competencies, structured content organized into sequences, and coherent assessment modalities.","content":"$4","order":4},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

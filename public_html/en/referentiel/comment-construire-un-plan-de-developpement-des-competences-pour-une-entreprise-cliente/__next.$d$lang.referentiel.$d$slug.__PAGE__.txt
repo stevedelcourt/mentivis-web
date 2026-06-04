@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T769,Building a skills development plan for a corporate client consists in gathering needs, prioritizing them against the company's strategy, arbitrating budget and financing, then formalizing a multi-year action plan steered by indicators. The organization adds consulting value beyond simple training sales: it helps the company connect its business priorities to the competencies to develop, which builds a lasting relationship.
+
+## Gathering and prioritizing needs
+
+Needs gathering crosses two sources: individual needs, drawn from professional interviews and employee requests, and collective needs, driven by strategy and occupational evolution. Prioritization arbitrates between these needs according to impact and urgency. A credible plan distinguishes the essential from the secondary rather than stacking requests.
+
+## Arbitrating budget and financing
+
+The plan accounts for available budget and mobilizable financing: OPCO funds, CPF top-ups, specific programs. The organization advises on financing optimization, which increases the volume of actions achievable at a constant budget. This arbitration turns a budget constraint into a realistic plan.
+
+## Formalizing and steering
+
+The plan is formalized over a multi-year horizon, with a timeline, objectives and monitoring indicators. For companies with representative bodies, the plan is subject to a works council consultation. Steering tracks the implementation of actions and measures their effect, which feeds the next plan and demonstrates the value of the support.
+
+## Key takeaways
+
+- The plan crosses individual needs and collective strategic needs.
+- Prioritization arbitrates according to impact and urgency.
+- Financing optimization increases the volume of actions at a constant budget.
+- The plan is formalized over a multi-year horizon with indicators.
+- The works council is consulted in companies with representative bodies.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to build a skills development plan for a corporate client"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-un-plan-de-developpement-des-competences-pour-une-entreprise-cliente","lang":"en","title":"How to build a skills development plan for a corporate client","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","IA","OPCO"],"shortDescription":"Building a skills development plan for a corporate client consists in gathering needs, prioritizing them against the company's strategy, arbitrating budget and financing, then formalizing a multi-y...","metaDescription":"Building a skills development plan for a corporate client consists in gathering needs, prioritizing them against the company's strategy, arbitrating budget and financing, then formalizing a multi-year action plan steered by indicators.","content":"$4","order":17},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

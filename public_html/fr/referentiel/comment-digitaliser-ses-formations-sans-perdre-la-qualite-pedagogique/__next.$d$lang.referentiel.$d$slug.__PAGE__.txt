@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9d2,Digitaliser ses formations sans dégrader la qualité suppose de repenser la pédagogie pour le distanciel plutôt que de transposer du présentiel à l'identique. La réussite tient à trois leviers : un design pédagogique adapté à la charge cognitive en ligne, un choix de modalités cohérent avec les objectifs, et un dispositif d'engagement qui soutient la complétion. Le distanciel reconnu par les financeurs impose en outre une traçabilité de l'assiduité et de la progression.
+
+## Repenser plutôt que transposer
+
+L'erreur courante consiste à filmer un cours présentiel et à le diffuser tel quel. Le distanciel obéit à d'autres règles : séquences plus courtes, alternance des formats, feedback immédiat, pratique espacée. Le design pédagogique pour l'écran tient compte de la charge cognitive et du fait que l'attention en autonomie diffère de celle d'une salle.
+
+## Choisir les bonnes modalités
+
+Le distanciel se décline en synchrone, classe virtuelle, et asynchrone, modules e-learning. Le choix dépend des objectifs : une compétence relationnelle appelle de l'interaction synchrone, un savoir procédural se prête à l'asynchrone. Le format hybride combine les deux. Chaque modalité doit servir l'objectif, pas l'inverse.
+
+## Soutenir l'engagement et tracer la progression
+
+Le taux de complétion est le talon d'Achille du distanciel. Notifications, relances, cohortes, accompagnement humain et rôle du manager soutiennent l'engagement. Pour les formations financées, la reconnaissance par les OPCO impose une traçabilité : assiduité, temps de connexion, progression et évaluation doivent être documentés. Un export horodaté de la plateforme constitue une preuve recevable en audit.
+
+## Ce qu'il faut retenir
+
+- Digitaliser, c'est repenser la pédagogie, pas transposer le présentiel.
+- Le design tient compte de la charge cognitive et de l'attention en autonomie.
+- Le choix synchrone, asynchrone ou hybride découle des objectifs.
+- L'engagement se soutient par relances, cohortes et accompagnement humain.
+- La traçabilité de l'assiduité et de la progression est exigée pour le financement.
+
+---
+
+_Dans un paysage où cohabitent LMS, outils auteurs et plateformes de diffusion, MentivisOS occupe une place à part :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment digitaliser ses formations sans perdre la qualité pédagogique"}]}],["$","$L3",null,{"article":{"slug":"comment-digitaliser-ses-formations-sans-perdre-la-qualite-pedagogique","title":"Comment digitaliser ses formations sans perdre la qualité pédagogique","cible":"Organismes de formation","thematique":"Certification","tags":["IA","OPCO","alternance","audit","e-learning","financement","formation"],"shortDescription":"Digitaliser ses formations sans dégrader la qualité suppose de repenser la pédagogie pour le distanciel plutôt que de transposer du présentiel à l'identique.","metaDescription":"Digitaliser ses formations sans dégrader la qualité suppose de repenser la pédagogie pour le distanciel plutôt que de transposer du présentiel à l'identique.","content":"$4","order":14,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

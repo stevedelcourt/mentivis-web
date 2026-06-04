@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T939,Putting internal mentoring in place means organizing the transmission of competencies between experienced employees and those who are developing, by recognizing the mentor role, training them to transmit, and freeing up their time. Mentoring leverages know-how that is often tacit and hard to externalize. Its success rests less on goodwill than on a clear framework: an identified, trained mentor with allocated time, and tracking of actual transfer.
+
+## Recognizing and training the mentor
+
+A good expert is not automatically a good mentor. Transmission is a competency in its own right: structuring learning, giving feedback, accompanying mistakes. Formally recognizing the mentor role and training them in transmission transforms improvised knowledge-sharing into an effective program. This recognition also values the mentor, which sustains their engagement.
+
+## Freeing up real time
+
+Mentoring most often fails for lack of time: the mentor, absorbed by their own workload, cannot accompany. Freeing up explicit, organizationally recognized time is the condition for success. Without this allocation, mentoring remains an intention. Time devoted to mentoring is an investment, not a productivity loss, as it secures critical competencies.
+
+## Tracking actual transfer
+
+Mentoring aims at real competency transfer, not just informal accompaniment. Defining what must be transmitted, marking milestones in progression and verifying acquisition give the program substance. Mentoring can also be linked to certifications when the transmitted competencies are formalizable. This tracking distinguishes a steered program from one left to chance.
+
+## Key takeaways
+
+- Transmission is a competency: the mentor must be trained, not merely competent.
+- Formal recognition of the role sustains the mentor's engagement.
+- Freeing up real time is the condition for success.
+- Mentoring leverages tacit know-how that cannot be externalized.
+- Tracking transfer distinguishes a steered program from informal accompaniment.
+
+---
+
+_While most tools only track activity, MentivisOS puts real skills acquisition at the core of the system:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to put in place internal mentoring as a training tool"}]}],["$","$L3",null,{"article":{"slug":"comment-mettre-en-place-le-tutorat-interne-comme-outil-de-formation","lang":"en","title":"How to put in place internal mentoring as a training tool","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["certification"],"shortDescription":"Putting internal mentoring in place means organizing the transmission of competencies between experienced employees and those who are developing, by recognizing the mentor role, training them to tr...","metaDescription":"Putting internal mentoring in place means organizing the transmission of competencies between experienced employees and those who are developing, by recognizing the mentor role, training them to transmit, and freeing up their time.","content":"$4","order":42},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

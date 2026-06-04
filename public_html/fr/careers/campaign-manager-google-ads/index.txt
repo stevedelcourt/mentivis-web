@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","fr","careers","campaign-manager-google-ads",""],"q":"","i":false,"f":[[["",{"children":[["lang","fr","d",null],{"children":["careers",{"children":[["slug","campaign-manager-google-ads","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"n4UbzMPi9zZwSxycaFaVu"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"fr"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+14:T119e,## Le contexte
+
+MentivisOS est un système opérationnel intégré pour les organismes de formation, les écoles et les universités. L'acquisition est un enjeu central de notre modèle. Nous recrutons un spécialiste Google Ads capable de piloter nos campagnes avec un niveau d'exigence technique élevé, sur des marchés institutionnels où chaque lead a de la valeur et où la précision de l'optimisation fait la différence entre une campagne rentable et un budget consommé sans retour mesurable.
+
+## Vos responsabilités
+
+### Pilotage et gestion des campagnes
+
+Vous gérez l'ensemble du portefeuille de campagnes Google Ads : Search, Display et Performance Max. Vous êtes responsable de la structure des comptes, de l'architecture des campagnes, de la cohérence entre les objectifs de conversion et les stratégies d'enchères. Vous pilotez les budgets et les performances en temps réel, avec une lecture fine des signaux d'enchères et des dynamiques d'auction.
+
+### Optimisation technique avancée
+
+Vous maîtrisez les leviers d'optimisation en profondeur. Sur Search : gestion des types de correspondance, analyse des termes de recherche, travail sur le Quality Score, structure des groupes d'annonces, extensions et assets, stratégies d'enchères automatisées et leurs conditions d'efficacité. Sur Display : ciblage par audience, remarketing, segmentation contextuelle, optimisation des visuels et des messages. Sur Performance Max : construction des asset groups, définition des signaux d'audience, analyse des insights de campagne, gestion des exclusions et surveillance des canaux de diffusion.
+
+Vous savez quand automatiser et quand reprendre la main. Vous connaissez les limites des algorithmes et les conditions dans lesquelles ils performent ou dérivent.
+
+### Tracking et mesure de la performance
+
+Vous maîtrisez la mise en place et le contrôle du tracking de conversion : Google Tag Manager, GA4, import de conversions offline. Vous vérifiez la qualité des données en amont de toute optimisation. Vous construisez des rapports clairs dans Looker Studio ou équivalent, orientés décision et non simple restitution de métriques.
+
+### Expérimentation et amélioration continue
+
+Vous structurez et analysez des tests A/B sur les annonces, les pages de destination et les stratégies d'enchères. Vous documentez vos apprentissages et faites évoluer les campagnes sur la base de données, pas d'intuitions.
+
+### Collaboration et recommandations
+
+Vous travaillez avec les équipes contenu, produit et acquisition pour aligner les messages publicitaires avec le positionnement de MentivisOS. Vous produisez des recommandations argumentées sur les budgets, les ciblages et les priorités d'optimisation.
+
+## Profil recherché
+
+**Expertise technique Google Ads.** Vous avez une maîtrise opérationnelle réelle des campagnes Search, Display et Performance Max. Vous connaissez les finesses techniques qui font la différence à l'échelle : gestion des enchères en phase d'apprentissage, impact des changements de structure sur l'algorithme, lecture des rapports de placement PMax, segmentation des audiences pour le remarketing.
+
+**Certification Google Ads.** La certification Google Ads est appréciée. Elle ne remplace pas l'expérience terrain, mais elle témoigne d'une mise à jour régulière des connaissances sur des formats et des fonctionnalités en évolution constante.
+
+**Orientation conversion.** Vous ne gérez pas des campagnes pour produire du volume. Vous gérez des campagnes pour produire des résultats mesurables. Vous pensez en coût par lead qualifié, en taux de conversion par segment, en rentabilité par canal.
+
+**Rigueur analytique.** Vous lisez les données avec méthode. Vous savez distinguer un signal d'un artefact statistique, une corrélation d'une causalité, une anomalie de tracking d'une vraie baisse de performance.
+
+**Autonomie.** Vous gérez vos comptes de manière indépendante, prenez des décisions d'optimisation sans attendre de validation systématique, et rendez compte avec précision et régularité.
+
+## Atouts supplémentaires
+
+Expérience sur des marchés B2B ou institutionnels, connaissance de Google Merchant Center et des flux produits, pratique de Microsoft Ads ou Meta Ads en complément, maîtrise de scripts Google Ads pour l'automatisation des tâches répétitives.
+
+## Localisation
+
+Remote-first. Déplacements ponctuels possibles selon les besoins de l'équipe.
+
+**[mentivisos.com](https://mentivisos.com/)**6:[["$","$L13",null,{"data":{"@context":"https://schema.org","@type":"JobPosting","title":"Campaign Manager Google Ads","description":"$14","datePosted":"2026-05-18","employmentType":"FREELANCE","hiringOrganization":{"@type":"Organization","name":"Mentivis","sameAs":"https://mentivis.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"60 Rue François 1er","addressLocality":"Paris","postalCode":"75008","addressCountry":"FR"}}}}],"$L15","$L16"]
+17:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+18:I[7895,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+15:["$","$L17",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Carrières","url":"https://mentivis.com/fr/careers/"},{"name":"Campaign Manager Google Ads"}]}]
+19:T119e,## Le contexte
+
+MentivisOS est un système opérationnel intégré pour les organismes de formation, les écoles et les universités. L'acquisition est un enjeu central de notre modèle. Nous recrutons un spécialiste Google Ads capable de piloter nos campagnes avec un niveau d'exigence technique élevé, sur des marchés institutionnels où chaque lead a de la valeur et où la précision de l'optimisation fait la différence entre une campagne rentable et un budget consommé sans retour mesurable.
+
+## Vos responsabilités
+
+### Pilotage et gestion des campagnes
+
+Vous gérez l'ensemble du portefeuille de campagnes Google Ads : Search, Display et Performance Max. Vous êtes responsable de la structure des comptes, de l'architecture des campagnes, de la cohérence entre les objectifs de conversion et les stratégies d'enchères. Vous pilotez les budgets et les performances en temps réel, avec une lecture fine des signaux d'enchères et des dynamiques d'auction.
+
+### Optimisation technique avancée
+
+Vous maîtrisez les leviers d'optimisation en profondeur. Sur Search : gestion des types de correspondance, analyse des termes de recherche, travail sur le Quality Score, structure des groupes d'annonces, extensions et assets, stratégies d'enchères automatisées et leurs conditions d'efficacité. Sur Display : ciblage par audience, remarketing, segmentation contextuelle, optimisation des visuels et des messages. Sur Performance Max : construction des asset groups, définition des signaux d'audience, analyse des insights de campagne, gestion des exclusions et surveillance des canaux de diffusion.
+
+Vous savez quand automatiser et quand reprendre la main. Vous connaissez les limites des algorithmes et les conditions dans lesquelles ils performent ou dérivent.
+
+### Tracking et mesure de la performance
+
+Vous maîtrisez la mise en place et le contrôle du tracking de conversion : Google Tag Manager, GA4, import de conversions offline. Vous vérifiez la qualité des données en amont de toute optimisation. Vous construisez des rapports clairs dans Looker Studio ou équivalent, orientés décision et non simple restitution de métriques.
+
+### Expérimentation et amélioration continue
+
+Vous structurez et analysez des tests A/B sur les annonces, les pages de destination et les stratégies d'enchères. Vous documentez vos apprentissages et faites évoluer les campagnes sur la base de données, pas d'intuitions.
+
+### Collaboration et recommandations
+
+Vous travaillez avec les équipes contenu, produit et acquisition pour aligner les messages publicitaires avec le positionnement de MentivisOS. Vous produisez des recommandations argumentées sur les budgets, les ciblages et les priorités d'optimisation.
+
+## Profil recherché
+
+**Expertise technique Google Ads.** Vous avez une maîtrise opérationnelle réelle des campagnes Search, Display et Performance Max. Vous connaissez les finesses techniques qui font la différence à l'échelle : gestion des enchères en phase d'apprentissage, impact des changements de structure sur l'algorithme, lecture des rapports de placement PMax, segmentation des audiences pour le remarketing.
+
+**Certification Google Ads.** La certification Google Ads est appréciée. Elle ne remplace pas l'expérience terrain, mais elle témoigne d'une mise à jour régulière des connaissances sur des formats et des fonctionnalités en évolution constante.
+
+**Orientation conversion.** Vous ne gérez pas des campagnes pour produire du volume. Vous gérez des campagnes pour produire des résultats mesurables. Vous pensez en coût par lead qualifié, en taux de conversion par segment, en rentabilité par canal.
+
+**Rigueur analytique.** Vous lisez les données avec méthode. Vous savez distinguer un signal d'un artefact statistique, une corrélation d'une causalité, une anomalie de tracking d'une vraie baisse de performance.
+
+**Autonomie.** Vous gérez vos comptes de manière indépendante, prenez des décisions d'optimisation sans attendre de validation systématique, et rendez compte avec précision et régularité.
+
+## Atouts supplémentaires
+
+Expérience sur des marchés B2B ou institutionnels, connaissance de Google Merchant Center et des flux produits, pratique de Microsoft Ads ou Meta Ads en complément, maîtrise de scripts Google Ads pour l'automatisation des tâches répétitives.
+
+## Localisation
+
+Remote-first. Déplacements ponctuels possibles selon les besoins de l'équipe.
+
+**[mentivisos.com](https://mentivisos.com/)**1a:Tf06,## Context
+
+MentivisOS is a full-stack operational system for training organisations, schools and universities. Acquisition is a core driver of our model. We are looking for a Google Ads specialist capable of managing our campaigns at a high level of technical precision, in institutional markets where each lead carries significant value and where the depth of optimisation determines the difference between a profitable campaign and a consumed budget with no measurable return.
+
+## Your responsibilities
+
+### Campaign management and oversight
+
+You manage the full Google Ads campaign portfolio: Search, Display and Performance Max. You own account structure, campaign architecture, alignment between conversion objectives and bidding strategies. You manage budgets and performance in real time, with a precise reading of bidding signals and auction dynamics.
+
+### Advanced technical optimisation
+
+You command the full range of optimisation levers. On Search: match type management, search term analysis, Quality Score improvement, ad group structure, extensions and assets, automated bidding strategies and the conditions under which they perform. On Display: audience targeting, remarketing, contextual segmentation, creative and message optimisation. On Performance Max: asset group construction, audience signal definition, campaign insight analysis, exclusion management and channel distribution monitoring.
+
+You know when to let the algorithm run and when to take back control. You understand the limits of automation and the conditions under which it performs or drifts.
+
+### Tracking and performance measurement
+
+You are proficient in conversion tracking setup and quality control: Google Tag Manager, GA4, offline conversion import. You verify data integrity before any optimisation decision. You build clear, decision-oriented reports in Looker Studio or equivalent, not simple metric dashboards.
+
+### Experimentation and continuous improvement
+
+You design and analyse A/B tests on ads, landing pages and bidding strategies. You document learnings and evolve campaigns based on data, not assumptions.
+
+### Collaboration and recommendations
+
+You work with content, product and acquisition teams to align ad messaging with MentivisOS positioning. You produce structured, evidence-based recommendations on budgets, targeting and optimisation priorities.
+
+## Profile
+
+**Google Ads technical expertise.** You have genuine operational mastery of Search, Display and Performance Max campaigns. You know the technical details that matter at scale: managing bids during the learning phase, the impact of structural changes on the algorithm, reading PMax placement reports, audience segmentation for remarketing.
+
+**Google Ads certification.** Google Ads certification is appreciated. It does not replace field experience, but it signals consistent engagement with formats and features that evolve constantly.
+
+**Conversion orientation.** You do not manage campaigns to produce volume. You manage campaigns to produce measurable outcomes. You think in cost per qualified lead, conversion rate by segment and channel-level profitability.
+
+**Analytical rigour.** You read data methodically. You distinguish signal from statistical noise, correlation from causation, a tracking anomaly from a genuine performance drop.
+
+**Autonomy.** You manage your accounts independently, make optimisation decisions without systematic approval, and report with precision and regularity.
+
+## Bonus skills
+
+Experience on B2B or institutional markets, knowledge of Google Merchant Center and product feeds, practice of Microsoft Ads or Meta Ads as complementary channels, proficiency in Google Ads scripts for automating repetitive tasks.
+
+## Location
+
+Remote-first. Occasional travel possible depending on team needs.
+
+**[mentivisos.com](https://mentivisos.com/)**16:["$","$L18",null,{"job":{"slug":"campaign-manager-google-ads","titleFr":"Campaign Manager Google Ads","titleEn":"Campaign Manager Google Ads","department":"Growth","location":"Paris","type":"freelance","remote":true,"date":"2026-05-18","descriptionFr":"$19","descriptionEn":"$1a"},"lang":"fr"}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Campaign Manager Google Ads | Mentivis"}],["$","meta","1",{"name":"description","content":"Growth - Paris"}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","link","4",{"rel":"canonical","href":"https://mentivis.com/fr/careers/campaign-manager-google-ads/"}],["$","link","5",{"rel":"alternate","hrefLang":"fr-FR","href":"https://mentivis.com/fr/careers/campaign-manager-google-ads/"}],["$","link","6",{"rel":"alternate","hrefLang":"en-US","href":"https://mentivis.com/en/careers/campaign-manager-google-ads/"}],["$","link","7",{"rel":"alternate","hrefLang":"x-default","href":"https://mentivis.com/fr/careers/campaign-manager-google-ads/"}],["$","meta","8",{"property":"og:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","9",{"property":"og:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","10",{"property":"og:url","content":"https://mentivis.com/fr/"}],["$","meta","11",{"property":"og:site_name","content":"Mentivis"}],["$","meta","12",{"property":"og:locale","content":"fr_FR"}],["$","meta","13",{"property":"og:image","content":"https://mentivis.com/opengraph-image.jpg"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"Mentivis"}],["$","meta","17",{"property":"og:type","content":"website"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","20",{"name":"twitter:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","21",{"name":"twitter:image","content":"https://mentivis.com/opengraph-image.jpg"}],["$","link","22",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","23",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","24",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","25",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","26",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L1b","27",{}]]

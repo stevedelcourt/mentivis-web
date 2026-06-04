@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tad4,Répondre à une obligation de formation sectorielle consiste à identifier les formations rendues obligatoires par la convention collective ou la réglementation propre à son secteur, à les déployer auprès des salariés concernés, et à conserver les preuves de leur réalisation. De nombreux secteurs, bâtiment, transport, santé, sécurité, imposent des formations ou habilitations spécifiques, souvent à renouveler périodiquement. Le manquement expose à des sanctions et engage la responsabilité de l'employeur, parfois sur le terrain de la sécurité.
+
+## Identifier les obligations sectorielles
+
+Les obligations de formation sectorielles découlent de plusieurs sources : conventions collectives de branche, réglementations spécifiques à une activité, exigences liées à des habilitations ou autorisations d'exercice. Chaque secteur a ses propres exigences, parfois nombreuses. La première étape est de recenser précisément ce qui s'applique à l'activité de l'entreprise, en s'appuyant sur la branche et la réglementation applicable.
+
+## Déployer et renouveler
+
+Les formations obligatoires sectorielles, souvent liées à la sécurité ou à des habilitations, doivent être déployées auprès de tous les salariés concernés, dans les délais requis, et renouvelées selon les périodicités prévues. Une habilitation expirée équivaut à une absence d'habilitation. Le suivi des échéances de renouvellement est donc aussi important que la formation initiale, et gagne à être outillé.
+
+## Tracer et contrôler
+
+La preuve de la réalisation des formations obligatoires est essentielle, notamment parce que la responsabilité de l'employeur peut être engagée en cas d'incident, particulièrement sur les sujets de sécurité. Conserver les attestations, habilitations et certificats, et tenir à jour un suivi des échéances, documente la conformité. Les OPCO ou organismes de tutelle du secteur peuvent par ailleurs contrôler le respect de ces obligations.
+
+## Ce qu'il faut retenir
+
+- Les obligations sectorielles découlent des conventions de branche et des réglementations d'activité.
+- Le recensement précis de ce qui s'applique est la première étape.
+- Les formations et habilitations doivent être déployées et renouvelées dans les délais.
+- Une habilitation expirée équivaut à une absence d'habilitation.
+- La traçabilité protège l'employeur, dont la responsabilité peut être engagée.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment répondre à une obligation de formation sectorielle spécifique"}]}],["$","$L3",null,{"article":{"slug":"comment-repondre-a-une-obligation-de-formation-sectorielle-specifique","title":"Comment répondre à une obligation de formation sectorielle spécifique","cible":"Entreprises","thematique":"Certification","tags":["IA","OPCO","conformité","formation"],"shortDescription":"Répondre à une obligation de formation sectorielle consiste à identifier les formations rendues obligatoires par la convention collective ou la réglementation propre à son secteur, à les déployer a...","metaDescription":"Répondre à une obligation de formation sectorielle consiste à identifier les formations rendues obligatoires par la convention collective ou la réglementation propre à son secteur, à les déployer auprès des salariés concernés, et à conserver les preuves de leur réalisation.","content":"$4","order":59,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

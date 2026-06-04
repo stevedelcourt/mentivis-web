@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta80,Former ses équipes sur la compliance et la réglementation suppose d'identifier les formations obligatoires applicables à l'entreprise, de les déployer de façon traçable, et de conserver les attestations qui prouvent leur réalisation. Sécurité, protection des données, éthique, lutte contre la corruption : ces formations répondent à des obligations dont le manquement expose l'entreprise à des risques juridiques. L'enjeu n'est pas seulement de former, mais de pouvoir démontrer que la formation a bien eu lieu, pour chaque collaborateur concerné.
+
+## Identifier les obligations applicables
+
+Les obligations de formation en compliance varient selon le secteur, la taille et l'activité de l'entreprise. Certaines sont transversales, sécurité au travail, protection des données personnelles, d'autres sectorielles ou liées à des réglementations spécifiques. La première étape est de cartographier ce qui s'applique réellement à l'entreprise, pour ne pas former par excès ni laisser de lacune.
+
+## Déployer de façon traçable
+
+Les formations de compliance se prêtent souvent au e-learning, qui permet un déploiement à grande échelle et une traçabilité native. Le suivi de la réalisation, qui a suivi quoi, quand, avec quel résultat, est ici essentiel, car c'est cette traçabilité qui constitue la preuve. Un module non suivi ou non tracé équivaut, en cas de contrôle, à une formation non réalisée.
+
+## Conserver les preuves et actualiser
+
+Les attestations de réalisation doivent être conservées, car elles démontrent le respect des obligations en cas de contrôle ou d'incident. Les réglementations évoluant, les formations de compliance doivent être actualisées et répétées selon les fréquences requises. Une veille sur les obligations applicables et un dispositif de mise à jour évitent que la formation ne devienne obsolète et que la conformité ne se périme silencieusement.
+
+## Ce qu'il faut retenir
+
+- Les obligations de compliance varient selon secteur, taille et activité.
+- La cartographie des obligations applicables évite excès et lacunes.
+- Le e-learning permet un déploiement à grande échelle et une traçabilité native.
+- La traçabilité de la réalisation constitue la preuve en cas de contrôle.
+- Les formations doivent être actualisées et répétées selon les fréquences requises.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment former mes équipes sur les sujets de compliance et de réglementation"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation","title":"Comment former mes équipes sur les sujets de compliance et de réglementation","cible":"Entreprises","thematique":"Pédagogie","tags":["IA","conformité","e-learning","formation"],"shortDescription":"Former ses équipes sur la compliance et la réglementation suppose d'identifier les formations obligatoires applicables à l'entreprise, de les déployer de façon traçable, et de conserver les attesta...","metaDescription":"Former ses équipes sur la compliance et la réglementation suppose d'identifier les formations obligatoires applicables à l'entreprise, de les déployer de façon traçable, et de conserver les attestations qui prouvent leur réalisation.","content":"$4","order":54,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

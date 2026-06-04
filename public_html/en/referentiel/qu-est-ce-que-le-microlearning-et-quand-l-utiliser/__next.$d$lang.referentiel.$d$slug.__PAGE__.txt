@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T861,Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes. It is particularly suited to knowledge anchoring, continuous training for time-constrained audiences, and spaced reinforcement. It is not suited, however, to the acquisition of complex competencies requiring sustained practice and accompaniment. Microlearning is a format, not a universal method: its relevance depends on the pedagogical objective.
+
+## The principle of microlearning
+
+Microlearning fragments learning into brief modules, each addressing one precise point, quickly consumable. This granularity responds to the difficulty of mobilizing long attention spans, particularly in self-directed or mobile settings. It draws on the principle of spaced repetition, which promotes durable retention better than massed learning in a single session.
+
+## When microlearning is relevant
+
+Microlearning excels for anchoring and recalling knowledge, point-in-time upskilling, and continuous training for audiences that cannot free up much time. It serves well as post-training reinforcement, consolidating learning through spaced reminders. It also suits large-scale distribution of short messages, for example in compliance or awareness contexts.
+
+## When it is not enough
+
+Microlearning shows its limits for the acquisition of complex competencies, which require sustained practice, simulation and accompaniment. Over-fragmenting learning that requires an overall picture undermines comprehension. Microlearning then fits as a component of a broader program, as reinforcement or as a prerequisite, rather than as the core of the training. Confusing short format with easy learning is a frequent mistake.
+
+## Key takeaways
+
+- Microlearning breaks learning into short units centered on one objective.
+- It draws on spaced repetition, which promotes durable retention.
+- It excels for anchoring, upskilling and training time-constrained audiences.
+- It is not suited alone to the acquisition of complex competencies.
+- It is a format to integrate according to the objective, not a universal method.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"What is microlearning and when should I use it"}]}],["$","$L3",null,{"article":{"slug":"qu-est-ce-que-le-microlearning-et-quand-l-utiliser","lang":"en","title":"What is microlearning and when should I use it","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","microlearning"],"shortDescription":"Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.","metaDescription":"Microlearning consists in breaking learning down into short, targeted units, each centered on one precise objective and consumable in a few minutes.","content":"$4","order":67},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

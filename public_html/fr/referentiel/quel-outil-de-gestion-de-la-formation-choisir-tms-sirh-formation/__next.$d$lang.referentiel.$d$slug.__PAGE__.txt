@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta93,Choisir un outil de gestion de la formation, parfois appelé TMS ou module formation du système RH, suppose de distinguer la gestion administrative et logistique de la formation de la diffusion pédagogique assurée par un LMS. Un outil de gestion pilote les inscriptions, les plannings, les budgets, les financements et le reporting réglementaire. Le choix dépend du volume à gérer, de la complexité des financements, et du besoin d'intégration avec le système RH et le LMS. Confondre les deux types d'outils conduit à des attentes mal placées.
+
+## Gestion administrative et diffusion pédagogique
+
+Un outil de gestion de la formation gère l'administratif : inscriptions, convocations, plannings, salles, budgets, suivi des financements, reporting. Un LMS gère la diffusion et le suivi pédagogique des contenus en ligne. Les deux fonctions sont distinctes, même si certains outils les combinent. Clarifier ce que l'on cherche à piloter, l'administratif ou le pédagogique, est le préalable au choix.
+
+## Les critères de choix
+
+Le choix dépend du volume de formations et d'apprenants à gérer, de la complexité des circuits de financement à suivre, OPCO, CPF, plan, des besoins de reporting réglementaire, et du degré d'intégration souhaité avec le système RH. Pour une organisation gérant de nombreux financements, la capacité à suivre les dossiers de prise en charge et à produire les justificatifs est déterminante.
+
+## L'intégration au système d'information
+
+Un outil de gestion de la formation prend sa valeur dans son intégration : connexion au système RH pour les données salariés, au LMS pour le suivi pédagogique, aux outils financiers pour le budget. Une gestion en silo, déconnectée, génère des doubles saisies et des incohérences. La capacité d'intégration, par interfaces ou connecteurs standards, est donc un critère majeur, souvent sous-estimé au moment du choix.
+
+## Ce qu'il faut retenir
+
+- Un outil de gestion pilote l'administratif ; un LMS gère le pédagogique.
+- Clarifier ce que l'on veut piloter est le préalable au choix.
+- Volume, complexité des financements et reporting réglementaire sont les critères clés.
+- Le suivi des dossiers de prise en charge est déterminant en contexte multi-financements.
+- La capacité d'intégration au système RH et au LMS est un critère majeur.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus, MentivisOS va bien plus loin :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Quel outil de gestion de la formation choisir (TMS, SIRH formation)"}]}],["$","$L3",null,{"article":{"slug":"quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation","title":"Quel outil de gestion de la formation choisir (TMS, SIRH formation)","cible":"EdTech, plateformes et outils numériques","thematique":"Financement","tags":["CPF","LMS","OPCO","VR","financement","formation"],"shortDescription":"Choisir un outil de gestion de la formation, parfois appelé TMS ou module formation du système RH, suppose de distinguer la gestion administrative et logistique de la formation de la diffusion péda...","metaDescription":"Choisir un outil de gestion de la formation, parfois appelé TMS ou module formation du système RH, suppose de distinguer la gestion administrative et logistique de la formation de la diffusion pédagogique assurée par un LMS.","content":"$4","order":69,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

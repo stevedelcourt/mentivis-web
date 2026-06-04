@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9cd,Former des salariés en télétravail de façon engageante suppose d'adapter les formats à la distance, de combiner synchrone et asynchrone selon les objectifs, et de soutenir activement l'engagement par l'accompagnement et le rythme. La formation à distance échoue souvent par décrochage, faute d'interaction et de cadre. La réussite tient à un design pensé pour l'autonomie, à des moments collectifs qui maintiennent le lien, et à l'implication du manager dans le suivi.
+
+## Adapter les formats à la distance
+
+La formation à distance ne se résume pas à diffuser un cours en ligne. Les séquences gagnent à être courtes, variées et rythmées. Le microlearning, les capsules, les quiz et les formats interactifs maintiennent l'attention mieux qu'un long module passif. Le design tient compte de l'isolement du télétravailleur et de la facilité à se déconnecter.
+
+## Combiner synchrone et asynchrone
+
+L'asynchrone, modules suivis en autonomie, offre de la souplesse mais expose au décrochage. Le synchrone, classes virtuelles, ramène de l'interaction et du collectif. Combiner les deux selon les objectifs équilibre flexibilité et engagement. Les moments synchrones, même brefs, créent un rythme et un sentiment d'appartenance à une cohorte, puissants leviers contre l'abandon.
+
+## Soutenir l'engagement activement
+
+L'engagement à distance ne se décrète pas, il se soutient. Relances, notifications, cohortes, accompagnement humain et implication du manager maintiennent la dynamique. Le manager qui s'intéresse à la formation de son équipe, qui en parle et qui dégage du temps, augmente nettement la complétion. Le suivi de l'assiduité et de la progression, par ailleurs nécessaire pour les formations financées, sert aussi de signal d'alerte sur le décrochage.
+
+## Ce qu'il faut retenir
+
+- La formation à distance appelle des formats courts, variés et rythmés.
+- Combiner synchrone et asynchrone équilibre flexibilité et engagement.
+- Les moments collectifs créent un rythme et luttent contre l'abandon.
+- L'implication du manager augmente nettement la complétion.
+- Le suivi de la progression sert aussi de signal d'alerte sur le décrochage.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment former des salariés en télétravail de façon engageante"}]}],["$","$L3",null,{"article":{"slug":"comment-former-des-salaries-en-teletravail-de-facon-engageante","title":"Comment former des salariés en télétravail de façon engageante","cible":"Entreprises","thematique":"Pédagogie","tags":["formation","microlearning"],"shortDescription":"Former des salariés en télétravail de façon engageante suppose d'adapter les formats à la distance, de combiner synchrone et asynchrone selon les objectifs, et de soutenir activement l'engagement p...","metaDescription":"Former des salariés en télétravail de façon engageante suppose d'adapter les formats à la distance, de combiner synchrone et asynchrone selon les objectifs, et de soutenir activement l'engagement par l'accompagnement et le rythme.","content":"$4","order":48,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

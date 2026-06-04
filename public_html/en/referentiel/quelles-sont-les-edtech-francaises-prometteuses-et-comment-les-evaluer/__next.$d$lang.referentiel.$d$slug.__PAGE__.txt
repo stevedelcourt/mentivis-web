@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tacc,Rather than a list of actors that quickly becomes outdated, evaluating promising French EdTech companies requires a stable evaluation framework: the actual nature of the product, distribution, creation, management or generation, the problem it solves, its economic model, its compliance with the French training framework, and its durability. The French EdTech sector is dynamic and organized around several categories. Understanding these categories and applying an evaluation framework is more valuable than following rankings, which are often biased and quickly obsolete.
+
+## Understanding the sector categories
+
+French EdTech covers distinct objects: distribution platforms, content creation authoring tools, administrative management tools, content marketplaces, assessment tools, and more recently content generation engines. Placing an actor within its category is the prerequisite for any evaluation, as comparing tools from different categories has no meaning. The sector's dynamism partly stems from the emergence of new categories linked to AI.
+
+## Applying a stable evaluation framework
+
+An evaluation framework resists time better than a list. Useful criteria: which specific problem the tool solves, for which user, with what economic model, what compliance with the French training regulatory framework, what integration capacity, and what organizational solidity. This framework makes it possible to evaluate any actor, present or future, without depending on a ranking.
+
+## Prioritizing durability and local anchorage
+
+For a significant commitment, the durability of the actor matters as much as the features. A promising tool carried by a fragile organization exposes to a continuity risk. Anchorage in the French framework, understanding of financing circuits, certifications, obligations, is an advantage for national actors facing international solutions less adapted to the regulatory context. Evaluating an EdTech also means evaluating its ability to last and to understand the French market.
+
+## Key takeaways
+
+- A stable evaluation framework is more valuable than a list of actors that quickly becomes obsolete.
+- Placing an actor in its category is the prerequisite for any comparison.
+- Criteria: problem solved, user, model, compliance, integration, solidity.
+- The durability of the actor matters as much as the features.
+- Anchorage in the French framework is an advantage over international solutions.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Which French EdTech companies are worth watching and how to evaluate them"}]}],["$","$L3",null,{"article":{"slug":"quelles-sont-les-edtech-francaises-prometteuses-et-comment-les-evaluer","lang":"en","title":"Which French EdTech companies are worth watching and how to evaluate them","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Certification","thematiqueEn":"Certification","tags":["EdTech","IA","certification","management"],"shortDescription":"Rather than a list of actors that quickly becomes outdated, evaluating promising French EdTech companies requires a stable evaluation framework: the actual nature of the product, distribution, crea...","metaDescription":"Rather than a list of actors that quickly becomes outdated, evaluating promising French EdTech companies requires a stable evaluation framework: the actual nature of the product, distribution, creation, management or generation, the problem it solves, its economic model, its compliance with the French training framework, and its durability.","content":"$4","order":81},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

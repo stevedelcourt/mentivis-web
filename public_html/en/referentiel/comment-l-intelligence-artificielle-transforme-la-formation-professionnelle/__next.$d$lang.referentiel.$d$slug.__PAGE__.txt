@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7d7,Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts content to each learner's profile; and analysis, where it exploits learning data for management purposes. The most structurally significant shift concerns production: moving from a logic of distributing pre-existing content to a logic of on-demand generation changes the very economics of training.
+
+## Producing at scale
+
+The first effect of AI concerns production. Designing a program, materials and assessments was a lengthy and costly task. A generation engine produces these elements from a need and a reference framework in a fraction of the time. This shift moves the bottleneck: scarcity is no longer the capacity to produce content, but the quality of needs diagnosis.
+
+## Personalizing pathways
+
+AI makes it possible to adapt the pathway to each learner: adjusting pace, level and proposed content according to acquisition and detected difficulties. This personalization, not achievable manually at scale, improves engagement and effectiveness. Adaptive learning directs each person toward what they need, rather than unrolling a uniform pathway.
+
+## Analyzing and managing
+
+AI exploits learning data to reveal what works: where learners disengage, which content produces acquisition, which pathways lead to the outcome. This analysis, called learning analytics, transforms training management from intuition-based to data-driven. It feeds the continuous improvement of programs. The challenge is not the tool but the ability to translate analysis into decisions.
+
+## Key takeaways
+
+- AI acts on content production, personalization and analysis.
+- The most structurally significant effect is large-scale production.
+- The bottleneck shifts toward the quality of needs diagnosis.
+- Adaptive learning personalizes each learner's pathway.
+- Learning analytics grounds management on data rather than intuition.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How artificial intelligence is transforming professional training"}]}],["$","$L3",null,{"article":{"slug":"comment-l-intelligence-artificielle-transforme-la-formation-professionnelle","lang":"en","title":"How artificial intelligence is transforming professional training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","management"],"shortDescription":"Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts conten...","metaDescription":"Artificial intelligence acts on training at three levels: content production, where it makes it possible to generate programs and materials at scale; pathway personalization, where it adapts content to each learner's profile; and analysis, where it exploits learning data for management purposes.","content":"$4","order":63},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

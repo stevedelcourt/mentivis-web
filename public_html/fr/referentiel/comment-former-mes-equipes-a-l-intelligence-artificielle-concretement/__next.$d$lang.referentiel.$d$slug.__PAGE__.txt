@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta93,Former ses équipes à l'intelligence artificielle de façon concrète suppose de partir des usages réels par métier plutôt que des concepts généraux, de former d'abord aux outils que les collaborateurs utiliseront vraiment, et d'accompagner les managers sur la supervision et l'intégration de l'IA dans les processus. Une formation IA générique laisse peu de traces. L'impact vient d'un ancrage dans les tâches quotidiennes de chaque fonction et d'un plan de transformation des pratiques au-delà de la simple découverte des outils.
+
+## Partir des usages métier
+
+L'IA ne se forme pas en abstrait. Chaque fonction a ses usages pertinents : rédaction et synthèse pour les fonctions support, analyse pour les fonctions data, relation client pour le commerce. Identifier ces usages par métier oriente la formation vers ce qui change réellement le travail. Une approche par cas concrets produit plus d'adoption qu'un cours général sur l'IA.
+
+## Former aux outils réellement utilisés
+
+La compétence se construit sur les outils que les équipes emploieront effectivement. Former à manier les assistants et les outils déployés dans l'entreprise, avec leurs cas d'usage et leurs limites, ancre des pratiques durables. La maîtrise du prompt, la vérification des résultats et la conscience des limites font partie des compétences de base à transmettre, indépendamment de l'outil.
+
+## Accompagner la transformation des pratiques
+
+Au-delà de l'outil, c'est l'intégration de l'IA dans les processus qui crée la valeur. Les managers doivent être formés à superviser un travail assisté par IA, à arbitrer entre automatisation et contrôle humain, et à faire évoluer les pratiques de leurs équipes. Un plan de transformation, échelonné et accompagné, dépasse la formation ponctuelle et inscrit l'IA dans le fonctionnement réel de l'organisation.
+
+## Ce qu'il faut retenir
+
+- La formation IA part des usages réels par métier, pas des concepts généraux.
+- Elle s'ancre sur les outils que les équipes utiliseront effectivement.
+- Maîtrise du prompt, vérification et conscience des limites sont des compétences de base.
+- Les managers doivent être formés à superviser un travail assisté par IA.
+- Un plan de transformation des pratiques dépasse la formation ponctuelle.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment former mes équipes à l'intelligence artificielle concrètement"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-equipes-a-l-intelligence-artificielle-concretement","title":"Comment former mes équipes à l'intelligence artificielle concrètement","cible":"Entreprises","thematique":"Pédagogie","tags":["IA","VR","formation"],"shortDescription":"Former ses équipes à l'intelligence artificielle de façon concrète suppose de partir des usages réels par métier plutôt que des concepts généraux, de former d'abord aux outils que les collaborateur...","metaDescription":"Former ses équipes à l'intelligence artificielle de façon concrète suppose de partir des usages réels par métier plutôt que des concepts généraux, de former d'abord aux outils que les collaborateurs utiliseront vraiment, et d'accompagner les managers sur la supervision et l'intégration de l'IA dans les processus.","content":"$4","order":39,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

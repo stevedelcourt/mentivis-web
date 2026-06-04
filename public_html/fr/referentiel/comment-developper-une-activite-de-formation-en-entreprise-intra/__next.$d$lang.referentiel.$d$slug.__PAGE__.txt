@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta9a,Développer une activité de formation intra-entreprise consiste à proposer des formations sur mesure dispensées au sein d'une organisation pour ses propres salariés, par opposition aux sessions inter-entreprises ouvertes à des participants de structures différentes. L'intra repose sur un modèle économique distinct, fondé sur la personnalisation, un tarif négocié au forfait plutôt qu'au participant, et une relation de compte qui favorise la récurrence. Sa réussite tient à la capacité à industrialiser la personnalisation sans exploser les coûts de production.
+
+## Intra et inter : deux modèles distincts
+
+L'inter-entreprises rassemble des participants de plusieurs structures sur une session au catalogue, à un tarif par personne. L'intra mobilise une session dédiée à une seule entreprise, sur mesure, facturée au forfait. L'intra offre des marges plus prévisibles et une relation plus profonde, mais exige un effort de personnalisation et une force commerciale orientée comptes.
+
+## Construire l'offre sur mesure
+
+L'intra valorise la personnalisation : adaptation au contexte de l'entreprise, à ses cas concrets, à son vocabulaire. Cette adaptation justifie le tarif et différencie d'un catalogue standard. L'enjeu opérationnel est d'industrialiser cette personnalisation, en partant de briques réutilisables que l'on adapte, plutôt que de reconcevoir chaque intervention de zéro, ce qui détruirait la rentabilité.
+
+## Fidéliser par la relation de compte
+
+L'intra se vend à des comptes, pas à des individus. Un contrat-cadre, un interlocuteur unique et un suivi des résultats nourrissent une relation durable. La satisfaction sur une première intervention ouvre des intra suivants, ce qui rend le coût d'acquisition très inférieur à celui de l'inter. La fidélisation devient le principal levier de croissance rentable.
+
+## Ce qu'il faut retenir
+
+- L'intra est dédié à une entreprise et facturé au forfait ; l'inter est ouvert et facturé par participant.
+- L'intra offre des marges plus prévisibles mais exige de la personnalisation.
+- Industrialiser la personnalisation à partir de briques réutilisables protège la rentabilité.
+- L'intra se vend à des comptes via une relation durable.
+- La fidélisation est le principal levier de croissance rentable.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment développer une activité de formation en entreprise (intra)"}]}],["$","$L3",null,{"article":{"slug":"comment-developper-une-activite-de-formation-en-entreprise-intra","title":"Comment développer une activité de formation en entreprise (intra)","cible":"Organismes de formation","thematique":"Financement","tags":["IA","VR","coût","formation"],"shortDescription":"Développer une activité de formation intra-entreprise consiste à proposer des formations sur mesure dispensées au sein d'une organisation pour ses propres salariés, par opposition aux sessions inte...","metaDescription":"Développer une activité de formation intra-entreprise consiste à proposer des formations sur mesure dispensées au sein d'une organisation pour ses propres salariés, par opposition aux sessions inter-entreprises ouvertes à des participants de structures différentes.","content":"$4","order":22,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

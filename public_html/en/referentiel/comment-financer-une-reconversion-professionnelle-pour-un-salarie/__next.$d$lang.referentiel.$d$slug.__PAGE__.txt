@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T884,Funding the retraining of an employee rests on specific mechanisms depending on whether retraining takes place outside or within the company: the Professional Transition Project, through Transitions Pro, for external retraining with salary maintenance, and Pro-A for retraining or promotion while staying with the company. Employer agreement, salary maintenance and contractual arrangements differ depending on the mechanism. The choice depends on the employee's project and the company's interest in retaining them.
+
+## The Professional Transition Project
+
+The PTP allows an employee to take leave to follow a certified training program for a career change, with salary maintenance funded by the regional Transitions Pro body. The employee remains linked to the company during training. This mechanism is suited when retraining targets a different occupation, possibly outside the company. The employer is informed and may, in certain cases, adjust the timing.
+
+## Pro-A for staying with the company
+
+The reconversion or promotion by alternation, Pro-A, funds a qualification upgrade or career change while remaining with the company, through work-study training combined with contract continuity. It requires an extended branch agreement and an amendment to the contract. This mechanism serves companies that want to move an employee toward a role in shortage rather than recruiting externally.
+
+## Choosing according to the project and interest
+
+The choice of mechanism depends on the purpose. External retraining falls under the PTP; internal evolution falls under Pro-A, supplemented as needed by the skills development plan and CPF top-up. The arbitration weighs the employee's project against the company's interest in retaining and developing competencies rather than losing them.
+
+## Key takeaways
+
+- The PTP funds external retraining with salary maintenance through Transitions Pro.
+- Pro-A funds internal retraining or promotion through work-study.
+- Pro-A requires an extended branch agreement and a contract amendment.
+- CPF top-up and the skills development plan complement these mechanisms.
+- The choice weighs the employee's project against the company's interest.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to fund the professional retraining of an employee"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-une-reconversion-professionnelle-pour-un-salarie","lang":"en","title":"How to fund the professional retraining of an employee","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","Pro-A","reconversion"],"shortDescription":"Funding the retraining of an employee rests on specific mechanisms depending on whether retraining takes place outside or within the company: the Professional Transition Project, through Transition...","metaDescription":"Funding the retraining of an employee rests on specific mechanisms depending on whether retraining takes place outside or within the company: the Professional Transition Project, through Transitions Pro, for external retraining with salary maintenance, and Pro-A for retraining or promotion while staying with the company.","content":"$4","order":40},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

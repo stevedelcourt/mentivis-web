@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T81b,Gamification consists in applying game mechanics, points, levels, challenges, badges, leaderboards, to a learning context to sustain engagement and motivation. Used well, it increases participation and completion; used poorly, it adds a superficial playful layer with no effect on actual learning. The key is aligning game mechanics with pedagogical objectives, not rewarding activity for its own sake at the expense of competency acquisition.
+
+## The principle and its mechanisms
+
+Gamification activates motivational levers: sense of progression, challenge, recognition, sometimes competition or cooperation. Applied to training, these can transform a perceived constraint into an engaging pathway. The goal is not to add play for entertainment, but to activate motivation levers that sustain perseverance in learning.
+
+## Aligning mechanics with objectives
+
+The classic mistake is rewarding activity rather than learning: accumulating points by clicking does not train. Effective gamification rewards real progression, mastery and cognitive effort. Mechanics must be aligned with pedagogical objectives, so that progressing in the game means progressing in competency. Without this alignment, gamification becomes decoration without value.
+
+## Dosing and adapting to the audience
+
+Gamification does not suit all audiences or all content in the same way. Competition motivates some and demotivates others. Dosing matters: too many game elements distract from learning, too few have no effect. Adapting mechanics to the audience and the subject, and measuring their actual effect on engagement and acquisition, distinguishes useful gamification from a gimmick. Restraint is often preferable to excess.
+
+## Key takeaways
+
+- Gamification applies game mechanics to sustain engagement and motivation.
+- It activates progression, challenge and recognition levers.
+- Rewarding actual learning, not activity for its own sake, is essential.
+- Mechanics must be aligned with pedagogical objectives.
+- Dosing and adaptation to the audience distinguish the useful tool from the gimmick.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to use gamification to make training more effective"}]}],["$","$L3",null,{"article":{"slug":"comment-utiliser-la-gamification-pour-rendre-la-formation-plus-efficace","lang":"en","title":"How to use gamification to make training more effective","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","gamification"],"shortDescription":"Gamification consists in applying game mechanics, points, levels, challenges, badges, leaderboards, to a learning context to sustain engagement and motivation.","metaDescription":"Gamification consists in applying game mechanics, points, levels, challenges, badges, leaderboards, to a learning context to sustain engagement and motivation.","content":"$4","order":68},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

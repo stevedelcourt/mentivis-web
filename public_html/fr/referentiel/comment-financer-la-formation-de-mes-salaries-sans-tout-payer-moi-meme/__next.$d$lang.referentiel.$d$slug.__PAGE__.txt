@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tae1,Financer la formation de ses salariés sans en supporter seul le coût passe par la mobilisation des fonds mutualisés et des dispositifs adaptés à chaque situation : l'OPCO de branche pour le plan de développement des compétences, le CPF abondé par l'employeur, le FNE-formation en cas de difficultés économiques, la Pro-A pour les reconversions internes, et les aides régionales. La clé est d'identifier le bon dispositif selon l'objectif et de déposer les demandes avant le démarrage, car les financements ne se rattrapent pas.
+
+## Mobiliser l'OPCO de branche
+
+Chaque entreprise cotise à un opérateur de compétences selon sa convention collective. L'OPCO finance tout ou partie des actions inscrites au plan de développement des compétences, selon des niveaux de prise en charge fixés par la branche. La demande se dépose avant le démarrage de l'action, sur la base d'une convention de formation. Les TPE et PME bénéficient souvent de conditions de prise en charge renforcées.
+
+## Combiner les dispositifs selon la situation
+
+Le CPF du salarié peut être mobilisé, et l'employeur peut l'abonder pour financer une formation utile à l'entreprise. La Pro-A finance une reconversion ou une montée en qualification en interne par alternance. Le FNE-formation soutient les entreprises confrontées à des difficultés économiques ou à des mutations. Les régions proposent des aides ciblées. Combiner ces leviers augmente le volume de formation à budget propre constant.
+
+## Anticiper et sécuriser les dossiers
+
+Le financement se prépare en amont. Une action démarrée sans accord de prise en charge peut rester intégralement à la charge de l'entreprise. Anticiper les délais d'instruction de l'OPCO, vérifier l'éligibilité des actions et conserver les justificatifs sécurisent le financement. Un organisme de formation compétent accompagne l'entreprise dans ce montage, ce qui fait partie de la valeur attendue.
+
+## Ce qu'il faut retenir
+
+- L'OPCO de branche finance le plan de développement des compétences sur dossier préalable.
+- Le CPF peut être abondé par l'employeur pour une formation utile à l'entreprise.
+- Pro-A, FNE-formation et aides régionales complètent le dispositif selon la situation.
+- Les TPE et PME bénéficient souvent de conditions renforcées.
+- Le financement se demande avant le démarrage et ne se rattrape pas.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment financer la formation de mes salariés sans tout payer moi-même"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme","title":"Comment financer la formation de mes salariés sans tout payer moi-même","cible":"Entreprises","thematique":"Financement","tags":["CPF","OPCO","Pro-A","alternance","coût","financement","formation","reconversion"],"shortDescription":"Financer la formation de ses salariés sans en supporter seul le coût passe par la mobilisation des fonds mutualisés et des dispositifs adaptés à chaque situation : l'OPCO de branche pour le plan de...","metaDescription":"Financer la formation de ses salariés sans en supporter seul le coût passe par la mobilisation des fonds mutualisés et des dispositifs adaptés à chaque situation : l'OPCO de branche pour le plan de développement des compétences, le CPF abondé par l'employeur, le FNE-formation en cas de difficultés économiques, la Pro-A pour les reconversions internes, et les aides régionales.","content":"$4","order":31,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

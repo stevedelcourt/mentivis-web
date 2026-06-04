@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T83f,Responding to a sector-specific training obligation means identifying the training made mandatory by the collective agreement or regulation specific to your sector, deploying it among the concerned employees, and retaining evidence of completion. Many sectors, construction, transport, healthcare, safety, impose specific training or accreditations, often to be renewed periodically. Failure exposes the company to penalties and engages employer liability, sometimes in the area of safety.
+
+## Identifying sector-specific obligations
+
+Sector-specific training obligations flow from several sources: branch collective agreements, regulations specific to an activity, requirements linked to accreditations or practice authorizations. Each sector has its own requirements, sometimes numerous. The first step is precisely mapping what applies to the company's activity, drawing on the branch and applicable regulation.
+
+## Deploying and renewing
+
+Mandatory sector-specific training programs, often linked to safety or accreditations, must be delivered to all concerned employees, within required deadlines, and renewed according to the prescribed frequencies. An expired accreditation is equivalent to no accreditation at all. Tracking renewal deadlines is therefore as important as initial training, and benefits from being systematized.
+
+## Tracing and controlling
+
+Evidence of completion of mandatory training is essential, particularly because employer liability can be engaged in the event of an incident, especially on safety matters. Retaining certificates, accreditations and credentials, and maintaining a deadline tracking system, documents compliance. The OPCOs or sector supervisory bodies may also audit compliance with these obligations.
+
+## Key takeaways
+
+- Sector-specific obligations flow from branch agreements and activity regulations.
+- Precisely mapping what applies is the first step.
+- Training and accreditations must be deployed and renewed within deadlines.
+- An expired accreditation is equivalent to no accreditation.
+- Traceability protects the employer, whose liability can be engaged.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to respond to a sector-specific training obligation"}]}],["$","$L3",null,{"article":{"slug":"comment-repondre-a-une-obligation-de-formation-sectorielle-specifique","lang":"en","title":"How to respond to a sector-specific training obligation","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","OPCO","audit"],"shortDescription":"Responding to a sector-specific training obligation means identifying the training made mandatory by the collective agreement or regulation specific to your sector, deploying it among the concerned...","metaDescription":"Responding to a sector-specific training obligation means identifying the training made mandatory by the collective agreement or regulation specific to your sector, deploying it among the concerned employees, and retaining evidence of completion.","content":"$4","order":59},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

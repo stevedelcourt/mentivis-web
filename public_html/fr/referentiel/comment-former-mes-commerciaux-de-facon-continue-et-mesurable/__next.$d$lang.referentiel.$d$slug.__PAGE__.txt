@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta74,Former des commerciaux de façon continue et mesurable suppose de sortir de la formation ponctuelle pour installer un dispositif permanent : parcours par profil, entraînement régulier, coaching terrain, et tableaux de bord reliant la formation à la performance. La vente est une compétence qui se maintient par la pratique, pas par un séminaire annuel. L'efficacité vient de l'articulation entre apprentissage structuré, mise en pratique accompagnée et mesure de l'effet sur les indicateurs commerciaux.
+
+## Structurer des parcours par profil
+
+Les commerciaux n'ont pas tous les mêmes besoins : un junior et un senior, un chasseur et un gestionnaire de comptes appellent des parcours différents. Définir des parcours par profil, fondés sur un référentiel de compétences commerciales, concentre l'effort sur ce qui manque à chacun. Cette personnalisation rend la formation pertinente plutôt que générique.
+
+## Installer l'entraînement et le coaching
+
+La compétence commerciale se construit par la répétition. Les jeux de rôle, les entraînements et le e-learning adaptatif maintiennent les réflexes. Le coaching terrain, accompagnement en situation réelle de vente, transfère les acquis dans la pratique. Cet entraînement continu, plus que la formation théorique, distingue les équipes performantes. Il s'inscrit dans le rythme du travail, pas en marge.
+
+## Mesurer l'effet sur la performance
+
+La formation commerciale a l'avantage de pouvoir être reliée à des indicateurs mesurables : taux de transformation, panier moyen, cycle de vente, taux de rétention client. Des tableaux de bord croisant formation et performance objectivent l'effet et orientent les ajustements. Cette mesure, possible parce que la performance commerciale est chiffrée, rend le dispositif pilotable et démontre son retour.
+
+## Ce qu'il faut retenir
+
+- Un dispositif continu remplace la formation ponctuelle pour maintenir la compétence.
+- Les parcours par profil concentrent l'effort sur les besoins réels de chacun.
+- L'entraînement régulier et le coaching terrain transfèrent les acquis en pratique.
+- La formation commerciale se relie à des indicateurs de performance chiffrés.
+- Les tableaux de bord objectivent l'effet et rendent le dispositif pilotable.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment former mes commerciaux de façon continue et mesurable"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-commerciaux-de-facon-continue-et-mesurable","title":"Comment former mes commerciaux de façon continue et mesurable","cible":"Entreprises","thematique":"Apprentissage","tags":["IA","apprentissage","e-learning","formation"],"shortDescription":"Former des commerciaux de façon continue et mesurable suppose de sortir de la formation ponctuelle pour installer un dispositif permanent : parcours par profil, entraînement régulier, coaching terr...","metaDescription":"Former des commerciaux de façon continue et mesurable suppose de sortir de la formation ponctuelle pour installer un dispositif permanent : parcours par profil, entraînement régulier, coaching terrain, et tableaux de bord reliant la formation à la performance.","content":"$4","order":43,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb38,Produire des vidéos pédagogiques sans gros budget repose sur un principe : la valeur pédagogique d'une vidéo tient à sa conception et à son scénario, pas à sa qualité de production cinématographique. Des formats simples, screencast, vidéo face caméra, animation légère, suffisent à former efficacement. Les leviers d'économie sont le choix du bon format selon l'objectif, la réutilisation de gabarits, et l'industrialisation de la production. Surinvestir dans la production sans soigner le scénario est l'erreur la plus coûteuse.
+
+## La valeur tient au scénario, pas à la production
+
+Une vidéo pédagogique efficace repose sur un scénario clair : un objectif, un message structuré, un rythme adapté. La sophistication technique, montage élaboré, plateau, n'ajoute pas de valeur pédagogique proportionnelle à son coût. Beaucoup de vidéos coûteuses forment mal parce que le scénario a été négligé au profit de la production. Investir d'abord dans la conception est le meilleur rapport coût-efficacité.
+
+## Choisir des formats économiques
+
+Plusieurs formats permettent de former à faible coût. Le screencast, capture d'écran commentée, convient pour montrer un logiciel ou un processus. La vidéo face caméra transmet une explication avec une présence humaine, sans dispositif lourd. L'animation légère, à partir de gabarits, illustre des concepts. Le choix du format dépend de l'objectif : montrer un geste technique, expliquer une notion, incarner un message. Le format adapté est souvent le plus simple.
+
+## Réutiliser et industrialiser
+
+Comme pour l'e-learning, l'économie vient de la réutilisation et de l'industrialisation. Des gabarits visuels, des structures de script types et des éléments réutilisables réduisent le coût unitaire. La génération assistée de scripts et de supports accélère encore la production et permet d'actualiser les vidéos sans tout refaire. Une bibliothèque de vidéos courtes, produites selon un modèle commun, coûte bien moins qu'une série de productions sur mesure.
+
+## Ce qu'il faut retenir
+
+- La valeur d'une vidéo pédagogique tient au scénario, pas à la qualité de production.
+- Surinvestir dans la production en négligeant le scénario est l'erreur la plus coûteuse.
+- Screencast, face caméra et animation légère forment efficacement à faible coût.
+- Le format adapté à l'objectif est souvent le plus simple.
+- La réutilisation de gabarits et l'industrialisation réduisent le coût unitaire.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment produire des vidéos pédagogiques sans gros budget"}]}],["$","$L3",null,{"article":{"slug":"comment-produire-des-videos-pedagogiques-sans-gros-budget","title":"Comment produire des vidéos pédagogiques sans gros budget","cible":"EdTech, plateformes et outils numériques","thematique":"Financement","tags":["IA","coût","e-learning"],"shortDescription":"Produire des vidéos pédagogiques sans gros budget repose sur un principe : la valeur pédagogique d'une vidéo tient à sa conception et à son scénario, pas à sa qualité de production cinématographique.","metaDescription":"Produire des vidéos pédagogiques sans gros budget repose sur un principe : la valeur pédagogique d'une vidéo tient à sa conception et à son scénario, pas à sa qualité de production cinématographique.","content":"$4","order":70,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T856,Integrating training into onboarding means structuring an integration pathway that combines learning the job, the company and its culture, marked by evaluation milestones and supported by a dedicated mentor. An onboarding without a training dimension leaves the new employee to fend for themselves, which lengthens the time to competency and increases the risk of early departure. A structured pathway, combining face-to-face and digital, accelerates autonomy and secures the return on the recruitment investment.
+
+## Structuring a pathway over time
+
+Onboarding is not limited to the first days. An effective pathway extends over several weeks to several months, with a progression: discovery, hands-on engagement, autonomy. It combines learning the job, the company's environment, its tools and its culture. This structuring transforms improvised integration into a steered ramp-up.
+
+## Combining modalities
+
+Onboarding usefully mixes modalities. Digital, self-paced learning modules, handles the transmission of standardizable knowledge at the learner's own pace. Face-to-face and human interaction, meetings, mentoring, accompaniment, transmit culture and relationship. This combination frees supervision time for what genuinely matters, relationships and the job, while digital handles the baseline.
+
+## Setting milestones and accompanying
+
+Evaluation milestones, at one, three and six months for example, check progression and allow adjustments. A dedicated mentor or buddy accompanies the new employee, answers questions and facilitates social integration. This structured follow-up reduces the risk of early departure, particularly costly, and accelerates the point at which the employee becomes fully productive. Onboarding is an investment, not a welcome formality.
+
+## Key takeaways
+
+- Onboarding extends over several weeks to months, with a progression.
+- It combines learning the job, the company, its tools and its culture.
+- Digital handles standardizable content; human interaction transmits culture.
+- Milestones at one, three and six months check progression.
+- A dedicated mentor reduces the risk of early departure.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to integrate training into the onboarding of new employees"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs","lang":"en","title":"How to integrate training into the onboarding of new employees","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","onboarding"],"shortDescription":"Integrating training into onboarding means structuring an integration pathway that combines learning the job, the company and its culture, marked by evaluation milestones and supported by a dedicat...","metaDescription":"Integrating training into onboarding means structuring an integration pathway that combines learning the job, the company and its culture, marked by evaluation milestones and supported by a dedicated mentor.","content":"$4","order":51},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

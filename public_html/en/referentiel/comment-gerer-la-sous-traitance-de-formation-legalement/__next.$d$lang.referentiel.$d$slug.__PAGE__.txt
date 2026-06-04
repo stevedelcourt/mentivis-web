@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9db,Managing subcontracting legally requires formalizing a subcontracting agreement that specifies the missions assigned, and understanding that the contracting organization remains responsible for Qualiopi compliance on subcontracted actions. Since version 9 of the reading guide and the decree of December 28, 2023, the scope of indicator verification with the subcontractor depends on the missions defined in the contract. Unframed subcontracting exposes the contracting organization to a non-conformity.
+
+## The subcontracting framework
+
+Recourse to subcontracting is permitted but regulated. A certified organization that assigns all or part of an action to a third party remains responsible for its quality before the certifier. Version 9 of the reading guide, applicable since March 8, 2024, introduced a dedicated chapter on subcontracting, in response to decree n°2023-1350 of December 28, 2023.
+
+## The subcontracting agreement
+
+The subcontracting agreement specifies the missions assigned to the subcontractor. This precision is determinative: when examining a subcontracted action, the certifier verifies compliance with indicators based on the missions defined in the contract. In the absence of a contract specifying the missions, verification covers all indicators of the relevant action category, which broadens the risk.
+
+## The contracting organization's responsibility
+
+The contracting organization must ensure that the subcontractor complies with the indicators falling within its missions. This requires rigorous selection, clear contractual framing and documented monitoring. The traceability of this monitoring constitutes evidence at audit. A failing subcontractor reflects on the contracting organization's certification, which is why strict framing is preferable to blind delegation.
+
+## Key takeaways
+
+- Subcontracting is permitted but the contracting organization remains responsible for quality.
+- Version 9 of the reading guide governs subcontracting since March 2024.
+- The agreement must specify the missions assigned to the subcontractor.
+- Without a contract specifying missions, all indicators of the category are verified.
+- Documented monitoring of the subcontractor constitutes evidence at audit.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to manage training subcontracting legally"}]}],["$","$L3",null,{"article":{"slug":"comment-gerer-la-sous-traitance-de-formation-legalement","lang":"en","title":"How to manage training subcontracting legally","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","Qualiopi","audit","certification"],"shortDescription":"Managing subcontracting legally requires formalizing a subcontracting agreement that specifies the missions assigned, and understanding that the contracting organization remains responsible for Qua...","metaDescription":"Managing subcontracting legally requires formalizing a subcontracting agreement that specifies the missions assigned, and understanding that the contracting organization remains responsible for Qualiopi compliance on subcontracted actions.","content":"$4","order":20},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8d3,Training sales teams continuously and measurably means moving beyond one-off training to install a permanent program: pathways by profile, regular practice, field coaching, and dashboards connecting training to performance. Sales is a competency maintained by practice, not by an annual seminar. Effectiveness comes from the combination of structured learning, guided practice and measurement of the effect on commercial indicators.
+
+## Structuring pathways by profile
+
+Sales teams do not all have the same needs: a junior and a senior, a hunter and an account manager call for different pathways. Defining pathways by profile, based on a sales competency framework, concentrates effort on each person's actual gaps. This personalization makes training relevant rather than generic.
+
+## Installing practice and coaching
+
+Sales competency is built through repetition. Role-plays, simulations and adaptive e-learning maintain reflexes. Field coaching, accompaniment in real sales situations, transfers learning into practice. This continuous practice, more than theoretical training, distinguishes high-performing teams. It is embedded in the rhythm of work, not relegated to its margins.
+
+## Measuring the effect on performance
+
+Sales training has the advantage of being linkable to measurable indicators: conversion rates, average deal size, sales cycle length, client retention rate. Dashboards crossing training and performance objectify the effect and guide adjustments. This measurement, possible because commercial performance is quantified, makes the program steerable and demonstrates its return.
+
+## Key takeaways
+
+- A continuous program replaces one-off training to sustain competency.
+- Pathways by profile concentrate effort on each person's actual needs.
+- Regular practice and field coaching transfer learning into practice.
+- Sales training connects to quantified performance indicators.
+- Dashboards objectify the effect and make the program steerable.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to train my sales teams continuously and measurably"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-commerciaux-de-facon-continue-et-mesurable","lang":"en","title":"How to train my sales teams continuously and measurably","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","e-learning"],"shortDescription":"Training sales teams continuously and measurably means moving beyond one-off training to install a permanent program: pathways by profile, regular practice, field coaching, and dashboards connectin...","metaDescription":"Training sales teams continuously and measurably means moving beyond one-off training to install a permanent program: pathways by profile, regular practice, field coaching, and dashboards connecting training to performance.","content":"$4","order":43},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

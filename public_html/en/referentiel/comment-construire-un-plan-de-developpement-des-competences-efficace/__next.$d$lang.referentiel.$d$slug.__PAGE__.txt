@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T776,An effective skills development plan connects the company's strategy to the competencies to develop, through four steps: gathering individual and collective needs, prioritization, budget and financing arbitration, then steering by indicators. The plan has replaced the former training plan and groups all training actions decided by the employer. Its effectiveness depends less on comprehensiveness than on the relevance of choices relative to the organization's real priorities.
+
+## Gathering individual and collective needs
+
+Gathering crosses two sources. Individual needs come from professional interviews and employee requests. Collective needs are driven by strategy, occupational evolution and company projects. A credible plan starts from the latter, which give it direction, while integrating the former, which sustain engagement.
+
+## Prioritizing and arbitrating
+
+Not all needs can be addressed. Prioritization arbitrates according to impact on company priorities and urgency. Budget arbitration integrates mobilizable financing, OPCO, topped-up CPF, specific mechanisms, which determines the volume of actions achievable. A plan is built under resource constraints, not as a wish list.
+
+## Steering by indicators
+
+The plan is formalized over a multi-year horizon, with a timeline and monitoring indicators. In companies with a works council, the plan is subject to consultation. Steering tracks action implementation and measures effects, which feeds the next plan. A plan that is not steered remains a document, not a lever.
+
+## Key takeaways
+
+- The plan connects the company's strategy to the competencies to develop.
+- It crosses collective strategic needs and individual needs.
+- Prioritization arbitrates according to impact and urgency, under budget constraint.
+- The works council is consulted in companies with representative bodies.
+- Steering by indicators transforms the plan into a lever.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to build an effective skills development plan"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-un-plan-de-developpement-des-competences-efficace","lang":"en","title":"How to build an effective skills development plan","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","OPCO"],"shortDescription":"An effective skills development plan connects the company's strategy to the competencies to develop, through four steps: gathering individual and collective needs, prioritization, budget and financ...","metaDescription":"An effective skills development plan connects the company's strategy to the competencies to develop, through four steps: gathering individual and collective needs, prioritization, budget and financing arbitration, then steering by indicators.","content":"$4","order":32},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

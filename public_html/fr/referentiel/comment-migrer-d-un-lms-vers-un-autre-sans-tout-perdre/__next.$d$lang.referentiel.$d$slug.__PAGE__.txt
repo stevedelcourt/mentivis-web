@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taf6,Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour préserver la portabilité. Une migration mal préparée fait perdre des contenus, des historiques de formation et de l'adhésion des utilisateurs. La réussite tient à un audit préalable de l'existant, à un plan de migration par étapes, et à une phase de test avant bascule. La portabilité des contenus, garantie par les normes, est un enjeu central.
+
+## Auditer l'existant avant de migrer
+
+Une migration commence par un inventaire : quels contenus, sous quels formats, quelles données d'apprenants, quel historique de formation, quelles intégrations avec d'autres systèmes. Cet audit révèle ce qui est portable, ce qui devra être reconstruit, et les risques. Migrer sans cet inventaire expose à découvrir des pertes une fois la bascule faite, quand il est trop tard pour les éviter.
+
+## Préserver la portabilité par les normes
+
+Les contenus conformes à des normes comme SCORM ou xAPI sont en principe portables d'une plateforme à l'autre. Les contenus créés dans un format propriétaire d'un LMS peuvent être difficiles à exporter, ce qui crée un enfermement. La migration est l'occasion de mesurer cet enfermement et, pour l'avenir, de privilégier des contenus aux formats standards. Les données d'apprenants et l'historique demandent un soin particulier, leur format d'export variant selon les plateformes.
+
+## Migrer par étapes et tester
+
+Une migration réussie procède par étapes plutôt que par bascule brutale. Un plan définit l'ordre de transfert, une phase de test vérifie l'intégrité des contenus et des données sur la nouvelle plateforme, et une période de transition limite les risques. L'accompagnement des utilisateurs, formateurs et apprenants, vers le nouvel outil conditionne l'adhésion : une migration techniquement réussie mais mal accompagnée échoue par rejet des utilisateurs.
+
+## Ce qu'il faut retenir
+
+- La migration commence par un audit de l'existant : contenus, données, intégrations.
+- Les contenus aux formats normés sont portables ; les formats propriétaires enferment.
+- Données d'apprenants et historique demandent un soin particulier d'export.
+- Migrer par étapes avec une phase de test limite les risques.
+- L'accompagnement des utilisateurs conditionne l'adhésion au nouvel outil.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus, MentivisOS va bien plus loin :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment migrer d'un LMS vers un autre sans tout perdre"}]}],["$","$L3",null,{"article":{"slug":"comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre","title":"Comment migrer d'un LMS vers un autre sans tout perdre","cible":"EdTech, plateformes et outils numériques","thematique":"Certification","tags":["IA","LMS","VR","audit","formation"],"shortDescription":"Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour prés...","metaDescription":"Migrer d'un LMS vers un autre sans perte suppose de préparer méthodiquement le transfert des contenus, des données d'apprenants et de l'historique, en s'appuyant sur les normes techniques pour préserver la portabilité.","content":"$4","order":85,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

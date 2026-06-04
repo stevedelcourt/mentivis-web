@@ -1,0 +1,190 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+4:I[37145,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","5074","static/chunks/5074-c53a717120cb3245.js","4345","static/chunks/app/not-found-c5547cf17b9d20fa.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+d:I[90484,[],"MetadataBoundary"]
+f:I[27123,[],"default",1]
+:HL["/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/7098ef0571edb5c3.css","style"]
+:HL["/_next/static/css/0730443ce5150ebc.css","style"]
+0:{"P":null,"c":["","fr","insights","lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere",""],"q":"","i":false,"f":[[["",{"children":[["lang","fr","d",null],{"children":["insights",{"children":[["slug","lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7098ef0571edb5c3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"fr","className":"__variable_c8daab __variable_6d24ac","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'analytics_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'wait_for_update': 500\n});\n"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n(function(){\n  if(location.search.includes('__nc='))return;\n  var origError=console.error;\n  console.error=function(){\n    var msg=Array.prototype.slice.call(arguments).join(' ');\n    if(msg.indexOf('418')!==-1||msg.indexOf('Hydration')!==-1){\n      if(!window.__MENTIVIS_HYDRATION_RELOAD){\n        window.__MENTIVIS_HYDRATION_RELOAD=true;\n        location.href=location.href.split('?')[0]+'?__nc='+Date.now();\n      }\n    }\n    origError.apply(console,arguments);\n  };\n})();\n        "}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0730443ce5150ebc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L5"]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"n4UbzMPi9zZwSxycaFaVu"}
+10:[]
+a:"$W10"
+11:I[16629,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+12:I[4253,["5160","static/chunks/app/lang/layout-f1cec9ccf2f02e53.js"],"default"]
+13:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+14:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+5:[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"m-page-transition","children":["$","$L3",null,{}]}],"templateStyles":[],"templateScripts":[],"notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L11",null,{"lang":"fr"}],["$","$L12",null,{"gtmId":"GTM-PM93CCQL"}]]
+15:T26eb,Par Roxan Roumégas
+
+##### On se trompe de débat. Réduire l’intelligence artificielle à une innovation de plus, c’est passer à côté de l’essentiel. L’enjeu n’est pas l’innovation. L’enjeu, c’est le progrès, ce qui élève réellement le niveau de liberté, d’égalité et de dignité dans une société.
+
+##### L’IA touche à un nerf vital : le langage. Dans une économie où presque tout passe par l’écrit (procédures, formulaires, normes, plateformes, consignes, reporting), le langage est devenu une frontière. L’IA peut faire sauter cette frontière, ou l’élever plus haut. Il n’y aura pas de neutralité. Il y aura une direction.
+
+## Rendre le monde lisible à ceux qu’il exclut
+
+La France n’est pas un pays d’illettrés. Mais c’est un pays où une part massive d’adultes est en difficulté avec les compétences de base. L’ANLCI estime à 10,5 % la proportion des 18-64 ans scolarisés en France en forte difficulté avec la littératie et la numératie, dont 4 % en situation d’illettrisme.
+
+Le paradoxe est cruel : on peut être excellent dans un geste professionnel, minutieux, fiable, et pourtant être mis hors-jeu par le mur de l’écrit. Dans de nombreux métiers, ce ne sont pas seulement les compétences techniques qui comptent, c’est la capacité à lire, interpréter et appliquer des consignes parfois complexes, parfois normées.
+
+L’IA n’est pas un robot qui remplace. Elle peut devenir un traducteur universel du monde du travail : lecture automatique et reformulation claire d’une notice, guidage oral pas-à-pas, repérage des points de vigilance, aide à la compréhension des pictogrammes et des règles de sécurité. Ce que l’école a fait historiquement avec l’alphabétisation, l’IA peut le faire avec une nouvelle couche : l’accès pratique au langage. Non pas en diminuant l’exigence, mais en rendant la règle compréhensible. Et quand la règle devient compréhensible, la compétence réelle peut enfin être reconnue.
+
+## La compétence ne suffit plus : il faut savoir se lire
+
+Le monde du travail ne souffre pas seulement d’un manque de candidats. Il souffre d’un mauvais appariement, de tensions, de ruptures rapides. France Travail relevait que 57,4 % des projets de recrutement étaient jugés difficiles en 2024.
+
+Derrière ces chiffres, une réalité très concrète : on demande aux individus non seulement de travailler, mais de se décrire, de se justifier, d’entrer dans des grilles, des algorithmes de tri, des formulaires, des entretiens structurés. Ceux qui maîtrisent ces codes (souvent socialement) paraissent meilleurs qu’ils ne le sont. Ceux qui ne les maîtrisent pas (parfois très compétents) restent invisibles.
+
+Une IA bien orientée peut rééquilibrer ce point : aider à formuler un savoir-faire, préparer un entretien, rendre lisibles des offres, expliquer des attendus. C’est moins spectaculaire que les discours sur la disruption, mais c’est exactement là que se crée l’égalité des chances, quand les codes cessent d’être un péage.
+
+## Construire une infrastructure de confiance
+
+La formation n’est pas un produit comme un autre. Elle engage du temps de vie, de l’argent public, des reconversions, parfois des trajectoires de réparation. Les réformes récentes ne sont pas parfaites, mais elles répondent à un objectif rationnel : rendre la qualité vérifiable.
+
+Le droit français a posé des critères clairs, dont un point souvent sous-estimé : l’information du public sur les prestations, les délais d’accès et les résultats obtenus. Le référentiel national qualité et la certification Qualiopi s’inscrivent dans ce cadre.
+
+On peut critiquer la bureaucratie. On doit même la critiquer quand elle devient absurde. Mais on ne peut pas oublier l’essentiel : sans standard de confiance, la formation devient un marché de promesses. Et dans un marché de promesses, ce sont toujours les plus fragiles qui perdent.
+
+Le futur n’est donc pas moins de règles ou plus de règles. Le futur, c’est des règles intelligentes, mesurables, orientées vers l’impact réel : insertion, progression, satisfaction, transparence, lisibilité des parcours.
+
+## L’école redevient une fabrique d’esprit critique
+
+L’IA change une donnée éducative fondamentale : l’accès au savoir devient plus immédiat, plus personnalisable, plus conversationnel. Cela ne rend pas l’école inutile. Cela change sa mission.
+
+L’État français affirme explicitement le développement de l’esprit critique comme objectif de l’instruction, et l’institution éducative outille cette approche. L’OCDE, de son côté, travaille déjà sur la mesure de la culture médiatique et de l’IA literacy via PISA 2029, signe que la capacité à naviguer dans l’information devient une compétence structurante.
+
+Si le savoir devient disponible, la valeur se déplace vers la capacité à vérifier, hiérarchiser, raisonner, débattre, construire. L’école n’est plus une encyclopédie. Elle redevient une agora : pas une usine à réciter, mais un lieu où l’on apprend à penser juste.
+
+Et cela rejoint un point souvent mal compris : en primaire, l’enseignant ne peut pas donner de travail écrit à faire hors de la classe. Les devoirs à la maison relèvent de l’oral (lecture, leçons, recherches). Ce rappel n’est pas une coquetterie. Il dit une idée profonde de l’égalité : quand le travail scolaire dépend trop du contexte familial, l’école cesse d’être un ascenseur et devient un amplificateur d’écarts.
+
+## L’IA peut être un filet, pas un alibi
+
+L’école inclusive progresse, mais elle reste sous tension. La Cour des comptes souligne le chemin parcouru et les difficultés persistantes, et propose des axes d’amélioration : pilotage, suivi, évaluation, qualité de la scolarisation.
+
+L’IA peut jouer un rôle utile : assistance à la lecture, reformulation, supports multimodaux, aide à l’organisation, répétition guidée, adaptation du niveau de langage. Mais à une condition : ne pas transformer l’outil en excuse pour ne pas financer l’humain.
+
+Le bon principe est simple : l’IA pour augmenter l’autonomie quand c’est pertinent. L’humain pour la relation, l’ajustement fin, l’éthique, le soin et la protection.
+
+## L’innovation n’est pas le progrès
+
+On confond trop souvent les deux. Les réseaux sociaux ont été une innovation majeure. Leur impact sur la santé mentale des jeunes et sur l’espace public fait l’objet d’alertes au plus haut niveau sanitaire aux États-Unis. Et sur le terrain de la vérité, l’IA peut aussi accélérer la désinformation. L’UNESCO a alerté sur les risques de contenus trompeurs liés à l’Holocauste, précisément parce que les outils génératifs peuvent produire des récits faux à grande échelle.
+
+Ce point est central : la technologie peut éclairer ou obscurcir. Elle ne tend pas naturellement vers le bien. Elle suit des incitations économiques et politiques. Si l’on veut un progrès, il faut une gouvernance.
+
+## L’éducation ne peut pas dépendre d’un marché opaque
+
+L’Europe s’est dotée d’un cadre légal avec l’AI Act. Mais la souveraineté éducative ne se résume pas à une loi : elle suppose des choix d’infrastructure. Si l’on confie l’accès au savoir, aux exercices, aux aides, à des outils fermés, non auditables, dépendants de conditions d’usage changeantes, alors on externalise une fonction régalienne : former des citoyens.
+
+L’ambition à viser est plus haute : des communs pédagogiques soutenus par l’intérêt général, des contenus de référence, des outils d’assistance évalués, des règles d’usage explicites, une formation des enseignants et une transparence sur les données. L’UNESCO parle explicitement d’une vision centrée sur l’humain et d’une capacité à planifier des politiques publiques à long terme sur l’IA en éducation.
+
+## Ce que nous défendons
+
+Chez Mentivis, nous défendons une ligne simple, exigeante, humaniste.
+
+L’IA doit servir d’abord ceux qui sont empêchés, ceux pour qui le langage, les codes, l’écrit, l’orientation ou la bureaucratie sont des murs.
+
+-   La qualité doit être prouvable : transparence des résultats, lisibilité des parcours, honnêteté sur les débouchés.
+-   L’école doit former des esprits critiques, capables d’enquêter, de vérifier, de discuter et de résister à la manipulation.
+-   L’inclusion doit rester un projet humain. L’outil est un levier, pas une justification au renoncement.
+-   Le progrès demande une gouvernance. Sans cela, l’innovation devient une machine à inégalités.
+-   Nous entrons dans un siècle où le savoir peut être partout. La question n’est plus qui a accès à l’information. La question devient : qui a accès à la compréhension, à la méthode, à la vérité vérifiable et à la capacité d’agir ?
+
+C’est cela, la bataille de la lumière. Et c’est là que la formation, quand elle reste fidèle à sa vocation, est inévitablement humaniste : elle n’ajoute pas seulement des compétences, elle ajoute du pouvoir d’être.
+
+**Roxan Roumégas** est partenaire et président chez [Mentivis](https://mentivis.com). Il a dirigé des écoles techniques et accompagne depuis plus de quinze ans des établissements et des institutions publiques dans la conception de stratégies pédagogiques, l’ingénierie de formation et la transformation éducative. Il intervient à l’interface entre vision académique, contraintes opérationnelles et mise en œuvre concrète sur le terrain.
+
+### Ce que fait réellement Mentivis
+
+**Mentivis n’est pas un cabinet qui applique des solutions toutes faites.**
+
+C’est un opérateur de transformation éducative qui agit sur les mécanismes réels du changement: comportements, incitations, règles implicites.16:T2179,By Roxan Roumégas
+
+##### We are debating the wrong thing. Reducing artificial intelligence to yet another innovation is to miss the essential point. The issue is not innovation. The issue is progress — what truly raises the level of freedom, equality and dignity in a society.
+
+##### AI touches a vital nerve: language. In an economy where almost everything passes through writing (procedures, forms, standards, platforms, instructions, reporting), language has become a frontier. AI can remove this frontier, or raise it higher. There will be no neutrality. There will be a direction.
+
+## Making the World Readable for Those It Excludes
+
+France is not a country of illiterates. But it is a country where a massive share of adults struggles with basic skills. ANLCI estimates that 10.5% of 18-64-year-olds schooled in France are in severe difficulty with literacy and numeracy, including 4% in a situation of illiteracy.
+
+The paradox is cruel: one can be excellent in a professional gesture, meticulous, reliable, and yet be put out of the game by the wall of writing. In many jobs, it is not only technical skills that count, but the capacity to read, interpret and apply sometimes complex, sometimes standardized instructions.
+
+AI is not a robot that replaces. It can become a universal translator of the working world: automatic reading and clear reformulation of a notice, oral step-by-step guidance, identification of vigilance points, help in understanding pictograms and safety rules. What school did historically with literacy, AI can do with a new layer: practical access to language. Not by lowering the requirement, but by making the rule understandable. And when the rule becomes understandable, real skill can finally be recognized.
+
+## Skill Is No Longer Enough: One Must Know How to Read Oneself
+
+The working world does not only suffer from a lack of candidates. It suffers from poor matching, tensions, rapid ruptures. France Travail noted that 57.4% of recruitment projects were judged difficult in 2024.
+
+Behind these figures, a very concrete reality: individuals are asked not only to work, but to describe themselves, to justify themselves, to fit into grids, sorting algorithms, forms, structured interviews. Those who master these codes (often socially) appear better than they are. Those who do not master them (sometimes very competent) remain invisible.
+
+A well-oriented AI can rebalance this point: help formulate know-how, prepare an interview, make job offers readable, explain expectations. It is less spectacular than speeches on disruption, but it is exactly there that equality of opportunity is created, when codes cease to be a toll.
+
+## Building an Infrastructure of Trust
+
+Training is not a product like any other. It engages life time, public money, reconversions, sometimes repair trajectories. Recent reforms are not perfect, but they respond to a rational objective: making quality verifiable.
+
+French law has set clear criteria, including one often underestimated: public information on services, access times and results obtained. The national quality framework and Qualiopi certification fall within this scope.
+
+One can criticize bureaucracy. One must even criticize it when it becomes absurd. But one cannot forget the essential: without a trust standard, training becomes a market of promises. And in a market of promises, it is always the most fragile who lose.
+
+The future is therefore not fewer rules or more rules. The future is intelligent rules, measurable, oriented toward real impact: integration, progression, satisfaction, transparency, readability of pathways.
+
+## School Becomes a Factory of Critical Spirit Again
+
+AI changes a fundamental educational given: access to knowledge becomes more immediate, more customizable, more conversational. This does not make school useless. It changes its mission.
+
+The French State explicitly affirms the development of critical thinking as an objective of instruction, and the educational institution equips this approach. The OECD, for its part, is already working on measuring media literacy and AI literacy via PISA 2029, a sign that the capacity to navigate information is becoming a structuring skill.
+
+If knowledge becomes available, value shifts toward the capacity to verify, hierarchize, reason, debate, construct. School is no longer an encyclopedia. It becomes an agora again: not a factory for reciting, but a place where one learns to think rightly.
+
+And this touches on a often misunderstood point: in primary school, the teacher cannot give written homework to be done outside class. Homework is oral (reading, lessons, research). This reminder is not a quirk. It states a profound idea of equality: when schoolwork depends too much on family context, school ceases to be an elevator and becomes an amplifier of gaps.
+
+## AI Can Be a Safety Net, Not an Alibi
+
+Inclusive schooling is progressing, but it remains under tension. The Cour des comptes highlights the path traveled and persistent difficulties, and proposes improvement axes: steering, monitoring, evaluation, quality of schooling.
+
+AI can play a useful role: reading assistance, reformulation, multimodal supports, help with organization, guided repetition, adaptation of language level. But on one condition: not transforming the tool into an excuse for not funding the human.
+
+The good principle is simple: AI to increase autonomy when relevant. The human for relationship, fine adjustment, ethics, care and protection.
+
+## Innovation Is Not Progress
+
+The two are too often confused. Social networks were a major innovation. Their impact on youth mental health and on the public space is the subject of alerts at the highest sanitary level in the United States. And on the terrain of truth, AI can also accelerate disinformation. UNESCO has warned about the risks of misleading content related to the Holocaust, precisely because generative tools can produce false narratives on a large scale.
+
+This point is central: technology can illuminate or obscure. It does not naturally tend toward good. It follows economic and political incentives. If we want progress, governance is required.
+
+## Education Cannot Depend on an Opaque Market
+
+Europe has equipped itself with a legal framework with the AI Act. But educational sovereignty is not summed up in a law: it implies infrastructure choices. If we entrust access to knowledge, exercises, assistance to closed tools, non-auditable, dependent on changing terms of use, then we outsource a regalian function: forming citizens.
+
+The ambition to aim for is higher: pedagogical commons supported by the general interest, reference content, evaluated assistance tools, explicit rules of use, teacher training and transparency on data. UNESCO explicitly speaks of a human-centered vision and a capacity to plan long-term public policies on AI in education.
+
+## What We Stand For
+
+At Mentivis, we defend a simple, demanding, humanist line.
+
+AI must serve first those who are hindered, those for whom language, codes, writing, guidance or bureaucracy are walls.
+
+-   Quality must be provable: transparency of results, readability of pathways, honesty about career prospects.
+-   School must form critical minds, capable of investigating, verifying, discussing and resisting manipulation.
+-   Inclusion must remain a human project. The tool is a lever, not a justification for renunciation.
+-   Progress requires governance. Without it, innovation becomes a machine for inequalities.
+-   We are entering a century where knowledge can be everywhere. The question is no longer who has access to information. The question becomes: who has access to understanding, to method, to verifiable truth and to the capacity to act?
+
+That is the battle for light. And that is where training, when it remains faithful to its vocation, is inevitably humanist: it does not only add skills, it adds power to be.
+
+**Roxan Roumégas** is partner and president at [Mentivis](https://mentivis.com). He has directed technical schools and for more than fifteen years has accompanied educational institutions and public institutions in the design of pedagogical strategies, training engineering and educational transformation. He operates at the interface between academic vision, operational constraints and concrete implementation on the ground.
+
+### What Mentivis Actually Does
+
+**Mentivis is not a firm that applies off-the-shelf solutions.**
+
+It is an educational transformation operator that acts on the real mechanisms of change: behaviors, incentives, implicit rules.6:[["$","$L13",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Insights","url":"https://mentivis.com/fr/insights/"},{"name":"L’IA comme nouvelle alphabétisation : reprendre la bataille de la lumière"}]}],["$","$L14",null,{"article":{"slug":"lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere","date":"2026-01-26","category":"perspectives","author":"Roxan Roumégas (PhD)","readTime":"","heroImage":"/images/insights/girlhopper.avif","keywords":"Actualités, Digital Data IA, Éducation, Insights","titleFr":"L’IA comme nouvelle alphabétisation : reprendre la bataille de la lumière","titleEn":"AI as the New Literacy: Rejoining the Battle for Light","excerptFr":"L'enjeu n'est pas l'innovation. L'enjeu, c'est le progrès — ce qui élève réellement le niveau de liberté, d'égalité et de dignité dans une société.","excerptEn":"The issue is not innovation. The issue is progress — what truly raises the level of freedom, equality and dignity in a society.","bodyFr":"$15","bodyEn":"$16"}}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[86869,[],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"L’IA comme nouvelle alphabétisation : reprendre la bataille de la lumière | Insights — Mentivis | Mentivis"}],["$","meta","1",{"name":"description","content":"L'enjeu n'est pas l'innovation. L'enjeu, c'est le progrès — ce qui élève réellement le niveau de liberté, d'égalité et de dignité dans une société."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"Actualités, Digital Data IA, Éducation, Insights"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://mentivis.com/fr/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere/"}],["$","link","6",{"rel":"alternate","hrefLang":"fr-FR","href":"https://mentivis.com/fr/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere/"}],["$","link","7",{"rel":"alternate","hrefLang":"en-US","href":"https://mentivis.com/en/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere/"}],["$","link","8",{"rel":"alternate","hrefLang":"x-default","href":"https://mentivis.com/fr/insights/lia-comme-nouvelle-alphabetisation-reprendre-la-bataille-de-la-lumiere/"}],["$","meta","9",{"property":"og:title","content":"L’IA comme nouvelle alphabétisation : reprendre la bataille de la lumière"}],["$","meta","10",{"property":"og:description","content":"L'enjeu n'est pas l'innovation. L'enjeu, c'est le progrès — ce qui élève réellement le niveau de liberté, d'égalité et de dignité dans une société."}],["$","meta","11",{"property":"og:locale","content":"fr_FR"}],["$","meta","12",{"property":"og:image","content":"https://mentivis.com/images/insights/girlhopper.avif"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Mentivis - Tous les métiers de la formation. De bout en bout."}],["$","meta","16",{"name":"twitter:description","content":"Mentivis conçoit, structure et déploie des dispositifs de formation. Rémunération alignée sur les résultats."}],["$","meta","17",{"name":"twitter:image","content":"https://mentivis.com/opengraph-image.jpg"}],["$","link","18",{"rel":"icon","href":"/favicon.ico?af9b41a49a8495cc","type":"image/x-icon","sizes":"512x512"}],["$","link","19",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","20",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","21",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","23",{}]]

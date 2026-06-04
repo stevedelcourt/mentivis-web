@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9c1,Selling training programs online requires addressing three distinct questions: the sales and distribution platform, customer acquisition, and regulatory compliance if the training claims eligibility for funding. Selling a self-directed consumer course has different requirements from selling a professionally funded training program. Success rests on alignment between positioning, the sales funnel and the value proposition, and on not confusing ease of going live with ease of selling.
+
+## Choosing the right sales setup
+
+Several models exist for selling online. Self-directed course platforms suit direct sales to individuals. Training marketplaces bring in an audience in exchange for a commission. A proprietary site with a sales funnel gives control but requires generating traffic independently. The choice depends on the target audience, volume sought and capacity to acquire customers independently.
+
+## Building acquisition
+
+Going live does not sell. Acquisition rests on visibility, organic search, content, targeted advertising, and a conversion funnel that turns interest into purchase. Social proof, testimonials, results, and clarity of the value proposition support the decision. Selling training online is a full marketing exercise, not simply publishing a catalogue.
+
+## Integrating the regulatory dimension
+
+If the training claims funding eligibility, CPF, OPCO, the regulatory dimension becomes central. CPF eligibility requires a link to an active certification and listing on the dedicated platform, with Qualiopi as a prerequisite. Pricing of fundable training is governed and monitored. Selling a fundable training program is therefore as much a compliance matter as a marketing one, which distinguishes this market from consumer training sales.
+
+## Key takeaways
+
+- Selling online raises three questions: platform, acquisition, compliance.
+- The setup choice depends on the target audience, volume and acquisition capacity.
+- Going live does not sell: acquisition is a full marketing exercise.
+- Social proof and clarity of the value proposition support the purchase decision.
+- For fundable training, regulatory compliance becomes central.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to sell training programs online"}]}],["$","$L3",null,{"article":{"slug":"comment-vendre-des-formations-en-ligne","lang":"en","title":"How to sell training programs online","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","IA","OPCO","Qualiopi","certification"],"shortDescription":"Selling training programs online requires addressing three distinct questions: the sales and distribution platform, customer acquisition, and regulatory compliance if the training claims eligibilit...","metaDescription":"Selling training programs online requires addressing three distinct questions: the sales and distribution platform, customer acquisition, and regulatory compliance if the training claims eligibility for funding.","content":"$4","order":76},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

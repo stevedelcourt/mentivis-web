@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tad7,Choisir un outil de classe virtuelle suppose de distinguer un outil de visioconférence générique d'un outil pensé pour la pédagogie synchrone, doté de fonctions d'interaction, de sous-groupes, de partage et de suivi de participation. La formation synchrone à distance a des exigences propres que ne couvre pas toujours un outil de réunion. Le bon choix dépend du type d'animation visé, du nombre de participants, des besoins d'interaction et de la traçabilité de présence attendue, notamment pour les formations financées.
+
+## Visioconférence et classe virtuelle ne sont pas équivalentes
+
+Un outil de visioconférence permet de réunir des personnes à distance, mais la pédagogie synchrone demande davantage : gestion de la parole, sondages, sous-groupes de travail, tableau blanc partagé, partage de documents, suivi de la participation. Un outil de classe virtuelle intègre ces fonctions pédagogiques. Utiliser un simple outil de réunion pour former limite l'interaction et l'engagement, deux conditions de l'efficacité du synchrone.
+
+## Choisir selon le type d'animation
+
+Le choix dépend de l'usage. Une session magistrale pour un large public n'a pas les mêmes besoins qu'un atelier interactif en petit groupe. Les fonctions de sous-groupes, essentielles pour le travail collaboratif, ou la capacité à gérer de grands effectifs, orientent la décision. La qualité de l'expérience, fluidité, simplicité d'accès pour l'apprenant, pèse aussi, car un outil complexe décourage la participation.
+
+## Tracer la participation
+
+Pour les formations financées, la traçabilité de la présence et de la participation est nécessaire. L'outil doit pouvoir générer des preuves de connexion et d'assiduité exploitables. Cette exigence, secondaire pour une réunion ordinaire, devient déterminante en contexte de formation certifiée ou financée. Le suivi de participation sert aussi à animer : repérer les décrocheurs en séance permet de les réengager.
+
+## Ce qu'il faut retenir
+
+- Un outil de classe virtuelle dépasse la visioconférence par ses fonctions pédagogiques.
+- Gestion de la parole, sondages, sous-groupes et partage soutiennent l'interaction.
+- Le choix dépend du type d'animation et du nombre de participants.
+- La simplicité d'accès pour l'apprenant conditionne la participation.
+- La traçabilité de présence est nécessaire pour les formations financées.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Quel outil de classe virtuelle choisir pour la formation synchrone"}]}],["$","$L3",null,{"article":{"slug":"quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone","title":"Quel outil de classe virtuelle choisir pour la formation synchrone","cible":"EdTech, plateformes et outils numériques","thematique":"Pédagogie","tags":["VR","formation"],"shortDescription":"Choisir un outil de classe virtuelle suppose de distinguer un outil de visioconférence générique d'un outil pensé pour la pédagogie synchrone, doté de fonctions d'interaction, de sous-groupes, de p...","metaDescription":"Choisir un outil de classe virtuelle suppose de distinguer un outil de visioconférence générique d'un outil pensé pour la pédagogie synchrone, doté de fonctions d'interaction, de sous-groupes, de partage et de suivi de participation.","content":"$4","order":65,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8e6,Eligible institutions receive the apprenticeship tax balance, set at 0.09 percent of company payroll, through the SOLTéA platform managed by the Caisse des dépôts. Since the reform, employers no longer pay institutions directly: they declare the balance via April's DSN payroll filing, then designate their beneficiaries on SOLTéA during an annual window. To benefit, an institution must appear on the list of eligible recipients and actively build visibility with companies.
+
+## The mechanism since the reform
+
+The apprenticeship tax comprises a main portion, which finances apprenticeship through OPCOs, and a balance of 0.09 percent dedicated to initial technological and vocational training and to employment inclusion. This balance is declared and paid via the April DSN, collected by Urssaf or MSA, then paid over to the Caisse des dépôts which redistributes it according to designations made on SOLTéA. No direct cash payment to institutions is possible outside the platform.
+
+## The SOLTéA calendar
+
+The allocation campaign opens each spring and runs across two designation windows, with staggered payments to designated institutions. Funds not designated by employers by the closing date are allocated by regulation, primarily toward training preparing for occupations in shortage in the employer's region. Recipient institutions must enter their details and bank account on the platform to receive funds.
+
+## Capturing the balance as an institution
+
+Appearing on the list of eligible institutions is the access condition. Beyond that, capturing the balance requires active outreach to companies: making yourself known, explaining the designation procedure and building relationships with local employers, since they are the ones who designate recipients. In-kind contributions, equipment or materials, remain possible directly but outside the platform.
+
+## Key takeaways
+
+- The apprenticeship tax balance is set at 0.09 percent of payroll.
+- It transits through SOLTéA, managed by the Caisse des dépôts; no direct cash payment is possible.
+- Employers declare via April's DSN then designate their beneficiaries.
+- Undesignated funds are allocated by regulation toward occupations in shortage.
+- An institution must be eligible and actively engage companies.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to obtain and use apprenticeship tax funds"}]}],["$","$L3",null,{"article":{"slug":"comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage","lang":"en","title":"How to obtain and use apprenticeship tax funds","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","OPCO"],"shortDescription":"Eligible institutions receive the apprenticeship tax balance, set at 0.","metaDescription":"Eligible institutions receive the apprenticeship tax balance, set at 0.","content":"$4","order":13},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

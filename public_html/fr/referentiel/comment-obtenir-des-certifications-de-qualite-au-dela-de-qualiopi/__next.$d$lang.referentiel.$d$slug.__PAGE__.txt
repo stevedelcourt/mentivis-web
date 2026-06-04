@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta4c,Au-delà de Qualiopi, qui est obligatoire pour accéder aux financements, un organisme peut viser des labels et certifications complémentaires pour renforcer sa crédibilité : certifications sectorielles ou de branche, normes internationales de management de la qualité, labellisations régionales. Ces démarches sont volontaires et n'ouvrent pas de droit au financement, mais elles différencient sur des marchés concurrentiels et rassurent les acheteurs exigeants. Leur valeur dépend de la reconnaissance qu'en ont les clients visés.
+
+## Qualiopi, le socle obligatoire
+
+Qualiopi reste le préalable incontournable, puisqu'elle conditionne l'accès aux fonds publics et mutualisés. Aucune autre certification ne s'y substitue pour cet usage. Les démarches complémentaires se construisent donc sur ce socle, jamais à sa place.
+
+## Les certifications complémentaires possibles
+
+Les normes internationales de management, comme les référentiels ISO appliqués à la formation, attestent d'une démarche qualité structurée et sont parfois attendues par de grands donneurs d'ordre. Les certifications et habilitations de branche valident une expertise sectorielle reconnue par une profession. Les labellisations régionales ou les référencements spécifiques peuvent ouvrir l'accès à certains marchés territoriaux. Chacune répond à un usage précis.
+
+## Choisir selon la valeur perçue par les clients
+
+Une certification complémentaire n'a de valeur que si les clients visés la reconnaissent. Avant d'engager une démarche coûteuse, l'organisme évalue le retour attendu : ouverture de marchés, différenciation, exigence d'un segment de clientèle. Empiler des labels sans usage commercial réel dilue le message plutôt qu'il ne le renforce. Le choix se pilote comme un investissement, par sa contribution à l'acquisition.
+
+## Ce qu'il faut retenir
+
+- Qualiopi reste le socle obligatoire pour l'accès aux financements.
+- Les certifications complémentaires sont volontaires et n'ouvrent pas de droit au financement.
+- Normes internationales, certifications de branche et labels régionaux répondent à des usages distincts.
+- La valeur d'un label dépend de sa reconnaissance par les clients visés.
+- Le choix se pilote comme un investissement commercial.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment obtenir des certifications de qualité au-delà de Qualiopi"}]}],["$","$L3",null,{"article":{"slug":"comment-obtenir-des-certifications-de-qualite-au-dela-de-qualiopi","title":"Comment obtenir des certifications de qualité au-delà de Qualiopi","cible":"Organismes de formation","thematique":"Certification","tags":["IA","Qualiopi","VR","certification","coût","financement","formation","management"],"shortDescription":"Au-delà de Qualiopi, qui est obligatoire pour accéder aux financements, un organisme peut viser des labels et certifications complémentaires pour renforcer sa crédibilité : certifications sectoriel...","metaDescription":"Au-delà de Qualiopi, qui est obligatoire pour accéder aux financements, un organisme peut viser des labels et certifications complémentaires pour renforcer sa crédibilité : certifications sectorielles ou de branche, normes internationales de management de la qualité, labellisations régionales.","content":"$4","order":21,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

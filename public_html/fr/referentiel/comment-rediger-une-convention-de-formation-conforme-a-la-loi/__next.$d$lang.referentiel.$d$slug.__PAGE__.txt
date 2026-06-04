@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta3e,Une convention de formation conforme respecte les mentions obligatoires fixées par l'article L6353-1 du code du travail : intitulé, objectifs, contenu, moyens, durée, dates, modalités de déroulement et d'évaluation, prix et modalités de règlement. Elle se distingue du bon de commande ou du devis par sa valeur contractuelle complète. Une convention incomplète fragilise la relation client, la prise en charge par les financeurs et la conformité Qualiopi de l'organisme.
+
+## Les mentions obligatoires
+
+L'article L6353-1 encadre le contenu de la convention conclue entre l'organisme et l'acheteur de formation. Elle précise l'intitulé, la nature, les objectifs et le contenu de l'action, les moyens pédagogiques et techniques, la durée et les dates, les modalités de déroulement, de suivi et d'évaluation des résultats, ainsi que le prix et les modalités de règlement. Ces éléments recoupent directement des attendus Qualiopi sur l'information du public et la définition des objectifs.
+
+## Convention, contrat, bon de commande
+
+La convention de formation lie l'organisme à une personne morale, le plus souvent une entreprise. Le contrat de formation s'applique lorsqu'une personne physique finance sa formation à titre individuel ; il comporte des mentions protectrices supplémentaires, dont un délai de rétractation. Le bon de commande ou devis ne se substitue pas à la convention : il peut l'accompagner mais ne porte pas la même valeur contractuelle.
+
+## Sécuriser les cas particuliers
+
+La convention doit anticiper les aléas : conditions d'annulation, de report, de dédit, responsabilité en cas d'inexécution. Les conditions générales précisent ces points. Une convention bien construite protège l'organisme en cas de litige et sécurise la prise en charge par les financeurs, qui exigent une convention conforme pour rembourser.
+
+## Ce qu'il faut retenir
+
+- La convention suit les mentions obligatoires de l'article L6353-1.
+- Elle se distingue du contrat avec une personne physique, qui comporte un délai de rétractation.
+- Le bon de commande ne remplace pas la convention.
+- Les conditions d'annulation, report et dédit doivent être prévues.
+- Une convention conforme conditionne la prise en charge par les financeurs.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment rédiger une convention de formation conforme à la loi"}]}],["$","$L3",null,{"article":{"slug":"comment-rediger-une-convention-de-formation-conforme-a-la-loi","title":"Comment rédiger une convention de formation conforme à la loi","cible":"Organismes de formation","thematique":"Certification","tags":["Qualiopi","conformité","formation"],"shortDescription":"Une convention de formation conforme respecte les mentions obligatoires fixées par l'article L6353-1 du code du travail : intitulé, objectifs, contenu, moyens, durée, dates, modalités de déroulemen...","metaDescription":"Une convention de formation conforme respecte les mentions obligatoires fixées par l'article L6353-1 du code du travail : intitulé, objectifs, contenu, moyens, durée, dates, modalités de déroulement et d'évaluation, prix et modalités de règlement.","content":"$4","order":16,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T89b,Preparing an organization for AI in training tools requires anticipating three dimensions: upskilling training teams on these tools, revising production and management processes, and establishing governance covering quality, data and compliance. AI is not simply one more tool: it shifts value from production toward diagnosis and management. Organizations that prepare for it make it a lever; those that ignore it fall increasingly behind those that produce faster and better.
+
+## Upskilling teams
+
+The arrival of AI changes the competencies expected from training teams. The ability to diagnose needs, frame a generation, verify and manage becomes more determining than manual content production. Preparing the organization means training teams in these new competencies, reassuring them that AI shifts their value upward, toward design and management, rather than replacing them.
+
+## Revising processes
+
+AI changes the economics of production. What took weeks may take days; the bottleneck shifts from production toward the quality of needs diagnosis and the relevance of management. Processes must be revised accordingly: less time on manufacturing, more on needs analysis, verification and data exploitation. Maintaining processes designed for manual production deprives the organization of the gain AI brings.
+
+## Installing governance
+
+AI in training calls for governance. The quality of generated content must be controlled, as generation can produce errors. Learner personal data must be protected. Regulatory compliance, alignment with reference frameworks, traceability, accessibility requirements, must be maintained. Clear governance, defining who controls what and according to which criteria, makes it possible to benefit from AI without bearing its risks. This is the condition for controlled and durable use.
+
+## Key takeaways
+
+- AI shifts value from production toward diagnosis and management.
+- Teams must develop competencies in framing, verification and management.
+- Processes must be revised: less manufacturing, more analysis and control.
+- Governance covers content quality, data protection and compliance.
+- Preparing for it makes AI a lever; ignoring it creates a growing gap.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to prepare your organization for AI in training tools"}]}],["$","$L3",null,{"article":{"slug":"comment-preparer-son-organisation-a-l-arrivee-de-l-ia-dans-les-outils-de-formation","lang":"en","title":"How to prepare your organization for AI in training tools","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","management"],"shortDescription":"Preparing an organization for AI in training tools requires anticipating three dimensions: upskilling training teams on these tools, revising production and management processes, and establishing g...","metaDescription":"Preparing an organization for AI in training tools requires anticipating three dimensions: upskilling training teams on these tools, revising production and management processes, and establishing governance covering quality, data and compliance.","content":"$4","order":90},"lang":"en"}]],null,["$","$L5",null,{"children":"$L6"}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+6:["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]
+8:null

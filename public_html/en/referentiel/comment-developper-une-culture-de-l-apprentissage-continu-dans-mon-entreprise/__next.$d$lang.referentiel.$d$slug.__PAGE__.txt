@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T75a,Developing a continuous learning culture requires more than a training catalogue: exemplary leadership, recognized time to learn, valuation of acquired competencies and spaces for peer exchange. A learning culture is not decreed; it is embodied in daily practices and the signals sent by management. It transforms training from a one-off event into a collective reflex, making it a durable lever of performance and attractiveness.
+
+## Embodying it through leadership
+
+A learning culture begins with example. When leaders and managers train, talk about what they are learning and value the practice of learning, they legitimize the approach. Conversely, a discourse on training contradicted by practices that never leave time for it remains hollow. Leadership sets the tone and gives permission to learn.
+
+## Freeing recognized time
+
+Continuous learning requires explicitly recognized time, not time grabbed from the margins. Allocating dedicated slots, integrating learning into objectives and recognizing time spent transforms intention into practice. Without this allocation, the injunction to train contradicts workload and remains futile.
+
+## Valuing and circulating
+
+Recognizing acquired competencies, through mobility, responsibility or acknowledgment, sustains the dynamic. Communities of practice, peer sharing and access to resources sustain learning beyond formal training. Circulating knowledge within the organization, from social learning to shared documentation, embeds learning in collective daily life rather than in isolated sessions.
+
+## Key takeaways
+
+- A learning culture is embodied in practices; it is not decreed.
+- Exemplary leadership legitimizes and gives permission to learn.
+- Explicitly recognized time is the condition for real learning.
+- Valuing acquired competencies sustains the dynamic.
+- Communities of practice circulate knowledge in daily life.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to develop a continuous learning culture in my company"}]}],["$","$L3",null,{"article":{"slug":"comment-developper-une-culture-de-l-apprentissage-continu-dans-mon-entreprise","lang":"en","title":"How to develop a continuous learning culture in my company","cible":"Entreprises","cibleEn":"Companies","thematique":"Regulation","thematiqueEn":"Regulation","tags":["IA","management"],"shortDescription":"Developing a continuous learning culture requires more than a training catalogue: exemplary leadership, recognized time to learn, valuation of acquired competencies and spaces for peer exchange.","metaDescription":"Developing a continuous learning culture requires more than a training catalogue: exemplary leadership, recognized time to learn, valuation of acquired competencies and spaces for peer exchange.","content":"$4","order":52},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

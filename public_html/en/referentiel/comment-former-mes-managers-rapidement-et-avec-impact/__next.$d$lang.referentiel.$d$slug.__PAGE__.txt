@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T77c,Training managers quickly and effectively means favoring short, actionable formats anchored in real work situations, and extending training with accompaniment that sustains transfer. Management development fails frequently because it remains theoretical and one-off. Impact comes from the combination of a clear managerial competency framework, modules targeting concrete situations, and guided practice over time.
+
+## Targeting key managerial competencies
+
+Training managers without a framework means dispersing effort. A managerial competency framework, adapted to the company's context, identifies what genuinely matters: conducting interviews, managing priorities, giving feedback, decision-making, leading change. Targeting these competencies concentrates training on the useful and allows progression to be measured.
+
+## Favoring short and actionable formats
+
+Managers have little time. Short modules, centered on one competency and immediately applicable, produce more effect than a long, generic seminar. Role-plays, simulations and case studies drawn from the company's daily reality anchor learning. Format matters as much as content for time-constrained audiences.
+
+## Sustaining transfer over time
+
+Management training without follow-up dissolves in the return to daily routine. Coaching, peer communities and post-training accompaniment sustain the transfer of learning into real practice. This accompaniment, even light, often makes the difference between forgotten training and lasting change. This is where measurable impact is decided.
+
+## Key takeaways
+
+- A managerial competency framework concentrates effort on the genuinely useful.
+- Short, actionable formats suit time-constrained audiences.
+- Role-plays and concrete case studies anchor learning.
+- Post-training accompaniment sustains transfer over time.
+- Impact comes from the combination of framework, targeted modules and guided practice.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to train my managers quickly and with impact"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-managers-rapidement-et-avec-impact","lang":"en","title":"How to train my managers quickly and with impact","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","management"],"shortDescription":"Training managers quickly and effectively means favoring short, actionable formats anchored in real work situations, and extending training with accompaniment that sustains transfer.","metaDescription":"Training managers quickly and effectively means favoring short, actionable formats anchored in real work situations, and extending training with accompaniment that sustains transfer.","content":"$4","order":37},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

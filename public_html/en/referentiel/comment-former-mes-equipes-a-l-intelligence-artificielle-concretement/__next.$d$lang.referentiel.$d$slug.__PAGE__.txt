@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T8e0,Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually use, and supporting managers on supervision and integration of AI into processes. Generic AI training leaves little trace. Impact comes from anchoring in the daily tasks of each function and from a practice transformation plan that goes beyond simple tool discovery.
+
+## Starting from job function use cases
+
+AI is not trained in the abstract. Each function has its relevant use cases: writing and synthesis for support functions, analysis for data functions, client relations for commercial teams. Identifying these use cases by job function directs training toward what actually changes work. A concrete case-study approach produces more adoption than a general AI course.
+
+## Training on tools actually used
+
+Competency is built on the tools teams will effectively use. Training on the assistants and tools deployed in the company, with their use cases and limitations, anchors lasting practices. Prompt mastery, result verification and awareness of limitations are base competencies to transmit, regardless of the tool.
+
+## Supporting practice transformation
+
+Beyond the tool, it is the integration of AI into processes that creates value. Managers must be trained to supervise AI-assisted work, to arbitrate between automation and human control, and to evolve their teams' practices. A transformation plan, phased and supported, goes beyond one-off training and embeds AI in the real functioning of the organization.
+
+## Key takeaways
+
+- AI training starts from real use cases by job function, not from general concepts.
+- It is anchored on the tools teams will actually use.
+- Prompt mastery, verification and awareness of limitations are base competencies.
+- Managers must be trained to supervise AI-assisted work.
+- A practice transformation plan goes beyond one-off training.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to train my teams on artificial intelligence in practice"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-equipes-a-l-intelligence-artificielle-concretement","lang":"en","title":"How to train my teams on artificial intelligence in practice","cible":"Entreprises","cibleEn":"Companies","thematique":"Development","thematiqueEn":"Development","tags":["IA","formation"],"shortDescription":"Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually u...","metaDescription":"Training teams on artificial intelligence in a practical way means starting from real use cases by job function rather than from general concepts, training first on the tools people will actually use, and supporting managers on supervision and integration of AI into processes.","content":"$4","order":39},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

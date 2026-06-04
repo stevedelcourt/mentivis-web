@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T953,Supporting learners with disabilities imposes legal obligations and constitutes a Qualiopi expectation: appointment of a disability coordinator, information on accessibility conditions, pedagogical and material adaptation, and mobilization of specialist stakeholders. Appointing a coordinator is not enough; auditors expect concrete accessibility actions and partnerships with disability sector actors. Support is prepared ahead of enrolment and documented throughout.
+
+## The framework and the Qualiopi obligation
+
+The National Quality Reference Framework contains requirements on the inclusion of disability. Information on accessibility and possible adaptations falls under the criterion on public information. Appointment of a disability coordinator is expected, as is demonstration of concrete actions: without evidence of effective actions, a simple appointment is insufficient.
+
+## The adaptations to provide
+
+Adaptation can be pedagogical, accessible materials, adjusted pace, alternative methods, or material and technical, building accessibility, adapted tools. The organization demonstrates that it accounts for disability situations and compensation needs. These adaptations are planned ahead of delivery, not improvised when a concerned learner arrives.
+
+## Mobilizing specialist actors
+
+The organization does not bear support alone. Partnerships with disability sector actors, such as Agefiph for the private sector or territorial relay organizations, make it possible to mobilize expertise and compensation funding. A directory of partners and formalized agreements constitute both an operational resource and audit evidence. The disability coordinator animates this mobilization.
+
+## Key takeaways
+
+- Supporting learners with disabilities is a legal obligation and a Qualiopi expectation.
+- Appointing a disability coordinator must be accompanied by concrete actions.
+- Adaptations are pedagogical, material and technical, planned ahead of delivery.
+- Partnerships with disability sector actors provide expertise and funding.
+- Evidence of effective actions is expected at audit.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to support learners with disabilities"}]}],["$","$L3",null,{"article":{"slug":"comment-accompagner-les-apprenants-en-situation-de-handicap-psh","lang":"en","title":"How to support learners with disabilities","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","Qualiopi","audit","formation"],"shortDescription":"Supporting learners with disabilities imposes legal obligations and constitutes a Qualiopi expectation: appointment of a disability coordinator, information on accessibility conditions, pedagogical...","metaDescription":"Supporting learners with disabilities imposes legal obligations and constitutes a Qualiopi expectation: appointment of a disability coordinator, information on accessibility conditions, pedagogical and material adaptation, and mobilization of specialist stakeholders.","content":"$4","order":23},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

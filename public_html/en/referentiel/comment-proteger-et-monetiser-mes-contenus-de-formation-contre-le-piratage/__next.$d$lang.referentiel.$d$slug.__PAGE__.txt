@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9d1,Protecting and monetizing training content requires combining technical measures, access control and restrictions, legal measures, copyright and terms of use, and an economic model that reduces the incentive to pirate. No technical protection is absolute: the realistic strategy aims to deter and complicate copying, not to make it impossible. The value of training also often rests on accompaniment and certification, which are difficult to pirate, more than on content alone.
+
+## Technical measures
+
+Several technical measures complicate misappropriation: access control through authentication, download restrictions, content watermarking, account-sharing limitations. Streaming rather than downloadable files reduces easy copying. These measures deter without guaranteeing inviolability. The right level of protection is calibrated against the value of the content and the actual risk, without degrading the experience for legitimate learners.
+
+## Legal measures
+
+Training content is protected by copyright. Clear terms of use specifying what is and is not permitted, and access traceability, ground a recourse in the event of demonstrated misappropriation. The legal framework does not prevent copying but sanctions abuse and deters professional actors. Legal protection complements technical protection without replacing it.
+
+## The economic model as protection
+
+The most effective protection is often the economic model. When value rests on accompaniment, interaction, regular updating and certification, copied content alone loses most of its value. A subscription giving access to updated content, human accompaniment or a recognized certification are difficult to pirate. Designing an offering so that value exceeds the file structurally reduces the incentive to pirate.
+
+## Key takeaways
+
+- Protection combines technical measures, legal measures and economic model.
+- No technical protection is absolute: the goal is to deter and complicate.
+- Copyright sanctions abuse and deters professional actors.
+- Value often rests on accompaniment and certification, which are difficult to pirate.
+- Designing an offering whose value exceeds the file reduces the piracy incentive.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to protect and monetize my training content against piracy"}]}],["$","$L3",null,{"article":{"slug":"comment-proteger-et-monetiser-mes-contenus-de-formation-contre-le-piratage","lang":"en","title":"How to protect and monetize my training content against piracy","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","certification"],"shortDescription":"Protecting and monetizing training content requires combining technical measures, access control and restrictions, legal measures, copyright and terms of use, and an economic model that reduces the...","metaDescription":"Protecting and monetizing training content requires combining technical measures, access control and restrictions, legal measures, copyright and terms of use, and an economic model that reduces the incentive to pirate.","content":"$4","order":79},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta5e,Prouver le respect des obligations de formation repose sur la traçabilité : conserver les preuves des entretiens professionnels, des actions de formation suivies, des évolutions des salariés, et tenir à jour les déclarations sociales et fiscales liées à la contribution formation. En cas de contrôle ou de litige, c'est la documentation qui fait foi. L'obligation d'adaptation et de maintien de l'employabilité, ainsi que les obligations déclaratives, exposent l'entreprise à des conséquences en cas de manquement non documenté.
+
+## Tracer les entretiens et les formations
+
+Les preuves attendues couvrent l'ensemble des obligations. Pour les entretiens professionnels, conserver les comptes rendus datés et signés démontre leur tenue. Pour les formations, conserver les attestations, convocations et émargements prouve la réalisation des actions. L'état des lieux récapitulatif à six ans s'appuie sur cette documentation pour vérifier que le salarié a bénéficié de ses droits.
+
+## Tenir les obligations déclaratives
+
+L'entreprise verse une contribution à la formation professionnelle, déclarée via la déclaration sociale nominative et collectée par l'Urssaf. Le respect de ces obligations déclaratives et de leur calendrier fait partie des points contrôlables. Une comptabilité claire des dépenses de formation et des contributions versées documente la conformité fiscale et sociale de l'entreprise sur ce volet.
+
+## Anticiper contrôle et contentieux
+
+En cas de contrôle Urssaf ou de contentieux prud'homal, par exemple sur l'obligation d'adaptation ou sur l'abondement correctif, la charge de la preuve pèse largement sur l'employeur. Une documentation organisée et conservée protège l'entreprise. À l'inverse, l'absence de traces fragilise sa position, même si les obligations ont été matériellement respectées. La traçabilité n'est pas une formalité, mais une protection.
+
+## Ce qu'il faut retenir
+
+- La preuve du respect des obligations repose sur la traçabilité documentée.
+- Comptes rendus d'entretiens, attestations et émargements démontrent les actions.
+- L'état des lieux à six ans s'appuie sur cette documentation.
+- Les obligations déclaratives via la DSN et l'Urssaf sont contrôlables.
+- En cas de litige, la charge de la preuve pèse largement sur l'employeur.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment prouver que mon entreprise respecte ses obligations en matière de formation"}]}],["$","$L3",null,{"article":{"slug":"comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation","title":"Comment prouver que mon entreprise respecte ses obligations en matière de formation","cible":"Entreprises","thematique":"Pédagogie","tags":["IA","VR","conformité","déclaration","formation"],"shortDescription":"Prouver le respect des obligations de formation repose sur la traçabilité : conserver les preuves des entretiens professionnels, des actions de formation suivies, des évolutions des salariés, et te...","metaDescription":"Prouver le respect des obligations de formation repose sur la traçabilité : conserver les preuves des entretiens professionnels, des actions de formation suivies, des évolutions des salariés, et tenir à jour les déclarations sociales et fiscales liées à la contribution formation.","content":"$4","order":50,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

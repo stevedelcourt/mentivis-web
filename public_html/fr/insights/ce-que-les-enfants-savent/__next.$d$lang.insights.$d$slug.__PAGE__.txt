@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+3:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T164c,**MentivisOS lance une campagne display qui confie la parole à ceux qui n'ont encore aucune raison de mentir sur ce qu'ils veulent devenir.**
+
+*Mentivis, juin 2026*
+
+Il y a une évidence que les grandes organisations de formation professionnelle ont appris à contourner : personne ne choisit un métier pour se conformer à une grille de compétences. On choisit un métier parce qu'on a rêvé d'en être. La campagne display MentivisOS part de là, avec une franchise désarmante. Elle confie ses visuels à des dessins d'enfants.
+
+Quatre affiches. Quatre déclarations brutes, tracées au crayon ou à la gouache sur du papier blanc.
+
+## Affiche 1 : Fais mieux.
+
+![Affiche MentivisOS : Je veux être comme Elon Musk — Fais mieux.](/images/insights/elon.webp)
+
+**« Je veux être comme Elon Musk. »** Une fusée rouge, un globe terrestre peint à la main, et en bas, le tagline qui réfute sans débattre : **Fais mieux.** Ce n'est pas une provocation. C'est un programme.
+
+## Affiche 2 : Sa fai tou.
+
+![Affiche MentivisOS : Sa fai tou — ordinateur et personnage](/images/insights/mentivisos-sa-fait-tou.webp)
+
+Un ordinateur dessiné de travers. Un personnage aux yeux ronds. **« Sa fai tou »** : ça fait tout. C'est à la fois la croyance naïve dans la technologie et, par retournement, la question que MentivisOS pose à ses clients : votre outil fait-il vraiment tout, ou manque-t-il l'essentiel ?
+
+## Affiche 3 : Tester. Voir. Adopter.
+
+![Affiche MentivisOS : Mon robot — learning agents en sandbox](/images/insights/robot.webp)
+
+**Mon robot.** Un robot coloré dans un bac à sable, avec des châteaux de sable et un camion vert. La seule affiche à articuler explicitement une fonctionnalité produit : les learning agents de MentivisOS peuvent désormais être déployés dans un environnement sandbox, testés en conditions réelles, observés en continu.
+
+> Nos learning agents peuvent désormais être déployés dans un environnement sandbox, testés en conditions réelles et observés en continu. **Tester. Voir. Adopter.**
+
+Le bac à sable est précisément le terme technique qui désigne l'environnement d'expérimentation contrôlé en informatique, et c'est aussi, littéralement, le terrain de jeu de l'enfant. La métaphore n'est pas plaquée. Elle est structurelle.
+
+## Affiche 4 : Devenir, pour de vrai.
+
+![Affiche MentivisOS : Je veux être pompier — Devenir, pour de vrai.](/images/insights/pompier.webp)
+
+**« Je veux être pompier. »** Un soleil orange, une famille peinte à grands coups de brosse, un pompier en uniforme vert qui tient sa lance. Et le tagline final : **Devenir, pour de vrai.**
+
+Le « pour de vrai » est l'enjeu de toute la démarche pédagogique : non pas simuler une compétence dans un contexte de formation, mais la déployer dans la réalité professionnelle. C'est la distinction entre apprendre à faire et savoir faire.
+
+## Une stratégie de rupture par la naïveté calculée
+
+Le secteur de la formation professionnelle et continue souffre d'un problème d'image chronique : ses communications parlent de dispositifs là où les apprenants pensent à des destinées. Les catalogues alignent des intitulés de modules, des durées en heures, des éligibilités CPF. Rien dans ce vocabulaire ne ressemble à ce qu'un enfant de six ans dessine quand on lui demande ce qu'il veut faire de sa vie.
+
+MentivisOS opère le retournement inverse. En choisissant le dessin enfantin comme matière première visuelle, la campagne renoue avec la source de toute motivation d'apprentissage : le désir de devenir. Non pas d'acquérir une compétence certifiable, mais de *devenir, pour de vrai*.
+
+Ce choix est risqué. Il pourrait être lu comme une posture publicitaire facile, le recours attendu à l'enfance pour attendrir. Ce serait mal lire la logique créative à l'oeuvre. Chaque visuel articule une tension précise entre le dessin brut et le message de marque.
+
+## MentivisOS comme système d'exploitation de la compétence
+
+Le nom lui-même mérite qu'on s'y arrête. MentivisOS ne s'appelle pas MentivisOS par hasard. OS, pour Operating System, système d'exploitation : le logiciel de fond qui fait fonctionner tout le reste, invisible quand il tourne bien, catastrophique quand il manque. La métaphore dit que Mentivis n'est pas un outil parmi d'autres dans l'écosystème de la formation. C'est la couche sur laquelle tout le reste s'installe.
+
+C'est une promesse exigeante. Elle suppose que l'organisation cliente soit prête à renoncer à gérer ses formations comme une somme de projets discrets et à accepter une logique d'infrastructure continue. La campagne, en partant des rêves d'enfants, ne fait que rendre cette promesse humainement intelligible : un système d'exploitation de la compétence ne sert à rien si la compétence visée n'est jamais rattachée à ce que la personne voulait, au fond, devenir.
+
+**« Fais mieux »** s'adresse à qui ? À l'enfant qui veut ressembler à Elon Musk : ne l'imite pas, dépasse-le. À l'organisation cliente : ta formation actuelle fait quelque chose, fais-le mieux. À Mentivis lui-même : ne te contente pas de concevoir des dispositifs, construis ce qui change réellement les trajectoires.
+
+**« Devenir, pour de vrai »** clôt la campagne sur une promesse de résultat.
+
+La campagne MentivisOS ne cherche pas à séduire. Elle pose une question à ses interlocuteurs, directeurs formation, DRH, responsables pédagogiques, opérateurs de compétences : votre système de formation actuel est-il à la hauteur de ce que vos collaborateurs voulaient, enfants, devenir ? Si la réponse est incertaine, la conversation peut commencer.
+
+*Mentivis, pôle marque et communication*5:T141b,**MentivisOS launches a display campaign that gives the floor to those who have no reason yet to lie about what they want to become.**
+
+*Mentivis, June 2026*
+
+There is an obvious truth that large professional training organizations have learned to work around: nobody chooses a profession to conform to a competency framework. You choose a profession because you once dreamed of being it. The MentivisOS display campaign starts there, with disarming candor. It entrusts its visuals to children's drawings.
+
+Four posters. Four raw declarations, traced in pencil or gouache on white paper.
+
+## Poster 1: Do better.
+
+![MentivisOS Poster: I want to be like Elon Musk — Do better.](/images/insights/elon.webp)
+
+**"I want to be like Elon Musk."** A red rocket, a hand-painted globe, and at the bottom, the tagline that refuses without debating: **Do better.** This is not a provocation. It is a program.
+
+## Poster 2: It does everything.
+
+![MentivisOS Poster: It does everything — computer and figure](/images/insights/mentivisos-sa-fait-tou.webp)
+
+A crooked computer. A round-eyed figure. **"It does everything."** It is simultaneously the naive belief in technology and, by reversal, the question MentivisOS puts to its clients: does your tool really do everything, or is it missing what matters most?
+
+## Poster 3: Test. See. Adopt.
+
+![MentivisOS Poster: My robot — learning agents in sandbox](/images/insights/robot.webp)
+
+**My robot.** A colorful robot in a sandbox, with sandcastles and a green truck. The only poster to explicitly articulate a product feature: MentivisOS learning agents can now be deployed in a sandbox environment, tested under real conditions, observed continuously.
+
+> Our learning agents can now be deployed in a sandbox environment, tested under real conditions and observed continuously. **Test. See. Adopt.**
+
+Sandbox is precisely the technical term for a controlled experimentation environment in computing, and it is also, literally, a child's play area. The metaphor is not grafted on. It is structural.
+
+## Poster 4: Becoming, for real.
+
+![MentivisOS Poster: I want to be a firefighter — Becoming, for real.](/images/insights/pompier.webp)
+
+**"I want to be a firefighter."** An orange sun, a family painted in broad brushstrokes, a firefighter in a green uniform holding his hose. And the final tagline: **Becoming, for real.**
+
+The "for real" is the whole stakes of the pedagogical approach: not simulating a competency in a training context, but deploying it in professional reality. It is the distinction between learning to do and knowing how to do.
+
+## A disruption strategy through calculated naivety
+
+The professional and continuing training sector suffers from a chronic image problem: its communications speak of programs and mechanisms where learners are thinking about destinies. Catalogs line up module titles, durations in hours, CPF eligibility criteria. None of that vocabulary resembles what a six-year-old draws when asked what they want to do with their life.
+
+MentivisOS executes the opposite reversal. By choosing children's drawings as its primary visual material, the campaign reconnects with the source of all learning motivation: the desire to become. Not to acquire a certifiable competency, but to become, for real.
+
+This choice carries risk. It could be read as an easy advertising posture, the expected resort to childhood sentiment to generate warmth. That would be a misreading of the creative logic at work. Each visual articulates a precise tension between the raw drawing and the brand message.
+
+## MentivisOS as a competency operating system
+
+The name itself deserves attention. MentivisOS is not called MentivisOS by accident. OS, for Operating System: the foundational software that makes everything else run, invisible when it is working well, catastrophic when it is absent. The metaphor states that Mentivis is not one tool among many in the training ecosystem. It is the layer on which everything else installs.
+
+This is a demanding promise. It presupposes that the client organization is ready to stop managing its training as a collection of discrete projects and to accept a logic of continuous infrastructure. The campaign, by starting from children's dreams, simply makes that promise humanly intelligible: a competency operating system serves no purpose if the targeted competency is never connected to what the person, at their core, wanted to become.
+
+**"Do better"** speaks to whom? To the child who wants to resemble Elon Musk: do not imitate him, surpass him. To the client organization: your current training does something; do it better. To Mentivis itself: do not settle for designing programs, build what genuinely changes trajectories.
+
+**"Becoming, for real"** closes the campaign on a promise of outcome.
+
+The MentivisOS campaign does not seek to seduce. It puts a question to its audience, training directors, HR leaders, learning designers, competency operators: is your current training system equal to what your employees, as children, wanted to become? If the answer is uncertain, the conversation can begin.
+
+*Mentivis, brand and communications*0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Insights","url":"https://mentivis.com/fr/insights/"},{"name":"Ce que les enfants savent de la formation que les adultes ont oublié"}]}],["$","$L3",null,{"article":{"slug":"ce-que-les-enfants-savent","date":"2026-06-01","category":"announcements","author":"Mentivis","readTime":"8 minutes","heroImage":"/images/insights/robot-wide.webp","keywords":"MentivisOS, campagne display, formation professionnelle, dessins d'enfants, pédagogie","titleFr":"Ce que les enfants savent de la formation que les adultes ont oublié","titleEn":"What Children Know About Training That Adults Have Forgotten","excerptFr":"La campagne display MentivisOS part de là, avec une franchise désarmante. Elle confie ses visuels à des dessins d'enfants. Quatre affiches. Quatre déclarations brutes, tracées au crayon ou à la gouache sur du papier blanc.","excerptEn":"The MentivisOS display campaign starts there, with disarming candor. It entrusts its visuals to children's drawings. Four posters. Four raw declarations, traced in pencil or gouache on white paper.","bodyFr":"$4","bodyEn":"$5"}}]],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

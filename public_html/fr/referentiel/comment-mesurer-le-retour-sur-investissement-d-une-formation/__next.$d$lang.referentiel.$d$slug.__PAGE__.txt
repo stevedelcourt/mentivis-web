@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tac2,Mesurer le retour sur investissement d'une formation suppose de dépasser la seule satisfaction pour évaluer le transfert des compétences en situation de travail et l'effet sur les indicateurs de l'organisation. Le modèle de référence, dit de Kirkpatrick, distingue quatre niveaux : réaction, apprentissage, comportement, résultats. La difficulté tient à l'isolement de l'effet propre de la formation parmi d'autres facteurs. Une mesure crédible se prépare dès la conception, en définissant les indicateurs attendus avant le démarrage.
+
+## Les quatre niveaux d'évaluation
+
+Le premier niveau mesure la réaction : satisfaction et perception des participants, recueillies à chaud. Le deuxième mesure l'apprentissage : les acquis réels, par évaluation. Le troisième mesure le comportement : le transfert en situation de travail, observable à distance. Le quatrième mesure les résultats : l'effet sur les indicateurs de l'organisation. La valeur de l'évaluation croît avec le niveau, mais la difficulté de mesure aussi.
+
+## Préparer la mesure en amont
+
+Une mesure crédible ne s'improvise pas après coup. Elle se prépare à la conception, en définissant dès la commande les résultats attendus et les indicateurs qui les traduiront. Cette anticipation permet de recueillir une situation de départ, condition d'une comparaison avant et après. Sans cet ancrage initial, le retour sur investissement reste déclaratif.
+
+## Isoler l'effet de la formation
+
+La principale difficulté est d'attribuer un changement à la formation plutôt qu'à d'autres facteurs. Les évaluations à froid, à plusieurs mois, observent le transfert durable. Le croisement avec des indicateurs métier et, lorsque c'est possible, la comparaison avec un groupe non formé renforcent la robustesse. La mesure du transfert et de l'impact alimente aussi la preuve d'efficacité attendue par les financeurs et au titre de l'amélioration continue Qualiopi.
+
+## Ce qu'il faut retenir
+
+- Le modèle de référence distingue quatre niveaux : réaction, apprentissage, comportement, résultats.
+- La valeur de l'évaluation croît avec le niveau, la difficulté aussi.
+- La mesure se prépare en amont, en définissant les indicateurs avant le démarrage.
+- Les évaluations à froid observent le transfert durable.
+- La preuve d'impact alimente l'amélioration continue Qualiopi et la relation financeur.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment mesurer le retour sur investissement d'une formation"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-le-retour-sur-investissement-d-une-formation","title":"Comment mesurer le retour sur investissement d'une formation","cible":"Organismes de formation","thematique":"Certification","tags":["IA","Qualiopi","apprentissage","formation"],"shortDescription":"Mesurer le retour sur investissement d'une formation suppose de dépasser la seule satisfaction pour évaluer le transfert des compétences en situation de travail et l'effet sur les indicateurs de l'...","metaDescription":"Mesurer le retour sur investissement d'une formation suppose de dépasser la seule satisfaction pour évaluer le transfert des compétences en situation de travail et l'effet sur les indicateurs de l'organisation.","content":"$4","order":25,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

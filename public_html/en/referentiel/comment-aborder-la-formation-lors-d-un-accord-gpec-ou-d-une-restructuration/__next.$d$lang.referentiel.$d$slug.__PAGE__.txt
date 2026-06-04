@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T92a,Addressing training in the context of workforce planning or restructuring means positioning it as a lever for competency adaptation, and potentially as an alternative to redundancy. In cases of role change or economic transition, the employer has obligations of adaptation and employability maintenance. Training becomes a strategic and legal tool, whose financing can be supported by mechanisms dedicated to structural transitions.
+
+## Training as an adaptation lever
+
+Workforce planning anticipates occupational evolution and organizes competency adaptation. Training plays a central role: it allows employees to develop toward tomorrow's competencies rather than facing obsolescence. This anticipation, negotiated in an agreement, transforms a future constraint into an action plan.
+
+## The employer's adaptation obligation
+
+The employer has an obligation to adapt employees to their roles and to maintain their employability. In cases of role change or technological evolution, this obligation translates into training actions. Failure to meet this obligation can be invoked in disputes. Training is therefore not only a development tool but also a legal obligation in certain situations.
+
+## Training in economic transitions
+
+In a restructuring, training can constitute an alternative to redundancy, by retraining employees toward maintained or newly created roles. Specific mechanisms, such as FNE-formation, provide financial support for employee training during difficulties or structural transitions. In a job protection plan, training and retraining measures are among the expected levers. Training becomes an instrument of social management.
+
+## Key takeaways
+
+- Workforce planning positions training as an anticipatory competency adaptation lever.
+- The employer has an obligation of adaptation and employability maintenance.
+- Failure to meet this obligation can be invoked in disputes.
+- Training can constitute an alternative to redundancy in restructurings.
+- FNE-formation supports training during difficulties or structural transitions.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to address training during a GPEC agreement or restructuring"}]}],["$","$L3",null,{"article":{"slug":"comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration","lang":"en","title":"How to address training during a GPEC agreement or restructuring","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","formation","management"],"shortDescription":"Addressing training in the context of workforce planning or restructuring means positioning it as a lever for competency adaptation, and potentially as an alternative to redundancy.","metaDescription":"Addressing training in the context of workforce planning or restructuring means positioning it as a lever for competency adaptation, and potentially as an alternative to redundancy.","content":"$4","order":46},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

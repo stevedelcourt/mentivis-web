@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb0d,Financer une reconversion interne, c'est-à-dire un changement de métier au sein de la même entreprise, repose principalement sur la Pro-A, la reconversion ou promotion par alternance, complétée par le plan de développement des compétences et l'abondement du CPF. La Pro-A combine une formation qualifiante en alternance avec le maintien du contrat de travail, sous condition d'un accord de branche étendu. Ce dispositif sert l'entreprise qui préfère faire évoluer un salarié vers un poste en tension plutôt que de recruter à l'externe.
+
+## La Pro-A, dispositif central de la reconversion interne
+
+La Pro-A permet de financer une formation qualifiante pour un salarié qui change de métier ou monte en qualification tout en restant dans l'entreprise. Elle repose sur l'alternance entre formation et travail, avec maintien du contrat. Sa mobilisation suppose un accord de branche étendu définissant les certifications éligibles, et se traduit par un avenant au contrat de travail précisant la formation suivie.
+
+## Compléter avec les autres leviers
+
+La Pro-A peut être complétée par d'autres dispositifs. Le plan de développement des compétences finance des actions de formation décidées par l'employeur. L'abondement du CPF permet de cofinancer une formation d'intérêt partagé. La combinaison de ces leviers couvre des parcours de reconversion plus longs ou plus complets que ne le permettrait un seul dispositif. L'OPCO de branche est l'interlocuteur pour le financement.
+
+## Arbitrer reconversion interne contre recrutement externe
+
+La reconversion interne met en regard le coût et le risque d'un recrutement externe avec ceux de la formation d'un salarié en place. Former un salarié connu, fidèle et adapté à la culture de l'entreprise vers un poste en tension présente souvent un meilleur rapport coût-risque que recruter un profil rare sur le marché. La reconversion interne est ainsi un levier de gestion des compétences autant qu'un dispositif de financement.
+
+## Ce qu'il faut retenir
+
+- La Pro-A finance une reconversion ou promotion interne par alternance, avec maintien du contrat.
+- Elle suppose un accord de branche étendu et un avenant au contrat.
+- Le plan de développement et l'abondement du CPF la complètent.
+- L'OPCO de branche est l'interlocuteur pour le financement.
+- La reconversion interne offre souvent un meilleur rapport coût-risque qu'un recrutement externe.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment financer la formation d'un salarié qui veut changer de métier en restant dans l'entreprise"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise","title":"Comment financer la formation d'un salarié qui veut changer de métier en restant dans l'entreprise","cible":"Entreprises","thematique":"Certification","tags":["CPF","IA","OPCO","Pro-A","VR","alternance","certification","coût","financement","formation","reconversion"],"shortDescription":"Financer une reconversion interne, c'est-à-dire un changement de métier au sein de la même entreprise, repose principalement sur la Pro-A, la reconversion ou promotion par alternance, complétée par...","metaDescription":"Financer une reconversion interne, c'est-à-dire un changement de métier au sein de la même entreprise, repose principalement sur la Pro-A, la reconversion ou promotion par alternance, complétée par le plan de développement des compétences et l'abondement du CPF.","content":"$4","order":55,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taff,Building a RNCP registration file requires submitting to France Compétences, through its online procedure, a file structured around a feasibility study and three reference frameworks: activities, competencies, and assessment. The professional certification commission examines the relevance of the certification against the labor market and the coherence of the competency blocks. The instruction period is approximately six months, and it is recommended to submit seven to nine months before any deadline.
+
+## The framework and the registers
+
+France Compétences manages two registers: the RNCP, for certifications attesting to an occupation, and the Répertoire Spécifique, for complementary competencies. Registration in the RNCP conditions access to certain types of financing and to listing on Mon Compte Formation for certified training programs.
+
+## The structure of the file
+
+The feasibility study opens the file. It demonstrates the utility of the certification and its alignment with labor market needs, through analysis of professional situations.
+
+The activity reference framework describes the professional situations targeted. The competency reference framework translates them into evaluable competencies, organized into coherent blocks. The assessment reference framework defines the modalities for verifying each block.
+
+The overall coherence between these reference frameworks and the quality of the examination procedures are central assessment criteria. Access through VAE must also be provided for.
+
+## Deadlines, rates and points of vigilance
+
+The instruction period is approximately six months; a submission seven to nine months in advance secures deadlines. The RNCP acceptance rate has historically sat around two thirds, significantly higher than for the Répertoire Spécifique, where unfamiliarity with expectations weighs on decisions. Literal reproduction of an existing reference framework results in rejection without examination. An updated version of the France Compétences vademecum frames the expectations and procedures.
+
+## Key takeaways
+
+- Submission is made to France Compétences via its online procedure.
+- The file includes a feasibility study and three reference frameworks: activities, competencies, assessment.
+- The instruction period is approximately six months.
+- It is recommended to submit seven to nine months before the deadline.
+- Literal reproduction of an existing reference framework results in rejection.
+
+---
+
+_While most tools only track activity, MentivisOS puts real skills acquisition at the core of the system:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to build a RNCP certification file"}]}],["$","$L3",null,{"article":{"slug":"comment-monter-un-dossier-de-certification-rncp","lang":"en","title":"How to build a RNCP certification file","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["France Compétences","IA","RNCP","VAE","certification","formation"],"shortDescription":"Building a RNCP registration file requires submitting to France Compétences, through its online procedure, a file structured around a feasibility study and three reference frameworks: activities, c...","metaDescription":"Building a RNCP registration file requires submitting to France Compétences, through its online procedure, a file structured around a feasibility study and three reference frameworks: activities, competencies, and assessment.","content":"$4","order":7},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

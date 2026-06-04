@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9c9,Negotiating a training agreement with employee representatives requires knowing the works council's role on training matters, preparing a consultation and negotiation based on objective data, and building a balanced agreement between the company's development ambitions and employee access to training. The works council is consulted on the skills development plan, and agreements can organize access to training, CPF top-up or the implementation of mechanisms. The quality of social dialogue conditions buy-in.
+
+## The works council's role on training
+
+In companies with a social and economic committee, it is consulted on strategic orientations, including training, and on the skills development plan. This consultation is an obligation, not a mere information step. Preparing a useful consultation means presenting clear data: identified needs, planned actions, monitoring indicators. A well-informed works council is a partner, not an obstacle.
+
+## Preparing the negotiation on objective data
+
+A training agreement negotiation benefits from being grounded in facts: competency inventory, identified gaps, training access indicators by employee category. These data objectify the priorities and shift the conversation from positions toward needs. They also make it possible to highlight any access inequalities to be corrected, often a sensitive topic.
+
+## Building a balanced agreement
+
+A training agreement can govern many aspects: CPF top-up policy, training access for different employee categories, implementation modalities for mechanisms, company commitments and monitoring indicators. A balanced agreement serves both the company's development ambitions and equitable employee access. Shared monitoring indicators objectify the application of the agreement and sustain constructive dialogue over time.
+
+## Key takeaways
+
+- The works council is consulted on the skills development plan; this is not a mere information step.
+- A useful consultation rests on clear data: needs, plan, indicators.
+- The negotiation benefits from an objective competency and access inventory.
+- An agreement can govern top-up, access, mechanisms and commitments.
+- Shared monitoring indicators sustain constructive dialogue.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to negotiate a training agreement with employee representatives"}]}],["$","$L3",null,{"article":{"slug":"comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel","lang":"en","title":"How to negotiate a training agreement with employee representatives","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","IA","formation"],"shortDescription":"Negotiating a training agreement with employee representatives requires knowing the works council's role on training matters, preparing a consultation and negotiation based on objective data, and b...","metaDescription":"Negotiating a training agreement with employee representatives requires knowing the works council's role on training matters, preparing a consultation and negotiation based on objective data, and building a balanced agreement between the company's development ambitions and employee access to training.","content":"$4","order":60},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tafb,Développer une offre de formation à l'international suppose de traiter trois questions : la reconnaissance des certifications françaises à l'étranger, l'adaptation interculturelle des contenus, et le modèle de déploiement, direct ou en partenariat local. Le marché international est une opportunité de croissance, mais il ne se conquiert pas en exportant une offre franco-française à l'identique. La réussite tient à la capacité d'adapter sans dénaturer, et à s'appuyer sur des relais locaux et des financements dédiés à l'export.
+
+## Traiter la reconnaissance des certifications
+
+Une certification reconnue en France n'a pas automatiquement de valeur ailleurs. Selon le pays et le marché visé, il faut clarifier le statut de la certification : reconnaissance via des accords, équivalences, ou positionnement comme certification d'organisme à valeur de marque. Cette question conditionne l'attractivité de l'offre et doit être tranchée avant le déploiement, pas après.
+
+## Adapter sans dénaturer
+
+L'adaptation interculturelle dépasse la traduction. Elle touche les exemples, les cas, les références, les modalités d'interaction, parfois la pédagogie elle-même. Une offre transposée sans adaptation perd en pertinence et en crédibilité. L'enjeu est d'adapter le contexte tout en préservant la cohérence pédagogique et la valeur du contenu. Ce travail d'adaptation est coûteux s'il est artisanal, ce qui plaide pour une production industrialisée à partir d'un socle commun.
+
+## Choisir un modèle de déploiement
+
+Le déploiement direct donne le contrôle mais exige une présence et une connaissance du marché. Le partenariat avec un organisme local apporte ancrage, réseau et conformité réglementaire locale, en échange d'un partage de valeur. Des dispositifs d'appui à l'export et à la mobilité internationale peuvent soutenir financièrement la démarche. Le choix dépend de l'ambition, des ressources et du niveau de risque acceptable.
+
+## Ce qu'il faut retenir
+
+- La reconnaissance des certifications françaises à l'étranger n'est pas automatique et se clarifie en amont.
+- L'adaptation interculturelle dépasse la traduction et touche contenus et pédagogie.
+- L'adaptation industrialisée à partir d'un socle commun protège la rentabilité.
+- Le déploiement direct donne le contrôle, le partenariat local apporte l'ancrage.
+- Des dispositifs d'appui à l'export peuvent soutenir la démarche.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment développer une offre de formation à l'international"}]}],["$","$L3",null,{"article":{"slug":"comment-developper-une-offre-de-formation-a-l-international","title":"Comment développer une offre de formation à l'international","cible":"Organismes de formation","thematique":"Certification","tags":["IA","certification","conformité","coût","financement","formation"],"shortDescription":"Développer une offre de formation à l'international suppose de traiter trois questions : la reconnaissance des certifications françaises à l'étranger, l'adaptation interculturelle des contenus, et ...","metaDescription":"Développer une offre de formation à l'international suppose de traiter trois questions : la reconnaissance des certifications françaises à l'étranger, l'adaptation interculturelle des contenus, et le modèle de déploiement, direct ou en partenariat local.","content":"$4","order":30,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

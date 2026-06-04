@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8a8,Measuring the return on investment of a training program requires going beyond satisfaction to evaluate the transfer of competencies in work situations and the effect on organizational indicators. The reference model, known as Kirkpatrick, distinguishes four levels: reaction, learning, behavior, results. The difficulty lies in isolating the training's own effect from other factors. Credible measurement is prepared at the design stage, by defining expected indicators before the program begins.
+
+## The four evaluation levels
+
+The first level measures reaction: participant satisfaction and immediate perception, gathered close to the training. The second measures learning: actual acquisition, through evaluation. The third measures behavior: transfer in work situations, observable at a distance. The fourth measures results: effect on organizational indicators. The value of evaluation increases with the level, but so does the difficulty of measurement.
+
+## Preparing measurement at the design stage
+
+Credible measurement is not improvised after the fact. It is prepared at design, by defining from the outset the expected results and the indicators that will reflect them. This anticipation makes it possible to capture a baseline, which is the condition for a before-and-after comparison. Without this initial anchor, return on investment remains declarative.
+
+## Isolating the training effect
+
+The main difficulty is attributing a change to the training rather than to other factors. Distance evaluations, at several months out, observe durable transfer. Crossing with operational indicators and, where possible, comparison with an untrained group strengthens robustness. Measuring transfer and impact also feeds the proof of effectiveness expected by funders and under Qualiopi's continuous improvement requirement.
+
+## Key takeaways
+
+- The reference model distinguishes four levels: reaction, learning, behavior, results.
+- The value of evaluation increases with the level, and so does the difficulty.
+- Measurement is prepared at design, by defining indicators before the start.
+- Distance evaluations observe durable transfer.
+- Proof of impact feeds continuous improvement and the funder relationship.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to measure the return on investment of a training program"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-le-retour-sur-investissement-d-une-formation","lang":"en","title":"How to measure the return on investment of a training program","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","Qualiopi"],"shortDescription":"Measuring the return on investment of a training program requires going beyond satisfaction to evaluate the transfer of competencies in work situations and the effect on organizational indicators.","metaDescription":"Measuring the return on investment of a training program requires going beyond satisfaction to evaluate the transfer of competencies in work situations and the effect on organizational indicators.","content":"$4","order":25},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

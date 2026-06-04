@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9c9,A compliant competency assessment adheres to a precise regulatory framework: it runs in three mandatory phases, preliminary, investigation and conclusion, it is delivered by a Qualiopi-certified provider for the competency assessment category, and it results in a synthesis document given exclusively to the beneficiary. Its duration does not exceed twenty-four hours spread over several weeks. It is distinguished from coaching or career guidance by its legal framework and its purpose of developing a professional project.
+
+## The legal framework
+
+The competency assessment is an action contributing to skills development, subject to the National Quality Reference Framework. The provider must be Qualiopi-certified in the corresponding category for the service to be eligible for CPF financing or other circuits. Confidentiality is an obligation: the detailed results and synthesis document belong solely to the beneficiary.
+
+## The three mandatory phases
+
+The preliminary phase analyzes the request, defines needs and informs the beneficiary about the conditions and methods of the assessment.
+
+The investigation phase explores motivations, competencies, aptitudes and development potential, using evaluation and analysis tools.
+
+The conclusion phase enables the beneficiary to assimilate the results, identify success factors for their project and define its steps. It results in the synthesis document.
+
+## What distinguishes an assessment from coaching
+
+The competency assessment is governed by the labor code, which is not the case for coaching or career guidance. This framework grounds its CPF eligibility and imposes the three-phase structure, capped duration and confidentiality. A provider offering an assessment without respecting this framework cannot have it financed as such.
+
+## Key takeaways
+
+- The competency assessment runs in three phases: preliminary, investigation, conclusion.
+- The provider must be Qualiopi-certified for the competency assessment category.
+- Duration does not exceed twenty-four hours.
+- The synthesis document is given to the beneficiary alone.
+- Confidentiality is a legal obligation, not a commercial option.
+
+---
+
+_While most tools only track activity, MentivisOS puts real skills acquisition at the core of the system:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to design a compliant competency assessment (bilan de compétences)"}]}],["$","$L3",null,{"article":{"slug":"comment-concevoir-un-bilan-de-competences-conforme","lang":"en","title":"How to design a compliant competency assessment (bilan de compétences)","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","IA","Qualiopi"],"shortDescription":"A compliant competency assessment adheres to a precise regulatory framework: it runs in three mandatory phases, preliminary, investigation and conclusion, it is delivered by a Qualiopi-certified pr...","metaDescription":"A compliant competency assessment adheres to a precise regulatory framework: it runs in three mandatory phases, preliminary, investigation and conclusion, it is delivered by a Qualiopi-certified provider for the competency assessment category, and it results in a synthesis document given exclusively to the beneficiary.","content":"$4","order":6},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

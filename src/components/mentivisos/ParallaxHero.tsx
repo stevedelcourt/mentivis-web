@@ -72,7 +72,7 @@ export default function ParallaxHero() {
             <ButtonLink href="https://app.mentivisos.com/" variant="primary">
               {h.ctaPrimary}
             </ButtonLink>
-            <ButtonLink href={`/${lang}/mentivos-website/`} variant="outline" target="_blank" rel="noopener">
+            <ButtonLink href={`https://mentivisos.com/${lang}/`} variant="outline" target="_blank" rel="noopener">
               {lang === "fr" ? "Site MentivisOS" : "MentivisOS Website"}
             </ButtonLink>
           </div>

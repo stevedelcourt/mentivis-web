@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taf9,Aborder la formation dans le cadre d'une gestion des emplois et des parcours professionnels ou d'une restructuration consiste à la positionner comme un levier d'adaptation des compétences, voire comme une alternative au licenciement. En cas de changement de poste ou de mutation économique, l'employeur a des obligations d'adaptation et de maintien de l'employabilité. La formation devient alors un outil stratégique et juridique, dont le financement peut être soutenu par des dispositifs dédiés aux mutations.
+
+## La formation comme levier d'adaptation
+
+La gestion des emplois et des parcours professionnels anticipe les évolutions des métiers et organise l'adaptation des compétences. La formation y joue un rôle central : elle permet de faire évoluer les salariés vers les compétences de demain plutôt que de subir l'obsolescence. Cette anticipation, négociée dans un accord, transforme une contrainte future en plan d'action.
+
+## L'obligation d'adaptation de l'employeur
+
+L'employeur a une obligation d'adaptation des salariés à leur poste et de maintien de leur capacité à occuper un emploi. En cas de changement de poste ou d'évolution technologique, cette obligation se traduit par des actions de formation. Le manquement à cette obligation peut être invoqué en cas de litige. La formation n'est donc pas seulement un outil de développement, mais aussi une obligation juridique dans certaines situations.
+
+## La formation dans les mutations économiques
+
+Lors d'une restructuration, la formation peut constituer une alternative au licenciement, en reconvertissant des salariés vers des postes maintenus ou créés. Des dispositifs spécifiques, comme le FNE-formation, soutiennent financièrement la formation des salariés en cas de difficultés ou de mutations. Dans un plan de sauvegarde de l'emploi, les mesures de formation et de reconversion font partie des leviers attendus. La formation devient alors un instrument de gestion sociale.
+
+## Ce qu'il faut retenir
+
+- La GPEC positionne la formation comme levier d'adaptation anticipée des compétences.
+- L'employeur a une obligation d'adaptation et de maintien de l'employabilité.
+- Le manquement à cette obligation peut être invoqué en cas de litige.
+- La formation peut constituer une alternative au licenciement en restructuration.
+- Le FNE-formation soutient la formation lors de difficultés ou de mutations.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment aborder la formation lors d'un accord GPEC ou d'une restructuration"}]}],["$","$L3",null,{"article":{"slug":"comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration","title":"Comment aborder la formation lors d'un accord GPEC ou d'une restructuration","cible":"Entreprises","thematique":"Financement","tags":["IA","financement","formation","reconversion"],"shortDescription":"Aborder la formation dans le cadre d'une gestion des emplois et des parcours professionnels ou d'une restructuration consiste à la positionner comme un levier d'adaptation des compétences, voire co...","metaDescription":"Aborder la formation dans le cadre d'une gestion des emplois et des parcours professionnels ou d'une restructuration consiste à la positionner comme un levier d'adaptation des compétences, voire comme une alternative au licenciement.","content":"$4","order":46,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

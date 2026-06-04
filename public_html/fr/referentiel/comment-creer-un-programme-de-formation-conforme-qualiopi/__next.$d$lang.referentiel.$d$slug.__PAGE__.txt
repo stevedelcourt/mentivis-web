@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tbde,## Le cadre réglementaire à respecter
+
+Le Référentiel National Qualité a été créé par le décret n°2019-565 du 6 juin 2019, en application de la loi Avenir professionnel. Il est obligatoire depuis le 1er janvier 2022 pour tout organisme souhaitant accéder aux fonds publics ou mutualisés.
+
+Le référentiel compte 7 critères et 32 indicateurs. La conception d'un programme relève principalement du critère 2, qui porte sur l'identification précise des objectifs et l'adaptation de la prestation aux publics. Le guide de lecture en vigueur, version 9 du 8 janvier 2024, précise pour chaque indicateur le niveau attendu et des exemples de preuves recevables.
+
+## Les quatre éléments structurants
+
+L'analyse des besoins ouvre la chaîne. Avant de concevoir, l'organisme recueille les attentes du bénéficiaire et, le cas échéant, du financeur. Preuves attendues : questionnaire de positionnement, entretien préalable, fiche de recueil.
+
+Les objectifs viennent ensuite. Ils doivent être formulés en termes de compétences vérifiables. Les formulations vagues du type "sensibiliser à" ne suffisent pas. L'auditeur attend des verbes d'action évaluables : concevoir, piloter, rédiger, diagnostiquer.
+
+Le contenu et les modalités structurent le parcours : découpage en séquences, méthodes, supports, durée et séquençage horaire alignés sur les objectifs.
+
+Le positionnement à l'entrée referme la boucle, par une évaluation du niveau de chaque apprenant avant le lancement du parcours.
+
+## Le document qui fait la différence en audit
+
+Le déroulé pédagogique relie le plus grand nombre d'indicateurs. Il regroupe objectifs, contenus, méthodes, supports, évaluations et séquençage dans une seule feuille de route, qui sert à la fois de guide pour le formateur et de preuve pour l'auditeur. Les preuves doivent être datées, versionnées et traçables.
+
+## Ce qu'il faut retenir
+
+- La conformité d'un programme se joue sur le critère 2 du RNQ.
+- Les objectifs doivent être formulés en compétences vérifiables.
+- Le déroulé pédagogique est le document central attendu en audit.
+- Le guide de lecture de référence est la version 9 du 8 janvier 2024.
+- Une seule non-conformité majeure peut bloquer la certification.
+
+---
+
+Concevoir un programme conforme suppose de relier diagnostic, référentiel et ordonnancement des séquences sans rupture documentaire. MentivisOS génère ces programmes de bout en bout : à partir d'un besoin et d'un référentiel cible, le moteur produit objectifs, séquençage et modalités d'évaluation alignés. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+Pour la préparation Qualiopi complète, le pôle administratif de Mentivis opère la démarche aux côtés des organismes. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+**À lire aussi :** Comment réussir un audit de renouvellement Qualiopi · Comment construire un référentiel de formation de A à Z · Comment créer une formation éligible au CPF.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment créer un programme de formation conforme Qualiopi"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-un-programme-de-formation-conforme-qualiopi","title":"Comment créer un programme de formation conforme Qualiopi","cible":"Organismes de formation","thematique":"Qualiopi","tags":["Qualiopi","RNQ","programme","pédagogie","déroulé"],"shortDescription":"Un programme conforme Qualiopi repose sur le critère 2 du RNQ : il doit relier une analyse des besoins, des objectifs formulés en compétences mesurables, un contenu structuré en séquences et des modalités d'évaluation cohérentes.","metaDescription":"Créer un programme de formation conforme Qualiopi : les 4 éléments structurants, le document clé attendu en audit et les preuves à fournir pour le critère 2 du RNQ.","content":"$4","order":4,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

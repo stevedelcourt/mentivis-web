@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb85,Les établissements habilités perçoivent le solde de la taxe d'apprentissage, fixé à 0,09 pour cent de la masse salariale des entreprises, via la plateforme SOLTéA gérée par la Caisse des dépôts. Depuis la réforme, les employeurs ne versent plus directement aux établissements : ils déclarent le solde en DSN d'avril, puis fléchent leurs bénéficiaires sur SOLTéA pendant une fenêtre annuelle. Pour en bénéficier, un établissement doit figurer sur la liste des bénéficiaires éligibles et soigner sa visibilité auprès des entreprises.
+
+## Le mécanisme depuis la réforme
+
+La taxe d'apprentissage comprend une part principale, qui finance l'apprentissage via les OPCO, et un solde de 0,09 pour cent dédié aux formations initiales technologiques et professionnelles et à l'insertion. Ce solde est déclaré et payé via la DSN d'avril, collecté par l'Urssaf ou la MSA, puis reversé à la Caisse des dépôts qui le redistribue selon les voeux exprimés sur SOLTéA. Aucun versement numéraire direct aux établissements n'est plus possible hors plateforme.
+
+## Le calendrier SOLTéA
+
+La campagne de répartition s'ouvre chaque année au printemps et se déroule en deux fenêtres d'affectation, avec des versements échelonnés aux établissements désignés. Les fonds non fléchés par les employeurs à la date limite sont répartis par voie réglementaire, prioritairement vers les formations préparant aux métiers en tension dans la région de l'entreprise. Les établissements bénéficiaires doivent renseigner leurs coordonnées et leur RIB sur la plateforme pour recevoir les fonds.
+
+## Capter le solde en tant qu'établissement
+
+Figurer sur la liste des établissements éligibles est la condition d'accès. Au-delà, capter le solde suppose une démarche active auprès des entreprises : se faire connaître, expliquer la procédure de fléchage et nouer des relations avec les employeurs du territoire, puisque ce sont eux qui désignent les bénéficiaires. Les subventions en nature, équipement ou matériel, restent possibles en direct mais hors plateforme.
+
+## Ce qu'il faut retenir
+
+- Le solde de la taxe d'apprentissage est fixé à 0,09 pour cent de la masse salariale.
+- Il transite par SOLTéA, géré par la Caisse des dépôts ; plus de versement direct numéraire.
+- Les employeurs déclarent en DSN d'avril puis flèchent leurs bénéficiaires.
+- Les fonds non fléchés sont répartis par voie réglementaire vers les métiers en tension.
+- Un établissement doit être éligible et démarcher activement les entreprises.
+
+---
+
+_Dans un paysage où cohabitent LMS, outils auteurs et plateformes de diffusion, MentivisOS occupe une place à part :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment obtenir et utiliser les fonds de la taxe d'apprentissage"}]}],["$","$L3",null,{"article":{"slug":"comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage","title":"Comment obtenir et utiliser les fonds de la taxe d'apprentissage","cible":"Organismes de formation","thematique":"Financement","tags":["IA","OPCO","VR","apprentissage","formation","taxe d'apprentissage"],"shortDescription":"Les établissements habilités perçoivent le solde de la taxe d'apprentissage, fixé à 0,09 pour cent de la masse salariale des entreprises, via la plateforme SOLTéA gérée par la Caisse des dépôts.","metaDescription":"Les établissements habilités perçoivent le solde de la taxe d'apprentissage, fixé à 0,09 pour cent de la masse salariale des entreprises, via la plateforme SOLTéA gérée par la Caisse des dépôts.","content":"$4","order":13,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

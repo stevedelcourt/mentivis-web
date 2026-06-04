@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taaf,Le microlearning consiste à découper l'apprentissage en unités courtes et ciblées, chacune centrée sur un objectif précis et consommable en quelques minutes. Il convient particulièrement à l'ancrage de connaissances, à la formation continue de publics contraints en temps, et au renforcement espacé. Il ne convient pas, en revanche, à l'acquisition de compétences complexes nécessitant pratique approfondie et accompagnement. Le microlearning est un format, pas une méthode universelle : sa pertinence dépend de l'objectif pédagogique.
+
+## Le principe du microlearning
+
+Le microlearning fractionne l'apprentissage en modules brefs, chacun traitant un point précis et consommable rapidement. Cette granularité répond à la difficulté de mobiliser de longues plages d'attention, en particulier en autonomie ou sur mobile. Elle s'appuie sur le principe de la répétition espacée, qui favorise la mémorisation durable mieux qu'un apprentissage massé en une seule fois.
+
+## Quand le microlearning est pertinent
+
+Le microlearning excelle pour l'ancrage et le rappel de connaissances, la mise à niveau ponctuelle, et la formation continue de publics qui ne peuvent se libérer longtemps. Il sert bien le renforcement post-formation, en consolidant les acquis par des rappels espacés. Il convient aussi à la diffusion à grande échelle de messages courts, par exemple en compliance ou en sensibilisation.
+
+## Quand il ne suffit pas
+
+Le microlearning montre ses limites pour l'acquisition de compétences complexes, qui demandent pratique soutenue, mise en situation et accompagnement. Fractionner à l'excès un apprentissage qui exige une vision d'ensemble nuit à la compréhension. Le microlearning s'intègre alors comme une composante d'un dispositif plus large, en renforcement ou en pré-requis, plutôt que comme le coeur de la formation. Confondre format court et apprentissage facile est une erreur fréquente.
+
+## Ce qu'il faut retenir
+
+- Le microlearning découpe l'apprentissage en unités courtes centrées sur un objectif.
+- Il s'appuie sur la répétition espacée, favorable à la mémorisation durable.
+- Il excelle pour l'ancrage, la mise à niveau et la formation de publics contraints.
+- Il ne convient pas seul à l'acquisition de compétences complexes.
+- C'est un format à intégrer selon l'objectif, pas une méthode universelle.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Qu'est-ce que le microlearning et quand l'utiliser"}]}],["$","$L3",null,{"article":{"slug":"qu-est-ce-que-le-microlearning-et-quand-l-utiliser","title":"Qu'est-ce que le microlearning et quand l'utiliser","cible":"EdTech, plateformes et outils numériques","thematique":"Apprentissage","tags":["IA","apprentissage","formation","microlearning"],"shortDescription":"Le microlearning consiste à découper l'apprentissage en unités courtes et ciblées, chacune centrée sur un objectif précis et consommable en quelques minutes.","metaDescription":"Le microlearning consiste à découper l'apprentissage en unités courtes et ciblées, chacune centrée sur un objectif précis et consommable en quelques minutes.","content":"$4","order":67,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

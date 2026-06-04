@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9b9,Un plan de développement des compétences efficace relie la stratégie de l'entreprise aux compétences à développer, à travers quatre étapes : recueil des besoins individuels et collectifs, priorisation, arbitrage budgétaire et financier, puis pilotage par des indicateurs. Le plan a remplacé l'ancien plan de formation et regroupe l'ensemble des actions de formation décidées par l'employeur. Son efficacité tient moins à l'exhaustivité qu'à la pertinence des choix au regard des enjeux réels de l'organisation.
+
+## Recueillir besoins individuels et collectifs
+
+Le recueil croise deux sources. Les besoins individuels remontent des entretiens professionnels et des souhaits des salariés. Les besoins collectifs découlent de la stratégie, des évolutions métier et des projets de l'entreprise. Un plan crédible part des seconds, qui donnent le sens, tout en intégrant les premiers, qui soutiennent l'engagement.
+
+## Prioriser et arbitrer
+
+Tous les besoins ne peuvent être traités. La priorisation arbitre selon l'impact sur les enjeux de l'entreprise et l'urgence. L'arbitrage budgétaire intègre les financements mobilisables, OPCO, CPF abondé, dispositifs spécifiques, ce qui détermine le volume d'actions réalisables. Un plan se construit sous contrainte de ressources, pas comme une liste de souhaits.
+
+## Piloter par les indicateurs
+
+Le plan se formalise sur un horizon souvent pluriannuel, avec un échéancier et des indicateurs de suivi. Dans les entreprises dotées d'un CSE, le plan fait l'objet d'une consultation. Le pilotage suit la réalisation des actions et mesure leurs effets, ce qui alimente le plan suivant. Un plan non piloté reste un document, pas un levier.
+
+## Ce qu'il faut retenir
+
+- Le plan relie la stratégie de l'entreprise aux compétences à développer.
+- Il croise besoins collectifs stratégiques et besoins individuels.
+- La priorisation arbitre selon impact et urgence, sous contrainte budgétaire.
+- Le CSE est consulté dans les entreprises dotées d'instances.
+- Le pilotage par indicateurs transforme le plan en levier.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment construire un plan de développement des compétences efficace"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-un-plan-de-developpement-des-competences-efficace","title":"Comment construire un plan de développement des compétences efficace","cible":"Entreprises","thematique":"Financement","tags":["CPF","IA","OPCO","financement","formation"],"shortDescription":"Un plan de développement des compétences efficace relie la stratégie de l'entreprise aux compétences à développer, à travers quatre étapes : recueil des besoins individuels et collectifs, priorisat...","metaDescription":"Un plan de développement des compétences efficace relie la stratégie de l'entreprise aux compétences à développer, à travers quatre étapes : recueil des besoins individuels et collectifs, priorisation, arbitrage budgétaire et financier, puis pilotage par des indicateurs.","content":"$4","order":32,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

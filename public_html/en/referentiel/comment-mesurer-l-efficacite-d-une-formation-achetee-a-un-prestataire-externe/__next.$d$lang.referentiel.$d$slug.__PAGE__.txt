@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T78b,Measuring the effectiveness of external training requires defining expected results at the point of ordering, then evaluating at three levels: close satisfaction, transfer of competencies in work situations, and effect on operational or HR indicators. The most frequent mistake is waiting until the end of the training to ask whether it was useful. Credible measurement is organized in advance, by integrating indicators into the brief given to the provider.
+
+## Defining expected results at the point of ordering
+
+Effectiveness is measured against an objective set at the outset. Before buying, the company specifies what it expects: which competencies acquired, what change in practice, what effect on which indicators. These expectations appear in the brief and engage the provider. Without an initial objective, evaluation reduces to an impression.
+
+## Evaluating at three levels
+
+The first level, close satisfaction, is useful but insufficient: a satisfied participant has not necessarily progressed. The second measures transfer in work situations, observable at distance, through the manager or activity indicators. The third connects training to operational or HR indicators. The value of evaluation increases with the level.
+
+## Engaging the provider on results
+
+A serious provider accepts being evaluated on transfer and impact, not only on delivery. Transparency on indicators and willingness to measure effect are quality signals. A remuneration model partially aligned with results achieved places provider and company in the same interest, and is the most developed form of this commitment.
+
+## Key takeaways
+
+- Effectiveness is measured against results defined at the point of ordering.
+- Close satisfaction is useful but insufficient.
+- Transfer in work situations and effect on indicators count more.
+- A serious provider accepts being evaluated on results.
+- A results-aligned remuneration model aligns interests.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to measure the effectiveness of training purchased from an external provider"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe","lang":"en","title":"How to measure the effectiveness of training purchased from an external provider","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA"],"shortDescription":"Measuring the effectiveness of external training requires defining expected results at the point of ordering, then evaluating at three levels: close satisfaction, transfer of competencies in work s...","metaDescription":"Measuring the effectiveness of external training requires defining expected results at the point of ordering, then evaluating at three levels: close satisfaction, transfer of competencies in work situations, and effect on operational or HR indicators.","content":"$4","order":38},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

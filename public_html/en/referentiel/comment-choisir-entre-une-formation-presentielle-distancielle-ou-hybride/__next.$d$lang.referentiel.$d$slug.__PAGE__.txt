@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T840,Choosing between face-to-face, remote and blended training depends on pedagogical objectives, the target audience, logistical constraints and budget, not on a default preference. Face-to-face excels for relational competencies and supervised practice; remote delivers flexibility and scale; blended combines both. The right modality is the one that serves the objective at the best engagement cost. Since remote delivery became widespread, the choice is made case by case rather than by default.
+
+## Deciding according to the pedagogical objective
+
+The objective guides the modality. A relational competency, manual practice or group dynamic calls for face-to-face or interactive synchronous delivery. A procedural skill, a knowledge update or self-paced learning lends itself to asynchronous remote. Choosing primarily by logistical convenience rather than by objective degrades effectiveness.
+
+## Accounting for the audience and constraints
+
+The audience matters: autonomy, digital fluency, geographic dispersion, availability. Dispersed teams or those with tight schedules benefit from remote; audiences with low online autonomy are more prone to dropout. Logistical constraints, travel, rooms, mobilization, and budget also weigh. Remote reduces logistical costs but requires investment in design.
+
+## Combining in blended when appropriate
+
+Blended combines the strengths of both modes: remote for content delivery and flexibility, face-to-face or synchronous for practice, exchange and anchoring. The flipped classroom is one example: self-directed learning beforehand, collective time devoted to practice. Blended is not always superior, but it offers a frequently relevant compromise when objectives are mixed.
+
+## Key takeaways
+
+- The modality is chosen according to objective, audience, constraints and budget.
+- Face-to-face excels for relational competencies and supervised practice.
+- Remote offers flexibility and scale at the cost of design investment.
+- Blended combines flexible content delivery and collective practice time.
+- The right modality serves the objective at the best engagement cost.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to choose between face-to-face, remote or blended training"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride","lang":"en","title":"How to choose between face-to-face, remote or blended training","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","blended"],"shortDescription":"Choosing between face-to-face, remote and blended training depends on pedagogical objectives, the target audience, logistical constraints and budget, not on a default preference.","metaDescription":"Choosing between face-to-face, remote and blended training depends on pedagogical objectives, the target audience, logistical constraints and budget, not on a default preference.","content":"$4","order":53},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

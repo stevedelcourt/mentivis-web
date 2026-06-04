@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T981,Financing training with no out-of-pocket cost requires mobilizing the right mechanism according to the beneficiary's profile: CPF for an active employee on their own initiative, training plan and OPCO for an employee on the employer's decision, Pro-A for internal retraining, France Travail for a job seeker. The key is identifying the right funder and assembling a compliant file before the training begins, as coverage cannot be claimed retroactively.
+
+## Identifying the right mechanism
+
+The mechanism depends on the status and the initiator. For an employee whose training is decided by the employer, the skills development plan mobilizes funds from the branch OPCO. For an active employee training on their own initiative, the CPF finances certified eligible training. For an internal retraining or promotion, Pro-A combines work-study and contract continuity. For a job seeker, France Travail and regions step in.
+
+## Coverage circuits
+
+The CPF is activated via Mon Compte Formation. Since the introduction of a 100-euro co-payment per file, the holder contributes to the cost unless a third party, employer or France Travail, provides top-up funding.
+
+The OPCO finances on the basis of a training agreement and a coverage file submitted before the start. Coverage levels are set by branch.
+
+Complementary mechanisms, such as FNE-formation in cases of economic difficulty, or regional subsidies, can be added depending on the situation.
+
+## Securing the file in advance
+
+Coverage is prepared before training begins. A file submitted late, a non-compliant agreement, or an ineligible training action closes off funding. The organization benefits from verifying the eligibility of each action, anticipating OPCO instruction deadlines, and retaining supporting documents.
+
+## Key takeaways
+
+- The financing mechanism depends on the beneficiary's status and the initiator.
+- The CPF goes through Mon Compte Formation with a 100-euro co-payment unless topped up.
+- The OPCO finances on agreement and file submitted before the start.
+- Coverage levels are set by branch.
+- Coverage is prepared in advance and cannot be claimed retroactively.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to finance professional training with no out-of-pocket cost"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-une-formation-professionnelle-sans-reste-a-charge","lang":"en","title":"How to finance professional training with no out-of-pocket cost","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","France Travail","IA","OPCO","Pro-A","formation"],"shortDescription":"Financing training with no out-of-pocket cost requires mobilizing the right mechanism according to the beneficiary's profile: CPF for an active employee on their own initiative, training plan and O...","metaDescription":"Financing training with no out-of-pocket cost requires mobilizing the right mechanism according to the beneficiary's profile: CPF for an active employee on their own initiative, training plan and OPCO for an employee on the employer's decision, Pro-A for internal retraining, France Travail for a job seeker.","content":"$4","order":3},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

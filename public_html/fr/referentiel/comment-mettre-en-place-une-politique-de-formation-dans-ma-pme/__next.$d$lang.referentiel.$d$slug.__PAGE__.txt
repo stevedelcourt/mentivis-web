@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taa7,Mettre en place une politique de formation dans une PME sans direction des ressources humaines dédiée consiste à partir des priorités stratégiques, à définir un budget réaliste appuyé sur les financements OPCO, et à instaurer quelques routines simples : entretiens professionnels, recueil des besoins, suivi des actions. L'enjeu n'est pas de copier les dispositifs d'un grand groupe, mais de mettre en place le minimum structurant qui sécurise la conformité et soutient le développement de l'entreprise.
+
+## Partir des priorités, pas des dispositifs
+
+Une PME n'a pas les ressources d'un service formation. Le point de départ n'est donc pas l'outillage mais les priorités : quelles compétences manquent pour atteindre les objectifs de l'entreprise dans les douze à vingt-quatre mois. Cette question oriente l'effort vers l'essentiel et évite la dispersion dans des formations sans impact.
+
+## Définir un budget appuyé sur les financements
+
+Le budget formation d'une PME se construit en intégrant les financements mobilisables. L'OPCO de branche finance une part substantielle des actions, souvent avec des conditions renforcées pour les petites structures. Connaître son OPCO et ses règles de prise en charge transforme un budget contraint en capacité de formation réelle. Le coût net pour l'entreprise est souvent inférieur au coût affiché.
+
+## Instaurer des routines simples
+
+Quelques routines suffisent à structurer la politique : tenir les entretiens professionnels obligatoires, recueillir une fois par an les besoins, formaliser un plan léger, suivre les actions réalisées. Ces routines assurent la conformité légale et donnent de la visibilité. Un accompagnement externe peut porter cette structuration sans alourdir l'organisation, ce qui est souvent plus efficace que de recruter une fonction dédiée prématurément.
+
+## Ce qu'il faut retenir
+
+- Le point de départ est l'identification des compétences manquantes au regard des objectifs.
+- Le budget se construit en intégrant les financements OPCO, souvent renforcés pour les PME.
+- Quelques routines simples suffisent à structurer la politique et la conformité.
+- Copier les dispositifs d'un grand groupe est contre-productif pour une PME.
+- Un accompagnement externe peut porter la structuration sans recrutement dédié.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment mettre en place une politique de formation dans ma PME"}]}],["$","$L3",null,{"article":{"slug":"comment-mettre-en-place-une-politique-de-formation-dans-ma-pme","title":"Comment mettre en place une politique de formation dans ma PME","cible":"Entreprises","thematique":"Financement","tags":["OPCO","VR","conformité","coût","financement","formation"],"shortDescription":"Mettre en place une politique de formation dans une PME sans direction des ressources humaines dédiée consiste à partir des priorités stratégiques, à définir un budget réaliste appuyé sur les finan...","metaDescription":"Mettre en place une politique de formation dans une PME sans direction des ressources humaines dédiée consiste à partir des priorités stratégiques, à définir un budget réaliste appuyé sur les financements OPCO, et à instaurer quelques routines simples : entretiens professionnels, recueil des besoins, suivi des actions.","content":"$4","order":34,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

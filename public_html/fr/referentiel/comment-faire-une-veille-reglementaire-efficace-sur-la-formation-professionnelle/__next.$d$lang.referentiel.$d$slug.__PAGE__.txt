@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tafb,Une veille réglementaire efficace combine des sources officielles fiables, un rythme de consultation régulier et un tri par pertinence pour son activité. Le secteur de la formation connaît des évolutions fréquentes, financement, certification, apprentissage, qui modifient les règles du jeu. S'appuyer sur Légifrance, les publications de France Compétences, les actualités des OPCO et des opérateurs spécialisés permet de ne pas s'appuyer sur des textes périmés, ce qui constitue un risque direct pour la conformité et le financement.
+
+## Identifier les sources fiables
+
+La hiérarchie des sources commence par les textes officiels : Légifrance pour les décrets et lois, les publications de France Compétences pour la certification et les niveaux de prise en charge, les sites des OPCO pour les règles de branche, et les services de l'État pour la déclaration d'activité. Les opérateurs et médias spécialisés du secteur synthétisent et alertent, mais ne remplacent pas la source primaire en cas de doute.
+
+## Structurer le rythme de veille
+
+La veille n'est utile que si elle est régulière. Un rythme défini, une personne ou une fonction responsable, et un canal de diffusion interne transforment l'information en action. Les évolutions majeures, réforme du financement, mise à jour du guide de lecture Qualiopi, changement des règles d'apprentissage, appellent une revue rapide de leur impact sur les pratiques de l'organisme.
+
+## Trier par impact sur son activité
+
+Toute évolution réglementaire ne concerne pas tout organisme. Le tri par pertinence concentre l'attention sur ce qui touche les catégories d'action, les financements et les publics de l'organisme. Une veille bien ciblée évite la surcharge et garantit que les changements importants sont identifiés et traités. S'appuyer sur une version périmée d'un texte expose à une non-conformité ou à un refus de financement évitable.
+
+## Ce qu'il faut retenir
+
+- La veille s'appuie d'abord sur les sources officielles : Légifrance, France Compétences, OPCO, services de l'État.
+- Les médias spécialisés alertent mais ne remplacent pas la source primaire.
+- Un rythme régulier et une fonction responsable rendent la veille opérationnelle.
+- Le tri par impact concentre l'attention sur ce qui concerne l'organisme.
+- S'appuyer sur un texte périmé expose à un risque de conformité et de financement.
+
+---
+
+_Là où la plupart des outils se contentent de suivre l'activité, MentivisOS place l'acquisition réelle des compétences au cœur du système :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment faire une veille réglementaire efficace sur la formation professionnelle"}]}],["$","$L3",null,{"article":{"slug":"comment-faire-une-veille-reglementaire-efficace-sur-la-formation-professionnelle","title":"Comment faire une veille réglementaire efficace sur la formation professionnelle","cible":"Organismes de formation","thematique":"Certification","tags":["France Compétences","IA","OPCO","Qualiopi","apprentissage","certification","conformité","déclaration","financement","formation"],"shortDescription":"Une veille réglementaire efficace combine des sources officielles fiables, un rythme de consultation régulier et un tri par pertinence pour son activité.","metaDescription":"Une veille réglementaire efficace combine des sources officielles fiables, un rythme de consultation régulier et un tri par pertinence pour son activité.","content":"$4","order":24,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

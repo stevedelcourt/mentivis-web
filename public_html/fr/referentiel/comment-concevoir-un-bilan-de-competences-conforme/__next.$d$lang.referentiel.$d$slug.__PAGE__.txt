@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9a5,## Le cadre légal du bilan de compétences
+
+Le bilan de compétences est une action concourant au développement des compétences, soumise au Référentiel National Qualité. Le prestataire doit être certifié Qualiopi sur la catégorie correspondante pour rendre la prestation finançable via le CPF ou un autre circuit. La confidentialité est une obligation : les résultats détaillés et le document de synthèse appartiennent au seul bénéficiaire.
+
+## Les trois phases obligatoires
+
+La phase préliminaire analyse la demande, définit les besoins et informe le bénéficiaire sur les conditions de déroulement et les méthodes.
+
+La phase d'investigation explore les motivations, les compétences, les aptitudes et le potentiel d'évolution, à l'aide d'outils d'évaluation et d'analyse.
+
+La phase de conclusion permet au bénéficiaire de s'approprier les résultats, d'identifier les facteurs de réussite de son projet et d'en définir les étapes. Elle se matérialise par le document de synthèse.
+
+## Ce qui distingue un bilan d'un coaching
+
+Le bilan de compétences est encadré par le code du travail, ce qui n'est pas le cas d'un coaching ou d'une prestation d'orientation. Cet encadrement fonde son éligibilité au CPF et impose la structure en trois phases, la durée plafonnée et la confidentialité. Un prestataire qui propose un bilan sans respecter ce cadre ne peut le faire financer comme tel.
+
+## Ce qu'il faut retenir
+
+- Le bilan de compétences se déroule en trois phases : préliminaire, investigation, conclusion.
+- Le prestataire doit être certifié Qualiopi sur la catégorie bilan de compétences.
+- La durée n'excède pas vingt-quatre heures.
+- Le document de synthèse est remis au seul bénéficiaire.
+- La confidentialité est une obligation légale, pas une option commerciale.
+
+---
+
+Structurer une offre de bilan de compétences conforme suppose des process documentés et une certification adaptée. Mentivis accompagne les organismes dans la structuration et la mise en conformité de leurs offres. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+Pour les supports et trames méthodologiques associés, MentivisOS génère des contenus structurés alignés sur le cadre attendu. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+**À lire aussi :** Comment construire une offre de VAE · Comment obtenir la certification Qualiopi · Comment créer une formation éligible au CPF.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment concevoir un bilan de compétences conforme"}]}],["$","$L3",null,{"article":{"slug":"comment-concevoir-un-bilan-de-competences-conforme","title":"Comment concevoir un bilan de compétences conforme","cible":"Organismes de formation","thematique":"Bilan de compétences","tags":["bilan de compétences","Qualiopi","CPF","VAE"],"shortDescription":"Un bilan de compétences conforme se déroule en trois phases obligatoires : préliminaire, investigation et conclusion. Il est réalisé par un prestataire certifié Qualiopi sur la catégorie correspondante et aboutit à un document de synthèse remis au seul bénéficiaire.","metaDescription":"Concevoir un bilan de compétences conforme : cadre légal, trois phases obligatoires, certification Qualiopi et différences avec un coaching. Guide complet pour les organismes de formation.","content":"$4","order":6,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

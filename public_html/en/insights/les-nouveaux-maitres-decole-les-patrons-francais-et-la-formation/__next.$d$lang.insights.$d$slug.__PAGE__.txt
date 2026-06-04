@@ -1,0 +1,240 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+3:I[95300,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","1692","static/chunks/1692-f525149afa280141.js","9427","static/chunks/app/lang/insights/slug/page-2ba1697a03fccff3.js"],"default"]
+7:I[90484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T26c3,##### Comment une génération d’entrepreneurs français transforme l’éducation de leurs propres mains
+
+Pieric Brenier fixe les écrans de son bureau. Le PDG du groupe Koesio (anciennement C’Pro) – spécialisé dans les solutions IT pour entreprises – vient de lancer sa propre formation en alternance.
+
+« Le recrutement de commerciaux dans les métiers de l’IT était clairement problématique », explique le dirigeant selon nos recherches. « On pouvait attendre que ça s’arrange, ou prendre les choses en main. »
+
+Brenier a choisi la seconde option. Comme une dizaine d’autres entrepreneurs français qui, ces dernières années, ont décidé de ne plus subir les lacunes du système éducatif. Ils créent leurs propres structures de formation.
+
+## L’école-entreprise selon Brenier
+
+La Koesio Business School fonctionne en partenariat avec l’École de Commerce de Valence pour délivrer un Bachelor reconnu. Formation en alternance, niveau Bac+3 / Bac+5, avec « possibilité de contrat permanent avec Koesio » selon le site officiel.
+
+Le modèle combine cours théoriques et expérience professionnelle directement dans l’entreprise. Les étudiants alternent formation académique et immersion en entreprise, découvrant les produits, clients et culture corporate de Koesio.
+
+L’approche témoigne d’une stratégie de formation « sur mesure » où l’entreprise sécurise son pipeline de recrutement en formant elle-même ses futurs collaborateurs.
+
+## L’empire Charlès
+
+À six cents kilomètres de là, dans les bureaux de Vélizy-Villacoublay, Bernard Charlès développe une stratégie différente. Le président de Dassault Systèmes – 5,27 milliards d’euros de chiffre d’affaires, 23 000 employés – ne créé pas une école. Il les transforme de l’intérieur.
+
+« Nous devons harmoniser produits, nature et vie au service du citoyen, du patient et du consommateur », déclare l’ancien élève de l’École normale supérieure de Cachan, membre de l’Académie des Technologies.
+
+Charlès multiplie les partenariats. L’ESTIA, école d’ingénieurs de Bidart, devient « centre d’excellence 3D Experience ». Les étudiants travaillent directement sur les logiciels Dassault, encadrés par les équipes de l’entreprise.
+
+« L’industrie du futur se construit maintenant », martèle Charlès lors de ses conférences dans les écoles partenaires. « Nous transformons la pratique industrielle par les univers virtuels. »
+
+## L’école du gaming
+
+Yves Guillemot développe les partenariats éducatifs d’Ubisoft. Le fondateur de la société – 2,3 milliards d’euros de revenus, créateur d’Assassin’s Creed – multiplie les collaborations avec les écoles spécialisées dans le jeu vidéo.
+
+« Les écoles ont beaucoup évolué, on peut désormais créer des jeux vidéo de très haut niveau en France », déclarait Guillemot au Monde en 2017.
+
+Ubisoft développe des programmes éducatifs pour stimuler l’apprentissage des STEM et encourager l’initiation au game design. Projets comme « Youth Fusion » au Québec, partenariats avec diverses écoles spécialisées : l’entreprise investit massivement dans l’écosystème de formation.
+
+« La clé du succès dans ce métier, c’est d’avoir des marques pérennes », expliquait le dirigeant. Former les futurs développeurs, c’est sécuriser l’avenir de ces marques.
+
+## Le laboratoire marseillais
+
+À Marseille, CMA CGM développe ses propres initiatives de formation interne pour ses 23 000 employés. Le géant du transport maritime investit dans la formation de ses collaborateurs aux nouveaux enjeux du secteur.
+
+La stratégie formation du groupe vise à préparer les équipes aux « défis environnementaux, technologiques, géopolitiques et économiques » qui transforment l’industrie maritime, selon les communications officielles de l’entreprise.
+
+L’approche illustre comment les grands groupes industriels internalisent de plus en plus leur formation, plutôt que de s’appuyer uniquement sur l’offre externe.
+
+## Les motivations profondes
+
+Ces entrepreneurs partagent une frustration commune face aux décalages du système éducatif traditionnel. « Le système éducatif français ne forme plus aux métiers d’aujourd’hui », observent plusieurs dirigeants interrogés.
+
+Les études sur l’orientation révèlent des dysfonctionnements : une partie significative des jeunes expriment des regrets sur leurs choix post-bac, témoignant d’un système d’orientation perfectible.
+
+« L’enseignement de l’entrepreneuriat est encore très peu présent dans les écoles et universités françaises », confirme Alain Fayolle, professeur à l’EM Lyon et expert en entrepreneuriat.
+
+## La transmission comme moteur
+
+Pour ces patrons quinquagénaires, créer une école répond aussi à un besoin personnel. « Un enseignant affecte l’éternité ; il ne peut jamais dire où son influence s’arrête », cite volontiers Brenier.
+
+Bernard Charlès, 65 ans, évoque sa volonté de « créer des innovations durables ». Yves Guillemot, 64 ans, parle de « transmettre la passion du jeu vidéo français ».
+
+« C’est un héritage », confie un entrepreneur lyonnais qui préfère rester anonyme. « Mon entreprise va peut-être disparaître. L’école que j’ai créée, elle, formera encore des jeunes dans vingt ans. »
+
+## L’effet réseau
+
+Ces écoles d’entrepreneurs créent leurs propres réseaux d’influence. Le Hub Entreprendre HEC rassemble « plus de 5 000 membres à travers le monde » et développe six clubs professionnels spécialisés.
+
+Les « Entrepreneuriales INSA » mobilisent des « partenaires économiques locaux et nationaux ». Le Master X-HEC Entrepreneurs affiche fièrement : « 75% des diplômés créent leur entreprise », avec « plus de 500 entreprises créées » depuis 2018.
+
+« Ces réseaux deviennent plus puissants que les réseaux d’anciens traditionnels », observe un consultant en éducation. « Ils mélangent formation, financement et business. »
+
+## Les nouvelles pédagogies
+
+L’École 42, gratuite et sans professeurs, fonctionne en « peer-learning ». Les étudiants s’évaluent entre eux, travaillent sur des projets concrets. « La vraie innovation naît quand les étudiants ne demandent pas la permission pour créer », proclame Epitech, qui revendique la même philosophie.
+
+Ces méthodes séduisent. L’École 42 compte 57 campus dans 32 pays, 18 000 étudiants. Epitech figure parmi les écoles françaises qui forment le plus de fondateurs de startups intégrés à Y Combinator, le prestigieux accélérateur américain.
+
+« L’objectif n’est pas de remplir un seau, mais d’allumer un feu », résume un responsable pédagogique. Cette approche développe « l’agilité, la collaboration et la débrouillardise » recherchées par les entreprises.
+
+## L’écosystème social
+
+D’autres entrepreneurs visent l’impact sociétal. L’école makesense entrepreneurs forme gratuitement aux projets à impact social et environnemental. Financée par des fonds européens et du mécénat, elle accompagne des porteurs de projets « qui veulent changer le monde ».
+
+Simplon, organisme de formation à impact social, veut « rendre accessibles les compétences et métiers du numérique à toutes et tous ». Ses formations s’adressent aux publics éloignés de l’emploi.
+
+La Fédération Nationale des Écoles de Production (FNEP) accompagne des écoles qui forment des jeunes en décrochage scolaire grâce à une « pédagogie du sens ».
+
+## Les nouveaux business models
+
+Ces écoles innovent aussi économiquement. Frais de scolarité, alternance, taxe d’apprentissage, mécénat : les sources de financement se diversifient.
+
+« Une école devient un actif stratégique qui améliore la notoriété et la réputation de marque », explique un expert en communication éducative. « C’est un investissement dans un capital de réputation durable. »
+
+L’École 42 de Xavier Niel, qualifiée de « meilleure école de code au monde » par CodinGame, renforce l’image de disrupteur de son fondateur. Présente dans 31 pays, elle devient un ambassadeur de la « French Tech ».
+
+## L’avenir de l’éducation française
+
+Ce mouvement redessine la carte de l’enseignement supérieur français. Les entreprises ne sont plus de simples utilisatrices de diplômés, mais participent directement à leur formation.
+
+« Nous façonnons de nouveaux écosystèmes et redéfinissons les relations entre l’entreprise, la formation et l’emploi », analyse un rapport sur l’innovation éducative.
+
+Reste une question : ces initiatives peuvent-elles transformer le système éducatif national, ou créent-elles simplement une alternative élitiste ?
+
+Les 16% des 15-24 ans non étudiants au chômage attendent la réponse. Les entrepreneurs, eux, forment déjà la main-d’œuvre de demain.
+
+## Comment Mentivis transforme votre idée en école
+
+Vous avez un projet, une vision, une envie de créer votre propre école ? Mentivis en fait une réalité, clé en main.
+
+**Étude de marché sur-mesure** : nous validons votre intuition avec des données solides pour bâtir un modèle rentable et différenciant.
+
+**Design pédagogique unique** : des programmes qui collent aux besoins du marché et qui valorisent votre identité d’entrepreneur.
+
+**Accréditations et reconnaissance** : nous ouvrons les portes des labels essentiels (Qualiopi, RNCP, Parcoursup, HCERES) pour crédibiliser votre école dès le départ.
+
+**Lancement opérationnel** : campus, équipe, communication, premières rentrées… nous orchestrons chaque étape pour que votre projet prenne vie rapidement et durablement.
+
+**Résultat** : votre école, votre marque, votre communauté. Avec Mentivis, vous devenez un acteur reconnu de l’éducation.
+
+[Contactez-nous !](/meeting/)5:T2226,##### How a generation of French entrepreneurs is transforming education with their own hands
+
+Pieric Brenier stares at the screens in his office. The CEO of the Koesio group (formerly C'Pro) — specialized in IT solutions for businesses — has just launched his own work-study training program.
+
+"Recruiting salespeople in IT trades was clearly problematic," explains the leader according to our research. "We could wait for things to sort themselves out, or take matters into our own hands."
+
+Brenier chose the second option. Like about ten other French entrepreneurs who, in recent years, have decided to no longer suffer the shortcomings of the education system. They are creating their own training structures.
+
+## The Company-School According to Brenier
+
+Koesio Business School operates in partnership with the Valence Business School to deliver a recognized Bachelor's degree. Work-study training, Bac+3 / Bac+5 level, with "possibility of a permanent contract with Koesio" according to the official website.
+
+The model combines theoretical courses and direct professional experience within the company. Students alternate academic training and company immersion, discovering Koesio's products, clients and corporate culture.
+
+The approach testifies to a "tailor-made" training strategy where the company secures its recruitment pipeline by training its own future employees.
+
+## The Charlès Empire
+
+Six hundred kilometers away, in the offices of Vélizy-Villacoublay, Bernard Charlès is developing a different strategy. The president of Dassault Systèmes — €5.27 billion in revenue, 23,000 employees — is not creating a school. He is transforming them from the inside.
+
+"We must harmonize products, nature and life in service of the citizen, the patient and the consumer," declares the former student of the École normale supérieure de Cachan, member of the Académie des Technologies.
+
+Charlès multiplies partnerships. ESTIA, the engineering school in Bidart, becomes a "3D Experience center of excellence." Students work directly on Dassault software, supervised by company teams.
+
+"The industry of the future is being built now," Charlès hammers during his conferences in partner schools. "We are transforming industrial practice through virtual universes."
+
+## The Gaming School
+
+Yves Guillemot develops Ubisoft's educational partnerships. The founder of the company — €2.3 billion in revenue, creator of Assassin's Creed — multiplies collaborations with schools specialized in video games.
+
+"Schools have evolved a lot; we can now create very high-level video games in France," Guillemot told Le Monde in 2017.
+
+Ubisoft develops educational programs to stimulate STEM learning and encourage game design initiation. Projects such as "Youth Fusion" in Quebec, partnerships with various specialized schools: the company invests massively in the training ecosystem.
+
+"The key to success in this business is to have enduring brands," the leader explained. Training future developers means securing the future of these brands.
+
+## The Marseille Laboratory
+
+In Marseille, CMA CGM develops its own internal training initiatives for its 23,000 employees. The maritime transport giant invests in training its teams on the new challenges of the sector.
+
+The group's training strategy aims to prepare teams for the "environmental, technological, geopolitical and economic challenges" transforming the maritime industry, according to the company's official communications.
+
+The approach illustrates how large industrial groups are increasingly internalizing their training, rather than relying solely on external offerings.
+
+## Deep Motivations
+
+These entrepreneurs share a common frustration with the gaps in the traditional education system. "The French education system no longer trains for today's jobs," observe several interviewed leaders.
+
+Studies on guidance reveal dysfunctions: a significant portion of young people express regrets about their post-baccalaureate choices, testifying to an orientation system with room for improvement.
+
+"Entrepreneurship education is still very little present in French schools and universities," confirms Alain Fayolle, professor at EM Lyon and entrepreneurship expert.
+
+## Transmission as a Driver
+
+For these fifty-something bosses, creating a school also responds to a personal need. "A teacher affects eternity; he can never tell where his influence stops," Brenier readily quotes.
+
+Bernard Charlès, 65, evokes his desire to "create sustainable innovations." Yves Guillemot, 64, speaks of "transmitting the passion for French video games."
+
+"It is a legacy," confides a Lyon entrepreneur who prefers to remain anonymous. "My company may disappear. The school I created, on the other hand, will still be training young people in twenty years."
+
+## The Network Effect
+
+These entrepreneur schools create their own networks of influence. The HEC Entrepreneurship Hub brings together "more than 5,000 members worldwide" and develops six specialized professional clubs.
+
+The "Entrepreneuriales INSA" mobilize "local and national economic partners." The X-HEC Entrepreneurs Master's proudly displays: "75% of graduates create their company," with "more than 500 companies created" since 2018.
+
+"These networks are becoming more powerful than traditional alumni networks," observes an education consultant. "They mix training, financing and business."
+
+## New Pedagogies
+
+École 42, free and without teachers, operates on "peer-learning." Students evaluate each other, work on concrete projects. "True innovation is born when students do not ask permission to create," proclaims Epitech, which claims the same philosophy.
+
+These methods are seductive. École 42 counts 57 campuses in 32 countries, 18,000 students. Epitech is among the French schools that train the most startup founders integrated into Y Combinator, the prestigious American accelerator.
+
+"The objective is not to fill a bucket, but to light a fire," summarizes a pedagogical manager. This approach develops the "agility, collaboration and resourcefulness" sought by companies.
+
+## The Social Ecosystem
+
+Other entrepreneurs target societal impact. The makesense entrepreneurs school trains for free in social and environmental impact projects. Financed by European funds and patronage, it supports project leaders "who want to change the world."
+
+Simplon, a social impact training organization, wants to "make digital skills and trades accessible to everyone." Its programs target people far from employment.
+
+The Fédération Nationale des Écoles de Production (FNEP) supports schools that train young people who have dropped out of school through a "pedagogy of meaning."
+
+## New Business Models
+
+These schools also innovate economically. Tuition fees, work-study programs, apprenticeship tax, patronage: sources of financing are diversifying.
+
+"A school becomes a strategic asset that improves brand notoriety and reputation," explains an expert in educational communication. "It is an investment in durable reputational capital."
+
+Xavier Niel's École 42, qualified as the "best coding school in the world" by CodinGame, reinforces its founder's image as a disruptor. Present in 31 countries, it becomes an ambassador of "French Tech."
+
+## The Future of French Education
+
+This movement is redrawing the map of French higher education. Companies are no longer mere users of graduates, but participate directly in their training.
+
+"We are shaping new ecosystems and redefining the relationships between company, training and employment," analyzes a report on educational innovation.
+
+One question remains: can these initiatives transform the national education system, or do they simply create an elitist alternative?
+
+The 16% of 15-24-year-olds who are non-students and unemployed await the answer. The entrepreneurs, for their part, are already training the workforce of tomorrow.
+
+## How Mentivis Turns Your Idea Into a School
+
+You have a project, a vision, a desire to create your own school? Mentivis makes it a reality, turnkey.
+
+**Tailor-made market study**: we validate your intuition with solid data to build a profitable and differentiated model.
+
+**Unique pedagogical design**: programs that fit market needs and value your entrepreneurial identity.
+
+**Accreditations and recognition**: we open the doors to essential labels (Qualiopi, RNCP, Parcoursup, HCERES) to give your school credibility from the start.
+
+**Operational launch**: campus, team, communication, first intakes... we orchestrate each step so your project comes to life quickly and sustainably.
+
+**Result**: your school, your brand, your community. With Mentivis, you become a recognized actor in education.
+
+[Contact us!](/meeting/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Home","url":"https://mentivis.com/en/"},{"name":"Insights","url":"https://mentivis.com/en/insights/"},{"name":"The New Schoolmasters"}]}],["$","$L3",null,{"article":{"slug":"les-nouveaux-maitres-decole-les-patrons-francais-et-la-formation","date":"2025-09-21","category":"perspectives","author":"Marie Castelli","readTime":"","heroImage":"/images/insights/pinault-school-1.avif","keywords":"Éducation, Formation, Marché","titleFr":"Les nouveaux maîtres d’école","titleEn":"The New Schoolmasters","excerptFr":"Frustrés par les lacunes du système éducatif, une génération de patrons crée ses propres écoles. L'éducation est-elle leur nouveau terrain de jeu ?","excerptEn":"Frustrated by the shortcomings of the education system, a generation of bosses is creating their own schools. Is education their new playground?","bodyFr":"$4","bodyEn":"$5"}}]],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

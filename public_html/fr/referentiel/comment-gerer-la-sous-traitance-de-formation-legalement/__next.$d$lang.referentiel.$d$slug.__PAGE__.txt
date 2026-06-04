@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta28,Gérer la sous-traitance légalement suppose de formaliser une convention de sous-traitance précisant les missions confiées, et de comprendre que l'organisme donneur d'ordre reste responsable de la conformité Qualiopi des actions sous-traitées. Depuis la version 9 du guide de lecture et le décret du 28 décembre 2023, le périmètre de vérification des indicateurs chez le sous-traitant dépend des missions définies au contrat. Une sous-traitance non cadrée expose le donneur d'ordre à une non-conformité.
+
+## Le cadre de la sous-traitance
+
+Le recours à la sous-traitance est admis, mais encadré. L'organisme certifié qui confie tout ou partie d'une action à un tiers reste responsable de sa qualité devant le certificateur. La version 9 du guide de lecture, applicable depuis le 8 mars 2024, a introduit un chapitre dédié à la sous-traitance, en réponse au décret n°2023-1350 du 28 décembre 2023.
+
+## La convention de sous-traitance
+
+La convention de sous-traitance précise les missions confiées au sous-traitant. Cette précision est déterminante : lors de l'examen d'une action sous-traitée, le certificateur vérifie le respect des indicateurs en fonction des missions définies au contrat. En l'absence de contrat spécifiant les missions, la vérification porte sur tous les indicateurs de la catégorie d'action concernée, ce qui élargit le risque.
+
+## La responsabilité du donneur d'ordre
+
+Le donneur d'ordre doit s'assurer que le sous-traitant respecte les indicateurs relevant de ses missions. Cela suppose une sélection rigoureuse, un cadrage contractuel clair et un suivi documenté. La traçabilité de ce suivi constitue une preuve en audit. Un sous-traitant défaillant rejaillit sur la certification du donneur d'ordre, d'où l'intérêt d'un encadrement strict plutôt que d'une délégation aveugle.
+
+## Ce qu'il faut retenir
+
+- La sous-traitance est admise mais le donneur d'ordre reste responsable de la qualité.
+- La version 9 du guide de lecture encadre la sous-traitance depuis mars 2024.
+- La convention doit préciser les missions confiées au sous-traitant.
+- Sans contrat précisant les missions, tous les indicateurs de la catégorie sont vérifiés.
+- Le suivi documenté du sous-traitant constitue une preuve en audit.
+
+---
+
+_Contrairement à un LMS qui se limite à diffuser des contenus,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment gérer la sous-traitance de formation légalement"}]}],["$","$L3",null,{"article":{"slug":"comment-gerer-la-sous-traitance-de-formation-legalement","title":"Comment gérer la sous-traitance de formation légalement","cible":"Organismes de formation","thematique":"Certification","tags":["IA","Qualiopi","audit","certification","conformité"],"shortDescription":"Gérer la sous-traitance légalement suppose de formaliser une convention de sous-traitance précisant les missions confiées, et de comprendre que l'organisme donneur d'ordre reste responsable de la c...","metaDescription":"Gérer la sous-traitance légalement suppose de formaliser une convention de sous-traitance précisant les missions confiées, et de comprendre que l'organisme donneur d'ordre reste responsable de la conformité Qualiopi des actions sous-traitées.","content":"$4","order":20,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

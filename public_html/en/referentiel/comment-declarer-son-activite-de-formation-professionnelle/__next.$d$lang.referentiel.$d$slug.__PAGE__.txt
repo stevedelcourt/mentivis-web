@@ -1,0 +1,30 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T935,The declaration of activity is filed with the DREETS of the registered office address, within three months of the conclusion of the first training agreement or the first training contract. It gives the right to the activity registration number, a mandatory mention on all contracts and agreements from the second one onward. This formality is mandatory whether the training activity is carried out as a primary or secondary activity, on pain of sanctions that can extend to cancellation of the registration number.
+
+## The principle of the declaration
+
+Any provider of actions contributing to skills development must register. The first agreement or first contract is concluded without a number, since the declaration follows. From the second onward, the activity registration number is mandatory on all contractual documents.
+
+Organizations delivering training exclusively to their own employees internally are exempt from the declaration, except for company-based CFAs.
+
+## The procedure with the DREETS
+
+The competent DREETS is the one in the location of the registered office, main establishment or effective management. The file includes the organization's identification details, the nature of the services, and, depending on the case, supporting documents for the first action delivered. The administration may request a document relating to the first training service delivered, the target audience or the nature of the training.
+
+## Obligations that follow the declaration
+
+The declaration opens ongoing obligations. The pedagogical and financial report must be submitted each year; failure to transmit it may result in cancellation of the activity registration number. Contractual documents must comply with mandatory mentions, including the registration number and assessment modalities. The declaration does not constitute state approval or a quality endorsement, which must be made clear in communications.
+
+## Key takeaways
+
+- The declaration is filed with the DREETS within three months of the first contract.
+- It gives the right to the activity registration number, mandatory from the second contract onward.
+- Internal training for the organization's own employees is exempt, except for company-based CFAs.
+- The annual pedagogical and financial report is mandatory.
+- Failure to submit the report may result in cancellation of the number.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to register your professional training activity"}]}],["$","$L3",null,{"article":{"slug":"comment-declarer-son-activite-de-formation-professionnelle","lang":"en","title":"How to register your professional training activity","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["CFA","DREETS","IA","management"],"shortDescription":"The declaration of activity is filed with the DREETS of the registered office address, within three months of the conclusion of the first training agreement or the first training contract.","metaDescription":"The declaration of activity is filed with the DREETS of the registered office address, within three months of the conclusion of the first training agreement or the first training contract.","content":"$4","order":5},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

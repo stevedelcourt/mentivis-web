@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T87b,Using a chatbot or AI assistant in training serves several purposes: supporting learners by answering their questions at any time, sustaining practice through conversational simulations, and relieving trainers of repetitive queries. The value is permanent availability and the scaling of individualized accompaniment. The limitation is reliability of responses, which requires guardrails: a poorly framed assistant can mislead, which calls for verification and controls.
+
+## Use cases for an assistant in training
+
+An AI assistant can play several roles. It answers learner questions continuously, extending accompaniment beyond training hours. It offers conversational simulations useful for practicing an interview, an argument or a client interaction. It relieves the trainer of repetitive queries, leaving them for higher-value interventions. It can also guide the learner through a pathway.
+
+## The value of availability and scale
+
+The main contribution is the combination of availability and scale. An assistant responds at any time, without wait, to an unlimited number of simultaneous learners. This permanently individualized accompaniment, impossible to provide humanly at scale, sustains autonomy and reduces dropout linked to the feeling of facing a difficulty alone. It complements the human rather than replacing them.
+
+## The necessary guardrails
+
+The limitation is reliability. An assistant can produce inaccurate responses with confidence. In training, this can anchor errors. Guardrails are therefore necessary: restricting the assistant to a validated corpus, flagging limitations, providing a human fallback, and checking response quality. Learner data protection must also be ensured. A useful assistant is a framed one whose scope is known and controlled.
+
+## Key takeaways
+
+- An AI assistant supports continuously, sustains practice and relieves the trainer.
+- Its value is the combination of permanent availability and scale.
+- It complements human accompaniment rather than replacing it.
+- Its limitation is reliability: it can produce errors with confidence.
+- A useful assistant is framed: validated corpus, flagged limitations, human fallback.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to use a chatbot or AI assistant in training"}]}],["$","$L3",null,{"article":{"slug":"comment-utiliser-un-chatbot-ou-un-assistant-ia-en-formation","lang":"en","title":"How to use a chatbot or AI assistant in training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","chatbot"],"shortDescription":"Using a chatbot or AI assistant in training serves several purposes: supporting learners by answering their questions at any time, sustaining practice through conversational simulations, and reliev...","metaDescription":"Using a chatbot or AI assistant in training serves several purposes: supporting learners by answering their questions at any time, sustaining practice through conversational simulations, and relieving trainers of repetitive queries.","content":"$4","order":72},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

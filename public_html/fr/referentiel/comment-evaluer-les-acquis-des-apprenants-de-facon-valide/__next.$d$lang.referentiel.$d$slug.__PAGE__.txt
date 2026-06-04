@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta28,## Les trois fonctions de l'évaluation
+
+L'évaluation formative intervient pendant le parcours pour situer la progression et ajuster la pédagogie. Elle ne sanctionne pas, elle régule. L'évaluation sommative mesure un niveau atteint à un moment donné, souvent en fin de séquence ou de formation. L'évaluation certificative, propre aux formations menant à une certification, valide l'acquisition des blocs de compétences selon les modalités fixées par le référentiel d'évaluation du certificateur.
+
+## Aligner l'évaluation sur les objectifs
+
+Une évaluation valide mesure ce qu'elle prétend mesurer. Elle découle directement des objectifs formulés en compétences : à chaque compétence visée correspond une modalité d'évaluation adaptée. Une formation qui vise la capacité à piloter un projet ne peut se contenter d'un QCM de connaissances ; elle appelle une mise en situation. Cet alignement est au coeur des attentes Qualiopi sur l'atteinte des objectifs.
+
+## Les preuves attendues en audit
+
+Pour les formations certifiantes, l'organisme doit disposer de procédures de contrôle de l'organisation des épreuves et de grilles d'évaluation critériées. Les mises en situation professionnelle, les productions évaluées et les grilles renseignées constituent les preuves les plus robustes. Les résultats doivent être traçables et conservés. Un dispositif d'évaluation flou ou non documenté fragilise la certification de l'organisme comme la valeur de la certification délivrée.
+
+## Ce qu'il faut retenir
+
+- L'évaluation se décline en trois fonctions : formative, sommative, certificative.
+- Chaque modalité doit être alignée sur les objectifs de compétences.
+- Les formations certifiantes suivent le référentiel d'évaluation du certificateur.
+- Les mises en situation et grilles critériées sont les preuves les plus solides.
+- Les résultats doivent être traçables et conservés.
+
+---
+
+Construire un dispositif d'évaluation aligné et défendable en audit relève de l'ingénierie pédagogique. Mentivis accompagne les organismes dans la structuration de leurs évaluations. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+MentivisOS génère les modalités d'évaluation alignées sur les objectifs et les référentiels, dans la continuité du programme produit. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+**À lire aussi :** Comment créer un programme de formation conforme Qualiopi · Comment monter un dossier de certification RNCP · Comment construire un référentiel de formation de A à Z.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment évaluer les acquis des apprenants de façon valide"}]}],["$","$L3",null,{"article":{"slug":"comment-evaluer-les-acquis-des-apprenants-de-facon-valide","title":"Comment évaluer les acquis des apprenants de façon valide","cible":"Organismes de formation","thematique":"Pédagogie","tags":["évaluation","Qualiopi","certification","pédagogie"],"shortDescription":"Évaluer les acquis de façon valide suppose de distinguer trois fonctions de l'évaluation : formative, sommative et certificative, et d'aligner chaque modalité sur les objectifs de compétences annoncés. Les preuves doivent être documentées, traçables et conformes aux attentes du certificateur.","metaDescription":"Évaluer les acquis des apprenants : les trois fonctions de l'évaluation (formative, sommative, certificative), comment aligner les modalités sur les objectifs et les preuves attendues en audit Qualiopi.","content":"$4","order":10,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

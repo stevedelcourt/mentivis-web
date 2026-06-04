@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T969,Improving completion rates in online training requires combined action on pedagogical design, engagement and human accompaniment. Low completion is the main weakness of self-directed e-learning. It is not corrected by a single lever but by a combination: short and rhythmic modules, engagement mechanisms, reminders, cohort effects and manager involvement. Completion is built at the design stage, not in reaction to dropout.
+
+## Designing for completion
+
+Design directly influences completion. Short modules, clear objectives, visible progression and varied formats sustain attention better than a long, monotonous pathway. Microlearning, by breaking learning into smaller pieces, reduces the barrier to entry for each session. Completion is therefore first a matter of design choices, before any reminder mechanism.
+
+## Activating engagement levers
+
+Several mechanisms sustain engagement: visible progress tracking, reminders, gamification elements, and above all the cohort effect. Learning within a group progressing at the same pace creates a dynamic and a form of social engagement that is powerful against dropout. Deadlines and synchronous touchpoints punctuate the pathway and counteract procrastination, the enemy of self-directed completion.
+
+## Mobilizing human accompaniment
+
+Human accompaniment remains the most powerful lever. A tutor, an available trainer, and above all manager involvement make the real difference. A manager who takes an interest in their team's training, discusses it and frees up time, significantly increases completion. Conversely, an online training program launched without follow-up or managerial support sees high dropout rates regardless of content quality.
+
+## Key takeaways
+
+- Completion is built at the design stage, not in reaction to dropout.
+- Short modules, clear objectives and visible progression sustain attention.
+- The cohort effect creates powerful social momentum against dropout.
+- Reminders, deadlines and gamification punctuate the pathway.
+- Human accompaniment and manager involvement are the most powerful levers.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to improve completion rates in online training"}]}],["$","$L3",null,{"article":{"slug":"comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne","lang":"en","title":"How to improve completion rates in online training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","e-learning","gamification","microlearning"],"shortDescription":"Improving completion rates in online training requires combined action on pedagogical design, engagement and human accompaniment.","metaDescription":"Improving completion rates in online training requires combined action on pedagogical design, engagement and human accompaniment.","content":"$4","order":66},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

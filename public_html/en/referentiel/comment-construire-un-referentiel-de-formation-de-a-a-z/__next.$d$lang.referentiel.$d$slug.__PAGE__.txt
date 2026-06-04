@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta06,Building a training curriculum from scratch means starting from needs analysis and an analysis of professional situations to arrive at a breakdown into competency blocks, sequenced and associated with assessment modalities. The process chains five steps: needs analysis, definition of target competencies, structuring into blocks, pedagogical sequencing, and alignment with an occupational reference framework or an RNCP certification. Coherence between targeted competencies, content and assessments is the central quality criterion.
+
+## Starting from needs and professional situations
+
+A solid curriculum does not start from available content but from real need. The analysis of professional situations identifies what a professional must be able to do. This analysis grounds the activity reference framework, which describes professional situations, and then the competency reference framework, which translates them into evaluable capabilities.
+
+## Structuring into competency blocks
+
+The breakdown into competency blocks has become the standard. Each block groups a coherent set of competencies, evaluable independently. This structure facilitates alignment with the RNCP, modularization of the offering and partial VAE. Blocks must be internally coherent and cover the full range of targeted activities without redundancy or gap.
+
+## Sequencing and aligning with assessment
+
+Pedagogical sequencing orders learning according to a logical progression, from prerequisites to mastery. Each competency has a corresponding adapted assessment modality, defined in the assessment reference framework. It is the alignment between competencies, content and assessments that makes the curriculum valid: a targeted competency that is not assessed, or an assessment without a corresponding objective, signals an inconsistency that a certifier or auditor immediately identifies.
+
+## Key takeaways
+
+- A curriculum starts from needs and professional situations, not from existing content.
+- It chains activity, competency and assessment reference frameworks.
+- The breakdown into competency blocks is the standard and facilitates RNCP and VAE.
+- Sequencing orders learning according to a logical progression.
+- Coherence between competencies, content and assessments grounds validity.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to build a training curriculum from scratch"}]}],["$","$L3",null,{"article":{"slug":"comment-construire-un-referentiel-de-formation-de-a-a-z","lang":"en","title":"How to build a training curriculum from scratch","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","RNCP","VAE","audit","certification"],"shortDescription":"Building a training curriculum from scratch means starting from needs analysis and an analysis of professional situations to arrive at a breakdown into competency blocks, sequenced and associated w...","metaDescription":"Building a training curriculum from scratch means starting from needs analysis and an analysis of professional situations to arrive at a breakdown into competency blocks, sequenced and associated with assessment modalities.","content":"$4","order":11},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

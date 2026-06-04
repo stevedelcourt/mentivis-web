@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9a5,Funding employee training without bearing the full cost requires mobilizing pooled funds and the mechanisms suited to each situation: the branch OPCO for the skills development plan, employer-topped CPF, FNE-formation in cases of economic difficulty, Pro-A for internal retraining, and regional subsidies. The key is identifying the right mechanism for the objective and submitting files before training begins, as coverage cannot be claimed retroactively.
+
+## Mobilizing the branch OPCO
+
+Every company contributes to a skills operator according to its collective agreement. The OPCO finances all or part of actions in the skills development plan, according to coverage levels set by the branch. The request is submitted before the action begins, on the basis of a training agreement. Small and medium-sized companies often benefit from enhanced coverage conditions.
+
+## Combining mechanisms according to the situation
+
+The employee's CPF can be mobilized, and the employer can top it up to finance training useful to the company. Pro-A funds an internal retraining or qualification upgrade through work-study with contract continuity. FNE-formation supports companies facing economic difficulty or structural transitions. Regions offer targeted subsidies. Combining these levers increases training volume at a constant direct cost.
+
+## Anticipating and securing files
+
+Financing is prepared in advance. An action started without a coverage agreement may remain entirely at the company's expense. Anticipating OPCO instruction deadlines, verifying action eligibility and retaining supporting documents secures financing. A competent training organization supports the company through this setup, which is part of the expected value.
+
+## Key takeaways
+
+- The branch OPCO finances the skills development plan on a file submitted in advance.
+- The CPF can be topped up by the employer for training useful to the company.
+- Pro-A, FNE-formation and regional subsidies complement the picture depending on the situation.
+- Small and medium-sized companies often benefit from enhanced coverage conditions.
+- Financing is requested before the start and cannot be claimed retroactively.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to fund employee training without bearing the full cost myself"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme","lang":"en","title":"How to fund employee training without bearing the full cost myself","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["CPF","OPCO","Pro-A","formation"],"shortDescription":"Funding employee training without bearing the full cost requires mobilizing pooled funds and the mechanisms suited to each situation: the branch OPCO for the skills development plan, employer-toppe...","metaDescription":"Funding employee training without bearing the full cost requires mobilizing pooled funds and the mechanisms suited to each situation: the branch OPCO for the skills development plan, employer-topped CPF, FNE-formation in cases of economic difficulty, Pro-A for internal retraining, and regional subsidies.","content":"$4","order":31},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

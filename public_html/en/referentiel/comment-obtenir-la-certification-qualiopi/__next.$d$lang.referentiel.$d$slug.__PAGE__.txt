@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tbd2,The Qualiopi certification is awarded following an audit conducted by a certification body accredited by Cofrac, which verifies compliance with the 7 criteria and 32 indicators of the National Quality Reference Framework. The process runs in four stages: assembling a file of evidence, initial audit, resolution of any non-conformities, then a surveillance and renewal cycle. A single major non-conformity is enough to block certification. The certification has been mandatory since January 1, 2022 for access to public and pooled funding.
+
+## Why the certification is mandatory
+
+The National Quality Reference Framework was created by decree n°2019-565 of June 6, 2019, under the Avenir Professionnel act. Since January 1, 2022, Qualiopi conditions access to funding through OPCOs, the CPF, France Travail, regions and Agefiph. An organization without certification can continue to train, but its services are no longer eligible for financing through these circuits, which closes off most of the solvent market.
+
+## The steps of the process
+
+Preparation begins with an understanding of the reference framework and the assembly of an evidence file organized by criterion. The official reading guide, version 9 of January 8, 2024, specifies for each indicator the expected level and examples of acceptable evidence.
+
+The choice of certifier comes next. The organization enters into a contract with an accredited certifier from the list published by Cofrac. Fees vary according to the size of the structure and the scope of its activities.
+
+The initial audit takes place on-site or remotely. The auditor proceeds through interviews, document review and direct observation. Each indicator is assessed as conforming, in minor non-conformity, or in major non-conformity.
+
+The certification lifecycle then runs for three years, with a surveillance audit between the fourteenth and twenty-second month, followed by a renewal audit.
+
+## The evidence that makes the difference
+
+The auditor looks for dated, versioned and traceable evidence. A timestamped LMS export, a dated satisfaction questionnaire or a maintained complaints register carries more weight than a static document. The most effective method is to organize evidence in a folder structure by criterion, so that each requirement finds its justification immediately.
+
+## Key takeaways
+
+- Qualiopi is issued by a Cofrac-accredited certifier, based on the 7 criteria and 32 indicators of the RNQ.
+- It has been mandatory since January 1, 2022 for access to public and pooled funding.
+- The reference reading guide is version 9 of January 8, 2024.
+- A single major non-conformity blocks certification.
+- Evidence must be dated, versioned and traceable.
+
+---
+
+_Unlike an LMS that merely distributes content, MentivisOS goes much further:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to obtain the Qualiopi certification"}]}],["$","$L3",null,{"article":{"slug":"comment-obtenir-la-certification-qualiopi","lang":"en","title":"How to obtain the Qualiopi certification","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","France Travail","IA","LMS","OPCO","Qualiopi","RNQ","audit","certification"],"shortDescription":"The Qualiopi certification is awarded following an audit conducted by a certification body accredited by Cofrac, which verifies compliance with the 7 criteria and 32 indicators of the National Qual...","metaDescription":"The Qualiopi certification is awarded following an audit conducted by a certification body accredited by Cofrac, which verifies compliance with the 7 criteria and 32 indicators of the National Quality Reference Framework.","content":"$4","order":1},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T93f,Choosing between in-house and outsourced training rests on an analysis crossing several criteria: availability of the competency in-house, actual cost of development, confidentiality requirements, frequency of the need, lead time and expected quality level. Neither in-house nor external is inherently superior: the right answer depends on the situation. A strategic, frequent and confidential competency favors in-house; a one-off, specialized or non-core need favors external.
+
+## Evaluating availability and in-house cost
+
+The first question is whether the company holds in-house the competency to transmit and the capacity to design and deliver training. The in-house cost, often underestimated, includes design time, delivery time and the time of the mobilized expert. This actual cost compares to the price of external delivery, which may prove more economical for a one-off need.
+
+## Weighing confidentiality, frequency and core competency
+
+Training on proprietary know-how or sensitive information favors in-house, which protects confidentiality. A recurring need justifies in-house development investment, amortized over many sessions; a one-off need does not. Training on core competencies often benefits from staying in-house; transversal or specialized topics are often better externalized to specialists.
+
+## Deciding through a clear framework
+
+The choice is better made as a decision matrix than through habit. Lead time, expected quality, compared cost, confidentiality and frequency are weighted according to priorities. A third path often exists: outsourcing design while internalizing delivery, or relying on a production tool that reduces in-house design cost. The decision is not binary.
+
+## Key takeaways
+
+- The choice crosses in-house availability, actual cost, confidentiality, frequency, lead time and quality.
+- In-house cost, often underestimated, includes design, delivery and expert time.
+- Confidentiality and core competency favor in-house.
+- A one-off or specialized need favors external.
+- Intermediate paths exist: the decision is not binary.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to choose between in-house and outsourced training"}]}],["$","$L3",null,{"article":{"slug":"comment-choisir-entre-former-en-interne-ou-externaliser-la-formation","lang":"en","title":"How to choose between in-house and outsourced training","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","formation"],"shortDescription":"Choosing between in-house and outsourced training rests on an analysis crossing several criteria: availability of the competency in-house, actual cost of development, confidentiality requirements, ...","metaDescription":"Choosing between in-house and outsourced training rests on an analysis crossing several criteria: availability of the competency in-house, actual cost of development, confidentiality requirements, frequency of the need, lead time and expected quality level.","content":"$4","order":56},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

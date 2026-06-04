@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8a9,Managing training across a multi-site or international group requires arbitrating between centralization and local adaptation: a shared platform and policy for coherence and economies of scale, local adaptations for relevance and regulatory compliance in each country. The challenge is to standardize what can be standardized without losing local relevance, and to consolidate reporting to steer the whole. Managing content across languages and cultures is a central difficulty to anticipate.
+
+## Centralizing what can be centralized
+
+A shared platform, a common catalogue and a group training policy ensure coherence and economies of scale. Transversal content, values, compliance, shared competencies, is best designed once and deployed everywhere. This centralization avoids duplication of effort and guarantees a common foundation across the group, regardless of site.
+
+## Adapting locally what requires it
+
+Not everything can be centralized. Regulatory requirements vary from country to country, as do professional and cultural contexts. Content must be adapted, translated and sometimes redesigned to remain relevant and compliant locally. Intercultural adaptation goes beyond translation and touches examples, references and sometimes the pedagogy itself. This adaptation, costly if done manually, argues for industrialized production from a shared foundation.
+
+## Consolidating management reporting
+
+Managing a multi-site program requires consolidated reporting: deployment, completion and compliance indicators, aggregated at group level while remaining readable by site. This consolidation makes it possible to identify gaps, compare sites and direct resources. Without consolidated management, an international program fragments into uncoordinated local initiatives, which cancels the benefit of belonging to a group.
+
+## Key takeaways
+
+- Management arbitrates between centralization for coherence and local adaptation for relevance.
+- Transversal content is designed once and deployed everywhere.
+- Regulatory requirements and cultural contexts impose local adaptations.
+- Industrialized adaptation from a shared foundation protects profitability.
+- Consolidated reporting is necessary to steer the whole.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to manage training across a multi-site or international group"}]}],["$","$L3",null,{"article":{"slug":"comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international","lang":"en","title":"How to manage training across a multi-site or international group","cible":"Entreprises","cibleEn":"Companies","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","management"],"shortDescription":"Managing training across a multi-site or international group requires arbitrating between centralization and local adaptation: a shared platform and policy for coherence and economies of scale, loc...","metaDescription":"Managing training across a multi-site or international group requires arbitrating between centralization and local adaptation: a shared platform and policy for coherence and economies of scale, local adaptations for relevance and regulatory compliance in each country.","content":"$4","order":57},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

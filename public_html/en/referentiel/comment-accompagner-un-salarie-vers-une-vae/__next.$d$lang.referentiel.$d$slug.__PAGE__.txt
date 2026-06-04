@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T959,Supporting an employee through a VAE process means, for the employer, recognizing the mutual value of the process, facilitating its progression through time and possible financing, and framing it within a competency management logic. VAE allows the employee to obtain a recognized certification from their experience, without completing a full training program. For the company, it is a lever for recognition, loyalty and competency structuring, governed by the recent reform of the mechanism.
+
+## Understanding the mutual value
+
+VAE converts the employee's experience into a recognized certification. For the employee, it is recognition and career security. For the company, it is a way to formalize held competencies, build loyalty through recognition, and sometimes meet a regulatory qualification requirement. This shared value grounds the employer's engagement in the process.
+
+## Facilitating progress
+
+The employer's support can take several forms: freeing time for file assembly and jury preparation, contributing to financing, and directing the employee toward a pathway support architect. The VAE reform has instituted the pathway support architect, who guides the candidate from admissibility to the jury. The employer facilitates access to this support without substituting for it.
+
+## Embedding VAE in competency management
+
+VAE takes its full meaning when connected to the company's competency management. It can accompany a role change, secure a critical competency or respond to a collective qualification need. Collective VAE processes exist for groups of employees. Embedding VAE in a forward-looking logic, rather than treating it case by case, multiplies its value for the organization.
+
+## Key takeaways
+
+- VAE certifies the employee's experience without completing a full training program.
+- Value is mutual: recognition for the employee, structuring for the company.
+- The employer facilitates through time, financing and access to support.
+- The pathway support architect guides the candidate through to the jury.
+- Connected to competency management, VAE multiplies its value.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to support an employee through a VAE process"}]}],["$","$L3",null,{"article":{"slug":"comment-accompagner-un-salarie-vers-une-vae","lang":"en","title":"How to support an employee through a VAE process","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["VAE","certification","management"],"shortDescription":"Supporting an employee through a VAE process means, for the employer, recognizing the mutual value of the process, facilitating its progression through time and possible financing, and framing it w...","metaDescription":"Supporting an employee through a VAE process means, for the employer, recognizing the mutual value of the process, facilitating its progression through time and possible financing, and framing it within a competency management logic.","content":"$4","order":44},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

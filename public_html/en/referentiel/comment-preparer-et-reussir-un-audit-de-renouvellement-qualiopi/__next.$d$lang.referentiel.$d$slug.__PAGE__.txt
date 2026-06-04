@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T99f,Passing a Qualiopi renewal audit requires having maintained your quality system throughout the certification cycle, not only assembling the file as the deadline approaches. Renewal verifies compliance with the 7 criteria and 32 indicators, with particular attention to continuous improvement and evidence of real operations over time. An up-to-date evidence file, a mock internal audit, and mastery of developments in the reading guide are the levers for a calm renewal.
+
+## The certification cycle
+
+Qualiopi certification runs in a multi-year cycle, marked by a surveillance audit and then a renewal audit. Renewal is not a simple extension: it re-examines all indicators and verifies that the quality system has functioned continuously. An organization that has only maintained its evidence file in the run-up to the audit will be in difficulty.
+
+## Maintaining a living evidence file
+
+The key is an evidence file maintained continuously, organized by criterion, with dated, versioned and traceable elements. Expected evidence covers the full life of the activity: needs gathering, session plans, evaluations, close and distance feedback, corrective actions, subcontractor monitoring. A timestamped export carries more weight than a reconstructed document. Continuous improvement, often neglected, receives heightened scrutiny.
+
+## Simulating and anticipating developments
+
+A mock internal audit, or white audit, identifies gaps before the official auditor and allows them to be corrected. Anticipating developments in the reading guide is also decisive: a version 10 of the guide is announced and will strengthen requirements, particularly for CFAs and transparency of results. Preparing for it avoids unpleasant surprises. In the event of a non-conformity, corrective paths exist, but prevention is preferable.
+
+## Key takeaways
+
+- Renewal verifies compliance over time, not a last-minute preparation.
+- The evidence file must be maintained continuously, dated and traceable.
+- Continuous improvement receives heightened scrutiny.
+- The mock audit identifies gaps before the official auditor.
+- A version 10 of the guide is announced and will strengthen requirements.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to prepare and pass a Qualiopi renewal audit"}]}],["$","$L3",null,{"article":{"slug":"comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi","lang":"en","title":"How to prepare and pass a Qualiopi renewal audit","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CFA","IA","Qualiopi","audit","certification"],"shortDescription":"Passing a Qualiopi renewal audit requires having maintained your quality system throughout the certification cycle, not only assembling the file as the deadline approaches.","metaDescription":"Passing a Qualiopi renewal audit requires having maintained your quality system throughout the certification cycle, not only assembling the file as the deadline approaches.","content":"$4","order":29},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

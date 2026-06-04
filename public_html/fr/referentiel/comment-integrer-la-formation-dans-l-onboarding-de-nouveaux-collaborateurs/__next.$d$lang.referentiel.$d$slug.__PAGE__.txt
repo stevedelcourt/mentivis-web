@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta60,Intégrer la formation dans l'onboarding consiste à structurer un parcours d'intégration qui combine apprentissage du métier, de l'entreprise et de sa culture, jalonné d'étapes d'évaluation et soutenu par un tuteur dédié. Un onboarding sans dimension formation laisse le nouveau collaborateur se débrouiller seul, ce qui allonge la montée en compétences et accroît le risque de départ précoce. Un parcours structuré, mêlant présentiel et digital, accélère l'autonomie et sécurise l'investissement du recrutement.
+
+## Structurer un parcours sur la durée
+
+L'onboarding ne se limite pas aux premiers jours. Un parcours efficace s'étend sur plusieurs semaines à plusieurs mois, avec une progression : découverte, prise en main, autonomie. Il combine la formation au métier, à l'environnement de l'entreprise, à ses outils et à sa culture. Cette structuration transforme une intégration improvisée en montée en compétences pilotée.
+
+## Combiner les modalités
+
+Un onboarding mêle utilement les modalités. Le digital, modules d'auto-formation, gère la transmission des connaissances standardisables, à son rythme. Le présentiel et l'humain, rencontres, tutorat, accompagnement, transmettent la culture et le relationnel. Cette combinaison libère du temps d'encadrement pour ce qui compte vraiment, le relationnel et le métier, tout en assurant la base par le digital.
+
+## Jalonner et accompagner
+
+Des jalons d'évaluation, à un, trois et six mois par exemple, vérifient la progression et permettent d'ajuster. Un tuteur ou parrain dédié accompagne le nouveau collaborateur, répond aux questions et facilite l'intégration sociale. Ce suivi structuré réduit le risque de départ précoce, particulièrement coûteux, et accélère le moment où le collaborateur devient pleinement productif. L'onboarding est un investissement, pas une formalité d'accueil.
+
+## Ce qu'il faut retenir
+
+- L'onboarding s'étend sur plusieurs semaines à plusieurs mois, avec une progression.
+- Il combine formation au métier, à l'entreprise, aux outils et à la culture.
+- Le digital gère le standardisable, l'humain transmet la culture et le relationnel.
+- Des jalons à un, trois et six mois vérifient la progression.
+- Un tuteur dédié réduit le risque de départ précoce.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment intégrer la formation dans l'onboarding de nouveaux collaborateurs"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs","title":"Comment intégrer la formation dans l'onboarding de nouveaux collaborateurs","cible":"Entreprises","thematique":"Financement","tags":["IA","VR","apprentissage","coût","formation","onboarding","tutorat"],"shortDescription":"Intégrer la formation dans l'onboarding consiste à structurer un parcours d'intégration qui combine apprentissage du métier, de l'entreprise et de sa culture, jalonné d'étapes d'évaluation et soute...","metaDescription":"Intégrer la formation dans l'onboarding consiste à structurer un parcours d'intégration qui combine apprentissage du métier, de l'entreprise et de sa culture, jalonné d'étapes d'évaluation et soutenu par un tuteur dédié.","content":"$4","order":51,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

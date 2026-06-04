@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T802,Proving compliance with training obligations rests on traceability: retaining evidence of professional interviews, training actions completed, employee progression, and keeping payroll filings and fiscal declarations relating to the training contribution up to date. In the event of an audit or dispute, documentation is what counts. The adaptation and employability obligation, as well as declaratory obligations, expose the company to consequences when a failure is undocumented.
+
+## Tracing interviews and training actions
+
+Expected evidence covers the full range of obligations. For professional interviews, retaining dated and signed records demonstrates that they were held. For training, retaining certificates, convocation letters and attendance sheets proves completion of actions. The six-year comprehensive review draws on this documentation to verify that the employee has benefited from their rights.
+
+## Meeting declaratory obligations
+
+The company pays a professional training contribution, declared through the DSN payroll filing and collected by Urssaf. Compliance with these obligations and their calendar is auditable. A clear accounting of training expenditure and contributions paid documents the company's fiscal and social compliance on this point.
+
+## Anticipating audits and disputes
+
+In the event of a Urssaf audit or an employment tribunal dispute, for example on the adaptation obligation or the corrective CPF top-up, the burden of proof rests largely on the employer. Organized and retained documentation protects the company. Conversely, the absence of records weakens its position, even if obligations were materially met. Traceability is not a formality; it is protection.
+
+## Key takeaways
+
+- Proof of compliance rests on documented traceability.
+- Interview records, certificates and attendance sheets demonstrate actions taken.
+- The six-year review draws on this documentation.
+- DSN declaratory obligations and Urssaf contributions are auditable.
+- In disputes, the burden of proof rests largely on the employer.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to prove that my company meets its training obligations"}]}],["$","$L3",null,{"article":{"slug":"comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation","lang":"en","title":"How to prove that my company meets its training obligations","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","IA","audit"],"shortDescription":"Proving compliance with training obligations rests on traceability: retaining evidence of professional interviews, training actions completed, employee progression, and keeping payroll filings and ...","metaDescription":"Proving compliance with training obligations rests on traceability: retaining evidence of professional interviews, training actions completed, employee progression, and keeping payroll filings and fiscal declarations relating to the training contribution up to date.","content":"$4","order":50},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

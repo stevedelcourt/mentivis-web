@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb72,Creating an apprenticeship training center requires defining a legal structure, filing a declaration of activity with the DREETS of your region, obtaining a UAI code from the academic services, achieving Qualiopi compliance and organizing the delivery of certified training. Since the Avenir Professionnel act, all CFAs are subject to the obligation to file a declaration of activity. The declaration must be filed within three months of the first contract.
+
+## The framework since the Avenir Professionnel act
+
+The act of September 5, 2018 liberalized the creation of CFAs. It is no longer necessary to obtain a prior agreement with the region: any organization meeting the regulatory requirements can open a CFA. This opening is accompanied by strengthened requirements, notably Qualiopi certification on the apprenticeship scope, which requires CFAs to satisfy 32 indicators, ten more than other training providers.
+
+## Administrative formalities
+
+The legal structure is defined first. The CFA can be a dedicated entity or an activity within an existing organization. A company-based CFA is not required to mention apprenticeship training activity in its articles of association.
+
+The declaration of activity is filed with the DREETS of the registered office address. It gives the right to the activity registration number, which becomes mandatory on contracts from the second one onward.
+
+The UAI code is obtained from the academic services of the Education Ministry; it identifies the institution.
+
+Regulatory compliance specific to CFAs is then put in place, including the indicators specific to apprenticeship: certification attainment rates, coordination of work-study, citizenship education, and information on apprentice rights and duties.
+
+## The economics of apprenticeship
+
+Financing rests on the coverage of contracts by OPCOs, according to levels set by France Compétences. The CFA invoices the OPCO on the basis of a coherent file and compliant supporting documents. Mastery of the circuit from contract to invoice to payment directly determines the cash position of the organization. Apprenticeship financing rules change regularly, which requires active monitoring.
+
+## Key takeaways
+
+- Since the Avenir Professionnel act, creating a CFA no longer requires a prior regional agreement.
+- The declaration of activity is filed with the DREETS within three months of the first contract.
+- The UAI code is issued by the academic services.
+- CFAs must satisfy the 32 Qualiopi indicators.
+- Financing goes through OPCO coverage according to France Compétences levels.
+
+---
+
+_While most tools only track activity, MentivisOS puts real skills acquisition at the core of the system:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to create a CFA in France in 2026"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-un-cfa-en-france-en-2026","lang":"en","title":"How to create a CFA in France in 2026","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CFA","DREETS","France Compétences","IA","OPCO","Qualiopi","certification","formation"],"shortDescription":"Creating an apprenticeship training center requires defining a legal structure, filing a declaration of activity with the DREETS of your region, obtaining a UAI code from the academic services, ach...","metaDescription":"Creating an apprenticeship training center requires defining a legal structure, filing a declaration of activity with the DREETS of your region, obtaining a UAI code from the academic services, achieving Qualiopi compliance and organizing the delivery of certified training.","content":"$4","order":2},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

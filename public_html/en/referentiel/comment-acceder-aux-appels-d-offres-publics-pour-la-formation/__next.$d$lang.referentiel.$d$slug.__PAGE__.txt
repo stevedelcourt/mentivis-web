@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7ae,Accessing public training contracts requires monitoring the publication platforms for calls for tender, mastering the response to tender documents and understanding buyer selection criteria. Public contracts represent a significant volume of activity but require formal rigor: a non-compliant file is rejected before the offer is even reviewed. The ability to group with other providers broadens access to large-scale contracts.
+
+## Monitoring calls for tender
+
+Public buyers publish their calls for tender on dedicated platforms, including the state procurement platform. Organized monitoring of these platforms, by sector and geographic area, identifies relevant opportunities. Responding requires anticipation: response deadlines are short and a solid file cannot be assembled under pressure.
+
+## Responding to the tender document
+
+The tender document defines the need, criteria and required documents. The response comprises a technical offer, pedagogy, means, organization, and a financial offer. Formal compliance is eliminatory: a missing document or a non-respected format eliminates the candidacy. The quality of the technical offer, its precision and alignment with the need, then makes the difference on weighted criteria.
+
+## Understanding criteria and grouping
+
+Public buyers evaluate on announced and weighted criteria, often a balance between technical value and price. Understanding this weighting directs effort. For large-scale contracts, grouping with other providers allows several organizations to respond jointly, pooling capacities and references, which opens contracts inaccessible alone.
+
+## Key takeaways
+
+- Public calls for tender are monitored on dedicated platforms, including the state's.
+- The response comprises a technical offer and a financial offer.
+- Formal compliance is eliminatory before any review of the offer.
+- Buyers evaluate on announced and weighted criteria.
+- Grouping with other providers opens large-scale contracts.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to access public tenders for training"}]}],["$","$L3",null,{"article":{"slug":"comment-acceder-aux-appels-d-offres-publics-pour-la-formation","lang":"en","title":"How to access public tenders for training","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Funding","thematiqueEn":"Funding","tags":["IA"],"shortDescription":"Accessing public training contracts requires monitoring the publication platforms for calls for tender, mastering the response to tender documents and understanding buyer selection criteria.","metaDescription":"Accessing public training contracts requires monitoring the publication platforms for calls for tender, mastering the response to tender documents and understanding buyer selection criteria.","content":"$4","order":26},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

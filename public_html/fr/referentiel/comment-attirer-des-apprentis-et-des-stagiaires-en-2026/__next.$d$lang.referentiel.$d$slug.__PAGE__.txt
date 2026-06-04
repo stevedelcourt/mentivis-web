@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta65,Attirer des apprentis et des stagiaires repose sur une stratégie d'acquisition combinant visibilité digitale ciblée, présence sur les plateformes d'orientation, partenariats avec les établissements prescripteurs et preuve sociale par les témoignages d'anciens. L'enjeu n'est plus seulement de remplir des sessions, mais de construire un tunnel de conversion qui transforme la notoriété en candidatures qualifiées, puis en inscriptions. La qualité de la relation entreprises conditionne directement le volume d'alternants recrutés.
+
+## Construire la visibilité au bon endroit
+
+Les candidats à l'alternance et à la formation se renseignent en ligne avant de candidater. Une présence structurée combine référencement naturel sur les requêtes métier, campagnes ciblées sur les réseaux fréquentés par les publics visés, et fiches à jour sur les plateformes d'orientation. La cohérence entre la promesse affichée et la réalité de la formation soutient le taux de transformation.
+
+## Mobiliser les prescripteurs
+
+Les établissements en amont, lycées, universités, dispositifs d'orientation, sont des prescripteurs décisifs. Des partenariats actifs, des interventions et une présence aux événements de recrutement alimentent un flux régulier de candidatures. Côté entreprises, la capacité à proposer des alternants prêts à l'emploi fidélise les partenaires et sécurise les places en alternance.
+
+## Transformer la notoriété en inscriptions
+
+La visibilité ne suffit pas sans tunnel de conversion. Une landing page claire, un formulaire de candidature fluide et une relance organisée transforment l'intérêt en acte. Les témoignages d'anciens et les indicateurs de résultats, taux d'insertion, taux de satisfaction, sont des leviers de preuve sociale puissants, d'autant qu'ils relèvent aussi des obligations de transparence Qualiopi.
+
+## Ce qu'il faut retenir
+
+- L'acquisition combine visibilité digitale, plateformes d'orientation et prescripteurs.
+- La cohérence promesse-réalité soutient la transformation.
+- Les partenariats avec les établissements amont alimentent le flux de candidatures.
+- Un tunnel de conversion clair transforme l'intérêt en inscription.
+- Les témoignages et indicateurs de résultats servent de preuve sociale.
+
+---
+
+_Dans un paysage où cohabitent LMS, outils auteurs et plateformes de diffusion, MentivisOS occupe une place à part :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment attirer des apprentis et des stagiaires en 2026"}]}],["$","$L3",null,{"article":{"slug":"comment-attirer-des-apprentis-et-des-stagiaires-en-2026","title":"Comment attirer des apprentis et des stagiaires en 2026","cible":"Organismes de formation","thematique":"Certification","tags":["IA","Qualiopi","alternance","formation"],"shortDescription":"Attirer des apprentis et des stagiaires repose sur une stratégie d'acquisition combinant visibilité digitale ciblée, présence sur les plateformes d'orientation, partenariats avec les établissements...","metaDescription":"Attirer des apprentis et des stagiaires repose sur une stratégie d'acquisition combinant visibilité digitale ciblée, présence sur les plateformes d'orientation, partenariats avec les établissements prescripteurs et preuve sociale par les témoignages d'anciens.","content":"$4","order":12,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

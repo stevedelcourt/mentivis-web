@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9f3,Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and managing adoption so that it does not become an underused subscription. These catalogues provide broad access to content on transversal and digital competencies. Their main risk is low usage: a paid access that no one trains with. Value depends on accompanying usage, not on access alone.
+
+## Defining the intended use
+
+A third-party catalogue in a company can serve several purposes: open access for self-directed learning, recommended pathways on targeted competencies, complement to the skills development plan. Defining the intended use guides deployment. Open access without clear intent generally produces little effect; framed use, connected to development objectives, produces more. The subscription is only a means, not an end.
+
+## Connecting to the existing program
+
+The third-party catalogue connects to the rest of the program: skills development plan, custom training, internal pathways. It covers the generic and transversal, where in-house custom content handles the specific. Technically integrating the catalogue with the LMS or HR system, where possible, consolidates tracking and avoids siloed usage, disconnected from the overall training management.
+
+## Steering adoption
+
+The main pitfall of third-party catalogues in companies is under-utilization. Paid unlimited access that no one uses represents cost without return. Steering adoption requires communication, recommending pathways, manager involvement, and tracking actual usage. Usage data reveals whether the investment is producing effect and guides re-engagement actions. Without this steering, the catalogue becomes a recurring expense with uncertain value.
+
+## Key takeaways
+
+- A third-party catalogue in a company covers transversal and digital competencies.
+- Defining the intended use guides deployment and conditions effect.
+- It connects to the skills development plan and in-house custom content.
+- Its main risk is under-utilization: paid access used by few.
+- Steering adoption through communication, managers and usage tracking is essential.
+
+---
+
+_Unlike an LMS that merely distributes content, MentivisOS goes much further:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to integrate a third-party catalogue like LinkedIn Learning in a company"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise","lang":"en","title":"How to integrate a third-party catalogue like LinkedIn Learning in a company","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","LMS","management"],"shortDescription":"Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and mana...","metaDescription":"Integrating a third-party learning catalogue in a company, of the type offered by major online course publishers, requires defining its use, connecting it to the existing training program, and managing adoption so that it does not become an underused subscription.","content":"$4","order":88},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

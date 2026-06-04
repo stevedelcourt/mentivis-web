@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9b8,Integrating a training platform with the human resources information system aims to eliminate duplicate data entry and allow data to flow between HR management and training: employee synchronization, training completion records, consolidated reporting. Integration rests on interfaces, or connectors, and data exchange standards. Its success depends as much on data quality and governance as on the technical side: a poorly designed integration propagates errors rather than eliminating them.
+
+## Why integrate
+
+A training platform disconnected from the HR system requires re-entering employees, manually reporting completed training, and reconstructing reporting. This duplicate data entry costs time and generates inconsistencies. Integration synchronizes employee data, feeds completed training into the HR record, and consolidates tracking. It transforms two parallel systems into a coherent data flow.
+
+## Integration modalities
+
+Integration rests on programmatic interfaces that allow two systems to exchange automatically, or on pre-built connectors between widely used tools. Exchange standards facilitate these connections. The level of integration can vary, from simple identity synchronization to full two-way data exchange. The choice depends on the actual need and the capacity of both systems to communicate.
+
+## Conditions for success
+
+Technology alone is not enough. A successful integration requires clean data at the outset, as integration propagates errors as readily as correct data. It requires clear governance: which system is the master for which data, who is responsible for quality. It also requires compliance with personal data protection in exchanges. A well-governed integration strengthens the information system; a poorly handled one weakens it.
+
+## Key takeaways
+
+- Integration eliminates duplicate entry and allows HR and training data to flow.
+- It synchronizes employees, feeds training completions and consolidates reporting.
+- It rests on programmatic interfaces or pre-built connectors.
+- It requires clean data at the outset, or it propagates errors.
+- Data governance and personal data protection condition success.
+
+---
+
+_In the EdTech landscape, MentivisOS stands out by generating rather than distributing:_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to integrate a training platform with my existing HRIS"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant","lang":"en","title":"How to integrate a training platform with my existing HRIS","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA","formation","management"],"shortDescription":"Integrating a training platform with the human resources information system aims to eliminate duplicate data entry and allow data to flow between HR management and training: employee synchronizatio...","metaDescription":"Integrating a training platform with the human resources information system aims to eliminate duplicate data entry and allow data to flow between HR management and training: employee synchronization, training completion records, consolidated reporting.","content":"$4","order":78},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

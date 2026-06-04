@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta5c,Identifier les compétences manquantes consiste à confronter les compétences disponibles aux compétences nécessaires pour atteindre les objectifs présents et futurs, à travers une cartographie des compétences, des référentiels métier et l'analyse des évolutions sectorielles. L'écart entre l'existant et le requis définit le besoin de formation. Cette démarche, souvent appelée analyse des écarts, est le point de départ d'un plan de développement des compétences pertinent : sans diagnostic, la formation répond à des demandes plutôt qu'à des besoins réels.
+
+## Cartographier les compétences disponibles
+
+La première étape consiste à savoir de quelles compétences l'entreprise dispose réellement. Une cartographie, même simple, recense les compétences clés par fonction et par personne. Les entretiens professionnels, les évaluations et l'observation alimentent cette photographie. Elle révèle souvent des compétences ignorées et des dépendances critiques à quelques personnes.
+
+## Définir les compétences requises
+
+En parallèle, l'entreprise définit les compétences nécessaires pour atteindre ses objectifs. Les référentiels métier, les fiches de poste et l'analyse des projets à venir précisent ce requis. L'anticipation des évolutions du secteur, technologiques, réglementaires, concurrentielles, ajoute les compétences qui manqueront demain et qu'il vaut mieux préparer aujourd'hui.
+
+## Mesurer et prioriser les écarts
+
+L'écart entre compétences disponibles et requises constitue le besoin. Tous les écarts ne se valent pas : certains sont critiques pour la stratégie, d'autres secondaires. La priorisation distingue ce qui doit être comblé sans délai de ce qui peut attendre. Ce diagnostic d'écart oriente le plan de développement des compétences vers l'essentiel et fonde une logique de besoin plutôt que de demande.
+
+## Ce qu'il faut retenir
+
+- Le besoin naît de l'écart entre compétences disponibles et compétences requises.
+- La cartographie recense l'existant par fonction et par personne.
+- Les référentiels métier et l'anticipation sectorielle définissent le requis.
+- La priorisation distingue les écarts critiques des écarts secondaires.
+- Le diagnostic d'écart fonde une logique de besoin, pas de demande.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment identifier les compétences manquantes dans mon entreprise"}]}],["$","$L3",null,{"article":{"slug":"comment-identifier-les-competences-manquantes-dans-mon-entreprise","title":"Comment identifier les compétences manquantes dans mon entreprise","cible":"Entreprises","thematique":"Pédagogie","tags":["IA","formation"],"shortDescription":"Identifier les compétences manquantes consiste à confronter les compétences disponibles aux compétences nécessaires pour atteindre les objectifs présents et futurs, à travers une cartographie des c...","metaDescription":"Identifier les compétences manquantes consiste à confronter les compétences disponibles aux compétences nécessaires pour atteindre les objectifs présents et futurs, à travers une cartographie des compétences, des référentiels métier et l'analyse des évolutions sectorielles.","content":"$4","order":41,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

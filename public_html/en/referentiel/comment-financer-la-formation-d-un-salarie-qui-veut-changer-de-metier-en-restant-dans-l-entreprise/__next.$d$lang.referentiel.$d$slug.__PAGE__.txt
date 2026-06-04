@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T981,Funding an internal role change, meaning a change of occupation within the same company, rests primarily on Pro-A, the reconversion or promotion by alternation mechanism, supplemented by the skills development plan and employer-topped CPF. Pro-A combines a qualifying work-study program with contract continuity, subject to an extended branch agreement. This mechanism serves companies that prefer to develop an existing employee toward a role in shortage rather than recruiting externally.
+
+## Pro-A, the central internal retraining mechanism
+
+Pro-A funds qualifying training for an employee changing occupation or upgrading qualification while remaining with the company. It rests on alternation between training and work, with contract continuity. Mobilizing it requires an extended branch agreement defining eligible certifications, and translates into a contract amendment specifying the training to be followed.
+
+## Complementing with other levers
+
+Pro-A can be complemented by other mechanisms. The skills development plan funds training actions decided by the employer. Employer-topped CPF co-funds training of shared value. Combining these levers covers longer or more comprehensive retraining pathways than any single mechanism would allow. The branch OPCO is the contact for financing.
+
+## Arbitrating internal retraining versus external recruitment
+
+Internal retraining weighs the cost and risk of external recruitment against those of developing an existing employee. Training a known employee, loyal and adapted to the company's culture, toward a role in shortage often presents a better cost-risk ratio than recruiting a rare profile on the market. Internal retraining is therefore a competency management lever as much as a financing mechanism.
+
+## Key takeaways
+
+- Pro-A funds internal retraining or promotion through work-study, with contract continuity.
+- It requires an extended branch agreement and a contract amendment.
+- The skills development plan and employer-topped CPF complement it.
+- The branch OPCO is the financing contact.
+- Internal retraining often offers a better cost-risk ratio than external recruitment.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to fund the training of an employee who wants to change roles while staying"}]}],["$","$L3",null,{"article":{"slug":"comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise","lang":"en","title":"How to fund the training of an employee who wants to change roles while staying","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","OPCO","Pro-A","certification","management","reconversion"],"shortDescription":"Funding an internal role change, meaning a change of occupation within the same company, rests primarily on Pro-A, the reconversion or promotion by alternation mechanism, supplemented by the skills...","metaDescription":"Funding an internal role change, meaning a change of occupation within the same company, rests primarily on Pro-A, the reconversion or promotion by alternation mechanism, supplemented by the skills development plan and employer-topped CPF.","content":"$4","order":55},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

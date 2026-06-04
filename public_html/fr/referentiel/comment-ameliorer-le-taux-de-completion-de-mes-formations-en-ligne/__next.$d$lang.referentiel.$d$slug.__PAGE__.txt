@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta8d,Améliorer le taux de complétion des formations en ligne repose sur l'action combinée sur le design pédagogique, l'engagement et l'accompagnement humain. Le faible taux de complétion est le principal point faible de l'e-learning en autonomie. Il ne se corrige pas par un seul levier mais par un ensemble : des modules courts et rythmés, des mécanismes d'engagement, des relances, l'effet de cohorte et l'implication des managers. La complétion se construit dès la conception, pas en réaction au décrochage.
+
+## Concevoir pour la complétion
+
+Le design influe directement sur la complétion. Des modules courts, des objectifs clairs, une progression visible et une variété de formats maintiennent l'attention mieux qu'un long parcours monotone. Le microlearning, en fractionnant l'apprentissage, réduit la barrière à l'entrée de chaque session. La complétion se prépare donc d'abord par des choix de conception, avant tout dispositif de relance.
+
+## Activer les leviers d'engagement
+
+Plusieurs mécanismes soutiennent l'engagement : suivi de progression visible, rappels et relances, éléments de gamification, et surtout effet de cohorte. Apprendre au sein d'un groupe qui progresse au même rythme crée une dynamique et une forme d'engagement social puissante contre l'abandon. Les échéances et les rendez-vous synchrones ponctuent le parcours et luttent contre la procrastination, ennemie de la complétion en autonomie.
+
+## Mobiliser l'accompagnement humain
+
+L'accompagnement humain reste le levier le plus puissant. Un tuteur, un formateur disponible, et surtout l'implication du manager changent la donne. Un manager qui s'intéresse à la formation de son équipe, qui en parle et dégage du temps, augmente nettement la complétion. À l'inverse, une formation en ligne lancée sans suivi ni soutien hiérarchique connaît des taux d'abandon élevés, quelle que soit la qualité du contenu.
+
+## Ce qu'il faut retenir
+
+- La complétion se construit dès la conception, pas en réaction au décrochage.
+- Modules courts, objectifs clairs et progression visible maintiennent l'attention.
+- L'effet de cohorte crée une dynamique sociale puissante contre l'abandon.
+- Relances, échéances et gamification ponctuent le parcours.
+- L'accompagnement humain et l'implication du manager sont les leviers les plus forts.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment améliorer le taux de complétion de mes formations en ligne"}]}],["$","$L3",null,{"article":{"slug":"comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne","title":"Comment améliorer le taux de complétion de mes formations en ligne","cible":"EdTech, plateformes et outils numériques","thematique":"Apprentissage","tags":["IA","apprentissage","e-learning","formation","gamification","microlearning"],"shortDescription":"Améliorer le taux de complétion des formations en ligne repose sur l'action combinée sur le design pédagogique, l'engagement et l'accompagnement humain.","metaDescription":"Améliorer le taux de complétion des formations en ligne repose sur l'action combinée sur le design pédagogique, l'engagement et l'accompagnement humain.","content":"$4","order":66,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T8af,Choosing a virtual classroom tool requires distinguishing a generic video conferencing tool from one designed for synchronous pedagogy, equipped with interaction features, breakout groups, sharing capabilities and attendance tracking. Synchronous remote training has specific requirements that a meeting tool does not always cover. The right choice depends on the type of facilitation planned, participant numbers, interaction needs and the attendance traceability required, particularly for funded training.
+
+## Video conferencing and virtual classroom are not equivalent
+
+A video conferencing tool brings people together remotely, but synchronous pedagogy requires more: speech management, polls, working breakout groups, shared whiteboard, document sharing, attendance tracking. A virtual classroom tool integrates these pedagogical features. Using a simple meeting tool for training limits interaction and engagement, two conditions of synchronous effectiveness.
+
+## Choosing according to the facilitation type
+
+The choice depends on the use case. A lecture session for a large audience has different needs from an interactive workshop in a small group. Breakout group features, essential for collaborative work, or the ability to manage large groups, guide the decision. The quality of the experience, fluidity, ease of access for the learner, also matters, as a complex tool discourages participation.
+
+## Tracing participation
+
+For funded training, traceability of attendance and participation is required. The tool must be able to generate connection and attendance evidence that can be used as proof. This requirement, secondary for an ordinary meeting, becomes decisive in the context of certified or funded training. Participation tracking also serves facilitation: identifying disengaged participants during a session allows re-engagement.
+
+## Key takeaways
+
+- A virtual classroom goes beyond video conferencing through its pedagogical features.
+- Speech management, polls, breakout groups and sharing sustain interaction.
+- The choice depends on the facilitation type and participant numbers.
+- Ease of access for the learner conditions participation.
+- Attendance traceability is required for funded training.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Which virtual classroom tool should I choose for synchronous training"}]}],["$","$L3",null,{"article":{"slug":"quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone","lang":"en","title":"Which virtual classroom tool should I choose for synchronous training","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["IA","management"],"shortDescription":"Choosing a virtual classroom tool requires distinguishing a generic video conferencing tool from one designed for synchronous pedagogy, equipped with interaction features, breakout groups, sharing ...","metaDescription":"Choosing a virtual classroom tool requires distinguishing a generic video conferencing tool from one designed for synchronous pedagogy, equipped with interaction features, breakout groups, sharing capabilities and attendance tracking.","content":"$4","order":65},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

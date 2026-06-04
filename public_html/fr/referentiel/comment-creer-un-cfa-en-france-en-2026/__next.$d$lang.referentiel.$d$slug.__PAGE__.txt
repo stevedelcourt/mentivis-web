@@ -1,0 +1,40 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Taf8,## Le cadre depuis la loi Avenir professionnel
+
+La loi du 5 septembre 2018 a libéralisé la création des CFA. Il n'est plus nécessaire d'obtenir une convention avec la région au préalable : tout organisme respectant les obligations réglementaires peut ouvrir un CFA. Cette ouverture s'accompagne d'exigences renforcées, notamment la certification Qualiopi sur le périmètre apprentissage, qui impose aux CFA de satisfaire les 32 indicateurs, soit 10 de plus que les autres prestataires.
+
+## Les démarches administratives
+
+Le statut juridique est défini en premier. Le CFA peut être une structure dédiée ou une activité au sein d'un organisme existant. Le CFA d'entreprise n'a pas l'obligation de mentionner l'activité d'apprentissage dans ses statuts.
+
+La déclaration d'activité est déposée auprès de la DREETS du lieu du siège social. Elle ouvre droit au numéro de déclaration d'activité, qui devient obligatoire sur les contrats à compter du second.
+
+Le code UAI est obtenu auprès des services académiques de l'Éducation nationale ; il identifie l'établissement.
+
+La conformité réglementaire applicable aux CFA est ensuite mise en place, incluant les indicateurs spécifiques à l'apprentissage.
+
+## Le modèle économique de l'apprentissage
+
+Le financement repose sur la prise en charge des contrats par les OPCO, selon des niveaux fixés par France Compétences. Le CFA facture l'OPCO sur la base d'un dossier cohérent et de justificatifs conformes. La maîtrise du circuit contrat vers facturation vers paiement conditionne directement la trésorerie de la structure.
+
+## Ce qu'il faut retenir
+
+- Depuis la loi Avenir professionnel, créer un CFA ne nécessite plus de convention régionale préalable.
+- La déclaration d'activité se dépose auprès de la DREETS dans les trois mois suivant le premier contrat.
+- Le code UAI est délivré par les services académiques.
+- Les CFA doivent satisfaire les 32 indicateurs Qualiopi.
+- Le financement passe par la prise en charge OPCO selon les niveaux de France Compétences.
+
+---
+
+Ouvrir un CFA mobilise une chaîne complète : structuration juridique, conformité, ingénierie pédagogique et pilotage. Mentivis opère cette création de A à Z, de la définition du projet pédagogique au premier déploiement commercial. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+Pour la production des contenus et référentiels des formations, MentivisOS génère les programmes alignés sur les certifications visées. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+**À lire aussi :** Comment déclarer son activité de formation professionnelle · Comment gérer les alternants : droits, obligations, encadrement · Comment obtenir et utiliser les fonds de la taxe d'apprentissage.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment créer un CFA en France en 2026"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-un-cfa-en-france-en-2026","title":"Comment créer un CFA en France en 2026","cible":"Organismes de formation","thematique":"Apprentissage","tags":["CFA","apprentissage","DREETS","OPCO","Qualiopi"],"shortDescription":"Créer un centre de formation d'apprentis suppose de définir un statut juridique, de déposer une déclaration d'activité auprès de la DREETS, d'obtenir un code UAI, de se mettre en conformité Qualiopi et d'organiser la délivrance de formations certifiantes.","metaDescription":"Créer un CFA en France en 2026 : statut juridique, déclaration d'activité, code UAI, certification Qualiopi et modèle économique. Toutes les étapes pour ouvrir un centre de formation d'apprentis.","content":"$4","order":2,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

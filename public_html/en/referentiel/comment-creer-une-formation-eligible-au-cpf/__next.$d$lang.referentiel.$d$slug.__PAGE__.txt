@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T92a,Making a training program eligible for the CPF requires that it prepares for an active certification registered in the RNCP or the Répertoire Spécifique, that the organization is Qualiopi-certified, and that it lists the offering on Mon Compte Formation as a certifier or as a partner authorized by a certifier. Eligibility depends not on content alone but on the link to a recognized certification. The 100-euro co-payment per file, unless topped up, is now part of the pricing equation.
+
+## The certification condition
+
+A training program is not CPF-eligible in itself: it is its link to an active certification that opens financing. The certification must be registered in the RNCP, for an occupation, or in the Répertoire Spécifique, for complementary competencies, and must be currently valid. Without an active linked certification, no CPF eligibility is possible.
+
+## Being certifier or partner
+
+The organization that holds the certification is the certifier. Other organizations can deliver training preparing for that certification if they are authorized by the certifier through an authorization agreement. This relationship conditions the right to list the offering on Mon Compte Formation. Qualiopi certification is also a prerequisite for listing.
+
+## Listing and pricing on Mon Compte Formation
+
+Listing is done on the EDOF platform. The offering must display compliant information and results indicators. Pricing is framed and monitored, with abuses potentially resulting in de-listing. Since the introduction of a 100-euro co-payment per file, the holder contributes to the cost unless covered by a third party, which modifies the purchasing decision and must be factored into the pricing positioning.
+
+## Key takeaways
+
+- CPF eligibility depends on a link to an active RNCP or RS certification.
+- The organization must be certifier or authorized by a certifier.
+- Qualiopi certification is a prerequisite for listing.
+- Listing is done on EDOF with compliant information and results.
+- A 100-euro co-payment applies unless topped up.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to create a CPF-eligible training program"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-une-formation-eligible-au-cpf","lang":"en","title":"How to create a CPF-eligible training program","cible":"Organismes de formation","cibleEn":"Training Organizations","thematique":"Certification","thematiqueEn":"Certification","tags":["CPF","IA","Qualiopi","RNCP","certification","formation"],"shortDescription":"Making a training program eligible for the CPF requires that it prepares for an active certification registered in the RNCP or the Répertoire Spécifique, that the organization is Qualiopi-certified...","metaDescription":"Making a training program eligible for the CPF requires that it prepares for an active certification registered in the RNCP or the Répertoire Spécifique, that the organization is Qualiopi-certified, and that it lists the offering on Mon Compte Formation as a certifier or as a partner authorized by a certifier.","content":"$4","order":18},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

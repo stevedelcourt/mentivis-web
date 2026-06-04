@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9e5,## Le principe de la déclaration
+
+Tout prestataire d'actions concourant au développement des compétences doit se déclarer. La première convention ou le premier contrat se conclut sans numéro, puisque la déclaration intervient ensuite. À compter du deuxième, le numéro de déclaration d'activité devient obligatoire sur les documents contractuels.
+
+Les structures dispensant de la formation exclusivement à leurs propres salariés en interne sont dispensées de déclaration, sauf s'il s'agit de CFA d'entreprise.
+
+## La procédure auprès de la DREETS
+
+La DREETS compétente est celle du lieu du siège social, du principal établissement ou de la direction effective. Le dossier comprend les éléments d'identification de l'organisme, la nature des prestations et, selon les cas, les justificatifs de la première action réalisée. L'administration peut demander un justificatif relatif à la première prestation, au public bénéficiaire ou à la nature de la formation.
+
+## Les obligations qui suivent la déclaration
+
+La déclaration ouvre des obligations continues. Le bilan pédagogique et financier doit être transmis chaque année ; sa non-transmission peut entraîner la caducité du numéro de déclaration d'activité. Les documents contractuels doivent respecter les mentions obligatoires, dont le numéro de déclaration et les modalités d'évaluation. La déclaration ne vaut pas agrément ni caution qualitative de l'État, ce qui doit être précisé dans la communication.
+
+## Ce qu'il faut retenir
+
+- La déclaration se dépose à la DREETS dans les trois mois suivant le premier contrat.
+- Elle ouvre droit au numéro de déclaration d'activité, obligatoire dès le second contrat.
+- La formation interne aux seuls salariés est dispensée, sauf CFA d'entreprise.
+- Le bilan pédagogique et financier annuel est obligatoire.
+- Le défaut de BPF peut entraîner la caducité du numéro.
+
+---
+
+La déclaration d'activité et la mise en conformité initiale font partie du pôle administratif de Mentivis, qui sécurise le démarrage réglementaire d'un organisme. [Voir l'accompagnement organismes de formation](https://mentivis.com/fr/of/)
+
+Une fois la structure déclarée, MentivisOS génère les programmes et déroulés conformes nécessaires à l'activité. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)
+
+**À lire aussi :** Comment créer un CFA en France en 2026 · Comment rédiger une convention de formation conforme à la loi · Comment obtenir la certification Qualiopi.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment déclarer son activité de formation professionnelle"}]}],["$","$L3",null,{"article":{"slug":"comment-declarer-son-activite-de-formation-professionnelle","title":"Comment déclarer son activité de formation professionnelle","cible":"Organismes de formation","thematique":"Réglementation","tags":["DREETS","déclaration","réglementation","BPF"],"shortDescription":"La déclaration d'activité s'effectue auprès de la DREETS du lieu du siège social, dans les trois mois suivant la première convention de formation. Elle ouvre droit au numéro de déclaration d'activité, obligatoire sur les contrats dès le second.","metaDescription":"Comment déclarer son activité de formation professionnelle : procédure DREETS, obligations continues, bilan pédagogique et financier. Toutes les étapes pour être en règle.","content":"$4","order":5,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

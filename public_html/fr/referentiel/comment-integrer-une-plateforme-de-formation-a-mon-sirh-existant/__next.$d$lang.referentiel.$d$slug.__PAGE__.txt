@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb43,Intégrer une plateforme de formation au système d'information des ressources humaines vise à éviter les doubles saisies et à faire circuler les données entre la gestion RH et la formation : synchronisation des collaborateurs, remontée des formations suivies, consolidation du reporting. L'intégration repose sur des interfaces, ou connecteurs, et sur des standards d'échange. Sa réussite tient autant à la qualité des données et à la gouvernance qu'à la technique : une intégration mal pensée propage les erreurs au lieu de les éliminer.
+
+## Pourquoi intégrer
+
+Une plateforme de formation déconnectée du système RH oblige à ressaisir les collaborateurs, à reporter manuellement les formations suivies, et à reconstituer le reporting. Ces doubles saisies coûtent du temps et génèrent des incohérences. L'intégration synchronise les données salariés, fait remonter les formations réalisées dans le dossier RH, et consolide le suivi. Elle transforme deux systèmes parallèles en un flux cohérent.
+
+## Les modalités d'intégration
+
+L'intégration s'appuie sur des interfaces programmatiques, qui permettent à deux systèmes d'échanger automatiquement, ou sur des connecteurs préétablis entre outils répandus. Les standards d'échange facilitent ces connexions. Le niveau d'intégration peut varier, de la simple synchronisation des identités à l'échange bidirectionnel complet des données de formation. Le choix dépend du besoin réel et de la capacité des deux systèmes à dialoguer.
+
+## Les conditions de réussite
+
+La technique ne suffit pas. Une intégration réussie suppose des données propres au départ, car une intégration propage les erreurs aussi bien que les données justes. Elle suppose une gouvernance claire : quel système fait référence pour quelle donnée, qui est responsable de la qualité. Elle suppose enfin le respect de la protection des données personnelles dans les échanges. Une intégration bien gouvernée fiabilise le système d'information ; une intégration bâclée le fragilise.
+
+## Ce qu'il faut retenir
+
+- L'intégration évite les doubles saisies et fait circuler les données RH et formation.
+- Elle synchronise les collaborateurs, remonte les formations et consolide le reporting.
+- Elle s'appuie sur des interfaces programmatiques ou des connecteurs préétablis.
+- Elle suppose des données propres, sous peine de propager les erreurs.
+- Gouvernance des données et protection des données personnelles conditionnent la réussite.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment intégrer une plateforme de formation à mon SIRH existant"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant","title":"Comment intégrer une plateforme de formation à mon SIRH existant","cible":"EdTech, plateformes et outils numériques","thematique":"Financement","tags":["IA","coût","formation"],"shortDescription":"Intégrer une plateforme de formation au système d'information des ressources humaines vise à éviter les doubles saisies et à faire circuler les données entre la gestion RH et la formation : synchro...","metaDescription":"Intégrer une plateforme de formation au système d'information des ressources humaines vise à éviter les doubles saisies et à faire circuler les données entre la gestion RH et la formation : synchronisation des collaborateurs, remontée des formations suivies, consolidation du reporting.","content":"$4","order":78,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

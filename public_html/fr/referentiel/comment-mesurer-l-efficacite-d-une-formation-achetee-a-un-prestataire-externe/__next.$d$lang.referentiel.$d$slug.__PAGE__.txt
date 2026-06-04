@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T9f9,Mesurer l'efficacité d'une formation externe suppose de définir les résultats attendus dès la commande, puis d'évaluer à trois niveaux : la satisfaction à chaud, le transfert des compétences en situation de travail, et l'effet sur les indicateurs métier ou RH. L'erreur la plus fréquente est d'attendre la fin de la formation pour se demander si elle a servi. Une mesure crédible s'organise en amont, en intégrant les indicateurs dans le cahier des charges adressé au prestataire.
+
+## Définir les résultats attendus dès la commande
+
+L'efficacité se mesure par rapport à un objectif fixé au départ. Avant d'acheter, l'entreprise précise ce qu'elle attend : quelles compétences acquises, quel changement de pratique, quel effet sur quels indicateurs. Ces attentes figurent dans le cahier des charges et engagent le prestataire. Sans objectif initial, l'évaluation se réduit à une impression.
+
+## Évaluer à trois niveaux
+
+Le premier niveau, la satisfaction à chaud, est utile mais insuffisant : un participant satisfait n'a pas forcément progressé. Le deuxième niveau mesure le transfert en situation de travail, observable à distance, via le manager ou des indicateurs d'activité. Le troisième niveau relie la formation à des indicateurs métier ou RH. La valeur de l'évaluation croît avec le niveau.
+
+## Engager le prestataire sur les résultats
+
+Un prestataire sérieux accepte d'être évalué sur le transfert et l'impact, pas seulement sur la livraison. La transparence sur les indicateurs et la disposition à mesurer l'effet sont des signaux de qualité. Un modèle de rémunération partiellement aligné sur les résultats obtenus place le prestataire et l'entreprise dans le même intérêt et constitue la forme la plus aboutie de cet engagement.
+
+## Ce qu'il faut retenir
+
+- L'efficacité se mesure par rapport à des résultats définis dès la commande.
+- La satisfaction à chaud est utile mais insuffisante.
+- Le transfert en situation de travail et l'effet sur les indicateurs comptent davantage.
+- Un prestataire sérieux accepte d'être évalué sur les résultats.
+- Un modèle de rémunération aligné sur les résultats aligne les intérêts.
+
+---
+
+_Pour aller au-delà de la simple mise à disposition de contenus et piloter l'acquisition réelle,_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment mesurer l'efficacité d'une formation achetée à un prestataire externe"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe","title":"Comment mesurer l'efficacité d'une formation achetée à un prestataire externe","cible":"Entreprises","thematique":"Pédagogie","tags":["IA","VR","formation"],"shortDescription":"Mesurer l'efficacité d'une formation externe suppose de définir les résultats attendus dès la commande, puis d'évaluer à trois niveaux : la satisfaction à chaud, le transfert des compétences en sit...","metaDescription":"Mesurer l'efficacité d'une formation externe suppose de définir les résultats attendus dès la commande, puis d'évaluer à trois niveaux : la satisfaction à chaud, le transfert des compétences en situation de travail, et l'effet sur les indicateurs métier ou RH.","content":"$4","order":38,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

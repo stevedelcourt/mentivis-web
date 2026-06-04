@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T7aa,Training remote employees in an engaging way requires adapting formats to the distance, combining synchronous and asynchronous modes according to objectives, and actively sustaining engagement through accompaniment and rhythm. Remote training frequently fails through dropout, for lack of interaction and structure. Success rests on design built for autonomy, collective moments that maintain connection, and manager involvement in follow-up.
+
+## Adapting formats to the distance
+
+Remote training is not simply broadcasting an online course. Sequences gain from being short, varied and rhythmic. Microlearning, capsules, quizzes and interactive formats sustain attention better than a long passive module. Design accounts for the remote employee's isolation and the ease of disengaging.
+
+## Combining synchronous and asynchronous
+
+Asynchronous, self-directed modules, offers flexibility but exposes to dropout. Synchronous, virtual classrooms, brings back interaction and a collective dimension. Combining both according to objectives balances flexibility and engagement. Synchronous moments, even brief, create rhythm and a sense of belonging to a cohort, powerful levers against dropout.
+
+## Actively sustaining engagement
+
+Engagement at a distance is not decreed; it is sustained. Reminders, notifications, cohorts, human accompaniment and manager involvement maintain momentum. A manager who takes an interest in their team's training, discusses it and frees up time, significantly increases completion. Tracking attendance and progress, also required for funded training, also serves as an early warning on dropout.
+
+## Key takeaways
+
+- Remote training calls for short, varied and rhythmic formats.
+- Combining synchronous and asynchronous balances flexibility and engagement.
+- Collective moments create rhythm and counteract dropout.
+- Manager involvement significantly increases completion.
+- Progress tracking also serves as an early warning on dropout.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to train remote employees in an engaging way"}]}],["$","$L3",null,{"article":{"slug":"comment-former-des-salaries-en-teletravail-de-facon-engageante","lang":"en","title":"How to train remote employees in an engaging way","cible":"Entreprises","cibleEn":"Companies","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["microlearning"],"shortDescription":"Training remote employees in an engaging way requires adapting formats to the distance, combining synchronous and asynchronous modes according to objectives, and actively sustaining engagement thro...","metaDescription":"Training remote employees in an engaging way requires adapting formats to the distance, combining synchronous and asynchronous modes according to objectives, and actively sustaining engagement through accompaniment and rhythm.","content":"$4","order":48},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T850,Using training as a retention lever rests on a demonstrable fact: employees stay longer in organizations that invest in their development and offer them prospects. Embedding training in the employer value proposition, offering certified pathways, connecting certain progressions to competency development and measuring the link between training and retention transforms training into a loyalty tool. Conversely, the absence of development prospects is a frequent reason for departure.
+
+## Embedding development in the employer value proposition
+
+Competency development has become an attractiveness and loyalty criterion, particularly for sought-after profiles. Making training an explicit element of the employer value proposition, at hiring and over time, responds to a strong expectation. An employee who perceives a development trajectory has fewer reasons to look elsewhere.
+
+## Offering pathways and prospects
+
+Certified pathways, mobility prospects and the ability to develop competencies give meaning to long-term engagement. Connecting certain progressions to training, or opening internal promotion through competency development, creates a tangible link between development and advancement. Training ceases to be an accessory benefit and becomes a mechanism for progression.
+
+## Measuring the training-retention link
+
+The link between training and loyalty is measurable. Crossing training data with turnover indicators, gathering departure reasons and listening to engagement through surveys objectify the effect of the development policy. This measurement allows adjustment and demonstrates the return on training investment from a retention angle, often more compelling for management than satisfaction alone.
+
+## Key takeaways
+
+- Investment in development is a loyalty factor, especially for sought-after profiles.
+- Training benefits from being explicit in the employer value proposition.
+- Certified pathways and mobility prospects give meaning to long-term engagement.
+- Connecting progressions to training links development to advancement.
+- Crossing training and turnover data objectifies the retention effect.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to use training to retain talent and reduce turnover"}]}],["$","$L3",null,{"article":{"slug":"comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover","lang":"en","title":"How to use training to retain talent and reduce turnover","cible":"Entreprises","cibleEn":"Companies","thematique":"Development","thematiqueEn":"Development","tags":["IA","management"],"shortDescription":"Using training as a retention lever rests on a demonstrable fact: employees stay longer in organizations that invest in their development and offer them prospects.","metaDescription":"Using training as a retention lever rests on a demonstrable fact: employees stay longer in organizations that invest in their development and offer them prospects.","content":"$4","order":58},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

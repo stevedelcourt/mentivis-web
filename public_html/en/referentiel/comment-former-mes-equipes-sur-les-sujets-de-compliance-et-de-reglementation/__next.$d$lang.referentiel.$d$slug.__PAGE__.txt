@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T8ef,Training teams on compliance and regulation means identifying the mandatory training applicable to the company, deploying it in a traceable way, and retaining the certificates that prove completion. Safety, data protection, ethics, anti-corruption: these training programs respond to obligations whose failure exposes the company to legal risks. The challenge is not only to train, but to be able to demonstrate that training took place, for each concerned employee.
+
+## Identifying applicable obligations
+
+Compliance training obligations vary according to sector, size and activity. Some are transversal, occupational safety, personal data protection; others are sector-specific or linked to particular regulations. The first step is mapping what genuinely applies to the company, to avoid over-training and leave no gap.
+
+## Deploying in a traceable way
+
+Compliance training lends itself well to e-learning, which allows large-scale deployment and native traceability. Tracking completion, who completed what, when, with what result, is essential here, as this traceability constitutes the evidence. A module not completed or not tracked is equivalent, in the event of an audit, to training not delivered.
+
+## Retaining evidence and updating
+
+Completion certificates must be retained, as they demonstrate compliance with obligations in the event of an audit or incident. As regulations evolve, compliance training must be updated and repeated according to the required frequencies. Monitoring applicable obligations and maintaining an update program prevent training from becoming obsolete and compliance from silently expiring.
+
+## Key takeaways
+
+- Compliance obligations vary by sector, size and activity.
+- Mapping applicable obligations prevents over-training and gaps.
+- E-learning enables large-scale deployment and native traceability.
+- Traceability of completion constitutes evidence in the event of an audit.
+- Training must be updated and repeated according to required frequencies.
+
+---
+
+_Unlike an LMS that merely distributes content,_ **MentivisOS is not an LMS.** It is an AI-native system that diagnoses the gap, generates the exact learning path and measures real acquisition, from framework to certification. [Discover MentivisOS](https://mentivis.com/en/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to train my teams on compliance and regulation"}]}],["$","$L3",null,{"article":{"slug":"comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation","lang":"en","title":"How to train my teams on compliance and regulation","cible":"Entreprises","cibleEn":"Companies","thematique":"Certification","thematiqueEn":"Certification","tags":["IA","audit","e-learning"],"shortDescription":"Training teams on compliance and regulation means identifying the mandatory training applicable to the company, deploying it in a traceable way, and retaining the certificates that prove completion.","metaDescription":"Training teams on compliance and regulation means identifying the mandatory training applicable to the company, deploying it in a traceable way, and retaining the certificates that prove completion.","content":"$4","order":54},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

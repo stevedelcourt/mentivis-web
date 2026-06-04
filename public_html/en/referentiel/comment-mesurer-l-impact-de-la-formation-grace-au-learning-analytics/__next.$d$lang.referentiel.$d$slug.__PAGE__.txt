@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+5:I[90484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T85e,Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement. It makes it possible to go beyond surface indicators, completion rates, satisfaction, to connect learning activity to acquisition and, ideally, to impact on work. Its value does not come from data accumulation but from translation into decisions: identifying dropout points, finding effective content, and directing pedagogical adjustments.
+
+## From surface indicators to analysis
+
+Many organizations settle for surface indicators: how many enrolled, how many completions, what satisfaction score. These data describe activity but not learning. Learning analytics goes further by analyzing pathways: where learners slow down or drop out, which content is revisited, which exercises pose difficulty. This analysis reveals the actual functioning of the program, beyond attendance figures.
+
+## Connecting activity to acquisition
+
+Analysis gains value when it connects activity to acquisition and impact. Crossing pathway data with evaluation results shows which learning paths produce competencies. Crossing, where possible, with operational indicators brings learning analytics closer to impact measurement. This chain, from activity to acquisition to impact, gives management a solid factual foundation.
+
+## Translating data into decisions
+
+Data only has value when translated into action. Learning analytics must lead to decisions: rework a module with high dropout, reinforce poorly acquired content, remove what serves no purpose. This requires readable dashboards and a continuous improvement approach that actually exploits the analysis. Accumulating data without exploiting it is worthless. Personal data protection also frames this collection.
+
+## Key takeaways
+
+- Learning analytics goes beyond surface indicators to analyze pathways.
+- It reveals where learners drop out and which content works.
+- Connecting activity, acquisition and impact provides a factual management foundation.
+- Value comes from translating data into decisions, not from accumulation.
+- Personal data protection frames the collection.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to measure training impact through learning analytics"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics","lang":"en","title":"How to measure training impact through learning analytics","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Pedagogy","thematiqueEn":"Pedagogy","tags":["management"],"shortDescription":"Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.","metaDescription":"Learning analytics consists in collecting and analyzing learning data to understand what works and steer program improvement.","content":"$4","order":75},"lang":"en"}]],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+7:null

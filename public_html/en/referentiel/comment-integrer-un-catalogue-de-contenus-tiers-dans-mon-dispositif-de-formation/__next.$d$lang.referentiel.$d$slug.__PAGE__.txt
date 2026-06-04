@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:T944,Integrating a third-party content catalogue, such as a course library from an external publisher, means complementing your offering with content produced by others, on generic or transversal subjects. The benefit is rapid access to a large volume of training programs without producing them. The limitation is the absence of customization and variable relevance to the specific organizational context. The right approach combines third-party catalogues for the generic and custom content for the specific and strategic, rather than delegating everything to a catalogue.
+
+## The value of a third-party catalogue
+
+A third-party content catalogue gives immediate access to a large volume of training on common topics: office software, languages, transversal competencies, awareness sessions. For these generic topics, producing in-house would make no sense. The third-party catalogue covers this need at a mutualized cost, with updating assured by the publisher. It usefully complements an offering on topics where specificity adds nothing.
+
+## Limitations to be aware of
+
+Third-party content is by definition generic. It does not know the organization's context, vocabulary, cases and priorities. On specific or strategic topics, this absence of customization costs in relevance and engagement: a learner quickly perceives content disconnected from their reality. The third-party catalogue therefore does not replace custom content where specificity matters.
+
+## Combining third-party and custom
+
+The right strategy combines both sources. Third-party catalogues cover the generic at lower cost; custom content handles the specific and strategic, where personalization creates value. This combination optimizes the cost-relevance ratio of the overall offering. The ability to produce custom content at a reasonable cost, through a generation engine, also broadens the share manageable as personalized, which was previously constrained by production cost.
+
+## Key takeaways
+
+- A third-party catalogue gives access to a large volume of generic content at mutualized cost.
+- It covers transversal topics well where specificity adds nothing.
+- Its limitation is the absence of customization to the organization's context.
+- It does not replace custom content on specific and strategic topics.
+- The right strategy combines third-party for the generic and custom for the specific.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"How to integrate a third-party content catalogue into my training program"}]}],["$","$L3",null,{"article":{"slug":"comment-integrer-un-catalogue-de-contenus-tiers-dans-mon-dispositif-de-formation","lang":"en","title":"How to integrate a third-party content catalogue into my training program","cible":"EdTech, plateformes et outils numériques","cibleEn":"EdTech, Platforms and Digital Tools","thematique":"Funding","thematiqueEn":"Funding","tags":["IA"],"shortDescription":"Integrating a third-party content catalogue, such as a course library from an external publisher, means complementing your offering with content produced by others, on generic or transversal subjects.","metaDescription":"Integrating a third-party content catalogue, such as a course library from an external publisher, means complementing your offering with content produced by others, on generic or transversal subjects.","content":"$4","order":87},"lang":"en"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

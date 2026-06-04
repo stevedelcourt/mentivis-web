@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+2:I[63428,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+7:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+8:I[7895,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","9849","static/chunks/app/lang/careers/slug/page-dd6dff0f1ca173a7.js"],"default"]
+b:I[90484,[],"OutletBoundary"]
+c:"$Sreact.suspense"
+3:T13c4,## Context
+
+Mentivis designs and operates artificial intelligence systems applied to education, professional training, and skills transformation. We are neither a consulting firm nor a generic integrator: we build sovereign AI infrastructure, in production, for public institutions, enterprise clients, and high-volume training operators.
+
+As part of the rollout of MentivisOS, our AI platform applied to education, we are hiring an AI Systems Architect responsible for designing, industrializing, and operating our multi-LLM pipelines in a sovereign environment.
+
+This is not a prototyping role. The job is to run systems in production, with reliability, traceability, and regulatory compliance commitments to institutional clients.
+
+## The role
+
+### Orchestration: multi-LLM industrialization
+
+Design and maintain a multi-model orchestration architecture capable of routing, chaining, and falling back between multiple LLMs based on context, cost, latency, and sovereignty constraints. The stack relies on LangChain / LangGraph for agentic chaining, with an abstraction layer enabling model swaps without application refactoring.
+
+Build and operate end-to-end MLOps pipelines: model versioning (MLflow, Weights & Biases), training and fine-tuning orchestration (Ray, DeepSpeed, LoRA/QLoRA for parametric adaptation), model registry with lineage tracking, canary and blue-green deployment on GPU infrastructure (NVIDIA A100/H100, or sovereign cloud equivalents such as OVHcloud, Scaleway, Outscale).
+
+### Guardrails, reliability, and governance
+
+Implement a systematic guardrails layer across all LLM outputs: hallucination detection via NLI (Natural Language Inference), content filtering (Guardrails AI, NVIDIA NeMo Guardrails), structural output validation (Pydantic, JSON Schema enforcement), and semantic drift monitoring in production (LangSmith, Langfuse, Arize Phoenix).
+
+Build an automated testing infrastructure for AI systems: regression evaluations on proprietary benchmarks, automated red-teaming, coherence and factual fidelity scoring, with alerting and circuit-breaker mechanisms triggered on degradation.
+
+Ensure regulatory compliance (European AI Act, GDPR, ANSSI frameworks) and produce the technical documentation required for client audits and certifications.
+
+### Enterprise integration: LearningOS and TalentOS API
+
+Design and maintain API connectors to LearningOS ecosystems (LMS/LXP: 360Learning, Cornerstone, Moodle, OpenEdX) and TalentOS ecosystems (HRIS/Talent Management: Workday, SAP SuccessFactors, Talentsoft/Cegid) for enterprise deployments.
+
+This covers: bidirectional learner data ingestion (pathways, completions, assessments, certifications), skills framework synchronization (ROME, ESCO, client-specific frameworks), real-time feeding of AI recommendation engines from HR data, and automated generation of contextualized learning content (adaptive learning paths, generated assessments, automatic remediation).
+
+Develop the SDKs and technical documentation enabling client IT departments to integrate our AI services into their existing architectures (REST, GraphQL, webhooks, SSO/SAML).
+
+### Infrastructure and observability
+
+Operate the model serving infrastructure (vLLM, TensorRT-LLM, Triton Inference Server) with autoscaling, concurrency management, and throughput optimization (dynamic batching, INT8/FP8 quantization, speculative decoding).
+
+Implement full observability: distributed tracing (OpenTelemetry), inference performance metrics (P50/P95/P99 latency, tokens per second, cost per request), operational dashboards (Grafana, Datadog), and proactive alerting.
+
+## Profile
+
+Engineering degree or equivalent, with a minimum of 5 years of production experience on ML/AI systems, including significant exposure to LLM architectures.
+
+### Required expertise
+
+Advanced Python (asyncio, strict typing, packaging), TypeScript for API layers. LangChain/LangGraph ecosystem, or equivalent (Semantic Kernel, Haystack). Model fine-tuning and adaptation techniques (LoRA, QLoRA, RLHF, DPO). GPU serving infrastructure and inference optimization. Kubernetes, Docker, CI/CD on ML pipelines. At least one European sovereign cloud provider (OVHcloud, Scaleway, Outscale, 3DS Outscale).
+
+### Strong differentiators
+
+Experience on AI Act-compliant or certified projects (ISO 27001, SecNumCloud). Knowledge of the education and training sector and its associated standards (xAPI, LTI, SCORM, CMI5). Integration experience with enterprise HRIS or LMS platforms. Open source contributions in the AI ecosystem.
+
+## What we offer
+
+A high-impact position within an operator that deploys AI systems in production for institutional and enterprise clients, not in a research lab disconnected from the field. A lean team where technical decisions are made by those who build. A base in Marseille, at the heart of the Campus Cyber.AI Euromed ecosystem, with direct exposure to European digital sovereignty challenges.
+
+Compensation: based on profile and experience, with a variable component indexed to the results of deployed projects.0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"data":{"@context":"https://schema.org","@type":"JobPosting","title":"AI Systems Architect / Lead MLOps","description":"$3","datePosted":"2026-05-27","employmentType":"CDI","hiringOrganization":{"@type":"Organization","name":"Mentivis","sameAs":"https://mentivis.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"60 Rue François 1er","addressLocality":"Paris","postalCode":"75008","addressCountry":"FR"}}}}],"$L4","$L5"],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+4:["$","$L7",null,{"items":[{"name":"Home","url":"https://mentivis.com/en/"},{"name":"Careers","url":"https://mentivis.com/en/careers/"},{"name":"AI Systems Architect / Lead MLOps"}]}]
+9:T15a7,## Le contexte
+
+Mentivis conçoit et opere des systemes d'intelligence artificielle appliques a l'education, la formation professionnelle et la transformation des competences. Nous ne sommes ni un cabinet de conseil, ni un integrateur generique : nous construisons des infrastructures IA souveraines, en production, pour des institutions publiques, des grands comptes et des operateurs de formation a forte volumetrie.
+
+Dans le cadre du deploiement de MentivisOS, notre plateforme d'IA appliquee a l'education, nous recrutons un(e) Architecte Systemes IA charge(e) de concevoir, industrialiser et operer nos pipelines multi-LLM en environnement souverain.
+
+Ce poste n'est pas un role de prototypage. Il s'agit de faire tourner des systemes en production, avec des engagements de fiabilite, de traçabilite et de conformite reglementaire aupres de clients institutionnels.
+
+## La mission
+
+### **Orchestration multi-LLM et industrialisation**
+
+Concevoir et maintenir une architecture d'orchestration multi-modeles capable de router, chainer et fallback entre plusieurs LLM selon le contexte, le cout, la latence et les contraintes de souverainete. La stack repose sur LangChain / LangGraph pour le chainage agentique, avec une couche d'abstraction permettant le swap de modeles sans refactoring applicatif.
+
+Mettre en place et operer les pipelines MLOps de bout en bout : versioning de modeles (MLflow, Weights & Biases), orchestration d'entrainement et de fine-tuning (Ray, DeepSpeed, LoRA/QLoRA pour l'adaptation parametrique), registre de modeles avec lineage, deploiement canary et blue-green sur infrastructure GPU (NVIDIA A100/H100, ou equivalent cloud souverain OVHcloud, Scaleway, Outscale).
+
+### **Guardrails, fiabilite et gouvernance**
+
+Implementer une couche systematique de guardrails sur l'ensemble des sorties LLM : detection de hallucinations via NLI (Natural Language Inference), filtrage de contenu (Guardrails AI, NeMo Guardrails de NVIDIA), validation structurelle des outputs (Pydantic, JSON Schema enforcement), et monitoring de derive semantique en production (LangSmith, Langfuse, Arize Phoenix).
+
+Mettre en place une infrastructure de tests automatises pour les systemes IA : evaluations de regression sur benchmarks proprietaires, red-teaming automatise, scoring de coherence et de fidelite factuelle, avec alerting et circuit-breaker en cas de degradation.
+
+Assurer la conformite reglementaire (AI Act europeen, RGPD, referentiels ANSSI) et produire la documentation technique necessaire aux audits clients et aux certifications.
+
+### **Integration entreprise : LearningOS et TalentOS API**
+
+Concevoir et maintenir les connecteurs API vers les ecosystemes LearningOS (LMS/LXP : 360Learning, Cornerstone, Moodle, OpenEdX) et TalentOS (SIRH/Talent Management : Workday, SAP SuccessFactors, Talentsoft/Cegid) pour les deploiements grands comptes.
+
+Cela couvre : l'ingestion bidirectionnelle de donnees apprenant (parcours, completions, evaluations, certifications), la synchronisation des referentiels de competences (ROME, ESCO, referentiels clients), l'alimentation en temps reel des moteurs de recommandation IA depuis les donnees RH, et la generation automatisee de contenus pedagogiques contextualises (adaptive learning paths, assessments generes, remediation automatique).
+
+Developper les SDK et la documentation technique permettant aux DSI clients d'integrer nos services IA dans leurs architectures existantes (REST, GraphQL, webhooks, SSO/SAML).
+
+### **Infrastructure et observabilite**
+
+Operer l'infrastructure de serving des modeles (vLLM, TensorRT-LLM, Triton Inference Server) avec autoscaling, gestion de la concurrence et optimisation du throughput (batching dynamique, quantification INT8/FP8, speculative decoding).
+
+Mettre en place l'observabilite complete : tracing distribue (OpenTelemetry), metriques de performance des inferences (latence P50/P95/P99, tokens/seconde, cout par requete), dashboards operationnels (Grafana, Datadog), et alerting proactif.
+
+## Le profil
+
+Formation d'ingenieur ou equivalent, avec au minimum 5 ans d'experience en production sur des systemes ML/IA, dont une partie significative sur des architectures LLM.
+
+### **Maitrise attendue :**
+
+Python avance (asyncio, typing strict, packaging), TypeScript pour les couches API. Ecosysteme LangChain/LangGraph, ou equivalent (Semantic Kernel, Haystack). Techniques de fine-tuning et d'adaptation de modeles (LoRA, QLoRA, RLHF, DPO). Infrastructure de serving GPU et optimisation d'inference. Kubernetes, Docker, CI/CD sur des pipelines ML. Au moins un cloud souverain europeen (OVHcloud, Scaleway, Outscale, 3DS Outscale).
+
+### **Forte valeur ajoutee :**
+
+Experience sur des projets conformes AI Act ou certifies (ISO 27001, SecNumCloud). Connaissance du secteur education/formation et des standards associes (xAPI, LTI, SCORM, CMI5). Experience d'integration avec des SIRH ou LMS d'entreprise. Contribution a des projets open source dans l'ecosysteme IA.
+
+## Ce que nous offrons
+
+Un poste a impact reel dans un operateur qui deploie des systemes IA en production pour des clients institutionnels et grands comptes, pas dans un lab de recherche deconnecte du terrain. Une equipe resserree ou les decisions techniques sont prises par ceux qui construisent. Un ancrage a Marseille, au coeur de l'ecosysteme Campus Cyber.AI Euromed, avec une exposition directe aux enjeux de souverainete numerique europeenne.
+
+Remuneration : selon profil et experience, avec une composante variable indexee sur les resultats des projets deployes.a:T13c4,## Context
+
+Mentivis designs and operates artificial intelligence systems applied to education, professional training, and skills transformation. We are neither a consulting firm nor a generic integrator: we build sovereign AI infrastructure, in production, for public institutions, enterprise clients, and high-volume training operators.
+
+As part of the rollout of MentivisOS, our AI platform applied to education, we are hiring an AI Systems Architect responsible for designing, industrializing, and operating our multi-LLM pipelines in a sovereign environment.
+
+This is not a prototyping role. The job is to run systems in production, with reliability, traceability, and regulatory compliance commitments to institutional clients.
+
+## The role
+
+### Orchestration: multi-LLM industrialization
+
+Design and maintain a multi-model orchestration architecture capable of routing, chaining, and falling back between multiple LLMs based on context, cost, latency, and sovereignty constraints. The stack relies on LangChain / LangGraph for agentic chaining, with an abstraction layer enabling model swaps without application refactoring.
+
+Build and operate end-to-end MLOps pipelines: model versioning (MLflow, Weights & Biases), training and fine-tuning orchestration (Ray, DeepSpeed, LoRA/QLoRA for parametric adaptation), model registry with lineage tracking, canary and blue-green deployment on GPU infrastructure (NVIDIA A100/H100, or sovereign cloud equivalents such as OVHcloud, Scaleway, Outscale).
+
+### Guardrails, reliability, and governance
+
+Implement a systematic guardrails layer across all LLM outputs: hallucination detection via NLI (Natural Language Inference), content filtering (Guardrails AI, NVIDIA NeMo Guardrails), structural output validation (Pydantic, JSON Schema enforcement), and semantic drift monitoring in production (LangSmith, Langfuse, Arize Phoenix).
+
+Build an automated testing infrastructure for AI systems: regression evaluations on proprietary benchmarks, automated red-teaming, coherence and factual fidelity scoring, with alerting and circuit-breaker mechanisms triggered on degradation.
+
+Ensure regulatory compliance (European AI Act, GDPR, ANSSI frameworks) and produce the technical documentation required for client audits and certifications.
+
+### Enterprise integration: LearningOS and TalentOS API
+
+Design and maintain API connectors to LearningOS ecosystems (LMS/LXP: 360Learning, Cornerstone, Moodle, OpenEdX) and TalentOS ecosystems (HRIS/Talent Management: Workday, SAP SuccessFactors, Talentsoft/Cegid) for enterprise deployments.
+
+This covers: bidirectional learner data ingestion (pathways, completions, assessments, certifications), skills framework synchronization (ROME, ESCO, client-specific frameworks), real-time feeding of AI recommendation engines from HR data, and automated generation of contextualized learning content (adaptive learning paths, generated assessments, automatic remediation).
+
+Develop the SDKs and technical documentation enabling client IT departments to integrate our AI services into their existing architectures (REST, GraphQL, webhooks, SSO/SAML).
+
+### Infrastructure and observability
+
+Operate the model serving infrastructure (vLLM, TensorRT-LLM, Triton Inference Server) with autoscaling, concurrency management, and throughput optimization (dynamic batching, INT8/FP8 quantization, speculative decoding).
+
+Implement full observability: distributed tracing (OpenTelemetry), inference performance metrics (P50/P95/P99 latency, tokens per second, cost per request), operational dashboards (Grafana, Datadog), and proactive alerting.
+
+## Profile
+
+Engineering degree or equivalent, with a minimum of 5 years of production experience on ML/AI systems, including significant exposure to LLM architectures.
+
+### Required expertise
+
+Advanced Python (asyncio, strict typing, packaging), TypeScript for API layers. LangChain/LangGraph ecosystem, or equivalent (Semantic Kernel, Haystack). Model fine-tuning and adaptation techniques (LoRA, QLoRA, RLHF, DPO). GPU serving infrastructure and inference optimization. Kubernetes, Docker, CI/CD on ML pipelines. At least one European sovereign cloud provider (OVHcloud, Scaleway, Outscale, 3DS Outscale).
+
+### Strong differentiators
+
+Experience on AI Act-compliant or certified projects (ISO 27001, SecNumCloud). Knowledge of the education and training sector and its associated standards (xAPI, LTI, SCORM, CMI5). Integration experience with enterprise HRIS or LMS platforms. Open source contributions in the AI ecosystem.
+
+## What we offer
+
+A high-impact position within an operator that deploys AI systems in production for institutional and enterprise clients, not in a research lab disconnected from the field. A lean team where technical decisions are made by those who build. A base in Marseille, at the heart of the Campus Cyber.AI Euromed ecosystem, with direct exposure to European digital sovereignty challenges.
+
+Compensation: based on profile and experience, with a variable component indexed to the results of deployed projects.5:["$","$L8",null,{"job":{"slug":"architecte-systemes-ia-lead-mlops","titleFr":"Architecte Systemes IA / Lead MLOps","titleEn":"AI Systems Architect / Lead MLOps","department":"Engineering & Product","location":"Marseille","type":"cdi","remote":false,"date":"2026-05-27","descriptionFr":"$9","descriptionEn":"$a"},"lang":"en"}]
+6:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

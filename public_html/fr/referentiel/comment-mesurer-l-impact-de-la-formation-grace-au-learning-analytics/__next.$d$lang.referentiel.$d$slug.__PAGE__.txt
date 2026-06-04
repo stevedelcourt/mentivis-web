@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Tb22,Le learning analytics consiste à collecter et analyser les données d'apprentissage pour comprendre ce qui fonctionne et piloter l'amélioration des dispositifs. Il permet de dépasser les indicateurs de surface, taux de complétion, satisfaction, pour relier l'activité d'apprentissage aux acquis et, idéalement, à l'impact sur le travail. Sa valeur ne tient pas à l'accumulation de données mais à leur traduction en décisions : repérer les points de décrochage, identifier les contenus efficaces, et orienter les ajustements pédagogiques.
+
+## Des indicateurs de surface à l'analyse
+
+Beaucoup d'organisations se contentent d'indicateurs de surface : combien d'inscrits, combien de complétions, quelle satisfaction. Ces données décrivent l'activité mais pas l'apprentissage. Le learning analytics va plus loin en analysant les parcours : où les apprenants ralentissent ou abandonnent, quels contenus sont repris, quels exercices posent difficulté. Cette analyse révèle le fonctionnement réel du dispositif, au-delà des chiffres de fréquentation.
+
+## Relier l'activité aux acquis
+
+L'analyse prend de la valeur quand elle relie l'activité aux acquis et à l'impact. Croiser les données de parcours avec les résultats d'évaluation montre quels chemins d'apprentissage produisent des compétences. Croiser, lorsque c'est possible, avec des indicateurs métier rapproche le learning analytics de la mesure d'impact. Cette chaîne, de l'activité aux acquis puis à l'impact, donne au pilotage une base factuelle solide.
+
+## Traduire les données en décisions
+
+La donnée n'a de valeur que traduite en action. Le learning analytics doit déboucher sur des décisions : retravailler un module où l'on décroche, renforcer un contenu mal acquis, supprimer ce qui ne sert pas. Cela suppose des tableaux de bord lisibles et une démarche d'amélioration continue qui exploite réellement les analyses. Accumuler des données sans les exploiter ne sert à rien. Le respect de la protection des données personnelles encadre par ailleurs cette collecte.
+
+## Ce qu'il faut retenir
+
+- Le learning analytics dépasse les indicateurs de surface pour analyser les parcours.
+- Il révèle où les apprenants décrochent et quels contenus fonctionnent.
+- Relier activité, acquis et impact donne une base factuelle au pilotage.
+- La valeur tient à la traduction des données en décisions, pas à leur accumulation.
+- La protection des données personnelles encadre la collecte.
+
+---
+
+_Dans l'univers des EdTech, MentivisOS se distingue par sa capacité à générer plutôt qu'à diffuser :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment mesurer l'impact de la formation grâce au learning analytics"}]}],["$","$L3",null,{"article":{"slug":"comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics","title":"Comment mesurer l'impact de la formation grâce au learning analytics","cible":"EdTech, plateformes et outils numériques","thematique":"Apprentissage","tags":["apprentissage"],"shortDescription":"Le learning analytics consiste à collecter et analyser les données d'apprentissage pour comprendre ce qui fonctionne et piloter l'amélioration des dispositifs.","metaDescription":"Le learning analytics consiste à collecter et analyser les données d'apprentissage pour comprendre ce qui fonctionne et piloter l'amélioration des dispositifs.","content":"$4","order":75,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

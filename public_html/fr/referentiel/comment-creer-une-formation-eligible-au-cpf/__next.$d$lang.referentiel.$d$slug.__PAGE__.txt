@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[67063,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+3:I[25947,["8500","static/chunks/8500-f62a38ff68ab7f42.js","600","static/chunks/600-20b8660a1df092e2.js","9233","static/chunks/9233-ab7c57ce4d1b8c94.js","5074","static/chunks/5074-c53a717120cb3245.js","8320","static/chunks/8320-021c8f0e514d98cc.js","710","static/chunks/710-ee8161ff3999bdbf.js","2821","static/chunks/app/lang/referentiel/slug/page-5321ef41a11aeaea.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+4:Ta62,Rendre une formation éligible au CPF suppose qu'elle prépare à une certification active inscrite au RNCP ou au Répertoire Spécifique, que l'organisme soit certifié Qualiopi, et qu'il référence l'offre sur Mon Compte Formation en tant que certificateur ou partenaire habilité par un certificateur. L'éligibilité ne dépend pas du contenu seul mais du rattachement à une certification reconnue. Le reste à charge de 100 euros par dossier, sauf abondement, fait désormais partie de l'équation tarifaire.
+
+## La condition de la certification
+
+Une formation n'est pas éligible au CPF en elle-même : c'est son rattachement à une certification active qui ouvre le financement. La certification doit être inscrite au RNCP, pour un métier, ou au Répertoire Spécifique, pour des compétences complémentaires, et être en cours de validité. Sans certification active rattachée, aucune éligibilité CPF n'est possible.
+
+## Être certificateur ou partenaire
+
+L'organisme qui détient la certification est certificateur. Les autres organismes peuvent dispenser une formation préparant à cette certification s'ils sont habilités par le certificateur, par une convention d'habilitation. Cette relation conditionne le droit de référencer l'offre sur Mon Compte Formation. La certification Qualiopi est par ailleurs un prérequis au référencement.
+
+## Référencer et tarifer sur Mon Compte Formation
+
+Le référencement s'effectue sur la plateforme EDOF. L'offre doit afficher des informations conformes et des indicateurs de résultats. La politique tarifaire est encadrée et contrôlée, les abus pouvant entraîner le déréférencement. Depuis l'instauration d'un reste à charge de 100 euros par dossier, le titulaire participe au financement sauf prise en charge par un tiers, ce qui modifie la décision d'achat et doit être intégré au positionnement tarifaire.
+
+## Ce qu'il faut retenir
+
+- L'éligibilité CPF dépend du rattachement à une certification RNCP ou RS active.
+- L'organisme doit être certificateur ou habilité par un certificateur.
+- La certification Qualiopi est un prérequis au référencement.
+- Le référencement se fait sur EDOF, avec informations et résultats conformes.
+- Un reste à charge de 100 euros s'applique, sauf abondement.
+
+---
+
+_Dans un paysage où cohabitent LMS, outils auteurs et plateformes de diffusion, MentivisOS occupe une place à part :_ **MentivisOS n'est pas un LMS.** C'est un système natif IA qui diagnostique l'écart, génère le parcours exact et mesure l'acquisition réelle, du référentiel à la certification. [Découvrir MentivisOS](https://mentivis.com/fr/mentivisos/)0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"items":[{"name":"Accueil","url":"https://mentivis.com/fr/"},{"name":"Le Référentiel","url":"https://mentivis.com/fr/referentiel/"},{"name":"Comment créer une formation éligible au CPF"}]}],["$","$L3",null,{"article":{"slug":"comment-creer-une-formation-eligible-au-cpf","title":"Comment créer une formation éligible au CPF","cible":"Organismes de formation","thematique":"Certification","tags":["CPF","Qualiopi","RNCP","VR","certification","financement","formation"],"shortDescription":"Rendre une formation éligible au CPF suppose qu'elle prépare à une certification active inscrite au RNCP ou au Répertoire Spécifique, que l'organisme soit certifié Qualiopi, et qu'il référence l'of...","metaDescription":"Rendre une formation éligible au CPF suppose qu'elle prépare à une certification active inscrite au RNCP ou au Répertoire Spécifique, que l'organisme soit certifié Qualiopi, et qu'il référence l'offre sur Mon Compte Formation en tant que certificateur ou partenaire habilité par un certificateur.","content":"$4","order":18,"lang":"fr"},"lang":"fr"}]],null,"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"n4UbzMPi9zZwSxycaFaVu"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
