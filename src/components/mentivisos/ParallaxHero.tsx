@@ -69,7 +69,7 @@ export default function ParallaxHero() {
             {h.subheadline}
           </p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 32 }}>
-            <ButtonLink href="https://app.mentivisos.com/" variant="primary">
+            <ButtonLink href="https://open.mentivisos.com/" variant="primary">
               {h.ctaPrimary}
             </ButtonLink>
             <ButtonLink href={`https://mentivisos.com/${lang}/`} variant="outline" target="_blank" rel="noopener">

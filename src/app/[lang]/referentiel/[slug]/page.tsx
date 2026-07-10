@@ -4,6 +4,7 @@ import {
   REFERENTIEL,
   getReferentielBySlug,
 } from "@/data/referentiel";
+import { localeAlternates } from "@/lib/metadata";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import ReferentielDetailClient from "./ReferentielDetailClient";
 
@@ -30,6 +31,7 @@ export async function generateMetadata({
   return {
     title: `${article.title} | ${lang === "fr" ? "Le Référentiel — Mentivis" : "The Reference — Mentivis"}`,
     description: article.metaDescription || article.shortDescription,
+    ...localeAlternates(lang, `/referentiel/${slug}`),
     openGraph: {
       title: article.title,
       description: article.metaDescription || article.shortDescription,
@@ -62,8 +64,8 @@ export default async function ReferentielDetailPage({
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Accueil", url: "https://mentivis.com/fr/" },
-          { name: "Le Référentiel", url: "https://mentivis.com/fr/referentiel/" },
+          { name: lang === "fr" ? "Accueil" : "Home", url: `https://mentivis.com/${lang}/` },
+          { name: lang === "fr" ? "Le Référentiel" : "The Reference", url: `https://mentivis.com/${lang}/referentiel/` },
           { name: article.title },
         ]}
       />

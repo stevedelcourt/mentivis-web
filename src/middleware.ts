@@ -4,9 +4,28 @@ import type { NextRequest } from "next/server";
 const locales = ["fr", "en"];
 const defaultLocale = "fr";
 
+function addSecurityHeaders(res: NextResponse) {
+  res.headers.set(
+    "Strict-Transport-Security",
+    "max-age=31536000; includeSubDomains"
+  );
+  return res;
+}
+
 export function middleware(request: NextRequest) {
   const host = request.headers.get("host") || "";
-  const pathname = request.nextUrl.pathname;
+  let pathname = request.nextUrl.pathname;
+
+  // 0. Trailing-slash normalization (skip for file extensions)
+  if (
+    !pathname.endsWith("/") &&
+    !pathname.includes(".") &&
+    !pathname.startsWith("/api/")
+  ) {
+    pathname = pathname + "/";
+    const url = new URL(pathname, request.url);
+    return addSecurityHeaders(NextResponse.redirect(url, 301));
+  }
 
   // 1. Block all vercel.app domain access except API routes
   if (host.includes("vercel.app") && !pathname.startsWith("/api/")) {
@@ -15,13 +34,13 @@ export function middleware(request: NextRequest) {
 
   // 2. Admin routes bypass i18n entirely
   if (pathname.startsWith("/admin")) {
-    return NextResponse.next();
+    return addSecurityHeaders(NextResponse.next());
   }
 
   // If someone accesses /fr/admin/*, rewrite to /admin/*
   if (pathname.startsWith("/fr/admin") || pathname.startsWith("/en/admin")) {
     const newPath = pathname.replace(/^\/(fr|en)\/admin/, "/admin");
-    return NextResponse.rewrite(new URL(newPath, request.url));
+    return addSecurityHeaders(NextResponse.rewrite(new URL(newPath, request.url)));
   }
 
   // 3. i18n routing
@@ -30,10 +49,12 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameIsMissingLocale) {
-    return NextResponse.redirect(
-      new URL(`/${defaultLocale}${pathname}`, request.url)
+    return addSecurityHeaders(
+      NextResponse.redirect(new URL(`/${defaultLocale}${pathname}`, request.url))
     );
   }
+
+  return addSecurityHeaders(NextResponse.next());
 }
 
 export const config = {

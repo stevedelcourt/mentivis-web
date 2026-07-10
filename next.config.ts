@@ -7,9 +7,24 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Static export ONLY for o2switch FTP builds.
-  // Vercel serverless builds skip this so API routes + middleware work.
-  ...(isFtpBuild ? { output: "export", trailingSlash: true } : {}),
+  trailingSlash: true,
+  ...(isFtpBuild
+    ? { output: "export" }
+    : {
+        async redirects() {
+          return [
+            // Legacy product pages → current MentivisOS page
+            { source: "/fr/learningos", destination: "/fr/mentivisos", permanent: true },
+            { source: "/fr/learningos/", destination: "/fr/mentivisos", permanent: true },
+            { source: "/en/learningos", destination: "/en/mentivisos", permanent: true },
+            { source: "/en/learningos/", destination: "/en/mentivisos", permanent: true },
+            { source: "/fr/talentos", destination: "/fr/mentivisos", permanent: true },
+            { source: "/fr/talentos/", destination: "/fr/mentivisos", permanent: true },
+            { source: "/en/talentos", destination: "/en/mentivisos", permanent: true },
+            { source: "/en/talentos/", destination: "/en/mentivisos", permanent: true },
+          ];
+        },
+      }),
 };
 
 export default withBundleAnalyzer({

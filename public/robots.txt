@@ -78,3 +78,5 @@ Allow: /
 # Default — allow everything else
 User-agent: *
 Allow: /
+
+Sitemap: https://mentivis.com/sitemap.xml

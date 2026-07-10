@@ -6,6 +6,7 @@ import type { InsightArticleMeta, InsightCategory } from "./insights-meta";
 import { CATEGORY_LABELS, INSIGHT_CATEGORIES } from "./insights-meta";
 export { CATEGORY_LABELS, INSIGHT_CATEGORIES };
 export type { InsightCategory };
+import article1 from "../content/insights/mentivisos-open-disponible-gratuit.json";
 import article2 from "../content/insights/conseil-boutique-vs-big-four.json";
 import article3 from "../content/insights/crise-competences-metallurgie-france-solutions.json";
 import article4 from "../content/insights/crise-enseignement-superieur-entreprises-formation.json";
@@ -36,7 +37,7 @@ export interface InsightArticle extends InsightArticleMeta {
 }
 
 export const INSIGHTS: InsightArticle[] = [
-  article2, article3, article4, article5,
+  article1, article2, article3, article4, article5,
   article6, article7, article8, article9, article10,
   article11, article12, article13, article14, article15,
   article16, article17, article18, article19, article20,
