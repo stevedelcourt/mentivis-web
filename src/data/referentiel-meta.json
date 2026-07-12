@@ -3217,5 +3217,191 @@
     "shortDescription": "Préparer son organisation à l'arrivée de l'IA dans les outils de formation suppose d'anticiper trois dimensions : la montée en compétences des équipes formation sur ces outils, la révision des proc...",
     "metaDescription": "Préparer son organisation à l'arrivée de l'IA dans les outils de formation suppose d'anticiper trois dimensions : la montée en compétences des équipes formation sur ces outils, la révision des processus de production et de pilotage, et la gouvernance, qualité, données, conformité.",
     "order": 90
+  },
+  {
+    "slug": "quest-ce-que-la-gepp-difference-gpec",
+    "lang": "en",
+    "title": "What is GEPP and how is it different from GPEC",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "Skills Management",
+    "tags": [
+      "GEPP",
+      "GPEC",
+      "labor code",
+      "skills",
+      "career paths"
+    ],
+    "shortDescription": "GEPP (Employment and Career Path Management) replaced GPEC in 2017. Focus on career paths, employability, and collective bargaining.",
+    "metaDescription": "GEPP replaced GPEC under the ordinances of September 22, 2017. Discover what changed, the legal framework (articles L2242-20 and following), and the mistakes that drain the approach of its meaning.",
+    "order": 91
+  },
+  {
+    "slug": "quest-ce-que-la-gepp-difference-gpec",
+    "lang": "fr",
+    "title": "Qu'est-ce que la GEPP et en quoi diffère-t-elle de la GPEC",
+    "cible": "Entreprises",
+    "cibleEn": "",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "",
+    "tags": [
+      "GEPP",
+      "GPEC",
+      "code du travail",
+      "compétences",
+      "parcours professionnels"
+    ],
+    "shortDescription": "La GEPP (Gestion des Emplois et des Parcours Professionnels) a remplacé la GPEC en 2017. Focus sur les parcours, l'employabilité et la négociation collective.",
+    "metaDescription": "La GEPP a remplacé la GPEC depuis les ordonnances du 22 septembre 2017. Découvrez ce qui change, le cadre légal (articles L2242-20 et suivants), et les erreurs qui vident la démarche de son sens.",
+    "order": 91
+  },
+  {
+    "slug": "negociation-gepp-obligations-legales",
+    "lang": "en",
+    "title": "GEPP negotiation: legal obligations, scope and frequency",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "Skills Management",
+    "tags": [
+      "GEPP",
+      "mandatory negotiation",
+      "labor code",
+      "CSE",
+      "company agreement"
+    ],
+    "shortDescription": "GEPP negotiation is mandatory for companies with 300+ employees. Scope, content, frequency, and articulation with the CSE.",
+    "metaDescription": "GEPP negotiation: legal obligations, thresholds (300 employees), mandatory content, frequency, role of the CSE. Everything HR departments need to know.",
+    "order": 92
+  },
+  {
+    "slug": "negociation-gepp-obligations-legales",
+    "lang": "fr",
+    "title": "La négociation GEPP : obligations légales, périmètre et périodicité",
+    "cible": "Entreprises",
+    "cibleEn": "",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "",
+    "tags": [
+      "GEPP",
+      "négociation obligatoire",
+      "code du travail",
+      "CSE",
+      "accord d'entreprise"
+    ],
+    "shortDescription": "La négociation GEPP est obligatoire à partir de 300 salariés. Périmètre, contenu, périodicité et articulation avec le CSE.",
+    "metaDescription": "Négociation GEPP : obligations légales, seuils (300 salariés), contenu obligatoire, périodicité, rôle du CSE. Tout ce que les directions RH doivent savoir.",
+    "order": 92
+  },
+  {
+    "slug": "construire-cartographie-des-competences",
+    "lang": "en",
+    "title": "How to build a skills map",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "Skills Management",
+    "tags": [
+      "mapping",
+      "skills",
+      "skills framework",
+      "GEPP"
+    ],
+    "shortDescription": "Skills mapping is the operational foundation of any GEPP. The four steps, the granularity trap, and the updates that make the difference.",
+    "metaDescription": "Building a skills map: job inventory, skills framework, assessment, projection. Practical guide for HR departments.",
+    "order": 93
+  },
+  {
+    "slug": "construire-cartographie-des-competences",
+    "lang": "fr",
+    "title": "Comment construire une cartographie des compétences",
+    "cible": "Entreprises",
+    "cibleEn": "",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "",
+    "tags": [
+      "cartographie",
+      "compétences",
+      "référentiel de compétences",
+      "GEPP"
+    ],
+    "shortDescription": "La cartographie des compétences est le socle de toute GEPP. Les quatre étapes, le piège de la granularité, et la mise à jour qui fait la différence.",
+    "metaDescription": "Construire une cartographie des compétences : recensement des emplois, référentiel, évaluation, projection. Guide pratique pour les directions RH.",
+    "order": 93
+  },
+  {
+    "slug": "gepp-plan-developpement-competences-articulation",
+    "lang": "en",
+    "title": "GEPP and the skills development plan: how to link them",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "Skills Management",
+    "tags": [
+      "GEPP",
+      "skills development plan",
+      "training",
+      "OPCO",
+      "budget"
+    ],
+    "shortDescription": "GEPP sets the direction, the skills development plan executes it. How to link the two and avoid the disconnection that drains GEPP of its meaning.",
+    "metaDescription": "Linking GEPP and the skills development plan: logical chain mapping-gaps-priorities-plan-measurement, funding, indicators. Guide for HR departments.",
+    "order": 94
+  },
+  {
+    "slug": "gepp-plan-developpement-competences-articulation",
+    "lang": "fr",
+    "title": "GEPP et plan de développement des compétences : comment les articuler",
+    "cible": "Entreprises",
+    "cibleEn": "",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "",
+    "tags": [
+      "GEPP",
+      "plan de développement des compétences",
+      "formation",
+      "OPCO",
+      "budget"
+    ],
+    "shortDescription": "La GEPP fixe le cap, le plan de développement des compétences l'exécute. Comment articuler les deux et éviter la déconnexion qui vide la GEPP de son sens.",
+    "metaDescription": "Articuler GEPP et plan de développement des compétences : chaîne logique cartographie-écarts-priorités-plan-mesure, financement, indicateurs. Guide pour directions RH.",
+    "order": 94
+  },
+  {
+    "slug": "gepp-entretien-professionnel-obligations",
+    "lang": "en",
+    "title": "GEPP and the professional interview: what the law says",
+    "cible": "Entreprises",
+    "cibleEn": "Companies",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "Skills Management",
+    "tags": [
+      "professional interview",
+      "L6315-1",
+      "GEPP",
+      "employer obligations"
+    ],
+    "shortDescription": "The professional interview (article L6315-1) is the meeting point between collective GEPP and each employee's individual trajectory.",
+    "metaDescription": "Professional interview: legal framework (L6315-1), biennial frequency, 6-year review, link with GEPP. Obligations, penalties and best practices.",
+    "order": 95
+  },
+  {
+    "slug": "gepp-entretien-professionnel-obligations",
+    "lang": "fr",
+    "title": "GEPP et entretien professionnel : ce que dit la loi",
+    "cible": "Entreprises",
+    "cibleEn": "",
+    "thematique": "Gestion des compétences",
+    "thematiqueEn": "",
+    "tags": [
+      "entretien professionnel",
+      "L6315-1",
+      "GEPP",
+      "obligations employeur"
+    ],
+    "shortDescription": "L'entretien professionnel (article L6315-1) est le point de rencontre entre la GEPP collective et la trajectoire individuelle de chaque salarié.",
+    "metaDescription": "Entretien professionnel : cadre légal (L6315-1), périodicité biennale, état des lieux à 6 ans, lien avec la GEPP. Obligations, sanctions et bonnes pratiques.",
+    "order": 95
   }
 ]

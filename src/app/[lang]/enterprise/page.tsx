@@ -13,24 +13,24 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Conseil en formation entreprise" : "Enterprise training consulting",
+    title: isFr ? "Conseil en formation et GEPP en entreprise" : "Enterprise training and GEPP consulting",
     description: isFr
-      ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
-      : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+      ? "Mentivis accompagne les entreprises sur la GEPP, la montée en compétences et la création de dispositifs de formation opérationnels. Stratégie, déploiement, conformité."
+      : "Mentivis supports enterprises on GEPP, skills development, and building operational training programs. Strategy, deployment, compliance.",
     openGraph: {
-      title: isFr ? "Conseil en formation entreprise" : "Enterprise training consulting",
+      title: isFr ? "Conseil en formation et GEPP en entreprise" : "Enterprise training and GEPP consulting",
       description: isFr
-        ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
-        : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+        ? "Mentivis accompagne les entreprises sur la GEPP, la montée en compétences et la création de dispositifs de formation opérationnels. Stratégie, déploiement, conformité."
+        : "Mentivis supports enterprises on GEPP, skills development, and building operational training programs. Strategy, deployment, compliance.",
       url: `${SITE.baseUrl}/${lang}/enterprise/`,
       images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: isFr ? "Conseil en formation entreprise" : "Enterprise training consulting",
+      title: isFr ? "Conseil en formation et GEPP en entreprise" : "Enterprise training and GEPP consulting",
       description: isFr
-        ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
-        : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+        ? "Mentivis accompagne les entreprises sur la GEPP, la montée en compétences et la création de dispositifs de formation opérationnels. Stratégie, déploiement, conformité."
+        : "Mentivis supports enterprises on GEPP, skills development, and building operational training programs. Strategy, deployment, compliance.",
       images: [`${SITE.baseUrl}/opengraph-image.jpg`],
     },
     ...localeAlternates(lang, "/enterprise"),
@@ -48,8 +48,8 @@ export default async function EnterprisePage({ params }: { params: Promise<{ lan
         name: isFr ? "Conseil entreprise" : "Enterprise consulting",
         url: `${SITE.baseUrl}/${lang}/enterprise`,
         description: isFr
-          ? "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles."
-          : "Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.",
+          ? "Mentivis accompagne les entreprises sur la GEPP, la montée en compétences et la création de dispositifs de formation opérationnels. Stratégie, déploiement, conformité."
+          : "Mentivis supports enterprises on GEPP, skills development, and building operational training programs. Strategy, deployment, compliance.",
         serviceType: isFr ? "Conseil en formation" : "Training consulting",
         areaServed: { "@type": "Country", name: "France" },
         provider: { "@id": `${SITE.baseUrl}/#organization` },

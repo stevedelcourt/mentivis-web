@@ -537,11 +537,11 @@
       "Transformer la formation en",
       "levier de performance durable."
     ],
-    "heroLead": "Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
+    "heroLead": "GEPP, académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.",
     "problemsTitle": "Pour une formation en entreprise réellement efficace.",
     "problems": [
       "Dispositifs structurés, connectés aux enjeux métiers",
-      "Un pilotage par les compétences avec des résultats concrets",
+      "Une GEPP opérationnelle, pilotée par les compétences, avec des résultats concrets",
       "Une approche intégrée, avec une vision globale et cohérente",
       "Des investissements maîtrisés, avec des impacts mesurables"
     ],
@@ -550,10 +550,11 @@
     "pillars": [
       {
         "n": "01",
-        "title": "Stratégie",
-        "body": "Construire la vision formation et les fondations qui permettent de piloter la montée en compétences à long terme.",
+        "title": "Stratégie et GEPP",
+        "body": "Construire la vision formation et les fondations de votre GEPP, pour piloter la montée en compétences à long terme.",
         "items": [
           "Audit RH et diagnostic formation : état des lieux, écarts, priorités",
+          "GEPP : cartographie des compétences, emplois sensibles, trajectoires professionnelles",
           "Études de faisabilité : modèle cible, ressources, viabilité financière",
           "Ingénierie des financements (OPCO, plan de développement des compétences)",
           "Définition des filières et parcours de montée en compétences"
@@ -595,7 +596,7 @@
     "resultsTitle": "Ce que les entreprises obtiennent",
     "results": [
       "Dispositifs réellement utilisés, mesurables et pérennes",
-      "Formation alignée avec les enjeux métier et les objectifs RH",
+      "Une GEPP qui tient dans le temps, alignée avec les enjeux métier et les objectifs RH",
       "Réduction des coûts inutiles et meilleure utilisation des financements",
       "Indépendance progressive vis-à-vis des prestataires externes"
     ],
@@ -1433,9 +1434,9 @@
   },
   "mentivisos": {
     "hero": {
-      "eyebrow": "Mentivis OS",
-      "headline": "Apprenez gratuitement.|Formez à l'échelle.|Pilotez les compétences.",
-      "subheadline": "MentivisOS Open pour tous, MentivisOS Entreprise pour les organisations, MentivisOS Education pour les organismes de formation. Un moteur pédagogique IA, trois configurations.",
+      "eyebrow": "LearningOS",
+      "headline": "Former autrement.|Performer durablement.",
+      "subheadline": "Générez des parcours personnalisés, adaptez les contenus automatiquement et pilotez la progression de vos équipes dans un seul système natif IA.",
       "ctaPrimary": "Démarrer gratuitement",
       "ctaSecondary": "Contacter l'équipe",
       "proof": "Utilisé par les directions de la formation, les CFA, les campus d'entreprise."
