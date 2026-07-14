@@ -142,7 +142,7 @@ export default function VideosClient() {
             description: video.description,
             thumbnailUrl: `https://img.youtube.com/vi/${video.youtube}/hqdefault.jpg`,
             embedUrl: `https://www.youtube-nocookie.com/embed/${video.youtube}`,
-            uploadDate: "2025-01-01",
+            uploadDate: "2025-01-01T00:00:00+01:00",
           })),
         ]}
       />
