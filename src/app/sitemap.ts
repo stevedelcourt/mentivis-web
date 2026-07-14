@@ -31,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const lang of ["fr", "en"]) {
     for (const page of STATIC_PAGES) {
       entries.push({
-        url: `${BASE_URL}/${lang}/${page.path}/`,
+        url: `${BASE_URL}/${lang}${page.path ? `/${page.path}` : ''}/`,
         lastModified: new Date(),
         changeFrequency: page.changeFrequency,
         priority: page.priority,
