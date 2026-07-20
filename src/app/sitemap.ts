@@ -1,6 +1,5 @@
 import { MetadataRoute } from "next";
 import { INSIGHTS } from "@/data/insights";
-import { CAREERS } from "@/data/careers";
 import { REFERENTIEL_META } from "@/data/referentiel-meta";
 import videosFr from "@/content/videos/videos-fr.json";
 import videosEn from "@/content/videos/videos-en.json";
@@ -60,18 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,
-      });
-    }
-  }
-
-  // Job listings × 2 languages
-  for (const lang of ["fr", "en"]) {
-    for (const job of CAREERS) {
-      entries.push({
-        url: `${BASE_URL}/${lang}/careers/${job.slug}/`,
-        lastModified: new Date(job.date),
-        changeFrequency: "monthly",
-        priority: 0.5,
       });
     }
   }

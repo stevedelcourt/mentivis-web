@@ -15,10 +15,9 @@ export interface Job extends JobMeta {
 import job1 from "../content/careers/architecte-systemes-ia-lead-mlops.json";
 import job2 from "../content/careers/campaign-manager-google-ads.json";
 import job3 from "../content/careers/growth-business-development-manager.json";
-import job4 from "../content/careers/responsable-relations-institutionnelles-developpement-territorial.json";
 
 export const CAREERS: Job[] = [
-  job1, job2, job3, job4,
+  job1, job2, job3,
 ] as Job[];
 
 export function getJobBySlug(slug: string): Job | undefined {
