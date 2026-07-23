@@ -31,7 +31,6 @@ export async function generateMetadata({
   return {
     title: isFr ? job.titleFr : job.titleEn,
     description: `${job.department} - ${job.location}`,
-    robots: { index: false, follow: true },
     ...localeAlternates(lang, `/careers/${slug}`),
   };
 }
