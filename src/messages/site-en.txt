@@ -469,10 +469,10 @@ duration: 6 months active + quarterly follow-up
 eyebrow: You are an enterprise
 heroTitle[0]: Turn training into a
 heroTitle[1]: performance lever that lasts.
-heroLead: Internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.
+heroLead: GEPP, internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.
 problemsTitle: Enterprise training is often ineffective
 problems[0]: Loosely structured programs, disconnected from business stakes
-problems[1]: No steering of skills or results
+problems[1]: An operational GEPP, driven by skills with concrete results
 problems[2]: Dependency on multiple vendors, no global view
 problems[3]: Heavy investment, limited measurable impact
 pillarsTitle: The four intervention axes
@@ -480,12 +480,13 @@ pillarsLead: A clear offer aligned with what business directors actually need.
 
 # enterprise.pillars[0]
 n: 01
-title: Strategy
-body: Build the training vision and the foundations to steer skills development long term.
+title: Strategy and GEPP
+body: Build the training vision and the GEPP strategy, and lay the foundations to steer skills development long term.
 items[0]: HR audit and training diagnosis: status, gaps, priorities
 items[1]: Feasibility studies: target model, resources, financial viability
-items[2]: Financing engineering (OPCO, skills development plan)
-items[3]: Definition of skills paths and career tracks
+items[2]: Skills mapping and gap analysis (GEPP)
+items[3]: Financing engineering (OPCO, skills development plan)
+items[4]: Definition of skills paths and career tracks
 
 # enterprise.pillars[1]
 n: 02
@@ -516,7 +517,7 @@ items[3]: Specialized school: positioning, certification, commercial launch
 # enterprise
 resultsTitle: What enterprises get
 results[0]: Programs that are actually used, measurable and lasting
-results[1]: Training aligned with business stakes and HR objectives
+results[1]: A GEPP that lasts over time, training aligned with business stakes and HR objectives
 results[2]: Reduced wasteful spend, better use of financing
 results[3]: Progressive independence from external vendors
 whyTitle: Why Mentivis
@@ -979,7 +980,7 @@ body: Kindness, excellence, transparency. We build an environment where everyone
 
 # careers.list
 title: Open positions
-empty: No open positions at the moment. Check back later or send us a spontaneous application.
+empty: Unfortunately, we don't have any open positions at the moment.
 allDepartments: All
 readMore: View position
 

@@ -12,13 +12,7 @@ export interface Job extends JobMeta {
   descriptionEn: string;
 }
 
-import job1 from "../content/careers/d2925d8647e7da6a.json";
-import job2 from "../content/careers/d125f86fbab204cf.json";
-import job3 from "../content/careers/7f071be05b114844.json";
-
-export const CAREERS: Job[] = [
-  job1, job2, job3,
-] as Job[];
+export const CAREERS: Job[] = [];
 
 export function getJobBySlug(slug: string): Job | undefined {
   return CAREERS.find((j) => j.slug === slug);

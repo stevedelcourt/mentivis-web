@@ -541,7 +541,7 @@
     "problemsTitle": "Enterprise training is often ineffective",
     "problems": [
       "Loosely structured programs, disconnected from business stakes",
-      "An operational GEPP, steered by skills, with concrete results",
+      "An operational GEPP, driven by skills with concrete results",
       "Dependency on multiple vendors, no global view",
       "Heavy investment, limited measurable impact"
     ],
@@ -551,11 +551,11 @@
       {
         "n": "01",
         "title": "Strategy and GEPP",
-        "body": "Build the training vision and the foundations of your GEPP, to steer skills development long term.",
+        "body": "Build the training vision and the GEPP strategy, and lay the foundations to steer skills development long term.",
         "items": [
           "HR audit and training diagnosis: status, gaps, priorities",
-          "GEPP: skills mapping, sensitive positions, career paths",
           "Feasibility studies: target model, resources, financial viability",
+          "Skills mapping and gap analysis (GEPP)",
           "Financing engineering (OPCO, skills development plan)",
           "Definition of skills paths and career tracks"
         ]
@@ -596,7 +596,7 @@
     "resultsTitle": "What enterprises get",
     "results": [
       "Programs that are actually used, measurable and lasting",
-      "A GEPP that lasts over time, aligned with business stakes and HR objectives",
+      "A GEPP that lasts over time, training aligned with business stakes and HR objectives",
       "Reduced wasteful spend, better use of financing",
       "Progressive independence from external vendors"
     ],
@@ -1087,7 +1087,7 @@
     },
     "list": {
       "title": "Open positions",
-      "empty": "No open positions at the moment. Check back later or send us a spontaneous application.",
+      "empty": "Unfortunately, we don't have any open positions at the moment.",
       "allDepartments": "All",
       "readMore": "View position"
     },

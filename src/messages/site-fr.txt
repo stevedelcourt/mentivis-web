@@ -469,10 +469,10 @@ duration: 6 mois actif + suivi trimestriel
 eyebrow: Vous êtes une entreprise
 heroTitle[0]: Transformer la formation en
 heroTitle[1]: levier de performance durable.
-heroLead: Académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.
+heroLead: GEPP, académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.
 problemsTitle: Pour une formation en entreprise réellement efficace.
 problems[0]: Dispositifs structurés, connectés aux enjeux métiers
-problems[1]: Un pilotage par les compétences avec des résultats concrets
+problems[1]: Une GEPP opérationnelle, pilotée par les compétences avec des résultats concrets
 problems[2]: Une approche intégrée, avec une vision globale et cohérente
 problems[3]: Des investissements maîtrisés, avec des impacts mesurables
 pillarsTitle: Les quatre axes d'intervention
@@ -480,12 +480,13 @@ pillarsLead: Une structuration de l'offre lisible et alignée avec les besoins r
 
 # enterprise.pillars[0]
 n: 01
-title: Stratégie
-body: Construire la vision formation et les fondations qui permettent de piloter la montée en compétences à long terme.
+title: Stratégie et GEPP
+body: Construire la vision formation et la stratégie GEPP, et poser les fondations qui permettent de piloter la montée en compétences à long terme.
 items[0]: Audit RH et diagnostic formation : état des lieux, écarts, priorités
 items[1]: Études de faisabilité : modèle cible, ressources, viabilité financière
-items[2]: Ingénierie des financements (OPCO, plan de développement des compétences)
-items[3]: Définition des filières et parcours de montée en compétences
+items[2]: Cartographie des compétences et analyse des écarts (GEPP)
+items[3]: Ingénierie des financements (OPCO, plan de développement des compétences)
+items[4]: Définition des filières et parcours de montée en compétences
 
 # enterprise.pillars[1]
 n: 02
@@ -516,7 +517,7 @@ items[3]: École spécialisée : positionnement, certification, lancement commer
 # enterprise
 resultsTitle: Ce que les entreprises obtiennent
 results[0]: Dispositifs réellement utilisés, mesurables et pérennes
-results[1]: Formation alignée avec les enjeux métier et les objectifs RH
+results[1]: Une GEPP qui tient dans le temps, une formation alignée avec les enjeux métier et les objectifs RH
 results[2]: Réduction des coûts inutiles et meilleure utilisation des financements
 results[3]: Indépendance progressive vis-à-vis des prestataires externes
 whyTitle: Pourquoi Mentivis
@@ -979,7 +980,7 @@ body: Bienveillance, exigence, transparence. Nous construisons un environnement 
 
 # careers.list
 title: Postes ouverts
-empty: Aucune offre ouverte pour le moment. Revenez bientôt ou envoyez-nous une candidature spontanée.
+empty: Nous n'avons malheureusement aucun poste à pourvoir actuellement.
 allDepartments: Tous
 readMore: Voir l'offre
 

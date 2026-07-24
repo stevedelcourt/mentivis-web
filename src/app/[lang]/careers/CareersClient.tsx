@@ -125,36 +125,42 @@ export default function CareersClient() {
             </div>
           </Reveal>
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            {filteredJobs.map((job: JobMeta, i: number) => (
-              <Reveal key={job.slug} delay={i * 50}>
-                <Link
-                  href={`/${lang}/careers/${job.slug}`}
-                  style={{
-                    display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16,
-                    padding: "24px", background: "#fff", borderRadius: 16, border: "1px solid var(--m-line-2)",
-                    textDecoration: "none", transition: "border-color 0.2s",
-                  }}
-                >
-                  <div style={{ flex: 1, minWidth: 0 }}>
-                    <h3 style={{ fontSize: 18, fontWeight: 500, color: "var(--m-ink)", marginBottom: 8 }}>
-                      {isFr ? job.titleFr : job.titleEn}
-                    </h3>
-                    <div style={{ display: "flex", gap: 16, flexWrap: "wrap", fontSize: 14, color: "var(--m-ink-3)" }}>
-                      <span>{job.department}</span>
-                      <span>{job.location}</span>
-                      <span>{JOB_TYPE_LABELS[job.type]?.[lang as keyof typeof JOB_TYPE_LABELS["cdi"]] || job.type}</span>
-                      {job.remote && <span>{isFr ? "Remote" : "Remote"}</span>}
+            {filteredJobs.length === 0 ? (
+              <p style={{ color: "var(--m-ink-3)", fontSize: 15.5, lineHeight: 1.55, textAlign: "center", padding: "48px 0" }}>
+                {c.list?.empty || (isFr ? "Nous n'avons malheureusement aucun poste à pourvoir actuellement." : "Unfortunately, we don't have any open positions at the moment.")}
+              </p>
+            ) : (
+              filteredJobs.map((job: JobMeta, i: number) => (
+                <Reveal key={job.slug} delay={i * 50}>
+                  <Link
+                    href={`/${lang}/careers/${job.slug}`}
+                    style={{
+                      display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16,
+                      padding: "24px", background: "#fff", borderRadius: 16, border: "1px solid var(--m-line-2)",
+                      textDecoration: "none", transition: "border-color 0.2s",
+                    }}
+                  >
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <h3 style={{ fontSize: 18, fontWeight: 500, color: "var(--m-ink)", marginBottom: 8 }}>
+                        {isFr ? job.titleFr : job.titleEn}
+                      </h3>
+                      <div style={{ display: "flex", gap: 16, flexWrap: "wrap", fontSize: 14, color: "var(--m-ink-3)" }}>
+                        <span>{job.department}</span>
+                        <span>{job.location}</span>
+                        <span>{JOB_TYPE_LABELS[job.type]?.[lang as keyof typeof JOB_TYPE_LABELS["cdi"]] || job.type}</span>
+                        {job.remote && <span>{isFr ? "Remote" : "Remote"}</span>}
+                      </div>
                     </div>
-                  </div>
-                  <span style={{
-                    padding: "10px 20px", fontSize: 14, fontWeight: 500, color: "var(--m-purple)",
-                    background: "var(--m-bg-soft)", borderRadius: 10, flexShrink: 0,
-                  }}>
-                    {c.list ? c.list.readMore : (isFr ? "Voir l'offre" : "View position")}
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
+                    <span style={{
+                      padding: "10px 20px", fontSize: 14, fontWeight: 500, color: "var(--m-purple)",
+                      background: "var(--m-bg-soft)", borderRadius: 10, flexShrink: 0,
+                    }}>
+                      {c.list ? c.list.readMore : (isFr ? "Voir l'offre" : "View position")}
+                    </span>
+                  </Link>
+                </Reveal>
+              ))
+            )}
           </div>
         </div>
       </section>
