@@ -1210,7 +1210,19 @@
     "filterOldest": "Plus ancien",
     "readArticle": "Lire l'article",
     "backToList": "Retour aux insights",
-    "noArticles": "Aucun article dans cette catégorie."
+    "noArticles": "Aucun article dans cette catégorie.",
+    "pdfEyebrow": "Étude en PDF",
+    "pdfDownload": "Télécharger le PDF",
+    "pdfUnlock": "Déverrouiller",
+    "pdfSub": "Analyse complète, recommandations et perspectives détaillées : téléchargez l'étude en version PDF.",
+    "pdfModalTitle": "Accédez à l'étude",
+    "pdfModalSub": "Renseignez vos coordonnées pour déverrouiller le téléchargement de l'étude en PDF. Un seul formulaire suffit.",
+    "pdfModalSuccessTitle": "Accès déverrouillé !",
+    "pdfModalSuccessBody": "Vous pouvez désormais télécharger l'étude en version PDF.",
+    "pdfSubmit": "Recevoir l'accès",
+    "pdfSubmitting": "Envoi en cours...",
+    "pdfConsent": "J'accepte de recevoir des informations de Mentivis, conformément à la",
+    "pdfConsentLink": "politique de confidentialité"
   },
   "videosPage": {
     "eyebrow": "Vidéos",

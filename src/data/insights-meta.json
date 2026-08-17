@@ -1,5 +1,31 @@
 [
   {
+    "slug": "lia-et-la-transformation-de-leducation-2026-2030",
+    "date": "2026-08-16",
+    "category": "perspectives",
+    "author": "Mentivis",
+    "readTime": "8 minutes",
+    "titleFr": "L'IA et la transformation de l'éducation : 2026-2030",
+    "titleEn": "AI and the Transformation of Education: 2026-2030",
+    "excerptFr": "Entre 2026 et 2030, l'IA va transformer en profondeur la façon dont on apprend, enseigne, évalue et certifie les compétences. Que devient la valeur d'un établissement quand l'IA rend le contenu abondant, le tutorat individualisé accessible et l'évaluation traditionnelle fragile ?",
+    "excerptEn": "Between 2026 and 2030, AI will deeply transform how we learn, teach, assess and certify skills. What happens to an institution's value when AI makes content abundant, individualized tutoring accessible and traditional assessment fragile?",
+    "heroImage": "/images/insights/etude-ia-2026.webp",
+    "keywords": "IA, éducation, transformation, capital humain, évaluation, 2026-2030, formation, Mentivis"
+  },
+  {
+    "slug": "lecole-de-demain-enseigne-moins-accompagne-plus",
+    "date": "2026-07-24",
+    "category": "perspectives",
+    "author": "Mentivis",
+    "readTime": "10 minutes",
+    "titleFr": "L'école de demain enseigne moins et accompagne plus",
+    "titleEn": "The School of Tomorrow Teaches Less and Accompanies More",
+    "excerptFr": "PISA en chute, 95 000 jeunes sans diplôme chaque année, inégalités qui se creusent : l'école française doit se réinventer. Entre IA et accompagnement humain, la piste du « prof comme coach » n'est plus une métaphore mais une nécessité structurelle.",
+    "excerptEn": "Plummeting PISA scores, 95,000 young people leaving school without a diploma each year, widening inequalities: the French education system must reinvent itself. Between AI and human support, the 'teacher as coach' model is no longer a metaphor but a structural necessity.",
+    "heroImage": "/images/insights/profarticle.avif",
+    "keywords": "éducation nationale, PISA, décrochage scolaire, IA éducation, coaching pédagogique, inégalités scolaires, NEET"
+  },
+  {
     "slug": "mentivisos-open-disponible-gratuit",
     "date": "2026-07-10",
     "category": "announcements",

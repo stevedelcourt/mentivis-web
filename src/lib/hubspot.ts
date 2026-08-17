@@ -29,7 +29,7 @@ export function useHubSpotSubmit(formId?: string) {
       setError(null);
 
       try {
-        const response = await fetch(`${API_BASE}/api/submit-to-hubspot`, {
+        const response = await fetch(`${API_BASE}/api/submit-to-hubspot/`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

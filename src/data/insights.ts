@@ -30,10 +30,16 @@ import article21 from "../content/insights/rearmement-france-penurie-competences
 import article22 from "../content/insights/senegal-petrole-intelligence-artificielle-formation.json";
 import article23 from "../content/insights/transformation-educative-solutions-cles-en-main.json";
 import article24 from "../content/insights/ce-que-les-enfants-savent.json";
+import article25 from "../content/insights/lecole-de-demain-enseigne-moins-accompagne-plus.json";
+import article26 from "../content/insights/lia-et-la-transformation-de-leducation-2026-2030.json";
 
 export interface InsightArticle extends InsightArticleMeta {
   bodyFr: string;  // full HTML body
   bodyEn: string;
+  pdfPath?: string;
+  pdfTitleFr?: string;
+  pdfTitleEn?: string;
+  pdfImage?: string;
 }
 
 export const INSIGHTS: InsightArticle[] = [
@@ -41,7 +47,7 @@ export const INSIGHTS: InsightArticle[] = [
   article6, article7, article8, article9, article10,
   article11, article12, article13, article14, article15,
   article16, article17, article18, article19, article20,
-  article21, article22, article23, article24
+  article21, article22, article23, article24, article25, article26
 ] as InsightArticle[];
 
 export function getInsightBySlug(slug: string): InsightArticle | undefined {

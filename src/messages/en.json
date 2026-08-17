@@ -1210,7 +1210,19 @@
     "filterOldest": "Oldest first",
     "readArticle": "Read article",
     "backToList": "Back to insights",
-    "noArticles": "No articles in this category."
+    "noArticles": "No articles in this category.",
+    "pdfEyebrow": "PDF study",
+    "pdfDownload": "Download the PDF",
+    "pdfUnlock": "Unlock",
+    "pdfSub": "Full analysis, recommendations and detailed perspectives: download the study as a PDF.",
+    "pdfModalTitle": "Access the study",
+    "pdfModalSub": "Fill in your details to unlock the PDF download of the study. One form is all it takes.",
+    "pdfModalSuccessTitle": "Access unlocked!",
+    "pdfModalSuccessBody": "You can now download the study as a PDF.",
+    "pdfSubmit": "Get access",
+    "pdfSubmitting": "Sending...",
+    "pdfConsent": "I agree to receive information from Mentivis, in accordance with the",
+    "pdfConsentLink": "privacy policy"
   },
   "videosPage": {
     "eyebrow": "Videos",
