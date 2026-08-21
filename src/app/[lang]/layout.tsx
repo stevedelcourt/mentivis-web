@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import CookieConsentDeferred from "@/components/CookieConsentDeferred";
-import GTMClient from "@/components/GTMClient";
 import fr from "@/messages/fr.json";
 import en from "@/messages/en.json";
 
@@ -84,12 +83,9 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const { lang } = await params;
 
   return (
-    <>
-      {children}
-      <CookieConsentDeferred lang={lang} />
-      {process.env.NEXT_PUBLIC_GTM_ID && (
-        <GTMClient gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
-      )}
-    </>
+      <>
+        {children}
+        <CookieConsentDeferred lang={lang} />
+      </>
   );
 }

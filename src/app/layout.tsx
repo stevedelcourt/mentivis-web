@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   title: "Mentivis",
 };
 
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+
 const CONSENT_DEFAULT_SCRIPT = `
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -32,6 +34,10 @@ gtag('consent', 'default', {
 });
 `;
 
+const GTM_SNIPPET = GTM_ID
+  ? `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`
+  : "";
+
 export default function RootLayout({
   children,
 }: {
@@ -41,6 +47,7 @@ export default function RootLayout({
     <html lang="fr" className={`${ibmPlexSans.variable} ${jetBrainsMono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }} />
+        {GTM_ID && <script dangerouslySetInnerHTML={{ __html: GTM_SNIPPET }} />}
         {/* Hydration recovery: if React #418 or hydration mismatch is detected,
             hard-reload with a cache-busting query param to bypass stale CDN HTML. */}
         <script dangerouslySetInnerHTML={{ __html: `
