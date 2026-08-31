@@ -36,7 +36,7 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
           name: SITE.name,
           url: SITE.baseUrl,
           logo: `${SITE.baseUrl}/images/ui/logo-dark.svg`,
-          sameAs: [SITE.linkedin, SITE.instagram],
+          sameAs: [SITE.linkedin, SITE.instagram, SITE.bluesky],
           contactPoint: {
             "@type": "ContactPoint",
             telephone: SITE.phone,
@@ -87,7 +87,7 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
             opens: "09:00",
             closes: "18:00",
           },
-          sameAs: [SITE.linkedin, SITE.instagram],
+          sameAs: [SITE.linkedin, SITE.instagram, SITE.bluesky],
         },
         (() => {
           const m = ALL_MESSAGES.fr;

@@ -7,6 +7,7 @@ export const SITE = {
   mapsUrl: "https://maps.app.goo.gl/MbLN5V5JHMpLtqWz8",
   linkedin: "https://www.linkedin.com/company/mentivis/",
   instagram: "https://www.instagram.com/menti.vis/",
+  bluesky: "https://bsky.app/profile/mentivis.bsky.social",
   gbpUrl: "https://maps.app.goo.gl/MbLN5V5JHMpLtqWz8",
   phoneDisplay: "01 89 48 10 02",
 } as const;
