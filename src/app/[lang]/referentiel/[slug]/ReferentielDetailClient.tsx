@@ -104,11 +104,39 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
     <PageShell hidePreFooterCTA>
       <JsonLd data={{
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "TechArticle",
         headline: article.title,
         description: article.metaDescription || article.shortDescription,
+        image: {
+          "@type": "ImageObject",
+          url: "https://mentivis.com/images/og-referentiel-default.png",
+          width: 1200,
+          height: 630,
+        },
+        datePublished: "2025-06-01",
+        dateModified: "2026-09-07",
+        author: {
+          "@type": "Organization",
+          name: "Mentivis",
+          url: "https://mentivis.com/fr/about/",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Mentivis",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://mentivis.com/images/mentivis-logo-400x400.png",
+            width: 512,
+            height: 512,
+          },
+        },
+        inLanguage: lang === "en" ? "en-US" : "fr-FR",
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `https://mentivis.com/${lang}/referentiel/${article.slug}/`,
+        },
         keywords: article.tags.join(", "),
-        url: `https://mentivis.com/fr/referentiel/${article.slug}/`,
+        url: `https://mentivis.com/${lang}/referentiel/${article.slug}/`,
       }} />
       <section style={{ padding: "80px 0 60px", background: "var(--m-bg)" }}>
         <div className="container">
