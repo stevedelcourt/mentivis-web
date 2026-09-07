@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { ReactNode } from "react";
 
 interface ImageHeroProps {
@@ -16,14 +17,29 @@ export default function ImageHero({ image, eyebrow, title, lead, children }: Ima
         position: "relative",
         width: "100%",
         minHeight: 560,
-        backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
         display: "flex",
         alignItems: "center",
         overflow: "hidden",
+        backgroundColor: "#111",
       }}
     >
+      <Image
+        src={image}
+        alt="Cabinet conseil en formation professionnelle Mentivis — accompagnement organismes de formation et entreprises"
+        fill
+        priority
+        sizes="100vw"
+        style={{ objectFit: "cover", objectPosition: "center" }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+          zIndex: 1,
+        }}
+        aria-hidden="true"
+      />
       <div
         className="container"
         style={{
