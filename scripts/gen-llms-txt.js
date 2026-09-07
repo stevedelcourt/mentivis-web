@@ -3,7 +3,8 @@ const path = require("path");
 
 const CONTENT_DIR = path.join(__dirname, "..", "src", "content", "insights");
 const OUTPUT_FILE = path.join(__dirname, "..", "public", "llms.txt");
-const BASE_URL = "https://www.mentivis.com";
+const BASE_URL = "https://mentivis.com";
+const REFERENTIEL_META_PATH = path.join(__dirname, "..", "src", "data", "referentiel-meta.json");
 
 function getRecentArticles(n = 10) {
   if (!fs.existsSync(CONTENT_DIR)) return [];
@@ -24,12 +25,37 @@ function getRecentArticles(n = 10) {
 
 function generateLlmsTxt() {
   const articles = getRecentArticles(10);
+  let referentiel = [];
+  try {
+    if (fs.existsSync(REFERENTIEL_META_PATH)) {
+      const raw = fs.readFileSync(REFERENTIEL_META_PATH, "utf-8");
+      const all = JSON.parse(raw);
+      referentiel = all.filter((m) => m.lang === "fr").sort((a, b) => a.order - b.order);
+    }
+  } catch {}
 
   const lines = [
-    "# Mentivis",
+    "# Mentivis — Cabinet conseil en formation professionnelle",
+    "> Mentivis est un cabinet conseil spécialisé dans la création, la structuration et le développement d'organismes de formation, d'écoles pour entreprises et de dispositifs de formation professionnelle. Basé à Paris, actif en France et à l'international.",
     "",
-    "Conseil en formation et solutions digitales pour entreprises et organismes de formation.",
-    "Training consulting and digital solutions for enterprises and training organizations.",
+    "## Services",
+    "- https://mentivis.com/fr/of/",
+    "- https://mentivis.com/fr/enterprise/",
+    "- https://mentivis.com/fr/creation-organisme-formation/",
+    "- https://mentivis.com/fr/ecole-entreprise/",
+    "- https://mentivis.com/fr/cabinet-conseil-formation/",
+    "- https://mentivis.com/fr/solutions/",
+    "- https://mentivis.com/fr/mentivisos/",
+    "",
+    "## À propos",
+    "- https://mentivis.com/fr/about/",
+    "",
+    "## Référentiel (guides pratiques formation professionnelle)",
+    "- https://mentivis.com/fr/referentiel/",
+    ...referentiel.map((m) => `- https://mentivis.com/fr/referentiel/${m.slug}/`),
+    "",
+    "## Insights & Publications",
+    "- https://mentivis.com/fr/insights/",
     "",
     "## Pages principales / Main Pages",
     "",
@@ -103,12 +129,16 @@ function generateLlmsTxt() {
     lines.push("");
   }
 
+  lines.push("## Accès LLM");
+  lines.push("> Les contenus du Référentiel sont librement citables. Les contenus des pages Services sont soumis aux droits de Mentivis SAS.");
+  lines.push("");
   lines.push("## Contact");
   lines.push("");
   lines.push("- Email: contact@mentivis.com");
   lines.push("- Phone: +33 1 89 48 10 02");
   lines.push("- Address: 60 Rue François 1er, 75008 Paris");
   lines.push("- LinkedIn: https://www.linkedin.com/company/mentivis/");
+  lines.push("- Bluesky: https://bsky.app/profile/mentivis.bsky.social");
   lines.push("");
 
   fs.writeFileSync(OUTPUT_FILE, lines.join("\n"), "utf-8");

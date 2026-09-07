@@ -1,7 +1,118 @@
-# Mentivis
+# Mentivis — Cabinet conseil en formation professionnelle
+> Mentivis est un cabinet conseil spécialisé dans la création, la structuration et le développement d'organismes de formation, d'écoles pour entreprises et de dispositifs de formation professionnelle. Basé à Paris, actif en France et à l'international.
 
-Conseil en formation et solutions digitales pour entreprises et organismes de formation.
-Training consulting and digital solutions for enterprises and training organizations.
+## Services
+- https://mentivis.com/fr/of/
+- https://mentivis.com/fr/enterprise/
+- https://mentivis.com/fr/creation-organisme-formation/
+- https://mentivis.com/fr/ecole-entreprise/
+- https://mentivis.com/fr/cabinet-conseil-formation/
+- https://mentivis.com/fr/solutions/
+- https://mentivis.com/fr/mentivisos/
+
+## À propos
+- https://mentivis.com/fr/about/
+
+## Référentiel (guides pratiques formation professionnelle)
+- https://mentivis.com/fr/referentiel/
+- https://mentivis.com/fr/referentiel/comment-obtenir-la-certification-qualiopi/
+- https://mentivis.com/fr/referentiel/comment-creer-un-cfa-en-france-en-2026/
+- https://mentivis.com/fr/referentiel/comment-financer-une-formation-professionnelle-sans-reste-a-charge/
+- https://mentivis.com/fr/referentiel/comment-creer-un-programme-de-formation-conforme-qualiopi/
+- https://mentivis.com/fr/referentiel/comment-declarer-son-activite-de-formation-professionnelle/
+- https://mentivis.com/fr/referentiel/comment-concevoir-un-bilan-de-competences-conforme/
+- https://mentivis.com/fr/referentiel/comment-monter-un-dossier-de-certification-rncp/
+- https://mentivis.com/fr/referentiel/comment-calculer-le-cout-pedagogique-dune-formation/
+- https://mentivis.com/fr/referentiel/comment-gerer-les-alternants-droits-obligations-encadrement/
+- https://mentivis.com/fr/referentiel/comment-evaluer-les-acquis-des-apprenants-de-facon-valide/
+- https://mentivis.com/fr/referentiel/comment-construire-un-referentiel-de-formation-de-a-a-z/
+- https://mentivis.com/fr/referentiel/comment-attirer-des-apprentis-et-des-stagiaires-en-2026/
+- https://mentivis.com/fr/referentiel/comment-obtenir-et-utiliser-les-fonds-de-la-taxe-d-apprentissage/
+- https://mentivis.com/fr/referentiel/comment-digitaliser-ses-formations-sans-perdre-la-qualite-pedagogique/
+- https://mentivis.com/fr/referentiel/comment-gerer-la-relation-avec-les-opco-au-quotidien/
+- https://mentivis.com/fr/referentiel/comment-rediger-une-convention-de-formation-conforme-a-la-loi/
+- https://mentivis.com/fr/referentiel/comment-construire-un-plan-de-developpement-des-competences-pour-une-entreprise-cliente/
+- https://mentivis.com/fr/referentiel/comment-creer-une-formation-eligible-au-cpf/
+- https://mentivis.com/fr/referentiel/comment-piloter-la-qualite-pedagogique-de-ses-formateurs/
+- https://mentivis.com/fr/referentiel/comment-gerer-la-sous-traitance-de-formation-legalement/
+- https://mentivis.com/fr/referentiel/comment-obtenir-des-certifications-de-qualite-au-dela-de-qualiopi/
+- https://mentivis.com/fr/referentiel/comment-developper-une-activite-de-formation-en-entreprise-intra/
+- https://mentivis.com/fr/referentiel/comment-accompagner-les-apprenants-en-situation-de-handicap-psh/
+- https://mentivis.com/fr/referentiel/comment-faire-une-veille-reglementaire-efficace-sur-la-formation-professionnelle/
+- https://mentivis.com/fr/referentiel/comment-mesurer-le-retour-sur-investissement-d-une-formation/
+- https://mentivis.com/fr/referentiel/comment-acceder-aux-appels-d-offres-publics-pour-la-formation/
+- https://mentivis.com/fr/referentiel/comment-construire-une-offre-de-vae/
+- https://mentivis.com/fr/referentiel/comment-gerer-les-evaluations-a-froid-et-prouver-l-impact-pedagogique/
+- https://mentivis.com/fr/referentiel/comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi/
+- https://mentivis.com/fr/referentiel/comment-developper-une-offre-de-formation-a-l-international/
+- https://mentivis.com/fr/referentiel/comment-financer-la-formation-de-mes-salaries-sans-tout-payer-moi-meme/
+- https://mentivis.com/fr/referentiel/comment-construire-un-plan-de-developpement-des-competences-efficace/
+- https://mentivis.com/fr/referentiel/comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise/
+- https://mentivis.com/fr/referentiel/comment-mettre-en-place-une-politique-de-formation-dans-ma-pme/
+- https://mentivis.com/fr/referentiel/comment-gerer-les-entretiens-professionnels-obligatoires-tous-les-2-ans/
+- https://mentivis.com/fr/referentiel/comment-utiliser-le-cpf-de-mes-salaries-pour-financer-des-formations-utiles-a-l-entreprise/
+- https://mentivis.com/fr/referentiel/comment-former-mes-managers-rapidement-et-avec-impact/
+- https://mentivis.com/fr/referentiel/comment-mesurer-l-efficacite-d-une-formation-achetee-a-un-prestataire-externe/
+- https://mentivis.com/fr/referentiel/comment-former-mes-equipes-a-l-intelligence-artificielle-concretement/
+- https://mentivis.com/fr/referentiel/comment-financer-une-reconversion-professionnelle-pour-un-salarie/
+- https://mentivis.com/fr/referentiel/comment-identifier-les-competences-manquantes-dans-mon-entreprise/
+- https://mentivis.com/fr/referentiel/comment-mettre-en-place-le-tutorat-interne-comme-outil-de-formation/
+- https://mentivis.com/fr/referentiel/comment-former-mes-commerciaux-de-facon-continue-et-mesurable/
+- https://mentivis.com/fr/referentiel/comment-accompagner-un-salarie-vers-une-vae/
+- https://mentivis.com/fr/referentiel/comment-organiser-une-action-de-formation-en-interne-formateur-interne/
+- https://mentivis.com/fr/referentiel/comment-aborder-la-formation-lors-d-un-accord-gpec-ou-d-une-restructuration/
+- https://mentivis.com/fr/referentiel/comment-calculer-le-budget-formation-optimal-pour-mon-entreprise/
+- https://mentivis.com/fr/referentiel/comment-former-des-salaries-en-teletravail-de-facon-engageante/
+- https://mentivis.com/fr/referentiel/comment-gerer-les-refus-de-formation-d-un-salarie/
+- https://mentivis.com/fr/referentiel/comment-prouver-que-mon-entreprise-respecte-ses-obligations-en-matiere-de-formation/
+- https://mentivis.com/fr/referentiel/comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs/
+- https://mentivis.com/fr/referentiel/comment-developper-une-culture-de-l-apprentissage-continu-dans-mon-entreprise/
+- https://mentivis.com/fr/referentiel/comment-choisir-entre-une-formation-presentielle-distancielle-ou-hybride/
+- https://mentivis.com/fr/referentiel/comment-former-mes-equipes-sur-les-sujets-de-compliance-et-de-reglementation/
+- https://mentivis.com/fr/referentiel/comment-financer-la-formation-d-un-salarie-qui-veut-changer-de-metier-en-restant-dans-l-entreprise/
+- https://mentivis.com/fr/referentiel/comment-choisir-entre-former-en-interne-ou-externaliser-la-formation/
+- https://mentivis.com/fr/referentiel/comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international/
+- https://mentivis.com/fr/referentiel/comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover/
+- https://mentivis.com/fr/referentiel/comment-repondre-a-une-obligation-de-formation-sectorielle-specifique/
+- https://mentivis.com/fr/referentiel/comment-negocier-un-accord-de-formation-avec-les-representants-du-personnel/
+- https://mentivis.com/fr/referentiel/quel-lms-choisir-pour-mon-organisme-de-formation-ou-mon-entreprise/
+- https://mentivis.com/fr/referentiel/comment-creer-des-contenus-e-learning-rapidement-et-a-moindre-cout/
+- https://mentivis.com/fr/referentiel/comment-l-intelligence-artificielle-transforme-la-formation-professionnelle/
+- https://mentivis.com/fr/referentiel/quelles-sont-les-meilleures-plateformes-e-learning-et-comment-les-comparer/
+- https://mentivis.com/fr/referentiel/quel-outil-de-classe-virtuelle-choisir-pour-la-formation-synchrone/
+- https://mentivis.com/fr/referentiel/comment-ameliorer-le-taux-de-completion-de-mes-formations-en-ligne/
+- https://mentivis.com/fr/referentiel/qu-est-ce-que-le-microlearning-et-quand-l-utiliser/
+- https://mentivis.com/fr/referentiel/comment-utiliser-la-gamification-pour-rendre-la-formation-plus-efficace/
+- https://mentivis.com/fr/referentiel/quel-outil-de-gestion-de-la-formation-choisir-tms-sirh-formation/
+- https://mentivis.com/fr/referentiel/comment-produire-des-videos-pedagogiques-sans-gros-budget/
+- https://mentivis.com/fr/referentiel/comment-personnaliser-les-parcours-de-formation-grace-aux-donnees/
+- https://mentivis.com/fr/referentiel/comment-utiliser-un-chatbot-ou-un-assistant-ia-en-formation/
+- https://mentivis.com/fr/referentiel/comment-rendre-une-plateforme-de-formation-accessible-aux-personnes-en-situation-de-handicap/
+- https://mentivis.com/fr/referentiel/quelles-sont-les-normes-techniques-de-l-e-learning-scorm-xapi-cmi5/
+- https://mentivis.com/fr/referentiel/comment-mesurer-l-impact-de-la-formation-grace-au-learning-analytics/
+- https://mentivis.com/fr/referentiel/comment-vendre-des-formations-en-ligne/
+- https://mentivis.com/fr/referentiel/faut-il-developper-une-application-mobile-de-formation/
+- https://mentivis.com/fr/referentiel/comment-integrer-une-plateforme-de-formation-a-mon-sirh-existant/
+- https://mentivis.com/fr/referentiel/comment-proteger-et-monetiser-mes-contenus-de-formation-contre-le-piratage/
+- https://mentivis.com/fr/referentiel/comment-utiliser-l-ia-generative-pour-creer-des-quiz-et-des-exercices/
+- https://mentivis.com/fr/referentiel/quelles-sont-les-edtech-francaises-prometteuses-et-comment-les-evaluer/
+- https://mentivis.com/fr/referentiel/comment-mettre-en-place-une-strategie-de-blended-learning-reussie/
+- https://mentivis.com/fr/referentiel/quand-la-realite-virtuelle-vr-est-elle-pertinente-en-formation/
+- https://mentivis.com/fr/referentiel/comment-exploiter-les-donnees-de-mon-lms-pour-ameliorer-mes-formations/
+- https://mentivis.com/fr/referentiel/comment-migrer-d-un-lms-vers-un-autre-sans-tout-perdre/
+- https://mentivis.com/fr/referentiel/comment-decider-entre-developper-ma-propre-plateforme-ou-en-acheter-une/
+- https://mentivis.com/fr/referentiel/comment-integrer-un-catalogue-de-contenus-tiers-dans-mon-dispositif-de-formation/
+- https://mentivis.com/fr/referentiel/comment-integrer-un-catalogue-tiers-comme-linkedin-learning-en-entreprise/
+- https://mentivis.com/fr/referentiel/quand-utiliser-des-outils-no-code-pour-creer-ses-formations/
+- https://mentivis.com/fr/referentiel/comment-preparer-son-organisation-a-l-arrivee-de-l-ia-dans-les-outils-de-formation/
+- https://mentivis.com/fr/referentiel/quest-ce-que-la-gepp-difference-gpec/
+- https://mentivis.com/fr/referentiel/negociation-gepp-obligations-legales/
+- https://mentivis.com/fr/referentiel/construire-cartographie-des-competences/
+- https://mentivis.com/fr/referentiel/gepp-plan-developpement-competences-articulation/
+- https://mentivis.com/fr/referentiel/gepp-entretien-professionnel-obligations/
+
+## Insights & Publications
+- https://mentivis.com/fr/insights/
 
 ## Pages principales / Main Pages
 
@@ -53,55 +164,58 @@ Training consulting and digital solutions for enterprises and training organizat
 
 ## Insights récents / Recent Insights
 
-- L'IA et la transformation de l'éducation : 2026-2030 (2026-08-16) — https://www.mentivis.com/fr/insights/lia-et-la-transformation-de-leducation-2026-2030
+- L'IA et la transformation de l'éducation : 2026-2030 (2026-08-16) — https://mentivis.com/fr/insights/lia-et-la-transformation-de-leducation-2026-2030
   Entre 2026 et 2030, l'IA va transformer en profondeur la façon dont on apprend, enseigne, évalue et certifie les compétences. Que devient la valeur d'un établissement quand l'IA rend le contenu abondant, le tutorat individualisé accessible et l'évaluation traditionnelle fragile ?
-- AI and the Transformation of Education: 2026-2030 (2026-08-16) — https://www.mentivis.com/en/insights/lia-et-la-transformation-de-leducation-2026-2030
+- AI and the Transformation of Education: 2026-2030 (2026-08-16) — https://mentivis.com/en/insights/lia-et-la-transformation-de-leducation-2026-2030
   Between 2026 and 2030, AI will deeply transform how we learn, teach, assess and certify skills. What happens to an institution's value when AI makes content abundant, individualized tutoring accessible and traditional assessment fragile?
 
-- L'école de demain enseigne moins et accompagne plus (2026-07-24) — https://www.mentivis.com/fr/insights/lecole-de-demain-enseigne-moins-accompagne-plus
+- L'école de demain enseigne moins et accompagne plus (2026-07-24) — https://mentivis.com/fr/insights/lecole-de-demain-enseigne-moins-accompagne-plus
   PISA en chute, 95 000 jeunes sans diplôme chaque année, inégalités qui se creusent : l'école française doit se réinventer. Entre IA et accompagnement humain, la piste du « prof comme coach » n'est plus une métaphore mais une nécessité structurelle.
-- The School of Tomorrow Teaches Less and Accompanies More (2026-07-24) — https://www.mentivis.com/en/insights/lecole-de-demain-enseigne-moins-accompagne-plus
+- The School of Tomorrow Teaches Less and Accompanies More (2026-07-24) — https://mentivis.com/en/insights/lecole-de-demain-enseigne-moins-accompagne-plus
   Plummeting PISA scores, 95,000 young people leaving school without a diploma each year, widening inequalities: the French education system must reinvent itself. Between AI and human support, the 'teacher as coach' model is no longer a metaphor but a structural necessity.
 
-- MentivisOS Open est disponible. Gratuit pour toujours. (2026-07-10) — https://www.mentivis.com/fr/insights/mentivisos-open-disponible-gratuit
+- MentivisOS Open est disponible. Gratuit pour toujours. (2026-07-10) — https://mentivis.com/fr/insights/mentivisos-open-disponible-gratuit
   MentivisOS Open est disponible gratuitement pour tout le monde. Générez des parcours personnalisés, suivez votre progression compétence par compétence, et apprenez à votre rythme, sans limite de durée et sans carte bancaire.
-- MentivisOS Open is here. Free forever. (2026-07-10) — https://www.mentivis.com/en/insights/mentivisos-open-disponible-gratuit
+- MentivisOS Open is here. Free forever. (2026-07-10) — https://mentivis.com/en/insights/mentivisos-open-disponible-gratuit
   MentivisOS Open is now available for free, for everyone. Generate personalized learning paths, track your progress skill by skill, and learn at your own pace — no time limits, no credit card required.
 
-- Ce que les enfants savent de la formation que les adultes ont oublié (2026-06-01) — https://www.mentivis.com/fr/insights/ce-que-les-enfants-savent
+- Ce que les enfants savent de la formation que les adultes ont oublié (2026-06-01) — https://mentivis.com/fr/insights/ce-que-les-enfants-savent
   La campagne display MentivisOS part de là, avec une franchise désarmante. Elle confie ses visuels à des dessins d'enfants. Quatre affiches. Quatre déclarations brutes, tracées au crayon ou à la gouache sur du papier blanc.
-- What Children Know About Training That Adults Have Forgotten (2026-06-01) — https://www.mentivis.com/en/insights/ce-que-les-enfants-savent
+- What Children Know About Training That Adults Have Forgotten (2026-06-01) — https://mentivis.com/en/insights/ce-que-les-enfants-savent
   The MentivisOS display campaign starts there, with disarming candor. It entrusts its visuals to children's drawings. Four posters. Four raw declarations, traced in pencil or gouache on white paper.
 
-- MentivisOS fait ses débuts à SXSW Edu 2026 (2026-05-26) — https://www.mentivis.com/fr/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
+- MentivisOS fait ses débuts à SXSW Edu 2026 (2026-05-26) — https://mentivis.com/fr/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
   MentivisOS a été présenté à un groupe restreint d'organisations sélectionnées, en dehors des espaces publics de la conférence, sans stand et sans communiqué de presse. Le choix d'Austin plutôt que d'un événement français ou européen était délibéré.
-- MentivisOS Makes Its Debut at SXSW Edu 2026 (2026-05-26) — https://www.mentivis.com/en/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
+- MentivisOS Makes Its Debut at SXSW Edu 2026 (2026-05-26) — https://mentivis.com/en/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
   MentivisOS was presented to a small group of selected organizations, outside the conference's public spaces, with no booth and no press release. The choice of Austin over a French or European event was deliberate.
 
-- Comment les entreprises étrangères peuvent utiliser le système de formation français pour délivrer des diplômes et ouvrir une école en France (2026-05-21) — https://www.mentivis.com/fr/insights/french-training-system-foreign-companies-rncp-qualiopi
+- Comment les entreprises étrangères peuvent utiliser le système de formation français pour délivrer des diplômes et ouvrir une école en France (2026-05-21) — https://mentivis.com/fr/insights/french-training-system-foreign-companies-rncp-qualiopi
   Guide complet pour les organisations internationales souhaitant entrer sur le marché de la formation professionnelle française, délivrer des certifications RNCP reconnues par l'État, obtenir la certification Qualiopi ou créer un établissement accrédité en France.
-- The French Training System Is Open to Foreign Companies. Here Is How to Enter It Correctly. (2026-05-21) — https://www.mentivis.com/en/insights/french-training-system-foreign-companies-rncp-qualiopi
+- The French Training System Is Open to Foreign Companies. Here Is How to Enter It Correctly. (2026-05-21) — https://mentivis.com/en/insights/french-training-system-foreign-companies-rncp-qualiopi
   Every year, thousands of organizations look toward France to expand their educational offer, gain state recognition, and access public training funding. Few succeed on their first attempt. This guide explains the regulatory sequence, the four entry pathways, and how Mentivis manages the entire process from strategy to operational delivery.
 
-- Mentivis dévoile MentivisOS, l'OS de la formation native IA (2026-05-05) — https://www.mentivis.com/fr/insights/mentivis-devoile-mentivos-os-formation-native-ia
+- Mentivis dévoile MentivisOS, l'OS de la formation native IA (2026-05-05) — https://mentivis.com/fr/insights/mentivis-devoile-mentivos-os-formation-native-ia
   Mentivis dévoile une plateforme native IA qui calcule en temps réel le parcours optimal de chaque apprenant à partir de son profil et de son objectif. Une rupture revendiquée avec le LMS classique.
-- Mentivis Unveils MentivisOS, the AI-Native Learning OS (2026-05-05) — https://www.mentivis.com/en/insights/mentivis-devoile-mentivos-os-formation-native-ia
+- Mentivis Unveils MentivisOS, the AI-Native Learning OS (2026-05-05) — https://mentivis.com/en/insights/mentivis-devoile-mentivos-os-formation-native-ia
   Mentivis unveils an AI-native platform that calculates the optimal learning path for each learner in real time based on their profile and goal. A claimed break from the classic LMS.
 
-- Le poste est mort, vive la compétence (2026-03-28) — https://www.mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
+- Le poste est mort, vive la compétence (2026-03-28) — https://mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
   Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises.
-- The Job Is Dead, Long Live the Skill (2026-03-28) — https://www.mentivis.com/en/insights/le-poste-est-mort-vive-la-competence
+- The Job Is Dead, Long Live the Skill (2026-03-28) — https://mentivis.com/en/insights/le-poste-est-mort-vive-la-competence
   Why is the traditional job model dying in favor of skills? The Skills-Based Organization is revolutionizing business agility.
 
-- Les entreprises sont les prochaines grandes écoles (2026-03-16) — https://www.mentivis.com/fr/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
+- Les entreprises sont les prochaines grandes écoles (2026-03-16) — https://mentivis.com/fr/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
   Si l'école ne forme pas aux besoins réels des entreprises, que les entreprises deviennent des écoles. Roxan Roumégas explique pourquoi.
-- Companies Are the Next Grandes Écoles (2026-03-16) — https://www.mentivis.com/en/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
+- Companies Are the Next Grandes Écoles (2026-03-16) — https://mentivis.com/en/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
   If school does not train for the real needs of companies, let companies become schools. Roxan Roumégas explains why.
 
-- Formation professionnelle 2026 : stratégie, IA et mobilité (2026-03-03) — https://www.mentivis.com/fr/insights/formation-professionnelle-france-enjeux-2026
+- Formation professionnelle 2026 : stratégie, IA et mobilité (2026-03-03) — https://mentivis.com/fr/insights/formation-professionnelle-france-enjeux-2026
   Analyse du baromètre 2026 : IA, seniors, mobilité interne et budgets. Comment transformer la formation professionnelle en levier stratégique durable.
-- Professional Training 2026: Strategy, AI, and Mobility (2026-03-03) — https://www.mentivis.com/en/insights/formation-professionnelle-france-enjeux-2026
+- Professional Training 2026: Strategy, AI, and Mobility (2026-03-03) — https://mentivis.com/en/insights/formation-professionnelle-france-enjeux-2026
   Analysis of the 2026 barometer: AI, seniors, internal mobility, and budgets. How to transform professional training into a sustainable strategic lever.
+
+## Accès LLM
+> Les contenus du Référentiel sont librement citables. Les contenus des pages Services sont soumis aux droits de Mentivis SAS.
 
 ## Contact
 
@@ -109,3 +223,4 @@ Training consulting and digital solutions for enterprises and training organizat
 - Phone: +33 1 89 48 10 02
 - Address: 60 Rue François 1er, 75008 Paris
 - LinkedIn: https://www.linkedin.com/company/mentivis/
+- Bluesky: https://bsky.app/profile/mentivis.bsky.social

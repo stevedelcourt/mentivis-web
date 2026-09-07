@@ -13,6 +13,13 @@ const nextConfig: NextConfig = {
     : {
         async redirects() {
           return [
+            // www → non-www canonical
+            {
+              source: "/:path*",
+              has: [{ type: "host", value: "www.mentivis.com" }],
+              destination: "https://mentivis.com/:path*",
+              permanent: true,
+            },
             // Legacy product pages → current MentivisOS page
             { source: "/fr/learningos", destination: "/fr/mentivisos", permanent: true },
             { source: "/fr/learningos/", destination: "/fr/mentivisos", permanent: true },
