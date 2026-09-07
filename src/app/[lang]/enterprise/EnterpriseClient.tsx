@@ -42,6 +42,23 @@ export default function EnterpriseClient() {
         </Link>
       </ImageHero>
 
+      <section style={{ padding: "60px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
+        <div className="container" style={{ maxWidth: 780 }}>
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "0 0 12px", color: "var(--m-ink)" }}>
+            {lang === "fr" ? "Vous envisagez une école interne ou université d'entreprise ?" : "Considering a corporate academy or university?"}
+          </h2>
+          <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: "0 0 16px" }}>
+            {lang === "fr"
+              ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie des référentiels, certification RNCP, financement OPCO et déploiement jusqu'à la première promotion."
+              : "Mentivis designs and runs corporate academies and universities: competency frameworks, RNCP certification, OPCO funding and deployment through first cohort."}
+          </p>
+          <Link href={`/${lang}/ecole-entreprise/`} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
+            {lang === "fr" ? "Découvrir notre offre école pour entreprises" : "Discover our corporate academy offering"}
+            <Icon name="chevron_right" size={16} />
+          </Link>
+        </div>
+      </section>
+
       <section style={{ padding: "80px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80 }} className="m-split-grid">

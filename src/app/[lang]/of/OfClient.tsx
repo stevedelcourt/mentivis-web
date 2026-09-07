@@ -46,6 +46,23 @@ export default function OfClient() {
         </Link>
       </ImageHero>
 
+      <section style={{ padding: "60px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
+        <div className="container" style={{ maxWidth: 780 }}>
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "0 0 12px", color: "var(--m-ink)" }}>
+            {lang === "fr" ? "Vous portez un projet de création ?" : "Starting a new training organization?"}
+          </h2>
+          <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: "0 0 16px" }}>
+            {lang === "fr"
+              ? "Mentivis accompagne la création d'organismes de formation de A à Z : première convention, déclaration DREETS, certification Qualiopi et modèle économique jusqu'à la première promotion. Un parcours opéré, pas seulement conseillé."
+              : "Mentivis supports training organization creation end-to-end: first agreement, DREETS declaration, Qualiopi certification and business model through first cohort — operated, not just advised."}
+          </p>
+          <Link href={`/${lang}/creation-organisme-formation/`} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
+            {lang === "fr" ? "En savoir plus sur notre accompagnement à la création d'organisme de formation" : "Learn more about our training organization creation support"}
+            <Icon name="chevron_right" size={16} />
+          </Link>
+        </div>
+      </section>
+
       <section className="section" id="pillars">
         <div className="container">
           <SectionHeader eyebrow={lang === "fr" ? "Pôles d'intervention" : "Pillars"} title={o.pillarsTitle} lead={o.pillarsLead} />

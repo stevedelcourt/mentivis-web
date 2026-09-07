@@ -82,6 +82,23 @@ export default function HomeClient() {
         }}
       />
 
+      <section style={{ padding: "60px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)", borderBottom: "1px solid var(--m-line)" }}>
+        <div className="container" style={{ maxWidth: 780 }}>
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "0 0 12px", color: "var(--m-ink)" }}>
+            {lang === "fr" ? "Un cabinet conseil dédié à la formation professionnelle" : "A consulting firm dedicated to professional training"}
+          </h2>
+          <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: "0 0 16px" }}>
+            {lang === "fr"
+              ? "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Pas de slideware : nous opérons jusqu'au résultat — certification obtenue, première promotion lancée, organisation en ordre de marche. Découvrez notre approche cabinet conseil."
+              : "Mentivis is exclusively focused on training and education. We operate through to results — certification achieved, first cohort launched, organization operational."}
+          </p>
+          <Link href={`/${lang}/cabinet-conseil-formation/`} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
+            {lang === "fr" ? "Découvrir notre cabinet conseil en formation" : "Discover our training consulting firm"}
+            <Icon name="chevron_right" size={16} />
+          </Link>
+        </div>
+      </section>
+
       <div className="container"><div className="rule" /></div>
 
       <section className="section">
