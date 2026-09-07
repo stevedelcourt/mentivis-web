@@ -18,6 +18,7 @@ const STATIC_PAGES = [
   { path: "mentivisos", priority: 0.8, changeFrequency: "monthly" as const },
 
   { path: "insights", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "referentiel", priority: 0.8, changeFrequency: "weekly" as const },
   { path: "privacy", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "terms", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "cgv", priority: 0.3, changeFrequency: "yearly" as const },
@@ -31,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of STATIC_PAGES) {
       entries.push({
         url: `${BASE_URL}/${lang}${page.path ? `/${page.path}` : ''}/`,
-        lastModified: new Date(),
+        lastModified: new Date("2026-09-07"),
         changeFrequency: page.changeFrequency,
         priority: page.priority,
       });
@@ -56,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       if (article.lang !== lang) continue;
       entries.push({
         url: `${BASE_URL}/${lang}/referentiel/${article.slug}/`,
-        lastModified: new Date(),
+        lastModified: new Date("2026-09-07"),
         changeFrequency: "monthly",
         priority: 0.6,
       });
@@ -69,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const { videos } = videoData[lang as keyof typeof videoData];
     entries.push({
       url: `${BASE_URL}/${lang}/videos/`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-09-07"),
       changeFrequency: "monthly",
       priority: 0.5,
       videos: videos
