@@ -19,6 +19,9 @@ const STATIC_PAGES = [
 
   { path: "insights", priority: 0.8, changeFrequency: "weekly" as const },
   { path: "referentiel", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "creation-organisme-formation", priority: 0.9, changeFrequency: "monthly" as const },
+  { path: "ecole-entreprise", priority: 0.9, changeFrequency: "monthly" as const },
+  { path: "cabinet-conseil-formation", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "privacy", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "terms", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "cgv", priority: 0.3, changeFrequency: "yearly" as const },

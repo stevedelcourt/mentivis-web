@@ -1,3 +1,4 @@
+"use client";
 import { ReactNode } from "react";
 import TopNav from "../TopNav";
 import Footer from "../Footer";
