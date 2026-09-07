@@ -25,7 +25,7 @@ export default function ImageHero({ image, eyebrow, title, lead, children }: Ima
     >
       <Image
         src={image}
-        alt="Cabinet conseil en formation professionnelle Mentivis — accompagnement organismes de formation et entreprises"
+        alt="Cabinet conseil en formation professionnelle Mentivis - accompagnement organismes de formation et entreprises"
         fill
         priority
         sizes="100vw"

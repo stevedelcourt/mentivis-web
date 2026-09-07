@@ -13,12 +13,12 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Cabinet conseil en formation professionnelle — Mentivis" : "Training consulting firm — Mentivis",
+    title: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
     description: isFr
       ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel. Spécialiste, pas généraliste. Rémunération aux résultats."
       : "Mentivis, consulting firm dedicated to professional training: strategy, engineering, operational deployment. Specialist, results-based.",
     openGraph: {
-      title: isFr ? "Cabinet conseil en formation professionnelle — Mentivis" : "Training consulting firm — Mentivis",
+      title: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
       description: isFr
         ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel. Spécialiste, pas généraliste."
         : "Mentivis, consulting firm dedicated to professional training: strategy, engineering, operational deployment.",
@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         data={{
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: isFr ? "Cabinet conseil en formation professionnelle — Mentivis" : "Training consulting firm — Mentivis",
+          name: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
           description: isFr ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel." : "Mentivis, consulting firm dedicated to professional training.",
           url: `https://mentivis.com/${lang}/cabinet-conseil-formation/`,
           provider: { "@type": "Organization", name: "Mentivis", url: "https://mentivis.com/fr/" },
@@ -65,8 +65,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           </h1>
           <p style={{ fontSize: 18, lineHeight: 1.6, color: "var(--m-ink-3)", margin: "0 0 40px" }}>
             {isFr
-              ? "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Pas de slideware : nous opérons jusqu'au résultat — certification obtenue, première promotion lancée."
-              : "Mentivis is exclusively focused on training and education. We operate through to results — certification achieved, first cohort launched."}
+              ? "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Pas de slideware : nous opérons jusqu'au résultat - certification obtenue, première promotion lancée."
+              : "Mentivis is exclusively focused on training and education. We operate through to results - certification achieved, first cohort launched."}
           </p>
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Pourquoi un cabinet spécialiste plutôt que généraliste" : "Why a specialist firm"}</h2>
@@ -86,7 +86,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Nous confier votre projet" : "Entrust us with your project"}</h2>
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
-            <a href={`/${lang}/contact`}>{isFr ? "Parler à un consultant" : "Talk to a consultant"}</a> — {isFr ? "premier échange sans engagement." : "first call free."}
+            <a href={`/${lang}/contact`}>{isFr ? "Parler à un consultant" : "Talk to a consultant"}</a> - {isFr ? "premier échange sans engagement." : "first call free."}
           </p>
         </section>
       </PageShell>

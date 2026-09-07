@@ -13,12 +13,12 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "École pour entreprises et université d'entreprise — Mentivis" : "Corporate academy and corporate university — Mentivis",
+    title: isFr ? "École pour entreprises et université d'entreprise - Mentivis" : "Corporate academy and corporate university - Mentivis",
     description: isFr
       ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie pédagogique, certification RNCP, déploiement opérationnel. Spécialiste formation pour entreprises."
       : "Mentivis designs and runs corporate academies and universities: learning engineering, RNCP certification, operational deployment. Enterprise training specialist.",
     openGraph: {
-      title: isFr ? "École pour entreprises et université d'entreprise — Mentivis" : "Corporate academy and corporate university — Mentivis",
+      title: isFr ? "École pour entreprises et université d'entreprise - Mentivis" : "Corporate academy and corporate university - Mentivis",
       description: isFr
         ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie pédagogique, certification RNCP, déploiement opérationnel."
         : "Mentivis designs and runs corporate academies and universities: learning engineering, RNCP certification, operational deployment.",
@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         data={{
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: isFr ? "Création d'école interne et université d'entreprise — Mentivis" : "Corporate academy and university creation — Mentivis",
+          name: isFr ? "Création d'école interne et université d'entreprise - Mentivis" : "Corporate academy and university creation - Mentivis",
           description: isFr
             ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie des référentiels de compétences, certification RNCP, déploiement opérationnel."
             : "Mentivis designs and runs corporate academies and universities: competency frameworks, RNCP certification, operational deployment.",
@@ -150,7 +150,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
             {isFr
               ? "Stratégie (cartographie des compétences, GEPP), ingénierie (référentiels, programmes, évaluations), certification (RNCP/Qualiopi si OF interne), outillage (LMS, SIRH), financement (OPCO, CPF, taxe d'apprentissage), opérationnel (recrutement formateurs, planning, première promotion). Opéré, pas seulement conseillé."
-              : "Strategy, engineering, certification, tooling, funding and operations — operated, not just advised."}
+              : "Strategy, engineering, certification, tooling, funding and operations - operated, not just advised."}
           </p>
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Financement et dispositifs mobilisables" : "Funding"}</h2>
@@ -165,7 +165,28 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
             <li><a href={`/${lang}/referentiel/comment-developper-une-activite-de-formation-en-entreprise-intra/`}>Comment développer une activité de formation en entreprise (intra)</a></li>
             <li><a href={`/${lang}/referentiel/comment-construire-un-plan-de-developpement-des-competences-efficace/`}>Comment construire un plan de développement des compétences efficace</a></li>
             <li><a href={`/${lang}/referentiel/comment-piloter-la-formation-dans-un-groupe-multi-sites-ou-international/`}>Comment piloter la formation dans un groupe multi-sites</a></li>
+            <li><a href={`/${lang}/referentiel/quest-ce-que-la-gepp-difference-gpec/`}>Qu'est-ce que la GEPP, différence avec la GPEC</a></li>
           </ul>
+
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Questions fréquentes" : "FAQ"}</h2>
+          <div style={{ display: "grid", gap: 24 }}>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Pourquoi une entreprise crée-t-elle sa propre école interne ?" : "Why does a company create its own corporate academy?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "Pour sécuriser les compétences critiques non disponibles sur le marché, réduire le turnover en offrant des parcours certifiants, et transformer la formation en levier de performance opérationnelle plutôt qu'en centre de coûts." : "To secure critical skills not available on the market, reduce turnover with certifying pathways, and turn training into operational performance."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Quelle différence entre école interne, campus corporate et université d'entreprise ?" : "What is the difference between internal school, corporate campus and corporate university?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "L'école interne forme à un métier ou une filière, le campus corporate mutualise plusieurs parcours pour un groupe, l'université d'entreprise structure une offre certifiante et diplômante à l'échelle du groupe avec gouvernance, référentiels et financements OPCO." : "Internal school trains for a specific role, corporate campus pools multiple pathways, corporate university structures certifying provision at group scale with governance and funding."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Quels financements mobiliser pour une école entreprise ?" : "Which funding can be mobilized for a corporate academy?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "OPCO (plan de développement des compétences, alternance), CPF (si certification RNCP/RS), FSE, et taxe d'apprentissage via CFA interne. Mentivis optimise le montage financier et sécurise la conformité." : "OPCO, CPF if RNCP-certified, ESF and apprenticeship tax via internal CFA. Mentivis optimizes the funding mix and compliance."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Combien de temps pour créer une école interne opérationnelle ?" : "How long to create an operational corporate academy?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "De 4 à 9 mois selon le périmètre : ingénierie des référentiels, certification RNCP si visée, outillage LMS, recrutement des formateurs et première promotion." : "4 to 9 months depending on scope: framework engineering, RNCP certification if needed, LMS tooling, trainer recruitment and first cohort."}</p>
+            </div>
+          </div>
         </section>
       </PageShell>
     </>

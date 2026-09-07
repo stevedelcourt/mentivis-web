@@ -14,15 +14,15 @@ export async function generateMetadata({
   const isFr = lang === "fr";
   return {
     title: isFr
-      ? "Créer un organisme de formation : accompagnement Qualiopi et structuration — Mentivis"
-      : "Create a training organization: Qualiopi support and structuring — Mentivis",
+      ? "Créer un organisme de formation : accompagnement Qualiopi et structuration - Mentivis"
+      : "Create a training organization: Qualiopi support and structuring - Mentivis",
     description: isFr
       ? "Mentivis accompagne la création d'organismes de formation de A à Z : déclaration DREETS, certification Qualiopi, modèle économique et premier déploiement commercial. Cabinet conseil spécialisé, rémunération aux résultats."
       : "Mentivis supports the creation of training organizations end-to-end: DREETS declaration, Qualiopi certification, business model and go-to-market. Specialized consulting, results-based fees.",
     openGraph: {
       title: isFr
-        ? "Créer un organisme de formation : accompagnement Qualiopi et structuration — Mentivis"
-        : "Create a training organization: Qualiopi support and structuring — Mentivis",
+        ? "Créer un organisme de formation : accompagnement Qualiopi et structuration - Mentivis"
+        : "Create a training organization: Qualiopi support and structuring - Mentivis",
       description: isFr
         ? "Mentivis accompagne la création d'organismes de formation de A à Z : déclaration DREETS, certification Qualiopi, modèle économique et premier déploiement commercial."
         : "Mentivis supports the creation of training organizations end-to-end: DREETS declaration, Qualiopi certification, business model and go-to-market.",
@@ -46,7 +46,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         data={{
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: isFr ? "Création et structuration d'organismes de formation — Mentivis" : "Creation and structuring of training organizations — Mentivis",
+          name: isFr ? "Création et structuration d'organismes de formation - Mentivis" : "Creation and structuring of training organizations - Mentivis",
           description: isFr
             ? "Mentivis accompagne la création d'organismes de formation de A à Z : déclaration DREETS, certification Qualiopi, modèle économique et déploiement commercial."
             : "Mentivis supports the creation of training organizations end-to-end: DREETS declaration, Qualiopi certification, business model and commercial deployment.",
@@ -144,7 +144,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
             {isFr
               ? "Mentivis prend en charge la définition du projet pédagogique (positionnement, cibles, référentiels, modalités), la structuration juridique et administrative (statuts, déclaration d'activité, convention de formation, CGV), la mise en conformité Qualiopi (processus, indicateurs, preuves), la construction du modèle économique (coût pédagogique, prix, financement) et le déploiement commercial (offre, canaux, première promotion). Chaque lot est opéré, pas seulement conseillé."
-              : "Mentivis covers pedagogical design, legal and administrative setup, Qualiopi compliance, business modeling and commercial deployment — operated end-to-end."}
+              : "Mentivis covers pedagogical design, legal and administrative setup, Qualiopi compliance, business modeling and commercial deployment - operated end-to-end."}
           </p>
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Les étapes clés : de la déclaration à la première promotion" : "Key steps: from declaration to first cohort"}</h2>
@@ -167,14 +167,29 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
             <li><a href={`/${lang}/referentiel/comment-declarer-son-activite-de-formation-professionnelle/`}>Comment déclarer son activité de formation professionnelle</a></li>
             <li><a href={`/${lang}/referentiel/comment-creer-un-cfa-en-france-en-2026/`}>Comment créer un CFA en France en 2026</a></li>
             <li><a href={`/${lang}/referentiel/comment-creer-un-programme-de-formation-conforme-qualiopi/`}>Comment créer un programme de formation conforme Qualiopi</a></li>
+            <li><a href={`/${lang}/referentiel/comment-construire-un-referentiel-de-formation-de-a-a-z/`}>Comment construire un référentiel de formation de A à Z</a></li>
+            <li><a href={`/${lang}/referentiel/comment-preparer-et-reussir-un-audit-de-renouvellement-qualiopi/`}>Comment préparer et réussir un audit de renouvellement Qualiopi</a></li>
           </ul>
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Questions fréquentes" : "FAQ"}</h2>
-          <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
-            {isFr
-              ? "Retrouvez les réponses détaillées ci-dessus dans le bloc FAQ structuré pour les moteurs de recherche. Un premier échange permet de cadrer périmètre, calendrier et coût."
-              : "Detailed answers are in the structured FAQ above. A first call scopes perimeter, timeline and cost."}
-          </p>
+          <div style={{ display: "grid", gap: 24 }}>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Quelles sont les étapes pour créer un organisme de formation en France ?" : "What are the steps to create a training organization in France?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "Créer un organisme de formation suppose de réaliser une première convention de formation, de déposer la déclaration d'activité auprès de la DREETS dans les trois mois, d'obtenir le numéro de déclaration d'activité, puis d'engager la démarche Qualiopi si l'accès aux fonds publics et mutualisés est visé. La certification Qualiopi est obligatoire depuis le 1er janvier 2022 pour accéder aux financements OPCO, CPF, France Travail et régions." : "Creating a training organization requires a first training agreement, filing the activity declaration with the DREETS within three months, obtaining the activity number, then starting the Qualiopi process if public funding is targeted. Qualiopi has been mandatory since January 1, 2022 to access OPCO, CPF and public funding."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Combien de temps faut-il pour obtenir la certification Qualiopi ?" : "How long does it take to obtain Qualiopi certification?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "La démarche Qualiopi prend en moyenne trois à six mois entre l'engagement de la préparation et la délivrance de la certification, selon la maturité documentaire de l'organisme. Un audit blanc préalable permet d'identifier les non-conformités et de construire un plan d'action ciblé avant l'audit officiel." : "The Qualiopi process takes on average three to six months from preparation to certification, depending on the organization's documentary maturity. A mock audit helps identify non-conformities beforehand."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Mentivis accompagne-t-il uniquement les nouvelles structures ou aussi les OF existants ?" : "Does Mentivis support only new structures or also existing training organizations?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "Mentivis intervient à toutes les étapes : création de A à Z pour les porteurs de projet, structuration et mise en conformité Qualiopi pour les OF existants, et développement commercial pour les organismes en phase de croissance." : "Mentivis intervenes at every stage: end-to-end creation for project holders, structuring and Qualiopi compliance for existing training organizations, and commercial development for scaling organizations."}</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 8px", color: "var(--m-ink)" }}>{isFr ? "Quel est le coût d'un accompagnement Qualiopi avec Mentivis ?" : "What is the cost of Qualiopi support with Mentivis?"}</h3>
+              <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: 0 }}>{isFr ? "Le modèle tarifaire de Mentivis intègre une part fixe de structuration et une part variable alignée sur les résultats : certification obtenue, apprenants recrutés. Le premier échange est sans engagement et permet de cadrer précisément le périmètre et le coût de la mission." : "Mentivis pricing includes a fixed structuring part and a variable part aligned with results: certification obtained, learners recruited. The first exchange is non-binding."}</p>
+            </div>
+          </div>
         </section>
       </PageShell>
     </>
