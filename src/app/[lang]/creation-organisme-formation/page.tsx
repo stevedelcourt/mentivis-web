@@ -161,7 +161,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
               : "Project holders, existing OFs seeking Qualiopi compliance or renewal, new CFA, corporate training units, and scaling organizations. Client case Ecolearn: Qualiopi first time, +85% revenue in 12 months."}
           </p>
 
-          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Guides pratiques" : "Practical guides"}</h2>
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Articles pratiques" : "Practical articles"}</h2>
           <ul style={{ lineHeight: 1.7 }}>
             <li><a href={`/${lang}/referentiel/comment-obtenir-la-certification-qualiopi/`}>Comment obtenir la certification Qualiopi</a></li>
             <li><a href={`/${lang}/referentiel/comment-declarer-son-activite-de-formation-professionnelle/`}>Comment déclarer son activité de formation professionnelle</a></li>

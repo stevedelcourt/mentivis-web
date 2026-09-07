@@ -160,7 +160,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
               : "Skills development plan, apprenticeships, CPF if RNCP, ESF, apprenticeship tax via internal CFA. Mentivis handles the funding mix and compliance."}
           </p>
 
-          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Guides pratiques" : "Practical guides"}</h2>
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Articles pratiques" : "Practical articles"}</h2>
           <ul style={{ lineHeight: 1.7 }}>
             <li><a href={`/${lang}/referentiel/comment-developper-une-activite-de-formation-en-entreprise-intra/`}>Comment développer une activité de formation en entreprise (intra)</a></li>
             <li><a href={`/${lang}/referentiel/comment-construire-un-plan-de-developpement-des-competences-efficace/`}>Comment construire un plan de développement des compétences efficace</a></li>
