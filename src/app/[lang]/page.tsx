@@ -4,10 +4,6 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import HomeClient from "./HomeClient";
 import { SITE } from "@/lib/config";
-import fr from "@/messages/fr.json";
-import en from "@/messages/en.json";
-
-const ALL_MESSAGES = { fr, en } as const;
 
 export async function generateMetadata({
   params,
@@ -35,7 +31,12 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
           "@id": `${SITE.baseUrl}/#organization`,
           name: SITE.name,
           url: SITE.baseUrl,
-          logo: `${SITE.baseUrl}/images/ui/logo-dark.svg`,
+          logo: {
+            "@type": "ImageObject",
+            url: "https://mentivis.com/images/mentivis-logo-400x400.png",
+            width: 512,
+            height: 512,
+          },
           sameAs: [SITE.linkedin, SITE.instagram, SITE.bluesky],
           contactPoint: {
             "@type": "ContactPoint",
@@ -65,8 +66,18 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
           "@id": `${SITE.baseUrl}/#localbusiness`,
           name: SITE.name,
           url: SITE.baseUrl,
-          logo: `${SITE.baseUrl}/images/ui/logo-dark.svg`,
-          image: `${SITE.baseUrl}/images/ui/logo-dark.svg`,
+          logo: {
+            "@type": "ImageObject",
+            url: "https://mentivis.com/images/mentivis-logo-400x400.png",
+            width: 512,
+            height: 512,
+          },
+          image: {
+            "@type": "ImageObject",
+            url: "https://mentivis.com/images/mentivis-logo-400x400.png",
+            width: 512,
+            height: 512,
+          },
           telephone: SITE.phone,
           email: SITE.email,
           address: {
@@ -89,18 +100,52 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
           },
           sameAs: [SITE.linkedin, SITE.instagram, SITE.bluesky],
         },
-        (() => {
-          const m = ALL_MESSAGES.fr;
-          return {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: m.home.faq.items.map((item: { question: string; answer: string }) => ({
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
               "@type": "Question",
-              name: item.question,
-              acceptedAnswer: { "@type": "Answer", text: item.answer },
-            })),
-          };
-        })(),
+              name: "Qu'est-ce qu'un cabinet conseil en formation professionnelle ?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Un cabinet conseil en formation professionnelle accompagne les entreprises et les organismes dans la conception, la structuration et le pilotage de leurs dispositifs de formation. Il intervient sur la stratégie, la conformité réglementaire (Qualiopi, RNCP), l'ingénierie pédagogique et le déploiement opérationnel.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Mentivis accompagne-t-il la création d'un organisme de formation de A à Z ?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Oui. Mentivis prend en charge l'intégralité du parcours : définition du projet pédagogique, structuration juridique et administrative, déclaration auprès de la DREETS, obtention de la certification Qualiopi, mise en place des process opérationnels et premier déploiement commercial.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Mentivis peut-il aider une entreprise à créer son école interne ou son université d'entreprise ?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Oui. Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie des référentiels de compétences, certification des parcours (RNCP, Qualiopi), intégration aux dispositifs de financement OPCO et déploiement opérationnel jusqu'à la première promotion.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Comment Mentivis facture-t-il ses missions ?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Le modèle de rémunération de Mentivis intègre une part variable alignée sur les résultats obtenus : alternants recrutés, apprenants formés, certification obtenue. Cette structure garantit la convergence d'intérêts entre le cabinet et le client.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Quelle est la différence entre Mentivis et un cabinet de conseil généraliste ?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Contrairement à un cabinet généraliste dont la mission s'arrête à la remise de livrables, Mentivis assure le déploiement opérationnel jusqu'au résultat : certification obtenue, première promotion lancée, organisation en ordre de marche.",
+              },
+            },
+          ],
+        },
       ]} />
       <BreadcrumbJsonLd items={[
         { name: "Accueil", url: "https://mentivis.com/fr/" }

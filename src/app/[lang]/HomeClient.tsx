@@ -46,18 +46,7 @@ export default function HomeClient() {
         image: `${SITE.baseUrl}/images/heroes/two-women.avif`,
         inLanguage: lang === "fr" ? "fr-FR" : "en-US",
       }} />
-      <JsonLd data={{
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: h.faq.items.map((item: { question: string; answer: string }) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: item.answer,
-          },
-        })),
-      }} />
+
       <ImageHero
         image="/images/heroes/two-women.avif"
         eyebrow={h.eyebrow}
