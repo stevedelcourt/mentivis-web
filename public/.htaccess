@@ -4,6 +4,10 @@
 # AVIF image format support
 AddType image/avif .avif
 
+# UTF-8 for llms.txt and other text files (prevent FranÃ§ais / â€” mojibake)
+AddCharset UTF-8 .txt
+AddType text/plain; charset=utf-8 .txt
+
 # Disable directory listing
 Options -Indexes
 

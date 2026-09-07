@@ -1,4 +1,4 @@
-# Mentivis — Cabinet conseil en formation professionnelle
+# Mentivis - Cabinet conseil en formation professionnelle
 > Mentivis est un cabinet conseil spécialisé dans la création, la structuration et le développement d'organismes de formation, d'écoles pour entreprises et de dispositifs de formation professionnelle. Basé à Paris, actif en France et à l'international.
 
 ## Services
@@ -118,100 +118,100 @@
 
 ### Français
 
-- /fr/ — Accueil Mentivis
-- /fr/about — À propos de Mentivis
-- /fr/ambassadors — Programme Ambassadeurs Mentivis
-- /fr/enterprise — Conseil en formation pour entreprises
-- /fr/of — Conseil pour organismes de formation
-- /fr/solutions — Solutions digitales (conception d'outils sur mesure, développement spécifique, IA)
-- /fr/mentivisos — MentivisOS, la plateforme pédagogique IA
-- /fr/contact — Contact et demande de diagnostic
-- /fr/insights — Publications et perspectives
-- /fr/guides — Guides pratiques BPF, CPF, POEI
-- /fr/score-formation — Évaluez votre dispositif de formation
-- /fr/careers — Rejoindre l'équipe Mentivis
-- /fr/meeting — Prendre rendez-vous
-- /fr/videos — Vidéos Mentivis
+- /fr/ - Accueil Mentivis
+- /fr/about - À propos de Mentivis
+- /fr/ambassadors - Programme Ambassadeurs Mentivis
+- /fr/enterprise - Conseil en formation pour entreprises
+- /fr/of - Conseil pour organismes de formation
+- /fr/solutions - Solutions digitales (conception d'outils sur mesure, développement spécifique, IA)
+- /fr/mentivisos - MentivisOS, la plateforme pédagogique IA
+- /fr/contact - Contact et demande de diagnostic
+- /fr/insights - Publications et perspectives
+- /fr/guides - Guides pratiques BPF, CPF, POEI
+- /fr/score-formation - Évaluez votre dispositif de formation
+- /fr/careers - Rejoindre l'équipe Mentivis
+- /fr/meeting - Prendre rendez-vous
+- /fr/videos - Vidéos Mentivis
 
 ### English
 
-- /en/ — Mentivis Home
-- /en/about — About Mentivis
-- /en/ambassadors — Mentivis Ambassador Program
-- /en/enterprise — Enterprise training consulting
-- /en/of — Training organization consulting
-- /en/solutions — Digital solutions (custom tool design, specific development, AI)
-- /en/mentivisos — MentivisOS, the AI-native learning platform
-- /en/contact — Contact and diagnostic request
-- /en/insights — Insights and perspectives
-- /en/guides — Reference guides BPF, CPF, POEI
-- /en/score-formation — Score Formation diagnostic
-- /en/careers — Join the Mentivis team
-- /en/meeting — Book a meeting
-- /en/videos — Mentivis Videos
+- /en/ - Mentivis Home
+- /en/about - About Mentivis
+- /en/ambassadors - Mentivis Ambassador Program
+- /en/enterprise - Enterprise training consulting
+- /en/of - Training organization consulting
+- /en/solutions - Digital solutions (custom tool design, specific development, AI)
+- /en/mentivisos - MentivisOS, the AI-native learning platform
+- /en/contact - Contact and diagnostic request
+- /en/insights - Insights and perspectives
+- /en/guides - Reference guides BPF, CPF, POEI
+- /en/score-formation - Score Formation diagnostic
+- /en/careers - Join the Mentivis team
+- /en/meeting - Book a meeting
+- /en/videos - Mentivis Videos
 
 ## Cas clients / Client Cases
 
 ### Entreprises / Enterprise
 
-- Réseau immobilier international — Étude Go/NoGo pour 2 dispositifs de formation (Start Immo + BTS alternance). Budget: 9.9k €, 6 semaines.
-- Éditeur de logiciels métiers — Création et déploiement de 3 centres de formation (Nice, Lyon, Bordeaux). Budget: ~2.2 M€, 3 ans.
+- Réseau immobilier international - Étude Go/NoGo pour 2 dispositifs de formation (Start Immo + BTS alternance). Budget: 9.9k €, 6 semaines.
+- Éditeur de logiciels métiers - Création et déploiement de 3 centres de formation (Nice, Lyon, Bordeaux). Budget: ~2.2 M€, 3 ans.
 
 ### Organismes de formation / Training Organizations
 
-- PSH Sup — Externalisation opérationnelle complète (administratif, relations entreprises, marketing). Contrat 3 ans.
-- Ecolearn — Structuration Qualiopi et croissance (+85% CA, 480 apprenants). Budget: 14.5k € + 3.5k €/mois.
+- PSH Sup - Externalisation opérationnelle complète (administratif, relations entreprises, marketing). Contrat 3 ans.
+- Ecolearn - Structuration Qualiopi et croissance (+85% CA, 480 apprenants). Budget: 14.5k € + 3.5k €/mois.
 
 ## Insights récents / Recent Insights
 
-- L'IA et la transformation de l'éducation : 2026-2030 (2026-08-16) — https://mentivis.com/fr/insights/lia-et-la-transformation-de-leducation-2026-2030
+- L'IA et la transformation de l'éducation : 2026-2030 (2026-08-16) - https://mentivis.com/fr/insights/lia-et-la-transformation-de-leducation-2026-2030
   Entre 2026 et 2030, l'IA va transformer en profondeur la façon dont on apprend, enseigne, évalue et certifie les compétences. Que devient la valeur d'un établissement quand l'IA rend le contenu abondant, le tutorat individualisé accessible et l'évaluation traditionnelle fragile ?
-- AI and the Transformation of Education: 2026-2030 (2026-08-16) — https://mentivis.com/en/insights/lia-et-la-transformation-de-leducation-2026-2030
+- AI and the Transformation of Education: 2026-2030 (2026-08-16) - https://mentivis.com/en/insights/lia-et-la-transformation-de-leducation-2026-2030
   Between 2026 and 2030, AI will deeply transform how we learn, teach, assess and certify skills. What happens to an institution's value when AI makes content abundant, individualized tutoring accessible and traditional assessment fragile?
 
-- L'école de demain enseigne moins et accompagne plus (2026-07-24) — https://mentivis.com/fr/insights/lecole-de-demain-enseigne-moins-accompagne-plus
+- L'école de demain enseigne moins et accompagne plus (2026-07-24) - https://mentivis.com/fr/insights/lecole-de-demain-enseigne-moins-accompagne-plus
   PISA en chute, 95 000 jeunes sans diplôme chaque année, inégalités qui se creusent : l'école française doit se réinventer. Entre IA et accompagnement humain, la piste du « prof comme coach » n'est plus une métaphore mais une nécessité structurelle.
-- The School of Tomorrow Teaches Less and Accompanies More (2026-07-24) — https://mentivis.com/en/insights/lecole-de-demain-enseigne-moins-accompagne-plus
+- The School of Tomorrow Teaches Less and Accompanies More (2026-07-24) - https://mentivis.com/en/insights/lecole-de-demain-enseigne-moins-accompagne-plus
   Plummeting PISA scores, 95,000 young people leaving school without a diploma each year, widening inequalities: the French education system must reinvent itself. Between AI and human support, the 'teacher as coach' model is no longer a metaphor but a structural necessity.
 
-- MentivisOS Open est disponible. Gratuit pour toujours. (2026-07-10) — https://mentivis.com/fr/insights/mentivisos-open-disponible-gratuit
+- MentivisOS Open est disponible. Gratuit pour toujours. (2026-07-10) - https://mentivis.com/fr/insights/mentivisos-open-disponible-gratuit
   MentivisOS Open est disponible gratuitement pour tout le monde. Générez des parcours personnalisés, suivez votre progression compétence par compétence, et apprenez à votre rythme, sans limite de durée et sans carte bancaire.
-- MentivisOS Open is here. Free forever. (2026-07-10) — https://mentivis.com/en/insights/mentivisos-open-disponible-gratuit
-  MentivisOS Open is now available for free, for everyone. Generate personalized learning paths, track your progress skill by skill, and learn at your own pace — no time limits, no credit card required.
+- MentivisOS Open is here. Free forever. (2026-07-10) - https://mentivis.com/en/insights/mentivisos-open-disponible-gratuit
+  MentivisOS Open is now available for free, for everyone. Generate personalized learning paths, track your progress skill by skill, and learn at your own pace - no time limits, no credit card required.
 
-- Ce que les enfants savent de la formation que les adultes ont oublié (2026-06-01) — https://mentivis.com/fr/insights/ce-que-les-enfants-savent
+- Ce que les enfants savent de la formation que les adultes ont oublié (2026-06-01) - https://mentivis.com/fr/insights/ce-que-les-enfants-savent
   La campagne display MentivisOS part de là, avec une franchise désarmante. Elle confie ses visuels à des dessins d'enfants. Quatre affiches. Quatre déclarations brutes, tracées au crayon ou à la gouache sur du papier blanc.
-- What Children Know About Training That Adults Have Forgotten (2026-06-01) — https://mentivis.com/en/insights/ce-que-les-enfants-savent
+- What Children Know About Training That Adults Have Forgotten (2026-06-01) - https://mentivis.com/en/insights/ce-que-les-enfants-savent
   The MentivisOS display campaign starts there, with disarming candor. It entrusts its visuals to children's drawings. Four posters. Four raw declarations, traced in pencil or gouache on white paper.
 
-- MentivisOS fait ses débuts à SXSW Edu 2026 (2026-05-26) — https://mentivis.com/fr/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
+- MentivisOS fait ses débuts à SXSW Edu 2026 (2026-05-26) - https://mentivis.com/fr/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
   MentivisOS a été présenté à un groupe restreint d'organisations sélectionnées, en dehors des espaces publics de la conférence, sans stand et sans communiqué de presse. Le choix d'Austin plutôt que d'un événement français ou européen était délibéré.
-- MentivisOS Makes Its Debut at SXSW Edu 2026 (2026-05-26) — https://mentivis.com/en/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
+- MentivisOS Makes Its Debut at SXSW Edu 2026 (2026-05-26) - https://mentivis.com/en/insights/mentivisos-fait-ses-debuts-a-sxsw-edu-2026
   MentivisOS was presented to a small group of selected organizations, outside the conference's public spaces, with no booth and no press release. The choice of Austin over a French or European event was deliberate.
 
-- Comment les entreprises étrangères peuvent utiliser le système de formation français pour délivrer des diplômes et ouvrir une école en France (2026-05-21) — https://mentivis.com/fr/insights/french-training-system-foreign-companies-rncp-qualiopi
+- Comment les entreprises étrangères peuvent utiliser le système de formation français pour délivrer des diplômes et ouvrir une école en France (2026-05-21) - https://mentivis.com/fr/insights/french-training-system-foreign-companies-rncp-qualiopi
   Guide complet pour les organisations internationales souhaitant entrer sur le marché de la formation professionnelle française, délivrer des certifications RNCP reconnues par l'État, obtenir la certification Qualiopi ou créer un établissement accrédité en France.
-- The French Training System Is Open to Foreign Companies. Here Is How to Enter It Correctly. (2026-05-21) — https://mentivis.com/en/insights/french-training-system-foreign-companies-rncp-qualiopi
+- The French Training System Is Open to Foreign Companies. Here Is How to Enter It Correctly. (2026-05-21) - https://mentivis.com/en/insights/french-training-system-foreign-companies-rncp-qualiopi
   Every year, thousands of organizations look toward France to expand their educational offer, gain state recognition, and access public training funding. Few succeed on their first attempt. This guide explains the regulatory sequence, the four entry pathways, and how Mentivis manages the entire process from strategy to operational delivery.
 
-- Mentivis dévoile MentivisOS, l'OS de la formation native IA (2026-05-05) — https://mentivis.com/fr/insights/mentivis-devoile-mentivos-os-formation-native-ia
+- Mentivis dévoile MentivisOS, l'OS de la formation native IA (2026-05-05) - https://mentivis.com/fr/insights/mentivis-devoile-mentivos-os-formation-native-ia
   Mentivis dévoile une plateforme native IA qui calcule en temps réel le parcours optimal de chaque apprenant à partir de son profil et de son objectif. Une rupture revendiquée avec le LMS classique.
-- Mentivis Unveils MentivisOS, the AI-Native Learning OS (2026-05-05) — https://mentivis.com/en/insights/mentivis-devoile-mentivos-os-formation-native-ia
+- Mentivis Unveils MentivisOS, the AI-Native Learning OS (2026-05-05) - https://mentivis.com/en/insights/mentivis-devoile-mentivos-os-formation-native-ia
   Mentivis unveils an AI-native platform that calculates the optimal learning path for each learner in real time based on their profile and goal. A claimed break from the classic LMS.
 
-- Le poste est mort, vive la compétence (2026-03-28) — https://mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
+- Le poste est mort, vive la compétence (2026-03-28) - https://mentivis.com/fr/insights/le-poste-est-mort-vive-la-competence
   Pourquoi le modèle traditionnel du poste meurt-il au profit de la compétence ? La « Skills-Based Organisation » révolutionne l'agilité des entreprises.
-- The Job Is Dead, Long Live the Skill (2026-03-28) — https://mentivis.com/en/insights/le-poste-est-mort-vive-la-competence
+- The Job Is Dead, Long Live the Skill (2026-03-28) - https://mentivis.com/en/insights/le-poste-est-mort-vive-la-competence
   Why is the traditional job model dying in favor of skills? The Skills-Based Organization is revolutionizing business agility.
 
-- Les entreprises sont les prochaines grandes écoles (2026-03-16) — https://mentivis.com/fr/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
+- Les entreprises sont les prochaines grandes écoles (2026-03-16) - https://mentivis.com/fr/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
   Si l'école ne forme pas aux besoins réels des entreprises, que les entreprises deviennent des écoles. Roxan Roumégas explique pourquoi.
-- Companies Are the Next Grandes Écoles (2026-03-16) — https://mentivis.com/en/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
+- Companies Are the Next Grandes Écoles (2026-03-16) - https://mentivis.com/en/insights/les-entreprises-sont-les-prochaines-grandes-ecoles
   If school does not train for the real needs of companies, let companies become schools. Roxan Roumégas explains why.
 
-- Formation professionnelle 2026 : stratégie, IA et mobilité (2026-03-03) — https://mentivis.com/fr/insights/formation-professionnelle-france-enjeux-2026
+- Formation professionnelle 2026 : stratégie, IA et mobilité (2026-03-03) - https://mentivis.com/fr/insights/formation-professionnelle-france-enjeux-2026
   Analyse du baromètre 2026 : IA, seniors, mobilité interne et budgets. Comment transformer la formation professionnelle en levier stratégique durable.
-- Professional Training 2026: Strategy, AI, and Mobility (2026-03-03) — https://mentivis.com/en/insights/formation-professionnelle-france-enjeux-2026
+- Professional Training 2026: Strategy, AI, and Mobility (2026-03-03) - https://mentivis.com/en/insights/formation-professionnelle-france-enjeux-2026
   Analysis of the 2026 barometer: AI, seniors, internal mobility, and budgets. How to transform professional training into a sustainable strategic lever.
 
 ## Accès LLM
