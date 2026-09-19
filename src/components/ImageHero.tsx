@@ -11,7 +11,7 @@ interface ImageHeroProps {
   overlayOpacity?: number;
 }
 
-export default function ImageHero({ image, eyebrow, title, lead, children, overlayOpacity = 0.35 }: ImageHeroProps) {
+export default function ImageHero({ image, eyebrow, title, lead, children, overlayOpacity = 0.15 }: ImageHeroProps) {
   return (
     <section
       style={{
