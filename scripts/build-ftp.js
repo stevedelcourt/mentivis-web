@@ -111,7 +111,7 @@ const homePages = [
   path.join(outDir, "en", "index.html"),
   rootIndex,
 ];
-const HERO_PRELOAD = '<link rel="preload" as="image" href="/images/heroes/hero-1a.avif" />';
+const HERO_PRELOAD = '<link rel="preload" as="image" href="/images/heroes/hero-1c.avif" />';
 let preloadCount = 0;
 for (const file of homePages) {
   if (!fs.existsSync(file)) continue;
