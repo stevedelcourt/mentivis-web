@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useCallback } from "react";
+import { useMemo, useState, useCallback, useEffect } from "react";
 import { marked } from "marked";
 import {
   REFERENTIEL_META,
@@ -24,11 +24,17 @@ interface Props {
 export default function ReferentielDetailClient({ article, lang }: Props) {
   const { get } = useSearchParamsClient();
   const [navKey, setNavKey] = useState(0);
+  const [mounted, setMounted] = useState(false);
+  const [query, setQuery] = useState("");
 
-  const activeCible = get("cible");
-  const activeThematique = get("thematique");
-  const activeTag = get("tag");
-  const [query, setQuery] = useState(get("q"));
+  useEffect(() => {
+    setMounted(true);
+    setQuery(get("q") || "");
+  }, [get]);
+
+  const activeCible = mounted ? (get("cible") || "") : "";
+  const activeThematique = mounted ? (get("thematique") || "") : "";
+  const activeTag = mounted ? (get("tag") || "") : "";
 
   const cibles = getCibles();
   const thematiques = getThematiques();
@@ -75,13 +81,14 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
   }, [article.slug]);
 
   const buildListUrl = useCallback(() => {
+    if (!mounted) return `/${lang}/referentiel/`;
     if (typeof window === "undefined") return `/${lang}/referentiel/`;
     const l = window.location.pathname.split("/")[1] || lang;
     const params = new URLSearchParams(window.location.search);
     params.delete("tag");
     const qs = params.toString();
     return `/${l}/referentiel/${qs ? `?${qs}` : ""}`;
-  }, [lang]);
+  }, [lang, mounted]);
 
   const handleCopy = () => {
     if (typeof window !== "undefined") {

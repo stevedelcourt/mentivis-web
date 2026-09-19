@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import {
   REFERENTIEL_META,
   getCibles,
@@ -18,18 +18,21 @@ const CIBLE_EN: Record<string, string> = {
   "EdTech, plateformes et outils numériques": "EdTech, Platforms and Digital Tools",
 };
 
-export default function ReferentielClient() {
+export default function ReferentielClient({ lang }: { lang: string }) {
   const [navKey, setNavKey] = useState(0);
   const { get } = useSearchParamsClient();
+  const [mounted, setMounted] = useState(false);
+  const [query, setQuery] = useState("");
 
-  const lang = typeof window !== "undefined"
-    ? window.location.pathname.split("/")[1] || "fr"
-    : "fr";
+  useEffect(() => {
+    setMounted(true);
+    setQuery(get("q") || "");
+  }, [get]);
 
-  const activeCible = get("cible");
-  const activeThematique = get("thematique");
-  const activeTag = get("tag");
-  const [query, setQuery] = useState(get("q"));
+  // Read search params only after mount to avoid hydration mismatch
+  const activeCible = mounted ? (get("cible") || "") : "";
+  const activeThematique = mounted ? (get("thematique") || "") : "";
+  const activeTag = mounted ? (get("tag") || "") : "";
 
   const isFr = lang === "fr";
 

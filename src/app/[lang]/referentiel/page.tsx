@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
-import ReferentielClientWrapper from "./ReferentielClientWrapper";
+import ReferentielClient from "./ReferentielClient";
 import { localeAlternates } from "@/lib/metadata";
 import { REFERENTIEL_META } from "@/data/referentiel-meta";
 
@@ -69,7 +69,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
               ]
         }
       />
-      <ReferentielClientWrapper />
+      <ReferentielClient lang={lang} />
     </>
   );
 }
