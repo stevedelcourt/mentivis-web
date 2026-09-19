@@ -8,9 +8,10 @@ interface ImageHeroProps {
   title: ReactNode;
   lead?: string;
   children?: ReactNode;
+  overlayOpacity?: number;
 }
 
-export default function ImageHero({ image, eyebrow, title, lead, children }: ImageHeroProps) {
+export default function ImageHero({ image, eyebrow, title, lead, children, overlayOpacity = 0.35 }: ImageHeroProps) {
   return (
     <section
       style={{
@@ -35,7 +36,7 @@ export default function ImageHero({ image, eyebrow, title, lead, children }: Ima
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+          background: `linear-gradient(to bottom, rgba(0,0,0,${overlayOpacity}), rgba(0,0,0,${overlayOpacity}))`,
           zIndex: 1,
         }}
         aria-hidden="true"

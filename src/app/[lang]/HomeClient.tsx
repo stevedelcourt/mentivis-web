@@ -49,6 +49,7 @@ export default function HomeClient() {
 
       <ImageHero
         image="/images/heroes/hero-1.avif"
+        overlayOpacity={0.15}
         eyebrow={h.eyebrow}
         title={<><span style={{ color: "white" }}>{h.title[0]}</span><br /><em style={{ color: "white" }}>{h.title[1]}</em></>}
         lead={h.definition || h.lead}
