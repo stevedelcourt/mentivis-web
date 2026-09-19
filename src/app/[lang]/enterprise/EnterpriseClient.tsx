@@ -26,12 +26,12 @@ export default function EnterpriseClient() {
         description: e.heroLead,
         provider: { "@id": `${SITE.baseUrl}/#organization` },
         url: `${SITE.baseUrl}/${lang}/enterprise`,
-        image: `${SITE.baseUrl}/images/heroes/investor.avif`,
+        image: `${SITE.baseUrl}/images/heroes/hero-2.avif`,
         areaServed: { "@type": "Country", name: "France" },
         inLanguage: lang === "fr" ? "fr-FR" : "en-US",
       }} />
       <ImageHero
-        image="/images/heroes/investor.avif"
+        image="/images/heroes/hero-2.avif"
         eyebrow={e.eyebrow}
         title={<span style={{ color: "white" }}>{e.heroTitle[0]} <em style={{ color: "white" }}>{e.heroTitle[1]}</em></span>}
         lead={e.heroLead}
