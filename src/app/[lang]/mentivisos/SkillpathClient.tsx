@@ -199,8 +199,10 @@ export default function MentivisOSClient() {
             >
               {s.finalCtaText}
             </p>
-            <Link
-              href="https://app.mentivisos.com/"
+            <a
+              href="https://open.mentivisos.com/?utm_source=mentivis.com&utm_medium=site&utm_campaign=mentivisos"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -216,7 +218,7 @@ export default function MentivisOSClient() {
             >
               {s.finalCtaBtn}
               <Icon name="chevron_right" size={18} />
-            </Link>
+            </a>
           </Reveal>
         </div>
       </section>
