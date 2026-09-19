@@ -301,7 +301,7 @@ function DownloadModal({
                 />
                 <span>
                   {t.guides.conent}{" "}
-                  <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>
+                  <Link href={`/${lang}/privacy/`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>
                     {t.guides.consentLink}
                   </Link>
                 </span>
@@ -606,7 +606,7 @@ export default function GuidesClient() {
             {/* Score Formation teaser */}
             <Reveal delay={0.06}>
               <Link
-                href={`/${lang}/score-formation`}
+                href={`/${lang}/score-formation/`}
                 style={{
                   display: "block",
                   background: "white",

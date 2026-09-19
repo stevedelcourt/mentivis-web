@@ -28,7 +28,7 @@ export default function InsightCard({
   if (variant === "grid") {
     return (
       <Link
-        href={`/${lang}/insights/${article.slug}`}
+        href={`/${lang}/insights/${article.slug}/`}
         style={{
           display: "flex",
           flexDirection: "column",
@@ -115,7 +115,7 @@ export default function InsightCard({
   /* variant === "list" */
   return (
     <Link
-      href={`/${lang}/insights/${article.slug}`}
+      href={`/${lang}/insights/${article.slug}/`}
       style={{
         display: "grid",
         gridTemplateColumns: "260px 1fr",

@@ -133,7 +133,7 @@ export default function CareersClient() {
               filteredJobs.map((job: JobMeta, i: number) => (
                 <Reveal key={job.slug} delay={i * 50}>
                   <Link
-                    href={`/${lang}/careers/${job.slug}`}
+                    href={`/${lang}/careers/${job.slug}/`}
                     style={{
                       display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16,
                       padding: "24px", background: "#fff", borderRadius: 16, border: "1px solid var(--m-line-2)",

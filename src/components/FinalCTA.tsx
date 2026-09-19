@@ -44,7 +44,7 @@ export default function FinalCTA({ title, lead, t, lang, accent = "purple", cent
               {t.nav.cta}
               <Icon name="chevron_right" size={18} />
             </Link>
-            <Link href={`/${lang}/about`} style={{
+            <Link href={`/${lang}/about/`} style={{
               display: "inline-flex",
               alignItems: "center",
               gap: 8,

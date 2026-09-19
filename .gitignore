@@ -54,3 +54,9 @@ next-env.d.ts
 
 # Temporary archives
 *.zip
+
+# Snapshots & handoff (local only)
+snapshot-T/
+SNAPSHOT-*.md
+HANDOFF-*.md
+scripts/rip_snapshot.py

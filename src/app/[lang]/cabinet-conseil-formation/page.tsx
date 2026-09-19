@@ -86,7 +86,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
 
           <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Nous confier votre projet" : "Entrust us with your project"}</h2>
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
-            <a href={`/${lang}/contact`}>{isFr ? "Parler à un consultant" : "Talk to a consultant"}</a> - {isFr ? "premier échange sans engagement." : "first call free."}
+            <a href={`/${lang}/contact/`}>{isFr ? "Parler à un consultant" : "Talk to a consultant"}</a> - {isFr ? "premier échange sans engagement." : "first call free."}
           </p>
         </section>
       </PageShell>

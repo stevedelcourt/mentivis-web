@@ -148,7 +148,7 @@ export default function MentivisOSClient() {
                 {s.corporateText}
               </p>
               <Link
-                href={`/${lang}/contact?subject=MentivisOS`}
+                href={`/${lang}/contact/?subject=MentivisOS`}
                 style={{
                   display: "inline-flex",
                   alignItems: "center",

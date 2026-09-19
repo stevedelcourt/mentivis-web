@@ -28,7 +28,7 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
         </p>
       )}
       {showImage && (
-        <Link href={`/${lang}/meeting`} style={{ textDecoration: "none", display: "block" }}>
+        <Link href={`/${lang}/meeting/`} style={{ textDecoration: "none", display: "block" }}>
           <div style={{ aspectRatio: "1 / 1", borderRadius: 16, overflow: "hidden", marginBottom: 16, background: "var(--m-line-2)" }}>
             <Image
               src="/images/team/mathias.costes.avif"
@@ -40,7 +40,7 @@ export default function ContactSidebar({ lang, eyebrow, title, showImage = true 
           </div>
         </Link>
       )}
-      <Link href={`/${lang}/meeting`} style={{ textDecoration: "none" }}>
+      <Link href={`/${lang}/meeting/`} style={{ textDecoration: "none" }}>
         <div style={{ fontWeight: 500, fontSize: 18, color: "var(--m-ink)", marginBottom: 2 }}>Mathias Costes</div>
       </Link>
       <div style={{ fontSize: 13, color: "var(--m-ink-3)", marginBottom: 20 }}>Partner Mentivis</div>

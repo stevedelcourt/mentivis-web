@@ -179,7 +179,7 @@ function ContactForm({ lang, c }: { lang: string; c: any }) {
         />
         <span>
           {c.labels.consent}{" "}
-          <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{c.labels.consentLink}</Link>.
+          <Link href={`/${lang}/privacy/`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{c.labels.consentLink}</Link>.
         </span>
       </label>
       {error && (

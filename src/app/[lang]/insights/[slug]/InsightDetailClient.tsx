@@ -250,7 +250,7 @@ function DownloadModal({
                 />
                 <span>
                   {t.insights.pdfConsent}{" "}
-                  <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>
+                  <Link href={`/${lang}/privacy/`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>
                     {t.insights.pdfConsentLink}
                   </Link>
                 </span>
@@ -382,7 +382,7 @@ export default function InsightDetailClient({
       >
         {/* Back link */}
         <Link
-          href={`/${lang}/insights`}
+          href={`/${lang}/insights/`}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -672,7 +672,7 @@ export default function InsightDetailClient({
               : "Let's discuss your needs and explore what Mentivis can build for you."}
           </p>
           <Link
-            href={`/${lang}/contact?subject=Insights`}
+            href={`/${lang}/contact/?subject=Insights`}
             style={{
               display: "inline-flex",
               alignItems: "center",

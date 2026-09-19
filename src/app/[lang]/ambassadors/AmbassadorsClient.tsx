@@ -65,7 +65,7 @@ export default function AmbassadorsClient() {
               </Reveal>
               <Reveal delay={200}>
                 <Link
-                  href={`/${lang}/contact?subject=Programme+Ambassadeurs`}
+                  href={`/${lang}/contact/?subject=Programme+Ambassadeurs`}
                   style={{
                     display: "inline-flex", alignItems: "center", gap: 8,
                     padding: "14px 24px", fontSize: 14, fontWeight: 600,
@@ -190,7 +190,7 @@ export default function AmbassadorsClient() {
               {a.hero.headline}
             </h2>
             <Link
-              href={`/${lang}/contact?subject=Programme+Ambassadeurs`}
+              href={`/${lang}/contact/?subject=Programme+Ambassadeurs`}
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "14px 28px", fontSize: 15, fontWeight: 600,

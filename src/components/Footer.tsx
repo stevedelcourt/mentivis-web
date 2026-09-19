@@ -158,29 +158,29 @@ export default function Footer({ t, lang }: FooterProps) {
               </div>
             </div>
             <FooterCol title={t.footer.navigation} links={[
-              { href: `/${lang}/about`, label: t.nav.about },
-              { href: `/${lang}/enterprise`, label: t.nav.enterprise },
-              { href: `/${lang}/of`, label: t.nav.of },
+              { href: `/${lang}/about/`, label: t.nav.about },
+              { href: `/${lang}/enterprise/`, label: t.nav.enterprise },
+              { href: `/${lang}/of/`, label: t.nav.of },
             ]} />
             <FooterCol title={lang === "fr" ? "Solutions" : "Solutions"} links={[
-              { href: `/${lang}/solutions`, label: lang === "fr" ? "Solutions ingénierie" : "Engineering solutions" },
-              { href: `/mentivis-solutions`, label: "Mentivis Solutions" },
+              { href: `/${lang}/solutions/`, label: lang === "fr" ? "Solutions ingénierie" : "Engineering solutions" },
+              { href: `/mentivis-solutions/`, label: "Mentivis Solutions" },
               { href: `https://www.mariusia.com/`, label: "Marius IA", external: true },
-              { href: `/${lang}/mentivisos`, label: "Mentivis OS" },
+              { href: `/${lang}/mentivisos/`, label: "Mentivis OS" },
             ]} />
             <FooterCol title={t.nav.resources} links={[
-              { href: `/${lang}/insights`, label: t.nav.insights },
-              { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
-              { href: `/${lang}/referentiel`, label: lang === "fr" ? "Le Référentiel" : "The Reference" },
-              { href: `/${lang}/score-formation`, label: "Score Formation" },
-              { href: `/${lang}/videos`, label: lang === "fr" ? "Vidéos" : "Videos" },
+              { href: `/${lang}/insights/`, label: t.nav.insights },
+              { href: `/${lang}/guides/`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
+              { href: `/${lang}/referentiel/`, label: lang === "fr" ? "Le Référentiel" : "The Reference" },
+              { href: `/${lang}/score-formation/`, label: "Score Formation" },
+              { href: `/${lang}/videos/`, label: lang === "fr" ? "Vidéos" : "Videos" },
             ]} />
             <FooterCol title={t.nav.corporate} links={[
-              { href: `/${lang}/about`, label: t.nav.about },
-              { href: `/${lang}/contact`, label: t.nav.contact },
-              { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
-              { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
-              { href: `/${lang}/ambassadors`, label: t.nav.ambassadors },
+              { href: `/${lang}/about/`, label: t.nav.about },
+              { href: `/${lang}/contact/`, label: t.nav.contact },
+              { href: `/${lang}/careers/`, label: lang === "fr" ? "Carrière" : "Careers" },
+              { href: `/${lang}/meeting/`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
+              { href: `/${lang}/ambassadors/`, label: t.nav.ambassadors },
             ]} />
           </div>
 
@@ -196,13 +196,13 @@ export default function Footer({ t, lang }: FooterProps) {
           }}>
             <div>{t.footer.copy}</div>
             <div style={{ display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" as const }}>
-              <a href={`/${lang}/legal`} className="m-footer-bar-link-dark">Mentions légales</a>
+              <a href={`/${lang}/legal/`} className="m-footer-bar-link-dark">Mentions légales</a>
               <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
-              <a href={`/${lang}/privacy`} className="m-footer-bar-link-dark">Confidentialité</a>
+              <a href={`/${lang}/privacy/`} className="m-footer-bar-link-dark">Confidentialité</a>
               <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
-              <a href={`/${lang}/terms`} className="m-footer-bar-link-dark">CGU</a>
+              <a href={`/${lang}/terms/`} className="m-footer-bar-link-dark">CGU</a>
               <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
-              <a href={`/${lang}/cgv`} className="m-footer-bar-link-dark">CGV</a>
+              <a href={`/${lang}/cgv/`} className="m-footer-bar-link-dark">CGV</a>
               <span style={{ color: "rgba(255,255,255,0.2)" }}>·</span>
               <button onClick={openCookies} className="m-footer-bar-link-dark" style={{ background: "none", border: "none", fontSize: 12.5, padding: 0 }}>
                 Cookies

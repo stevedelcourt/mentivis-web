@@ -76,7 +76,7 @@ export default function PreFooterCTA({ t, lang }: PreFooterCTAProps) {
             <Icon name="chevron_right" size={18} />
           </Link>
           <Link
-            href={`/${lang}/about`}
+            href={`/${lang}/about/`}
             style={{
               display: "inline-flex",
               alignItems: "center",

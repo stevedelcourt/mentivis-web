@@ -1216,7 +1216,7 @@ export default function ScoreCalculator() {
                       />
                       <span>
                         {s.cta.consent}{" "}
-                        <Link href={`/${lang}/privacy`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{s.cta.consentLink}</Link>.
+                        <Link href={`/${lang}/privacy/`} style={{ color: "var(--m-purple)", textDecoration: "underline" }}>{s.cta.consentLink}</Link>.
                       </span>
                     </label>
                     {hsError && (

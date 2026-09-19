@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 const PATH_TO_SUBJECT: Record<string, string> = {
@@ -30,7 +31,16 @@ export function buildContactUrl(lang: string, pathname?: string): string {
 
 export function useContactUrl(lang: string): string {
   const pathname = usePathname();
-  // SSR-safe: return with trailing slash to match trailingSlash:true
-  if (typeof window === "undefined") return `/${lang}/contact/`;
-  return buildContactUrl(lang, pathname || `/${lang}/`);
+  // SSR-safe: always return base URL on server + initial client render
+  // to avoid hydration mismatch (subject is added post-hydration via effect)
+  const base = `/${lang}/contact/`;
+  const [url, setUrl] = useState(base);
+
+  useEffect(() => {
+    const subject = getContactSubject(pathname || `/${lang}/`);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setUrl(subject ? `/${lang}/contact/?subject=${encodeURIComponent(subject)}` : base);
+  }, [pathname, lang, base]);
+
+  return url;
 }

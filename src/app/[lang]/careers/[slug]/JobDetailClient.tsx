@@ -112,7 +112,7 @@ export default function JobDetailClient({ job, lang }: { job: Job; lang: string 
       <section style={{ padding: "100px 0 60px", borderBottom: "1px solid var(--m-line)" }}>
         <div className="container">
           <Reveal>
-            <Link href={`/${lang}/careers`} style={{
+            <Link href={`/${lang}/careers/`} style={{
               fontSize: 13, fontWeight: 500, color: "var(--m-ink-3)", textDecoration: "none",
               display: "inline-flex", alignItems: "center", gap: 4, marginBottom: 24,
             }}>
