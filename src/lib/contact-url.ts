@@ -23,12 +23,14 @@ export function getContactSubject(pathname: string): string | null {
 }
 
 export function buildContactUrl(lang: string, pathname?: string): string {
-  if (!pathname) return `/${lang}/contact`;
+  if (!pathname) return `/${lang}/contact/`;
   const subject = getContactSubject(pathname);
-  return subject ? `/${lang}/contact?subject=${encodeURIComponent(subject)}` : `/${lang}/contact`;
+  return subject ? `/${lang}/contact/?subject=${encodeURIComponent(subject)}` : `/${lang}/contact/`;
 }
 
 export function useContactUrl(lang: string): string {
   const pathname = usePathname();
-  return buildContactUrl(lang, pathname);
+  // SSR-safe: return with trailing slash to match trailingSlash:true
+  if (typeof window === "undefined") return `/${lang}/contact/`;
+  return buildContactUrl(lang, pathname || `/${lang}/`);
 }

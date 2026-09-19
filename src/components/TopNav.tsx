@@ -127,26 +127,26 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
   }, []);
 
   const links = [
-    { href: `/${lang}/enterprise`, label: t.nav.enterprise },
-    { href: `/${lang}/of`, label: t.nav.of },
+    { href: `/${lang}/enterprise/`, label: t.nav.enterprise },
+    { href: `/${lang}/of/`, label: t.nav.of },
   ];
 
   const allResourceLinks = [
-    { href: `/${lang}/insights`, label: t.nav.insights },
-    { href: `/${lang}/referentiel`, label: lang === "fr" ? "Le Référentiel" : "The Reference" },
-    { href: `/${lang}/guides`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
-    { href: `/${lang}/score-formation`, label: "Score Formation" },
-    { href: `/${lang}/videos`, label: lang === "fr" ? "Vidéos" : "Videos" },
+    { href: `/${lang}/insights/`, label: t.nav.insights },
+    { href: `/${lang}/referentiel/`, label: lang === "fr" ? "Le Référentiel" : "The Reference" },
+    { href: `/${lang}/guides/`, label: lang === "fr" ? "Guides de référence" : "Reference guides" },
+    { href: `/${lang}/score-formation/`, label: "Score Formation" },
+    { href: `/${lang}/videos/`, label: lang === "fr" ? "Vidéos" : "Videos" },
   ];
 
   const corporateLinks = [
-    { href: `/${lang}/contact`, label: t.nav.contact },
-    { href: `/${lang}/meeting`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
+    { href: `/${lang}/contact/`, label: t.nav.contact },
+    { href: `/${lang}/meeting/`, label: lang === "fr" ? "Prendre rendez-vous" : "Book a meeting" },
   ];
 
   const aboutLinks = [
-    { href: `/${lang}/careers`, label: lang === "fr" ? "Carrière" : "Careers" },
-    { href: `/${lang}/ambassadors`, label: t.nav.ambassadors },
+    { href: `/${lang}/careers/`, label: lang === "fr" ? "Carrière" : "Careers" },
+    { href: `/${lang}/ambassadors/`, label: t.nav.ambassadors },
   ];
 
   const isActive = (href: string) => route && href === `/${lang}` + route.replace(/^\/[a-z]{2}/, "");
@@ -249,7 +249,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 style={{ position: "relative", display: "flex", alignItems: "center", gap: 0 }}
               >
                 <Link
-                  href={`/${lang}/solutions`}
+                  href={`/${lang}/solutions/`}
                   className="m-nav-link"
                   style={{
                     padding: "8px 2px 8px 14px",
@@ -310,7 +310,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                     zIndex: 60,
                   }}>
                   <Link
-                    href={`/${lang}/mentivisos`}
+                    href={`/${lang}/mentivisos/`}
                     className="m-dropdown-link"
                   >
                     MentivisOS
@@ -435,7 +435,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
                 style={{ position: "relative" }}
               >
                 <Link
-                  href={`/${lang}/about`}
+                  href={`/${lang}/about/`}
                   className="m-nav-link"
                   style={{
                     padding: "8px 14px",
@@ -616,7 +616,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             {/* Solutions accordion */}
             <div className="m-mobile-nav-item m-mobile-nav-accordion" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <Link
-                href={`/${lang}/solutions`}
+                href={`/${lang}/solutions/`}
                 onClick={() => setMobileOpen(false)}
                 style={{ flex: 1, textDecoration: "none", color: "inherit", fontWeight: 500 }}
               >
@@ -643,7 +643,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             </div>
             <div className={`m-mobile-submenu ${solutionsOpen ? "open" : ""}`}>
                   <Link
-                    href={`/${lang}/mentivisos`}
+                    href={`/${lang}/mentivisos/`}
                     onClick={() => setMobileOpen(false)}
                     className="m-mobile-subitem"
                   >
@@ -724,7 +724,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             {/* About accordion */}
             <div className="m-mobile-nav-item m-mobile-nav-accordion" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <Link
-                href={`/${lang}/about`}
+                href={`/${lang}/about/`}
                 onClick={() => setMobileOpen(false)}
                 style={{ flex: 1, textDecoration: "none", color: "inherit", fontWeight: 500 }}
               >

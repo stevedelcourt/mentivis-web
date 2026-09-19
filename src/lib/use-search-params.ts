@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 
 export function useSearchParamsClient() {
   const [tick, setTick] = useState(0);
@@ -13,11 +13,14 @@ export function useSearchParamsClient() {
 
   const ready = tick > 0;
 
-  const params = ready && typeof window !== "undefined"
-    ? new URLSearchParams(window.location.search)
-    : new URLSearchParams();
+  const stableParams = useMemo(() => {
+    if (!ready || typeof window === "undefined") return new URLSearchParams();
+    const p = new URLSearchParams(window.location.search);
+    p.delete("__nc");
+    return p;
+  }, [ready, tick]);
 
-  const get = useCallback((key: string) => params.get(key) || "", [params]);
+  const get = useCallback((key: string) => stableParams.get(key) || "", [stableParams]);
 
   return { get };
 }
