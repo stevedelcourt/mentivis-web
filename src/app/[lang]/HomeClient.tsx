@@ -43,12 +43,12 @@ export default function HomeClient() {
         description: h.lead,
         url: `${SITE.baseUrl}/${lang}/`,
         mainEntity: { "@id": `${SITE.baseUrl}/#organization` },
-        image: `${SITE.baseUrl}/images/heroes/hero-1.avif`,
+        image: `${SITE.baseUrl}/images/heroes/hero-1a.avif`,
         inLanguage: lang === "fr" ? "fr-FR" : "en-US",
       }} />
 
       <ImageHero
-        image="/images/heroes/hero-1.avif"
+        image="/images/heroes/hero-1a.avif"
         overlayOpacity={0.15}
         eyebrow={h.eyebrow}
         title={<><span style={{ color: "white" }}>{h.title[0]}</span><br /><em style={{ color: "white" }}>{h.title[1]}</em></>}
