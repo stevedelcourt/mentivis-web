@@ -4,6 +4,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import OfClient from "./OfClient";
 import { SITE } from "@/lib/config";
+import { getOgImage } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/of", lang);
   return {
     title: isFr ? "Conseil organismes de formation" : "Training organization consulting",
     description: isFr
@@ -23,7 +25,7 @@ export async function generateMetadata({
         ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
         : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
       url: `${SITE.baseUrl}/${lang}/of/`,
-      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+      images: [og],
     },
     twitter: {
       card: "summary_large_image",
@@ -31,7 +33,7 @@ export async function generateMetadata({
       description: isFr
         ? "Création, conformité, croissance - Mentivis accompagne les organismes de formation à chaque étape, de la structuration initiale au pilotage de la performance."
         : "Creation, compliance, growth - Mentivis supports training organizations at every stage, from initial structuring to performance steering.",
-      images: [`${SITE.baseUrl}/opengraph-image.jpg`],
+      images: [og.url],
     },
     ...localeAlternates(lang, "/of"),
   };

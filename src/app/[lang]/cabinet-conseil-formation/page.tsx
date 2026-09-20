@@ -4,6 +4,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
 import { SITE } from "@/lib/config";
+import { getOgImage } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/cabinet-conseil-formation", lang);
   return {
     title: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
     description: isFr
@@ -23,9 +25,9 @@ export async function generateMetadata({
         ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel. Spécialiste, pas généraliste."
         : "Mentivis, consulting firm dedicated to professional training: strategy, engineering, operational deployment.",
       url: `${SITE.baseUrl}/${lang}/cabinet-conseil-formation/`,
-      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+      images: [og],
     },
-    twitter: { card: "summary_large_image", images: [`${SITE.baseUrl}/opengraph-image.jpg`] },
+    twitter: { card: "summary_large_image", images: [og.url] },
     ...localeAlternates(lang, "/cabinet-conseil-formation"),
   };
 }
@@ -33,6 +35,7 @@ export async function generateMetadata({
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/cabinet-conseil-formation", lang);
   return (
     <>
       <JsonLd

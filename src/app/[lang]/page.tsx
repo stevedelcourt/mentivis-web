@@ -4,6 +4,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import HomeClient from "./HomeClient";
 import { SITE } from "@/lib/config";
+import { getOgImage } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,11 +13,30 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/", lang);
   return {
     title: isFr ? "Mentivis - Opérateur en formation à Paris" : "Mentivis - Training Operator in Paris",
     description: isFr
       ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
       : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
+    openGraph: {
+      title: isFr ? "Mentivis - Opérateur en formation à Paris" : "Mentivis - Training Operator in Paris",
+      description: isFr
+        ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
+        : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
+      url: `${SITE.baseUrl}/${lang}/`,
+      images: [og],
+      type: "website",
+      locale: isFr ? "fr_FR" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: isFr ? "Mentivis - Opérateur en formation à Paris" : "Mentivis - Training Operator in Paris",
+      description: isFr
+        ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
+        : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
+      images: [og.url],
+    },
     ...localeAlternates(lang, "/"),
   };
 }

@@ -4,6 +4,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
 import { SITE } from "@/lib/config";
+import { getOgImage } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/creation-organisme-formation", lang);
   return {
     title: isFr
       ? "Créer un organisme de formation : accompagnement Qualiopi et structuration - Mentivis"
@@ -27,11 +29,11 @@ export async function generateMetadata({
         ? "Mentivis accompagne la création d'organismes de formation de A à Z : déclaration DREETS, certification Qualiopi, modèle économique et premier déploiement commercial."
         : "Mentivis supports the creation of training organizations end-to-end: DREETS declaration, Qualiopi certification, business model and go-to-market.",
       url: `${SITE.baseUrl}/${lang}/creation-organisme-formation/`,
-      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+      images: [og],
     },
     twitter: {
       card: "summary_large_image",
-      images: [`${SITE.baseUrl}/opengraph-image.jpg`],
+      images: [og.url],
     },
     ...localeAlternates(lang, "/creation-organisme-formation"),
   };
@@ -40,6 +42,7 @@ export async function generateMetadata({
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/creation-organisme-formation", lang);
   return (
     <>
       <JsonLd

@@ -4,6 +4,7 @@ import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import AboutClient from "./AboutClient";
 import { SITE } from "@/lib/config";
+import { getOgImage } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const isFr = lang === "fr";
+  const og = getOgImage("/about", lang);
   return {
     title: isFr ? "Qui sommes-nous - Mentivis" : "About - Mentivis",
     description: isFr
@@ -23,7 +25,7 @@ export async function generateMetadata({
         ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
         : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
       url: `${SITE.baseUrl}/${lang}/about/`,
-      images: [{ url: `${SITE.baseUrl}/opengraph-image.jpg`, width: 1200, height: 630, alt: "Mentivis" }],
+      images: [og],
     },
     twitter: {
       card: "summary_large_image",
@@ -31,7 +33,7 @@ export async function generateMetadata({
       description: isFr
         ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
         : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
-      images: [`${SITE.baseUrl}/opengraph-image.jpg`],
+      images: [og.url],
     },
     ...localeAlternates(lang, "/about"),
   };
