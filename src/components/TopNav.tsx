@@ -513,7 +513,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
               <Icon name="chevron_right" size={16} />
             </Link>
 
-            {/* Burger button — morph SVG, invisible pill */}
+            {/* Burger button - morph SVG, invisible pill */}
             <button
               className={`m-nav-burger m-nav-item m-nav-item-delay-3 ${mobileOpen ? "m-burger-open" : ""}`}
               aria-label="Menu"
@@ -551,7 +551,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
            overflow: "hidden",
            background: "#f7f7f4",
          }}>
-          {/* Header — exact same style as normal header (white pill) to prevent logo jump */}
+          {/* Header - exact same style as normal header (white pill) to prevent logo jump */}
 <div style={{
              display: "flex",
              justifyContent: "center",
@@ -592,7 +592,7 @@ export default function TopNav({ t, lang, route = "" }: TopNavProps) {
             </div>
           </div>
 
-          {/* Menu content — beige background, starts below the pill header */}
+          {/* Menu content - beige background, starts below the pill header */}
           <div className="m-mobile-menu-content" style={{
             flex: 1,
             overflow: "auto",

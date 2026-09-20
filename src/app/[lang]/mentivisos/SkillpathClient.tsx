@@ -107,7 +107,7 @@ export default function MentivisOSClient() {
         </div>
       </section>
 
-      {/* 4. SectorShowcase — 4 organisational types */}
+      {/* 4. SectorShowcase - 4 organisational types */}
       <SectorShowcase />
 
       {/* 5. Corporate badge + CTA */}
@@ -170,7 +170,7 @@ export default function MentivisOSClient() {
         </div>
       </section>
 
-      {/* 6. PipelineSection — 6-step video */}
+      {/* 6. PipelineSection - 6-step video */}
       <PipelineSection />
 
       {/* 7. FAQ */}

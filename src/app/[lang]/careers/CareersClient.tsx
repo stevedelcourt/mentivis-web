@@ -165,7 +165,7 @@ export default function CareersClient() {
         </div>
       </section>
 
-      {/* Content — two columns */}
+      {/* Content - two columns */}
       <section style={{ padding: "80px 0 100px", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 64, alignItems: "start" }} className="m-split-grid">
@@ -194,7 +194,7 @@ export default function CareersClient() {
               </Reveal>
             </div>
 
-            {/* Right column — Marie + CTA */}
+            {/* Right column - Marie + CTA */}
             <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
               <Reveal delay={120}>
                 <div style={{ display: "flex", gap: 18, alignItems: "flex-start" }}>

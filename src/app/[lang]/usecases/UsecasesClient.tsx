@@ -4,7 +4,7 @@ import FinalCTA from "@/components/FinalCTA";
 import { useMessages } from "@/lib/messages";
 
 /* ============================================================
-   USE CASES — Design prototype page
+   USE CASES - Design prototype page
    Hardcoded content. Not linked from nav. Will be broken into
    modules for /enterprise, /of, /solutions integration.
    ============================================================ */

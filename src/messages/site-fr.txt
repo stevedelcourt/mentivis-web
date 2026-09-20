@@ -27,7 +27,7 @@ subtitle: des dispositifs de formation qui fonctionnent
 eyebrow: Qui sommes-nous
 title[0]: Un opérateur spécialisé,
 title[1]: multi compétences.
-definition: Mentivis est un opérateur spécialisé qui conçoit, structure et déploie des dispositifs de formation — de la stratégie à l'exécution opérationnelle, avec une rémunération alignée sur les résultats obtenus.
+definition: Mentivis est un opérateur spécialisé qui conçoit, structure et déploie des dispositifs de formation - de la stratégie à l'exécution opérationnelle, avec une rémunération alignée sur les résultats obtenus.
 lead: Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus.
 missionTitle: Qu'est-ce que Mentivis ?
 mission[0]: Opérateur spécialisé en formation et développement des compétences
@@ -35,7 +35,7 @@ mission[1]: Intervention de bout en bout : stratégie, conception, déploiement,
 mission[2]: Rémunération aligné sur les résultats: des success fees garantie de nos intérêts
 
 # home
-summary[0]: Opérateur spécialisé formation — pas un cabinet de conseil généraliste.
+summary[0]: Opérateur spécialisé formation - pas un cabinet de conseil généraliste.
 summary[1]: Intervention de bout en bout : stratégie, conception, déploiement, pilotage.
 summary[2]: Rémunération variable alignée sur vos résultats mesurés.
 summary[3]: Équipe de 4 partners, basée à Paris, intervenant en France et à l'international.

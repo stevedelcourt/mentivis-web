@@ -27,7 +27,7 @@ export default function AmbassadorsPage({ params }: { params: Promise<{ lang: st
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebPage",
-        name: "Ambassadeurs — Mentivis",
+        name: "Ambassadeurs - Mentivis",
         url: `${SITE.baseUrl}/fr/ambassadors`,
         publisher: { "@id": `${SITE.baseUrl}/#organization` },
       }} />

@@ -310,7 +310,7 @@ export default function AboutClient() {
         </div>
       </section>
 
-      {/* 6. Distinguish — Editorial list ───────────────── */}
+      {/* 6. Distinguish - Editorial list ───────────────── */}
       <section className="section" style={{ background: "var(--m-bg-soft)", borderBottom: "0.5px solid var(--m-line)" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "2fr 10fr", gap: "2rem", alignItems: "baseline", marginBottom: "2.5rem" }} className="m-split-grid">
@@ -373,7 +373,7 @@ export default function AboutClient() {
         </div>
       </section>
 
-      {/* Comparison table — Mentivis vs traditional consulting */}
+      {/* Comparison table - Mentivis vs traditional consulting */}
       {a.comparison && (
         <section className="section">
           <div className="container">

@@ -13,7 +13,7 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Mentivis — Opérateur en formation à Paris" : "Mentivis — Training Operator in Paris",
+    title: isFr ? "Mentivis - Opérateur en formation à Paris" : "Mentivis - Training Operator in Paris",
     description: isFr
       ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
       : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",

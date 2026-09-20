@@ -13,7 +13,7 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Le Référentiel — Guides de référence" : "The Reference — Practical guides",
+    title: isFr ? "Le Référentiel - Guides de référence" : "The Reference - Practical guides",
     description: isFr
       ? "Le Référentiel : articles pratiques et conformes pour les organismes de formation. Qualiopi, financement, apprentissage, certification, pédagogie."
       : "The Reference: practical compliance guides for training organizations. Qualiopi, funding, apprenticeship, certification, pedagogy.",
@@ -22,7 +22,7 @@ export async function generateMetadata({
         url: "/images/referentiel-og.jpg",
         width: 1200,
         height: 630,
-        alt: isFr ? "Le Référentiel — Mentivis" : "The Reference — Mentivis",
+        alt: isFr ? "Le Référentiel - Mentivis" : "The Reference - Mentivis",
       }],
     },
     twitter: {
@@ -47,7 +47,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         data={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: isFr ? "Le Référentiel — Guides pratiques formation professionnelle" : "The Reference — Practical guides",
+          name: isFr ? "Le Référentiel - Guides pratiques formation professionnelle" : "The Reference - Practical guides",
           description: isFr
             ? "Base de connaissance opérationnelle Mentivis : guides pratiques sur la création d'organismes de formation, la certification Qualiopi, la GEPP, le financement et les outils EdTech."
             : "Mentivis knowledge base: practical guides on creating training organizations, Qualiopi certification, GEPP, funding and EdTech tools.",

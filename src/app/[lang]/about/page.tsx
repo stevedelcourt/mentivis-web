@@ -13,12 +13,12 @@ export async function generateMetadata({
   const { lang } = await params;
   const isFr = lang === "fr";
   return {
-    title: isFr ? "Qui sommes-nous — Mentivis" : "About — Mentivis",
+    title: isFr ? "Qui sommes-nous - Mentivis" : "About - Mentivis",
     description: isFr
       ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
       : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
     openGraph: {
-      title: isFr ? "Qui sommes-nous — Mentivis" : "About — Mentivis",
+      title: isFr ? "Qui sommes-nous - Mentivis" : "About - Mentivis",
       description: isFr
         ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
         : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",
@@ -27,7 +27,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: isFr ? "Qui sommes-nous — Mentivis" : "About — Mentivis",
+      title: isFr ? "Qui sommes-nous - Mentivis" : "About - Mentivis",
       description: isFr
         ? "Mentivis conçoit, structure et déploie des dispositifs de formation. Notre rémunération est alignée sur les résultats obtenus."
         : "Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.",

@@ -27,7 +27,7 @@ subtitle: training programs that actually work
 eyebrow: About
 title[0]: A specialized operator.
 title[1]: Not a consulting firm.
-definition: Mentivis is a specialized operator that designs, structures and deploys training programs — from strategy to operational execution, with compensation aligned to measurable results.
+definition: Mentivis is a specialized operator that designs, structures and deploys training programs - from strategy to operational execution, with compensation aligned to measurable results.
 lead: Mentivis designs, structures and deploys training programs. Our compensation is aligned with the results we deliver.
 missionTitle: What is Mentivis?
 mission[0]: Specialized operator in training and skills development
@@ -35,7 +35,7 @@ mission[1]: End-to-end intervention: strategy, design, deployment, steering
 mission[2]: Compensation aligned with results - not deliverables
 
 # home
-summary[0]: Specialized training operator — not a generalist consulting firm.
+summary[0]: Specialized training operator - not a generalist consulting firm.
 summary[1]: End-to-end intervention: strategy, design, deployment, steering.
 summary[2]: Variable compensation aligned to your measurable results.
 summary[3]: Team of 4 partners, based in Paris, operating in France and internationally.

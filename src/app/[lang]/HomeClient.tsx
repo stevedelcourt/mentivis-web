@@ -12,9 +12,10 @@ import FaqSection from "@/components/FaqSection";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import Icon from "@/components/ui/Icon";
+import { INSIGHTS_META } from "@/data/insights-meta";
+import InsightCard from "@/components/InsightCard";
 
 const FinalCTA = dynamic(() => import("@/components/FinalCTA"), { ssr: false });
-const FeaturedInsights = dynamic(() => import("@/components/FeaturedInsights"), { ssr: false });
 
 export default function HomeClient() {
   const { t, lang } = useMessages();
@@ -90,8 +91,8 @@ export default function HomeClient() {
           </h2>
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)", margin: "0 0 16px" }}>
             {lang === "fr"
-              ? "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Pas de slideware : nous opérons jusqu'au résultat — certification obtenue, première promotion lancée, organisation en ordre de marche. Découvrez notre approche cabinet conseil."
-              : "Mentivis is exclusively focused on training and education. We operate through to results — certification achieved, first cohort launched, organization operational."}
+              ? "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Pas de slideware : nous opérons jusqu'au résultat - certification obtenue, première promotion lancée, organisation en ordre de marche. Découvrez notre approche cabinet conseil."
+              : "Mentivis is exclusively focused on training and education. We operate through to results - certification achieved, first cohort launched, organization operational."}
           </p>
           <Link href={`/${lang}/cabinet-conseil-formation/`} style={{ display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 600, color: "var(--m-purple)", textDecoration: "none" }}>
             {lang === "fr" ? "Découvrir notre cabinet conseil en formation" : "Discover our training consulting firm"}
@@ -164,7 +165,27 @@ export default function HomeClient() {
       <FaqSection t={h.faq} />
 
       <FinalCTA t={t} title={h.finalCtaTitle} lead={h.finalCtaLead} lang={lang} accent="purple" />
-      <FeaturedInsights pageKey="about" lang={lang} />
+      {/* Latest 3 insights by post date */}
+      {(() => {
+        const latest = [...INSIGHTS_META].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 3);
+        return (
+          <section style={{ padding: "80px 0", background: "var(--m-bg-soft)", borderTop: "1px solid var(--m-line)" }}>
+            <div className="container">
+              <div style={{ fontSize: 12, fontWeight: 500, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--m-ink-3)", marginBottom: 12 }}>
+                {lang === "fr" ? "Nos dernières publications" : "Latest insights"}
+              </div>
+              <h3 style={{ fontSize: "clamp(22px, 3vw, 32px)", fontWeight: 500, lineHeight: 1.15, color: "var(--m-ink)", margin: "0 0 40px" }}>
+                {lang === "fr" ? "Ce qui fait notre actualité" : "What we're following"}
+              </h3>
+              <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(latest.length, 3)}, 1fr)`, gap: 32 }} className="featured-insights-grid">
+                {latest.map((article) => (
+                  <InsightCard key={article.slug} article={article} lang={lang} variant="grid" />
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
     </PageShell>
   );
 }
