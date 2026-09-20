@@ -467,8 +467,8 @@ duration: 6 mois actif + suivi trimestriel
 
 # enterprise
 eyebrow: Vous êtes une entreprise
-heroTitle[0]: Transformer la formation en
-heroTitle[1]: levier de performance durable.
+heroTitle[0]: Transformer la formation
+heroTitle[1]: en levier de performance durable.
 heroLead: GEPP, académies internes, montée en compétences, structuration des dispositifs - Mentivis conçoit et déploie des solutions de formation réellement opérationnelles.
 problemsTitle: Pour une formation en entreprise réellement efficace.
 problems[0]: Dispositifs structurés, connectés aux enjeux métiers

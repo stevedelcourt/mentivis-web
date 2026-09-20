@@ -467,8 +467,8 @@ duration: 6 months active + quarterly follow-up
 
 # enterprise
 eyebrow: You are an enterprise
-heroTitle[0]: Turn training into a
-heroTitle[1]: performance lever that lasts.
+heroTitle[0]: Turn training into
+heroTitle[1]: a performance lever that lasts.
 heroLead: GEPP, internal academies, skills development, program structuring - Mentivis designs and deploys training solutions that are truly operational.
 problemsTitle: Enterprise training is often ineffective
 problems[0]: Loosely structured programs, disconnected from business stakes

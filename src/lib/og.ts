@@ -13,7 +13,7 @@ export type OgImage = {
 
 const HERO_OG_MAP: Record<string, OgImage> = {
   "/": { url: `${SITE_BASE}/images/heroes/hero-1c.avif`, width: 3526, height: 1800, alt: "Mentivis" },
-  "/enterprise": { url: `${SITE_BASE}/images/heroes/men-enterprise.avif`, width: 2000, height: 1143, alt: "Mentivis" },
+  "/enterprise": { url: `${SITE_BASE}/images/heroes/men-enterprise.avif`, width: 2000, height: 991, alt: "Mentivis" },
   "/of": { url: `${SITE_BASE}/images/heroes/of.avif`, width: 1920, height: 1097, alt: "Mentivis" },
   "/about": { url: `${SITE_BASE}/images/heroes/teamflash.avif`, width: 1920, height: 1097, alt: "Mentivis" },
   "/solutions": { url: `${SITE_BASE}/images/heroes/diversity.avif`, width: 1920, height: 1097, alt: "Mentivis" },

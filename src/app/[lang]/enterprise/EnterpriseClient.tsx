@@ -33,7 +33,7 @@ export default function EnterpriseClient() {
       <ImageHero
         image="/images/heroes/men-enterprise.avif"
         eyebrow={e.eyebrow}
-        title={<span style={{ color: "white" }}>{e.heroTitle[0]} <em style={{ color: "white" }}>{e.heroTitle[1]}</em></span>}
+        title={<span style={{ color: "white" }}>{e.heroTitle[0]}<br /><em style={{ color: "white" }}>{e.heroTitle[1]}</em></span>}
         lead={e.heroLead}
       >
         <Link href={`/${lang}/contact/?subject=Enterprise`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", fontSize: 14, fontWeight: 600, color: "white", background: "var(--m-purple)", borderRadius: 12, textDecoration: "none" }}>
