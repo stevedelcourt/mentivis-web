@@ -5,7 +5,6 @@ import ImageHero from "@/components/ImageHero";
 import PillarCard from "@/components/PillarCard";
 import FinalCTA from "@/components/FinalCTA";
 import FeaturedInsights from "@/components/FeaturedInsights";
-import UseCaseSection from "@/components/UseCaseSection";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
@@ -179,7 +178,6 @@ export default function OfClient() {
         </div>
       </section>
 
-      {o.useCases && <UseCaseSection t={o.useCases} />}
       <FinalCTA t={t} title={o.finalCta} lang={lang} accent="purple" />
       <FeaturedInsights pageKey="of" lang={lang} />
     </PageShell>
