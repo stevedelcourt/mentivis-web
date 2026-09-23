@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ReferentielArticleMeta } from "@/data/referentiel-meta";
+import { REFERENTIEL_META, ReferentielArticleMeta } from "@/data/referentiel-meta";
 
 interface Props {
   articles: ReferentielArticleMeta[];
@@ -11,6 +11,9 @@ interface Props {
   activeTag: string;
   query: string;
   lang: string;
+  // Compact mode (detail pages): max 5 same-cible/shared-tag articles, title only + hub link.
+  // Reduces duplicated sidebar content across detail pages (SEO).
+  compact?: boolean;
 }
 
 export default function ReferentielSidebar({
@@ -21,8 +24,28 @@ export default function ReferentielSidebar({
   activeTag,
   query,
   lang,
+  compact = false,
 }: Props) {
-  if (articles.length === 0) {
+  // Rank by same cible + shared tags vs current article (same pattern as ReferentielRelated)
+  let shown = articles;
+  if (compact) {
+    const current = activeSlug
+      ? REFERENTIEL_META.find((a) => a.slug === activeSlug && a.lang === lang)
+      : undefined;
+    const ranked = articles
+      .filter((a) => a.slug !== activeSlug)
+      .map((a) => ({
+        ...a,
+        _score:
+          (current && a.cible === current.cible ? 1000 : 0) +
+          (current ? a.tags.filter((t) => current.tags.includes(t)).length : 0),
+      }))
+      .sort((x, y) => y._score - x._score)
+      .slice(0, 5);
+    shown = ranked;
+  }
+
+  if (shown.length === 0) {
     return (
       <p style={{ fontSize: 14, color: "var(--m-ink-2)", fontFamily: "var(--font-sans, 'IBM Plex Sans')" }}>
         Aucun article trouvé.
@@ -84,9 +107,39 @@ export default function ReferentielSidebar({
     marginBottom: 4,
   };
 
+  if (compact) {
+    return (
+      <div>
+        {shown.map((article) => (
+          <Link
+            key={article.slug}
+            href={buildHref(article.slug)}
+            style={{ ...itemStyle(false), padding: "8px 12px" }}
+          >
+            <p style={{ ...titleStyle(false), marginBottom: 0 }}>{article.title}</p>
+          </Link>
+        ))}
+        <Link
+          href={`/${lang}/referentiel/`}
+          style={{
+            display: "block",
+            padding: "10px 12px",
+            fontSize: 13,
+            fontWeight: 600,
+            color: "var(--m-purple)",
+            textDecoration: "none",
+            fontFamily: "var(--font-sans, 'IBM Plex Sans')",
+          }}
+        >
+          {lang === "fr" ? "Voir tous les articles" : "See all articles"}
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div>
-      {articles.map((article) => (
+      {shown.map((article) => (
         <Link
           key={article.slug}
           href={buildHref(article.slug)}

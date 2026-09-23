@@ -112,7 +112,8 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "TechArticle",
-        headline: article.title,
+        // headline capped at 110 chars (Google truncates longer headlines)
+        headline: article.title.length > 110 ? article.title.slice(0, 110) : article.title,
         description: article.metaDescription || article.shortDescription,
         image: {
           "@type": "ImageObject",
@@ -125,13 +126,15 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
         author: {
           "@type": "Organization",
           name: "Mentivis",
-          url: "https://mentivis.com/fr/about/",
+          url: "https://mentivis.com",
         },
         publisher: {
           "@type": "Organization",
           name: "Mentivis",
+          url: "https://mentivis.com",
           logo: {
             "@type": "ImageObject",
+            // Verified 512x512 PNG via sips/file (2026-09-23); PNG required for rich results (no SVG)
             url: "https://mentivis.com/images/mentivis-logo-400x400.png",
             width: 512,
             height: 512,
@@ -174,6 +177,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
                 activeTag={activeTag}
                 query={query}
                 lang={lang}
+                compact
               />
             </div>
             <div>

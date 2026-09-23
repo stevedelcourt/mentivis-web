@@ -41,7 +41,28 @@ export async function generateMetadata({
   };
 }
 
-export default function HomePage({ params }: { params: Promise<{ lang: string }> }) {
+export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const isFr = lang === "fr";
+  // FAQPage mirrors the visible homepage FAQ (src/messages/{fr,en}.json home.faq.items)
+  // verbatim and in the same order — visible HTML is the source of truth.
+  const faqQa: Array<[string, string]> = isFr
+    ? [
+        ["Êtes-vous un cabinet de conseil ?", "Oui. Mentivis est une boutique de conseil dédiée à la formation et à l'éducation. La différence se joue sur la suite : nous ne livrons pas seulement des slides, nous implémentons réellement, et nous restons jusqu'au terme de vos projets. C'est cette posture, conseil plus exécution, qui définit notre métier d'opérateur."],
+        ["À qui s'adresse Mentivis ?", "Aux entreprises qui veulent faire de la formation un levier de performance (académie interne, dispositifs structurés, montée en compétences) et aux organismes de formation qui veulent se structurer, se mettre en conformité ou se développer. Du créateur d'OF au grand groupe, en France et à l'international."],
+        ["Comment facturez-vous ?", "Une part fixe couvre la conception et l'exécution. Une part variable, indexée sur des KPI définis avec vous au cadrage, déclenche la rémunération complète. Si les résultats annoncés ne sont pas atteints, nous ne percevons pas l'intégralité de nos honoraires. Notre rentabilité dépend de la vôtre."],
+        ["Combien de temps prend une mission ?", "De six semaines pour structurer un organisme de formation complet, à six ou neuf mois pour créer une académie interne ou une école de A à Z. Chaque mission a un périmètre ferme, des jalons et un point d'arrêt clair. Pas de prestations qui s'éternisent."],
+        ["Pourquoi ne citez-vous pas vos clients sur le site ?", "Parce qu'ils ne le souhaitent pas. Création de structures concurrentielles, repositionnement stratégique, montage d'académies internes, transformation pédagogique : la grande majorité de nos missions sont confidentielles par nature. La discrétion n'est pas un argument marketing, c'est une condition contractuelle. Les références pertinentes s'échangent en direct, lors du premier rendez-vous."],
+        ["Comment se passe un premier contact ?", "Un échange gratuit et sans engagement. Nous analysons votre besoin, validons la pertinence d'une intervention Mentivis et, si nous sommes alignés, formulons une proposition cadrée : périmètre, jalons, KPI, rémunération. Si nous ne sommes pas le bon partenaire pour votre projet, nous vous le disons."],
+      ]
+    : [
+        ["Are you a consulting firm?", "Yes. Mentivis is a specialist firm focused on training and education. The difference shows up after the recommendation: we don't just deliver slides, we actually implement, and we stay until your project is complete. Advice plus execution is what makes us an operator, not a consultancy."],
+        ["Who is Mentivis for?", "Companies that want to turn training into a real performance lever (internal academies, structured learning programs, upskilling) and training providers that need to structure, secure compliance, or grow. From founders launching a new training company to large corporations, in the US, France, and internationally."],
+        ["How do you charge?", "A fixed portion covers design and execution. A variable portion, tied to KPIs defined with you upfront, unlocks the rest of our compensation. If the agreed results aren't met, we don't collect our full fee. Our profitability depends on yours."],
+        ["How long does an engagement take?", "Six weeks to fully structure a training company. Six to nine months to build an internal academy or a school from the ground up. Every engagement has a fixed scope, clear milestones, and a defined endpoint. No projects that drag on."],
+        ["Why don't you list your clients on the website?", "Because they don't want us to. Building competing structures, strategic repositioning, internal academy launches, pedagogical transformation: most of our work is confidential by nature. Discretion isn't a marketing line, it's a contractual obligation. Relevant references are shared in person, during the first meeting."],
+        ["What does a first contact look like?", "A free, no-obligation conversation. We analyze your need, validate whether a Mentivis engagement makes sense, and, if we're aligned, deliver a clear proposal: scope, milestones, KPIs, fee structure. If we're not the right partner, we tell you."],
+      ];
   return (
     <>
       <JsonLd data={[
@@ -123,48 +144,14 @@ export default function HomePage({ params }: { params: Promise<{ lang: string }>
         {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name: "Qu'est-ce qu'un cabinet conseil en formation professionnelle ?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Un cabinet conseil en formation professionnelle accompagne les entreprises et les organismes dans la conception, la structuration et le pilotage de leurs dispositifs de formation. Il intervient sur la stratégie, la conformité réglementaire (Qualiopi, RNCP), l'ingénierie pédagogique et le déploiement opérationnel.",
-              },
+          mainEntity: faqQa.map(([q, a]) => ({
+            "@type": "Question",
+            name: q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: a,
             },
-            {
-              "@type": "Question",
-              name: "Mentivis accompagne-t-il la création d'un organisme de formation de A à Z ?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Oui. Mentivis prend en charge l'intégralité du parcours : définition du projet pédagogique, structuration juridique et administrative, déclaration auprès de la DREETS, obtention de la certification Qualiopi, mise en place des process opérationnels et premier déploiement commercial.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Mentivis peut-il aider une entreprise à créer son école interne ou son université d'entreprise ?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Oui. Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie des référentiels de compétences, certification des parcours (RNCP, Qualiopi), intégration aux dispositifs de financement OPCO et déploiement opérationnel jusqu'à la première promotion.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Comment Mentivis facture-t-il ses missions ?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Le modèle de rémunération de Mentivis intègre une part variable alignée sur les résultats obtenus : alternants recrutés, apprenants formés, certification obtenue. Cette structure garantit la convergence d'intérêts entre le cabinet et le client.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Quelle est la différence entre Mentivis et un cabinet de conseil généraliste ?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Mentivis est exclusivement spécialisé dans la formation et l'éducation. Contrairement à un cabinet généraliste dont la mission s'arrête à la remise de livrables, Mentivis assure le déploiement opérationnel jusqu'au résultat : certification obtenue, première promotion lancée, organisation en ordre de marche.",
-              },
-            },
-          ],
+          })),
         },
       ]} />
       <BreadcrumbJsonLd items={[

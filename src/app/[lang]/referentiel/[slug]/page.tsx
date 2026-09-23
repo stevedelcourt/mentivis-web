@@ -28,13 +28,48 @@ export async function generateMetadata({
   const article = getReferentielBySlug(slug, lang);
   if (!article) return {};
 
+  // Title rule (SEO): keep Google-visible title under ~65 chars. `absolute`
+  // bypasses the layout "%s | Mentivis" template so the suffix appears once.
+  const h1 = article.title;
+  const isFr = lang === "fr";
+  const fullTitle = isFr
+    ? h1.length <= 30
+      ? `${h1} — Le Référentiel Mentivis`
+      : h1.length <= 45
+        ? `${h1} — Mentivis`
+        : h1
+    : h1.length <= 30
+      ? `${h1} — The Reference Mentivis`
+      : h1.length <= 45
+        ? `${h1} — Mentivis`
+        : h1;
+
+  // Meta description capped so the HTML-escaped output stays within 155 chars
+  // (Google counts rendered chars; Next.js escapes ' " & < > into entities).
+  // Data is untouched — only the rendered length is capped.
+  const rawDesc = article.metaDescription || article.shortDescription;
+  const EXPAND: Record<string, number> = { "&": 5, "'": 6, '"': 6, "<": 4, ">": 4 };
+  const expandedLen = (s: string) => [...s].reduce((n, ch) => n + (EXPAND[ch] ?? 1), 0);
+  let description = rawDesc;
+  if (expandedLen(rawDesc) > 154) {
+    let len = 0;
+    let idx = 0;
+    for (const ch of rawDesc) {
+      const w = EXPAND[ch] ?? 1;
+      if (len + w > 154) break;
+      len += w;
+      idx += ch.length;
+    }
+    description = rawDesc.slice(0, idx).trimEnd().replace(/[\s,;:]+$/, "") + "…";
+  }
+
   return {
-    title: `${article.title} | ${lang === "fr" ? "Le Référentiel — Mentivis" : "The Reference — Mentivis"}`,
-    description: article.metaDescription || article.shortDescription,
+    title: { absolute: fullTitle },
+    description,
     ...localeAlternates(lang, `/referentiel/${slug}`),
     openGraph: {
       title: article.title,
-      description: article.metaDescription || article.shortDescription,
+      description,
       type: "article",
       locale: lang === "fr" ? "fr_FR" : "en_US",
       images: [{
