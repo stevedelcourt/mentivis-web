@@ -29,7 +29,8 @@ export async function generateMetadata({
   const article = getInsightBySlug(slug);
   if (!article) return {};
 
-  const title = lang === "fr" ? article.titleFr : article.titleEn || article.titleFr;
+  // Typographic apostrophe (') renders literally; straight quote would escape to &#x27;
+  const title = (lang === "fr" ? article.titleFr : article.titleEn || article.titleFr).replace(/'/g, "’");
   const desc = lang === "fr" ? article.excerptFr : article.excerptEn || article.excerptFr;
 
   return {

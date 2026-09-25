@@ -15,12 +15,12 @@ export async function generateMetadata({
   const og = getOgImage("/ecole-entreprise", lang);
   return {
     // absolute bypasses the layout "%s | Mentivis" template (avoids double "Mentivis")
-    title: { absolute: isFr ? "École interne et université d'entreprise — Mentivis" : "Corporate academy and university — Mentivis" },
+    title: { absolute: isFr ? "École interne et université d’entreprise — Mentivis" : "Corporate academy and university — Mentivis" },
     description: isFr
       ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie pédagogique, certification RNCP, déploiement opérationnel. Spécialiste formation pour entreprises."
       : "Mentivis designs and runs corporate academies and universities: learning engineering, RNCP certification, operational deployment. Enterprise training specialist.",
     openGraph: {
-      title: isFr ? "École pour entreprises et université d'entreprise - Mentivis" : "Corporate academy and corporate university - Mentivis",
+      title: isFr ? "École pour entreprises et université d’entreprise - Mentivis" : "Corporate academy and corporate university - Mentivis",
       description: isFr
         ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie pédagogique, certification RNCP, déploiement opérationnel."
         : "Mentivis designs and runs corporate academies and universities: learning engineering, RNCP certification, operational deployment.",

@@ -30,19 +30,23 @@ export async function generateMetadata({
 
   // Title rule (SEO): keep Google-visible title under ~65 chars. `absolute`
   // bypasses the layout "%s | Mentivis" template so the suffix appears once.
+  // Typographic apostrophe (') renders literally; straight quote (') would be
+  // escaped to &#x27; by Next.js. H1 visible and data stay untouched.
   const h1 = article.title;
   const isFr = lang === "fr";
-  const fullTitle = isFr
-    ? h1.length <= 30
-      ? `${h1} — Le Référentiel Mentivis`
-      : h1.length <= 45
-        ? `${h1} — Mentivis`
-        : h1
-    : h1.length <= 30
-      ? `${h1} — The Reference Mentivis`
-      : h1.length <= 45
-        ? `${h1} — Mentivis`
-        : h1;
+  const fullTitle = (
+    isFr
+      ? h1.length <= 30
+        ? `${h1} — Le Référentiel Mentivis`
+        : h1.length <= 45
+          ? `${h1} — Mentivis`
+          : h1
+      : h1.length <= 30
+        ? `${h1} — The Reference Mentivis`
+        : h1.length <= 45
+          ? `${h1} — Mentivis`
+          : h1
+  ).replace(/'/g, "’");
 
   // Meta description capped so the HTML-escaped output stays within 155 chars
   // (Google counts rendered chars; Next.js escapes ' " & < > into entities).
@@ -68,7 +72,7 @@ export async function generateMetadata({
     description,
     ...localeAlternates(lang, `/referentiel/${slug}`),
     openGraph: {
-      title: article.title,
+      title: article.title.replace(/'/g, "’"),
       description,
       url: `https://mentivis.com/${lang}/referentiel/${slug}/`,
       type: "article",

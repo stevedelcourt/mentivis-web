@@ -15,7 +15,7 @@ export async function generateMetadata({
   const og = getOgImage("/creation-organisme-formation", lang);
   return {
     // absolute bypasses the layout "%s | Mentivis" template (avoids double "Mentivis")
-    title: { absolute: isFr ? "Création d'organisme de formation — Mentivis" : "Training organization creation — Mentivis" },
+    title: { absolute: isFr ? "Création d’organisme de formation — Mentivis" : "Training organization creation — Mentivis" },
     description: isFr
       ? "Mentivis accompagne la création d'organismes de formation de A à Z : déclaration DREETS, certification Qualiopi, modèle économique et premier déploiement commercial. Cabinet conseil spécialisé, rémunération aux résultats."
       : "Mentivis supports the creation of training organizations end-to-end: DREETS declaration, Qualiopi certification, business model and go-to-market. Specialized consulting, results-based fees.",
