@@ -9,6 +9,7 @@ import UseCaseSection from "@/components/UseCaseSection";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
+import { REFERENTIEL_META } from "@/data/referentiel-meta";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import Icon from "@/components/ui/Icon";
@@ -145,6 +146,33 @@ export default function EnterpriseClient() {
       </section>
 
       {e.useCases && <UseCaseSection t={e.useCases} />}
+
+      <section className="section">
+        <div className="container" style={{ maxWidth: 780 }}>
+          <SectionHeader
+            eyebrow={lang === "fr" ? "Ressources associées" : "Related resources"}
+            title={lang === "fr" ? "Guides du Référentiel pour les entreprises" : "Reference guides for companies"}
+          />
+          <ul className="dot-list" style={{ marginTop: 24 }}>
+            {[
+              "comment-construire-un-plan-de-developpement-des-competences-efficace",
+              "comment-integrer-la-formation-dans-l-onboarding-de-nouveaux-collaborateurs",
+              "comment-former-mes-managers-rapidement-et-avec-impact",
+              "comment-utiliser-la-formation-pour-fideliser-les-talents-et-reduire-le-turnover",
+              "comment-identifier-les-competences-manquantes-dans-mon-entreprise",
+            ].map((slug) => {
+              const a = REFERENTIEL_META.find((x) => x.slug === slug && x.lang === lang);
+              if (!a) return null;
+              return (
+                <li key={slug}>
+                  <Link href={`/${lang}/referentiel/${slug}/`}>{a.title}</Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+
       <FinalCTA t={t} title={e.finalCta} lang={lang} accent="purple" />
       <FeaturedInsights pageKey="enterprise" lang={lang} />
     </PageShell>

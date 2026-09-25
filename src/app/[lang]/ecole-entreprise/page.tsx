@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { localeAlternates } from "@/lib/metadata";
-import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
 import { SITE } from "@/lib/config";
@@ -15,7 +14,8 @@ export async function generateMetadata({
   const isFr = lang === "fr";
   const og = getOgImage("/ecole-entreprise", lang);
   return {
-    title: isFr ? "École pour entreprises et université d'entreprise - Mentivis" : "Corporate academy and corporate university - Mentivis",
+    // absolute bypasses the layout "%s | Mentivis" template (avoids double "Mentivis")
+    title: { absolute: isFr ? "École interne et université d'entreprise — Mentivis" : "Corporate academy and university — Mentivis" },
     description: isFr
       ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie pédagogique, certification RNCP, déploiement opérationnel. Spécialiste formation pour entreprises."
       : "Mentivis designs and runs corporate academies and universities: learning engineering, RNCP certification, operational deployment. Enterprise training specialist.",
@@ -47,7 +47,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
             ? "Mentivis conçoit et pilote les écoles internes, campus corporate et universités d'entreprise : ingénierie des référentiels de compétences, certification RNCP, déploiement opérationnel."
             : "Mentivis designs and runs corporate academies and universities: competency frameworks, RNCP certification, operational deployment.",
           url: `https://mentivis.com/${lang}/ecole-entreprise/`,
-          provider: { "@type": "Organization", name: "Mentivis", url: "https://mentivis.com/fr/" },
+          provider: { "@type": "Organization", name: "Mentivis", url: `https://mentivis.com/${lang}/` },
           areaServed: { "@type": "Country", name: "France" },
           serviceType: isFr ? "Création d'école interne et université d'entreprise" : "Corporate academy creation",
           inLanguage: isFr ? "fr-FR" : "en-US",

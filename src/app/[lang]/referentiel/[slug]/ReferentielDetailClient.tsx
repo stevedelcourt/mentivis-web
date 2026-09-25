@@ -117,7 +117,7 @@ export default function ReferentielDetailClient({ article, lang }: Props) {
         description: article.metaDescription || article.shortDescription,
         image: {
           "@type": "ImageObject",
-          url: "https://mentivis.com/images/og-referentiel-default.png",
+          url: "https://mentivis.com/images/referentiel-og.jpg",
           width: 1200,
           height: 630,
         },

@@ -70,6 +70,7 @@ export async function generateMetadata({
     openGraph: {
       title: article.title,
       description,
+      url: `https://mentivis.com/${lang}/referentiel/${slug}/`,
       type: "article",
       locale: lang === "fr" ? "fr_FR" : "en_US",
       images: [{

@@ -8,6 +8,7 @@ import FeaturedInsights from "@/components/FeaturedInsights";
 import SectionHeader from "@/components/SectionHeader";
 import PageShell from "@/components/layout/PageShell";
 import JsonLd from "@/components/JsonLd";
+import { REFERENTIEL_META } from "@/data/referentiel-meta";
 import { useMessages } from "@/lib/messages";
 import { SITE } from "@/lib/config";
 import Icon from "@/components/ui/Icon";
@@ -175,6 +176,32 @@ export default function OfClient() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container" style={{ maxWidth: 780 }}>
+          <SectionHeader
+            eyebrow={lang === "fr" ? "Ressources associées" : "Related resources"}
+            title={lang === "fr" ? "Guides du Référentiel pour les organismes de formation" : "Reference guides for training organizations"}
+          />
+          <ul className="dot-list" style={{ marginTop: 24 }}>
+            {[
+              "comment-obtenir-la-certification-qualiopi",
+              "comment-declarer-son-activite-de-formation-professionnelle",
+              "comment-creer-un-cfa-en-france-en-2026",
+              "comment-gerer-les-alternants-droits-obligations-encadrement",
+              "comment-gerer-la-relation-avec-les-opco-au-quotidien",
+            ].map((slug) => {
+              const a = REFERENTIEL_META.find((x) => x.slug === slug && x.lang === lang);
+              if (!a) return null;
+              return (
+                <li key={slug}>
+                  <Link href={`/${lang}/referentiel/${slug}/`}>{a.title}</Link>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </section>
 

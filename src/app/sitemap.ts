@@ -25,6 +25,14 @@ const STATIC_PAGES = [
   { path: "privacy", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "terms", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "cgv", priority: 0.3, changeFrequency: "yearly" as const },
+  // Indexable content pages (all index,follow — verified 2026-09-24).
+  // /landing/ intentionally excluded (campaign duplicate of /contact/).
+  { path: "contact", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "meeting", priority: 0.5, changeFrequency: "monthly" as const },
+  { path: "careers", priority: 0.6, changeFrequency: "monthly" as const },
+  { path: "guides", priority: 0.6, changeFrequency: "monthly" as const },
+  { path: "score-formation", priority: 0.6, changeFrequency: "monthly" as const },
+  { path: "legal", priority: 0.3, changeFrequency: "yearly" as const },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

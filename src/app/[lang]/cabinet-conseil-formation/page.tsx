@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import { localeAlternates } from "@/lib/metadata";
-import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import JsonLd from "@/components/JsonLd";
 import PageShell from "@/components/layout/PageShell";
 import { SITE } from "@/lib/config";
 import { getOgImage } from "@/lib/og";
+import { REFERENTIEL_META } from "@/data/referentiel-meta";
 
 export async function generateMetadata({
   params,
@@ -15,7 +15,8 @@ export async function generateMetadata({
   const isFr = lang === "fr";
   const og = getOgImage("/cabinet-conseil-formation", lang);
   return {
-    title: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
+    // absolute bypasses the layout "%s | Mentivis" template (avoids double "Mentivis")
+    title: { absolute: isFr ? "Conseil en formation professionnelle — Mentivis" : "Training consulting firm — Mentivis" },
     description: isFr
       ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel. Spécialiste, pas généraliste. Rémunération aux résultats."
       : "Mentivis, consulting firm dedicated to professional training: strategy, engineering, operational deployment. Specialist, results-based.",
@@ -45,9 +46,9 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           name: isFr ? "Cabinet conseil en formation professionnelle - Mentivis" : "Training consulting firm - Mentivis",
           description: isFr ? "Mentivis, cabinet conseil dédié à la formation professionnelle : stratégie, ingénierie, déploiement opérationnel." : "Mentivis, consulting firm dedicated to professional training.",
           url: `https://mentivis.com/${lang}/cabinet-conseil-formation/`,
-          provider: { "@type": "Organization", name: "Mentivis", url: "https://mentivis.com/fr/" },
+          provider: { "@type": "Organization", name: "Mentivis", url: `https://mentivis.com/${lang}/` },
           areaServed: { "@type": "Country", name: "France" },
-          serviceType: "Cabinet conseil en formation",
+          serviceType: isFr ? "Cabinet conseil en formation" : "Training consulting firm",
           inLanguage: isFr ? "fr-FR" : "en-US",
         }}
       />
@@ -91,6 +92,24 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           <p style={{ lineHeight: 1.7, color: "var(--m-ink-2)" }}>
             <a href={`/${lang}/contact/`}>{isFr ? "Parler à un consultant" : "Talk to a consultant"}</a> - {isFr ? "premier échange sans engagement." : "first call free."}
           </p>
+
+          <h2 style={{ fontSize: 24, fontWeight: 600, margin: "40px 0 16px" }}>{isFr ? "Ressources associées" : "Related resources"}</h2>
+          <ul style={{ lineHeight: 1.7 }}>
+            {[
+              "comment-construire-un-plan-de-developpement-des-competences-efficace",
+              "comment-identifier-les-competences-manquantes-dans-mon-entreprise",
+              "comment-choisir-un-organisme-de-formation-serieux-pour-mon-entreprise",
+              "comment-calculer-le-budget-formation-optimal-pour-mon-entreprise",
+            ].map((slug) => {
+              const a = REFERENTIEL_META.find((x) => x.slug === slug && x.lang === lang);
+              if (!a) return null;
+              return (
+                <li key={slug}>
+                  <a href={`/${lang}/referentiel/${slug}/`}>{a.title}</a>
+                </li>
+              );
+            })}
+          </ul>
         </section>
       </PageShell>
     </>
